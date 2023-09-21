@@ -11,3 +11,4 @@ However, we made slight additional editings to that in order to enable more soph
 As modifications are all processed automatically using Python, there must be some small problems in the files (and maybe huge ones too). 
 
 ## What the advantage?
+As each character in the texts is now marked with \<c\> and given xml:id, we can now refer 
