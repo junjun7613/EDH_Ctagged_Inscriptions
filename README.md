@@ -8,6 +8,6 @@ However, we made slight additional editings to that in order to enable more soph
 - use \<sourceDoc\> as a text container instead of original \<body\>
 - replace \<lb\> empty tag with \<line\>
 
-As modifications are all proceed automatically using Python, there must be some small problems in the files (and maybe huge ones too). 
+As modifications are all processed automatically using Python, there must be some small problems in the files (and maybe huge ones too). 
 
 ## What the advantage?
