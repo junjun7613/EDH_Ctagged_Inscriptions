@@ -11,4 +11,4 @@ However, we made slight additional editings to that in order to enable more soph
 As modifications are all processed automatically using Python, there must be some small problems in the files (and maybe huge ones too). 
 
 ## What the advantage?
-As each character in the texts is now marked with \<c\> and given xml:id, we can now refer it as a web data resource with respective URI. 
+As each character in the texts is now marked with \<c\> and given xml:id, we can now refer it as a web data resource with respective URI. This makes more granular encoding of textual data possible, for example, connceting each character resource to an image corresponded, putting caligraphical information on it, or giving 3D spatial coordinates on the character level. 
