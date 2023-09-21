@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Tungrorum) &amp;ndash; Namur (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040408</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040408</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Namur, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(162)</height><width>(90)</width><depth>70</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109188">(Civitas Tungrorum)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2802361">Belgium</placeName><placeName type="modern" ref="http://www.geonames.org/2790471">Namur</placeName><placeName type="findspot">Schlo&#223;</placeName><placeName type="region">Namur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040408_1" sex="M"><persName><name type="nomen">Cassius</name><name type="cognomen">Pompeianus</name></persName></person><person xml:id="HD040408_2" sex="W"><persName><name type="cognomen">Matta</name></persName></person><person xml:id="HD040408_3" sex="M"><persName><name type="cognomen">Titus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023572" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/91e1b692-e3f7-4c49-b43d-1a7f1a9f4506/file/id/784232/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>In sp&#228;terer Zeit bearbeitet und als Baustein wiederverwendet. Inschriftfeld in Form einer tabula ansata. Z. 1: Hedera als Worttrenner.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILB (2. Aufl.) 034; Foto.</bibl><bibl>CIL 13, 03621.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="09ff50ae-5841-11ee-8e19-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="09ff511c-5841-11ee-8e19-4e7b8ce151d1">D</c></abbr><ex><c xml:id="09ff5220-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff5158-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="09ff523e-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="09ff5284-5841-11ee-8e19-4e7b8ce151d1">M</c></abbr><ex><c xml:id="09ff5392-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="09ff5360-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="09ff5338-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff5310-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="09ff52de-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="09ff52b6-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="09ff53a6-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="09ff5518-5841-11ee-8e19-4e7b8ce151d1">C</c><c xml:id="09ff5504-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="09ff54f0-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="09ff54dc-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="09ff54d2-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff54be-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="09ff54aa-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="09ff5496-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="09ff5482-5841-11ee-8e19-4e7b8ce151d1">P</c><c xml:id="09ff546e-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="09ff545a-5841-11ee-8e19-4e7b8ce151d1">m</c><c xml:id="09ff5446-5841-11ee-8e19-4e7b8ce151d1">p</c><c xml:id="09ff5432-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="09ff541e-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff540a-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="09ff53f6-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="09ff53e2-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="09ff53d8-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="09ff53c4-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="09ff572a-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="09ff570c-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff56f8-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="09ff56e4-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff56d0-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="09ff56bc-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="09ff569e-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="09ff568a-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="09ff5676-5841-11ee-8e19-4e7b8ce151d1">M</c><c xml:id="09ff5662-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="09ff564e-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="09ff563a-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="09ff5626-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="09ff5612-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="09ff55f4-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="09ff55e0-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="09ff55cc-5841-11ee-8e19-4e7b8ce151d1">x</c><c xml:id="09ff55b8-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="09ff55a4-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="09ff5590-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="09ff5572-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff555e-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="09ff58f6-5841-11ee-8e19-4e7b8ce151d1">(</c><c xml:id="09ff58d8-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="09ff58c4-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="09ff58a6-5841-11ee-8e19-4e7b8ce151d1">)</c><c xml:id="09ff5888-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="09ff5874-5841-11ee-8e19-4e7b8ce151d1">T</c><c xml:id="09ff5856-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff5842-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="09ff5824-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="09ff5810-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="09ff57fc-5841-11ee-8e19-4e7b8ce151d1">f</c><c xml:id="09ff57de-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff57ca-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="09ff57ac-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff578e-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="09ff577a-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="09ff595a-5841-11ee-8e19-4e7b8ce151d1">v</c></abbr><ex><c xml:id="09ff5a72-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff5a40-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="09ff5a18-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="09ff59e6-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="09ff5a86-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="09ff5ac2-5841-11ee-8e19-4e7b8ce151d1">f</c></abbr><ex><c xml:id="09ff5b76-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="09ff5b4e-5841-11ee-8e19-4e7b8ce151d1">c</c><c xml:id="09ff5b1c-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="09ff5af4-5841-11ee-8e19-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

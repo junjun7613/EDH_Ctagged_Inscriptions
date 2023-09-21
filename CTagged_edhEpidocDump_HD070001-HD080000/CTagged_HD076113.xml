@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Lauterecken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076113</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076113</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz, Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>44</height><width>(72)</width><depth>(24)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1924"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2879895">Lauterecken</placeName><placeName type="findspot">Haus des A. Busch, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076113_1" sex="M"><persName><name type="nomen">Speratius</name><name type="cognomen">Servandus</name></persName></person><person xml:id="HD076113_2" sex="W"><persName><name type="nomen">Speratia</name><name type="cognomen">Ammossa+*</name></persName></person><person xml:id="HD076113_3" sex="W"><persName><name type="nomen">Speratia</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Osnabr&#252;gge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vorderseite einer Aschenkiste, links , unten und hinten abgebrochen. Am Ende von Z. 4 noch Reste von A und E erkennbar. Fundjahr nach Ditsch: 1920. (B): Z. 4: AE 2014; Kakoschke: moss(ae) et Sperati[ae]; Ditsch: [m]oss(a)e et Speratia(e); Finke: Z. 3/4: An/[d]oss(a)e et Speratiae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2014, 0942. (B)</bibl><bibl>H. Finke, BRGK 17, 1927, 55, Nr. 171. (B)</bibl><bibl>A. Kakoschke, ZPE 192, 2014, 291-292; Abb. 1. (B) - AE 2014.</bibl><bibl>S. Ditsch, Dis Manibus. Die r&#246;mischen Grabdenkm&#228;ler aus der Pfalz (Neustadt/Weinstra&#223;e 2011) 128, Taf. 28, 4 u. 5 (Foto u. Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="b5c4af84-2c3a-11ee-96ce-4e7b8ce151d0">D</c></abbr><ex><c xml:id="b5c4b042-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5c4aff2-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="b5c4b06a-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5c4b0ce-2c3a-11ee-96ce-4e7b8ce151d0">M</c></abbr><ex><c xml:id="b5c4b29a-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b24a-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5c4b204-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5c4b1b4-2c3a-11ee-96ce-4e7b8ce151d0">b</c><c xml:id="b5c4b16e-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5c4b11e-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5c4b2b8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="b5c4b4ac-2c3a-11ee-96ce-4e7b8ce151d0">S</c><c xml:id="b5c4b48e-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5c4b470-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b452-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5c4b42a-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b40c-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5c4b3ee-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5c4b3d0-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5c4b3a8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5c4b38a-2c3a-11ee-96ce-4e7b8ce151d0">S</c><c xml:id="b5c4b36c-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b34e-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5c4b326-2c3a-11ee-96ce-4e7b8ce151d0">v</c><c xml:id="b5c4b308-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b2ea-2c3a-11ee-96ce-4e7b8ce151d0">n</c><lb break="no" n="3" /><c xml:id="b5c4b768-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b5c4b740-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5c4b722-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5c4b6fa-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b6d2-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5c4b6b4-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5c4b68c-2c3a-11ee-96ce-4e7b8ce151d0">S</c><c xml:id="b5c4b66e-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5c4b646-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b628-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5c4b60a-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b5e2-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5c4b5ba-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5c4b59c-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b57e-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b556-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5c4b538-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b5c4b510-2c3a-11ee-96ce-4e7b8ce151d0">m</c><lb break="no" n="4" /><expan><abbr><supplied reason="lost"><c xml:id="b5c4b808-2c3a-11ee-96ce-4e7b8ce151d0">m</c></supplied><c xml:id="b5c4b862-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5c4b84e-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5c4b830-2c3a-11ee-96ce-4e7b8ce151d0">s</c></abbr><ex><c xml:id="b5c4b8c6-2c3a-11ee-96ce-4e7b8ce151d0">a</c></ex><c xml:id="b5c4b8ee-2c3a-11ee-96ce-4e7b8ce151d0">e</c></expan><c xml:id="b5c4bb14-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5c4baec-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4bac4-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5c4ba9c-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5c4ba74-2c3a-11ee-96ce-4e7b8ce151d0">S</c><c xml:id="b5c4ba4c-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5c4ba24-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b9fc-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5c4b9d4-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b9ac-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5c4b984-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5c4b966-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5c4b93e-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5c4b916-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

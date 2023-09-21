@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bedaium &amp;ndash; Seeon-Seebruck (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042401</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042401</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seeon-Seebruck, Seebruck, R&#246;mermus. Bedaium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(147)</height><width>57</width><depth>37</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187309">Bedaium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1899"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2833918">Seeon-Seebruck</placeName><placeName type="findspot">Seebruck, {sp&#228;tantikes Lager}, sekund&#228;r verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042401_1" sex="M"><persName><name type="cognomen">Maximinus</name></persName></person><person xml:id="HD042401_2" sex="M"><persName><name type="cognomen">Constans</name></persName></person><person xml:id="HD042401_3" sex="M"><persName><name type="cognomen">Annilius</name></persName></person><person xml:id="HD042401_4" sex="W"><persName><name type="cognomen">Litugena</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F013427" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ffc2594c-1371-404b-a966-057ee2b40efb/file/id/772955/file_version/name/small" /><graphic xml:id="F013443" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b7478b8e-661c-4770-9cab-eae6f75f6c4d/file/id/772972/file_version/name/small" /><graphic xml:id="F035833" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/adcc9628-f469-4277-a4e0-6aa8e5f2d75d/file/id/796683/file_version/name/small" /><graphic xml:id="F035834" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/802a247b-8ab6-4638-a311-dde4a5d7e88a/file/id/796684/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Grabaltar mit abgebrochenem pyramidenf&#246;rmigem Aufsatz; auf den beiden Nebenseiten Darstellungen von Delphinen; oberhalb des Inschriftfeldes ein norisch-pannonisches Volutenornament. Z. 1: Buchstaben D und M befinden sich auf den Eckakroteren der corona. Hederae am Ende von Z. 6. (B): Obermayr: Z. 6: v(ivi).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14368, 30.</bibl><bibl>G. Gamer - A. R&#252;sch, Raetia (Bayern s&#252;dlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 127, Nr. 550; Taf. 160, 550.</bibl><bibl>A. Obermayr, R&#246;mersteine zwischen Inn und Salzach (Freilassing 1974) 46-50; Foto. (B)</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 96-98, Nr. 68; Foto.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 142, Nr. I 114; Taf. 15, I 114.</bibl><bibl>C.M. Hutter, Iuvavum. Alltag im r&#246;mischen Salzburg (Salzburg 2012) 156; Foto.</bibl><bibl>IBR 019; tab. 2, 19.</bibl><bibl>ILLPRON 1543.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="63b93024-5841-11ee-8e19-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="63b930ec-5841-11ee-8e19-4e7b8ce151d1">D</c></abbr><ex><c xml:id="63b931be-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b93164-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="63b931e6-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="63b9324a-5841-11ee-8e19-4e7b8ce151d1">M</c></abbr><ex><c xml:id="63b93416-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="63b933c6-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b93380-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b9333a-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="63b932ea-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="63b932a4-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="63b93434-5841-11ee-8e19-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="63b935a6-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="63b93588-5841-11ee-8e19-4e7b8ce151d1">M</c><c xml:id="63b9356a-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="63b9354c-5841-11ee-8e19-4e7b8ce151d1">x</c><c xml:id="63b9352e-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b93510-5841-11ee-8e19-4e7b8ce151d1">m</c><c xml:id="63b934e8-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b934ca-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b934ac-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="63b9348e-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b93466-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="63b93754-5841-11ee-8e19-4e7b8ce151d1">C</c><c xml:id="63b93736-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="63b9370e-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b936f0-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b936d2-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="63b936aa-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="63b9368c-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b93664-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="63b93646-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b93628-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b93600-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="63b9390c-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b938ee-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="63b938c6-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="63b938a8-5841-11ee-8e19-4e7b8ce151d1">A</c><c xml:id="63b93880-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b93862-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b9383a-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b9381c-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="63b937f4-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b937cc-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="63b937ae-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="63b93ad8-5841-11ee-8e19-4e7b8ce151d1">L</c><c xml:id="63b93ab0-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b93a92-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="63b93a6a-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="63b93a42-5841-11ee-8e19-4e7b8ce151d1">g</c><c xml:id="63b93a1a-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b939f2-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b939b6-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="63b9398e-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b93966-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="63b93bb4-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="63b93b64-5841-11ee-8e19-4e7b8ce151d1">i</c></abbr><ex><c xml:id="63b93c54-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="63b93c0e-5841-11ee-8e19-4e7b8ce151d1">i</c></ex></expan><c xml:id="63b93d62-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="63b93d3a-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b93d12-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b93cea-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="63b93ca4-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b93c7c-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="63b93f2e-5841-11ee-8e19-4e7b8ce151d1">f</c><c xml:id="63b93ede-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b93e70-5841-11ee-8e19-4e7b8ce151d1">c</c><c xml:id="63b93e2a-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b93dda-5841-11ee-8e19-4e7b8ce151d1">r</c></abbr><ex><c xml:id="63b9400a-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="63b93fc4-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="63b93f7e-5841-11ee-8e19-4e7b8ce151d1">t</c></ex></expan><c xml:id="63b940b4-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="63b9408c-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b9405a-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="63b94032-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="7"><expan><abbr><c xml:id="63b94384-5841-11ee-8e19-4e7b8ce151d1">p</c><c xml:id="63b9433e-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="63b942da-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b94294-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="63b9424e-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="63b94208-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="63b941b8-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b94172-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b9412c-5841-11ee-8e19-4e7b8ce151d1">q</c></abbr><ex><c xml:id="63b94424-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="63b943d4-5841-11ee-8e19-4e7b8ce151d1">e</c></ex></expan><c xml:id="63b94442-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="63b9450a-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="63b944d8-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="63b944b0-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="63b9447e-5841-11ee-8e19-4e7b8ce151d1">s</c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

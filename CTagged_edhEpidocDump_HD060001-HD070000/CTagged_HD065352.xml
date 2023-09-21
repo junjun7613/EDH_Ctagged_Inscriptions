@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Abrittus &amp;ndash; Razgrad (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065352</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065352</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Razgrad, Muzej</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(180)</height><width>120</width><depth>45</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-15</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216688">Abrittus</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1978"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/727696">Razgrad</placeName><placeName type="findspot">sp&#228;tantike Festung, {Turm 24}</placeName><placeName type="region">Razgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065352_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14639"><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">[---]mulus</name></persName></person><person xml:id="HD065352_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14640"><name type="nomen">Claudia</name><name type="cognomen">Eptaepyra</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-10-31" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 6: F von je einer Hedera flankiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>D. Dana - R. Ivanov, ZPE 181, 2012, 238-240, Nr. 2; Fig. 3 u. 4.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="ac0ba9a0-5842-11ee-a013-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="ac0baa40-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="ac0baa22-5842-11ee-a013-4e7b8ce151d1">L</c><c xml:id="ac0baa04-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="ac0baaae-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="ac0baa9a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="ac0baa86-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="ac0baa72-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="ac0baa5e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><c xml:id="ac0bab3a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ac0bab08-5842-11ee-a013-4e7b8ce151d1">t</c></supplied><c xml:id="ac0bac16-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="ac0bac02-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="ac0babee-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="ac0babda-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ac0babbc-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="ac0baba8-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="ac0bab94-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ac0bab80-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ac0bab62-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ac0bab4e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><c xml:id="ac0bac66-5842-11ee-a013-4e7b8ce151d1">E</c></supplied><c xml:id="ac0bad42-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="ac0bad2e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="ac0bad1a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ac0bad06-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ac0bacf2-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="ac0bacd4-5842-11ee-a013-4e7b8ce151d1">y</c><c xml:id="ac0bacc0-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="ac0bacac-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ac0bac98-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ac0bac84-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="ac0bae78-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="ac0bae64-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ac0bae46-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="ac0bae32-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="ac0bae1e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ac0bae00-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="ac0badec-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="ac0badd8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ac0badba-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="ac0bada6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ac0bad92-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ac0bad74-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="ac0baed2-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ac0bafcc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ac0baf9a-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="ac0baf72-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="ac0baf40-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="ac0baf0e-5842-11ee-a013-4e7b8ce151d1">-</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

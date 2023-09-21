@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078062</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078062</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(53)</height><width>61</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1898"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2812094">Mainz</placeName><placeName type="findspot">Weisenau, {Heiligkreuz, ehemaliges Kloster}, r&#246;misches Grab, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078062_1" sex="M"><persName><name type="nomen">Ti[---]?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-06" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015839" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3daab75b-e4ec-4feb-81fc-2b3a431d06a1/file/id/775417/file_version/name/small" /><graphic xml:id="F038412" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a62166cb-29bd-4093-851e-3587043d5ea5/file/id/799284/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gefunden in sekund&#228;rer Verwendung f&#252;r ein r&#246;misches Steinkistengrab; die Inschrift wurde daf&#252;r weitgehend getilgt. Z. 1: TF- und RF-Ligatur. Hedera am Anfang von Z. 6.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07245.</bibl><bibl>K. K&#246;rber, ZRheinGeschMainz 4, 1893-1905, 249-250, Nr. 136; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="b5f4c2be-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b5f4c296-2c3a-11ee-96ce-4e7b8ce151d0">v</c><c xml:id="b5f4c278-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5f4c25a-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5f4c232-2c3a-11ee-96ce-4e7b8ce151d0">f</c><c xml:id="b5f4c214-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5f4c1f6-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5f4c1ce-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5f4c1b0-2c3a-11ee-96ce-4e7b8ce151d0">&amp;</c><c xml:id="b5f4c192-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b5f4c16a-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5f4c14c-2c3a-11ee-96ce-4e7b8ce151d0">;</c><c xml:id="b5f4c124-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5f4c106-2c3a-11ee-96ce-4e7b8ce151d0">=</c><c xml:id="b5f4c0e8-2c3a-11ee-96ce-4e7b8ce151d0">F</c><c xml:id="b5f4c0ca-2c3a-11ee-96ce-4e7b8ce151d0">&amp;</c><c xml:id="b5f4c0a2-2c3a-11ee-96ce-4e7b8ce151d0">g</c><c xml:id="b5f4c07a-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5f4c03e-2c3a-11ee-96ce-4e7b8ce151d0">;</c><surplus><c xml:id="b5f4c372-2c3a-11ee-96ce-4e7b8ce151d0">f</c></surplus><c xml:id="b5f4c3b8-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5f4c39a-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="b5f4c426-2c3a-11ee-96ce-4e7b8ce151d0">D</c></abbr><ex><c xml:id="b5f4c4bc-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5f4c476-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5f4c4e4-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5f4c548-2c3a-11ee-96ce-4e7b8ce151d0">M</c></abbr><ex><c xml:id="b5f4c6f6-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5f4c6b0-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5f4c66a-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5f4c624-2c3a-11ee-96ce-4e7b8ce151d0">b</c><c xml:id="b5f4c5de-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5f4c598-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5f4c714-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="3" /><expan><abbr><c xml:id="b5f4c7be-2c3a-11ee-96ce-4e7b8ce151d0">T</c><c xml:id="b5f4c778-2c3a-11ee-96ce-4e7b8ce151d0">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5f4c7e6-2c3a-11ee-96ce-4e7b8ce151d0">S</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5f4c818-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="b5f4c8b8-2c3a-11ee-96ce-4e7b8ce151d0">N</c><c xml:id="b5f4c872-2c3a-11ee-96ce-4e7b8ce151d0">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><lb break="no" n="5" /><c xml:id="b5f4c908-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5f4c8ea-2c3a-11ee-96ce-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5f4c944-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="6" /><c xml:id="b5f4c9e4-2c3a-11ee-96ce-4e7b8ce151d0">f</c><c xml:id="b5f4c9bc-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5f4c99e-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b5f4c976-2c3a-11ee-96ce-4e7b8ce151d0">i</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5f4ca20-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="b5f4ca5c-2c3a-11ee-96ce-4e7b8ce151d0"> </c></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

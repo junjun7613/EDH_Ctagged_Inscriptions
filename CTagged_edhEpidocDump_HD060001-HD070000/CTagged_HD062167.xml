@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062167</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062167</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(52)</height><width>36</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country">unknown</placeName><placeName type="modern" /><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062167_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius</name><name type="cognomen">Victorinus</name></persName></person><person xml:id="HD062167_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius*</name><name type="cognomen">Tertius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-01" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ascia am Ende von Z. 5.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03175a.</bibl><bibl>CIL 05, 00198*.</bibl><bibl>R. Noll, Die griechischen und lateinischen Inschriften der Wiener Antikensammlung (2. Aufl. Wien 1986) 69, Nr. 277.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a9d56c34-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="a9d56d06-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="a9d56d92-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d56d56-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9d56db0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d56dec-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="a9d56f0e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d56edc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d56eaa-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d56e82-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="a9d56e50-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d56e28-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9d56f22-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="a9d56f5e-5842-11ee-a013-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="a9d57044-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57012-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d56fea-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d56fb8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a9d56f90-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="a9d570ee-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d570da-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="a9d570c6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d570b2-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a9d5709e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a9d5708a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d57076-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a9d57062-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="a9d571de-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="a9d571ca-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d571b6-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a9d571a2-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a9d57184-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a9d57170-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a9d5715c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d57148-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d57134-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a9d57120-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="a9d57210-5842-11ee-a013-4e7b8ce151d1">d</c><expan><ex><c xml:id="a9d5724c-5842-11ee-a013-4e7b8ce151d1">e</c></ex><abbr><c xml:id="a9d57288-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="a9d57364-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d5733c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d57314-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a9d572e2-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a9d572ba-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="a9d57378-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d573b4-5842-11ee-a013-4e7b8ce151d1">a</c></abbr><ex><c xml:id="a9d57440-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d57418-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d573e6-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="a9d57486-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d57468-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d57454-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d574c2-5842-11ee-a013-4e7b8ce151d1">m</c></abbr><ex><c xml:id="a9d575d0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a9d575a8-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d57576-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a9d5754e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d5751c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d574f4-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="a9d5765c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d57648-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d5762a-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d57616-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d57602-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d575e4-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d576a2-5842-11ee-a013-4e7b8ce151d1">d</c></abbr><ex><c xml:id="a9d57788-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d57756-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a9d5772e-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a9d576fc-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d576d4-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="a9d5779c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="a9d5783c-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="a9d5781e-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="a9d5780a-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d577ec-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d577d8-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d577ba-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="a9d57882-5842-11ee-a013-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="a9d57990-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57968-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d57940-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d5790e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a9d578e6-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d578b4-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9d579a4-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d57a6c-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="a9d57a44-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d57a12-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a9d579ea-5842-11ee-a013-4e7b8ce151d1">s</c></abbr><ex><c xml:id="a9d57af8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d57ac6-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57a9e-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9d57b98-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d57b7a-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="a9d57b5c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a9d57b48-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a9d57b2a-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a9d57b0c-5842-11ee-a013-4e7b8ce151d1">i</c></line><line break="no" n="7"><c xml:id="a9d57cba-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57c9c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a9d57c88-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d57c6a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d57c4c-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a9d57c2e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57c1a-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a9d57bfc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d57bde-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a9d57bca-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="8"><expan><abbr><c xml:id="a9d57d14-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="a9d57dc8-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a9d57da0-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a9d57d6e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57d46-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9d57ddc-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d57e22-5842-11ee-a013-4e7b8ce151d1">d</c></abbr><ex><c xml:id="a9d57ed6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d57eae-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a9d57e7c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a9d57e54-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9d57f26-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d57f08-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d57eea-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9d58048-5842-11ee-a013-4e7b8ce151d1">F</c><c xml:id="a9d58020-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d57fee-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="a9d57fc6-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a9d57f9e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d57f6c-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="a9d580a2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d5807a-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="a9d58138-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a9d5811a-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a9d580fc-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d580de-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a9d580c0-5842-11ee-a013-4e7b8ce151d1">u</c></line><line break="no" n="9"><c xml:id="a9d581c4-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a9d581a6-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a9d58188-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a9d5816a-5842-11ee-a013-4e7b8ce151d1">a</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

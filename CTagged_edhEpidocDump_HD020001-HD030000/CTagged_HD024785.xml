@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viver (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024785</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024785</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Viver, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>20</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Viver</placeName><placeName type="findspot">Pfarrkirche, verbaut</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024785_1"><persName><name type="praenomen">M.</name><name type="nomen">Porcius</name><name type="cognomen">Rufinus+</name></persName></person><person xml:id="HD024785_2"><persName><name type="praenomen">M.</name><name type="nomen">Porcius</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD024785_3"><persName><name type="nomen">Quintia+</name><name type="cognomen">Proba+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-12-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Tafel ist vielleicht auch links und unten gebrochen. Z. 2 u. 3: In &#228;lteren Handschriften waren das S von Rufinus und das F von f(ilius) noch lesbar. Die Familie ist auch &#252;ber die Inschriften eines Kenotaphs und eines Bogens in J&#233;rica bekannt: CIL II (2. Aufl.) 14, 236 = AE 1984, 599 u. CIL II (2. Aufl.) 237 = CIL II 3558 = 3997. S. au&#223;erdem CIL II (2. Aufl.) 14, 267 = CIL II 4010 = AE 1984, 600. Zum Familienstemma s. CIL II (2. Aufl.) 14, p. 48.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00258.</bibl><bibl>CIL 02, 04011.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="ac1df1cc-583e-11ee-8b4f-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="ac1df230-583e-11ee-8b4f-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ac1df352-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1df320-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1df2ee-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1df2b2-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1df276-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="ac1df41a-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="ac1df406-583e-11ee-8b4f-4e7b8ce151d1">P</c><c xml:id="ac1df3f2-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="ac1df3de-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1df3c0-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1df3ac-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1df398-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1df384-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="ac1df366-583e-11ee-8b4f-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="ac1df474-583e-11ee-8b4f-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ac1df53c-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1df50a-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1df4d8-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1df4a6-583e-11ee-8b4f-4e7b8ce151d1">i</c></ex></expan><c xml:id="ac1df55a-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ac1df596-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ac1df69a-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1df668-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="ac1df62c-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1df5fa-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1df5c8-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="ac1df6ae-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="ac1df74e-583e-11ee-8b4f-4e7b8ce151d1">G</c><c xml:id="ac1df726-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1df6f4-583e-11ee-8b4f-4e7b8ce151d1">l</c></abbr><ex><c xml:id="ac1df816-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="ac1df7e4-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1df7b2-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1df78a-583e-11ee-8b4f-4e7b8ce151d1">a</c></ex></expan><c xml:id="ac1df8b6-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="ac1df8a2-583e-11ee-8b4f-4e7b8ce151d1">R</c><c xml:id="ac1df884-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1df870-583e-11ee-8b4f-4e7b8ce151d1">f</c><c xml:id="ac1df85c-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1df83e-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="ac1df82a-583e-11ee-8b4f-4e7b8ce151d1">u</c><supplied reason="lost"><c xml:id="ac1df94c-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="ac1df91a-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="ac1df960-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="ac1df9a6-583e-11ee-8b4f-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ac1dfaa0-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1dfa6e-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1dfa3c-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1dfa0a-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1df9d8-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="ac1dfb7c-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="ac1dfb5e-583e-11ee-8b4f-4e7b8ce151d1">P</c><c xml:id="ac1dfb4a-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="ac1dfb2c-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1dfb18-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1dfb04-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1dfae6-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1dfad2-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="ac1dfab4-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ac1dfbcc-583e-11ee-8b4f-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ac1dfcc6-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1dfc6c-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1dfc3a-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1dfc12-583e-11ee-8b4f-4e7b8ce151d1">i</c></ex></expan><c xml:id="ac1dfce4-583e-11ee-8b4f-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="ac1dfd20-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ac1dfe1a-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1dfde8-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="ac1dfdc0-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1dfd8e-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1dfd5c-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="ac1dfe38-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ac1dfef6-583e-11ee-8b4f-4e7b8ce151d1">G</c><c xml:id="ac1dfec4-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1dfe74-583e-11ee-8b4f-4e7b8ce151d1">l</c></abbr><ex><c xml:id="ac1dffbe-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="ac1dff8c-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1dff5a-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1dff28-583e-11ee-8b4f-4e7b8ce151d1">a</c></ex></expan></supplied><c xml:id="ac1dffdc-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="ac1e00a4-583e-11ee-8b4f-4e7b8ce151d1">R</c><c xml:id="ac1e0086-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1e0068-583e-11ee-8b4f-4e7b8ce151d1">f</c><c xml:id="ac1e0054-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1e0036-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="ac1e0018-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ac1e0130-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1e00fe-583e-11ee-8b4f-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ac1e025c-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="ac1e0216-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="ac1e01e4-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1e01bc-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1e018a-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><c xml:id="ac1e02fc-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="ac1e02de-583e-11ee-8b4f-4e7b8ce151d1">L</c><c xml:id="ac1e02c0-583e-11ee-8b4f-4e7b8ce151d1">X</c><c xml:id="ac1e02a2-583e-11ee-8b4f-4e7b8ce151d1">X</c><c xml:id="ac1e027a-583e-11ee-8b4f-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="ac1e03d8-583e-11ee-8b4f-4e7b8ce151d1">Q</c><c xml:id="ac1e03a6-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="ac1e0374-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1e0342-583e-11ee-8b4f-4e7b8ce151d1">n</c></supplied></line><line break="no" n="5"><c xml:id="ac1e0464-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="ac1e0446-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1e0414-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1e03f6-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ac1e04b4-583e-11ee-8b4f-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ac1e057c-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1e054a-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1e0518-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="ac1e04e6-583e-11ee-8b4f-4e7b8ce151d1">i</c></ex></expan><c xml:id="ac1e0590-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ac1e05e0-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ac1e06a8-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1e0676-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="ac1e0644-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="ac1e0612-583e-11ee-8b4f-4e7b8ce151d1">a</c></ex></expan><c xml:id="ac1e0716-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="ac1e06f8-583e-11ee-8b4f-4e7b8ce151d1">P</c><c xml:id="ac1e06da-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="ac1e06bc-583e-11ee-8b4f-4e7b8ce151d1">o</c><supplied reason="lost"><c xml:id="ac1e07ca-583e-11ee-8b4f-4e7b8ce151d1">b</c><c xml:id="ac1e0798-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="ac1e0766-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

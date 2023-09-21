@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075571</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075571</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>118</height><width>34</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">Salvatorstra&#223;e, {Abtsgasse - Auf der Steig, zwischen}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-03" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015746" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4f165408-fcd3-40e7-a181-298596433c28/file/id/775324/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das Grabdenkmal wurde sp&#228;tantik f&#252;r eine Halbs&#228;ule mit Wandst&#252;ck auf der R&#252;ckseite (m&#246;glicherweise von einer Balustrade) wiederverwendet; die Inschrift befindet sich im hinteren Teil der rechten Seite. Ma&#223;e beziehen sich auf das S&#228;ulenmonument. (B): Frenz: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11900.</bibl><bibl>H.G. Frenz, Bauplastik und Portr&#228;ts aus Mainz und Umgebung, CSIR Deutschland 2, 7 (Mainz 1992) 99, Nr. 114; Tafel 59. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="15c45bf8-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="15c45c66-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><c xml:id="15c45cc0-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="15c45cac-5843-11ee-8920-4e7b8ce151d1">D</c><c xml:id="15c45c8e-5843-11ee-8920-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15c45ce8-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="15c45d38-5843-11ee-8920-4e7b8ce151d1">L</c><c xml:id="15c45d24-5843-11ee-8920-4e7b8ce151d1">E</c><c xml:id="15c45d06-5843-11ee-8920-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15c45d60-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="15c45d9c-5843-11ee-8920-4e7b8ce151d1">D</c><c xml:id="15c45d7e-5843-11ee-8920-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15c45dba-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="15c45df6-5843-11ee-8920-4e7b8ce151d1">F</c><c xml:id="15c45de2-5843-11ee-8920-4e7b8ce151d1">E</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15c45e1e-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="15c45e5a-5843-11ee-8920-4e7b8ce151d1">T</c><c xml:id="15c45e3c-5843-11ee-8920-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15c45e78-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="15c45ed2-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="15c45ebe-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="15c45ea0-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="15c45f40-5843-11ee-8920-4e7b8ce151d1">O</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15c45f68-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="15c45fa4-5843-11ee-8920-4e7b8ce151d1">C</c><c xml:id="15c45f90-5843-11ee-8920-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

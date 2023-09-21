@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065494</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065494</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Circ. Mass., Magazin</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(60)</height><width>(16)</width><depth>(23)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0307" notAfter-custom="0310" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">307 AD - 310 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Appia, Maxentiuscircus, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065494_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q182070"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Maxentius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-09" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014213" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3850be1a-4a1d-4be5-b10f-95d60b31f8e3/file/id/773745/file_version/name/small" /><graphic xml:id="F026517" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8290a181-5c63-4974-9836-3a15c11f1def/file/id/787269/file_version/name/small" /><graphic xml:id="F032298" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/09072c42-a7aa-42d0-a6d7-63107d377e59/file/id/793092/file_version/name/small" /><graphic xml:id="F032299" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/843af2d7-5dd3-4445-a9bd-45ec76ba8836/file/id/793093/file_version/name/small" /><graphic xml:id="F032300" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e2ceccce-9848-43d0-ad2d-fd2df06e2e37/file/id/793094/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Autopsie Alf&#246;ldy. Zwei nicht aneinander passende Fragmente erhalten. Ma&#223;e des gr&#246;&#223;eren Fragments: s.o.; das kleinere Fragment ist verschollen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40724; Foto.</bibl><bibl>CIL 06, 01219.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />------<certainty match="preceding-sibling::node()" locus="value" />] <lb n="2" /><supplied reason="lost">Maxen</supplied>ti<supplied reason="lost">o</supplied> <lb n="3" />Pi<supplied reason="lost">o Felic</supplied>i <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="4" /><supplied reason="lost"><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po</supplied><expan><abbr>t</abbr><ex>estate</ex></expan> II<supplied reason="lost" cert="low">---? co(n)s(uli) ---</supplied> <lb n="5" /><supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" />PI<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

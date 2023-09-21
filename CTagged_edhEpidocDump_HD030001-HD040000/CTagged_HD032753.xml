@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032753</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032753</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Area Sac. L.go Arg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(24)</height><width>(18)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Largo Argentina</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-07-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011043" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d2374530-6e3d-402f-bb0e-8e587807df2d/file/id/770566/file_version/name/small" /><graphic xml:id="F040296" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6f66bc6b-e588-4c4a-a88d-f24f0d4b01b0/file/id/801178/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Tafel ist beidseitig beschrieben. Angaben beziehen sich auf die sp&#228;tere Inschrift B. Inschrift A: 1. oder 2. Jh. n. Chr. Z. 1: statt H auch I oder N m&#246;glich. Z. 3: statt M auch N m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41364; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>H</abbr><ex cert="low" />TE</expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> ------<certainty match="preceding-sibling::node()" locus="value" />] <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">VI</supplied><expan><abbr>Ivir</abbr><ex cert="low" /></expan> <supplied reason="lost" cert="low">epulonum? ---</supplied> <lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>aliM</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum, bei &amp;ndash; Winden/See (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046278</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046278</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>27</height><width>18</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761123">Winden/See</placeName><placeName type="findspot">R&#252;b&#228;cker, {Parzelle Nr. 1833/19}</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046278_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]vianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-28" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025771" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e036aee-b669-4fd8-b8f3-3d9c151b66ea/file/id/786523/file_version/name/small" /><graphic xml:id="F025772" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f0c14a9e-0374-4c9c-b9d2-784619515cb2/file/id/786524/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 befindet sich auf der corona. Z. 2: zwischen V und A statt I auch T m&#246;glich. (B): Weber - Beutler-Kr&#228;nzl - Selinger - Pesditschek; AE 2002: Z. 2: IIIVITANV; Diebold: Z. 1: [---]VITANV[-]; Weber - Beutler-Kr&#228;nzl - Selinger - Pesditschek: Z. 3: et C; AE 2002: Z. 3: et C(---); Diebold: Z. 2/3: et C[-]/O votum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1134. (B)</bibl><bibl>E. Weber - F. Beutler-Kr&#228;nzl - R. Selinger - M. Pesditschek, in: H. Taeuber (Hrsg.), Akten des 7. &#214;sterreichischen Althistorikertages. Mit einem Anhang: Annona epigraphica Austriaca 1993-1998 (Wien 2001) 78-79, Nr. 266. (B) - AE 2002.</bibl><bibl>A. Diebold, Die r&#246;merzeitlichen Steindenkm&#228;ler des Eisenst&#228;dter Landesmuseums und ihre Bedeutung f&#252;r den nordwestpannonischen Raum 1. Katalog (Diss. Wien 1993) 168-169; Taf. 76. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>I</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><expan><abbr>I</abbr><ex cert="low" />VI</expan><certainty match="preceding-sibling::node()" locus="value" />anu<supplied reason="lost">s</supplied> <lb n="2" />pro se et <expan><abbr>R</abbr><ex cert="low" /></expan><abbr /> <lb n="3" />votum <lb n="4" />fecivit <note>sic</note></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Samuil (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043366</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043366</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/733114">Samuil</placeName><placeName type="findspot">{Bogomilci}</placeName><placeName type="region">Razgrad</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043366_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Terentianus+?</name></persName></person><person xml:id="HD043366_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Valentina+?</name></persName></person><person xml:id="HD043366_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Iulius+*?</name><name type="cognomen">Terentianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-21" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Erg&#228;nzungsvorschlag nach CIL III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14432.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="1ff7e25e-5841-11ee-8e19-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="1ff7e2b8-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="1"><expan><abbr><c xml:id="1ff7e312-5841-11ee-8e19-4e7b8ce151d1">C</c></abbr><ex><c xml:id="1ff7e3e4-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="1ff7e3b2-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7e38a-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7e358-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="1ff7e3f8-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1ff7e48e-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="1ff7e466-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7e434-5841-11ee-8e19-4e7b8ce151d1">l</c></abbr><ex><c xml:id="1ff7e51a-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7e4f2-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7e4c0-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="1ff7e542-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="1ff7e52e-5841-11ee-8e19-4e7b8ce151d1">T</c><supplied reason="lost" cert="low"><c xml:id="1ff7e664-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7e632-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="1ff7e600-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7e5d8-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7e5b0-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="1ff7e57e-5841-11ee-8e19-4e7b8ce151d1">i</c></supplied></line><line break="no" n="2"><c xml:id="1ff7e6c8-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="1ff7e6b4-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7e6a0-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7e68c-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="1ff7e678-5841-11ee-8e19-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><expan><abbr><c xml:id="1ff7e768-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="1ff7e740-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7e70e-5841-11ee-8e19-4e7b8ce151d1">g</c></abbr><ex><c xml:id="1ff7e844-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7e81c-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="1ff7e7f4-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7e7c2-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7e79a-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="1ff7e862-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="1ff7e8d0-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="1ff7e8bc-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="1ff7e89e-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="1ff7e88a-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="1ff7e876-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1ff7e93e-5841-11ee-8e19-4e7b8ce151d1">F</c><c xml:id="1ff7e90c-5841-11ee-8e19-4e7b8ce151d1">l</c></abbr><ex><c xml:id="1ff7ea1a-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="1ff7e9f2-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="1ff7e9ca-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7e998-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="1ff7e970-5841-11ee-8e19-4e7b8ce151d1">e</c></ex></expan><c xml:id="1ff7ea4c-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="1ff7ea2e-5841-11ee-8e19-4e7b8ce151d1">S</c><gap reason="lost" extent="unknown" unit="character" /></line><line break="no" n="4"><c xml:id="1ff7eac4-5841-11ee-8e19-4e7b8ce151d1">A</c><c xml:id="1ff7eab0-5841-11ee-8e19-4e7b8ce151d1">N</c><c xml:id="1ff7ea92-5841-11ee-8e19-4e7b8ce151d1">T</c><c xml:id="1ff7ea7e-5841-11ee-8e19-4e7b8ce151d1">E</c><c xml:id="1ff7ea6a-5841-11ee-8e19-4e7b8ce151d1">S</c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost" cert="low"><c xml:id="1ff7eb6e-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="1ff7eb3c-5841-11ee-8e19-4e7b8ce151d1">V</c><c xml:id="1ff7eb0a-5841-11ee-8e19-4e7b8ce151d1">a</c></supplied></line><line break="no" n="5"><c xml:id="1ff7ebc8-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="1ff7ebb4-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7eb96-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7eb82-5841-11ee-8e19-4e7b8ce151d1">t</c><supplied reason="lost" cert="low"><c xml:id="1ff7ec68-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7ec36-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7ec0e-5841-11ee-8e19-4e7b8ce151d1">a</c></supplied><c xml:id="1ff7ec7c-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="1ff7eccc-5841-11ee-8e19-4e7b8ce151d1">c</c><c xml:id="1ff7ecae-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="1ff7ec9a-5841-11ee-8e19-4e7b8ce151d1">n</c><supplied reason="lost" cert="low"><c xml:id="1ff7efe2-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7efba-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7ef92-5841-11ee-8e19-4e7b8ce151d1">x</c><c xml:id="1ff7ef60-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="1ff7ef38-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7ef10-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="1ff7eee8-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="1ff7eec0-5841-11ee-8e19-4e7b8ce151d1">-</c><c xml:id="1ff7ee8e-5841-11ee-8e19-4e7b8ce151d1">?</c><c xml:id="1ff7ee66-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="1ff7ee3e-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="1ff7ee16-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7ede4-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="1ff7edbc-5841-11ee-8e19-4e7b8ce151d1">(</c><c xml:id="1ff7ed94-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7ed62-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7ed3a-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="1ff7ed08-5841-11ee-8e19-4e7b8ce151d1">)</c></supplied><c xml:id="1ff7eff6-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="1ff7f064-5841-11ee-8e19-4e7b8ce151d1">T</c><c xml:id="1ff7f046-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7f032-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="1ff7f014-5841-11ee-8e19-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="1ff7f1a4-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7f17c-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="1ff7f154-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7f122-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="1ff7f0fa-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7f0d2-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7f0a0-5841-11ee-8e19-4e7b8ce151d1">s</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <expan><abbr>fil</abbr><ex>ius</ex></expan></supplied><c xml:id="1ff7f1b8-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="1ff7f244-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="1ff7f230-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="1ff7f212-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="1ff7f1f4-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="1ff7f1e0-5841-11ee-8e19-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1ff7f276-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="9"><c xml:id="1ff7f2c6-5841-11ee-8e19-4e7b8ce151d1">f</c><c xml:id="1ff7f2b2-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7f294-5841-11ee-8e19-4e7b8ce151d1">c</c><supplied reason="lost"><c xml:id="1ff7f3ac-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="1ff7f384-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="1ff7f35c-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="1ff7f334-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="1ff7f30c-5841-11ee-8e19-4e7b8ce151d1">t</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Passail (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038992</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038992</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Passail, Pfarrhof, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>120</height><width>71</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769224">Passail</placeName><placeName type="findspot">{Pfarrhof}, sekund&#228;r verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038992_1" sex="M"><persName><name type="cognomen">Sammus</name></persName></person><person xml:id="HD038992_2" sex="M"><persName><name type="cognomen">Tertius</name></persName></person><person xml:id="HD038992_3" sex="W"><persName><name type="cognomen">Valentina</name></persName></person><person xml:id="HD038992_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-19" who="B&#246;hm">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Materialangabe nach lupa 1643. Inschriftfeld von tordierten Halbs&#228;ulen eingefa&#223;t; unterhalb des Inschriftfeldes ein Seegreif. Z. 4 noch Buchstabenreste, wahrscheinlich der Vatersname der Frau.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 390, Nr. 332.</bibl><bibl>ILLPRON 1298.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="15f64fb8-583f-11ee-8e0a-4e7b8ce151d1">
+</c><c xml:id="15f64fa4-583f-11ee-8e0a-4e7b8ce151d1">S</c><c xml:id="15f64f90-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="15f64f7c-583f-11ee-8e0a-4e7b8ce151d1">m</c><c xml:id="15f64f68-583f-11ee-8e0a-4e7b8ce151d1">m</c><c xml:id="15f64f54-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="15f64f36-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="15f64ebe-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="15f6508a-583f-11ee-8e0a-4e7b8ce151d1">T</c><c xml:id="15f6506c-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="15f65062-583f-11ee-8e0a-4e7b8ce151d1">r</c><c xml:id="15f65044-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="15f65030-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="15f65026-583f-11ee-8e0a-4e7b8ce151d1"> </c><c xml:id="15f65012-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="15f64ffe-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="15f64fea-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="15f65148-583f-11ee-8e0a-4e7b8ce151d1">V</c><c xml:id="15f6512a-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="15f65116-583f-11ee-8e0a-4e7b8ce151d1">l</c><c xml:id="15f65102-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="15f650ee-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="15f650da-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="15f650c6-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="15f650b2-583f-11ee-8e0a-4e7b8ce151d1">n</c></line><line break="no" n="4"><c xml:id="15f65184-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="15f65170-583f-11ee-8e0a-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="15f651a2-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="15f65274-583f-11ee-8e0a-4e7b8ce151d1">p</c><c xml:id="15f65260-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="15f6524c-583f-11ee-8e0a-4e7b8ce151d1">r</c><c xml:id="15f6522e-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="15f6521a-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="15f65206-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="15f651f2-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="15f651d4-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="15f651c0-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost"><c xml:id="15f652d8-583f-11ee-8e0a-4e7b8ce151d1">v</c></supplied><c xml:id="15f65350-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="15f65332-583f-11ee-8e0a-4e7b8ce151d1">v</c><c xml:id="15f6531e-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="15f6530a-583f-11ee-8e0a-4e7b8ce151d1"> </c><c xml:id="15f652ec-583f-11ee-8e0a-4e7b8ce151d1">f</c><supplied reason="lost"><c xml:id="15f65396-583f-11ee-8e0a-4e7b8ce151d1">e</c></supplied><c xml:id="15f653c8-583f-11ee-8e0a-4e7b8ce151d1">c</c><c xml:id="15f653aa-583f-11ee-8e0a-4e7b8ce151d1">e</c></line><line break="no" n="7"><supplied reason="lost"><c xml:id="15f6556c-583f-11ee-8e0a-4e7b8ce151d1">r</c><c xml:id="15f6553a-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="15f65512-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="15f654ea-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="15f654b8-583f-11ee-8e0a-4e7b8ce151d1"> </c><c xml:id="15f65490-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="15f6545e-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="15f65436-583f-11ee-8e0a-4e7b8ce151d1">b</c><c xml:id="15f65404-583f-11ee-8e0a-4e7b8ce151d1">i</c></supplied><c xml:id="15f65580-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="15f65684-583f-11ee-8e0a-4e7b8ce151d1">[</c><c xml:id="15f65666-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="15f65648-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="15f65634-583f-11ee-8e0a-4e7b8ce151d1"> </c><c xml:id="15f65620-583f-11ee-8e0a-4e7b8ce151d1">-</c><c xml:id="15f65602-583f-11ee-8e0a-4e7b8ce151d1">-</c><c xml:id="15f655ee-583f-11ee-8e0a-4e7b8ce151d1">-</c><c xml:id="15f655d0-583f-11ee-8e0a-4e7b8ce151d1">-</c><c xml:id="15f655b2-583f-11ee-8e0a-4e7b8ce151d1">-</c><c xml:id="15f6559e-583f-11ee-8e0a-4e7b8ce151d1">-</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

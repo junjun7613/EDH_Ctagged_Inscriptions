@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000307</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000307</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(79)</height><width>44</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">Lagerfriedhof</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000307_1" sex="M"><persName><name type="cognomen">Victor</name></persName></person><person xml:id="HD000307_2" sex="M"><persName><name type="cognomen">Aurelius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-02" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019386" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4b26c514-5e3d-4d53-b77a-a4fe794f5972/file/id/779458/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeile 1: R teilweise auf Rahmenprofil stehend. Zeile 2: AV-Ligatur. (C): Aurelius ist hier Individualname, nicht Gentiliz.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0763. (C)</bibl><bibl>J. Bortlik, RL&#338; 16, 1926, 44-45, Nr. 44. (C) - AE 1983.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 194-195, Nr. 277.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 58, Nr. 239.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="cefcde22-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="cefcde0e-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="cefcddfa-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefcdde6-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="cefcddd2-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cefcddbe-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="cefcdda0-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="cefcdd32-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="cefcded6-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="cefcdeb8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cefcdea4-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="cefcde90-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cefcde7c-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cefcde68-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefcde54-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="cefcdf3a-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="cefce034-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefce002-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cefcdfda-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefcdfa8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cefcdf76-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="cefce048-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cefce0ac-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cefce084-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="cefce192-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="cefce16a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="cefce138-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="cefce110-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cefce0de-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="cefce20a-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="cefce1f6-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="cefce1e2-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="cefce1ce-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="cefce1ba-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="cefce1a6-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="cefce2aa-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="cefce28c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cefce278-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cefce264-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cefce250-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="cefce23c-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="cefce2f0-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="cefce3d6-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="cefce3a4-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="cefce37c-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cefce34a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefce322-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="cefce3ea-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="cefce426-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="cefce480-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefce44e-583b-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="cefce494-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cefce4c6-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="cefce57a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cefce552-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cefce520-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cefce4f8-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="cefce58e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cefce5c0-583b-11ee-a136-4e7b8ce151d1">e</c></abbr><ex><c xml:id="cefce624-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="cefce5f2-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

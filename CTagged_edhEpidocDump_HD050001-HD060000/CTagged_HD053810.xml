@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Klosterneuburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053810</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053810</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klosterneuburg, Stiftsmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>231</height><width>77</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577" /></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2773913">Klosterneuburg</placeName><placeName type="findspot">{Stift Klosterneuburg, Leopoldihof (Kuchelhof)}, r&#246;mische Zisterne, sekund&#228;r verwendet</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053810_1" sex="M"><persName><name type="cognomen">Hispanus+*</name></persName></person><person xml:id="HD053810_2" sex="M"><persName><name type="cognomen">[---]lianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-06" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vier fast aneinanderpassende Fragmente. Oberhalb des Inschriftfeldes Bidlfelder mit vegetabilen Ornamenten und ein Giebel. Oberfl&#228;che des Inschriftfeldes teilweise stark verrieben. Z. 1/2: Ubl; Weber - Selinger; AE 1992: Ispanus Lian/[i] fil.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1444.</bibl><bibl>H. Ubl, Das r&#246;mische Lapidarium (Klosterneuburg 1991) 112-113, Nr. 18. - AE 1992.</bibl><bibl>E. Weber - R. Selinger, R&#338; 19/20, 1991/92, 217, Nr. 259. - AE 1992.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><ex><c xml:id="530bc65c-2c3a-11ee-97a0-4e7b8ce151d0">H</c></ex><abbr><c xml:id="530bc832-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="530bc7e2-2c3a-11ee-97a0-4e7b8ce151d0">s</c><c xml:id="530bc792-2c3a-11ee-97a0-4e7b8ce151d0">p</c><c xml:id="530bc742-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="530bc6f2-2c3a-11ee-97a0-4e7b8ce151d0">n</c></abbr></expan><supplied reason="lost"><c xml:id="530bc8d2-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="530bc882-2c3a-11ee-97a0-4e7b8ce151d0">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="530bc968-2c3a-11ee-97a0-4e7b8ce151d0">l</c><c xml:id="530bc94a-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="530bc922-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="530bc8fa-2c3a-11ee-97a0-4e7b8ce151d0">n</c><lb break="no" n="2" /><supplied reason="lost"><c xml:id="530bc9d6-2c3a-11ee-97a0-4e7b8ce151d0">i</c></supplied><c xml:id="530bc9fe-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="530bcaee-2c3a-11ee-97a0-4e7b8ce151d0">f</c><c xml:id="530bcaa8-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="530bca58-2c3a-11ee-97a0-4e7b8ce151d0">l</c></abbr><ex><c xml:id="530bcbd4-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="530bcb8e-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="530bcb3e-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="530bcc1a-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="530bcbfc-2c3a-11ee-97a0-4e7b8ce151d0">o</c><supplied reason="lost" cert="low"><c xml:id="530bd156-2c3a-11ee-97a0-4e7b8ce151d0">p</c><c xml:id="530bd110-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="530bd0ca-2c3a-11ee-97a0-4e7b8ce151d0">(</c><c xml:id="530bd084-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="530bd034-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="530bcfee-2c3a-11ee-97a0-4e7b8ce151d0">)</c><c xml:id="530bcfa8-2c3a-11ee-97a0-4e7b8ce151d0">?</c><c xml:id="530bcf62-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="530bcf1c-2c3a-11ee-97a0-4e7b8ce151d0">c</c><c xml:id="530bced6-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="530bce86-2c3a-11ee-97a0-4e7b8ce151d0">h</c><c xml:id="530bce40-2c3a-11ee-97a0-4e7b8ce151d0">(</c><c xml:id="530bcdfa-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="530bcdb4-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="530bcd5a-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="530bcd14-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="530bccce-2c3a-11ee-97a0-4e7b8ce151d0">s</c><c xml:id="530bcc7e-2c3a-11ee-97a0-4e7b8ce151d0">)</c></supplied><c xml:id="530bd17e-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="530bd1a6-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="530bd1d8-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="530bd232-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="530bd20a-2c3a-11ee-97a0-4e7b8ce151d0">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="530bd264-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="530bd2b4-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="530bd28c-2c3a-11ee-97a0-4e7b8ce151d0">H</c><gap reason="lost" extent="unknown" unit="character" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

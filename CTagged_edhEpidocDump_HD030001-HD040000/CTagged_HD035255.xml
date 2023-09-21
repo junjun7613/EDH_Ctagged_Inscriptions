@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bad Ischl (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035255</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035255</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Ischl, S. Nikolaus, Stadtpfarrkirche, Turm, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>104</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782052">Bad Ischl</placeName><placeName type="findspot">{S. Nikolaus, Stadtpfarrkirche, Turm}, S&#252;dseite, sekund&#228;r verwendet</placeName><placeName type="region">Ober&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035255_1" sex="M"><persName><name type="cognomen">Romanus</name></persName></person><person xml:id="HD035255_2" sex="M"><persName><name type="cognomen">Maternus</name></persName></person><person xml:id="HD035255_3" sex="W"><persName><name type="nomen">Argentonia</name><name type="cognomen">Romana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-14" who="B&#246;hm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: D und M zu Seiten der B&#252;sten einer Frau und eines Mannes: die &#252;brigen Zeilen befinden sich darunter in einem eigenen Inschriftfeld zwischen Nischen mit der Darstellung einer Dienerin und eines Dieners. (B): Eckhart: Z. 5: Rom(a)nae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05621.</bibl><bibl>L. Eckhart, Die Skulpturen des Stadtgebietes von Ovilava, CSIR &#214;sterreich 3, 3 (Wien 1981) 55-56, Nr. 72; Taf. 41, 72. (B)</bibl><bibl>O. Harl, in: M. Praznovsky (Hrsg.), 2. Internationales Kolloquium &#252;ber Probleme des provinzialr&#246;mischen Kunstschaffens, Veszpr&#233;m 1991 (Veszpr&#233;m 1991) 32-33.</bibl><bibl>ILLPRON 0919.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="32321a9a-583f-11ee-8e0b-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="32321af4-583f-11ee-8e0b-4e7b8ce151d1">D</c></abbr><ex><c xml:id="32321b58-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="32321b26-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="32321b6c-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="32321b9e-583f-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="32321c98-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32321c70-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="32321c48-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="32321c20-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="32321bf8-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="32321bd0-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="32321cac-583f-11ee-8e0b-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="32321d56-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="32321d42-583f-11ee-8e0b-4e7b8ce151d1">R</c><c xml:id="32321d38-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="32321d24-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="32321d10-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32321cfc-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="32321cf2-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="32321cde-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="32321cca-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="32321e00-583f-11ee-8e0b-4e7b8ce151d1">M</c><c xml:id="32321dec-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32321dd8-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="32321dc4-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="32321dba-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="32321da6-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="32321d92-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="32321d7e-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="32321e3c-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="32321f0e-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="32321ee6-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="32321ebe-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="32321e96-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="32321e6e-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="32321f4a-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="32321f36-583f-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="32321f22-583f-11ee-8e0b-4e7b8ce151d1">i</c><expan><ex><c xml:id="32321f7c-583f-11ee-8e0b-4e7b8ce151d1">v</c></ex><abbr><c xml:id="32321fd6-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="32321fae-583f-11ee-8e0b-4e7b8ce151d1">s</c></abbr></expan><c xml:id="32321fe0-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="32322044-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="3232201c-583f-11ee-8e0b-4e7b8ce151d1">i</c></abbr><ex><c xml:id="32322094-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="3232206c-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="323220a8-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="3232218e-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="3232217a-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="32322166-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="32322152-583f-11ee-8e0b-4e7b8ce151d1">R</c><c xml:id="3232213e-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="3232212a-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="32322116-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32322102-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="323220ee-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="323220da-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="323220c6-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="32322242-583f-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="3232222e-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3232221a-583f-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="32322206-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="323221f2-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="323221d4-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="323221c0-583f-11ee-8e0b-4e7b8ce151d1">o</c></line><line break="no" n="6"><c xml:id="323222ce-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="323222b0-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3232229c-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32322288-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="3232226a-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="32322364-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="32322332-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="3232230a-583f-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="3232240e-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="323223e6-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="323223be-583f-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="3232238c-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="32322422-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="32322512-583f-11ee-8e0b-4e7b8ce151d1">@</c><c xml:id="323224fe-583f-11ee-8e0b-4e7b8ce151d1">(</c><c xml:id="323224e0-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="323224cc-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="323224ae-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3232249a-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="32322486-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32322468-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="32322454-583f-11ee-8e0b-4e7b8ce151d1">)</c><c xml:id="32322440-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3232258a-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="32322562-583f-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="32322652-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="3232262a-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="32322602-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="323225da-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="323225b2-583f-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="32322666-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="323226e8-583f-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="323226d4-583f-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="323226b6-583f-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="323226a2-583f-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="32322684-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="9"><expan><abbr><c xml:id="3232272e-583f-11ee-8e0b-4e7b8ce151d1">b</c></abbr><ex><c xml:id="323227a6-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="32322788-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="32322760-583f-11ee-8e0b-4e7b8ce151d1">e</c></ex></expan><c xml:id="323227ba-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="323227f6-583f-11ee-8e0b-4e7b8ce151d1">m</c></abbr><ex><c xml:id="323228e6-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="323228be-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="32322896-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="3232286e-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="32322846-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="3232281e-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

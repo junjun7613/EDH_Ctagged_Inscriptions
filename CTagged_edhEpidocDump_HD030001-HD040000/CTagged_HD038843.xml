@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; D&#252;rnstein/Steiermark (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038843</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038843</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>D&#252;rnstein/Steiermark, Wildbad Ein&#246;d, Kapelle, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>48</height><width>54</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1823"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761253">D&#252;rnstein/Steiermark</placeName><placeName type="findspot">Wildbad Ein&#246;d, {Herrenhaus, bei}</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038843_1" sex="M"><persName><name type="cognomen">Surianus</name></persName></person><person xml:id="HD038843_2" sex="M"><persName><name type="nomen">Sabinius*</name><name type="cognomen">Maximus+</name></persName></person><person xml:id="HD038843_3" sex="W"><persName><name type="cognomen">Catulla+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-28" who="B&#246;hm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Schriftfeld stark verschliffen, Lesungen und Erg&#228;nzungen teilweise unsicher. (B): Schmid: Z. 4/5: Maxi(mi) et Catul(la).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05048.</bibl><bibl>W. Schmid, J&#338;AI (Beibl.) 27, 1932, 218-219. (B)</bibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 324-325, Nr. 268; Foto.</bibl><bibl>ILLPRON 1486.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="4f432962-583f-11ee-8e0b-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="4f432a02-583f-11ee-8e0b-4e7b8ce151d1">D</c></abbr><ex><c xml:id="4f432a84-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f432a52-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="4f432aa2-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="4f432ade-583f-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="4f432c00-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f432bce-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4f432b9c-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f432b74-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="4f432b42-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f432b10-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="4f432c14-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="4f432cd2-583f-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="4f432cbe-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f432caa-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4f432c96-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f432c82-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f432c6e-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4f432c5a-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f432c46-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="4f432c32-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="4f432d86-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="4f432d5e-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4f432d2c-583f-11ee-8e0b-4e7b8ce151d1">r</c></abbr><ex><c xml:id="4f432e12-583f-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="4f432dea-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f432db8-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="4f432e26-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="4f432ee4-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="4f432ebc-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f432e94-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="4f432e62-583f-11ee-8e0b-4e7b8ce151d1">t</c></abbr><ex cert="low"><c xml:id="4f432ff2-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f432fca-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f432fa2-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4f432f70-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f432f48-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f432f16-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="4f433006-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="4f43309c-583f-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="4f433074-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f433042-583f-11ee-8e0b-4e7b8ce151d1">b</c></abbr><ex><c xml:id="4f433128-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f433100-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4f4330ce-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="4f433196-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="4f433182-583f-11ee-8e0b-4e7b8ce151d1">M</c><c xml:id="4f43316e-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f433150-583f-11ee-8e0b-4e7b8ce151d1">x</c><c xml:id="4f43313c-583f-11ee-8e0b-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="4f433290-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="4f4331dc-583f-11ee-8e0b-4e7b8ce151d1">i</c></supplied><c xml:id="4f4332ae-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="4f43336c-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4f433358-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="4f43333a-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="4f433326-583f-11ee-8e0b-4e7b8ce151d1">C</c><c xml:id="4f433312-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4f4332fe-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="4f4332e0-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f4332cc-583f-11ee-8e0b-4e7b8ce151d1">l</c><supplied reason="lost"><c xml:id="4f4333ee-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="4f4333bc-583f-11ee-8e0b-4e7b8ce151d1">a</c></supplied><c xml:id="4f433402-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="4f433466-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="4f43343e-583f-11ee-8e0b-4e7b8ce151d1">o</c></abbr><ex><c xml:id="4f433524-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4f4334fc-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f4334ca-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f433498-583f-11ee-8e0b-4e7b8ce151d1">x</c></ex></expan><c xml:id="4f433538-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="4f433574-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="4f4336c8-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4f433696-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="4f43366e-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4f43363c-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4f43360a-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4f4335d8-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4f4335a6-583f-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan><c xml:id="4f4336dc-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="4f43377c-583f-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="4f433754-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4f433722-583f-11ee-8e0b-4e7b8ce151d1">v</c></abbr><ex><c xml:id="4f4337ae-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

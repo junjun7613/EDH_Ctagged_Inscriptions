@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057609</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057609</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/W&#246;rthersee, Landesmus. K&#228;rnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(69)</height><width>80</width><depth>52</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum</placeName></origPlace><origDate><origDate notBefore-custom="0050" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2760473">Maria Saal</placeName><placeName type="findspot">{Zollfeld}</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057609_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Publicius*</name><name type="cognomen">Optatus</name></persName></person><person xml:id="HD057609_2" sex="W"><persName><name type="cognomen">A[--]iu</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-03" who="Siegl">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Auf den beiden Nebenseiten je eine Ranke. Nach Kremer wohl Schaftblock eines altar- oder pfeilerf&#246;rmigen Grabbaus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0833.</bibl><bibl>CIL 03, 04953.</bibl><bibl>G. Piccottini, Die R&#246;mersteinsammlung des Landesmuseums f&#252;r K&#228;rnten (Klagenfurt 1996) 77-78, Nr. 35; Foto.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 265, Nr. 349.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="54b3e174-2c3a-11ee-97a0-4e7b8ce151d0">C</c></abbr><ex><c xml:id="54b3e322-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="54b3e2d2-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3e282-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="54b3e232-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="54b3e34a-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="54b3e52a-2c3a-11ee-97a0-4e7b8ce151d0">P</c><c xml:id="54b3e4da-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="54b3e494-2c3a-11ee-97a0-4e7b8ce151d0">b</c><c xml:id="54b3e444-2c3a-11ee-97a0-4e7b8ce151d0">l</c><c xml:id="54b3e3fe-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3e3b8-2c3a-11ee-97a0-4e7b8ce151d0">c</c></abbr><ex><c xml:id="54b3e610-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3e5ca-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="54b3e57a-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="54b3e638-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="54b3e750-2c3a-11ee-97a0-4e7b8ce151d0">O</c><c xml:id="54b3e732-2c3a-11ee-97a0-4e7b8ce151d0">p</c><c xml:id="54b3e714-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="54b3e6ec-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="54b3e6ce-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="54b3e6b0-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="54b3e688-2c3a-11ee-97a0-4e7b8ce151d0">s</c><c xml:id="54b3e66a-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="3" /><expan><abbr><c xml:id="54b3e7d2-2c3a-11ee-97a0-4e7b8ce151d0">v</c></abbr><ex><c xml:id="54b3e912-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3e8c2-2c3a-11ee-97a0-4e7b8ce151d0">v</c><c xml:id="54b3e87c-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="54b3e82c-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="54b3e93a-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="54b3ea2a-2c3a-11ee-97a0-4e7b8ce151d0">f</c><c xml:id="54b3e9e4-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="54b3e99e-2c3a-11ee-97a0-4e7b8ce151d0">c</c></abbr><ex><c xml:id="54b3eaca-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3ea84-2c3a-11ee-97a0-4e7b8ce151d0">t</c></ex></expan><c xml:id="54b3eba6-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="54b3eb7e-2c3a-11ee-97a0-4e7b8ce151d0">s</c><c xml:id="54b3eb56-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3eb38-2c3a-11ee-97a0-4e7b8ce151d0">b</c><c xml:id="54b3eb10-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3eaf2-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="54b3ec5a-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="54b3ec32-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="54b3ec14-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="54b3ebec-2c3a-11ee-97a0-4e7b8ce151d0">A</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="54b3ed36-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3ed0e-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="54b3ece6-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="54b3ecbe-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="54b3eca0-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

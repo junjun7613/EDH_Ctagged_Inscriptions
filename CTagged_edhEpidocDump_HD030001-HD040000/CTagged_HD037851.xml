@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037851</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037851</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cartagena, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>31</height><width>(45)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" /></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot" /><placeName type="region">Comunidad Aut&#243;noma de la Regi&#243;n de Murcia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037851_1"><persName><name type="nomen">[---]</name><name type="cognomen">Pyramis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-04-11" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012577" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef00e3a2-d549-4ff9-b87e-17e20c53d1a4/file/id/772101/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Reste schwarzer Farbe auf der ersten Zeile, vermutlich als Korrektur der urspr&#252;nglichen Buchstaben. Linke Seite der Inschrift stark verwittert. Abascal Palaz&#243;n - Ramallo Asensio: Z. 5 (Ende): [d(e)] s(uo).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palaz&#243;n - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentaci&#243;n epigr&#225;fica (Murcia 1997) 430-431, Nr. 193; l&#225;m. 170.</bibl><bibl>CIL 02, 03516.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="b4b9356a-5840-11ee-8e0b-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="b4b93600-5840-11ee-8e0b-4e7b8ce151d1">P</c></supplied><c xml:id="b4b9368c-5840-11ee-8e0b-4e7b8ce151d1">y</c><c xml:id="b4b93682-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="b4b9366e-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="b4b9365a-5840-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="b4b93646-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b9363c-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="b4b9361e-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b4b93722-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="b4b93718-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="b4b93704-5840-11ee-8e0b-4e7b8ce151d1">f</c><c xml:id="b4b936f0-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b936dc-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="b4b936c8-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b936b4-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><c xml:id="b4b938a8-5840-11ee-8e0b-4e7b8ce151d1">h</c><c xml:id="b4b93880-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b93858-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="b4b93830-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="b4b937fe-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="b4b937d6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b937a4-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="b4b9377c-5840-11ee-8e0b-4e7b8ce151d1">i</c></supplied><c xml:id="b4b93920-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="b4b9390c-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="b4b938f8-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="b4b938e4-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="b4b938d0-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="b4b938bc-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><supplied reason="lost"><c xml:id="b4b9398e-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="b4b93966-5840-11ee-8e0b-4e7b8ce151d1">o</c></supplied><c xml:id="b4b939e8-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="b4b939d4-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="b4b939ca-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="b4b939b6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b939a2-5840-11ee-8e0b-4e7b8ce151d1">b</c></abbr><ex><c xml:id="b4b93a4c-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="b4b93a24-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="b4b93a60-5840-11ee-8e0b-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b4b93a7e-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b4b93b5a-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="b4b93b46-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="b4b93b32-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="b4b93b1e-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="b4b93b0a-5840-11ee-8e0b-4e7b8ce151d1">f</c><c xml:id="b4b93af6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b93ad8-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="b4b93ac4-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b93ab0-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="b4b93a9c-5840-11ee-8e0b-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="b4b93be6-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="b4b93baa-5840-11ee-8e0b-4e7b8ce151d1">t</c></supplied><c xml:id="b4b93bfa-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4b93c2c-5840-11ee-8e0b-4e7b8ce151d1">s</c></abbr><ex cert="low"><c xml:id="b4b93cae-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="b4b93c86-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="b4b93c5e-5840-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

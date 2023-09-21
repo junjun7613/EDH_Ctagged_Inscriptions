@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Valentia &amp;ndash; Valencia (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024266</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024266</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(9)</height><width>(8)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Valencia</placeName><placeName type="findspot">Calle del Mar 21/23</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-21" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007922" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/626233b9-69d6-48b3-a774-7c4c0fb512b0/file/id/768083/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Es sind noch Hilfslinien f&#252;r die Beschriftung erkennbar. Z. 1: Statt E auch L m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00088c.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="5b94cdca-583e-11ee-8b4f-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="5b94ce2e-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="5b94ce88-583e-11ee-8b4f-4e7b8ce151d1">E</c></abbr><ex cert="low" /><c xml:id="5b94cea6-583e-11ee-8b4f-4e7b8ce151d1">A</c></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="5b94cec4-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost" cert="low"><c xml:id="5b94cf0a-583e-11ee-8b4f-4e7b8ce151d1">a</c></supplied><expan><abbr><c xml:id="5b94cf46-583e-11ee-8b4f-4e7b8ce151d1">n</c></abbr><ex cert="low"><c xml:id="5b94d036-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="5b94d004-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="5b94cfdc-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="5b94cfaa-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="5b94cf78-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><c xml:id="5b94d04a-583e-11ee-8b4f-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

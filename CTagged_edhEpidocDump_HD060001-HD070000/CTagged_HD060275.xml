@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iader &amp;ndash; Zadar (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060275</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060275</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197312">Iader</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186952">Zadar</placeName><placeName type="findspot" /><placeName type="region">Zadarska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060275_1" sex="W"><persName><name type="cognomen">Entella</name></persName></person><person xml:id="HD060275_2"><persName><name type="cognomen">Ianuarius/a+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1-3: m&#246;glicherweise auch Entella[e] / Ianuari[us] oder Ianuari[a] / f(iliae) pientissi[m(ae)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02946.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c9cbeb12-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="c9cbeb08-5842-11ee-a013-4e7b8ce151d1">E</c><c xml:id="c9cbeaf4-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c9cbeae0-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c9cbeacc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c9cbeab8-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c9cbeaa4-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c9cbea90-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c9cbea5e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="c9cbebbc-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="c9cbeba8-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c9cbeb94-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c9cbeb80-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c9cbeb6c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c9cbeb58-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c9cbeb44-5842-11ee-a013-4e7b8ce151d1">i</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="c9cbebe4-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="c9cbec2a-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="c9cbecf2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c9cbecca-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c9cbec98-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c9cbec66-5842-11ee-a013-4e7b8ce151d1">-</c></ex></expan><c xml:id="c9cbedc4-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c9cbedb0-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="c9cbed9c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c9cbed88-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c9cbed74-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c9cbed60-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c9cbed42-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c9cbed2e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c9cbed1a-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c9cbed06-5842-11ee-a013-4e7b8ce151d1">i</c><supplied reason="lost"><expan><abbr><c xml:id="c9cbee14-5842-11ee-a013-4e7b8ce151d1">m</c></abbr><ex><c xml:id="c9cbee46-5842-11ee-a013-4e7b8ce151d1">-</c></ex></expan></supplied><c xml:id="c9cbee5a-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="c9cbee96-5842-11ee-a013-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="c9cbef4a-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c9cbef18-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c9cbeef0-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c9cbeec8-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="c9cbefa4-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c9cbef86-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="c9cbef72-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="c9cbef5e-5842-11ee-a013-4e7b8ce151d1">X</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

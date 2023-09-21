@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Abone &amp;ndash; Bristol (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069458</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069458</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bristol, City Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(57)</height><width>54</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#">Abone</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1873"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2638287">Bristol</placeName><placeName type="findspot">{Avon, Sea Mills}</placeName><placeName type="region">Bristol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069458_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sentius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 3, p. 115 n. 55.</bibl><bibl>RIB 0137; Zeichnung.</bibl><bibl>B.W. Cunliffe - M.G. Fulford, Bath and the rest of Wessex, CSIR Great Britain 1, 2 (Oxford 1982) 39, Nr. 139; Pl. 35, 139.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="71264f34-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="71264f20-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="71264f0c-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="71264eee-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71264ed0-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="71264e4e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="71264fac-5842-11ee-a013-4e7b8ce151d1">G</c></abbr><ex><c xml:id="71265038-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71264ffc-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="712650ec-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="712650ce-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="712650ba-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="712650a6-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="71265088-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="71265074-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71265056-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><c xml:id="7126511e-5842-11ee-a013-4e7b8ce151d1"> </c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

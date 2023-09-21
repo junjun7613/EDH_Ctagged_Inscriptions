@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065734</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065734</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(47)</height><width>(36)</width><depth>(13)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Pfaffenberg}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065734_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name></persName></person><person xml:id="HD065734_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18728"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]linus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-02" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019584" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2cdcfd63-fcdb-4c4a-aa74-d5f85c2ca104/file/id/779656/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei Fragmente einer Tafel, oberes Fragment verschollen. Lesungs- und Erg&#228;nzungsvorschlag weitgehend nach Szab&#243;. Z. 1 (Ende): nur die unteren Enden zweier senkrechter Hasten erhalten. Ma&#223;e des &#252;briggebliebenen Fragmentes in cm: H (B): Szab&#243;; AE 2006: Z. 1/2 : NE / [Imp(eratore)? Commodo?]; Z. 4: fla[m]en; CIL 03, 11257: Z. 4: FL AVEN; Piso: Z. 1-6: NE / [---]VICOS / [---]linus / [---] RI fla[m]en / [municip]iorum [---] / dec(urio) [---]. (B): Vorbeck: Z. 1-6: ---]ne[---] / [---]vicos[---] / [---]inus [...] / [Qui]ri(na) Fl(avio) Avebn[tico] / [Helvet]iorum / dec(urio) [------</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1073. (B)</bibl><bibl>CIL 03, 11257. (B)</bibl><bibl>A. v. Domaszewski, AEM 11, 1887, 12, Nr. 16; Zeichnung.</bibl><bibl>J.W. Kubitschek, AEM 15, 1892, 196, Nr. 12; Zeichnung.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 59, Nr. 245. (B)</bibl><bibl>&#193;. Szab&#243;, Pannoniciani sacerdotes. Aszervezett vall&#225;si &#233;let principatuskori vezet&#337;i (P&#233;cs 2006) 112-114. 145, Nr. 86. (B) - AE 2006.</bibl><bibl>I. Piso, Das Heiligtum des Jupiter Optimus Maximus auf dem Pfaffenberg/Carnuntum 1. Die Inschriften (Wien 2003) 86, Nr. 134; Foto u. Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="cd357a8e-5842-11ee-a013-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="cd357ade-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="cd357b24-5842-11ee-a013-4e7b8ce151d1">N</c><c xml:id="cd357b06-5842-11ee-a013-4e7b8ce151d1">E</c><supplied reason="lost" cert="low"><c xml:id="cd357b7e-5842-11ee-a013-4e7b8ce151d1">-</c></supplied><expan><abbr><c xml:id="cd357bba-5842-11ee-a013-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="cd357bd8-5842-11ee-a013-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="cd357bf6-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="cd357c78-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="cd357c64-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="cd357c50-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="cd357c3c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="cd357c28-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="cd357c14-5842-11ee-a013-4e7b8ce151d1">o</c><expan><ex><c xml:id="cd357cbe-5842-11ee-a013-4e7b8ce151d1">n</c></ex><abbr><c xml:id="cd357cf0-5842-11ee-a013-4e7b8ce151d1">s</c></abbr><ex><c xml:id="cd357d54-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd357d22-5842-11ee-a013-4e7b8ce151d1">l</c></ex></expan><c xml:id="cd357dc2-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="cd357dae-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="cd357d9a-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="cd357d86-5842-11ee-a013-4e7b8ce151d1">)</c><c xml:id="cd357d68-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="cd357e58-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="cd357e44-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd357e30-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd357e12-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd357dfe-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="cd357dea-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="cd357f52-5842-11ee-a013-4e7b8ce151d1">R</c><c xml:id="cd357f3e-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="cd357f2a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="cd357f0c-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="cd357ef8-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="cd357ee4-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="cd357ec6-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="cd357eb2-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="cd357e9e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd357e8a-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><expan><abbr><c xml:id="cd358006-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="cd357fd4-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="cd357fac-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="cd3580c4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd358092-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="cd358060-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd358038-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="cd35815a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="cd358146-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="cd358132-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd35811e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd35810a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd358100-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="cd3580ec-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd3580d8-5842-11ee-a013-4e7b8ce151d1">p</c></supplied><c xml:id="cd3581fa-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd3581e6-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="cd3581d2-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="cd3581b4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd3581a0-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="cd358182-5842-11ee-a013-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="cd358646-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="cd35861e-5842-11ee-a013-4e7b8ce151d1">(</c><c xml:id="cd3585f6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="cd3585c4-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="cd35859c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd358574-5842-11ee-a013-4e7b8ce151d1">)</c><c xml:id="cd358542-5842-11ee-a013-4e7b8ce151d1">?</c><c xml:id="cd35851a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="cd3584f2-5842-11ee-a013-4e7b8ce151d1">K</c><c xml:id="cd3584c0-5842-11ee-a013-4e7b8ce151d1">(</c><c xml:id="cd358498-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="cd358470-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="cd35843e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd358416-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd3583a8-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd358376-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="cd35834e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="cd358326-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd3582f4-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="cd3582cc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd3582a4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd358272-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="cd35824a-5842-11ee-a013-4e7b8ce151d1">)</c></supplied><c xml:id="cd35865a-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost"><c xml:id="cd3586f0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="cd3586c8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="cd3586a0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr>Fl</abbr><ex>avi</ex></expan>? <expan><abbr>S</abbr><ex>carbantiensium</ex></expan>? <expan><abbr>dec</abbr><ex>reto</ex></expan></supplied><c xml:id="cd358704-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cd35879a-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="cd358768-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="cd358740-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="cd3588c6-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd35889e-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="cd358876-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="cd35884e-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="cd35881c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="cd3587f4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="cd3587cc-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="cd3588da-5842-11ee-a013-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae &amp;ndash; Negotin (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011827</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011827</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">sarcophagus?</objectType><dimensions unit="cm"><height>27</height><width>(122)</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207365">Aquae</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/786819">Negotin</placeName><placeName type="findspot">{Prahovo}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011827_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Marcius</name></persName></person><person xml:id="HD011827_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Valerius</name><name type="cognomen">Clemens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>ILJug: Z. 3: m(ater) m(emoriam) f(ecit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1971, 0426.</bibl><bibl>ILJug 0464.</bibl><bibl>M. Mirkovi&#263;, ZAnt 15, 1965, 390-391, Nr. 9; sl. 9 (Zeichnung). - AE 1971.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="b4c4aa34-583c-11ee-a8fa-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="b4c4aa84-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="1"><c xml:id="b4c4ab42-583c-11ee-a8fa-4e7b8ce151d1">M</c><c xml:id="b4c4ab2e-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="b4c4ab1a-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="b4c4ab06-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="b4c4aaf2-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4aade-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="b4c4aaca-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="b4c4aab6-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4abb0-583c-11ee-a8fa-4e7b8ce151d1">P</c></abbr><ex><c xml:id="b4c4acdc-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="b4c4acb4-583c-11ee-a8fa-4e7b8ce151d1">b</c><c xml:id="b4c4ac82-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="b4c4ac50-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4ac28-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="b4c4abec-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><c xml:id="b4c4adb8-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="b4c4ada4-583c-11ee-a8fa-4e7b8ce151d1">V</c><c xml:id="b4c4ad90-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="b4c4ad7c-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="b4c4ad5e-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="b4c4ad4a-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="b4c4ad36-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4ad22-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="b4c4ad0e-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="b4c4acfa-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="b4c4ae8a-583c-11ee-a8fa-4e7b8ce151d1">C</c><c xml:id="b4c4ae76-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="b4c4ae58-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="b4c4ae44-583c-11ee-a8fa-4e7b8ce151d1">m</c><c xml:id="b4c4ae30-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="b4c4ae1c-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="b4c4ae08-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="b4c4adea-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4aeda-583c-11ee-a8fa-4e7b8ce151d1">M</c></abbr><ex><c xml:id="b4c4af98-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="b4c4af70-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="b4c4af3e-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="b4c4af0c-583c-11ee-a8fa-4e7b8ce151d1">i</c></ex></expan><c xml:id="b4c4afac-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4afe8-583c-11ee-a8fa-4e7b8ce151d1">f</c></abbr><ex><c xml:id="b4c4b0ce-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b0a6-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="b4c4b074-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b04c-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="b4c4b01a-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><c xml:id="b4c4b0e2-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4b182-583c-11ee-a8fa-4e7b8ce151d1">v</c><c xml:id="b4c4b150-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b11e-583c-11ee-a8fa-4e7b8ce151d1">x</c></abbr><ex><c xml:id="b4c4b1dc-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b1b4-583c-11ee-a8fa-4e7b8ce151d1">t</c></ex></expan><c xml:id="b4c4b1f0-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4b22c-583c-11ee-a8fa-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="b4c4b290-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="b4c4b25e-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><c xml:id="b4c4b2a4-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="b4c4b2e0-583c-11ee-a8fa-4e7b8ce151d1">V</c><c xml:id="b4c4b2c2-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4b31c-583c-11ee-a8fa-4e7b8ce151d1">h</c></abbr><ex><c xml:id="b4c4b380-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b34e-583c-11ee-a8fa-4e7b8ce151d1">c</c></ex></expan><c xml:id="b4c4b394-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4b3d0-583c-11ee-a8fa-4e7b8ce151d1">s</c></abbr><ex><c xml:id="b4c4b48e-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b45c-583c-11ee-a8fa-4e7b8ce151d1">t</c><c xml:id="b4c4b42a-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="b4c4b402-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><c xml:id="b4c4b4a2-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4b4de-583c-11ee-a8fa-4e7b8ce151d1">e</c></abbr><ex><c xml:id="b4c4b538-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="b4c4b510-583c-11ee-a8fa-4e7b8ce151d1">t</c></ex></expan><c xml:id="b4c4b56a-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="b4c4b54c-583c-11ee-a8fa-4e7b8ce151d1">m</c><expan><ex><c xml:id="b4c4b5a6-583c-11ee-a8fa-4e7b8ce151d1">e</c></ex><abbr><c xml:id="b4c4b5d8-583c-11ee-a8fa-4e7b8ce151d1">m</c></abbr><ex><c xml:id="b4c4b6be-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="b4c4b68c-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="b4c4b664-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b632-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="b4c4b60a-583c-11ee-a8fa-4e7b8ce151d1">m</c></ex></expan><c xml:id="b4c4b6d2-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b4c4b70e-583c-11ee-a8fa-4e7b8ce151d1">f</c></abbr><ex><c xml:id="b4c4b7cc-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="b4c4b79a-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="b4c4b772-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="b4c4b740-583c-11ee-a8fa-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

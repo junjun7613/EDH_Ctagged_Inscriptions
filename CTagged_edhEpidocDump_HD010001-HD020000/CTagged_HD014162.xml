@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brocavum &amp;ndash; Brougham (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014162</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014162</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Penrith, bei, Garth, Clifton</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(30)</height><width>(58)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89127">Brocavum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1967"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Brougham</placeName><placeName type="findspot">{R&#246;mische Nekropole}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014162_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-02" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 4 ]ISONPI statt [---]is patri[---]. Die Inschrift besteht aus 3 aneinanderpassenden Fragmenten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0252. (B)</bibl><bibl>R.P. Wright, JRS 58, 1968, 209, Nr. 21. - AE 1968. (B)</bibl><bibl>RIB 3243; Foto u. Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="9a521d94-583c-11ee-a8fa-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="9a52221c-583c-11ee-a8fa-4e7b8ce151d1">M</c><c xml:id="9a5221fe-583c-11ee-a8fa-4e7b8ce151d1">T</c><c xml:id="9a5221a4-583c-11ee-a8fa-4e7b8ce151d1">A</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9a522244-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="9a522320-583c-11ee-a8fa-4e7b8ce151d1">P</c></supplied><c xml:id="9a522406-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="9a5223f2-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="9a5223d4-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="9a5223c0-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="9a5223ac-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="9a522398-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="9a522384-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="9a522366-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="9a522352-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="9a52233e-583c-11ee-a8fa-4e7b8ce151d1">M</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9a522438-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="9a5224d8-583c-11ee-a8fa-4e7b8ce151d1">v</c><c xml:id="9a52249c-583c-11ee-a8fa-4e7b8ce151d1">i</c></supplied><c xml:id="9a522604-583c-11ee-a8fa-4e7b8ce151d1">x</c><c xml:id="9a5225f0-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="9a5225dc-583c-11ee-a8fa-4e7b8ce151d1">t</c><c xml:id="9a5225be-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="9a5225aa-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="9a52258c-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="9a522578-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="9a52255a-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="9a522546-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="9a522532-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="9a52251e-583c-11ee-a8fa-4e7b8ce151d1">L</c><c xml:id="9a522500-583c-11ee-a8fa-4e7b8ce151d1">X</c><c xml:id="9a5224ec-583c-11ee-a8fa-4e7b8ce151d1">X</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9a522640-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9a5226ea-583c-11ee-a8fa-4e7b8ce151d1">I</c><c xml:id="9a5226cc-583c-11ee-a8fa-4e7b8ce151d1">S</c><c xml:id="9a5226b8-583c-11ee-a8fa-4e7b8ce151d1">O</c><c xml:id="9a52269a-583c-11ee-a8fa-4e7b8ce151d1">N</c><c xml:id="9a52267c-583c-11ee-a8fa-4e7b8ce151d1">P</c><c xml:id="9a522668-583c-11ee-a8fa-4e7b8ce151d1">I</c><gap reason="lost" quantity="1" unit="line" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

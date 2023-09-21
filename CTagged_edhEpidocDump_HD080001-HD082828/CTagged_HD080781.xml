@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List? from Morken - Harff (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080781</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080781</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(43)</height><width>(49)</width><depth>(22)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1958"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2869232">Morken - Harff</placeName><placeName type="findspot">Heiligtum der Matronae Austriahenae</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080781_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Iulius*</name><name type="cognomen">Similis+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019931" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b06d31ce-697e-4ea3-a6ed-4f088ac11cb3/file/id/780003/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z.2: Verwendung eines aspirierten Velars. Zwei nicht aneinanderpassende, jeweils aus mehreren Fragmenten zusammengesetzte Teile erhalten. Abmessungen: a): s.o.; b): (23) x (50) x (22).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H.-G. Kolbe, BJ 160, 1960, 71-72, Nr. 32; Taf. 18, 32; Abb. 17 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="6bb45ebe-5843-11ee-9558-4e7b8ce151d1">
+</c><c xml:id="6bb45eaa-5843-11ee-9558-4e7b8ce151d1">M</c><c xml:id="6bb45e96-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="6bb45e82-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="6bb45e6e-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="6bb45e50-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="6bb45e32-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="6bb45db0-5843-11ee-9558-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="6bb45f22-5843-11ee-9558-4e7b8ce151d1">s</c></supplied><c xml:id="6bb45f40-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><c xml:id="6bb45fb8-5843-11ee-9558-4e7b8ce151d1">A</c><c xml:id="6bb45f86-5843-11ee-9558-4e7b8ce151d1">u</c></supplied><c xml:id="6bb4612a-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="6bb46116-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="6bb46102-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="6bb460ee-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb460da-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="6bb460c6-5843-11ee-9558-4e7b8ce151d1">&amp;</c><c xml:id="6bb460b2-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="6bb4609e-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="6bb4608a-5843-11ee-9558-4e7b8ce151d1">;</c><c xml:id="6bb46076-5843-11ee-9558-4e7b8ce151d1">h</c><c xml:id="6bb46062-5843-11ee-9558-4e7b8ce151d1">=</c><c xml:id="6bb4604e-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="6bb4603a-5843-11ee-9558-4e7b8ce151d1">&amp;</c><c xml:id="6bb46026-5843-11ee-9558-4e7b8ce151d1">g</c><c xml:id="6bb46012-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="6bb45ffe-5843-11ee-9558-4e7b8ce151d1">;</c><c xml:id="6bb45fea-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="6bb45fd6-5843-11ee-9558-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="6bb461d4-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="6bb46198-5843-11ee-9558-4e7b8ce151d1">b</c></supplied></line><line break="no" n="3"><supplied reason="lost"><c xml:id="6bb4622e-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="6bb46206-5843-11ee-9558-4e7b8ce151d1">s</c></supplied><c xml:id="6bb46242-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="6bb4627e-5843-11ee-9558-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="6bb463a0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="6bb4636e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb4633c-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="6bb46314-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="6bb462e2-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="6bb462b0-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="6bb463b4-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="6bb46440-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="6bb46418-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="6bb463f0-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="6bb464d6-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb464a4-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="6bb46472-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="6bb4653a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="6bb4651c-5843-11ee-9558-4e7b8ce151d1">S</c><c xml:id="6bb464fe-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb464ea-5843-11ee-9558-4e7b8ce151d1">m</c><supplied reason="lost" cert="low"><c xml:id="6bb465f8-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb465d0-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="6bb4659e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb46576-5843-11ee-9558-4e7b8ce151d1">s</c></supplied><c xml:id="6bb4660c-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><c xml:id="6bb466c0-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="6bb46698-5843-11ee-9558-4e7b8ce151d1">x</c><c xml:id="6bb46666-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="6bb4663e-5843-11ee-9558-4e7b8ce151d1">i</c></supplied><expan><abbr><c xml:id="6bb4671a-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="6bb466f2-5843-11ee-9558-4e7b8ce151d1">p</c></abbr><ex><c xml:id="6bb467c4-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="6bb4679c-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="6bb46774-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb4674c-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="6bb467d8-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="6bb4686e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb46846-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="6bb46814-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex><c xml:id="6bb46918-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="6bb468f0-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="6bb468c8-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="6bb468a0-5843-11ee-9558-4e7b8ce151d1">m</c></ex></expan><c xml:id="6bb4692c-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="6bb46968-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex><c xml:id="6bb46a44-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="6bb46a12-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="6bb469ea-5843-11ee-9558-4e7b8ce151d1">v</c><c xml:id="6bb469c2-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb4699a-5843-11ee-9558-4e7b8ce151d1">t</c></ex></expan><c xml:id="6bb46a58-5843-11ee-9558-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="6bb46a8a-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="6bb46b66-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb46b3e-5843-11ee-9558-4e7b8ce151d1">b</c><c xml:id="6bb46b0c-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="6bb46ae4-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="6bb46abc-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="6bb46b7a-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="6bb46bb6-5843-11ee-9558-4e7b8ce151d1">m</c></abbr><ex><c xml:id="6bb46c92-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="6bb46c6a-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="6bb46c38-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="6bb46c10-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="6bb46be8-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan></supplied><c xml:id="6bb46cb0-5843-11ee-9558-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Ilerda - Osca, inter &amp;ndash; Almacelles (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052035</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052035</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Cugat del Vall&#232;s, Serv. Rest. Gen.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(41)</height><width>63</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.2-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#">Ilerda - Osca, inter</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3130331">Almacelles</placeName><placeName type="findspot" /><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052035_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Sechs nicht aneinanderpassende Fragmente, davon drei mit Inschriftteilen. Die angegebenen Ma&#223;e und die Buchstabenh&#246;he beziehen sich auf Fragment a. Fragment b: (30) x (20) cm; Buchstabenh&#246;he 10 cm. Fragment c: (24) x (32) cm; Buchstabenh&#246;he 9 cm. Lesung anhand der Fotografie nur teilweise &#252;berpr&#252;fbar. Text 1 Z. 1: der untere Teil der Zeile ist erhalten; statt p]on[t]if(ex)(?) auch p]on[t(ifex)?] m&#246;glich. Text 2: Z. 1: statt pot(estate)? auch potestate? denkbar. Bei der Abbildungsnummer in IRC handelt es sich um einen Druckfehler.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 0830.</bibl><bibl>IRC 2 (Suppl.) 105, pl. 37.</bibl><bibl>HEp 12, 2002, 0322.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">p</supplied><expan><abbr>on<supplied reason="lost">t</supplied>if</abbr><ex>ex</ex></expan><certainty match="preceding-sibling::node()" locus="value" /> m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imus</ex></expan></supplied> <lb n="2" /><supplied reason="lost">via</supplied> Augusta <lb n="3" /><supplied reason="lost">CC</supplied>XLIIII </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /> tri<supplied reason="lost"><expan><abbr>b</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan>? <gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /> III <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from T&#225;p? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040567</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040567</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pannonhalma, Erzabtei Martinsberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(109)</height><width>101</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044163">T&#225;p?</placeName><placeName type="findspot" /><placeName type="region">Gy&#337;r-Moson-Sopron megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040567_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Orapus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente erhalten. Oberhalb des Inschriftfeldes Rest einer m&#228;nnlichen B&#252;ste. Materialangabe nach lupa 3357 und RIU 0274; Farkas - Gabler: Sandstein. Zwei hederae zwischen D und M in Z. 1. (B): CIL 03, 04384: Z. 2: O[--]pus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04384. (B)</bibl><bibl>RIU 0274; Abb. 274 (Foto u. Zeichnung).</bibl><bibl>Z. Farkas - D. Gabler, Die Skulpturen des Stadtgebietes von Scarbantia und der Limesstrecke Ad Flexum - Arrabona, CSIR Ungarn 2 (Budapest 1994) 82, Nr. 102; Taf. 37, 1 u. 37, 2.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="1f627a08-2c3a-11ee-b0b3-4e7b8ce151d0">D</c></abbr><ex><c xml:id="1f627ada-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1f627a80-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1f627b02-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1f627b5c-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="1f627d14-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1f627cce-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1f627c88-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1f627c42-2c3a-11ee-b0b3-4e7b8ce151d0">b</c><c xml:id="1f627bfc-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1f627bb6-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1f627d3c-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="1f627d96-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="1f627ef4-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1f627eae-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1f627e68-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="1f627e22-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1f627ddc-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1f627f1c-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1f628002-2c3a-11ee-b0b3-4e7b8ce151d0">A</c><c xml:id="1f627fb2-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1f627f6c-2c3a-11ee-b0b3-4e7b8ce151d0">r</c></abbr><ex><c xml:id="1f628160-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="1f62811a-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="1f6280d4-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1f62808e-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1f628048-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1f628264-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1f628246-2c3a-11ee-b0b3-4e7b8ce151d0">O</c><c xml:id="1f62821e-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1f628200-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1f6281e2-2c3a-11ee-b0b3-4e7b8ce151d0">p</c><c xml:id="1f6281c4-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1f6281a6-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1f628188-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><supplied reason="lost" cert="low"><c xml:id="1f6282d2-2c3a-11ee-b0b3-4e7b8ce151d0">-</c></supplied><c xml:id="1f6282f0-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Rauricorum, bei &amp;ndash; Liestal (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080513</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080513</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Basel, Hist. Mus., Lap. Haus zur M&#252;cke</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>52</height><width>64</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177494">Augusta Rauricorum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1767"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659891">Liestal</placeName><placeName type="findspot">Munzach, {r&#246;mische Villa}, bei, ehemalige Kirche S. Laurentius</placeName><placeName type="region">Kanton Basel-Landschaft</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080513_1" sex="W"><persName><name type="cognomen">Prima</name></persName></person><person xml:id="HD080513_2" sex="W"><persName><name type="cognomen">Araurica</name></persName></person><person xml:id="HD080513_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Coteius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die letzte Zeile befindet sich unterhalb des profilgerahmten Inschriftfeldes. M&#246;glicherweise geh&#246;rt diese zusammen mit der Inschrift CIL 13, 05311 = https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD080512 zu einem Grabmonument, dessen Fundamentreste in der N&#228;he gefunden wurden (villa rustica, &#252;berbaut durch die moderne Laurentiuskirche, vgl. Willer 2005).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05312.</bibl><bibl>G. Walser, R&#246;mische Inschriften in der Schweiz 2 (Bern 1980) 240-241, Nr. 228; Foto.</bibl><bibl>S. Willer, R&#246;mische Grabbauten des 2. und 3. Jahrhunderts nach Christus im Rheingebiet (Mainz 2005) 217, Nr. F 16.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="67ad8d72-5843-11ee-9558-4e7b8ce151d1">
+</c><c xml:id="67ad8d5e-5843-11ee-9558-4e7b8ce151d1">P</c><c xml:id="67ad8d4a-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad8d36-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad8d22-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="67ad8d04-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="67ad8ca0-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad8dd6-5843-11ee-9558-4e7b8ce151d1">C</c></abbr><ex><c xml:id="67ad8e44-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="67ad8e12-5843-11ee-9558-4e7b8ce151d1">i</c></ex></expan><c xml:id="67ad8ed0-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67ad8ebc-5843-11ee-9558-4e7b8ce151d1">C</c><c xml:id="67ad8ea8-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="67ad8e94-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad8e80-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="67ad8e6c-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad8e58-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="67ad9038-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="67ad9006-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad8fa2-5843-11ee-9558-4e7b8ce151d1">b</c></abbr><ex><c xml:id="67ad90ec-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="67ad90c4-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad909c-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad906a-5843-11ee-9558-4e7b8ce151d1">a</c></ex></expan><c xml:id="67ad910a-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad9146-5843-11ee-9558-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="67ad91fa-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="67ad91c8-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad91a0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad9178-5843-11ee-9558-4e7b8ce151d1">m</c></ex></expan><c xml:id="67ad92a4-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67ad9290-5843-11ee-9558-4e7b8ce151d1">X</c><c xml:id="67ad9272-5843-11ee-9558-4e7b8ce151d1">V</c><c xml:id="67ad925e-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="67ad924a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67ad9236-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="67ad9222-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad920e-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="67ad94ca-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="67ad94ac-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="67ad9498-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad9484-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="67ad9470-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad945c-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67ad943e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad942a-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="67ad9416-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="67ad9402-5843-11ee-9558-4e7b8ce151d1">&amp;</c><c xml:id="67ad93ee-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="67ad93da-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad93bc-5843-11ee-9558-4e7b8ce151d1">;</c><c xml:id="67ad93a8-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad9394-5843-11ee-9558-4e7b8ce151d1">=</c><c xml:id="67ad9380-5843-11ee-9558-4e7b8ce151d1">A</c><c xml:id="67ad936c-5843-11ee-9558-4e7b8ce151d1">E</c><c xml:id="67ad9358-5843-11ee-9558-4e7b8ce151d1">&amp;</c><c xml:id="67ad933a-5843-11ee-9558-4e7b8ce151d1">g</c><c xml:id="67ad9326-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad9312-5843-11ee-9558-4e7b8ce151d1">;</c><c xml:id="67ad92fe-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad92ea-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="67ad92d6-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="67ad96a0-5843-11ee-9558-4e7b8ce151d1">A</c><c xml:id="67ad9682-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad9664-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="67ad9646-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad9628-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad960a-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad95f6-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="67ad95ce-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="67ad9574-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad9722-5843-11ee-9558-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="67ad97c2-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad9790-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="67ad9768-5843-11ee-9558-4e7b8ce151d1">a</c></ex></expan><c xml:id="67ad97d6-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="67ad9844-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="67ad9826-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad9808-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad990c-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="67ad98e4-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="67ad98bc-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="67ad988a-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex><c xml:id="67ad9998-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad9966-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad993e-5843-11ee-9558-4e7b8ce151d1">m</c></ex></expan><c xml:id="67ad99fc-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67ad99de-5843-11ee-9558-4e7b8ce151d1">V</c><c xml:id="67ad99ca-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="67ad99ac-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad9a4c-5843-11ee-9558-4e7b8ce151d1">h</c></abbr><ex><c xml:id="67ad9aa6-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad9a74-5843-11ee-9558-4e7b8ce151d1">c</c></ex></expan><c xml:id="67ad9aba-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad9b00-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex><c xml:id="67ad9bb4-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad9b8c-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad9b5a-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="67ad9b32-5843-11ee-9558-4e7b8ce151d1">e</c></ex></expan><c xml:id="67ad9bc8-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad9c0e-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex><c xml:id="67ad9c9a-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad9c68-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="67ad9c40-5843-11ee-9558-4e7b8ce151d1">t</c></ex></expan><c xml:id="67ad9cae-5843-11ee-9558-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="67ad9d80-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67ad9d6c-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="67ad9d58-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="67ad9d44-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67ad9d30-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="67ad9d26-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="67ad9d12-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="67ad9cfe-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad9cea-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="67ad9cd6-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="67ad9df8-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="67ad9dd0-5843-11ee-9558-4e7b8ce151d1">o</c></abbr><ex><c xml:id="67ad9eac-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="67ad9e7a-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67ad9e52-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67ad9e2a-5843-11ee-9558-4e7b8ce151d1">t</c></ex></expan><c xml:id="67ad9ec0-5843-11ee-9558-4e7b8ce151d1"> </c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

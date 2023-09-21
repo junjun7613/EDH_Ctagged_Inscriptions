@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Aquae Sulis &amp;ndash; Bath (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007734</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007734</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bath, Roman Baths Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>9</height><width>6</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79299">Aquae Sulis</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="findspot">{R&#246;misches Bad, Sacred Spring}</placeName><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007734_1" sex="M"><persName><name type="cognomen">Docimedis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-02" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): [D]ocimedis statt Docimedis. Gebet f&#252;r Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0465.</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 17, 1986, 430, Nr. 5. - AE 1986.</bibl><bibl>AE 1992, 1117.</bibl><bibl>J.N. Adams, Britannia 23, 1992, 14. - AE 1992. (B)</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.2/6.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c30a5e46-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="c30a5e32-583b-11ee-a136-4e7b8ce151d1">D</c><c xml:id="c30a5e28-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="c30a5e14-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="c30a5e00-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a5dec-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="c30a5dd8-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a5dc4-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="c30a5db0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a5d9c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a5d60-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><supplied reason="lost"><c xml:id="c30a5eaa-583b-11ee-a136-4e7b8ce151d1">p</c></supplied><c xml:id="c30a5f22-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a5f18-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="c30a5f04-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="c30a5ef0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a5edc-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="c30a5ec8-583b-11ee-a136-4e7b8ce151d1">i</c></abbr><ex><c xml:id="c30a5f72-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="c30a5fd6-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a5fc2-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="c30a5fae-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c30a5f9a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c30a5f86-583b-11ee-a136-4e7b8ce151d1">i</c></line><line break="no" n="3"><c xml:id="c30a6116-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="c30a6102-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a60ee-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c30a60da-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a60bc-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c30a60a8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a6094-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="c30a6080-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c30a606c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c30a6058-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a6044-583b-11ee-a136-4e7b8ce151d1">q</c><c xml:id="c30a6026-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c30a6012-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a5ffe-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="c30a61c0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a61ac-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c30a6198-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c30a617a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c30a6166-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a6152-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c30a6314-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a62ec-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c30a62ba-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="c30a6292-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="c30a626a-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c30a6238-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="c30a6210-583b-11ee-a136-4e7b8ce151d1">i</c></abbr><ex><c xml:id="c30a6346-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="c30a635a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="c30a644a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c30a6436-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c30a6422-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a6404-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="c30a63f0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a63dc-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c30a63be-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c30a63aa-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a638c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a6378-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c30a64fe-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a64d6-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c30a64a4-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex><c xml:id="c30a6530-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="c30a6544-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="c30a65b2-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="c30a6594-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a6580-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="c30a6562-583b-11ee-a136-4e7b8ce151d1">d</c><supplied reason="lost"><c xml:id="c30a6620-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c30a65f8-583b-11ee-a136-4e7b8ce151d1">t</c></supplied><c xml:id="c30a6684-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a6666-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a6652-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c30a6634-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="c30a6788-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="c30a676a-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="c30a6756-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c30a6738-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c30a671a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="c30a6706-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a66e8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a66ca-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a66ac-583b-11ee-a136-4e7b8ce151d1">u</c><supplied reason="lost"><c xml:id="c30a67d8-583b-11ee-a136-4e7b8ce151d1">o</c></supplied><c xml:id="c30a680a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a67ec-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="c30a6972-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a6954-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c30a6936-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a6918-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="c30a68fa-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c30a68dc-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c30a68be-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="c30a68a0-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c30a6882-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c30a686e-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="c30a6850-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a6832-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="9"><expan><abbr><c xml:id="c30a6ad0-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="c30a6aa8-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c30a6a80-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c30a6a4e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c30a6a26-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c30a69f4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c30a69cc-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex><c xml:id="c30a6b02-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

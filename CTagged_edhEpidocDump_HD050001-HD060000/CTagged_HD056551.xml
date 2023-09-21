@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Feldkirchen/K&#228;rnten (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056551</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056551</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/W&#246;rthersee, Landesmus. K&#228;rnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(29)</height><width>(46)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1858"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2779669">Feldkirchen/K&#228;rnten</placeName><placeName type="findspot">{Friedhof}</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056551_1" sex="M"><persName><name type="nomen">[---]nius</name><name type="cognomen">Proculus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012482" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2ac5380e-743c-49fd-8320-01c20bc5cdce/file/id/772005/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: Marmor aus Gummern. (B): Petrovitsch: Z. 2: c(enturio).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0081.</bibl><bibl>CIL 03, 04861.</bibl><bibl>G. Piccottini, Die R&#246;mersteinsammlung des Landesmuseums f&#252;r K&#228;rnten (Klagenfurt 1996) 57-58, Nr. 24; Foto.</bibl><bibl>H. Petrovitsch, Legio II Italica (Linz 2006) 110-111, Nr. Nk.04; Foto u. Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="f4843874-5841-11ee-a9c6-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /></line><line break="no" n="1"><c xml:id="f4843928-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f4843914-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f4843900-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f48438e2-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="f48438c4-5841-11ee-a9c6-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="f48439f0-5841-11ee-a9c6-4e7b8ce151d1">P</c><c xml:id="f48439be-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f4843982-5841-11ee-a9c6-4e7b8ce151d1">o</c></supplied></line><line break="no" n="2"><c xml:id="f4843b76-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="f4843b62-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f4843b4e-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="f4843b3a-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f4843b26-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="f4843b12-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f4843afe-5841-11ee-a9c6-4e7b8ce151d1">|</c><c xml:id="f4843aea-5841-11ee-a9c6-4e7b8ce151d1">(</c><c xml:id="f4843ad6-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="f4843ac2-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f4843aae-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f4843a9a-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f4843a86-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f4843a72-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f4843a5e-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f4843a4a-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f4843a36-5841-11ee-a9c6-4e7b8ce151d1">)</c><c xml:id="f4843a22-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f4843a04-5841-11ee-a9c6-4e7b8ce151d1">l</c><supplied reason="lost"><expan><abbr><c xml:id="f4843c16-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f4843be4-5841-11ee-a9c6-4e7b8ce151d1">g</c></abbr><ex><c xml:id="f4843d06-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f4843cde-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f4843cac-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f4843c7a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f4843c48-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="f4843d1a-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="f4843d6a-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f4843d56-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f4843d42-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f4843e96-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f4843e64-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f4843e3c-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f4843e0a-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="f4843de2-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f4843db0-5841-11ee-a9c6-4e7b8ce151d1">c</c></abbr><ex><c xml:id="f4843ef0-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f4843ec8-5841-11ee-a9c6-4e7b8ce151d1">e</c></ex></expan><c xml:id="f4843f0e-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="f4843f72-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="f4843f4a-5841-11ee-a9c6-4e7b8ce151d1">r</c></abbr><ex><c xml:id="f4844030-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f4843ffe-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f4843fd6-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f4843fa4-5841-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

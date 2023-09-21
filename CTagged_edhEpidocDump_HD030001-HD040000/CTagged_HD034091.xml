@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034091</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034091</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Solin, Tusculum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(32)</height><width>(29)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.9-2.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot" /><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034091_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Flavius+</name><name type="cognomen">Defensor+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 befindet sich auf dem Rahmen des Inschriftfeldes; dar&#252;ber ein Rankenornament. ILJug, Gabri&#269;evi&#263;: Z. 2: [Fl]avio; Gabri&#269;evi&#263;: Z. 4/5: Mi/[sena]tium.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0679.</bibl><bibl>B. Gabri&#269;evi&#263;, BAHD 63/64, 1961/62, 221-222, Nr. 1; sl. 1.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="dfce2dba-2c39-11ee-a36e-4e7b8ce151d0">D</c></abbr><ex><c xml:id="dfce2f90-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce2edc-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="dfce2fea-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="dfce30bc-2c39-11ee-a36e-4e7b8ce151d0">M</c></abbr><ex><c xml:id="dfce3486-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce33e6-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dfce3346-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce32b0-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="dfce3210-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dfce3170-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="dfce34cc-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" quantity="1" unit="character" /><supplied reason="lost"><c xml:id="dfce363e-2c39-11ee-a36e-4e7b8ce151d0">F</c><c xml:id="dfce359e-2c39-11ee-a36e-4e7b8ce151d0">l</c></supplied><c xml:id="dfce38f0-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce38aa-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="dfce3864-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce381e-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce37e2-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce379c-2c39-11ee-a36e-4e7b8ce151d0">D</c><c xml:id="dfce3756-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dfce3710-2c39-11ee-a36e-4e7b8ce151d0">f</c><c xml:id="dfce36ca-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dfce3684-2c39-11ee-a36e-4e7b8ce151d0">n</c><lb break="no" n="3" /><supplied reason="lost"><c xml:id="dfce3a9e-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="dfce39fe-2c39-11ee-a36e-4e7b8ce151d0">o</c></supplied><c xml:id="dfce3db4-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dfce3d6e-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce3d28-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce3cce-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce3c88-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="dfce3c42-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dfce3bfc-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce3bb6-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce3b70-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dfce3b2a-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce3ae4-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><supplied reason="lost"><c xml:id="dfce3f76-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="dfce3ed6-2c39-11ee-a36e-4e7b8ce151d0">l</c></supplied><c xml:id="dfce403e-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce4002-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="dfce3fc6-2c39-11ee-a36e-4e7b8ce151d0">s</c></abbr><ex><c xml:id="dfce41a6-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce4110-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="dfce41f6-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="dfce4534-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="dfce4494-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dfce43fe-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce435e-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dfce42be-2c39-11ee-a36e-4e7b8ce151d0">t</c></abbr><ex><c xml:id="dfce484a-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce47aa-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dfce4714-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce4674-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce45de-2c39-11ee-a36e-4e7b8ce151d0">e</c></ex></expan><c xml:id="dfce493a-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce48e0-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="dfce4890-2c39-11ee-a36e-4e7b8ce151d0">i</c><lb break="no" n="5" /><supplied reason="lost"><c xml:id="dfce4b4c-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="dfce4ab6-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dfce4a16-2c39-11ee-a36e-4e7b8ce151d0">n</c></supplied><c xml:id="dfce4e6c-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce4e12-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dfce4dc2-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce4d7c-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dfce4d2c-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="dfce4cdc-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce4c8c-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dfce4c3c-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dfce4bec-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dfce4b92-2c39-11ee-a36e-4e7b8ce151d0">i</c><lb break="no" n="6" /><supplied reason="lost"><c xml:id="dfce5330-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce5290-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dfce51fa-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dfce515a-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce50c4-2c39-11ee-a36e-4e7b8ce151d0">B</c><c xml:id="dfce5024-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dfce4f84-2c39-11ee-a36e-4e7b8ce151d0">i</c></supplied><c xml:id="dfce5524-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dfce54d4-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dfce5484-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce5420-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce53d0-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="dfce5376-2c39-11ee-a36e-4e7b8ce151d0">t</c><expan><ex><c xml:id="dfce561e-2c39-11ee-a36e-4e7b8ce151d0">i</c></ex><abbr><c xml:id="dfce56d2-2c39-11ee-a36e-4e7b8ce151d0">p</c></abbr><ex><c xml:id="dfce5bb4-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dfce5b1e-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dfce5a7e-2c39-11ee-a36e-4e7b8ce151d0">d</c><c xml:id="dfce59e8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce5948-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce58b2-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dfce581c-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dfce577c-2c39-11ee-a36e-4e7b8ce151d0">m</c></ex></expan><c xml:id="dfce5cc2-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce5c68-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="dfce5bfa-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="7" /><supplied reason="lost"><c xml:id="dfce6028-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="dfce5f88-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce5ef2-2c39-11ee-a36e-4e7b8ce151d0">x</c><c xml:id="dfce5e5c-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dfce5dbc-2c39-11ee-a36e-4e7b8ce151d0">t</c></supplied><c xml:id="dfce606e-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="dfce6154-2c39-11ee-a36e-4e7b8ce151d0">n</c><am>n</am></abbr><ex><c xml:id="dfce629e-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dfce61fe-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="dfce6348-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dfce62e4-2c39-11ee-a36e-4e7b8ce151d0">X</c><supplied reason="lost" cert="low"><c xml:id="dfce64ba-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="dfce641a-2c39-11ee-a36e-4e7b8ce151d0">X</c></supplied><c xml:id="dfce6500-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

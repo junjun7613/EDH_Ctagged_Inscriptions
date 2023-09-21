@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lugdunum &amp;ndash; Lyon (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050280</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050280</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167717">Lugdunum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Lyon</placeName><placeName type="findspot">Rue Pierre-Audry, La Contrescarpe</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050280_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Mercurialis</name></persName></person><person xml:id="HD050280_2" sex="M"><persName><name type="praenomen">Sex.?</name><name type="nomen">Quintinius</name><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-18" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 7 steht auf dem Rahmen. Z. 4: m&#246;glicherweise auch S(purius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1996, 1068.</bibl><bibl>J.-L. Gisclon, GalliaInf 1996, 195; fig. 129 (Zeichnung). - AE 1996.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="ed9601dc-5841-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="ed960290-5841-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="ed96031c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed9602e0-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="ed96033a-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ed96038a-5841-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ed9604ca-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ed960498-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ed960466-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed96042a-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="ed9603f8-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed9603c6-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="ed9604e8-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="ed96052e-5841-11ee-a9c6-4e7b8ce151d1">P</c></abbr><ex><c xml:id="ed96060a-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed9605ce-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="ed96059c-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="ed96056a-5841-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="ed9606dc-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed9606be-5841-11ee-a9c6-4e7b8ce151d1">A</c><c xml:id="ed9606aa-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960696-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="ed960678-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed960664-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed960650-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="ed960632-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed96061e-5841-11ee-a9c6-4e7b8ce151d1">r</c></line><line break="no" n="3"><c xml:id="ed9607d6-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="ed9607b8-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed9607a4-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="ed960786-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed960772-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ed960754-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="ed960740-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed960722-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="ed96070e-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="ed960830-5841-11ee-a9c6-4e7b8ce151d1">S</c></abbr><ex cert="low"><c xml:id="ed960948-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed96090c-5841-11ee-a9c6-4e7b8ce151d1">x</c><c xml:id="ed9608da-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="ed9608a8-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed96086c-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="ed960a9c-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed960a7e-5841-11ee-a9c6-4e7b8ce151d1">Q</c><c xml:id="ed960a60-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed960a4c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed960a2e-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ed960a10-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="ed9609fc-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed9609de-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ed9609ca-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed9609ac-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed96098e-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="ed96097a-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="ed960c0e-5841-11ee-a9c6-4e7b8ce151d1">S</c><c xml:id="ed960bf0-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960bdc-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="ed960bbe-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed960ba0-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ed960b82-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="ed960b6e-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed960b50-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="ed960b32-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed960b14-5841-11ee-a9c6-4e7b8ce151d1">h</c><c xml:id="ed960af6-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960ae2-5841-11ee-a9c6-4e7b8ce151d1">r</c></line><line break="no" n="6"><c xml:id="ed960e48-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960e20-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="ed960e02-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed960de4-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960dc6-5841-11ee-a9c6-4e7b8ce151d1">x</c><c xml:id="ed960da8-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed960d80-5841-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="ed960d62-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ed960d44-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="ed960d26-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="ed960d08-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960cea-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ed960ccc-5841-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="ed960cae-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="ed960c90-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="ed960c72-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="ed960c54-5841-11ee-a9c6-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="ed960ea2-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ed960ee8-5841-11ee-a9c6-4e7b8ce151d1">p</c></abbr><ex><c xml:id="ed961064-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ed961032-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ed960ff6-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ed960fc4-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ed960f92-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="ed960f60-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed960f24-5841-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="ed961078-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ed9610be-5841-11ee-a9c6-4e7b8ce151d1">c</c></abbr><ex><c xml:id="ed961212-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ed9611d6-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="ed9611a4-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ed961172-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="ed96112c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ed9610fa-5841-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

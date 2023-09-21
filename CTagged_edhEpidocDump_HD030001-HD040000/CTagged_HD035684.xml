@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Beograd, Sopot (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035684</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035684</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0331" notAfter-custom="0370" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">331 AD - 370 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785460">Beograd, Sopot</placeName><placeName type="findspot">{Stojnik}, Grad, s&#252;dwestlich, r&#246;mische Siedlung, sp&#228;tantikes Geb&#228;ude</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035684_1" sex="W"><persName><name type="cognomen">Hermia</name></persName></person><person xml:id="HD035684_2" sex="M"><persName><name type="cognomen">Maiorinus</name></persName></person><person xml:id="HD035684_3" sex="M"><persName><name type="cognomen">Malcus</name></persName></person><person xml:id="HD035684_4" sex="M"><persName><name type="cognomen">Primitianus+?</name></persName></person><person xml:id="HD035684_5" sex="M"><persName><name type="cognomen">Theodulus</name></persName></person><person xml:id="HD035684_6" sex="M"><persName><name type="cognomen">Victorinus+</name></persName></person><person xml:id="HD035684_7" sex="M"><persName><name type="cognomen">Zinobius (= Zenobius)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Mosaikfu&#223;boden eines sp&#228;tantiken Geb&#228;udes (Kirche?) mit 9 Stifterinschriften.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 1, 151-159; Fotos.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> fec<supplied reason="lost" cert="low">it</supplied><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">vo</supplied><lb break="no" n="1" />to ba<supplied reason="lost" cert="low">silicam? ---</supplied> </div><div n="2" type="textpart"><lb n="1" /> Her<lb break="no" n="2" />mia <lb n="3" />cum suos <note>sic</note> <lb n="4" />voto <expan><abbr>fec</abbr><ex>it</ex></expan> <lb n="5" /><expan><abbr>ped</abbr><ex>es</ex></expan> CL </div><div n="3" type="textpart"><lb n="1" /> Mai<lb break="no" n="2" />orinus <lb n="3" /><expan><abbr>principal</abbr><ex>is</ex></expan> <lb n="4" />voto <expan><abbr>feci</abbr><ex>t</ex></expan> <lb n="5" /><expan><abbr>ped</abbr><ex>es</ex></expan> CLXX </div><div n="4" type="textpart"><lb n="1" /> Mal<lb break="no" n="2" />cus Sy<lb break="no" n="3" />rus <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> L </div><div n="5" type="textpart"><lb n="1" /> Pri<supplied reason="lost">mi</supplied><lb break="no" n="2" />ti<supplied reason="lost" cert="low">anus</supplied> <lb n="3" />PI<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" />P<gap reason="lost" quantity="1" unit="line" /> </div><div n="6" type="textpart"><lb n="1" /> Theo<lb break="no" n="2" />dulus len<lb break="no" n="3" />tiararius <lb n="4" /><expan><abbr>fe</abbr><ex>cit</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XX </div><div n="7" type="textpart"><lb n="1" /> Vict<supplied reason="lost">o</supplied><lb break="no" n="2" />rinu<supplied reason="lost">s cu</supplied><lb break="no" n="3" />m su<supplied reason="lost">is vo</supplied><lb break="no" n="4" />to fecit <lb n="5" /><expan><abbr>ped</abbr><ex>es</ex></expan> L </div><div n="8" type="textpart"><lb n="1" /> Zino<lb break="no" n="2" />bius <note>sic</note> <lb n="3" />f<expan><ex>e</ex><abbr>c</abbr><ex>it</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> L </div><div n="9" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="1" />voto <expan><abbr>feci</abbr><ex>t</ex></expan> <lb n="2" /><expan><abbr>ped</abbr><ex>es</ex></expan> CLXX</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

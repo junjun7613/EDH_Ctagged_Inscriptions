@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Siscia &amp;ndash; Sisak (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064403</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064403</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">slab?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(56)</height><width>(32)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197504">Siscia</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190813">Sisak</placeName><placeName type="findspot" /><placeName type="region">Sisa&#269;ko-moslava&#269;ka &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064403_1" sex="M"><persName><name type="cognomen">Paulinus</name></persName></person><person xml:id="HD064403_2" sex="M"><persName><name type="cognomen">Lucerinis?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-08-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei aneiananderpassende Fragmente erhalten. Z. 2: LVCERI/NIS am Zeilenende nachtr&#228;glich in kleineren Buchstaben eingef&#252;gt. (B): CIL 03, 03991; AIJ; Demo: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03991. (B)</bibl><bibl>AIJ 574; Foto. (B)</bibl><bibl>&#381;. Demo u. a., in: &#381;. Demo (Hrsg.), Od nepobjedivog sunca do sunca pravde. Rano r&#353;&#263;anstvo u kontinentalnjo Hrvatskoj (Zagreb 1994) 82, Nr. 40; Foto. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><abbr><c xml:id="92e2c35c-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="92e2c2ee-2c3a-11ee-b679-4e7b8ce151d0">t</c></abbr><c xml:id="92e2c38e-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2c636-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2c618-2c3a-11ee-b679-4e7b8ce151d0">P</c><c xml:id="92e2c5f0-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="92e2c5d2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="92e2c5b4-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="92e2c58c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2c56e-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="92e2c546-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2c528-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2c500-2c3a-11ee-b679-4e7b8ce151d0">L</c><c xml:id="92e2c4e2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="92e2c4c4-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="92e2c49c-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="92e2c47e-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="92e2c456-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2c438-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="92e2c410-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2c3f2-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="92e2c3ca-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2c80c-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2c7e4-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="92e2c7bc-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="92e2c794-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2c776-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="92e2c74e-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="92e2c726-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="92e2c6fe-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2c6d6-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="92e2c6ae-2c3a-11ee-b679-4e7b8ce151d0">u</c><supplied reason="lost"><c xml:id="92e2c88e-2c3a-11ee-b679-4e7b8ce151d0">s</c></supplied><c xml:id="92e2c8b6-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2ca14-2c3a-11ee-b679-4e7b8ce151d0">R</c><c xml:id="92e2c9ec-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2c9ba-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="92e2c992-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="92e2c96a-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="92e2c942-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="92e2c91a-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="92e2c8f2-2c3a-11ee-b679-4e7b8ce151d0">v</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2ca64-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="5" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2cc6c-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="92e2cc44-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="92e2cc12-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2cbea-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="92e2cbb8-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="92e2cb86-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="92e2cb5e-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="92e2cb2c-2c3a-11ee-b679-4e7b8ce151d0">d</c><c xml:id="92e2cafa-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2cad2-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="92e2caa0-2c3a-11ee-b679-4e7b8ce151d0">t</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2ccd0-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="6" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2cec4-2c3a-11ee-b679-4e7b8ce151d0">T</c><c xml:id="92e2ce92-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2ce60-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="92e2ce2e-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2cdfc-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="92e2cdd4-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="92e2cda2-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2cd70-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="92e2cd3e-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="92e2cd0c-2c3a-11ee-b679-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2cf28-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="7" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2d0a4-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="92e2d072-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2d040-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="92e2d00e-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2cfd2-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="92e2cfa0-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="92e2cf6e-2c3a-11ee-b679-4e7b8ce151d0">c</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2d0fe-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="8" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="92e2d20c-2c3a-11ee-b679-4e7b8ce151d0">g</c><c xml:id="92e2d1bc-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="92e2d16c-2c3a-11ee-b679-4e7b8ce151d0">a</c></supplied><c xml:id="92e2d374-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="92e2d338-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="92e2d306-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="92e2d2d4-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="92e2d298-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="92e2d266-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="92e2d22a-2c3a-11ee-b679-4e7b8ce151d0">g</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="92e2d3ce-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novi Pazar (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011294</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011294</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><dimensions unit="cm"><height>(70)</height><width>(50)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/787595">Novi Pazar</placeName><placeName type="findspot">{Pazari&#353;te}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011294_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Seneca+</name></persName></person><person xml:id="HD011294_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-11-20" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment einer Stele oder vom Mittelteil eines Altars oder einer Statuenbasis; gefunden in Wiederverwendung f&#252;r ein fr&#252;hchristliches Grab. Z. 1: hinter V noch der untere Rest einer senkrechten oder schr&#228;g aufsteigenden Haste. (B): Pavlovi&#263; - Mini&#263; - Jovanovi&#263; - Pop-Lazi&#263; - Popovi&#263;; AE 1973: Z. 1 nicht wiedergegeben; AE 1973: Z. 6/7: Zeilenfall fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0406. (B)</bibl><bibl>S. Pavlovi&#263; - D. Mini&#263; - V. Jovanovi&#263; - P. Pop-Lazi&#263; - M. Popovi&#263;, APregl 15, 1973, 105-107; t. 64, 2. (B) - AE 1973.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="69edba0a-583c-11ee-a8fa-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="69edba96-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="1"><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="69edbabe-583c-11ee-a8fa-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="69edbadc-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><c xml:id="69edbb2c-583c-11ee-a8fa-4e7b8ce151d1">S</c></supplied><c xml:id="69edbbb8-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="69edbb9a-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="69edbb86-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="69edbb72-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="69edbb5e-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="69edbb4a-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="69edbc62-583c-11ee-a8fa-4e7b8ce151d1">v</c><c xml:id="69edbc4e-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="69edbc3a-583c-11ee-a8fa-4e7b8ce151d1">x</c><c xml:id="69edbc26-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="69edbc1c-583c-11ee-a8fa-4e7b8ce151d1">t</c><c xml:id="69edbc08-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="69edbbf4-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="69edbbe0-583c-11ee-a8fa-4e7b8ce151d1">n</c></line><line break="no" n="4"><c xml:id="69edbd16-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="69edbd0c-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="69edbcf8-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="69edbcda-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="69edbcc6-583c-11ee-a8fa-4e7b8ce151d1">X</c><c xml:id="69edbcb2-583c-11ee-a8fa-4e7b8ce151d1">X</c><c xml:id="69edbca8-583c-11ee-a8fa-4e7b8ce151d1">V</c><c xml:id="69edbc94-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="69edbd66-583c-11ee-a8fa-4e7b8ce151d1">M</c></abbr><ex><c xml:id="69edbe4c-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="69edbe24-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="69edbdf2-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="69edbdca-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="69edbd98-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><c xml:id="69edbe60-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="69edbeec-583c-11ee-a8fa-4e7b8ce151d1">U</c><c xml:id="69edbec4-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="69edbe9c-583c-11ee-a8fa-4e7b8ce151d1">p</c></abbr><ex><c xml:id="69edbf6e-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="69edbf46-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="69edbf1e-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><c xml:id="69edbfaa-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="69edbf96-583c-11ee-a8fa-4e7b8ce151d1">S</c><c xml:id="69edbf82-583c-11ee-a8fa-4e7b8ce151d1">e</c></line><line break="no" n="6"><c xml:id="69edc040-583c-11ee-a8fa-4e7b8ce151d1">v</c><c xml:id="69edc02c-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="69edc00e-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="69edbffa-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="69edbfe6-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="69edbfd2-583c-11ee-a8fa-4e7b8ce151d1"> </c><abbr><c xml:id="69edc086-583c-11ee-a8fa-4e7b8ce151d1">F</c></abbr><c xml:id="69edc09a-583c-11ee-a8fa-4e7b8ce151d1"> </c><abbr><c xml:id="69edc0cc-583c-11ee-a8fa-4e7b8ce151d1">N</c></abbr><c xml:id="69edc0e0-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="69edc112-583c-11ee-a8fa-4e7b8ce151d1">b</c></abbr><ex><c xml:id="69edc18a-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="69edc162-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="69edc13a-583c-11ee-a8fa-4e7b8ce151d1">e</c></ex></expan><c xml:id="69edc19e-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="69edc1da-583c-11ee-a8fa-4e7b8ce151d1">m</c></abbr><ex><c xml:id="69edc2ca-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="69edc2a2-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="69edc27a-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="69edc252-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="69edc22a-583c-11ee-a8fa-4e7b8ce151d1">t</c><c xml:id="69edc202-583c-11ee-a8fa-4e7b8ce151d1">i</c></ex></expan><c xml:id="69edc2de-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="69edc31a-583c-11ee-a8fa-4e7b8ce151d1">p</c></abbr><ex><c xml:id="69edc3e2-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="69edc3ba-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="69edc392-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="69edc36a-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="69edc342-583c-11ee-a8fa-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

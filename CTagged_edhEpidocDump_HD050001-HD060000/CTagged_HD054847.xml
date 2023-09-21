@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054847</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054847</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1848"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2812094">Mainz</placeName><placeName type="findspot">{Weisenau} - {Laubenheim}, zwischen</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054847_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD054847_2" sex="M"><persName><name type="nomen">Titius</name><name type="cognomen">Saturio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-07-25" who="Gr&#228;f">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014859" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/59fae2ce-0596-4c5c-8abc-e99b05eb12ff/file/id/774394/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zweifach beschriebener Altar oder Statuenbasis. Von urspr&#252;nglicher, eradierter Inschrift nur noch wenig zu erkennen. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06684.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="4bbb9d3a-5842-11ee-a9c6-4e7b8ce151d1">
+</c><del rend="erasure"><c xml:id="4bbb9eac-5842-11ee-a9c6-4e7b8ce151d1">G</c><c xml:id="4bbb9e84-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="4bbb9e52-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="4bbb9e20-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="4bbb9dee-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbb9db2-5842-11ee-a9c6-4e7b8ce151d1">m</c></del><c xml:id="4bbb9ec0-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><del rend="erasure"><c xml:id="4bbb9efc-5842-11ee-a9c6-4e7b8ce151d1">S</c><gap reason="lost" extent="unknown" unit="character" />I[<gap reason="lost" extent="unknown" unit="character" /></del><c xml:id="4bbb9f24-5842-11ee-a9c6-4e7b8ce151d1">]</c><c xml:id="4bbb9f10-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><del rend="erasure"><c xml:id="4bbb9f60-5842-11ee-a9c6-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" />I<gap reason="lost" extent="unknown" unit="character" />I[<gap reason="lost" extent="unknown" unit="character" /></del><c xml:id="4bbb9f88-5842-11ee-a9c6-4e7b8ce151d1">]</c><c xml:id="4bbb9f74-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><del rend="erasure"><c xml:id="4bbba01e-5842-11ee-a9c6-4e7b8ce151d1">S</c><c xml:id="4bbb9fec-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="4bbb9fc4-5842-11ee-a9c6-4e7b8ce151d1">[</c><gap reason="lost" extent="unknown" unit="character" /></del><c xml:id="4bbba046-5842-11ee-a9c6-4e7b8ce151d1">]</c><c xml:id="4bbba032-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><del rend="erasure"><c xml:id="4bbba0dc-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="4bbba0b4-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="4bbba082-5842-11ee-a9c6-4e7b8ce151d1">[</c><gap reason="lost" extent="unknown" unit="character" /></del><c xml:id="4bbba104-5842-11ee-a9c6-4e7b8ce151d1">]</c><c xml:id="4bbba0f0-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><del rend="erasure"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="4bbba15e-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="4bbba14a-5842-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="4bbba136-5842-11ee-a9c6-4e7b8ce151d1">L</c><c xml:id="4bbba122-5842-11ee-a9c6-4e7b8ce151d1">I</c><gap reason="lost" quantity="1" unit="character" /><c xml:id="4bbba186-5842-11ee-a9c6-4e7b8ce151d1">I</c></del><c xml:id="4bbba19a-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="7"><del rend="erasure"><c xml:id="4bbba280-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="4bbba258-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="4bbba226-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="4bbba1fe-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbba1d6-5842-11ee-a9c6-4e7b8ce151d1">m</c></del><c xml:id="4bbba294-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="8"><del rend="erasure"><c xml:id="4bbba370-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="4bbba348-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="4bbba320-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="4bbba2ee-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="4bbba2c6-5842-11ee-a9c6-4e7b8ce151d1">t</c></del><c xml:id="4bbba384-5842-11ee-a9c6-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="4bbba44c-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="4bbba438-5842-11ee-a9c6-4e7b8ce151d1">T</c><c xml:id="4bbba424-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="4bbba41a-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="4bbba406-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="4bbba3f2-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbba3de-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="4bbba3ca-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="4bbba3b6-5842-11ee-a9c6-4e7b8ce151d1">S</c><c xml:id="4bbba3a2-5842-11ee-a9c6-4e7b8ce151d1">a</c></line><line break="no" n="2"><c xml:id="4bbba500-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="4bbba4ec-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbba4d8-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="4bbba4c4-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="4bbba4b0-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="4bbba49c-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="4bbba488-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="4bbba474-5842-11ee-a9c6-4e7b8ce151d1">u</c></line><line break="no" n="3"><c xml:id="4bbba5b4-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="4bbba5a0-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="4bbba596-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="4bbba582-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="4bbba56e-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="4bbba55a-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="4bbba546-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="4bbba528-5842-11ee-a9c6-4e7b8ce151d1">m</c></line><line break="no" n="4"><c xml:id="4bbba67c-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="4bbba668-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="4bbba64a-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbba636-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="4bbba622-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="4bbba60e-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="4bbba5fa-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="4bbba5e6-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="4bbba780-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="4bbba76c-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbba74e-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="4bbba712-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="4bbba6fe-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="4bbba6ea-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="4bbba6d6-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="4bbba6b8-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="4bbba6a4-5842-11ee-a9c6-4e7b8ce151d1">i</c></line><line break="no" n="6"><c xml:id="4bbba7f8-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="4bbba7da-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="4bbba7c6-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="4bbba7b2-5842-11ee-a9c6-4e7b8ce151d1">t</c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sitifis &amp;ndash; S&#233;tif (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002984</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002984</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>52</height><width>52</width><depth>92</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/305153">Sitifis</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2481700">S&#233;tif</placeName><placeName type="findspot">Festungsbereich</placeName><placeName type="region">S&#233;tif</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002984_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Domitius</name><name type="cognomen">Pariator</name></persName></person><person xml:id="HD002984_2" sex="M"><persName><name type="cognomen">Emineus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-26" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Steinkiste. Emineus nicht belegt; vielleicht verschrieben f&#252;r Eminens, kaiserlicher Sklave (CIL VIII 12599) in Karthago, so AE 1985.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0889.</bibl><bibl>N. Benseddik, BAA 7, 1977/79 (1985) 37, Nr. 5; fig. 6. - AE 1985. (unzug&#228;nglich).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="8e024a38-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="8e024aec-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="8e024b6e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e024b32-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e024b82-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8e024bbe-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="8e024cd6-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="8e024ca4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="8e024c7c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e024c4a-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="8e024c18-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e024bf0-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e024cea-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8e024d26-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="8e024e16-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="8e024de4-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="8e024db2-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="8e024d80-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e024d58-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="8e024e2a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="8e024e66-583b-11ee-a136-4e7b8ce151d1">L</c></abbr><ex><c xml:id="8e024f4c-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e024f1a-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="8e024ef2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e024ec0-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e024e98-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e025032-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e02501e-583b-11ee-a136-4e7b8ce151d1">D</c><c xml:id="8e025014-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="8e024ff6-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="8e024fec-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e024fd8-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="8e024fc4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e024fb0-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e024f9c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="8e024f88-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e024f74-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="8e024f60-583b-11ee-a136-4e7b8ce151d1">a</c></line><line break="no" n="3"><c xml:id="8e0250f0-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="8e0250dc-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e0250be-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="8e0250aa-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="8e025096-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="8e025082-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="8e02506e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8e025136-583b-11ee-a136-4e7b8ce151d1">v</c></abbr><ex><c xml:id="8e0251ea-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e0251b8-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="8e025190-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e025168-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="8e0251fe-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8e025230-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex><c xml:id="8e0252da-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="8e0252b2-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="8e02528a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="8e025262-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e025352-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e02533e-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="8e025320-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e02530c-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e0252f8-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="8e025398-583b-11ee-a136-4e7b8ce151d1">m</c></abbr><ex><c xml:id="8e025474-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="8e02544c-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="8e02541a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="8e0253f2-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="8e0253ca-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e0254ec-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e0254ce-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="8e0254ba-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e02549c-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e025488-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8e025528-583b-11ee-a136-4e7b8ce151d1">d</c></abbr><ex><c xml:id="8e0255b4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e02558c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="8e02555a-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e025654-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e025640-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="8e025622-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e02560e-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e0255fa-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e0255dc-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e0255c8-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8e0256a4-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="8e02574e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="8e025726-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="8e0256f4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="8e0256cc-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="8e0257a8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e025794-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="8e025780-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="8e025762-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="8e02592e-583b-11ee-a136-4e7b8ce151d1">E</c><c xml:id="8e025910-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="8e0258f2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e0258d4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="8e0258c0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="8e0258a2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e025884-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="8e025870-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e025852-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="8e02583e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e025820-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="8e02580c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e0257ee-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="8e0257da-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="8e025b0e-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="8e025af0-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="8e025adc-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="8e025abe-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="8e025aa0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e025a82-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="8e025a64-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="8e025a50-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e025a32-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="8e025a14-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="8e0259f6-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="8e0259e2-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="8e0259c4-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="8e0259a6-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="8e025988-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="8e02596a-583b-11ee-a136-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

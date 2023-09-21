@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Livno (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034056</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034056</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Livno</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(19)</height><width>(22)</width><depth>(23)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3193018">Livno</placeName><placeName type="findspot">{Podgradina}</placeName><placeName type="region">Hercegbosanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034056_1" sex="M"><persName><name type="cognomen">Maxi[---]</name></persName></person><person xml:id="HD034056_2" sex="M"><persName><name type="cognomen">0?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-10" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1785.</bibl><bibl>D. Sergejevski, GlasSarajevo 43, 1931, 21-23, Nr. 6; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="e086db58-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="e086db3a-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="e086db12-2c39-11ee-a36e-4e7b8ce151d0">x</c><c xml:id="e086dab8-2c39-11ee-a36e-4e7b8ce151d0">i</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e086db9e-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="e086dc52-2c39-11ee-a36e-4e7b8ce151d0">f</c><c xml:id="e086dc2a-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="e086dc0c-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="e086dbe4-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="e086dbc6-2c39-11ee-a36e-4e7b8ce151d0">u</c><supplied reason="lost"><c xml:id="e086dcd4-2c39-11ee-a36e-4e7b8ce151d0">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e086dcfc-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

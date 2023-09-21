@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Teurnia, bei &amp;ndash; Dellach/Gailtal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056423</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056423</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dellach/Gailtal 13, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(51)</height><width>(45)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1951"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2781061">Dellach/Gailtal</placeName><placeName type="findspot">{Parzelle Nr. 1620 (heute 1591/3?)}</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056423_1" sex="W"><persName><name type="nomen">[---]tia?</name><name type="cognomen">Candala</name></persName></person><person xml:id="HD056423_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Marius</name><name type="cognomen">Priamus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-20" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 (Anfang): vom T(?) nur die senkrechte Haste erhalten. (B): Dolenz; Gerstl; Leber; ILLPRON: Z. 1: [---]iae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>P.S. Leber, Die in K&#228;rnten seit 1902 gefundenen r&#246;mischen Steininschriften (Klagenfurt 1972) 166-167, Nr. 309. (B)</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III f&#252;r K&#228;rnten und Osttirol 1902-1961 (Diss. Wien 1961) 103, Nr. 284. (B)</bibl><bibl>H. Dolenz, Carinthia I 145, 1955, 119-120; Zeichnung.</bibl><bibl>ILLPRON 0055. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="de197022-5841-11ee-a9c6-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="de1970c2-5841-11ee-a9c6-4e7b8ce151d1">T</c></abbr><ex cert="low" /><c xml:id="de197108-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de1970f4-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de1970e0-5841-11ee-a9c6-4e7b8ce151d1">e</c></expan><c xml:id="de197130-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="de19716c-5841-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="de197220-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de1971f8-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="de1971d0-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="de19719e-5841-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="de19723e-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="de197270-5841-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="de197392-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de19736a-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="de197342-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="de19731a-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="de1972f2-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="de1972ca-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de1972a2-5841-11ee-a9c6-4e7b8ce151d1">e</c></ex></expan><c xml:id="de1973a6-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="de197496-5841-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="de197482-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de19746e-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="de19745a-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="de197446-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de197432-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="de19741e-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de19740a-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="de197400-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="de1973ec-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="de1973d8-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="de1973c4-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="de197518-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="de197504-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de1974f0-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de1974dc-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="de1974c8-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="de197554-5841-11ee-a9c6-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="de19764e-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de197626-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de1975fe-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="de1975d6-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="de1975ae-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de197586-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="de1976f8-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="de1976e4-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="de1976d0-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de1976bc-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="de19769e-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de19768a-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de197676-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="de197662-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="de19778e-5841-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="de197766-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="de19773e-5841-11ee-a9c6-4e7b8ce151d1">a</c></abbr><ex><c xml:id="de197838-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de197810-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="de1977e8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de1977c0-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="de19784c-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="de197900-5841-11ee-a9c6-4e7b8ce151d1">P</c><c xml:id="de1978ec-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="de1978d8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de1978c4-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="de1978b0-5841-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="de197892-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de19787e-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="de19786a-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="de197946-5841-11ee-a9c6-4e7b8ce151d1">v</c></abbr><ex><c xml:id="de1979fa-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de1979c8-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="de1979a0-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="de197978-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="de197a0e-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="de197a40-5841-11ee-a9c6-4e7b8ce151d1">f</c></abbr><ex><c xml:id="de197aea-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="de197ac2-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="de197a9a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="de197a72-5841-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

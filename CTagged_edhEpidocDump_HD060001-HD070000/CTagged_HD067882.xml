@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae Granni &amp;ndash; Aachen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067882</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067882</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aachen, Suermondt-Ludwig-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109016">Aquae Granni</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1873"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/3247449">Aachen</placeName><placeName type="findspot">{Kr&#228;merstra&#223;e 2/5}, sekund&#228;r verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067882_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Licinius+?</name><name type="cognomen">Fuscus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-07" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vermutlich Bestandteil eines &#196;dikulagrabbaus (Willer).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1061.</bibl><bibl>CIL 13, 07836.</bibl><bibl>C. Keller, Arch&#228;ologische Forschungen in Aachen. Katalog der Fundstellen in der Innenstadt und in Burtscheid (Mainz 2004) 123-124, Nr. 703/131; Abb. 72. - AE 2005.</bibl><bibl>S. Willer, R&#246;mische Grabbauten des 2. und 3. Jahrhunderts nach Christus im Rheingebiet (Mainz 2005) 111, Nr. 1.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost" cert="low"><c xml:id="8346c8a8-2c3a-11ee-b679-4e7b8ce151d0">-</c><c xml:id="8346c862-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="8346c812-2c3a-11ee-b679-4e7b8ce151d0">L</c><c xml:id="8346c79a-2c3a-11ee-b679-4e7b8ce151d0">i</c></supplied><c xml:id="8346c9a2-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="8346c984-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="8346c966-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="8346c93e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="8346c920-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="8346c902-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="8346c8da-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><supplied reason="lost" cert="low"><c xml:id="8346cab0-2c3a-11ee-b679-4e7b8ce151d0">F</c><c xml:id="8346ca6a-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="8346ca1a-2c3a-11ee-b679-4e7b8ce151d0">s</c></supplied><c xml:id="8346cbbe-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="8346cba0-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="8346cb78-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="8346cb5a-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="8346cb3c-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="8346cb14-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="8346caf6-2c3a-11ee-b679-4e7b8ce151d0">g</c><c xml:id="8346cad8-2c3a-11ee-b679-4e7b8ce151d0">o</c><lb break="no" n="3" /><supplied reason="lost"><c xml:id="8346cda8-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="8346cd58-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="8346cd12-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="8346cccc-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="8346cc86-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="8346cc36-2c3a-11ee-b679-4e7b8ce151d0">r</c></supplied><c xml:id="8346cdc6-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="8346ced4-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="8346ceac-2c3a-11ee-b679-4e7b8ce151d0">f</c><c xml:id="8346ce84-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="8346ce66-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="8346ce3e-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="8346ce20-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="8346cdf8-2c3a-11ee-b679-4e7b8ce151d0">n</c><lb break="no" n="5" /><supplied reason="lost"><c xml:id="8346d0b4-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="8346d06e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="8346d028-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="8346cfd8-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="8346cf92-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="8346cf4c-2c3a-11ee-b679-4e7b8ce151d0">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="8346d0dc-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corstopitum &amp;ndash; Corbridge (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070379</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070379</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>111</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11.4-8.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89152">Corstopitum</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652382">Corbridge</placeName><placeName type="findspot">{Trinity Terrace}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070379_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Primus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 2 Pri[s]cus statt Primus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 578 n. 1153. (B)</bibl><bibl>RIB 1174; Zeichnung.</bibl><bibl>E.J. Phillips, Corbridge. Hadrian's Wall east of the North Tyne, CSIR Great Britain 1, 1 (Oxford 1977) 27-28, Nr. 69; Pl. 21, 69.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="11d9a534-5843-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="11d9a5f2-5843-11ee-8920-4e7b8ce151d1">D</c></abbr><ex><c xml:id="11d9a692-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9a64c-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="11d9a6b0-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="11d9a6f6-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="11d9a840-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="11d9a804-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="11d9a7d2-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9a7a0-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="11d9a76e-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="11d9a732-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="11d9a854-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="11d9a8fe-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="11d9a8cc-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="11d9a89a-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="11d9a99e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9a962-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="11d9a930-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="11d9aa52-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="11d9aa3e-5843-11ee-8920-4e7b8ce151d1">P</c><c xml:id="11d9aa2a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="11d9aa0c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9a9f8-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="11d9a9e4-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="11d9a9c6-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="11d9a9b2-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="11d9aaac-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="11d9aa98-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="11d9aa84-5843-11ee-8920-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="11d9ab24-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9aaf2-5843-11ee-8920-4e7b8ce151d1">u</c></supplied><c xml:id="11d9ab6a-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="11d9ab56-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9ab38-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="11d9abb0-5843-11ee-8920-4e7b8ce151d1">c</c></abbr><ex><c xml:id="11d9ad7c-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="11d9ad4a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="11d9ad18-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9ace6-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="11d9acb4-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="11d9ac82-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9ac50-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="11d9ac1e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="11d9abec-5843-11ee-8920-4e7b8ce151d1">e</c></ex></expan><c xml:id="11d9ad90-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="11d9adcc-5843-11ee-8920-4e7b8ce151d1">p</c></abbr><ex><c xml:id="11d9af2a-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="11d9aef8-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="11d9aec6-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="11d9ae94-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="11d9ae62-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="11d9ae3a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="11d9ae08-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="11d9af48-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="11d9af84-5843-11ee-8920-4e7b8ce151d1">c</c></abbr><ex><c xml:id="11d9b0b0-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="11d9b07e-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="11d9b04c-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="11d9b024-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="11d9aff2-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="11d9afc0-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

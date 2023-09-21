@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Coriovallum &amp;ndash; Heerlen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049708</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049708</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heerlen, Thermenmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108908">Coriovallum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1971"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2754652">Heerlen</placeName><placeName type="findspot">{Putgraaf}</placeName><placeName type="region">Limburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049708_1" sex="M"><persName><name type="cognomen">Lucius</name></persName></person><person xml:id="HD049708_2" sex="W"><persName><name type="cognomen">Amaka* (= Amaca*)</name></persName></person><person xml:id="HD049708_3" sex="M"><persName><name type="cognomen">Lucius</name><name type="supernomen">diktus (= dictus) Metcius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-07-16" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Einhenkliger Krug. Z. 1 l&#228;uft um die Schulter herum, Z. 2 u. 3 laufen kopf&#252;ber oberhalb des Fu&#223;es um die Vase herum. Schreibtechnik: vor dem Brand eingeritzt (Graffito). Binsfeld; AE 1997: Alphabet und Z. 2/3 nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1155.</bibl><bibl>W. Binsfeld, TZ 60, 1997, 21, Nr. 12. - AE 1997.</bibl><bibl>J.T.J. Jamar, Over de grens 2. Romeins leven in Heerlen. R&#246;misches Leben in Heerlen (M&#246;nchengladbach 1988) 16-17; afb. 6.</bibl><bibl>A. Kakoschke, ZPE 190, 2014, 288, Nr. 3.</bibl><bibl>J.E. Bogaers, BullHerle 21, 1971, 93-95; Zeichnung. - AE 1997.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />ABCDEFGHKLMNOPQRSTVX Lucius <expan><abbr>Amaka</abbr><ex>e</ex></expan> <note>sic</note> fecit Ferenius legonam </div><div n="2" type="textpart"><lb n="1" /> Lucius <abbr>P</abbr> diktus <note>sic</note> Metcius il<expan><ex>l</ex><abbr>i</abbr></expan> fecit in of<expan><ex>f</ex><abbr>icina</abbr></expan> </div><div n="3" type="textpart"><lb n="1" /> Lucius Ferenio <expan><abbr>d</abbr><ex cert="low">eo</ex></expan> <expan><abbr>b</abbr><ex cert="low">ono</ex></expan> et <expan><abbr>p</abbr><ex cert="low">atrio</ex></expan> diko <note>sic</note></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

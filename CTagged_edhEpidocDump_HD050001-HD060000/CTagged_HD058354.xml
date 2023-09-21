@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Mediana &amp;ndash; Gnotzheim (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058354</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058354</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gunzenhausen, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(33)</height><width>(48)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.1-5.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118840">Mediana</placeName></origPlace><origDate><origDate when-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2919652">Gnotzheim</placeName><placeName type="findspot">{Lager}, Fahnenheiligtum, bei</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058354_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-07" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>IBR 308 (Texte 2-4): Text 2 besteht aus mehreren aneinanderpassenden Fragmenten; die Ma&#223;e sind die angegebenen. Die Texte 3 und 4 befinden sich jeweils auf einzelnen Fragmenten. IBR 309 (Text 1): Ma&#223;e: (15)x(16) cm. Text 1 Z. 3: wurde in kleinerer Schrift nachtr&#228;glich hinzugef&#252;gt (vgl. Datierung). Text 4 Z. 1: vom M(?) sind die unteren Teile zweier senkrechter Hasten erhalten. Text 4 Z. 2: vom ersten I(?) ist der &#228;u&#223;erste obere Teil erhalten, vom zweiten I(?) die oberen zwei Drittel einer senkrechten Haste. (B): Wagner: TZext 1: Z. 2/3: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 308; tab. 42, 308.</bibl><bibl>IBR 309; tab. 42, 309.</bibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 237, Nr. 84. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" />? <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio An</supplied><lb break="no" n="2" /><supplied reason="lost">ton</supplied>in<supplied reason="lost">o Pio Feli</supplied><lb break="no" n="3" /><supplied reason="lost">c</supplied>i Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan></supplied> <lb n="4" /><expan><abbr><supplied reason="lost">Ge</supplied>r</abbr><ex>manico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="5" /><supplied reason="lost"><expan><abbr>Parth</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>Brit</abbr><ex>annico</ex></expan></supplied> ma<supplied reason="lost" cert="low">x(imo) ---</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" />? Antoni</supplied><lb break="no" n="2" />nian<supplied reason="lost">i devotis</supplied><lb break="no" n="3" />simi num<supplied reason="lost">ini</supplied> <lb n="0" />eius <gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />RNI<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />FI<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="4" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>M</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>I</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

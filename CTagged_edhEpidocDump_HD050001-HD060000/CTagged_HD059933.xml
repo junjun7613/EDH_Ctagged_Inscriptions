@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Nida (Civitas Taunensium) &amp;ndash; Frankfurt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059933</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059933</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen (Fragment a); Frankfurt/Main, Arch. Mus. (Fragmente b u. c)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material>Gesteine</material><dimensions unit="cm"><height>(24)</height><width>(38)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.4-4.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109205">Nida (Civitas Taunensium)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1878"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2908403">Frankfurt/Main</placeName><placeName type="findspot">{Heddernheim}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-12" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039916" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ead1009d-d9f2-4a53-832d-ddb4be320929/file/id/800796/file_version/name/small" /><graphic xml:id="F039917" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/862d284c-1c3a-447e-bd81-4bd24789407b/file/id/800797/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Drei nicht aneinanderpassende Fragmente; angegebene Ma&#223;e zu Frgment a geh&#246;rig. Autopsie R. Wiegels; Frgm. a allerdings nicht auffindbar. Fragment a: Z. 2: statt I auch N m&#246;glich. Fragment c: Z. 1 (Anfang) statt I auch T m&#246;glich; Z. 2 (Ende): statt M auch A m&#246;glich; Z. 3 (Ende): statt I auch L m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07389.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />RE<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>I</abbr><ex cert="low" />S</expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />EN<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><expan><abbr>I</abbr><ex cert="low" />VMC</expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><expan><abbr>AEQVAM</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="3" />VSVI <expan><abbr>RI</abbr><ex cert="low" /></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

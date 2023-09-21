@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073443</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073443</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Sch&#252;ttkasten, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(41)</height><width>83</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.0-3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1795"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" /><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073443_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Varronius</name><name type="cognomen">Priscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-27" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberfl&#228;che stellenweise stark besch&#228;digt, Lesung Zeile 4 unsicher; direkt neben dem unteren Bogen senkrechte Haste. M&#246;glicherweise irrt&#252;mlich eingmei&#223;telt, f&#252;r B der untere Bogen zu klein und auch anscheinend der Ansatz des &#220;berganges in den oberen Bogen eines S erkennbar. Alternative Lesung: vet(eranus)? Zeile 1 befindet sich oberhalb des Inschriftfeldes. Im Inschriftfeld Girlande zwischen S&#228;ulen, unterer Teil fehlt, enthielt aber vermutlich noch weitere Teile der Inschrift. (B): Z. 1: Vorbeck: C(aius) Varronius; Z. 4: CIL 03, 04523: VBF.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04523. (B)</bibl><bibl>M.-L. Kr&#252;ger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR &#214;sterreich 1, 4 (Wien 1972) 31, Nr. 473; Taf. 28, 473.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 45, Nr. 180. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied> Varronius </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Priscus <lb n="2" /><expan><abbr>dom</abbr><ex>o</ex></expan> <expan><abbr>Mut</abbr><ex cert="low">ina</ex></expan> <lb n="3" /><expan><abbr>v</abbr><ex cert="low">ivus</ex></expan> <expan><abbr>s</abbr><ex cert="low">ibi</ex></expan> <expan><abbr>f</abbr><ex cert="low">ecit</ex></expan> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

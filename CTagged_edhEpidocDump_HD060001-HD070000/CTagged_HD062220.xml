@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062220</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062220</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(42)</height><width>(38)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0015" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1904"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Legionslager, Principia}, Fahnenheiligtum</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062220_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Rutilius+</name><name type="cognomen">Macrinus+</name></persName></person><person xml:id="HD062220_2" sex="M"><persName><name type="cognomen">Provincialis+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028767" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dd3542cb-5d96-4809-b23d-67a29573497d/file/id/789524/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Hauser: Z. 1: Ruf[us]; CIL 13, 11524; Walser: Z. 5: Prov[---]; Z. 6: stipend[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11524. (B)</bibl><bibl>G. Walser, R&#246;mische Inschriften in der Schweiz 2 (Bern 1980) 134-135, Nr. 175; Foto.</bibl><bibl>O. Hauser, Vindonissa. Das Standquartier r&#246;mischer Legionen (Z&#252;rich 1904) 11; Tafel 16. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="881667ee-2c3a-11ee-b679-4e7b8ce151d0">L</c></abbr><ex><c xml:id="881669a6-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88166960-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="88166910-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="881668c0-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88166870-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="88166a64-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="88166a3c-2c3a-11ee-b679-4e7b8ce151d0">R</c><c xml:id="88166a1e-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="881669f6-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="881669ce-2c3a-11ee-b679-4e7b8ce151d0">i</c><supplied reason="lost"><c xml:id="88166ba4-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="88166b5e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88166b18-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88166ad2-2c3a-11ee-b679-4e7b8ce151d0">s</c></supplied><c xml:id="88166bcc-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="88166c26-2c3a-11ee-b679-4e7b8ce151d0">L</c></abbr><ex><c xml:id="88166d02-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88166cbc-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="88166c76-2c3a-11ee-b679-4e7b8ce151d0">i</c></ex></expan><c xml:id="88166d2a-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="88166d84-2c3a-11ee-b679-4e7b8ce151d0">f</c></abbr><ex><c xml:id="88166eec-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88166ea6-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="88166e60-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88166e1a-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88166dd4-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="88166f14-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="88167040-2c3a-11ee-b679-4e7b8ce151d0">S</c><c xml:id="88166ffa-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="88166fb4-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="88166f6e-2c3a-11ee-b679-4e7b8ce151d0">g</c></abbr><ex><c xml:id="881670cc-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167086-2c3a-11ee-b679-4e7b8ce151d0">a</c></ex></expan><c xml:id="881670f4-2c3a-11ee-b679-4e7b8ce151d0"> </c><supplied reason="lost"><c xml:id="88167194-2c3a-11ee-b679-4e7b8ce151d0">M</c><c xml:id="8816714e-2c3a-11ee-b679-4e7b8ce151d0">a</c></supplied><lb break="no" n="3" /><c xml:id="881672b6-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="88167298-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="88167270-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167248-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="8816722a-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88167202-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="881671da-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="881671bc-2c3a-11ee-b679-4e7b8ce151d0">P</c><gap reason="lost" extent="unknown" unit="character" /><lb break="no" n="4" /><c xml:id="88167414-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="881673ec-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="881673ce-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="881673a6-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="8816737e-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="8816734c-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="8816732e-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="88167306-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="88167522-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="881674dc-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="88167496-2c3a-11ee-b679-4e7b8ce151d0">g</c></abbr><ex><c xml:id="8816768a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167644-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="881675fe-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="881675b8-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167572-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="881676b2-2c3a-11ee-b679-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="881676e4-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="5" /><gap reason="lost" extent="unknown" unit="character" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="88167a0e-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="881679e6-2c3a-11ee-b679-4e7b8ce151d0">|</c><c xml:id="881679b4-2c3a-11ee-b679-4e7b8ce151d0">(</c><c xml:id="8816798c-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="88167964-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="8816793c-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="88167914-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="881678e2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="881678ba-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="88167892-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="8816786a-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="88167842-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="8816781a-2c3a-11ee-b679-4e7b8ce151d0">)</c><c xml:id="881677e8-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="881677c0-2c3a-11ee-b679-4e7b8ce151d0">P</c><c xml:id="88167798-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="88167770-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="88167748-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="88167720-2c3a-11ee-b679-4e7b8ce151d0">i</c><supplied reason="lost"><expan><abbr><c xml:id="88167b08-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="88167ac2-2c3a-11ee-b679-4e7b8ce151d0">c</c></abbr><ex><c xml:id="88167c7a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167c34-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="88167be4-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="88167b9e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167b58-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="88167ca2-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="6" /><c xml:id="88167e32-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="88167e00-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="88167dce-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="88167d9c-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="88167d6a-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="88167d38-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="88167d10-2c3a-11ee-b679-4e7b8ce151d0">d</c><c xml:id="88167cde-2c3a-11ee-b679-4e7b8ce151d0">i</c><supplied reason="lost"><c xml:id="88167f90-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="88167f4a-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="88167f04-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="88167eb4-2c3a-11ee-b679-4e7b8ce151d0">m</c></supplied><c xml:id="88167fb8-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

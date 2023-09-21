@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Ovilava &amp;ndash; Wels (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067463</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067463</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118901">Ovilava</placeName></origPlace><origDate><origDate when-custom="0106" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">106 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761524">Wels</placeName><placeName type="findspot" /><placeName type="region">Ober&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-10" who="Lopez">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment von tab. I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1218.</bibl><bibl>CIL 16, 00052.</bibl><bibl>J. Ott, RSA 25, 1995, 97-98, Nr. 2; Abb. 2b. - AE 1995.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">qu</supplied><lb break="no" n="2" />as postea duxisse<supplied reason="lost">nt dumtaxat singuli</supplied> <lb n="3" />singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>iem</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="4" /><expan><abbr>Q</abbr><ex>uinto</ex></expan> Licinio Silvano Gr<supplied reason="lost">aniano <expan><abbr>L</abbr><ex>ucio</ex></expan> Minicio Natale <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="5" /><expan><abbr>cohort</abbr><ex>is</ex></expan> I Astu<supplied reason="lost">rum cui praeest</supplied> <lb n="6" />Valerius <gap reason="lost" extent="unknown" unit="character" /> <lb n="7" />ex <gap reason="lost" extent="unknown" unit="character" /> <lb n="8" />Clementi A<gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="9" />et Secciae Sabini <gap reason="lost" extent="unknown" unit="character" /> <lb n="10" />et Saturnino <expan><abbr>f</abbr><ex>ilio</ex></expan> ei<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="11" />descriptum et re<supplied reason="lost">cognitum ex tabula aene</supplied><lb break="no" n="12" />a quae fixa est <supplied reason="lost">Romae in muro post</supplied> <lb n="13" />templum divi A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan> ad Minervam</supplied> </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae</supplied> &amp;lt;f=E&amp;gt;(ilius) Nerva Traianus <lb n="2" /><supplied reason="lost">Augustus Germanicus</supplied> Dacicus pontifex <lb n="3" /><supplied reason="lost">maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> po</supplied><expan><abbr>testat</abbr><ex>e</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4" /><supplied reason="lost">iis qui militaverunt equ</supplied>ites et pedites in alis <lb n="5" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> et cohortibus</supplied> s&amp;lt;e=L&amp;gt;x quae appellantur <lb n="6" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> et I Co</supplied>mmagenorum et I <lb n="7" /><gap reason="lost" extent="unknown" unit="character" />um et <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Assignation inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032513</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032513</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>(14)</height><width>(14)</width><depth>(29)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0128" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">128 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Kapitol</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>assignation inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032513_1"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+ Hadrianus+</name></persName></person><person xml:id="HD032513_2"><persName><name type="nomen">Iulius</name><name type="cognomen">Iulianus+</name></persName></person><person xml:id="HD032513_3"><persName><name type="nomen">Ma[---]+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011145" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fa114748-e4d1-4a82-ba6b-717f0734b569/file/id/770668/file_version/name/small" /><graphic xml:id="F011247" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1290879b-fd81-4607-89f1-e147ff16225b/file/id/770770/file_version/name/small" /><graphic xml:id="F030133" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/35389fe2-48b4-4e18-96bc-8cb92a4b654a/file/id/790890/file_version/name/small" /><graphic xml:id="F032921" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/64cabc86-a077-44d1-a5cc-20bdaec6435a/file/id/793723/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das St&#252;ck ist auf der Vorderseite (I) u. der rechten Seite (II) beschrieben; Angaben beziehen sich auf II; Buchstabenh&#246;he I: ca. 10 cm (Lesung: VI oder VT) oder ca. 20 cm (Lesung: M).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41260; fig. &#945; u. &#946;.</bibl><bibl>CIL 06, 31718.</bibl><bibl>PIR (2. Aufl.) M 6.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />------<certainty match="preceding-sibling::node()" locus="value" />] <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>V</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost">Iussu <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris Traiani</supplied> <lb n="2" />Hadrian<supplied reason="lost">i <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> locus <expan><abbr>adsig</abbr><ex>natus</ex></expan></supplied> <lb n="3" />a Iulio Iulia<supplied reason="lost" cert="low">no Ma---</supplied> <lb n="4" /><expan><abbr>cur</abbr><ex>atoribus</ex></expan> operum <supplied reason="lost"><expan><abbr>locorumq</abbr><ex>ue</ex></expan> <expan><abbr>public</abbr><ex>orum</ex></expan></supplied> <lb n="5" /><supplied reason="lost"><expan><abbr>dedic</abbr><ex>at-</ex></expan> <gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (Noricum?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066975</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066975</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schlo&#223; Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>60</height><width>79</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum?</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria?</placeName><placeName type="modern" /><placeName type="findspot" /><placeName type="region">Steiermark?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066975_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Tullius</name><name type="cognomen">Ittio</name></persName></person><person xml:id="HD066975_2" sex="W"><persName><name type="cognomen">Quinta</name></persName></person><person xml:id="HD066975_3" sex="W"><persName><name type="cognomen">Tertullina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>In drei Teile gebrochen. (B): Weber: Z. 1/2: Itt[i]/oni.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 441, Nr. 426; Foto. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="7641ed3e-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="7641edac-5842-11ee-a013-4e7b8ce151d1">C</c></abbr><ex><c xml:id="7641ee4c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7641ee24-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641edf2-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="7641ef3c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641ef28-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="7641ef14-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7641ef0a-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7641eef6-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7641eee2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641eece-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7641eeba-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641eea6-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="7641ee92-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7641ee7e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7641ee6a-5842-11ee-a013-4e7b8ce151d1">i</c></line><line break="no" n="2"><c xml:id="7641f05e-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7641f04a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7641f036-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641f022-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641f00e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7641effa-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7641efe6-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641efc8-5842-11ee-a013-4e7b8ce151d1">Q</c><c xml:id="7641efb4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7641efa0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641ef8c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7641ef78-5842-11ee-a013-4e7b8ce151d1">t</c></line><line break="no" n="3"><c xml:id="7641f0c2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7641f0ae-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7641f09a-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="7641f13a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7641f108-5842-11ee-a013-4e7b8ce151d1">x</c></abbr><ex><c xml:id="7641f1bc-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7641f194-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7641f16c-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="7641f27a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641f266-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7641f248-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7641f234-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641f216-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="7641f202-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641f1ee-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7641f1da-5842-11ee-a013-4e7b8ce151d1">i</c><expan><ex><c xml:id="7641f2ca-5842-11ee-a013-4e7b8ce151d1">i</c></ex><abbr><c xml:id="7641f2fc-5842-11ee-a013-4e7b8ce151d1">s</c></abbr></expan><c xml:id="7641f310-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="7641f3f6-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7641f3e2-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7641f3c4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641f3a6-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="7641f392-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7641f37e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7641f360-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7641f34c-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="7641f32e-5842-11ee-a013-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="7641f446-5842-11ee-a013-4e7b8ce151d1">r</c></supplied></line><line break="no" n="5"><c xml:id="7641f518-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7641f504-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7641f4e6-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7641f4c8-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7641f4aa-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7641f496-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7641f478-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7641f464-5842-11ee-a013-4e7b8ce151d1"> </c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

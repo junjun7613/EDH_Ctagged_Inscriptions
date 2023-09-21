@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Friesach/K&#228;rnten (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056599</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056599</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Friesach/K&#228;rnten, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>46</height><width>54</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1847"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2779229">Friesach/K&#228;rnten</placeName><placeName type="findspot">Probsthof, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056599_1" sex="W"><persName><name type="cognomen">Primitiva</name></persName></person><person xml:id="HD056599_2" sex="M"><persName><name type="cognomen">Augustinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 6: Buchstabe A ohne Querhaste. (B): CIL III 5039; CIL III 5039 add. p. 1822; ILLPRON; Kremer: Z. 5: co(n)iugi; CIL III 5039 add. p. 1822: Z. 6: ACIL III 5039 add. p. 1822: N in Ligatur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0159. (B)</bibl><bibl>CIL 03, 05039. (B)</bibl><bibl>CIL 03, 05039 add. p. 1822. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 159, Nr. I 172; Taf. 17, I 172. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0b34a2fc-5842-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="0b34a392-5842-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="0b34a40a-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a3d8-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b34a41e-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b34a45a-5842-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="0b34a5a4-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="0b34a57c-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="0b34a54a-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a504-5842-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="0b34a4d2-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="0b34a4a0-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b34a5b8-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="0b34a680-5842-11ee-a9c6-4e7b8ce151d1">P</c><c xml:id="0b34a66c-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="0b34a658-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a644-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="0b34a630-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a61c-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="0b34a608-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a5fe-5842-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="0b34a5ea-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="0b34a5d6-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="0b34a784-5842-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="0b34a75c-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="0b34a748-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="0b34a734-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a720-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="0b34a70c-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="0b34a6f8-5842-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="0b34a6e4-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a6d0-5842-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="0b34a6bc-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="0b34a6a8-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="0b34a860-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="0b34a84c-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a838-5842-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="0b34a824-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a810-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="0b34a7fc-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="0b34a7e8-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="0b34a7ca-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="0b34a7b6-5842-11ee-a9c6-4e7b8ce151d1">A</c><expan><ex><c xml:id="0b34a8b0-5842-11ee-a9c6-4e7b8ce151d1">u</c></ex><abbr><c xml:id="0b34a932-5842-11ee-a9c6-4e7b8ce151d1">g</c><c xml:id="0b34a90a-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="0b34a8e2-5842-11ee-a9c6-4e7b8ce151d1">s</c></abbr></expan></line><line break="no" n="5"><c xml:id="0b34a9be-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="0b34a9aa-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34a996-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="0b34a978-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="0b34a964-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="0b34a950-5842-11ee-a9c6-4e7b8ce151d1">c</c><supplied reason="lost"><expan><abbr><c xml:id="0b34aa04-5842-11ee-a9c6-4e7b8ce151d1">o</c></abbr><ex><c xml:id="0b34aa36-5842-11ee-a9c6-4e7b8ce151d1">n</c></ex></expan></supplied><c xml:id="0b34aaa4-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34aa90-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="0b34aa7c-5842-11ee-a9c6-4e7b8ce151d1">g</c><c xml:id="0b34aa5e-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34aa4a-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="0b34ab94-5842-11ee-a9c6-4e7b8ce151d1">@</c><c xml:id="0b34ab80-5842-11ee-a9c6-4e7b8ce151d1">(</c><c xml:id="0b34ab62-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="0b34ab4e-5842-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="0b34ab3a-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="0b34ab1c-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="0b34ab08-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="0b34aaea-5842-11ee-a9c6-4e7b8ce151d1">)</c><c xml:id="0b34aacc-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b34ac0c-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="0b34abe4-5842-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex><c xml:id="0b34acde-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="0b34acb6-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="0b34ac8e-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="0b34ac5c-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="0b34ac34-5842-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="0b34ad38-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="0b34ad24-5842-11ee-a9c6-4e7b8ce151d1">L</c><c xml:id="0b34ad06-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="0b34acf2-5842-11ee-a9c6-4e7b8ce151d1">X</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

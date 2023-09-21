@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063352</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063352</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz. (Inv. A 5058 II, Inv. A 2058 III); verschollen (Inv. A 5058 XIII)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">slab?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(7)</height><width>(7)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1922"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Kaplju&#269;, Basilika (der f&#252;nf M&#228;rtyrer), {Mittelschiff}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-22" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Drei nicht aneinanderpassende Fragmente; davon eines nicht mehr auffindbar; vermutlich von einer Platte, die in ein Mosaik eingelassen war. Ma&#223;e beziehen sich auf das erhaltene Fragment Inv. A 5058 II; Fragment Inv. 5058 III: (6) x (8) x 3,2 cm. 10 weitere, von Br&#248;ndsted und ILJug derselben Inschrift zugewiesene Fragmente stammen von einer anderen Inschrift (s. Marin u. a., Salona 4, 292-294, Nr. 90). Z. 3: statt E auch F m&#246;glich. (B): Br&#248;ndsted; ILJug: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2643. (B)</bibl><bibl>J. Br&#248;ndsted, in: Recherches &#224; Salone 1 (Copenhague 1928) 124. 169, Nr. 48; fig. 119; fig. 120 (Zeichnung). (B)</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 349, Nr. 128; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />SIM<gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" />M <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />T<supplied reason="lost" cert="low">-</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /><expan><abbr>E</abbr><ex cert="low" /></expan> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

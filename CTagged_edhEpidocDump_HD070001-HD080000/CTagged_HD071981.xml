@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071981</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071981</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>(1)</height><width>(6)</width><depth>(4)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">&#211;buda, {Lajos utca / Nagyszombat utca, M&#252;ndung}, Amphitheater, s&#252;dlich, r&#246;mische T&#246;pferei</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071981_1" sex="M"><persName><name type="cognomen">Illixo+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment vom Boden eines Gef&#228;&#223;es in Terra sigillata mit Stempelabdruck auf der Innen- und einem eingeritzten Buchstaben (Graffito) auf der Au&#223;enseite. Unklar ob X oder A.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TitAq 1144; Fotos.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="fab6f910-5842-11ee-8920-4e7b8ce151d1">
+</c><supplied reason="lost"><c xml:id="fab6f96a-5842-11ee-8920-4e7b8ce151d1">I</c></supplied><c xml:id="fab6f9e2-5842-11ee-8920-4e7b8ce151d1">l</c><c xml:id="fab6f9d8-5842-11ee-8920-4e7b8ce151d1">l</c><c xml:id="fab6f9ba-5842-11ee-8920-4e7b8ce151d1">i</c><c xml:id="fab6f9b0-5842-11ee-8920-4e7b8ce151d1">x</c><c xml:id="fab6f99c-5842-11ee-8920-4e7b8ce151d1">o</c><c xml:id="fab6f97e-5842-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fab6fa32-5842-11ee-8920-4e7b8ce151d1">f</c></abbr><ex><c xml:id="fab6fae6-5842-11ee-8920-4e7b8ce151d1">e</c><c xml:id="fab6fabe-5842-11ee-8920-4e7b8ce151d1">c</c><c xml:id="fab6fa96-5842-11ee-8920-4e7b8ce151d1">i</c><c xml:id="fab6fa64-5842-11ee-8920-4e7b8ce151d1">t</c></ex></expan><c xml:id="fab6fb04-5842-11ee-8920-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="fab6fb22-5842-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fab6fb54-5842-11ee-8920-4e7b8ce151d1">A</c></abbr><ex cert="low" /></expan></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gonfaron (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001120</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001120</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(96)</height><width>60</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3015686">Gonfaron</placeName><placeName type="findspot">Gut Beaumet</placeName><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001120_1" sex="W"><persName><name type="praenomen">Sex.?</name><name type="nomen">Satia</name><name type="cognomen">Maxsuma (= Maxima)</name></persName></person><person xml:id="HD001120_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Masonius</name><name type="cognomen">Alco</name></persName></person><person xml:id="HD001120_3" sex="M"><persName><name type="cognomen">Karus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: r&#246;tlicher Sandstein. Unterhalb der Inschrift Darstellung zweier H&#228;nde in der dextrarum iunctio. Z. 1 (Anfang): von S(?) nur noch ein Teil der unteren rechten Rundung erhalten. (B): Boyer, Goudineau: Z. 5/6: Karii/alco.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0677.</bibl><bibl>H.-G. Pflaum, ZPE 42, 1981, 223-226. - AE 1982.</bibl><bibl>AE 1971, 0244.</bibl><bibl>C. Goudineau, Gallia 29, 1971, 456-457; fig. 12. (B) - AE 1971.</bibl><bibl>R. Boyer, RAN 4, 1971, 233-235; fig. 1. (B) - AE 1971.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="9dc90326-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="9dc90394-583b-11ee-a136-4e7b8ce151d1">S</c></abbr><ex><c xml:id="9dc9047a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9dc90452-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="9dc9042a-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9dc903f8-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc903d0-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="9dc90510-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9dc90506-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="9dc904f2-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc904de-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9dc904ca-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc904b6-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc904ac-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9dc9048e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9dc905ec-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="9dc905ba-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9dc90592-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="9dc90560-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="9dc90614-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="9dc90628-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="9dc90664-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="9dc90736-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc9070e-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="9dc906e6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc906be-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc9068c-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="9dc907a4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9dc9079a-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="9dc90786-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc90772-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="9dc9075e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9dc9074a-583b-11ee-a136-4e7b8ce151d1">u</c></line><line break="no" n="3"><c xml:id="9dc90808-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="9dc907f4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc907e0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9dc907cc-583b-11ee-a136-4e7b8ce151d1"> </c><note>sic</note><c xml:id="9dc90894-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9dc90880-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9dc9086c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9dc90858-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9dc90844-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc90830-583b-11ee-a136-4e7b8ce151d1">u</c></line><line break="no" n="4"><c xml:id="9dc908e4-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="9dc908d0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc908bc-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9dc90920-583b-11ee-a136-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="9dc90a1a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9dc909f2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc909ca-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9dc909a2-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9dc90970-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9dc90948-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="9dc90a74-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9dc90a56-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="9dc90a42-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc90a2e-583b-11ee-a136-4e7b8ce151d1">s</c></line><line break="no" n="5"><c xml:id="9dc90b6e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9dc90b5a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9dc90b3c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc90b28-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9dc90b14-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9dc90b00-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9dc90aec-583b-11ee-a136-4e7b8ce151d1">K</c><c xml:id="9dc90ad8-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9dc90aba-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9dc90aa6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc90a92-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9dc90bbe-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="9dc90ce0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9dc90cb8-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="9dc90c90-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9dc90c5e-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9dc90c36-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9dc90c0e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9dc90be6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="9dc90cf4-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="9dc90d58-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="9dc90d44-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="9dc90d30-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9dc90d12-583b-11ee-a136-4e7b8ce151d1">o</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

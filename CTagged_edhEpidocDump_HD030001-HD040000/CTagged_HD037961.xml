@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva &amp;ndash; Wagna (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037961</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037961</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(44)</height><width>(72)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1781"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772694">Wagna</placeName><placeName type="findspot">{Leitring}</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037961_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Annius+</name><name type="cognomen">Decumus</name></persName></person><person xml:id="HD037961_2" sex="W"><persName><name type="cognomen">Sacra</name></persName></person><person xml:id="HD037961_3" sex="M"><persName><name type="cognomen">Sauro</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-06" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Rechts und links vom Schriftfeld ist die profilierte Rahmenleiste noch erhalten. (B): CIL III 5351: Z. 1-2: heute nicht mehr erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05351. (B)</bibl><bibl>ILLPRON 1277.</bibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 190-191, Nr. 136; Foto.</bibl><bibl>S. Karl - G. Wrolli, in: S. Karl - G. Wrolli, Der Alte Turm im Schloss Seggau zu Leibnitz. Historische Untersuchungen zum &#228;ltesten Bauteil der Burgenanlage Leibnitz in der Steiermark (Wien - Berlin - M&#252;nster 2011) 205, Nr. 9.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="3f8871da-583f-11ee-8e0b-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="3f887252-583f-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="3f887324-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="3f8872f2-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3f8872ca-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="3f88728e-583f-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan><c xml:id="3f88739c-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="3f887388-583f-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="3f887374-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="3f88736a-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="3f887356-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3f887338-583f-11ee-8e0b-4e7b8ce151d1">o</c></supplied><c xml:id="3f8873c4-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><expan><abbr><c xml:id="3f887400-583f-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="3f8874b4-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="3f88748c-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3f887464-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="3f887432-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="3f8874c8-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3f88755e-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="3f88752c-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3f887504-583f-11ee-8e0b-4e7b8ce151d1">b</c></abbr><ex><c xml:id="3f887612-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="3f8875ea-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3f8875b8-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="3f887590-583f-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan></supplied><c xml:id="3f887626-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="3f8876b2-583f-11ee-8e0b-4e7b8ce151d1">D</c><c xml:id="3f88769e-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="3f887694-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="3f887680-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="3f88766c-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="3f887658-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="3f887644-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="3f88772a-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="3f8876f8-583f-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="3f887806-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="3f8877de-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="3f8877ac-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3f887784-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="3f88775c-583f-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="3f88786a-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="3f887856-583f-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="3f887842-583f-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="3f88782e-583f-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="3f88781a-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="3f88795a-583f-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="3f887946-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="3f887932-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="3f88791e-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3f88790a-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="3f8878f6-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="3f8878e2-583f-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="3f8878ce-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="3f8878ba-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="3f8878a6-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="3f887892-583f-11ee-8e0b-4e7b8ce151d1">o</c></line><line break="no" n="6"><supplied reason="lost"><c xml:id="3f887a2c-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="3f887a04-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3f8879d2-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="3f8879aa-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr>f</abbr><ex>ilia</ex></expan></supplied><c xml:id="3f887a40-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3f887acc-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="3f887aa4-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="3f887a72-583f-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="3f887b80-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3f887b58-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="3f887b26-583f-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="3f887afe-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="3f887bda-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="3f887bbc-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="3f887ba8-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="3f887b94-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="7"><supplied reason="lost"><c xml:id="3f887cca-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="3f887c98-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3f887c70-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="3f887c48-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="3f887c16-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

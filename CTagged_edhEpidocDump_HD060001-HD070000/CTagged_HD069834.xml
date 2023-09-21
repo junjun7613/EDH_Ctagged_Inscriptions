@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Deva &amp;ndash; Chester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069834</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069834</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chester, Grosvenor Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>157</height><width>94</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79420">Deva</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1887"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653228">Chester</placeName><placeName type="findspot">{Nordmauer, &#246;stlicher Teil}</placeName><placeName type="region">Cheshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069834_1" sex="W"><persName><name type="nomen">Domitia*</name><name type="cognomen">Saturnina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Abweichende Textgestaltung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 294 n. 905. (B)</bibl><bibl>RIB 0564; Zeichnung.</bibl><bibl>M. Henig, Roman sculpture from the North West Midlands CSIR Great Britain 1, 9 (Oxford 2004) 22, Nr. 63; Pl. 22, 63.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="8381456c-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="838146d4-5842-11ee-a013-4e7b8ce151d1">D</c><c xml:id="838146a2-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="8381467a-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="83814652-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="83814616-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex><c xml:id="8381472e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="83814706-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="83814742-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><c xml:id="838147a6-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="8381477e-5842-11ee-a013-4e7b8ce151d1">a</c></supplied><c xml:id="83814800-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="838147f6-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="838147e2-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="838147ce-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="838147ba-5842-11ee-a013-4e7b8ce151d1">i</c></line><line break="no" n="3"><supplied reason="lost"><c xml:id="83814846-5842-11ee-a013-4e7b8ce151d1">n</c></supplied><c xml:id="8381486e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8381485a-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="838148fa-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="838148d2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="838148a0-5842-11ee-a013-4e7b8ce151d1">x</c></abbr><ex><c xml:id="83814954-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8381492c-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan><c xml:id="83814968-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><supplied reason="lost"><c xml:id="8381499a-5842-11ee-a013-4e7b8ce151d1">a</c></supplied><c xml:id="838149c2-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="838149ae-5842-11ee-a013-4e7b8ce151d1">n</c></abbr><ex><c xml:id="83814a1c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="838149f4-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="83814a6c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="83814a58-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="83814a44-5842-11ee-a013-4e7b8ce151d1">L</c><c xml:id="83814a30-5842-11ee-a013-4e7b8ce151d1">I</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Salzburg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034532</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034532</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Salzburg, Salzburg Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>167</height><width>90</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2771750">Salzburg</placeName><placeName type="findspot">Maxglan, {S. Maximilian, Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">Salzburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034532_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Lollius*</name><name type="cognomen">Achilles</name></persName></person><person xml:id="HD034532_2" sex="W"><persName><name type="nomen">Agillia+?</name><name type="cognomen">Galla+</name></persName></person><person xml:id="HD034532_3" sex="W"><persName><name type="nomen">Albia</name><name type="cognomen">Melitine</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-11" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Inschrifttext ist durch Handschriften vollst&#228;ndig &#252;berliefert. Hedera in Z. 1. Z. 5: m&#246;glicherweise auch A[gilia]e.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05547.</bibl><bibl>CIL 03, 11756.</bibl><bibl>ILLPRON 1114.</bibl><bibl>R. Egger, Aus r&#246;mischen Grabinschriften (Wien 1967) 25, Nr. 1.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 255-256, Nr. II 305.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="94ef8e82-5840-11ee-8e0b-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="94ef8edc-5840-11ee-8e0b-4e7b8ce151d1">D</c></abbr><ex><c xml:id="94ef8f4a-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef8f22-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="94ef8f5e-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="94ef8f9a-5840-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="94ef9094-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="94ef906c-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="94ef9044-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef901c-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="94ef8ff4-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="94ef8fcc-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="94ef90a8-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="94ef90e4-5840-11ee-8e0b-4e7b8ce151d1">L</c></abbr><ex><c xml:id="94ef918e-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="94ef915c-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="94ef9134-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef910c-5840-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan><c xml:id="94ef9198-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="94ef9224-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="94ef91fc-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="94ef91d4-5840-11ee-8e0b-4e7b8ce151d1">l</c></abbr><ex><c xml:id="94ef929c-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef9274-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef924c-5840-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan><c xml:id="94ef92b0-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="94ef9364-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="94ef9350-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="94ef933c-5840-11ee-8e0b-4e7b8ce151d1">h</c><c xml:id="94ef9328-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef931e-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef930a-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef92f6-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="94ef92e2-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef92ce-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="94ef9472-5840-11ee-8e0b-4e7b8ce151d1">@</c><c xml:id="94ef945e-5840-11ee-8e0b-4e7b8ce151d1">(</c><c xml:id="94ef944a-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="94ef9436-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="94ef9422-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef940e-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="94ef93fa-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="94ef93e6-5840-11ee-8e0b-4e7b8ce151d1">)</c><c xml:id="94ef93d2-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="94ef93be-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="94ef9396-5840-11ee-8e0b-4e7b8ce151d1">n</c><supplied reason="lost"><expan><abbr><c xml:id="94ef94c2-5840-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="94ef956c-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="94ef9544-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="94ef951c-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="94ef94f4-5840-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan></supplied><c xml:id="94ef95f8-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="94ef95da-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="94ef95a8-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="94ef9594-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="94ef9580-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="94ef965c-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9648-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="94ef9634-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="94ef9620-5840-11ee-8e0b-4e7b8ce151d1">A</c><supplied reason="lost" cert="low"><c xml:id="94ef976a-5840-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="94ef9742-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef971a-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef96f2-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef96ca-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef96a2-5840-11ee-8e0b-4e7b8ce151d1">a</c></supplied><c xml:id="94ef97a6-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef977e-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="94ef97c4-5840-11ee-8e0b-4e7b8ce151d1">G</c><supplied reason="lost"><c xml:id="94ef9878-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="94ef9846-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef981e-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef97f6-5840-11ee-8e0b-4e7b8ce151d1">a</c></supplied><c xml:id="94ef98a0-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9882-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="94ef99ae-5840-11ee-8e0b-4e7b8ce151d1">@</c><c xml:id="94ef999a-5840-11ee-8e0b-4e7b8ce151d1">(</c><c xml:id="94ef997c-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="94ef9968-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="94ef994a-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef9936-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="94ef9922-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="94ef9904-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef98d2-5840-11ee-8e0b-4e7b8ce151d1">)</c><c xml:id="94ef98be-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="94ef99fe-5840-11ee-8e0b-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="94ef9aa8-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="94ef9a80-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="94ef9a58-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="94ef9a30-5840-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="94ef9b20-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="94ef9b0c-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="94ef9aee-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="94ef9ada-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="94ef9abc-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="94ef9bd4-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="94ef9bb6-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef9ba2-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="94ef9b84-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef9b66-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="94ef9b52-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="9"><c xml:id="94ef9cce-5840-11ee-8e0b-4e7b8ce151d1">M</c><c xml:id="94ef9cba-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9c9c-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="94ef9c7e-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef9c6a-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="94ef9c4c-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef9c2e-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="94ef9c1a-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9bfc-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="10"><c xml:id="94ef9e36-5840-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="94ef9e18-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9dfa-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="94ef9de6-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9dc8-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="94ef9daa-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="94ef9d8c-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef9d78-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="94ef9d5a-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="94ef9d3c-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="94ef9d00-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="11"><c xml:id="94ef9efe-5840-11ee-8e0b-4e7b8ce151d1">f</c><c xml:id="94ef9ee0-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="94ef9ecc-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="94ef9eae-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="94ef9e72-5840-11ee-8e0b-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

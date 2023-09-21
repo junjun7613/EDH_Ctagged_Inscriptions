@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saguntum &amp;ndash; Sagunto (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026021</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026021</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sagunto, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>50</height><width>(71)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266021">Saguntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="findspot">Landgut de la Montyeta de la Son&#225;nbula, sekund&#228;r verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026021_1"><persName><name type="praenomen">C.</name><name type="nomen">Marius</name><name type="cognomen">Iaccus</name></persName></person><person xml:id="HD026021_2"><persName><name type="nomen">Maria</name><name type="cognomen">Hygiaenusa</name></persName></person><person xml:id="HD026021_3"><persName><name type="nomen">Maria</name><name type="cognomen">Hygia</name></persName></person><person xml:id="HD026021_4"><persName><name type="nomen">Maria</name><name type="cognomen">Primigenia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-19" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. Z. 4: Es wurde wohl entweder ein Fehler des Steinmetzen oder ein Name eradiert. Z. 7: Text befindet sich auf dem Rand au&#223;erhalb des Inschriftfeldes. Unterschiede in der Pal&#228;ographie weisen darauf, da&#223; Z. 5, Z. 6 und vielleicht Z. 7 von anderer Hand und eventuell sp&#228;ter als Z. 1-3 eingemei&#223;elt wurden. Autopsie G. Alf&#246;ldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00499.</bibl><bibl>CIL 02, 03923.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>C</abbr><ex>aius</ex></expan> Marius Iaccus <lb n="2" />Maria Hygiaenu<lb break="no" n="3" />sa <expan><abbr>an</abbr><ex>norum</ex></expan> XVIII <lb n="0" />[<gap reason="lost" quantity="1" unit="line" />] <lb n="4" />Maria Hygia <lb n="5" />Maria Primigenia </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>s</abbr><ex>ibi</ex></expan> et <expan><abbr>s</abbr><ex>uis</ex></expan></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

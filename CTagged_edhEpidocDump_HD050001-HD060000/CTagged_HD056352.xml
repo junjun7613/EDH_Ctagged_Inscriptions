@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Emporiae &amp;ndash; Emp&#250;ries (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056352</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056352</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Emp&#250;ries, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(9)</height><width>(15)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246382">Emporiae</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Emp&#250;ries</placeName><placeName type="findspot">Forum</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056352_1"><persName><name type="praenomen">[-]</name><name type="nomen">Servilius/a+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-06-04" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: statt Serv[ilius auch -ilio, -ilia oder -iliae denkbar. Vom V ist h&#246;chstens der minimale Rest der Mitte der linken Haste erkennbar. Z. 2: statt T auch F oder E m&#246;glich; erhalten ist die rechte H&#228;lfte einer horizontalen Haste. Vom I ist lediglich ein kurzes St&#252;ck vom oberen Teil einer Haste erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 3 (Suppl.) 208; pl. 33.</bibl><bibl>HEp 12, 2002, 0163.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="49c26a74-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="49c26c2c-2c3a-11ee-97a0-4e7b8ce151d0">S</c><c xml:id="49c26bdc-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="49c26b8c-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="49c26b32-2c3a-11ee-97a0-4e7b8ce151d0">V</c></abbr><ex cert="low" /></expan><supplied reason="lost"><c xml:id="49c26dbc-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="49c26d76-2c3a-11ee-97a0-4e7b8ce151d0">l</c><c xml:id="49c26d30-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="49c26ce0-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="49c26c90-2c3a-11ee-97a0-4e7b8ce151d0">s</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="49c26de4-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="49c26e48-2c3a-11ee-97a0-4e7b8ce151d0">T</c></abbr><ex cert="low" /><c xml:id="49c26e7a-2c3a-11ee-97a0-4e7b8ce151d0">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="49c26eac-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

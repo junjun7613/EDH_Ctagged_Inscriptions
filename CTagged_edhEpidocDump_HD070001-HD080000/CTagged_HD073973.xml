@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073973</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073973</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(31)</height><width>(93)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Gr&#228;berstra&#223;e}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073973_1" sex="W"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name><name type="supernomen">quae et Is[--]ne?</name></persName></person><person xml:id="HD073973_2" sex="M"><persName><name type="cognomen">Valens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-28" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019076" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1c723b79-9bfc-48f9-b05c-ce0864faf3c8/file/id/779148/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: ET-Ligatur. Auf dem rechten Fragment noch unterer H&#228;lfte zweier N zu erkennen, am rechten Rand noch der untere Winkel eines V und der untere Ansatz einer aufsteigenden Schr&#228;ghaste (A). Supernomen Is[me]ne? Mglw. steht VA in Z. 1 auch f&#252;r &amp;apos;v(ixit) a(nnos) [---]&amp;apos;. (B): Z. 1: CIL 03, 11270: &amp;apos;quae et IS[---]NIVA&amp;apos;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11270. (B)</bibl><bibl>A. von Domaszewski, AEM 10, 1886, 32, Nr. 24 a. b.; Zeichnung.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 52, Nr. 208.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="268d60f6-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="268d6132-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><c xml:id="268d61fa-5843-11ee-8920-4e7b8ce151d1">q</c><c xml:id="268d61f0-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="268d61dc-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="268d61c8-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d61b4-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d61a0-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d618c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="268d6182-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d616e-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="268d6150-5843-11ee-8920-4e7b8ce151d1">s</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="268d6236-5843-11ee-8920-4e7b8ce151d1">n</c><supplied reason="lost" cert="low"><c xml:id="268d627c-5843-11ee-8920-4e7b8ce151d1">e</c></supplied><c xml:id="268d62b8-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d62a4-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="268d6290-5843-11ee-8920-4e7b8ce151d1">a</c></line><line break="no" n="2"><c xml:id="268d640c-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="268d63f8-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d63e4-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="268d63d0-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="268d63bc-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d63a8-5843-11ee-8920-4e7b8ce151d1">(</c><c xml:id="268d6394-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="268d6380-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="268d636c-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="268d6358-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d6344-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d6330-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="268d631c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d6308-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="268d62f4-5843-11ee-8920-4e7b8ce151d1">)</c><c xml:id="268d62d6-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="268d64a2-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="268d6470-5843-11ee-8920-4e7b8ce151d1">i</c><supplied reason="lost">be</supplied>r</abbr><ex><c xml:id="268d652e-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="268d6506-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="268d64de-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="268d6592-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d6574-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="268d6560-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="268d654c-5843-11ee-8920-4e7b8ce151d1">n</c><supplied reason="lost"><expan><abbr><c xml:id="268d65d8-5843-11ee-8920-4e7b8ce151d1">i</c></abbr><ex><c xml:id="268d665a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="268d6632-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="268d660a-5843-11ee-8920-4e7b8ce151d1">i</c></ex></expan></supplied><c xml:id="268d666e-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="268d6740-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="268d6722-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="268d670e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="268d66fa-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="268d66dc-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="268d66c8-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d66aa-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="268d6696-5843-11ee-8920-4e7b8ce151d1">s</c><supplied reason="lost"><c xml:id="268d6894-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d6862-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="268d683a-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="268d6808-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d67e0-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d67b8-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d6786-5843-11ee-8920-4e7b8ce151d1">t</c></supplied><c xml:id="268d68da-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d68bc-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d68a8-5843-11ee-8920-4e7b8ce151d1">n</c><supplied reason="lost" cert="low"><c xml:id="268d6948-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="268d6916-5843-11ee-8920-4e7b8ce151d1">o</c></supplied></line><line break="no" n="4"><c xml:id="268d6a88-5843-11ee-8920-4e7b8ce151d1">[</c><c xml:id="268d6a6a-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="268d6a4c-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="268d6a2e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="268d6a1a-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="268d69fc-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d69e8-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="268d69ca-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="268d69ac-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="268d698e-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="268d697a-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="268d695c-5843-11ee-8920-4e7b8ce151d1">e</c><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="268d6b6e-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="268d6b50-5843-11ee-8920-4e7b8ce151d1">-</c><c xml:id="268d6b32-5843-11ee-8920-4e7b8ce151d1">-</c><c xml:id="268d6b1e-5843-11ee-8920-4e7b8ce151d1">-</c><c xml:id="268d6b00-5843-11ee-8920-4e7b8ce151d1">-</c><c xml:id="268d6ae2-5843-11ee-8920-4e7b8ce151d1">-</c><c xml:id="268d6ac4-5843-11ee-8920-4e7b8ce151d1">-</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

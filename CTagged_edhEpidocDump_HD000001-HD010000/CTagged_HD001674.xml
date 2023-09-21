@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Pax Iulia? &amp;ndash; Beja? (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001674</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001674</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Beja</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>77</height><width>40</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256358">Pax Iulia?</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern">Beja?</placeName><placeName type="findspot" /><placeName type="region">Beja?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001674_1" sex="M"><persName><name type="cognomen">Hispallus</name></persName></person><person xml:id="HD001674_2" sex="M"><persName><name type="cognomen">Bocchus</name></persName></person><person xml:id="HD001674_3" sex="M"><persName><name type="cognomen">Euhodus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-07-11" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Datierung unsicher. Material: Marmor aus Trigaches.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0462.</bibl><bibl>J. D'Encarna&#231;&#227;o, Inscri&#231;&#245;es romanas do conventus Pacensis (Coimbra 1984) 426-427, Nr. 351; Foto 351. - AE 1984.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="2d6d6dbe-583c-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="2d6d6daa-583c-11ee-a136-4e7b8ce151d1">H</c><c xml:id="2d6d6d96-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d6d82-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2d6d6d6e-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="2d6d6d64-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2d6d6d50-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="2d6d6d3c-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="2d6d6d28-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2d6d6d00-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2d6d6c88-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="2d6d6e7c-583c-11ee-a136-4e7b8ce151d1">B</c><c xml:id="2d6d6e68-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2d6d6e54-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="2d6d6e40-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="2d6d6e22-583c-11ee-a136-4e7b8ce151d1">h</c><c xml:id="2d6d6e0e-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d6dfa-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d6f4e-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2d6d6f1c-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2d6d6ee0-583c-11ee-a136-4e7b8ce151d1">r</c></abbr><ex><c xml:id="2d6d6fe4-583c-11ee-a136-4e7b8ce151d1">v</c><c xml:id="2d6d6fb2-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2d6d6f8a-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="2d6d7002-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="2d6d703e-583c-11ee-a136-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="2d6d70a2-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2d6d707a-583c-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="2d6d7110-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2d6d70fc-583c-11ee-a136-4e7b8ce151d1">I</c><c xml:id="2d6d70e8-583c-11ee-a136-4e7b8ce151d1">I</c><c xml:id="2d6d70d4-583c-11ee-a136-4e7b8ce151d1">I</c><c xml:id="2d6d70b6-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="2d6d7160-583c-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="2d6d71ba-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d7192-583c-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="2d6d71ce-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d720a-583c-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="2d6d72c8-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d7296-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2d6d726e-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2d6d723c-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="2d6d72dc-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d730e-583c-11ee-a136-4e7b8ce151d1">e</c></abbr><ex><c xml:id="2d6d7372-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2d6d7340-583c-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="2d6d7386-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d73c2-583c-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="2d6d741c-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d73f4-583c-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="2d6d7430-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d746c-583c-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="2d6d74ee-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d74c6-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="2d6d7494-583c-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="2d6d7502-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d753e-583c-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="2d6d75e8-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2d6d75c0-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="2d6d7598-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="2d6d7570-583c-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="2d6d75fc-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d7638-583c-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="2d6d76e2-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2d6d76ba-583c-11ee-a136-4e7b8ce151d1">v</c><c xml:id="2d6d7688-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d7660-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="2d6d76f6-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="2d6d77be-583c-11ee-a136-4e7b8ce151d1">E</c><c xml:id="2d6d77a0-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2d6d778c-583c-11ee-a136-4e7b8ce151d1">h</c><c xml:id="2d6d7778-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2d6d775a-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="2d6d7746-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2d6d7728-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2d6d7714-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2d6d7804-583c-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="2d6d78b8-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2d6d7890-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="2d6d785e-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2d6d7836-583c-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

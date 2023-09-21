@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Almacave (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002129</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002129</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kirche Sta. Maria, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>85</height><width>(44)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-8.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern">Almacave</placeName><placeName type="findspot">Kirche Sta. Maria, sekund&#228;r verwendet</placeName><placeName type="region">Viseu</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002129_1" sex="W"><persName><name type="cognomen">Culva</name></persName></person><person xml:id="HD002129_2" sex="W"><persName><name type="cognomen">Paugendia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1991-04-29" who="Krempl">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z.5: h(oc monumentum) t(ibi) l(eve) s(it) oder h(aec) t(erra) l(evis) s(it) m&#246;glich. Culva bislang nicht belegt; Paugendia s. CIL 2, 2445.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0482.</bibl><bibl>J.L. In&#233;s Vaz, Beira Alta 41, 1982, 513-514, Nr. 11; est. 11. - AE.</bibl><bibl>HAE 0989. - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="cb4fd356-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="cb4fd342-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="cb4fd32e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cb4fd31a-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cb4fd306-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="cb4fd2e8-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cb4fd270-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="cb4fd3e2-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="cb4fd3ce-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cb4fd3c4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cb4fd3b0-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="cb4fd39c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cb4fd37e-583b-11ee-a136-4e7b8ce151d1">n</c></line><line break="no" n="3"><c xml:id="cb4fd45a-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="cb4fd446-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd432-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cb4fd41e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cb4fd40a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cb4fd4b4-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="cb4fd5ae-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd57c-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cb4fd54a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd4f0-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="cb4fd5c2-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="cb4fd5fe-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="cb4fd662-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd630-583b-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="cb4fd676-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cb4fd6a8-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="cb4fd72a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd702-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cb4fd6da-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="cb4fd78e-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="cb4fd77a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cb4fd766-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="cb4fd752-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cb4fd73e-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="cb4fd7d4-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="cb4fd82e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd806-583b-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="cb4fd842-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cb4fd87e-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="cb4fd978-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cb4fd950-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="cb4fd928-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cb4fd900-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cb4fd8d8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="cb4fd8a6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="cb4fd98c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cb4fd9be-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="cb4fda72-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cb4fda40-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="cb4fda18-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fd9f0-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="cb4fda86-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cb4fdab8-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="cb4fdb12-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cb4fdaea-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

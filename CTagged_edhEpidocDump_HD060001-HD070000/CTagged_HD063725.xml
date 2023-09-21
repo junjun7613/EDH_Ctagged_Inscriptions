@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Narbo Martius &amp;ndash; Narbonne (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063725</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063725</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Narbonne, Mus&#233;e</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>110</height><width>58</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.6-1.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246347">Narbo Martius</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1566"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2990919">Narbonne</placeName><placeName type="findspot">Porta Regia, bei</placeName><placeName type="region">Occitanie</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD063725_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Statilius</name><name type="cognomen">Taurus+</name></persName></person><person xml:id="HD063725_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cassius</name><name type="cognomen">Longinus</name></persName></person><person xml:id="HD063725_3" sex="M"><persName><name type="praenomen">Imp.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD063725_4" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aemilius</name><name type="cognomen">Lepidus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009257" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b5a2c8e4-084e-4cab-8874-f962d37876dd/file/id/769022/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1-3 u. 29: Hederae als Interpunktionszeichen. Der Text verteilt sich auf die Vorder- und rechte Nebenseite. Dedikation in den Jahren 12/13 n. Chr. Bei dem erhaltenen Altar handelt es sich um eine vermutlich antoninische (Fishwick) Kopie.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0609.</bibl><bibl>P. Kneissl, Chiron 10, 1980, 291-326. - AE 1980.</bibl><bibl>CIL 12, 04333.</bibl><bibl>ILS 0112.</bibl><bibl>PIR (2. Aufl.) A 363.</bibl><bibl>PIR (2. Aufl.) S 855.</bibl><bibl>PIR (2. Aufl.) C 502.</bibl><bibl>AE 2007, 0145.</bibl><bibl>D. Fishwick, ZPE 160, 2007, 247-255 (o. Autor), in: E. Dellong u. a., Narbonne et le Narbonnais, Carte arch&#233;ologique de la Gaule 11, 1 (Paris 2002) 205-206; fig. 26 u. 27.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>T</abbr><ex>ito</ex></expan> Statilio Taur<supplied reason="lost">o</supplied> <lb n="2" /><expan><abbr>L</abbr><ex>ucio</ex></expan> Cassio Longino <lb n="3" />co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> X <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> <lb n="4" />numini Augusti votum <lb n="5" />susceptum a plebe Narbo<lb break="no" n="6" />nensium in perpetuom <note>sic</note> <lb n="7" />quod bonum faustum felixque sit <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari <lb n="8" />Divi <expan><abbr>f</abbr><ex>ilio</ex></expan> Augusto <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> pontifici maximo <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <lb n="9" />XXXIIII coniugi liberis gentique eius senatui <lb n="10" />populoque Romano et colonis incolisque <lb n="11" /><expan><abbr>c</abbr><ex>oloniae</ex></expan> <expan><abbr>I</abbr><ex>uliae</ex></expan> <expan><abbr>P</abbr><ex>aternae</ex></expan> <expan><abbr>N</abbr><ex>arbonis</ex></expan> <expan><abbr>M</abbr><ex>arti</ex></expan> qui se numini eius in perpetuum <lb n="12" />colendo obligaverunt pleps <note>sic</note> Narbonen<lb break="no" n="13" />sium aram Narbone in foro posuit ad <lb n="14" />quam quot annis VIIII <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> qua die <lb n="15" />eum saeculi felicitas orbi terrarum <lb n="16" />rectorem edidit tres equites Romani <lb n="17" />a plebe et tres libertini hostias singu<lb break="no" n="18" />las inmolent et colonis et incolis ad <lb n="19" />supplicandum numini eius thus et vinum <lb n="20" />de suo ea die praestent et VIII <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> <lb n="21" />thus vinum colonis et incolis item prae<lb break="no" n="22" />stent <expan><abbr>K</abbr><ex>alendis</ex></expan> quoque <expan><abbr>Ianuar</abbr><ex>iis</ex></expan> thus et vinum <lb n="23" />colonis et incolis praestent VII <expan><abbr>quoq</abbr><ex>ue</ex></expan> <lb n="24" />Idus <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> qua die primum imperium <lb n="25" />orbis terrarum auspicatus est thure <lb n="26" />vino supplicent et hostias <expan><abbr>singul</abbr><ex>as</ex></expan> in<lb break="no" n="27" />molent et colonis incolisque thus vi<lb break="no" n="28" />num ea die praestent <lb n="29" />et pridie <expan><abbr>K</abbr><ex>alendas</ex></expan> Iunias quod ea die <expan><abbr>T</abbr><ex>ito</ex></expan> Statilio <lb n="30" />Tauro <expan><abbr>M</abbr><ex>anio</ex></expan> Aemilio Lepido co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> iudicia <lb n="31" />plebis decurionibus coniunxit hostias <lb n="32" /><expan><abbr>singul</abbr><ex>as</ex></expan> inmolent et thus et vinum ad <lb n="33" />supplicandum numini eius colonis et <lb n="34" />incolis praestent <lb n="35" />exque iis tribus equitibus Roma<supplied reason="lost">nis tribusve</supplied> <lb n="36" />libertinis unu[s ------ </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost">Plep</supplied>s Narbone<expan><ex>n</ex><abbr>sis</abbr></expan> a<supplied reason="lost">ram</supplied> <lb n="2" />numinis Augusti de<supplied reason="lost">di</supplied><lb break="no" n="3" />cavit <del rend="erasure"><gap reason="lost" extent="unknown" unit="character" /></del> <lb n="0" />[<gap reason="lost" quantity="1" unit="line" />] <lb n="4" /><del rend="erasure"><gap reason="lost" extent="unknown" unit="character" /></del> legibus iis <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>i</abbr><ex>nfra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <lb n="5" />numen Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> quando tibi <lb n="6" />hodie hanc aram dabo dedicabo<lb break="no" n="7" />que his legibus hisque regioni<lb break="no" n="8" />bus dabo dedicabo quas hic <lb n="9" />hodie palam dixero uti infimum <lb n="10" />solum huiusque arae titulorum<lb break="no" n="11" />que est si quis tergere ornare <lb n="12" />reficere volet quod beneficii <lb n="13" />causa fiat ius fasque esto sive <lb n="14" />quis hostia sacrum faxit qui <lb n="15" />magmentum nec protollat id<lb break="no" n="16" />circo tamen probe factum esto si <lb n="17" />quis huic arae donum dare au<lb break="no" n="18" />gereque volet liceto <expan><abbr>eademq</abbr><ex>ue</ex></expan> <lb n="19" />lex ei dono esto quae arae est <lb n="20" />ceterae leges huic arae <expan><abbr>titulisq</abbr><ex>ue</ex></expan> <lb n="21" />eadem sunto quae sunt arae <lb n="22" />Dianae in Aventino hisce legi<lb break="no" n="23" />bus hisque regionibus sicuti <lb n="24" />dixi hanc tibi aram pro <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <lb n="25" />Caesare <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> pontifice maxi<lb break="no" n="26" />mo tribunicia potestate XXXV <lb n="27" />coniuge liberis genteque eius <lb n="28" />senatu populoque <expan><abbr>R</abbr><ex>omano</ex></expan> colonis <lb n="29" />incolisque <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Iul</abbr><ex>iae</ex></expan> <expan><abbr>Patern</abbr><ex>ae</ex></expan> <expan><abbr>Narb</abbr><ex>onis</ex></expan> <lb n="30" /><expan><abbr>Mart</abbr><ex>i</ex></expan> qui se numini eius in per<lb break="no" n="31" />petuum colendo obligaverunt <lb n="32" />doque dedicoque uti sies volens <lb n="33" />propitium</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

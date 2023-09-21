@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Portus, bei &amp;ndash; Fiumicino (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000345</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000345</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Ostia, Ostia antica, Mus. Ost.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(18)</height><width>(19)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118912">Portus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1974"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Fiumicino</placeName><placeName type="findspot">Isola Sacra, Santuario di S. Ippolito</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000345_1"><persName><name type="praenomen">[-]</name><name type="nomen">Flav[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000345_2"><persName><name type="praenomen">[-]</name><name type="nomen">Gelon[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-09" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Flav[iae], Gelon[iae]: Erg&#228;nzung nicht zwingend Femininum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0102.</bibl><bibl>D. Mazzoleni, I reperti epigrafici (Roma 1983) 39, Nr. 25; tav. 7,25. (B) - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="308f2410-583c-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="308f244c-583c-11ee-a136-4e7b8ce151d1">C</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="308f246a-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="1"><c xml:id="308f24ba-583c-11ee-a136-4e7b8ce151d1">F</c><c xml:id="308f24a6-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="308f2492-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="308f2488-583c-11ee-a136-4e7b8ce151d1">v</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="308f24d8-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="308f2546-583c-11ee-a136-4e7b8ce151d1">G</c><c xml:id="308f2532-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="308f251e-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="308f250a-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="308f24f6-583c-11ee-a136-4e7b8ce151d1">n</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="308f256e-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="308f2604-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="308f25f0-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="308f25dc-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="308f25c8-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="308f25aa-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="308f2596-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="308f2582-583c-11ee-a136-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="308f2aaa-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="308f2a82-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="308f2a5a-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="308f2a32-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="308f2a0a-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="308f29e2-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="308f29ba-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="308f2992-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="308f2960-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="308f2938-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="308f2910-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="308f28e8-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="308f28c0-583c-11ee-a136-4e7b8ce151d1">q</c><c xml:id="308f2898-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="308f2870-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="308f2848-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="308f2816-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="308f27ee-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="308f27c6-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="308f279e-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="308f2776-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="308f2744-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="308f271c-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="308f26ea-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="308f26b8-583c-11ee-a136-4e7b8ce151d1">q</c><c xml:id="308f2690-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="308f265e-583c-11ee-a136-4e7b8ce151d1">e</c></supplied><c xml:id="308f2abe-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><c xml:id="308f2afa-583c-11ee-a136-4e7b8ce151d1">e</c></supplied><c xml:id="308f2b72-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="308f2b54-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="308f2b40-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="308f2b2c-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="308f2b0e-583c-11ee-a136-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="308f2b90-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="308f2bcc-583c-11ee-a136-4e7b8ce151d1">A</c><c xml:id="308f2bb8-583c-11ee-a136-4e7b8ce151d1">V</c><gap reason="lost" quantity="1" unit="line" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

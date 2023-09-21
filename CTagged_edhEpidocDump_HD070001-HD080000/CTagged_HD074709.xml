@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074709</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074709</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>5</height><width>2</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1949"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot">{Schlossberg}</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074709_1" sex="M"><persName><name type="nomen">Titius</name><name type="cognomen">Crescens</name></persName></person><person xml:id="HD074709_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Flavus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-16" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Schreibtechnik: gepunzt. Buchstaben aus einzelnen Punkten zusammengesetzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0344.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><am><g type="centuria" /></am></abbr><ex><c xml:id="b30b3858-2c3a-11ee-96ce-4e7b8ce151d0">c</c><c xml:id="b30b3812-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b30b37c2-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b30b3772-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b30b372c-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b30b36dc-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b30b3682-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b30b3600-2c3a-11ee-96ce-4e7b8ce151d0">a</c></ex></expan><c xml:id="b30b39e8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b30b39ca-2c3a-11ee-96ce-4e7b8ce151d0">T</c><c xml:id="b30b39ac-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b30b398e-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b30b3970-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b30b3952-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b30b3934-2c3a-11ee-96ce-4e7b8ce151d0">C</c><c xml:id="b30b3916-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b30b38ee-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b30b38d0-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b30b38b2-2c3a-11ee-96ce-4e7b8ce151d0">c</c><c xml:id="b30b388a-2c3a-11ee-96ce-4e7b8ce151d0">e</c><lb break="no" n="2" /><c xml:id="b30b3ace-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b30b3ab0-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b30b3a92-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b30b3a6a-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b30b3a4c-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b30b3b46-2c3a-11ee-96ce-4e7b8ce151d0">C</c></abbr><ex><c xml:id="b30b3be6-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b30b3b96-2c3a-11ee-96ce-4e7b8ce151d0">i</c></ex></expan><c xml:id="b30b3cb8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b30b3c9a-2c3a-11ee-96ce-4e7b8ce151d0">I</c><c xml:id="b30b3c72-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b30b3c54-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b30b3c2c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b30b3c0e-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="b30b3db2-2c3a-11ee-96ce-4e7b8ce151d0">F</c><c xml:id="b30b3d8a-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b30b3d6c-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b30b3d44-2c3a-11ee-96ce-4e7b8ce151d0">v</c><c xml:id="b30b3d1c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b30b3cfe-2c3a-11ee-96ce-4e7b8ce151d0"> </c><abbr><c xml:id="b30b3e2a-2c3a-11ee-96ce-4e7b8ce151d0">C</c></abbr></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

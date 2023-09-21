@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Santany&#237; (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042140</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042140</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>90</height><width>42</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511106">Santany&#237;</placeName><placeName type="findspot">Carrotja, r&#246;mische Nekropole</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042140_1"><persName><name type="nomen">Quinta+</name><name type="cognomen">Caecilia</name></persName></person><person xml:id="HD042140_2"><persName><name type="cognomen">Porisius?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-06" who="Garcia">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: CIL II: Norisi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Veny, Corpus de las inscripciones bale&#225;ricas hasta la dominaci&#243;n &#225;rabe (Madrid 1965) 101-102, Nr. 86; l&#225;m. 28, 69.</bibl><bibl>CIL 02, 03680.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0cbf39a8-5841-11ee-8e19-4e7b8ce151d1">
+</c><supplied reason="lost"><c xml:id="0cbf3a48-5841-11ee-8e19-4e7b8ce151d1">Q</c></supplied><c xml:id="0cbf3ade-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="0cbf3aca-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="0cbf3ab6-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="0cbf3aa2-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="0cbf3a84-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="0cbf3a66-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="0cbf3bba-5841-11ee-8e19-4e7b8ce151d1">C</c><c xml:id="0cbf3ba6-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="0cbf3b92-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="0cbf3b7e-5841-11ee-8e19-4e7b8ce151d1">c</c><c xml:id="0cbf3b6a-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="0cbf3b4c-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="0cbf3b38-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="0cbf3b24-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="0cbf3b10-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="0cbf3c82-5841-11ee-8e19-4e7b8ce151d1">p</c><c xml:id="0cbf3c6e-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="0cbf3c50-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="0cbf3c3c-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="0cbf3c28-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="0cbf3c0a-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="0cbf3bf6-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="0cbf3d90-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="0cbf3d72-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="0cbf3d5e-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="0cbf3d40-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="0cbf3d2c-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="0cbf3d0e-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="0cbf3cfa-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="0cbf3cdc-5841-11ee-8e19-4e7b8ce151d1">v</c><c xml:id="0cbf3cc8-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="0cbf3cb4-5841-11ee-8e19-4e7b8ce151d1">l</c></line><line break="no" n="5"><c xml:id="0cbf3e12-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="0cbf3df4-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="0cbf3de0-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="0cbf3dc2-5841-11ee-8e19-4e7b8ce151d1">n</c><expan><ex><c xml:id="0cbf3e8a-5841-11ee-8e19-4e7b8ce151d1">n</c></ex><abbr><c xml:id="0cbf3f3e-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="0cbf3f02-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="0cbf3ed0-5841-11ee-8e19-4e7b8ce151d1">u</c></abbr><ex><c xml:id="0cbf3f84-5841-11ee-8e19-4e7b8ce151d1">m</c></ex></expan><c xml:id="0cbf3fd4-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="0cbf3fb6-5841-11ee-8e19-4e7b8ce151d1">X</c><c xml:id="0cbf3f98-5841-11ee-8e19-4e7b8ce151d1">X</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

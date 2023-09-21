@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Aquae Sulis &amp;ndash; Bath (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079515</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079515</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bath, Roman Baths Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>4</height><width>6</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79299">Aquae Sulis</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="findspot">{R&#246;misches Bad, Sacred Spring}</placeName><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079515_1" sex="M"><persName><name type="cognomen">Civilis+</name></persName></person><person xml:id="HD079515_2" sex="M"><persName><name type="cognomen">Trinnus</name></persName></person><person xml:id="HD079515_3" sex="M"><persName><name type="cognomen">Velvalis</name></persName></person><person xml:id="HD079515_4" sex="M"><persName><name type="cognomen">Markellinus (= Marcellinus)</name></persName></person><person xml:id="HD079515_5"><persName><name type="cognomen">Veloriga</name></persName></person><person xml:id="HD079515_6" sex="M"><persName><name type="cognomen">Morivassus</name></persName></person><person xml:id="HD079515_7" sex="M"><persName><name type="cognomen">Riovassus</name></persName></person><person xml:id="HD079515_8"><persName><name type="cognomen">Minoven[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-06" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: Blei-Zinn-Legierung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R.S.O. Tomlin, in: B. Cunliffe (Hrsg.), The Temple of Sulis Minerva at Bath.</bibl><bibl>Volume 2 The Finds from the Sacred Spring.</bibl><bibl>(Oxford 1988) 180-181, Nr. 53; Zeichnungen.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.2/45.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />D<supplied reason="lost">eo</supplied> Mercurio <lb n="0" /><gap reason="lost" quantity="1" unit="line" />ISAMVALV<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" />DIN<gap reason="lost" quantity="1" unit="line" />IT sang<supplied reason="lost">uine</supplied><expan><abbr>m</abbr><ex cert="low" /></expan> <lb n="2" /><supplied reason="lost">C</supplied>ivilis <gap reason="lost" extent="unknown" unit="character" /> fuerit de <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="3" />Trinni familiam <gap reason="lost" extent="unknown" unit="character" /> <lb n="4" /><expan><abbr>Velvalis</abbr><ex cert="low" /></expan> <gap reason="lost" extent="unknown" unit="character" /><lb n="0" />am suam <gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> Markellinum <note>sic</note> familia<supplied reason="lost">m</supplied> <lb n="2" />Velorigam et famili<supplied reason="lost">am</supplied> <lb n="3" /><supplied reason="lost">s</supplied>uam Morivassum et <lb n="4" /><supplied reason="lost">f</supplied>amiliam Riovassum e<supplied reason="lost">t</supplied> <lb n="5" />familiam Minoven<gap reason="lost" extent="unknown" unit="character" /> <lb n="6" />et familiam sua<supplied reason="lost">m</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

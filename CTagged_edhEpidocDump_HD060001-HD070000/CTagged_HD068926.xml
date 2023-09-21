@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Poetovio &amp;ndash; Hajdina (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068926</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068926</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Pokrajinski Muz. Ptuj-Ormo&#382;</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(116)</height><width>116</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="findspot">Drau, Flussbett, {ehemalige Kukovec-M&#252;hle, bei}</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068926_1" sex="M"><persName ref="http://romans1by1.com/rpeople/16729"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]ncius</name></persName></person><person xml:id="HD068926_2" sex="W"><persName ref="http://romans1by1.com/rpeople/16730"><name type="nomen">Tullia</name><name type="cognomen">Fidelis</name></persName></person><person xml:id="HD068926_3" sex="M"><persName><name type="cognomen">Taurus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-01" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ma&#223;e nach lupa 4210. Z. 1: statt L auch E m&#246;glich. Z. 2: m&#246;glicherweise auch quot. (B): Jevremov: Z. 1 fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10881.</bibl><bibl>B. Jevremov, Vodnik po lapidariju 1 (Ptuj 1988) 66, Nr. 41. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="a7321c02-5842-11ee-a013-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="a7321c48-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="a7321cac-5842-11ee-a013-4e7b8ce151d1">L</c></abbr><ex cert="low" /></expan><c xml:id="a7321cca-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a7321ce8-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a7321d2e-5842-11ee-a013-4e7b8ce151d1">Q</c></abbr><ex cert="low"><c xml:id="a7321e1e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a7321dec-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7321dc4-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a7321d92-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a7321d60-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="a7321e32-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a7321ebe-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="a7321e96-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a7321e64-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex cert="low"><c xml:id="a7321f68-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a7321f40-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a7321f18-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7321ef0-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="a7321f7c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a7321fea-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a7321fd6-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a7321fc2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7321fae-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a7321f9a-5842-11ee-a013-4e7b8ce151d1"> </c><abbr><c xml:id="a732208a-5842-11ee-a013-4e7b8ce151d1">B</c><c xml:id="a7322058-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a7322030-5842-11ee-a013-4e7b8ce151d1">r</c></abbr><c xml:id="a732209e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><supplied reason="lost"><c xml:id="a73220da-5842-11ee-a013-4e7b8ce151d1">l</c></supplied><c xml:id="a7322102-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a73220ee-5842-11ee-a013-4e7b8ce151d1">g</c></abbr><ex><c xml:id="a73221e8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a73221c0-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a7322198-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a7322166-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a732213e-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a732226a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a7322256-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="a7322242-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a732222e-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a732221a-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="a73221fc-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a732230a-5842-11ee-a013-4e7b8ce151d1">g</c><c xml:id="a73222e2-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a73222b0-5842-11ee-a013-4e7b8ce151d1">m</c></abbr><ex><c xml:id="a73223b4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a732238c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a7322364-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a7322332-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan><c xml:id="a73223c8-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><c xml:id="a7322454-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="a732242c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322404-5842-11ee-a013-4e7b8ce151d1">e</c></supplied><c xml:id="a73225bc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a73225a8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a7322594-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322576-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a7322562-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a732254e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a732253a-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a732251c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a7322508-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a73224f4-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="a73224e0-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a73224c2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a73224ae-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a732249a-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a732247c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322468-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="a73226ac-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a732268e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a732267a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a732265c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a7322648-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322634-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="a7322616-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322602-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a73226fc-5842-11ee-a013-4e7b8ce151d1">v</c></abbr><ex><c xml:id="a732277e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322756-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="a7322724-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="a7322792-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a73227ce-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="a7322882-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a7322850-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a7322828-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322800-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan><c xml:id="a7322896-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="a73229fe-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="a73229e0-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a73229cc-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a73229ae-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a7322990-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a732297c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a732295e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a7322940-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="a7322922-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a732290e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a73228f0-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a73228d2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a73228b4-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a7322a58-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="a7322b52-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322b2a-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="a7322b02-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a7322ada-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a7322ab2-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a7322a80-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="a7322c2e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a7322c10-5842-11ee-a013-4e7b8ce151d1">F</c><c xml:id="a7322bf2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322bde-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="a7322bc0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a7322ba2-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a7322b84-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a7322b66-5842-11ee-a013-4e7b8ce151d1">s</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Scarbantia, bei &amp;ndash; Rust (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074683</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074683</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland, Depot Siegendorf</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(40)</height><width>(45)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197501">Scarbantia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761353">Rust</placeName><placeName type="findspot" /><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-01" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Rundum abgebrochenes Fragment, die Inschrift stark besch&#228;digt und nur schwer lesbar. Reste von roter Farbe in den Buchstaben. Z. 1 zu Beginn P oder R. (B): Hild: PIONIA[---] / ad TITV[---] / VLI[------.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 254, Nr. 401.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0eacccba-5843-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="0eaccec2-5843-11ee-8920-4e7b8ce151d1">P</c><c xml:id="0eacce7c-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="0eacce22-5843-11ee-8920-4e7b8ce151d1">O</c><c xml:id="0eaccdb4-5843-11ee-8920-4e7b8ce151d1">N</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="0eaccef4-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="0eaccf76-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0eaccf4e-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="0eaccf30-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0eacd048-5843-11ee-8920-4e7b8ce151d1">P</c><c xml:id="0eaccfe4-5843-11ee-8920-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="0eacd07a-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="0eacd12e-5843-11ee-8920-4e7b8ce151d1">N</c><c xml:id="0eacd0de-5843-11ee-8920-4e7b8ce151d1">D</c></abbr><ex cert="low" /></expan><gap reason="lost" quantity="1" unit="line" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

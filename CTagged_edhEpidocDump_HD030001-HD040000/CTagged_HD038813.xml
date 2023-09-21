@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Frojach-Katsch (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038813</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038813</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Frojach-Katsch, Katsch 45, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>54</height><width>74</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2774628">Frojach-Katsch</placeName><placeName type="findspot">{Katsch 45}, sekund&#228;r verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038813_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Surus</name></persName></person><person xml:id="HD038813_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Gaius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-18" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: nachtr&#228;glich in kleineren Buchstaben zwischen Z. 2 und 4 eingef&#252;gt. (B): CIL III: Z. 4: Caius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 307, Nr. 250; Foto.</bibl><bibl>A. Betz, J&#338;AI (Beibl.) 29, 1935, 328, Nr. 529.</bibl><bibl>CIL 03, 05064. (B)</bibl><bibl>ILLPRON 1246.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a9cf1cc8-5840-11ee-8e0b-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="a9cf1da4-5840-11ee-8e0b-4e7b8ce151d1">D</c></abbr><ex><c xml:id="a9cf1e62-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf1df4-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9cf1e80-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9cf1ef8-5840-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="a9cf201a-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a9cf1fe8-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="a9cf1fc0-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf1f8e-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="a9cf1f66-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf1f34-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9cf202e-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="a9cf206a-5840-11ee-8e0b-4e7b8ce151d1">P</c></abbr><ex><c xml:id="a9cf215a-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf2132-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="a9cf2100-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a9cf20ce-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf209c-5840-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan><c xml:id="a9cf224a-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a9cf2236-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="a9cf2222-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="a9cf220e-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a9cf21fa-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf21e6-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="a9cf21d2-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a9cf21c8-5840-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="a9cf21b4-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf21a0-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="a9cf218c-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="a9cf216e-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="a9cf2344-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="a9cf231c-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="a9cf22f4-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="a9cf22c2-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="a9cf229a-5840-11ee-8e0b-4e7b8ce151d1">r</c></abbr><ex><c xml:id="a9cf23c6-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a9cf2394-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="a9cf236c-5840-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan><c xml:id="a9cf23da-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="a9cf2416-5840-11ee-8e0b-4e7b8ce151d1">P</c></abbr><ex><c xml:id="a9cf251a-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf24f2-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="a9cf24c0-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a9cf2498-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf2470-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf243e-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9cf2682-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a9cf266e-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="a9cf265a-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="a9cf2646-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a9cf2628-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf2614-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf2600-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="a9cf25ec-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a9cf25d8-5840-11ee-8e0b-4e7b8ce151d1">G</c><c xml:id="a9cf25ba-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a9cf25a6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf2556-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf2542-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="a9cf252e-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="a9cf2768-5840-11ee-8e0b-4e7b8ce151d1">p</c><c xml:id="a9cf2736-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a9cf270e-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="a9cf26e6-5840-11ee-8e0b-4e7b8ce151d1">r</c></abbr><ex><c xml:id="a9cf279a-5840-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="a9cf284e-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a9cf283a-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="a9cf2826-5840-11ee-8e0b-4e7b8ce151d1">p</c><c xml:id="a9cf2808-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="a9cf27f4-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf27e0-5840-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="a9cf27c2-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="a9cf27ae-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="a9cf2894-5840-11ee-8e0b-4e7b8ce151d1">v</c></abbr><ex><c xml:id="a9cf2948-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf2920-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="a9cf28ee-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a9cf28c6-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9cf295c-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9cf298e-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="a9cf2a42-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="a9cf2a1a-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="a9cf29e8-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a9cf29c0-5840-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

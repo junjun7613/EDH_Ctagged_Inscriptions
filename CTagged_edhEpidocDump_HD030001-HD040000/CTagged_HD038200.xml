@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tatab&#225;nya (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038200</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038200</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>338</height><width>98</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044082">Tatab&#225;nya</placeName><placeName type="findspot">sp&#228;tantikes Grab, sekund&#228;r verwendet</placeName><placeName type="region">Kom&#225;rom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038200_1" sex="W"><persName><name type="cognomen">Admonia+?</name></persName></person><person xml:id="HD038200_2" sex="M"><persName><name type="cognomen">Caraco</name></persName></person><person xml:id="HD038200_3" sex="M"><persName><name type="cognomen">Abascantus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-02" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung f&#252;r ein sp&#228;tantikes Grab; in zwei Teile gebrochen. Oberhalb des Inschriftfeldes Darstellung eines Ehepaars mit Kind; unterhalb des Inschriftfeldes Reiter nach rechts.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0716; Abb. 716 (Foto u. Zeichnung).</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 290, Nr. 622.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="d4d6ccfa-2c39-11ee-a36e-4e7b8ce151d0">D</c></abbr><ex><c xml:id="d4d6cde0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d4d6cd86-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d4d6ce08-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d4d6ce76-2c39-11ee-a36e-4e7b8ce151d0">M</c></abbr><ex><c xml:id="d4d6d056-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d4d6d006-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6cfc0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d4d6cf70-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d4d6cf20-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d4d6ced0-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d4d6d07e-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="d4d6d15a-2c39-11ee-a36e-4e7b8ce151d0">A</c><c xml:id="d4d6d132-2c39-11ee-a36e-4e7b8ce151d0">d</c><c xml:id="d4d6d114-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="d4d6d0f6-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d4d6d0ce-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6d0b0-2c39-11ee-a36e-4e7b8ce151d0">i</c><supplied reason="lost" cert="low"><c xml:id="d4d6d1d2-2c39-11ee-a36e-4e7b8ce151d0">a</c></supplied><c xml:id="d4d6d1f0-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="d4d6d362-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d4d6d33a-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d4d6d31c-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d4d6d2f4-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d4d6d2d6-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d4d6d2ae-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d4d6d290-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6d268-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d4d6d24a-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d4d6d222-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="d4d6d3e4-2c39-11ee-a36e-4e7b8ce151d0">n</c><am>n</am></abbr><ex><c xml:id="d4d6d524-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d4d6d4de-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d4d6d48e-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d4d6d43e-2c39-11ee-a36e-4e7b8ce151d0">m</c></ex></expan><c xml:id="d4d6d60a-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d4d6d5e2-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="d4d6d5ba-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="d4d6d59c-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d4d6d574-2c39-11ee-a36e-4e7b8ce151d0">I</c><c xml:id="d4d6d54c-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="d4d6d650-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="5" /><expan><abbr><supplied reason="lost"><c xml:id="d4d6d70e-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d4d6d6be-2c39-11ee-a36e-4e7b8ce151d0">o</c></supplied><c xml:id="d4d6d790-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6d768-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d4d6d74a-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d4d6d72c-2c39-11ee-a36e-4e7b8ce151d0">g</c></abbr><ex><c xml:id="d4d6d7f4-2c39-11ee-a36e-4e7b8ce151d0">i</c></ex></expan><c xml:id="d4d6d8e4-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d4d6d8bc-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d4d6d894-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d4d6d86c-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d4d6d844-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d4d6d81c-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="6" /><c xml:id="d4d6daba-2c39-11ee-a36e-4e7b8ce151d0">A</c><c xml:id="d4d6da92-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d4d6da6a-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d4d6da42-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d4d6da1a-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d4d6d9f2-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d4d6d9ca-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6d9a2-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d4d6d97a-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d4d6d952-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d4d6d92a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="7" /><c xml:id="d4d6dbc8-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d4d6db96-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d4d6db6e-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6db46-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d4d6db1e-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d4d6dce0-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="d4d6dc90-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d4d6dc40-2c39-11ee-a36e-4e7b8ce151d0">r</c></abbr><ex><c xml:id="d4d6de16-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d4d6ddd0-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d4d6dd80-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d4d6dd30-2c39-11ee-a36e-4e7b8ce151d0">i</c></ex></expan><c xml:id="d4d6de3e-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d4d6df42-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="d4d6def2-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d4d6dea2-2c39-11ee-a36e-4e7b8ce151d0">s</c></abbr><ex><c xml:id="d4d6e032-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d4d6dfe2-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d4d6df92-2c39-11ee-a36e-4e7b8ce151d0">t</c></ex></expan></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

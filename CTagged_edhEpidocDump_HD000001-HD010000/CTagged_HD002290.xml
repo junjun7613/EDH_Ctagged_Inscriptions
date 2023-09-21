@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Chersonesus Taurica &amp;ndash; Kherson (Regnum Bospori)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002290</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002290</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Kherson</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(61)</height><width>(38)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Regnum Bospori</placeName><placeName type="ancient" ref="#">Chersonesus Taurica</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1970"><placeName type="country" ref="https://www.geonames.org/690791">Ukraine</placeName><placeName type="modern">Kherson</placeName><placeName type="findspot">Zitadelle, bei</placeName><placeName type="region">Kherson</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002290_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002290_2" sex="M"><persName><name type="cognomen">Auluzenus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-08" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): [--- vix]it an[n(is)] / LV mil[it(avit)] / ann(is) XX[---] Auluz[e]/nus C[o]/cleiu[s](?) / here[s h(uius)] / [fecit].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0806.</bibl><bibl>G. Alf&#246;ldy, Gnomon 56, 1984, 786, Nr. 26. - AE 1984.</bibl><bibl>E.J. Solomonik, Latin inscriptions of Chersonesus Tauric (Moskva 1983) 54-55, Nr. 26; Foto 26. (B) - AE 1984.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="d887e126-583b-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="d887e1b2-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><supplied reason="lost"><c xml:id="d887e252-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="d887e216-583b-11ee-a136-4e7b8ce151d1">i</c></supplied><c xml:id="d887e270-583b-11ee-a136-4e7b8ce151d1">x</c></abbr><ex><c xml:id="d887e2de-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887e2ac-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="d887e2f2-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d887e32e-583b-11ee-a136-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="d887e392-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d887e360-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="d887e3a6-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="d887e3ec-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="d887e3d8-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="d887e3c4-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d887e496-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="d887e46e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887e43c-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="d887e5ae-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887e57c-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="d887e554-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d887e522-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="d887e4fa-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887e4c8-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="d887e5c2-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="d887e5fe-583b-11ee-a136-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="d887e68a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d887e658-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="d887e748-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d887e734-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="d887e720-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="d887e70c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d887e6f8-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="d887e6da-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="d887e6c6-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d887e6b2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="d887e69e-583b-11ee-a136-4e7b8ce151d1">z</c><supplied reason="lost"><c xml:id="d887e798-583b-11ee-a136-4e7b8ce151d1">e</c></supplied></line><line break="no" n="4"><c xml:id="d887e806-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="d887e7f2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="d887e7de-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d887e7c0-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d887e7ac-583b-11ee-a136-4e7b8ce151d1">o</c><supplied reason="lost"><expan><abbr><c xml:id="d887e87e-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="d887e856-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="d887e8e2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887e8b0-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan></supplied><c xml:id="d887e8f6-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="d887e964-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="d887e932-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="d887ea40-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d887ea18-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d887e9e6-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d887e9be-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887e996-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="d887eaa4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d887ea86-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="d887ea72-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d887ea54-583b-11ee-a136-4e7b8ce151d1">u</c><supplied reason="lost"><expan><abbr><c xml:id="d887eb12-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d887eaea-583b-11ee-a136-4e7b8ce151d1">d</c></abbr><ex><c xml:id="d887eb76-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="d887eb44-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan></supplied><c xml:id="d887eb8a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="d887ebee-583b-11ee-a136-4e7b8ce151d1">h</c><c xml:id="d887ebda-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="d887ebbc-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="d887eba8-583b-11ee-a136-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="d887ec66-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d887ec34-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr>f</abbr><ex>ecit</ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

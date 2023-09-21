@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Label from (Civitas Sumelocennensis) &amp;ndash; N&#252;rtingen (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047088</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047088</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>N&#252;rtingen, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/163">jewellery</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>1</height><width>1</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Sumelocennensis)</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1985"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2861632">N&#252;rtingen</placeName><placeName type="findspot">Oberensingen, {r&#246;mische Villa}</placeName><placeName type="region">Baden-W&#252;rttemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/109">label</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bronzener Fingerring. Auf der Platte Darstellung eines siegreichen Wagenlenkers auf Quadriga. Ven(eta) bezieht sich auf die factio veneta.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1533.</bibl><bibl>J. Ronke, in: A. Gumlia-Mair (Hrsg.), Atti del XV Congresso Internazionale sui Bronzi Antichi, Grado-Aquilea 2001 (Montagnac 2002) 500-505; Abb. 1; Abb. 10 (Zeichnung). - AE 2001.</bibl><bibl>S.F. Pfahl, Instrumenta Latina et Graeca inscripta des Limesgebietes von 200 v. Chr. bis 600 n. Chr. (Weinstadt 2012) 161-162, Nr. 168; Taf. 13, 168.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="24e35c1c-5841-11ee-8e19-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="24e35d02-5841-11ee-8e19-4e7b8ce151d1">V</c><c xml:id="24e35cd0-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="24e35c94-5841-11ee-8e19-4e7b8ce151d1">n</c></abbr><ex><c xml:id="24e35d98-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="24e35d66-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="24e35d3e-5841-11ee-8e19-4e7b8ce151d1">a</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

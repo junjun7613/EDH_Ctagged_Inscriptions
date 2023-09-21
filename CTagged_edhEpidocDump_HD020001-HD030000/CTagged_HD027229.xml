@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027229</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027229</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(87)</height><width>81</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0092" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">92 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1932"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">Parzelle Nr. 771</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027229_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aprilius+</name><name type="cognomen">Surus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-17" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019256" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c49f6cbf-c7db-42e1-b4c7-b66202bcff6d/file/id/779328/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bei der Auffindung noch drei aneinanderpassende Fragmente erhalten; eines davon inzwischen verloren. Oberhalb des Inschriftfeldes Frieszone und Giebel mit Ranken- und Palmettendekor. Z. 1: Buchstaben D und M auf dem Rahmen links bzw. rechts von Z. 2; offenbar nachtr&#228;glich hinzugef&#252;gt (nicht antik?). Z. 2-6: bei der Auffindung noch vollst&#228;ndig erhalten bis auf LEG in Z. 6. (B): AE 1934: Z. 6/7: XIIII / [g(eminae). Datierung: nicht vor 92/93 n. Chr., als die legio XIIII gemina nach Pannonien verlegt wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1934, 0270. (B)</bibl><bibl>E. Braun, RL&#338; 17, 1933, 83-84, Nr. 7; Abb. 39. - AE 1934.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 78-79, Nr. 127.</bibl><bibl>M.-L. Kr&#252;ger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR &#214;sterreich 1, 4 (Wien 1972) 44, Nr. 529; Taf. 43, 529.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preu&#223; - E. Wittkopf, Der r&#246;mische Weihebezirk von Osterburken 1 (Stuttgart 1990) 244-245, Nr. 294; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>C</abbr><ex>aius</ex></expan> Apr<supplied reason="lost">ilius</supplied> <lb n="2" /><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> S<supplied reason="lost">urus</supplied> <lb n="3" />b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <supplied reason="lost"><expan><abbr>leg</abbr><ex>ati</ex></expan> Med</supplied><lb break="no" n="4" /><supplied reason="lost">iolano</supplied> <lb n="5" /><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <expan><abbr>g</abbr><ex>eminae</ex></expan></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

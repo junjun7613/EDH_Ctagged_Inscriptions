@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Veldidena &amp;ndash; Innsbruck (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017875</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017875</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>2</height><width>5</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187608">Veldidena</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761164">Innsbruck</placeName><placeName type="findspot">Wilten, {Pastorstr.}</placeName><placeName type="region">Tirol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017875_1" sex="W"><persName><name type="cognomen">Secundina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-05-30" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Beidseitig beschriftetes Flucht&#228;felchen. Schreibtechnik: geritzt. Kursive Schrift. (B): AE 1961; Franz: Kleinere Leseabweichungen; Kropp: Text 2, Z. 6/7: vos [e]um p[er?]/se[&amp;lt;q=C&amp;gt;u]atis(!).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1961, 0181. (B)</bibl><bibl>AE 1998, 0999.</bibl><bibl>L. Franz, J&#338;AI (Beibl.) 44, 1959, 69-76; Abb. 29; Abb. 30 a u. b (Zeichnungen). (B) - AE 1961.</bibl><bibl>H. Gra&#223;l, in: P.W. Haider (Hrsg.), Akten des 6. &#214;sterreichischen Althistorikertages (Innsbruck 1998). - AE 1998.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 7.5/1. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />Secundina Mercurio et <lb n="2" />Moltino mandat ut si quis |(denarios) XIIII <lb n="3" />sive draucus duos sustulit ut <lb n="4" />eum sive fortunas eius in<supplied reason="lost">fi</supplied><lb break="no" n="5" />dus Cacus sic auferat quo<lb break="no" n="6" />modi <note>sic</note> ill<expan><ex>a</ex><abbr>e</abbr></expan> ablatum est <supplied reason="lost">i</supplied>d quod <lb n="7" />vobis delegat ut persecuatis <note>sic</note> <lb n="8" />vobisque deligat ut </div><div n="2" type="textpart"><lb n="1" /> Persicuatis <note>sic</note> et eum <lb n="2" />aversum a fortunis <expan><ex>s</ex><abbr>u</abbr></expan><lb break="no" n="3" />is avertatis et a suis prox<lb break="no" n="4" />simis <note>sic</note> et ab eis quos caris<lb break="no" n="5" />simos <expan><ex>h</ex><abbr>abeat</abbr></expan> h<supplied reason="lost">o</supplied>c vobis <lb n="6" />mandat vos cor<lb break="no" n="7" /><supplied reason="lost">ipi</supplied>atis <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

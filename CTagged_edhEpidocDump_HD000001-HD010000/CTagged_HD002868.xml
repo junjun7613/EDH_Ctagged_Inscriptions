@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mairos (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002868</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002868</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pfarrsaal</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>146</height><width>21</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2738010">Mairos</placeName><placeName type="findspot">Pferdestall des D. Dionisio Pi&#241;eiro, Nordmauer, sekund&#228;r verwendet</placeName><placeName type="region">Vila Real</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002868_1" sex="W"><persName><name type="cognomen">Severa Severina</name></persName></person><person xml:id="HD002868_2" sex="M"><persName><name type="cognomen">Reburrus Co[---]</name></persName></person><person xml:id="HD002868_3" sex="M"><persName><name type="cognomen">Bu[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-23" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Lesung unsicher. (B): Z.3: Reburrico [---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0545.</bibl><bibl>A. Rodr&#237;guez Colmenero - M. Covadonga Carreno, in: Lucerna.</bibl><bibl>Homenaje a D.D. de Pinho Brand&#227;o (Porto 1984) 222, Nr. 3; Foto. (B) - AE. (unzug&#228;nglich).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="ca595616-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="ca5956a2-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="ca59571a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ca5956e8-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="ca595738-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ca595774-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ca59588c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ca595864-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ca59583c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ca59580a-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="ca5957e2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ca5957b0-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="ca5958a0-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ca5958e6-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="ca5959cc-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ca59599a-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="ca595972-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca59594a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ca595918-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="ca5959e0-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="ca595ae4-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="ca595ad0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ca595abc-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="ca595aa8-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ca595a94-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca595a80-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ca595a6c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ca595a58-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="ca595a4e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ca595a3a-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="ca595a1c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ca595a08-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca5959f4-583b-11ee-a136-4e7b8ce151d1">i</c></line><line break="no" n="3"><c xml:id="ca595c1a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ca595c06-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ca595bf2-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ca595bde-583b-11ee-a136-4e7b8ce151d1">R</c><c xml:id="ca595bc0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ca595bac-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="ca595b98-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ca595b84-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca595b70-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca595b5c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ca595b48-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ca595b34-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="ca595b20-583b-11ee-a136-4e7b8ce151d1">o</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="ca595c56-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="ca595c88-583b-11ee-a136-4e7b8ce151d1">B</c><c xml:id="ca595c74-583b-11ee-a136-4e7b8ce151d1">u</c><gap reason="lost" extent="unknown" unit="character" /></line><line break="no" n="5"><c xml:id="ca595d50-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ca595d3c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ca595d1e-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="ca595d0a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ca595cf6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ca595cd8-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca595cc4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ca595cb0-583b-11ee-a136-4e7b8ce151d1">t</c></line><line break="no" n="6"><c xml:id="ca595d96-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ca595d82-583b-11ee-a136-4e7b8ce151d1"> </c><note>sic</note><c xml:id="ca595e4a-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ca595e2c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ca595e18-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="ca595dfa-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="ca595ddc-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ca595dc8-583b-11ee-a136-4e7b8ce151d1">m</c></line><line break="no" n="7"><c xml:id="ca595e90-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ca595e72-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ca595efe-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ca595ed6-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ca595fe4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ca595fb2-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ca595f8a-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ca595f58-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ca595f30-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="ca595ff8-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="ca59608e-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="ca596070-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="ca596052-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="ca596034-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="ca596016-583b-11ee-a136-4e7b8ce151d1">I</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

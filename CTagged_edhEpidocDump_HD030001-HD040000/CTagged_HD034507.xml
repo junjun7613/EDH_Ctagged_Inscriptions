@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iader, bei &amp;ndash; Biograd na Moru, bei (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034507</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034507</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(26)</height><width>32</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.4-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197312">Iader, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3204121">Biograd na Moru, bei</placeName><placeName type="findspot" /><placeName type="region">Zadarska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034507_1" sex="W"><persName><name type="nomen">Sl[---]</name><name type="cognomen">Cervola</name></persName></person><person xml:id="HD034507_2" sex="M"><persName><name type="nomen">Decius</name><name type="cognomen">Herma+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-12-19" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: m&#246;glicherweise auch Herm[es] zu erg&#228;nzen. Der Stein ist oben besch&#228;digt; nach ILJug daher vielleicht &#252;ber der ersten erhaltenen Zeile D(is) M(anibus) zu erg&#228;nzen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0872.</bibl><bibl>M. Sui&#263;, BAHD 54, 1952, 210, Nr. 18.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="4d20232e-583f-11ee-8e0b-4e7b8ce151d1">
+</c><c xml:id="4d20231a-583f-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="4d2022f2-583f-11ee-8e0b-4e7b8ce151d1">l</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="4d202356-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="4d20240a-583f-11ee-8e0b-4e7b8ce151d1">C</c><c xml:id="4d2023f6-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d2023e2-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4d2023ce-583f-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="4d2023ba-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="4d2023a6-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="4d202392-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="4d202388-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d20236a-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="4d2024fa-583f-11ee-8e0b-4e7b8ce151d1">D</c><c xml:id="4d2024e6-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d2024d2-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="4d2024be-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4d2024aa-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4d202496-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="4d202482-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="4d20246e-583f-11ee-8e0b-4e7b8ce151d1">H</c><c xml:id="4d20245a-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d202446-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4d202432-583f-11ee-8e0b-4e7b8ce151d1">m</c><supplied reason="lost" cert="low"><c xml:id="4d202554-583f-11ee-8e0b-4e7b8ce151d1">a</c></supplied><c xml:id="4d202572-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="4d20268a-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="4d202676-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d202662-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4d20264e-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d202630-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="4d20261c-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="4d202608-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d2025f4-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4d2025e0-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4d2025cc-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4d2025b8-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="4d2025a4-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4d202586-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="4d2026da-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="4d2026c6-583f-11ee-8e0b-4e7b8ce151d1">o</c><expan><ex><c xml:id="4d202720-583f-11ee-8e0b-4e7b8ce151d1">n</c></ex><abbr><c xml:id="4d2027e8-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="4d2027b6-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4d202784-583f-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="4d202752-583f-11ee-8e0b-4e7b8ce151d1">i</c></abbr></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

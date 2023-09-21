@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gro&#223;mehring (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058807</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058807</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gro&#223;mehring, Demling, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/59">Dolomit</material><dimensions unit="cm"><height>130</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1911"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2915277">Gro&#223;mehring</placeName><placeName type="findspot">Demling, {Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058807_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Livius*</name><name type="cognomen">Ventinus</name></persName></person><person xml:id="HD058807_2" sex="M"><persName><name type="cognomen">Censorinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-02" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>&#220;ber dem Inschriftenfeld Cena-Szene. Abbildung in IBR zur Kontrolle der Lesung unbrauchbar. Text 2 befindet sich in einem Kreis (=O); das S f&#252;llt den Kreis aus, die &#252;brigen Buchstaben sind in normaler Gr&#246;&#223;e wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 260B; tab. 36, 260B.</bibl><bibl>G. Gamer - A. R&#252;sch, Raetia (Bayern s&#252;dlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 116-117, Nr. 500; Taf. 145, 500.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="e3d090d6-5841-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="e3d09180-5841-11ee-a9c6-4e7b8ce151d1">T</c></abbr><ex><c xml:id="e3d0925c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d0922a-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="e3d09202-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d091d0-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="e3d0927a-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d09310-5841-11ee-a9c6-4e7b8ce151d1">L</c><c xml:id="e3d092e8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d092b6-5841-11ee-a9c6-4e7b8ce151d1">v</c></abbr><ex><c xml:id="e3d093ba-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09374-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d0934c-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="e3d0940a-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="e3d093f6-5841-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="e3d093e2-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e3d093ce-5841-11ee-a9c6-4e7b8ce151d1">n</c></line><line break="no" n="2"><c xml:id="e3d094a0-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="e3d0948c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09478-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d09464-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d09446-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="e3d09432-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d094e6-5841-11ee-a9c6-4e7b8ce151d1">n</c><supplied reason="lost">a</supplied>ti</abbr><ex><c xml:id="e3d09586-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="e3d09554-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d0952c-5841-11ee-a9c6-4e7b8ce151d1">e</c></ex></expan><c xml:id="e3d0959a-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d095d6-5841-11ee-a9c6-4e7b8ce151d1">H</c></abbr><ex><c xml:id="e3d09608-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><expan><abbr><c xml:id="e3d09644-5841-11ee-a9c6-4e7b8ce151d1">e</c></abbr><ex cert="low"><c xml:id="e3d096f8-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="e3d096d0-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d0969e-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d09676-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="e3d0970c-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="e3d09766-5841-11ee-a9c6-4e7b8ce151d1">v</c></abbr><ex><c xml:id="e3d0982e-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09806-5841-11ee-a9c6-4e7b8ce151d1">x</c><c xml:id="e3d097c0-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09798-5841-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="e3d09842-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d0987e-5841-11ee-a9c6-4e7b8ce151d1">a</c></abbr><ex><c xml:id="e3d0993c-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d0990a-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d098e2-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="e3d098b0-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="e3d09978-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="e3d09964-5841-11ee-a9c6-4e7b8ce151d1">L</c><c xml:id="e3d09950-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="e3d09a0e-5841-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="e3d099fa-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e3d099e6-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d099c8-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="e3d099b4-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="e3d099a0-5841-11ee-a9c6-4e7b8ce151d1">r</c></line><line break="no" n="5"><c xml:id="e3d09a9a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09a86-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d09a68-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d09a54-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="e3d09a40-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d09b3a-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="e3d09b12-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="e3d09ae0-5841-11ee-a9c6-4e7b8ce151d1">a</c></abbr><ex><c xml:id="e3d09bda-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="e3d09ba8-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e3d09b6c-5841-11ee-a9c6-4e7b8ce151d1">r</c></ex></expan><c xml:id="e3d09bee-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="e3d09c2a-5841-11ee-a9c6-4e7b8ce151d1">f</c></abbr><ex><c xml:id="e3d09da6-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="e3d09d7e-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="e3d09d4c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09d24-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e3d09cf2-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e3d09cca-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="e3d09c98-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d09c70-5841-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="e3d09dba-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d09df6-5841-11ee-a9c6-4e7b8ce151d1">c</c></abbr><ex><c xml:id="e3d09f18-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e3d09ee6-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="e3d09eb4-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="e3d09e8c-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="e3d09e5a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d09e32-5841-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="e3d09f2c-5841-11ee-a9c6-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="e3d09f54-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d09f86-5841-11ee-a9c6-4e7b8ce151d1">O</c></abbr><ex><c xml:id="e3d0a012-5841-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="e3d09fea-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="e3d09fb8-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="e3d0a026-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d0a062-5841-11ee-a9c6-4e7b8ce151d1">s</c></abbr><ex><c xml:id="e3d0a0bc-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d0a094-5841-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="e3d0a0d0-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d0a10c-5841-11ee-a9c6-4e7b8ce151d1">t</c></abbr><ex><c xml:id="e3d0a198-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d0a166-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="e3d0a13e-5841-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="e3d0a1ac-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d0a1de-5841-11ee-a9c6-4e7b8ce151d1">t</c></abbr><ex><c xml:id="e3d0a29c-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e3d0a26a-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="e3d0a242-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="e3d0a210-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="e3d0a2b0-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3d0a2e2-5841-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="e3d0a3a0-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e3d0a36e-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="e3d0a346-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e3d0a314-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

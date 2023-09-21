@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068588</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068588</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(220)</height><width>88</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1999"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">&#211;buda, {Praktiker-Markt}, bei</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068588_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD068588_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">D[-]OG[---]</name></persName></person><person xml:id="HD068588_3" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Potens*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die heute gut lesbare Inschrift (1. H&#228;lfte 4. Jh. n. Chr.) steht auf der Rasur einer Vorg&#228;ngerinschrift (1. H&#228;lfte 2. Jh. n. Chr.; hier an erster Stelle wiedergegeben).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TitAq 0613; Fotos.</bibl><bibl>TitAq 0795; Fotos.</bibl><bibl>AE 2010, 1298.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />CVS <supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="2" /><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> D<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied>OG<gap reason="lost" extent="unknown" unit="character" /> <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />LM<gap reason="lost" extent="unknown" unit="character" /> <lb n="4" />testamen<supplied reason="lost">to</supplied><gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>fec</abbr><ex>it</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Pote<expan><ex>n</ex><abbr>s</abbr></expan> ex prote<expan><ex>c</ex><abbr>to</abbr></expan><lb break="no" n="2" />re defun<expan><ex>c</ex><abbr>tus</abbr></expan> <expan><abbr>es</abbr><ex>t</ex></expan> <lb n="3" />qui vixit <expan><abbr>an</abbr><ex>nos</ex></expan> L <lb n="4" />cui col<expan><ex>l</ex><abbr>egas</abbr></expan><surplus>s</surplus> <note>sic</note> <expan><abbr>feceru</abbr><ex>nt</ex></expan> <lb n="5" />et <expan><abbr>h</abbr><ex cert="low">eredes</ex></expan></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068586</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068586</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>151</height><width>46</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1882"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">&#211;buda, {Folyam&#337;r utca}, Schnapsbrennerei Gr&#252;nwald</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068586_1" sex="M"><persName><name type="cognomen">Euhelpistus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 2/3: H von Euhelpistus &#252;ber den Zwischenraum von V und E eingemei&#223;elt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10545.</bibl><bibl>TitAq 0611; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="722a12d0-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="722a133e-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="722a13ac-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="722a137a-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="722a13c0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="722a13fc-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="722a150a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="722a14d8-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="722a14b0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="722a1488-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="722a1456-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="722a142e-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="722a151e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="722a15b4-5842-11ee-a013-4e7b8ce151d1">E</c><c xml:id="722a15aa-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="722a1596-5842-11ee-a013-4e7b8ce151d1">h</c><c xml:id="722a1582-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a156e-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="722a155a-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="722a1546-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="722a153c-5842-11ee-a013-4e7b8ce151d1">s</c></line><line break="no" n="3"><c xml:id="722a1618-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="722a1604-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="722a15fa-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="722a15e6-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="722a16b8-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="722a1690-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="722a165e-5842-11ee-a013-4e7b8ce151d1">b</c></abbr><ex><c xml:id="722a178a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a1762-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="722a173a-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="722a1712-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="722a16ea-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="722a179e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="722a1834-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="722a1820-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="722a180c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="722a17f8-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="722a17e4-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a17d0-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="722a17bc-5842-11ee-a013-4e7b8ce151d1">i</c></line><line break="no" n="5"><c xml:id="722a18d4-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="722a18c0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="722a18ac-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="722a1898-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="722a1884-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a1870-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="722a185c-5842-11ee-a013-4e7b8ce151d1">o</c></line><line break="no" n="6"><c xml:id="722a196a-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="722a1956-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="722a1942-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="722a192e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a191a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="722a18fc-5842-11ee-a013-4e7b8ce151d1">h</c><expan><ex><c xml:id="722a19b0-5842-11ee-a013-4e7b8ce151d1">a</c></ex><abbr><c xml:id="722a1a0a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a19e2-5842-11ee-a013-4e7b8ce151d1">c</c></abbr></expan><c xml:id="722a1a1e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="722a1aaa-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="722a1a96-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="722a1a78-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="722a1a64-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="722a1a50-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="722a1a3c-5842-11ee-a013-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Turris Libisonis &amp;ndash; Porto Torres (Sardinia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002008</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002008</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sassari, Mus. Naz. G.A. Sanna</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sardinia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/472035">Turris Libisonis</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Porto Torres</placeName><placeName type="findspot">Via Largo Sabelli bei Basilica di San Gavino, Grab</placeName><placeName type="region">Sardegna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002008_1" sex="M"><persName><name type="cognomen">Philoponius</name></persName></person><person xml:id="HD002008_2" sex="W"><persName><name type="cognomen">Fortunata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-27" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002297" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1a71238f-2d2a-4bc4-8e35-63e448015740/file/id/763370/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Name Philoponius ist sonst nicht belegt. Formular filis ac nepotibus procreatis anscheinend poetische Ausdrucksweise der Altersangabe; debitum Domino reddidit: neues Formular. Der Stein stammt aus einem sp&#228;tantiken r&#246;mischen Gr&#228;berfeld.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0434.</bibl><bibl>G. Maetzke, in: Atti del IIo Congresso Nazionale di Archeologia Cristiana, Matera 1969 (Roma 1971) 321-322, Anm. 6a; fig. 4. - AE 1982.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="25d58280-583c-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="25d5826c-583c-11ee-a136-4e7b8ce151d1">P</c><c xml:id="25d58258-583c-11ee-a136-4e7b8ce151d1">h</c><c xml:id="25d58244-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d58230-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="25d5821c-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d581fe-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="25d581ea-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d581d6-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="25d581c2-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d581ae-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="25d5819a-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="25d58186-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="25d58172-583c-11ee-a136-4e7b8ce151d1">F</c><c xml:id="25d5815e-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d5814a-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="25d58136-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="25d58122-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="25d5810e-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="25d580fa-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="25d580dc-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="25d580c8-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="25d580aa-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="25d58028-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="25d583e8-583c-11ee-a136-4e7b8ce151d1">v</c><c xml:id="25d583d4-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d583c0-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="25d583a2-583c-11ee-a136-4e7b8ce151d1">g</c><c xml:id="25d5838e-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d5837a-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="25d5835c-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d58348-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="25d5832a-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="25d58316-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="25d58302-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="25d582e4-583c-11ee-a136-4e7b8ce151d1">o</c><expan><ex><c xml:id="25d58460-583c-11ee-a136-4e7b8ce151d1">n</c></ex><abbr><c xml:id="25d58550-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d5851e-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="25d584e2-583c-11ee-a136-4e7b8ce151d1">g</c><c xml:id="25d584b0-583c-11ee-a136-4e7b8ce151d1">i</c></abbr></expan><c xml:id="25d58564-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="25d58762-583c-11ee-a136-4e7b8ce151d1">f</c><c xml:id="25d58744-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d58730-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="25d58712-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d586f4-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="25d586e0-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="25d586c2-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="25d586a4-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="25d58690-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="25d58672-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="25d58654-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="25d58640-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="25d58622-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d5860e-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="25d585f0-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d585dc-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="25d585be-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="25d585aa-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="25d5858c-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="25d589c4-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="25d589a6-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="25d58988-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d5896a-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="25d5894c-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="25d5892e-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="25d58910-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="25d588fc-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="25d588d4-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d588c0-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="25d588a2-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="25d58884-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="25d58866-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="25d58848-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="25d5882a-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d5880c-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="25d587ee-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="25d587d0-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="25d587b2-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="25d58be0-583c-11ee-a136-4e7b8ce151d1">D</c><c xml:id="25d58bc2-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d58b9a-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="25d58b7c-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d58b5e-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="25d58b40-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="25d58b18-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="25d58afa-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="25d58adc-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="25d58abe-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="25d58a96-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="25d58a78-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d58a5a-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="25d58a3c-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="25d58a1e-583c-11ee-a136-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

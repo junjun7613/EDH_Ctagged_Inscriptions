@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073392</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073392</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0114" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 114 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Burgfeld}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073392_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Ge[---]</name><name type="cognomen">[---]s?</name></persName></person><person xml:id="HD073392_2" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">V[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-20" who="Osnabr&#252;gge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Lesung nach CIL 03, 14358, 19. (B): Mosser: Z. 5/6: kein Zeilenfall angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14358, 19.</bibl><bibl>E. Vorbeck, Milit&#228;rinschriften aus Carnuntum (2. Aufl., Wien 1980) 71, Nr. 181.</bibl><bibl>M. Mosser, Die Steindenkm&#228;ler der legio XV Apollinaris (Wien 2003) 246, Nr. 149. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="b71067e8-2c3a-11ee-96ce-4e7b8ce151d0">C</c></abbr><ex><c xml:id="b7106950-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b7106900-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b71068ba-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b710686a-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b71069c8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b71069a0-2c3a-11ee-96ce-4e7b8ce151d0">G</c><c xml:id="b7106978-2c3a-11ee-96ce-4e7b8ce151d0">e</c><gap reason="lost" extent="unknown" unit="character" /><lb break="no" n="2" /><c xml:id="b7106a68-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b7106a40-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b7106a22-2c3a-11ee-96ce-4e7b8ce151d0">S</c><c xml:id="b71069fa-2c3a-11ee-96ce-4e7b8ce151d0">a</c><supplied reason="lost"><c xml:id="b7106c02-2c3a-11ee-96ce-4e7b8ce151d0">v</c><c xml:id="b7106bbc-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b7106b6c-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b7106b1c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b7106acc-2c3a-11ee-96ce-4e7b8ce151d0">a</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> mi</supplied><lb break="no" n="3" /><expan><abbr><c xml:id="b7106c5c-2c3a-11ee-96ce-4e7b8ce151d0">l</c></abbr><ex><c xml:id="b7106cfc-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b7106cac-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b7106d6a-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b7106d42-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b7106d24-2c3a-11ee-96ce-4e7b8ce151d0">e</c><supplied reason="lost"><expan><abbr><c xml:id="b7106dce-2c3a-11ee-96ce-4e7b8ce151d0">g</c></abbr><ex><c xml:id="b7106f4a-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b7106efa-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b7106eb4-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b7106e6e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b7106e1e-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b710704e-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b7107030-2c3a-11ee-96ce-4e7b8ce151d0">X</c><c xml:id="b7107012-2c3a-11ee-96ce-4e7b8ce151d0">V</c><c xml:id="b7106fea-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b7106fcc-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b7106fae-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b7106f90-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b7106f72-2c3a-11ee-96ce-4e7b8ce151d0">l</c></supplied><lb break="no" n="4" /><expan><abbr><c xml:id="b71070c6-2c3a-11ee-96ce-4e7b8ce151d0">l</c></abbr><ex><c xml:id="b7107292-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b710724c-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b71071fc-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b71071b6-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b7107166-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b7107116-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b71072ba-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><am><g type="centuria" /></am></abbr><ex><c xml:id="b710751c-2c3a-11ee-96ce-4e7b8ce151d0">c</c><c xml:id="b71074d6-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b7107490-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b710744a-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b71073fa-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b71073b4-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b710736e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b710731e-2c3a-11ee-96ce-4e7b8ce151d0">a</c></ex></expan><c xml:id="b7107544-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b71075a8-2c3a-11ee-96ce-4e7b8ce151d0">A</c></abbr><ex><c xml:id="b7107684-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b710763e-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b71075f8-2c3a-11ee-96ce-4e7b8ce151d0">i</c></ex></expan><c xml:id="b71076d4-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b71076ac-2c3a-11ee-96ce-4e7b8ce151d0">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b7107706-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="5" /><expan><abbr><c xml:id="b71077ba-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b7107774-2c3a-11ee-96ce-4e7b8ce151d0">n</c></abbr><ex><c xml:id="b7107936-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b71078f0-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b71078a0-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b710785a-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b710780a-2c3a-11ee-96ce-4e7b8ce151d0">m</c></ex></expan><c xml:id="b71079ae-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b7107986-2c3a-11ee-96ce-4e7b8ce151d0">X</c><c xml:id="b710795e-2c3a-11ee-96ce-4e7b8ce151d0">X</c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><expan><abbr><c xml:id="b7107af8-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b7107aa8-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b7107a62-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b7107a1c-2c3a-11ee-96ce-4e7b8ce151d0">p</c></abbr><ex><c xml:id="b7107d50-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b7107d00-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b7107cba-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b7107c6a-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b7107c24-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b7107bde-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b7107b8e-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b7107b48-2c3a-11ee-96ce-4e7b8ce151d0">m</c></ex></expan></supplied><c xml:id="b7107d6e-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="6" /><c xml:id="b7107daa-2c3a-11ee-96ce-4e7b8ce151d0">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b7107ddc-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

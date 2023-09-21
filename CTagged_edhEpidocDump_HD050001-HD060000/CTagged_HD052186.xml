@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052186</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052186</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Arch. Denkmalpflege</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>2</height><width>(2)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{L&#246;hrstra&#223;e}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052186_1" sex="M"><persName><name type="cognomen">Caletus</name></persName></person><person xml:id="HD052186_2" sex="M"><persName><name type="cognomen">Cantius+?</name></persName></person><person xml:id="HD052186_3"><persName><name type="cognomen">Secun[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bleit&#228;felchen. Drei Mal auf beiden Seiten beschrieben; von der ersten und zweiten Beschriftung der Vorderseite nur noch nicht mehr eindeutig identifizierbare Buchstabenreste erhalten au&#223;er P IIII der zweiten Phase. Schreibtechnik: geritzt. Fundjahr: 1981/82. Phase 2, R&#252;ckseite: statt CANT auch CAND m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1031.</bibl><bibl>M. Scholz, MAZ 5/6, 1998/99, 243-244. 269, Nr. 8, 3; Abb. 8, 3 (Fotos u. Zeichnungen). - AE 2004.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>P</abbr><ex>ondo</ex></expan> II </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><expan><abbr>p</abbr><ex>ondo</ex></expan> IIII </div><div n="4" type="textpart"><lb n="1" /> Caletus <lb n="2" />Cant<supplied reason="lost" cert="low">i</supplied> </div><div n="5" type="textpart"><lb n="1" /> Secun<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" />sarca </div><div n="6" type="textpart"><lb n="1" /> Taur<supplied reason="lost">i</supplied> <lb n="2" /><expan><abbr>p</abbr><ex>ondo</ex></expan> II</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

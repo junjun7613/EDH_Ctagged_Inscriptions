@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Hildesheim (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081775</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081775</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Berlin, Staatl. Mus., Antikenslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/115">Silber, Gold</material><dimensions unit="cm"><height>13</height><width>10</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/98981" /></origPlace><origDate><origDate notBefore-custom="-0027" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">27 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1868"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2904789">Hildesheim</placeName><placeName type="findspot">{Galgenberg}, Westhang</placeName><placeName type="region">Niedersachsen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081775_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Manlius*</name><name type="cognomen">Bocchus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrift auf den Gef&#228;&#223;fu&#223; gepunzt. Sog. Viermaskenbecher mit Reliefdekor, aus vergoldetem Silber.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 0962a.</bibl><bibl>M. Reuter, in: P. Henrich - C. Miks - J. Obmann - M. Wieland (Hrsg.), Non solum ... sed etiam, Festschrift f&#252;r Thomas Fischer zum 65. Geburtsgag (Rahden/Westf. 2015) 345-348; Abb. 1; Abb. 2 (Zeichnung). - AE 2015.</bibl><bibl>K. HItzel - H. von Mangoldt - K. Nehmann - L. Petersen - N. Zwingman, in: M. Boetzkes - H. Stein (Hrsg.), Der Hildesheimer Silberfund. Original und Nachahmung. Vom R&#246;merschatz zum B&#252;rgerstolz (Hildesheim 1997) 45; Abb. 11; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="68da086a-5843-11ee-9558-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="68da08ba-5843-11ee-9558-4e7b8ce151d1">L</c></abbr><ex><c xml:id="68da0950-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="68da0928-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="68da08f6-5843-11ee-9558-4e7b8ce151d1">i</c></ex></expan><c xml:id="68da0964-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="68da0a22-5843-11ee-9558-4e7b8ce151d1">M</c><c xml:id="68da09f0-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="68da09c8-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="68da09a0-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="68da0a4a-5843-11ee-9558-4e7b8ce151d1">i</c></ex></expan><c xml:id="68da0aae-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="68da0a9a-5843-11ee-9558-4e7b8ce151d1">B</c><c xml:id="68da0a86-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="68da0a72-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="68da0a5e-5843-11ee-9558-4e7b8ce151d1">c</c><expan><ex><c xml:id="68da0aea-5843-11ee-9558-4e7b8ce151d1">h</c></ex><abbr><c xml:id="68da0b12-5843-11ee-9558-4e7b8ce151d1">i</c></abbr></expan><c xml:id="68da0b26-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="68da0b58-5843-11ee-9558-4e7b8ce151d1">p</c></abbr><ex><c xml:id="68da0c02-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="68da0bda-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="68da0bb2-5843-11ee-9558-4e7b8ce151d1">d</c><c xml:id="68da0b8a-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="68da0c66-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="68da0c52-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="68da0c3e-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="68da0c2a-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="68da0c16-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="68da0ca2-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex><c xml:id="68da0dce-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="68da0da6-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="68da0d7e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="68da0d56-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="68da0d24-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="68da0cfc-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="68da0cd4-5843-11ee-9558-4e7b8ce151d1">a</c></ex></expan><c xml:id="68da0e1e-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="68da0e0a-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="68da0df6-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="68da0de2-5843-11ee-9558-4e7b8ce151d1">I</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

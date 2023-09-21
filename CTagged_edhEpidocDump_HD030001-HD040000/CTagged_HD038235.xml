@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from H&#233;reg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038235</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038235</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kom&#225;rno, Festung, Bastion 6, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>212</height><width>60</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3051514">H&#233;reg</placeName><placeName type="findspot" /><placeName type="region">Kom&#225;rom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038235_1" sex="W"><persName><name type="cognomen">[---]c[-]ina?</name></persName></person><person xml:id="HD038235_2" sex="M"><persName><name type="cognomen">[---]osus?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-01" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vorderseite teilweise stark verwittert; oberhalb des Inschriftfeldes Fries mit zwei Fischen; dar&#252;ber Mondsichel. Lesung nach Foto u. Zeichnung in RIU. (B): CIL 03, 13435; Harl - L&#337;rincz: abweichende Lesung; offenbar waren zur Zeit der Publikation des CIL noch mehr Buchstaben erkennbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13435. (B)</bibl><bibl>RIU 0736; Abb. 736a (Foto u. Zeichnung).</bibl><bibl>F. Harl - B. L&#337;rincz, F&#252;hrer zum r&#246;mischen Lapidarium in Bastion VI der Festung Kom&#225;rno (Kom&#225;rno &#8211; Wien 2002) 22, Nr. 16; Foto. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c0585324-5840-11ee-8e0b-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="c05853e2-5840-11ee-8e0b-4e7b8ce151d1">C</c></abbr><ex cert="low" /></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="c0585450-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="c0585446-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="c0585428-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="c0585414-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c05854b4-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="c05854a0-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="c058548c-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="c0585478-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c0585504-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="c05855c2-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="c0585590-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="c0585568-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="c0585536-5840-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="c05855d6-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c058563a-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="c058561c-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="c0585608-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="c05855f4-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="c0585676-5840-11ee-8e0b-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c05856ee-5840-11ee-8e0b-4e7b8ce151d1">O</c><c xml:id="c05856da-5840-11ee-8e0b-4e7b8ce151d1">S</c><c xml:id="c05856bc-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="c05856a8-5840-11ee-8e0b-4e7b8ce151d1">E</c><c xml:id="c0585694-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="c0585734-5840-11ee-8e0b-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="c058578e-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="c058577a-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="c058575c-5840-11ee-8e0b-4e7b8ce151d1">I</c><c xml:id="c0585748-5840-11ee-8e0b-4e7b8ce151d1">F</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

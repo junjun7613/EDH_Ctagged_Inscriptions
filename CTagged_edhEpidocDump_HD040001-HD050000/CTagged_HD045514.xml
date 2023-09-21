@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Micia &amp;ndash; Ve&#355;el (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045514</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045514</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207286">Micia</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/663018">Ve&#355;el</placeName><placeName type="findspot">{Micia}</placeName><placeName type="region">Hunedoara</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045514_1" sex="M"><persName ref="http://romans1by1.com/rpeople/3337"><name type="praenomen">C.</name><name type="nomen">Bovius</name><name type="cognomen">Symphorus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-25" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: hederae. Lesung weitgehend nach IDR III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 3, 171.</bibl><bibl>CIL 03, 01385.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="1821e058-2c3a-11ee-b0b3-4e7b8ce151d0">D</c></abbr><ex><c xml:id="1821e15c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821e10c-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1821e18e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821e1f2-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="1821e3a0-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821e35a-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1821e31e-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821e2d8-2c3a-11ee-b0b3-4e7b8ce151d0">b</c><c xml:id="1821e288-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1821e242-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1821e3c8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="1821e422-2c3a-11ee-b0b3-4e7b8ce151d0">C</c></abbr><ex><c xml:id="1821e4b8-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821e472-2c3a-11ee-b0b3-4e7b8ce151d0">i</c></ex></expan><c xml:id="1821e576-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1821e558-2c3a-11ee-b0b3-4e7b8ce151d0">B</c><c xml:id="1821e53a-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1821e51c-2c3a-11ee-b0b3-4e7b8ce151d0">v</c><c xml:id="1821e4fe-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821e4d6-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821e670-2c3a-11ee-b0b3-4e7b8ce151d0">P</c><c xml:id="1821e62a-2c3a-11ee-b0b3-4e7b8ce151d0">A</c><c xml:id="1821e5e4-2c3a-11ee-b0b3-4e7b8ce151d0">L</c></abbr><ex cert="low" /></expan><c xml:id="1821e6b6-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1821e698-2c3a-11ee-b0b3-4e7b8ce151d0">S</c><supplied reason="lost"><c xml:id="1821e710-2c3a-11ee-b0b3-4e7b8ce151d0">y</c></supplied><c xml:id="1821e792-2c3a-11ee-b0b3-4e7b8ce151d0">m</c><c xml:id="1821e774-2c3a-11ee-b0b3-4e7b8ce151d0">p</c><c xml:id="1821e756-2c3a-11ee-b0b3-4e7b8ce151d0">h</c><c xml:id="1821e72e-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><lb break="no" n="3" /><c xml:id="1821e814-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1821e7ec-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821e7ce-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821e8fa-2c3a-11ee-b0b3-4e7b8ce151d0">A</c><c xml:id="1821e8b4-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1821e86e-2c3a-11ee-b0b3-4e7b8ce151d0">g</c></abbr><ex><c xml:id="1821eae4-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1821ea9e-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1821ea58-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1821ea1c-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821e9cc-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="1821e990-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821e94a-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1821eb02-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821ebe8-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="1821ebac-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1821eb66-2c3a-11ee-b0b3-4e7b8ce151d0">l</c></abbr><ex><c xml:id="1821ed46-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1821ed0a-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1821ecc4-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821ec7e-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821ec38-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></ex></expan><c xml:id="1821ed6e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821ee4a-2c3a-11ee-b0b3-4e7b8ce151d0">D</c><c xml:id="1821ee0e-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821edc8-2c3a-11ee-b0b3-4e7b8ce151d0">c</c></abbr><ex><c xml:id="1821ef62-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821ef26-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="1821eee0-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821ee9a-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></ex></expan><c xml:id="1821ef8a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821f070-2c3a-11ee-b0b3-4e7b8ce151d0">S</c><c xml:id="1821f02a-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821efe4-2c3a-11ee-b0b3-4e7b8ce151d0">r</c></abbr><ex><c xml:id="1821f368-2c3a-11ee-b0b3-4e7b8ce151d0">m</c><c xml:id="1821f322-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821f2dc-2c3a-11ee-b0b3-4e7b8ce151d0">z</c><c xml:id="1821f296-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="1821f250-2c3a-11ee-b0b3-4e7b8ce151d0">g</c><c xml:id="1821f214-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="1821f1ce-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1821f188-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1821f142-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1821f0fc-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1821f0b6-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></ex></expan><c xml:id="1821f386-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="1821f50c-2c3a-11ee-b0b3-4e7b8ce151d0">q</c><c xml:id="1821f4e4-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1821f4c6-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821f49e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1821f476-2c3a-11ee-b0b3-4e7b8ce151d0">v</c><c xml:id="1821f44e-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821f426-2c3a-11ee-b0b3-4e7b8ce151d0">x</c><c xml:id="1821f3fe-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1821f3e0-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1821f3b8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1821f58e-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><am>n</am></abbr><ex><c xml:id="1821f624-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1821f5de-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1821f6e2-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1821f6ba-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="1821f692-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="1821f66a-2c3a-11ee-b0b3-4e7b8ce151d0">V</c><c xml:id="1821f642-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

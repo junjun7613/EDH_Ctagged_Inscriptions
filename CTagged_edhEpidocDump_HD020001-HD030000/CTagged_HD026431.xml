@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Chesterton-on-Fosse (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026431</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026431</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Warwick, Market Hall Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>3</height><width>5</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79385" /></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1922"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Chesterton-on-Fosse</placeName><placeName type="findspot" /><placeName type="region">Warwickshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026431_1" sex="M"><persName><name type="cognomen">Diogenes+(?)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-23" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gebet f&#252;r Gerechtigkeit. (B): Abweichende Textgestaltungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1924, 0098. (B)</bibl><bibl>M.V. Taylor - R.G. Collingwood, JRS 11, 1921, 239, Nr. 16. - AE 1924. (B)</bibl><bibl>RIB 0243; Zeichnung. (B)</bibl><bibl>RIB 2504, 22.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.8/1. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" />sethaus <gap reason="lost" extent="unknown" unit="character" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /> dalmaticum <gap reason="lost" extent="unknown" unit="character" /> </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /> <lb n="2" />IS<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied>I<gap reason="lost" extent="unknown" unit="character" /> <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />IOS<gap reason="lost" extent="unknown" unit="character" /> <lb n="4" /><supplied reason="lost"><expan><abbr>D</abbr><ex cert="low" /></expan></supplied>iogen<supplied reason="lost">i</supplied>s dalmatic<supplied reason="lost"><expan><abbr>um</abbr><ex cert="low" /></expan></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="5" /><gap reason="lost" extent="unknown" unit="character" />OS<gap reason="lost" extent="unknown" unit="character" /> <lb n="6" /><gap reason="lost" extent="unknown" unit="character" />IVS<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

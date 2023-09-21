@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Delminium, bei &amp;ndash; Tomislavgrad (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039849</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039849</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tomislavgrad, Franziskanerkloster</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>90</height><width>57</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197244">Delminium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1998"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3201502">Tomislavgrad</placeName><placeName type="findspot">{Donji Bri&#353;nik}, Nekropole</placeName><placeName type="region">Hercegbosanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039849_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Quintilius</name><name type="cognomen">Fortunatus</name></persName></person><person xml:id="HD039849_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Quintilius</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD039849_3" sex="W"><persName><name type="cognomen">Quinta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-03-23" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 3 (Zeilenanfang): AE 1999: [P.]; Kurili&#263;: [Q(uintilia)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1225. (B)</bibl><bibl>A. Kurili&#263;, in: D. Davison - V. Gaffney - E. Marin (Hrsg.), Dalmatia. Research in the Roman province 1970-2001. Papers in honour of J.J. Wilkes (Oxford 2006) 144, Nr. 148. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="17f2c8be-583f-11ee-8e0b-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="17f2c92c-583f-11ee-8e0b-4e7b8ce151d1">P</c></abbr><ex><c xml:id="17f2ca6c-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2ca3a-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="17f2ca08-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2c9d6-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2c9a4-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2c972-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="17f2cc56-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="17f2cc42-583f-11ee-8e0b-4e7b8ce151d1">Q</c><c xml:id="17f2cc2e-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2cc1a-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cc06-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="17f2cbe8-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="17f2cbd4-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cbc0-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2cbac-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cb98-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2cb84-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="17f2cb70-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="17f2cb5c-583f-11ee-8e0b-4e7b8ce151d1">F</c><c xml:id="17f2cb48-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="17f2cb34-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="17f2cb20-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="17f2cb0c-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2caee-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="17f2cada-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="17f2cac6-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="17f2cab2-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2ca9e-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="17f2ca80-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="17f2ccec-583f-11ee-8e0b-4e7b8ce151d1">P</c></abbr><ex><c xml:id="17f2ce36-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2ce04-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="17f2cdd2-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2cda0-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cd5a-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2cd1e-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="17f2d002-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="17f2cfe4-583f-11ee-8e0b-4e7b8ce151d1">Q</c><c xml:id="17f2cfd0-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2cfbc-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cf9e-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="17f2cf8a-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="17f2cf6c-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cf58-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2cf3a-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2cf26-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2cf12-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="17f2cef4-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="17f2cee0-583f-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="17f2cec2-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="17f2ceae-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2ce9a-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="17f2ce7c-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="17f2ce68-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="17f2ce4a-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="17f2d084-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="17f2d17e-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2d14c-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2d11a-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2d0e8-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2d0b6-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="17f2d19c-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost" cert="low"><c xml:id="17f2d214-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="17f2d1e2-583f-11ee-8e0b-4e7b8ce151d1">t</c></supplied><c xml:id="17f2d2e6-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="17f2d2c8-583f-11ee-8e0b-4e7b8ce151d1">Q</c><c xml:id="17f2d2b4-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2d296-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2d278-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="17f2d25a-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="17f2d246-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="17f2d228-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="17f2d340-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="17f2d43a-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2d3f4-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="17f2d3c2-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="17f2d390-583f-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="17f2d44e-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><c xml:id="17f2d534-583f-11ee-8e0b-4e7b8ce151d1">f</c><c xml:id="17f2d502-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="17f2d4d0-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="17f2d49e-583f-11ee-8e0b-4e7b8ce151d1">e</c></supplied><c xml:id="17f2d5a2-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="17f2d584-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="17f2d566-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="17f2d548-583f-11ee-8e0b-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium, bei &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075609</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075609</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Kreuznach, R&#246;merhalle; Bonn, Rhein. Landesmus. (Kopie); Mainz, RGZM (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(162)</height><width>71</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1859"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948821">Bingen/Rhein</placeName><placeName type="findspot">Bingerbr&#252;ck, {Rupertsberg, Nordostabhang}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075609_1" sex="M"><persName><name type="cognomen">Hyperanor</name></persName></person><person xml:id="HD075609_2" sex="M"><persName><name type="cognomen">Hyperanor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-28" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027908" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/505ecd99-65af-4d4b-b93a-4b56ba9c941e/file/id/788665/file_version/name/small" /><graphic xml:id="F027907" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e4de6d2c-dccc-41b9-ab43-a9534bfcb1f6/file/id/788664/file_version/name/small" /><graphic xml:id="F027906" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6f96a3a7-3300-4a00-b449-f4eda9733b10/file/id/788663/file_version/name/small" /><graphic xml:id="F038499" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/76a9349d-de3b-4359-b5bf-cce136234420/file/id/799371/file_version/name/small" /><graphic xml:id="F038500" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/524682f6-dfcf-4d75-8e69-af7e74b455a9/file/id/799372/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>H&#246;henangabe nach Lehner; sie bezieht sich wohl auf den heute erhaltenen Teil in Bad Kreuznach bzw. den Abguss in Bonn; die H&#246;henangabe (205) cm bei Boppert bezieht sich dann m&#246;glicherweise auf den vollst&#228;ndigen Abguss in Mainz. Oberhalb der Inschrift Nische mit der Relieffigur eines Soldaten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07513.</bibl><bibl>ILS 2570.</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 88-89, Nr. 48; Tafel 24, 48.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 270, Nr. 666.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="1b906888-5843-11ee-8920-4e7b8ce151d1">
+</c><c xml:id="1b906874-5843-11ee-8920-4e7b8ce151d1">H</c><c xml:id="1b906860-5843-11ee-8920-4e7b8ce151d1">y</c><c xml:id="1b90684c-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="1b906838-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1b906824-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b906810-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1b9067fc-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1b9067e8-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1b9067d4-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b9067c0-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1b9067ac-5843-11ee-8920-4e7b8ce151d1">H</c><c xml:id="1b906798-5843-11ee-8920-4e7b8ce151d1">y</c><c xml:id="1b906784-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="1b906770-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1b90675c-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b906748-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1b90672a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1b9066da-5843-11ee-8920-4e7b8ce151d1">o</c></line><line break="no" n="2"><c xml:id="1b90691e-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b90690a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b9068ec-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1b9068d8-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b906978-5843-11ee-8920-4e7b8ce151d1">f</c></abbr><ex><c xml:id="1b906a86-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b906a54-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="1b906a22-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b9069f0-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1b9069be-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1b906a9a-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b906bc6-5843-11ee-8920-4e7b8ce151d1">C</c><c xml:id="1b906b94-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b906b62-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1b906b3a-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1b906b08-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b906ad6-5843-11ee-8920-4e7b8ce151d1">c</c></abbr><ex><c xml:id="1b906c2a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1b906bf8-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1b906cca-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1b906cb6-5843-11ee-8920-4e7b8ce151d1">L</c><c xml:id="1b906ca2-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1b906c84-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="1b906c70-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="1b906c5c-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1b906c3e-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b906d74-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="1b906d4c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b906d1a-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="1b906dd8-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1b906da6-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1b906e0a-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1b906dec-5843-11ee-8920-4e7b8ce151d1">c</c><expan><ex><c xml:id="1b906e46-5843-11ee-8920-4e7b8ce151d1">o</c></ex><abbr><c xml:id="1b906eaa-5843-11ee-8920-4e7b8ce151d1">h</c><c xml:id="1b906e78-5843-11ee-8920-4e7b8ce151d1">o</c></abbr><ex><c xml:id="1b906f68-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b906f40-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1b906f0e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b906edc-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1b906f7c-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="1b906fb8-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1b906f9a-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b907062-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1b907030-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1b906ffe-5843-11ee-8920-4e7b8ce151d1">g</c></abbr><ex><c xml:id="1b90722e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b9071fc-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1b9071d4-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1b9071a2-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1b90717a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b907148-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b907116-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1b9070ee-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b9070bc-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1b907094-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="1b907242-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b90727e-5843-11ee-8920-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="1b907332-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1b90730a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b9072d8-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1b9072b0-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="1b9073a0-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1b907382-5843-11ee-8920-4e7b8ce151d1">L</c><c xml:id="1b907364-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="1b907350-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b907468-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1b907440-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1b90740e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b9073dc-5843-11ee-8920-4e7b8ce151d1">p</c></abbr><ex><c xml:id="1b9075da-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1b9075a8-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1b907580-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="1b90754e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b90751c-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1b9074f4-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1b9074c2-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1b90749a-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="1b90768e-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1b907670-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="1b90765c-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="1b90763e-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1b907620-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1b90760c-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1b9075ee-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="1b9076de-5843-11ee-8920-4e7b8ce151d1">h</c></abbr><ex><c xml:id="1b907742-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b907710-5843-11ee-8920-4e7b8ce151d1">c</c></ex></expan><c xml:id="1b907756-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b907792-5843-11ee-8920-4e7b8ce151d1">s</c></abbr><ex><c xml:id="1b907846-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1b90781e-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1b9077ec-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1b9077c4-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1b907864-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1b9078a0-5843-11ee-8920-4e7b8ce151d1">e</c></abbr><ex><c xml:id="1b9078fa-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1b9078d2-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

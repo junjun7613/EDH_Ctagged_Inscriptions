@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025132</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025132</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material>Gesteine</material><dimensions unit="cm"><height>(17)</height><width>(40)</width><depth>(14)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate when-custom="0303" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">303 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot" /><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025132_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD025132_2" sex="M"><persName><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD025132_3" sex="M"><persName><name type="nomen">Aurelius+</name><name type="cognomen">Valentinianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033948" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dcb044fa-59c9-492e-8b12-b6fd279c6906/file/id/794757/file_version/name/small" /><graphic xml:id="F033949" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c6f612f3-f197-4b17-af3e-74629b577200/file/id/794758/file_version/name/small" /><graphic xml:id="F033950" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3f712a57-bed9-408b-95b7-f9941d4c5b18/file/id/794759/file_version/name/small" /><graphic xml:id="F033951" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2750b2e8-7604-421f-98f3-27a04c45b696/file/id/794760/file_version/name/small" /><graphic xml:id="F033952" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2faa812a-f577-4f5f-8333-bde20d725bcb/file/id/794761/file_version/name/small" /><graphic xml:id="F033953" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e279003-425f-4c82-8739-56c2e8a1084c/file/id/794762/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Buli&#263;, AE 1922: Z. 2: [VIII et] Maximiano.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1922, 0047. (B)</bibl><bibl>ILJug 2074.</bibl><bibl>F. Buli&#263;, BAHD 39, 1916, 121, Nr. 4594A; Zeichnung. (B) - AE 1922.</bibl><bibl>PIR (2. Aufl.) A 1623.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /> Diocletiano <lb n="2" /><supplied reason="lost">VIII</supplied><gap reason="lost" extent="unknown" unit="character" />S Maximiano </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost">V</supplied>II <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <expan><abbr>cons</abbr><ex>ulibus</ex></expan> Aure<supplied reason="lost">lio</supplied> <lb n="2" /><supplied reason="lost">V</supplied>alentiniano <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> bi<supplied reason="lost" cert="low">s praef(ecto)</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

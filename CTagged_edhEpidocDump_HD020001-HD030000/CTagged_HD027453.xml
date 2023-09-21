@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027453</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027453</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(36)</height><width>(29)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0039" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">39 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2812094">Mainz</placeName><placeName type="findspot">Weisenau, {Mari&#228; Himmelfahrt, Kirche, Westbau}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027453_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017259" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0a73363e-84b8-43fa-bdc1-133ddf1ac821/file/id/776865/file_version/name/small" /><graphic xml:id="F015555" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7b5cc46f-c19b-4673-a57f-7ff654718db3/file/id/775132/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): K&#246;rber, RGKB; K&#246;rber, MZ; AE 1913; CIL 13, 11850: Z. 1: mi]l.; AE 1913: Z. 3: T nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1913, 0238. (B)</bibl><bibl>CIL 13, 11850. (B)</bibl><bibl>K. K&#246;rber, RGKB 6, 1913, 28-29, Nr. 13. (B) - AE 1913.</bibl><bibl>K. K&#246;rber, MZ 8/9, 1913/14, 21, Nr. 6; Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="1c9a4e1a-583e-11ee-8b4f-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="1c9a4e9c-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="1"><expan><abbr><supplied reason="lost"><c xml:id="1c9a4f00-583e-11ee-8b4f-4e7b8ce151d1">m</c></supplied><c xml:id="1c9a4f28-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a4f14-583e-11ee-8b4f-4e7b8ce151d1">l</c></abbr><ex><c xml:id="1c9a4faa-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a4f6e-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="1c9a4fbe-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a504a-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="1c9a5022-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a4ffa-583e-11ee-8b4f-4e7b8ce151d1">g</c></abbr><ex><c xml:id="1c9a511c-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a50f4-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="1c9a50cc-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="1c9a50a4-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a507c-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="1c9a516c-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="1c9a5158-583e-11ee-8b4f-4e7b8ce151d1">I</c><c xml:id="1c9a5144-583e-11ee-8b4f-4e7b8ce151d1">I</c><c xml:id="1c9a5130-583e-11ee-8b4f-4e7b8ce151d1">I</c><supplied reason="lost"><c xml:id="1c9a51d0-583e-11ee-8b4f-4e7b8ce151d1">I</c><c xml:id="1c9a519e-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr>Mac</abbr><ex>edonicae</ex></expan></supplied><c xml:id="1c9a51e4-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><expan><abbr><c xml:id="1c9a523e-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="1c9a5216-583e-11ee-8b4f-4e7b8ce151d1">n</c></abbr><ex><c xml:id="1c9a531a-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="1c9a52f2-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="1c9a52ca-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="1c9a5298-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="1c9a5270-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan></supplied><c xml:id="1c9a539c-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="1c9a5388-583e-11ee-8b4f-4e7b8ce151d1">X</c><c xml:id="1c9a5374-583e-11ee-8b4f-4e7b8ce151d1">X</c><c xml:id="1c9a5360-583e-11ee-8b4f-4e7b8ce151d1">X</c><c xml:id="1c9a5356-583e-11ee-8b4f-4e7b8ce151d1">V</c><c xml:id="1c9a5342-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="1c9a532e-583e-11ee-8b4f-4e7b8ce151d1">s</c><supplied reason="lost"><expan><abbr><c xml:id="1c9a5432-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="1c9a540a-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a53e2-583e-11ee-8b4f-4e7b8ce151d1">p</c></abbr><ex><c xml:id="1c9a557c-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a5554-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="1c9a552c-583e-11ee-8b4f-4e7b8ce151d1">d</c><c xml:id="1c9a5504-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a54d2-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="1c9a54aa-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="1c9a5482-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="1c9a545a-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan></supplied><c xml:id="1c9a5590-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1c9a55a4-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a55f4-583e-11ee-8b4f-4e7b8ce151d1">h</c></abbr><ex><c xml:id="1c9a564e-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a5626-583e-11ee-8b4f-4e7b8ce151d1">c</c></ex></expan><c xml:id="1c9a5658-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a5694-583e-11ee-8b4f-4e7b8ce151d1">s</c></abbr><ex><c xml:id="1c9a5734-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a570c-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="1c9a56e4-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="1c9a56bc-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="1c9a5748-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a577a-583e-11ee-8b4f-4e7b8ce151d1">e</c></abbr><ex><c xml:id="1c9a57d4-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="1c9a57ac-583e-11ee-8b4f-4e7b8ce151d1">t</c></ex></expan><c xml:id="1c9a57e8-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a5838-583e-11ee-8b4f-4e7b8ce151d1">t</c></abbr><ex><c xml:id="1c9a59be-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a5996-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="1c9a5964-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="1c9a593c-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="1c9a5914-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="1c9a58e2-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a58ba-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="1c9a5892-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="1c9a586a-583e-11ee-8b4f-4e7b8ce151d1">o</c></ex></expan><c xml:id="1c9a59c8-583e-11ee-8b4f-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="1c9a5a04-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="1c9a5aae-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a5a86-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a5a5e-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="1c9a5a36-583e-11ee-8b4f-4e7b8ce151d1">i</c></ex></expan><c xml:id="1c9a5ab8-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a5aea-583e-11ee-8b4f-4e7b8ce151d1">i</c></abbr><ex><c xml:id="1c9a5bd0-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="1c9a5ba8-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="1c9a5b80-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="1c9a5b58-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a5b1c-583e-11ee-8b4f-4e7b8ce151d1">t</c></ex></expan></supplied><c xml:id="1c9a5be4-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost" cert="low"><c xml:id="1c9a5d06-583e-11ee-8b4f-4e7b8ce151d1">h</c><c xml:id="1c9a5cde-583e-11ee-8b4f-4e7b8ce151d1">(</c><c xml:id="1c9a5cb6-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a5c8e-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="1c9a5c66-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a5c3e-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="1c9a5c16-583e-11ee-8b4f-4e7b8ce151d1">)</c></supplied><c xml:id="1c9a5d1a-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1c9a5d4c-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="1c9a5e8c-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="1c9a5e6e-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="1c9a5e46-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a5e1e-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1c9a5df6-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="1c9a5dce-583e-11ee-8b4f-4e7b8ce151d1">d</c><c xml:id="1c9a5da6-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="1c9a5d7e-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="1c9a5eaa-583e-11ee-8b4f-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="1c9a6012-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="1c9a5fea-583e-11ee-8b4f-4e7b8ce151d1">(</c><c xml:id="1c9a5fc2-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="1c9a5f9a-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="1c9a5f7c-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="1c9a5f54-583e-11ee-8b4f-4e7b8ce151d1">v</c><c xml:id="1c9a5f2c-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="1c9a5f04-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="1c9a5edc-583e-11ee-8b4f-4e7b8ce151d1">)</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

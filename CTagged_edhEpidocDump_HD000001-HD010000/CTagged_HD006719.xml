@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Solva &amp;ndash; Esztergom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006719</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006719</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Esztergom, Balassa B&#225;lint M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>200</height><width>80</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197519">Solva</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1990"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053163">Esztergom</placeName><placeName type="findspot">Flur B&#225;nom, {sp&#228;tantike Nekropole}, Grab 279, sekund&#228;r verwendet</placeName><placeName type="region">Kom&#225;rom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006719_1" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Nonna</name></persName></person><person xml:id="HD006719_2" sex="M"><persName><name type="cognomen">Maximus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-24" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. L&#337;rincz: Z. 4/5: Maxim(ius) / Aerarius. (B): TRHR (Suppl.) 125: Z. 3: an(norum)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1369.</bibl><bibl>TRHR (Suppl.) 125; Abb. 125 (Foto u. Zeichnung). (B)</bibl><bibl>B. L&#337;rincz, in: &#193;. Szab&#243; - I. T&#243;th (Hrsg.), Pannonica. Provincialia et archaeologia (Budapest 2003) 252-253, Nr. 2; Abb. 3; Abb. 4 (Zeichnung). - AE 2003.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0e9802dc-583c-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="0e9803c2-583c-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="0e980458-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e980412-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="0e980476-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0e9804c6-583c-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="0e98061a-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e9805e8-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="0e9805ac-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e98057a-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="0e98053e-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="0e980502-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="0e980638-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="0e9806b0-583c-11ee-a136-4e7b8ce151d1">C</c><c xml:id="0e980674-583c-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="0e9807f0-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e9807b4-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="0e980782-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="0e980750-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e98071e-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e9806e2-583c-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="0e9808b8-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="0e98089a-583c-11ee-a136-4e7b8ce151d1">N</c><c xml:id="0e980886-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="0e980872-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="0e980854-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="0e980840-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e980822-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="0e98080e-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="0e980912-583c-11ee-a136-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="0e9809f8-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="0e9809bc-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="0e98098a-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="0e98094e-583c-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="0e980a98-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="0e980a7a-583c-11ee-a136-4e7b8ce151d1">X</c><c xml:id="0e980a66-583c-11ee-a136-4e7b8ce151d1">X</c><c xml:id="0e980a48-583c-11ee-a136-4e7b8ce151d1">I</c><c xml:id="0e980a2a-583c-11ee-a136-4e7b8ce151d1">I</c><c xml:id="0e980a0c-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0e980b56-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="0e980b24-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="0e980ae8-583c-11ee-a136-4e7b8ce151d1">m</c></abbr><ex><c xml:id="0e980b9c-583c-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="0e980bb0-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="0e980c6e-583c-11ee-a136-4e7b8ce151d1">N</c><c xml:id="0e980c32-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e980c00-583c-11ee-a136-4e7b8ce151d1">c</c></abbr><ex><c xml:id="0e980d7c-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="0e980d4a-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="0e980d18-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="0e980cdc-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="0e980caa-583c-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="0e980db8-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="0e980d9a-583c-11ee-a136-4e7b8ce151d1">S</c><supplied reason="lost"><expan><abbr><c xml:id="0e980e3a-583c-11ee-a136-4e7b8ce151d1">y</c><c xml:id="0e980e08-583c-11ee-a136-4e7b8ce151d1">r</c></abbr><ex><c xml:id="0e980eda-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e980ea8-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e980e76-583c-11ee-a136-4e7b8ce151d1">e</c></ex></expan></supplied><c xml:id="0e980ef8-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0e98101a-583c-11ee-a136-4e7b8ce151d1">M</c><c xml:id="0e980fde-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e980fac-583c-11ee-a136-4e7b8ce151d1">x</c><c xml:id="0e980f7a-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e980f3e-583c-11ee-a136-4e7b8ce151d1">m</c></abbr><ex cert="low"><c xml:id="0e981088-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="0e981056-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="0e9810a6-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="0e9811be-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e9811a0-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="0e981182-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="0e981164-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="0e981146-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="0e981128-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e98110a-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="0e9810ec-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="0e9810ce-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="0e981236-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="0e981218-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="0e9811fa-583c-11ee-a136-4e7b8ce151d1">s</c><expan><ex><c xml:id="0e981286-583c-11ee-a136-4e7b8ce151d1">u</c></ex><abbr><c xml:id="0e9812fe-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="0e9812c2-583c-11ee-a136-4e7b8ce151d1">t</c></abbr></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

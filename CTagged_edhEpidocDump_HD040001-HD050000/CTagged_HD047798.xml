@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Auberive (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047798</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047798</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material>Gesteine</material><dimensions unit="cm"><height>40</height><width>32</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3036401">Auberive</placeName><placeName type="findspot">{Ferme d'Allofroy}, S. R&#233;my, Kapelle, sekund&#228;r verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-09" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterhalb von Z. 2 Platz f&#252;r eine weitere Zeile die jedoch nicht vollst&#228;ndig beschrieben war. Einige Zeit in Sekund&#228;rverwendung in der Kapelle S. R&#233;my, heute verschollen. Z. 1: I und O je klein in ein C eingeschrieben. (B): Le Bohec: Z. 2: I nicht gelesen; Interpretationsvorschlag: Puci Eco (scil. filius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1179.</bibl><bibl>AE 2000, 1056.</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons. Inscriptions sur pierre (Paris 2003) 165, Nr. 272. (B)</bibl><bibl>S. F&#233;vrier - Y. Le Bohec, BSHLang 22, 1997, 307-308, Nr. 13; Foto. - AE 2000.</bibl><bibl>J.-J. Th&#233;venard, in: J.-J. Th&#233;venard - A. Villes - R. Neiss, La Haute-Marne, Carte arch&#233;ologique de la Gaule 52, 1 (Paris 1996) 116. - AE 1997; AE 2000.</bibl><bibl>G. Drioux, Les Lingons. Textes et inscriptions antiques (Paris 1934) 118, Nr. 637, 2. - AE 1997.</bibl><bibl>L.-F. Marcel, BSHLang 9, 1926, 92, Anm. 2. - AE 2000.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="13c0f0e4-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="13c0f198-2c3a-11ee-b0b3-4e7b8ce151d0">P</c></abbr><ex cert="low" /><c xml:id="13c0f210-2c3a-11ee-b0b3-4e7b8ce151d0">V</c><c xml:id="13c0f1f2-2c3a-11ee-b0b3-4e7b8ce151d0">C</c><c xml:id="13c0f1ca-2c3a-11ee-b0b3-4e7b8ce151d0">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><expan><abbr><c xml:id="13c0f31e-2c3a-11ee-b0b3-4e7b8ce151d0">E</c><c xml:id="13c0f2d8-2c3a-11ee-b0b3-4e7b8ce151d0">C</c><c xml:id="13c0f288-2c3a-11ee-b0b3-4e7b8ce151d0">O</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="13c0f350-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="13c0f404-2c3a-11ee-b0b3-4e7b8ce151d0">I</c><c xml:id="13c0f3e6-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="13c0f3be-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="13c0f3a0-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="13c0f378-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="13c0f472-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><am>n</am></abbr><ex><c xml:id="13c0f5a8-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="13c0f558-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="13c0f512-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="13c0f4cc-2c3a-11ee-b0b3-4e7b8ce151d0">m</c></ex></expan><c xml:id="13c0f5d0-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="13c0f5f8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

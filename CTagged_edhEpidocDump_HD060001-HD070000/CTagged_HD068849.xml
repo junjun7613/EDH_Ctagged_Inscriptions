@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068849</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068849</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Pokrajinski Muz. Ptuj-Ormo&#382;</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(30)</height><width>(77)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot">Vi&#269;ava, {Parzelle Nr. 328/1}</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068849_1" sex="M"><persName ref="http://romans1by1.com/rpeople/16931"><name type="praenomen">[-]</name><name type="nomen">[---]l(---)</name><name type="cognomen">Lupercus</name></persName></person><person xml:id="HD068849_2" sex="W"><persName ref="http://romans1by1.com/rpeople/16932"><name type="nomen">Tiberia*?</name><name type="cognomen">Faventina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-01" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Erg&#228;nzungsvorschlag weitgehend nach CIL 03, 15186. Z. 3: m&#246;glicherweise auch Tiber(iniae). (B): Jevremov: Z. 2: [Aq]uinci(i).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 15186.</bibl><bibl>B. Jevremov, Vodnik po lapidariju 1 (Ptuj 1988) 90, Nr. 80. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /><abbr>l</abbr> Luperci <expan><abbr>dec</abbr><ex>urionalibus</ex></expan> o<supplied reason="lost"><expan><abbr>rn</abbr><ex>amentis</ex></expan></supplied> <lb n="2" /><expan><abbr><supplied reason="lost">Aq</supplied>uinc</abbr><ex>i</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> Aquin<supplied reason="lost"><expan><abbr>cen</abbr><ex>sium</ex></expan></supplied> <lb n="3" /><supplied reason="lost"><expan><abbr>orn</abbr><ex>ati</ex></expan></supplied> et <expan><abbr>Tiber</abbr><ex cert="low">iae</ex></expan> Favent<supplied reason="lost">inae</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

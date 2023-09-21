@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cemenelum, bei &amp;ndash; Tourrette-Levens (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066766</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066766</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tourrette-Levens, Maison Malauss&#233;na, fa&#231;ade</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>27</height><width>21</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157834">Cemenelum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2972195">Tourrette-Levens</placeName><placeName type="findspot" /><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066766_1" sex="M"><persName><name type="nomen">Corisius+</name><name type="cognomen">Maternus*</name></persName></person><person xml:id="HD066766_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Centonius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 1: Morabito: Alternativa: [L]orisius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07974.</bibl><bibl>E.Pais, SupplIt (Roma 1884-1888), 00, 1039.</bibl><bibl>G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 197.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 425, Nr. 352; Foto. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c7ee217a-5842-11ee-a013-4e7b8ce151d1">
+</c><supplied reason="lost"><c xml:id="c7ee21de-5842-11ee-a013-4e7b8ce151d1">C</c></supplied><c xml:id="c7ee227e-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c7ee2274-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7ee2260-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee224c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7ee2238-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee2224-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7ee2210-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7ee21fc-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7ee2332-5842-11ee-a013-4e7b8ce151d1">M</c><c xml:id="c7ee2300-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7ee22ce-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex><c xml:id="c7ee2418-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7ee23f0-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7ee23be-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7ee238c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7ee2364-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c7ee242c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="c7ee2468-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="c7ee2558-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7ee2526-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7ee24f4-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c7ee24c2-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7ee249a-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c7ee2634-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7ee2620-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="c7ee260c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7ee25f8-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7ee25e4-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7ee25d0-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c7ee25bc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7ee25a8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee2594-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7ee2580-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7ee256c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="c7ee268e-5842-11ee-a013-4e7b8ce151d1">v</c></abbr><ex><c xml:id="c7ee271a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee26e8-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7ee26c0-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="c7ee272e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7ee2760-5842-11ee-a013-4e7b8ce151d1">o</c></abbr><ex><c xml:id="c7ee2846-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="c7ee2814-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7ee27ec-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee27c4-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="c7ee2792-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="c7ee285a-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7ee2896-5842-11ee-a013-4e7b8ce151d1">p</c></abbr><ex><c xml:id="c7ee2972-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c7ee294a-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7ee2918-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7ee28f0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee28c8-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan><c xml:id="c7ee2986-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7ee29c2-5842-11ee-a013-4e7b8ce151d1">h</c></abbr><ex><c xml:id="c7ee2a1c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee29ea-5842-11ee-a013-4e7b8ce151d1">c</c></ex></expan><c xml:id="c7ee2a30-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7ee2a6c-5842-11ee-a013-4e7b8ce151d1">s</c></abbr><ex><c xml:id="c7ee2bca-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7ee2ba2-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7ee2b70-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7ee2b48-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7ee2b20-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7ee2aee-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7ee2ac6-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7ee2a94-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

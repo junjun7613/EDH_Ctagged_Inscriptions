@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ilkley (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069903</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069903</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ilkley, Manor House Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(27)</height><width>(22)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89205" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1830"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2646272">Ilkley</placeName><placeName type="findspot" /><placeName type="region">West Yorkshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069903_1" sex="M"><persName><name type="cognomen">Pudens+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-09" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): D(is) M(anibus) war wohl noch zu erkennen in Z. 1.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 3, p. 121 n. 76. (B)</bibl><bibl>EphEp 7, p. 298 n. 921.</bibl><bibl>RIB 0638; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="afc8bb50-5842-11ee-a013-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="afc8bbc8-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="afc8bc4a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8bc0e-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="afc8bc5e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="afc8bc9a-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="afc8bdb2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="afc8bd80-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="afc8bd58-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8bd26-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="afc8bcfe-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="afc8bccc-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="afc8bdd0-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="afc8be2a-5842-11ee-a013-4e7b8ce151d1">P</c><c xml:id="afc8be16-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="afc8be02-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="afc8bde4-5842-11ee-a013-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="afc8bef2-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="afc8bec0-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="afc8be98-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8be66-5842-11ee-a013-4e7b8ce151d1">s</c></supplied><c xml:id="afc8bf06-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="afc8c01e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="afc8bff6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="afc8bfce-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="afc8bf9c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="afc8bf6a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="afc8bf42-5842-11ee-a013-4e7b8ce151d1">r</c></abbr><ex><c xml:id="afc8c0aa-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="afc8c082-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="afc8c050-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="afc8c0be-5842-11ee-a013-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="afc8c154-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="afc8c122-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8c0fa-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="afc8c208-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8c1d6-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="afc8c1ae-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8c17c-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="afc8c21c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="afc8c2a8-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="afc8c280-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="afc8c24e-5842-11ee-a013-4e7b8ce151d1">g</c></abbr><ex><c xml:id="afc8c384-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8c35c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="afc8c334-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="afc8c302-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="afc8c2da-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="afc8c3f2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="afc8c3de-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="afc8c3ca-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="afc8c3b6-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="afc8c3a2-5842-11ee-a013-4e7b8ce151d1">A</c><supplied reason="lost"><expan><abbr><c xml:id="afc8c46a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="afc8c438-5842-11ee-a013-4e7b8ce151d1">g</c></abbr><ex><c xml:id="afc8c546-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="afc8c51e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="afc8c4ec-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="afc8c4c4-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="afc8c49c-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

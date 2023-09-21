@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Semriach (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038606</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038606</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Semriach, Windhof 61, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>57</height><width>63</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765168">Semriach</placeName><placeName type="findspot">{Windhof} 61, sekund&#228;r verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038606_1" sex="M"><persName><name type="cognomen">Candidus</name></persName></person><person xml:id="HD038606_2" sex="M"><persName><name type="cognomen">Vibenus</name></persName></person><person xml:id="HD038606_3" sex="W"><persName><name type="cognomen">Mentita</name></persName></person><person xml:id="HD038606_4" sex="M"><persName><name type="cognomen">Amoenus</name></persName></person><person xml:id="HD038606_5" sex="M"><persName><name type="cognomen">Candidianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-03" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ligaturen in Z. 3: ET und TI. Ab Z. 6 steht der Text in rasura auf vertiefter Fl&#228;che.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 107-108, Nr. 48; Foto.</bibl><bibl>CIL 03, 11749.</bibl><bibl>ILLPRON 1491.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="18fd2f92-583f-11ee-8e0b-4e7b8ce151d1">
+</c><c xml:id="18fd2f88-583f-11ee-8e0b-4e7b8ce151d1">C</c><c xml:id="18fd2f74-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd2f60-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd2f4c-583f-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="18fd2f38-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd2f24-583f-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="18fd2f10-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="18fd2efc-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="18fd2eb6-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="18fd3046-583f-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="18fd3032-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd301e-583f-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="18fd300a-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd2ff6-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd2fe2-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd2fce-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd3096-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="18fd3186-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd315e-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="18fd312c-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3104-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="18fd30d2-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="18fd319a-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd31d6-583f-11ee-8e0b-4e7b8ce151d1">v</c></abbr><ex><c xml:id="18fd3280-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3258-583f-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="18fd3230-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="18fd3208-583f-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="18fd3294-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd32d0-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="18fd337a-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd3352-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="18fd332a-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3302-583f-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan><c xml:id="18fd338e-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="18fd3424-583f-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="18fd33f2-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd33ca-583f-11ee-8e0b-4e7b8ce151d1">b</c></abbr><ex><c xml:id="18fd344c-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="18fd3564-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="18fd3550-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd353c-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="18fd3528-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="18fd3514-583f-11ee-8e0b-4e7b8ce151d1">M</c><c xml:id="18fd3500-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd34e2-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd34ce-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="18fd34ba-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd34a6-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="18fd3492-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3474-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd3460-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="18fd362c-583f-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="18fd360e-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="18fd35fa-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="18fd35e6-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd35d2-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd35b4-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd35a0-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd3672-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="18fd374e-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3726-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="18fd36fe-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd36cc-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd36a4-583f-11ee-8e0b-4e7b8ce151d1">e</c></ex></expan><c xml:id="18fd3762-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="18fd37f8-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="18fd37d0-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="18fd379e-583f-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="18fd38ac-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd387a-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="18fd3852-583f-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="18fd382a-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="18fd38c0-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd394c-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="18fd3924-583f-11ee-8e0b-4e7b8ce151d1">p</c><c xml:id="18fd38f2-583f-11ee-8e0b-4e7b8ce151d1">t</c></abbr><ex><c xml:id="18fd39f6-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd39ce-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="18fd39a6-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3974-583f-11ee-8e0b-4e7b8ce151d1">e</c></ex></expan><c xml:id="18fd3a5a-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="18fd3a3c-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="18fd3a28-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="18fd3a0a-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="18fd3b86-583f-11ee-8e0b-4e7b8ce151d1">C</c><c xml:id="18fd3b68-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3b54-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd3b36-583f-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="18fd3b22-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3b04-583f-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="18fd3ae6-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3ad2-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3ab4-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd3aa0-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="18fd3a82-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd3bd6-583f-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="18fd3c8a-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3c62-583f-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="18fd3c30-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3c08-583f-11ee-8e0b-4e7b8ce151d1">o</c></ex></expan><c xml:id="18fd3c9e-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="7"><expan><abbr><c xml:id="18fd3d34-583f-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="18fd3d0c-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3cda-583f-11ee-8e0b-4e7b8ce151d1">l</c></abbr><ex><c xml:id="18fd3db6-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3d8e-583f-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="18fd3d5c-583f-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="18fd3dca-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd3e38-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3e06-583f-11ee-8e0b-4e7b8ce151d1">l</c></abbr><ex><c xml:id="18fd3e92-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3e60-583f-11ee-8e0b-4e7b8ce151d1">e</c></ex></expan><c xml:id="18fd3e9c-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd3f3c-583f-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="18fd3f0a-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="18fd3ee2-583f-11ee-8e0b-4e7b8ce151d1">r</c></abbr><ex><c xml:id="18fd4018-583f-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="18fd3fe6-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3fbe-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd3f96-583f-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="18fd3f64-583f-11ee-8e0b-4e7b8ce151d1">e</c></ex></expan><c xml:id="18fd4022-583f-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="18fd4068-583f-11ee-8e0b-4e7b8ce151d1">a</c></abbr><ex><c xml:id="18fd416c-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd4144-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="18fd4112-583f-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="18fd40ea-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="18fd40c2-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="18fd4090-583f-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="18fd41bc-583f-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="18fd419e-583f-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="18fd4180-583f-11ee-8e0b-4e7b8ce151d1">X</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

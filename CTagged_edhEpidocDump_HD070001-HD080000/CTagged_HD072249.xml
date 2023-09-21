@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindobona &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072249</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072249</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Mus. Karlsplatz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(40)</height><width>48</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona</placeName></origPlace><origDate><origDate notBefore-custom="0235" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">235 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1904"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">{Rabensteig 1}</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072249_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18933"><name type="praenomen">M.?</name><name type="nomen">Valerius+*</name><name type="cognomen">Valentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-06" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 muss sich urspr&#252;nglich auf der corona befunden haben. (B): Hild: Z. 3: A[e]l(ius) Valent(i)nus; Farka u. a.: Z. 3: A[e]l(ius) Valent[ Hild: Z. 5: c]um A[el(ia); Farka u. a.: Z. 5: cu]m A[elia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Farka u. a., in: Vindobona - die R&#246;mer im Wiener Raum. 52. Sonderausstellung des Historischen Museums der Stadt Wien, Karlsplatz (Wien 1977) 183, Nr. S 48. (B).</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preu&#223; - E. Wittkopf, Der r&#246;mische Weihebezirk von Osterburken 1 (Stuttgart 1990) 297-298, Nr. 364; Foto.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 259, Nr. 408. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>sac</abbr><ex>rum</ex></expan> pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="2" /><expan><abbr>M</abbr><ex>arcus</ex></expan><certainty match="preceding-sibling::node()" locus="value" /> <expan><abbr><supplied reason="lost">V</supplied>al</abbr><ex>erius</ex></expan> Valentinus <lb n="3" /><supplied reason="lost" cert="low">b(ene)f(iciarius)</supplied> <expan><abbr>lat</abbr><ex>iclavii</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost" cert="low">XIIII</supplied> <lb n="4" /><supplied reason="lost"><expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>M</abbr><ex>artiae</ex></expan></supplied> <expan><abbr>v</abbr><ex>ictricis</ex></expan> Ma<supplied reason="lost">ximia</supplied><lb break="no" n="5" /><supplied reason="lost">nae</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

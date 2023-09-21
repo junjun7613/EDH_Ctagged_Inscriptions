@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gaimersheim (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058760</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058760</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gaimersheim, Marktmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>142</height><width>78</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0100" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1854"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2923305">Gaimersheim</placeName><placeName type="findspot">{Kirche, sekund&#228;r verwendet}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058760_1" sex="M"><persName><name type="cognomen">Ridatus+</name></persName></person><person xml:id="HD058760_2" sex="W"><persName><name type="cognomen">Matrona*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Giebelstele; &#252;ber dem Inschriftenfeld drei B&#252;sten, im Giebel Mondsichel zwischen L&#246;wen. Lesung sehr unsicher, da Inschriftenfeld stark verwittert. Hederae in Z. 6. Z. 3: XXXX-Ligatur mit gemeinsamer abfallender Schr&#228;ghaste. (B): Kleinere Leseabweichungen; Wiedergabe nach Neulesung Hartmann 2010.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 255; tab. 35, 255. (B)</bibl><bibl>IBR 255 add. p. VII. (B)</bibl><bibl>CIL 03, 05905. (B)</bibl><bibl>CIL 03, 11906. (B)</bibl><bibl>G. Gamer - A. R&#252;sch, Raetia (Bayern s&#252;dlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 117, Nr. 504; Taf. 145, 504.</bibl><bibl>AE 2010, 1115.</bibl><bibl>A. Hartmann, ZPE 174, 2010, 267-271. - AE 2010.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="178afef2-5842-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="178aff60-5842-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="178affd8-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178affa6-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="178afff6-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b0032-5842-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="178b0140-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b0118-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="178b00e6-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b00be-5842-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="178b008c-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="178b0064-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="178b0154-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="178b01ea-5842-11ee-a9c6-4e7b8ce151d1">R</c><c xml:id="178b01d6-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b01c2-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="178b01ae-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b019a-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="178b0186-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="178b0172-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b028a-5842-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="178b0262-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="178b0230-5842-11ee-a9c6-4e7b8ce151d1">t</c></abbr><ex><c xml:id="178b0398-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="178b0370-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="178b0348-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b0316-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="178b02ee-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="178b02bc-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="178b03ac-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="178b0410-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="178b03e8-5842-11ee-a9c6-4e7b8ce151d1">o</c></abbr><ex cert="low"><c xml:id="178b046a-5842-11ee-a9c6-4e7b8ce151d1">h</c><c xml:id="178b0442-5842-11ee-a9c6-4e7b8ce151d1">o</c></ex><c xml:id="178b047e-5842-11ee-a9c6-4e7b8ce151d1">r</c></expan><c xml:id="178b04d8-5842-11ee-a9c6-4e7b8ce151d1">(</c><c xml:id="178b04c4-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="178b04b0-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b049c-5842-11ee-a9c6-4e7b8ce151d1">s</c><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="178b0500-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b0532-5842-11ee-a9c6-4e7b8ce151d1">V</c></abbr><ex><c xml:id="178b0564-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><expan><abbr><c xml:id="178b0596-5842-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex cert="low"><c xml:id="178b071c-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="178b06f4-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="178b06c2-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="178b069a-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b0672-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="178b0640-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="178b0618-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="178b05f0-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="178b05c8-5842-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="178b0730-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b076c-5842-11ee-a9c6-4e7b8ce151d1">v</c></abbr><ex><c xml:id="178b0816-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b07ee-5842-11ee-a9c6-4e7b8ce151d1">x</c><c xml:id="178b07c6-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b0794-5842-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="178b082a-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b0866-5842-11ee-a9c6-4e7b8ce151d1">a</c></abbr><ex><c xml:id="178b091a-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="178b08f2-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="178b08c0-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="178b0898-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="178b09ba-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="178b099c-5842-11ee-a9c6-4e7b8ce151d1">L</c><c xml:id="178b0988-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="178b0974-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="178b0960-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="178b0942-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="178b092e-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="178b0cc6-5842-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="178b0a82-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b0a6e-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="178b0a5a-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="178b0a46-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="178b0a28-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="178b0a14-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b09f6-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="178b09e2-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b0f96-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="178b0f5a-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="178b0f0a-5842-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex><c xml:id="178b1072-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b1040-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="178b1004-5842-11ee-a9c6-4e7b8ce151d1">g</c><c xml:id="178b0fd2-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="178b1086-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="178b1180-5842-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="178b116c-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b114e-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="178b1130-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="178b111c-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="178b10fe-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="178b10ea-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b10cc-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="178b10ae-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b11da-5842-11ee-a9c6-4e7b8ce151d1">f</c></abbr><ex><c xml:id="178b12ca-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b1298-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="178b1266-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b123e-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="178b120c-5842-11ee-a9c6-4e7b8ce151d1">e</c></ex></expan><c xml:id="178b12de-5842-11ee-a9c6-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="178b1306-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost"><expan><abbr><c xml:id="178b1342-5842-11ee-a9c6-4e7b8ce151d1">h</c></abbr><ex><c xml:id="178b13a6-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b137e-5842-11ee-a9c6-4e7b8ce151d1">c</c></ex></expan></supplied><c xml:id="178b13ba-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="178b1400-5842-11ee-a9c6-4e7b8ce151d1">e</c></abbr><ex><c xml:id="178b1464-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="178b1432-5842-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="178b1478-5842-11ee-a9c6-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="178b14b4-5842-11ee-a9c6-4e7b8ce151d1">s</c></abbr><ex><c xml:id="178b1572-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="178b1540-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="178b1518-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="178b14e6-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

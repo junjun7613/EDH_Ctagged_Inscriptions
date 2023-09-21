@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Smederevo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036107</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036107</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785756">Smederevo</placeName><placeName type="findspot">Festung, {Turm 3}, sekund&#228;r verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036107_1" sex="M"><persName ref="http://romans1by1.com/rpeople/12877"><name type="nomen">Cocceius</name><name type="cognomen">Cocceianus*</name></persName></person><person xml:id="HD036107_2" sex="W"><persName ref="http://romans1by1.com/rpeople/12878"><name type="nomen">Coccia*</name><name type="cognomen">Sabina+</name></persName></person><person xml:id="HD036107_3" sex="W"><persName ref="http://romans1by1.com/rpeople/12879"><name type="nomen">Aemilia</name><name type="cognomen">M[--]a</name></persName></person><person xml:id="HD036107_4"><persName ref="http://romans1by1.com/rpeople/12880"><name type="nomen">Cocceius/a*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-18" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Verschollen. (B): IMS: Z. 2/3: e[t p]er[p]e[tuae] sec/ur[i]ta[ti; Z. 4: Cocceian(us); Z. 5: Sa[bi]na; Z. 6/7: V / Aemilia M[--]a coniux [et]. CIL III 8138: nur das Wort Cocceius gelesen. Z. 7: hinter M offenbar zuerst ein E oder L, dahinter eine senkrechte Haste; Z. 8: Reste einiger nicht mehr identifizierbarer Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 2, 165; Zeichnung. (B)</bibl><bibl>CIL 03, 08138.</bibl><bibl>CIL 03, 14504.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="d9f8efa6-2c39-11ee-a36e-4e7b8ce151d0">D</c></abbr><ex><c xml:id="d9f8f096-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8f03c-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d9f8f0be-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d9f8f12c-2c39-11ee-a36e-4e7b8ce151d0">M</c></abbr><ex><c xml:id="d9f8f316-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d9f8f2c6-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d9f8f26c-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8f226-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d9f8f1d6-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d9f8f186-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="d9f8f33e-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="d9f8f370-2c39-11ee-a36e-4e7b8ce151d0">e</c><supplied reason="lost"><c xml:id="d9f8f3d4-2c39-11ee-a36e-4e7b8ce151d0">t</c></supplied><c xml:id="d9f8f4a6-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f8f488-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="d9f8f460-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f8f442-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d9f8f41a-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="d9f8f3fc-2c39-11ee-a36e-4e7b8ce151d0">e</c><supplied reason="lost"><c xml:id="d9f8f56e-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d9f8f51e-2c39-11ee-a36e-4e7b8ce151d0">u</c></supplied><c xml:id="d9f8f58c-2c39-11ee-a36e-4e7b8ce151d0">a</c><supplied reason="lost"><c xml:id="d9f8f5f0-2c39-11ee-a36e-4e7b8ce151d0">e</c></supplied><c xml:id="d9f8f686-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f8f65e-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d9f8f636-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f8f618-2c39-11ee-a36e-4e7b8ce151d0">c</c><lb break="no" n="3" /><c xml:id="d9f8f74e-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d9f8f730-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d9f8f708-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8f6e0-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d9f8f6c2-2c39-11ee-a36e-4e7b8ce151d0">a</c><supplied reason="lost"><c xml:id="d9f8f816-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d9f8f7c6-2c39-11ee-a36e-4e7b8ce151d0">i</c></supplied><c xml:id="d9f8f988-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f8f960-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d9f8f942-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f8f91a-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f8f8f2-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f8f8d4-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f8f8ac-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8f884-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d9f8f85c-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d9f8f834-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="d9f8fc9e-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d9f8fc4e-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f8fbfe-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f8fbb8-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f8fb68-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f8fb18-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8fab4-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d9f8fa64-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d9f8fa14-2c39-11ee-a36e-4e7b8ce151d0">u</c></abbr><ex><c xml:id="d9f8fcf8-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d9f8fd16-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d9f8fe24-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="d9f8fdd4-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8fd84-2c39-11ee-a36e-4e7b8ce151d0">x</c></abbr><ex><c xml:id="d9f8fece-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f8fe7e-2c39-11ee-a36e-4e7b8ce151d0">t</c></ex></expan><c xml:id="d9f8fef6-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="5" /><expan><abbr><c xml:id="d9f8ff64-2c39-11ee-a36e-4e7b8ce151d0">n</c><am>n</am></abbr><ex><c xml:id="d9f90004-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f8ffb4-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d9f900fe-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f900d6-2c39-11ee-a36e-4e7b8ce151d0">L</c><c xml:id="d9f900ae-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f9007c-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f90054-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d9f9002c-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d9f90266-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d9f90216-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f901c6-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f90176-2c39-11ee-a36e-4e7b8ce151d0">c</c></abbr><ex><c xml:id="d9f90360-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f90310-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f902c0-2c39-11ee-a36e-4e7b8ce151d0">a</c></ex></expan><c xml:id="d9f90400-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f903d8-2c39-11ee-a36e-4e7b8ce151d0">S</c><c xml:id="d9f903b0-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d9f9037e-2c39-11ee-a36e-4e7b8ce151d0">b</c><supplied reason="lost"><c xml:id="d9f90478-2c39-11ee-a36e-4e7b8ce151d0">i</c></supplied><c xml:id="d9f904fa-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d9f904c8-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d9f904a0-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="6" /><expan><abbr><supplied reason="lost"><c xml:id="d9f90572-2c39-11ee-a36e-4e7b8ce151d0">v</c></supplied><c xml:id="d9f905b8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f90590-2c39-11ee-a36e-4e7b8ce151d0">x</c></abbr><ex><c xml:id="d9f90662-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f90612-2c39-11ee-a36e-4e7b8ce151d0">t</c></ex></expan><c xml:id="d9f9068a-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d9f906ee-2c39-11ee-a36e-4e7b8ce151d0">n</c><am>n</am></abbr><ex><c xml:id="d9f90798-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f90748-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d9f90996-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f90964-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d9f90932-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f9090a-2c39-11ee-a36e-4e7b8ce151d0">A</c><c xml:id="d9f908d8-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f908a6-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="d9f9087e-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f9084c-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="d9f9081a-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f907e8-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d9f907c0-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="7" /><c xml:id="d9f909f0-2c39-11ee-a36e-4e7b8ce151d0">M</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="d9f90c52-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d9f90c20-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f90bee-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f90bbc-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f90b8a-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d9f90b58-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f90b26-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d9f90af4-2c39-11ee-a36e-4e7b8ce151d0">x</c><c xml:id="d9f90acc-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d9f90a9a-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f90a68-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d9f90a36-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d9f90d88-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d9f90d38-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d9f90ce8-2c39-11ee-a36e-4e7b8ce151d0">c</c></abbr><ex><c xml:id="d9f90ec8-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d9f90e78-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d9f90e28-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d9f90de2-2c39-11ee-a36e-4e7b8ce151d0">-</c></ex></expan><c xml:id="d9f90ef0-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="d9f90f2c-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

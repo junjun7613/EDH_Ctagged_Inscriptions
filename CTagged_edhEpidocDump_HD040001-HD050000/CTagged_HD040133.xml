@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corinium &amp;ndash; Benkovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040133</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040133</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197225">Corinium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3201465">Benkovac</placeName><placeName type="findspot">{Donji Karin}</placeName><placeName type="region">Zadarska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040133_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD040133_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]a</name></persName></person><person xml:id="HD040133_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Rusi[---]?</name></persName></person><person xml:id="HD040133_4" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]ina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-12" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrifttr&#228;ger: sogenannter Liburnischer Cippus (Fragment vom Zylinder). Z. 3: m&#246;glicherweise Rufi[nus]. (B): Fadi&#263;: Z. 3 fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1270.</bibl><bibl>I. Fadi&#263;, Diadora 12, 1990, 270, Nr. 39; t. 12, 4. (B) - AE 1993.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="2bd870b6-5841-11ee-8e19-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="2bd8712e-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="2bd87188-5841-11ee-8e19-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="2bd871a6-5841-11ee-8e19-4e7b8ce151d1">L</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd871c4-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd871d8-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2bd8725a-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="2bd87228-5841-11ee-8e19-4e7b8ce151d1">n</c></abbr><ex><c xml:id="2bd87354-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="2bd8732c-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="2bd872fa-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="2bd872d2-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="2bd8728c-5841-11ee-8e19-4e7b8ce151d1">m</c></ex></expan><c xml:id="2bd873d6-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="2bd873b8-5841-11ee-8e19-4e7b8ce151d1">X</c><c xml:id="2bd873a4-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="2bd87390-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="2bd8737c-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="2bd87368-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd8743a-5841-11ee-8e19-4e7b8ce151d1">A</c><c xml:id="2bd87426-5841-11ee-8e19-4e7b8ce151d1">E</c><c xml:id="2bd87412-5841-11ee-8e19-4e7b8ce151d1">T</c><c xml:id="2bd873fe-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2bd87476-5841-11ee-8e19-4e7b8ce151d1">F</c></abbr><ex cert="low" /></expan><c xml:id="2bd874a8-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd874ee-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="2bd874da-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="2bd874c6-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2bd8755c-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="2bd8752a-5841-11ee-8e19-4e7b8ce151d1">n</c></abbr><ex><c xml:id="2bd87642-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="2bd8761a-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="2bd875f2-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="2bd875ca-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="2bd87598-5841-11ee-8e19-4e7b8ce151d1">m</c></ex></expan><c xml:id="2bd8767e-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="2bd8766a-5841-11ee-8e19-4e7b8ce151d1">V</c><c xml:id="2bd87656-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd87750-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="2bd8773c-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="2bd87728-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="2bd87714-5841-11ee-8e19-4e7b8ce151d1">R</c><c xml:id="2bd87700-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="2bd876ba-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="2bd876a6-5841-11ee-8e19-4e7b8ce151d1">i</c><gap reason="lost" extent="unknown" unit="character" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="2bd87782-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="6"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd877a0-5841-11ee-8e19-4e7b8ce151d1">F</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="2bd877d2-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="2bd877be-5841-11ee-8e19-4e7b8ce151d1">A</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="2bd8780e-5841-11ee-8e19-4e7b8ce151d1">E</c><c xml:id="2bd877fa-5841-11ee-8e19-4e7b8ce151d1">P</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="2bd8784a-5841-11ee-8e19-4e7b8ce151d1">O</c><c xml:id="2bd8782c-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="7"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="2bd8794e-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="2bd87930-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="2bd8791c-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="2bd878fe-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="2bd878ea-5841-11ee-8e19-4e7b8ce151d1">p</c><c xml:id="2bd878cc-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="2bd878b8-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="2bd8789a-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="2bd87886-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="2bd87868-5841-11ee-8e19-4e7b8ce151d1">s</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

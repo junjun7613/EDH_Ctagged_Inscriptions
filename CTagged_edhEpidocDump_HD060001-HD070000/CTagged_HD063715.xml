@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063715</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063715</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. du Breuil de S.-Germain</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>44</height><width>81</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1905"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Rue Boillot}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD063715_1" sex="M"><persName><name type="cognomen">Craxallus</name></persName></person><person xml:id="HD063715_2" sex="W"><persName><name type="cognomen">Indercinia</name></persName></person><person xml:id="HD063715_3" sex="M"><persName><name type="cognomen">Hilarus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-23" who="Osnabr&#252;gge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040311" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/94906512-2d34-4d02-b235-d13fa7f9a0c4/file/id/801193/file_version/name/small" /><graphic xml:id="F040310" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1fa69b23-918c-4131-a04e-6d66b10ac39a/file/id/801192/file_version/name/small" /><graphic xml:id="F040309" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0e5d24a6-5698-4804-9d14-d79db12df10d/file/id/801191/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Breitreckteckige Stele(?) mit rechteckige Bildfeld, gerahmt von Volutenornamente, in der Nische zwei B&#252;sten. Die Inschrift darunter in einem als tabula ansata gestalteten Inschriftenfeld. E mit zwei senkrechten Hasten wiedergegeb (sog. &amp;apos;gallisches&amp;apos; E). Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11584.</bibl><bibl>CIL 13, 05686. (B)</bibl><bibl>CIL 13, 05748. (B)</bibl><bibl>&#201;. Esp&#233;randieu, Recueil g&#233;n&#233;ral des bas-reliefs, statues et bustes de la Gaule romaine 4 (Paris 1911) 298, Nr. 3278.</bibl><bibl>G. Drioux, Les Lingons. Textes et inscriptions antiques (Paris 1934) 94, Nr. 406.</bibl><bibl>(o. Autor), Catalogue du Mus&#233;e de Langres (Langres 1931) 76 Nr. 210.</bibl><bibl>M. Joly, Langres, Carte arch&#233;ologique de la Gaule 52, 2 (Paris 2001) 133; fig. 151 (Zeichnung).</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons. Inscriptions sur pierre (Paris 2003) 252, Nr. 446; Abb. 206 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="8d605d70-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="8d605e1a-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="8d605e9c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d605e6a-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="8d605eba-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8d605ef6-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="8d606040-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8d60600e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8d605fdc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d605faa-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="8d605f5a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="8d605f32-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="8d606054-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="8d606220-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="8d60620c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="8d6061f8-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8d6061e4-5842-11ee-a013-4e7b8ce151d1">x</c><c xml:id="8d6061da-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8d6061c6-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="8d6061b2-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="8d60619e-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="8d60618a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="8d606176-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="8d606162-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="8d606158-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="8d606144-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="8d606130-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8d60611c-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="8d606108-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="8d6060f4-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="8d6060ea-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="8d6060d6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d6060c2-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8d6060a4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d60609a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8d606086-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="8d606072-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="8d606342-5842-11ee-a013-4e7b8ce151d1">H</c><c xml:id="8d606306-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d6062f2-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="8d6062de-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8d6062ca-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="8d6062b6-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="8d606298-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="8d606270-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8d606400-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="8d6063c4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d606392-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="8d60648c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d606464-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="8d606432-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="8d6064a0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8d6064d2-5842-11ee-a013-4e7b8ce151d1">p</c></abbr><ex><c xml:id="8d6065fe-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="8d6065d6-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8d6065ae-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="8d606586-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8d60655e-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="8d60652c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="8d606504-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="8d606612-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8d606644-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="8d606766-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="8d60673e-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="8d606716-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8d6066e4-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="8d60669e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8d606676-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

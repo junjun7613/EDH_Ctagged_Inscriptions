@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sta. Olaja de la Varga (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001143</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001143</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/51">Quarzit</material><dimensions unit="cm"><height>(93)</height><width>38</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Sta. Olaja de la Varga</placeName><placeName type="findspot" /><placeName type="region">Le&#243;n</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001143_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ntovius</name><name type="cognomen">Ela[---]us</name></persName></person><person xml:id="HD001143_2" sex="M"><persName><name type="cognomen">Elanus+? Arga</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-24" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE, Z.1: M(arco) oder M(onumentum); Ma&#241;anes - G&#243;mez, Z.3:. m(iliti) III a(lae). Z.2/3: Erg&#228;nzungsvorschlag von Ma&#241;anes - G&#243;mez: [Pen]tovio Ela/[es]o. (C): Datierung: sp&#228;ter als 2. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0580. (B)</bibl><bibl>T. Ma&#241;anes - M. G&#243;mez, Archivos Leoneses 65, 1979, 106-110, Nr. 2; Foto. (BC) - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="b954825a-583b-11ee-a136-4e7b8ce151d1">
+</c><abbr><c xml:id="b95482f0-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><c xml:id="b954830e-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b95485ac-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="b9548520-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="b954843a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="b9548426-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="b9548412-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b95483fe-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="b95483ea-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="b95483b8-583b-11ee-a136-4e7b8ce151d1">E</c><c xml:id="b954834a-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="b954832c-583b-11ee-a136-4e7b8ce151d1">a</c></line><line break="no" n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b95486ba-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="b95486a6-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="b9548692-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="b954867e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b9548660-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="b954864c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b954862e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="b954861a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b9548606-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9548782-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex cert="low"><c xml:id="b9548836-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="b9548804-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="b95487c8-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="b954884a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b9548872-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9548912-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="b95488e0-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="b95488ae-583b-11ee-a136-4e7b8ce151d1">d</c></abbr><ex><c xml:id="b9548a66-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b9548a34-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="b9548a02-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b95489d0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="b95489a8-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="b9548976-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="b9548944-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="b9548a7a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9548ae8-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="b9548ab6-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="b9548bce-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="b9548b9c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="b9548b74-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="b9548b42-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="b9548b1a-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="b9548c46-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="b9548c28-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="b9548c0a-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="b9548bf6-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="b9548be2-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost" cert="low"><c xml:id="b9548ce6-583b-11ee-a136-4e7b8ce151d1">E</c><c xml:id="b9548cb4-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="b9548c8c-583b-11ee-a136-4e7b8ce151d1">a</c></supplied><c xml:id="b9548db8-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="b9548da4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="b9548d86-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="b9548d72-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="b9548d54-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="b9548d40-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="b9548d2c-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="b9548d0e-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="b9548cfa-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost" cert="low"><c xml:id="b9548e3a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="b9548e08-583b-11ee-a136-4e7b8ce151d1">m</c></supplied><c xml:id="b9548e94-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b9548e80-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="b9548e62-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="b9548e4e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9548eda-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="b9548fc0-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="b9548f8e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="b9548f66-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="b9548f3e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b9548f0c-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="b9548fd4-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9549010-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="b954906a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b9549042-583b-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="b954907e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b95490ba-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="b954916e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="b954913c-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="b9549114-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="b95490ec-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="b9549182-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b95491be-583b-11ee-a136-4e7b8ce151d1">e</c></abbr><ex><c xml:id="b9549218-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="b95491f0-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077711</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077711</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>64</height><width>(52)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{r&#246;mische Br&#252;cke}, Pfeiler, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077711_1" sex="M"><persName><name type="nomen">Crescentius*?</name><name type="cognomen">Crescens*?</name></persName></person><person xml:id="HD077711_2" sex="M"><persName><name type="cognomen">Gemellus*</name></persName></person><person xml:id="HD077711_3" sex="M"><persName><name type="nomen">Secundius?</name><name type="cognomen">Secundus?</name></persName></person><person xml:id="HD077711_4" sex="M"><persName><name type="nomen">Secundinius*?</name><name type="cognomen">Secundinus*?</name></persName></person><person xml:id="HD077711_5" sex="M"><persName><name type="cognomen">Calator</name></persName></person><person xml:id="HD077711_6" sex="M"><persName><name type="nomen">[---]cundius?</name><name type="cognomen">[---]cundus?</name></persName></person><person xml:id="HD077711_7" sex="M"><persName><name type="nomen">Saturninius+?</name><name type="cognomen">Saturninus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-23" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Offenbar eine mindestens in zwei Spalten geschriebene Namensliste; Z. 1 zur linken Spalte geh&#246;rig. Z.10 in gr&#246;&#223;eren Buchstaben; m&#246;glicherweise liefen Z. 10-12 unter allen Kolumnen hinweg. Oberfl&#228;che stark verrieben. Textwiedergabe nach CIL 13, 07073. Fundjahr: 1881/82.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07073; Zeichnung.</bibl><bibl>K. K&#246;rber, ZRheinGeschMainz 4, 1893-1905, 215, Nr. 87; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />S <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>NVI</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" />PFV<gap reason="lost" extent="unknown" unit="character" /><expan><abbr>I</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" />VSI <lb n="3" /><expan><abbr>VME</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /> I L<gap reason="lost" extent="unknown" unit="character" /> SEVNVRI <lb n="4" /><expan><abbr>I</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" />RNTO <abbr>Crescent</abbr> G<gap reason="lost" extent="unknown" unit="character" /> <lb n="5" />S<gap reason="lost" extent="unknown" unit="character" /><expan><abbr>C</abbr><ex cert="low" />VA</expan> Gemel<expan><ex>l</ex><abbr>o</abbr></expan> V<gap reason="lost" extent="unknown" unit="character" /> <lb n="6" />P<gap reason="lost" extent="unknown" unit="character" />NTOIN<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><expan><abbr>SIDD</abbr><ex cert="low" />A</expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><expan><abbr>X</abbr><ex cert="low" /></expan> BE<gap reason="lost" extent="unknown" unit="character" /><lb break="no" n="7" />CER ECTV <supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied> Secundi PIA<gap reason="lost" extent="unknown" unit="character" /> <lb n="8" /><expan><abbr>Secundin</abbr><ex cert="low">i</ex></expan> Calatori M<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><expan><abbr>A</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="9" /><gap reason="lost" extent="unknown" unit="character" />cundi Saturnin<gap reason="lost" extent="unknown" unit="character" /> <lb n="10" /><gap reason="lost" extent="unknown" unit="character" />ETV<gap reason="lost" extent="unknown" unit="character" />ONIV<gap reason="lost" extent="unknown" unit="character" /> <lb n="11" /><gap reason="lost" extent="unknown" unit="character" />P<gap reason="lost" extent="unknown" unit="character" />AETV<gap reason="lost" extent="unknown" unit="character" /> <lb n="12" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>V</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

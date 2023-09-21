@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Confluentes? &amp;ndash; Koblenz? (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060949</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060949</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Koblenz, Mittelrhein-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(37)</height><width>(28)</width><depth>(11)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.0-3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108903">Confluentes?</placeName></origPlace><origDate><origDate notBefore-custom="0601" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">601 AD - 700 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1865"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886946">Koblenz?</placeName><placeName type="findspot" /><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060949_1"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-17" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038191" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dc3fd9d4-311d-437d-9405-c0dd721fe44b/file/id/799063/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Buchstabe O in Form einer Raute. Z. 1: statt V auch O m&#246;glich. (B): Z. 3: CIL 13, 07637; ILCV: se oirat; Terrien: Z. 3: seoirat.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07637. (B)</bibl><bibl>ILCV 3041A. (B)</bibl><bibl>R. Egger, BJ 157, 1957, 333; Taf. 46.</bibl><bibl>M.-P. Terrien, La christianisation de la r&#233;gion rh&#233;nane du IVe au milieu du VIIIe si&#232;cle. Corpus (Besan&#231;on 2007) 92. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="96055160-5842-11ee-a013-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="96055192-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="9605520a-5842-11ee-a013-4e7b8ce151d1">N</c><c xml:id="960551d8-5842-11ee-a013-4e7b8ce151d1">V</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="96055228-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="960552c8-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="960552b4-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="960552a0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9605528c-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="96055278-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="96055264-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055250-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="9605523c-5842-11ee-a013-4e7b8ce151d1">d</c></line><line break="no" n="3"><c xml:id="960553f4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="960553e0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="960553cc-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="960553b8-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="960553a4-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="96055390-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="9605537c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="96055368-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="96055354-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055340-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="9605532c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="96055318-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="96055304-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="960552f0-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="96055430-5842-11ee-a013-4e7b8ce151d1">s</c><expan><ex><c xml:id="96055494-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055462-5842-11ee-a013-4e7b8ce151d1">e</c></ex><abbr><c xml:id="960554bc-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="960554ee-5842-11ee-a013-4e7b8ce151d1">u</c></ex><abbr><c xml:id="96055548-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="96055516-5842-11ee-a013-4e7b8ce151d1">o</c></abbr></expan><c xml:id="96055606-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="960555f2-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="960555de-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="960555ca-5842-11ee-a013-4e7b8ce151d1">x</c><c xml:id="960555b6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="96055598-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="96055584-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="96055570-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="9605555c-5842-11ee-a013-4e7b8ce151d1">n</c></line><line break="no" n="5"><c xml:id="9605567e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="96055660-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9605564c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="96055638-5842-11ee-a013-4e7b8ce151d1"> </c><note>sic</note><c xml:id="96055764-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="96055746-5842-11ee-a013-4e7b8ce151d1">L</c><c xml:id="96055732-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="9605571e-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="96055700-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="960556ec-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="960556d8-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="960556ba-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="960556a6-5842-11ee-a013-4e7b8ce151d1">o</c></line><line break="no" n="6"><c xml:id="96055818-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="960557fa-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="960557e6-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="960557c8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="960557b4-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="96055796-5842-11ee-a013-4e7b8ce151d1"> </c><note>sic</note><c xml:id="960558c2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="960558ae-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="96055890-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9605587c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9605585e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="96055840-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="96055a3e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="96055a20-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="96055a02-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="960559e4-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="960559c6-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="960559b2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="96055994-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="96055976-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="96055962-5842-11ee-a013-4e7b8ce151d1">K</c><c xml:id="96055944-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055926-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="96055912-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="960558f4-5842-11ee-a013-4e7b8ce151d1">n</c></line><line break="no" n="8"><expan><abbr><c xml:id="96055a98-5842-11ee-a013-4e7b8ce151d1">d</c></abbr><ex><c xml:id="96055af2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055ac0-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="96055bec-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="96055bce-5842-11ee-a013-4e7b8ce151d1">M</c><c xml:id="96055bb0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055b92-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="96055b74-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="96055b56-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="96055b38-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055b24-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="96055b06-5842-11ee-a013-4e7b8ce151d1"> </c><note>sic</note><c xml:id="96055c1e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="9"><c xml:id="96055cfa-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="96055cdc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="96055cbe-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="96055ca0-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="96055c82-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="96055c64-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="96055c46-5842-11ee-a013-4e7b8ce151d1">e</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

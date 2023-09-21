@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Emerita Augusta &amp;ndash; M&#233;rida (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000398</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000398</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>M&#233;rida, Mus. Episcopal Vich</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>49</height><width>26</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256155">Emerita Augusta</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1608"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2513917">M&#233;rida</placeName><placeName type="findspot" /><placeName type="region">Extremadura</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000398_1" sex="M"><persName><name type="nomen">Marius</name><name type="cognomen">Drosus</name></persName></person><person xml:id="HD000398_2" sex="M"><persName><name type="nomen">Marius</name><name type="cognomen">Tychius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL II: Z. 5: Marius Tychus; Z. 6: f(ecit). (C): Grabinschrift des Dedikanten nicht in AE 1983, 493 publiziert, wie Garc&#237;a Iglesias annimmt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0490.</bibl><bibl>L. Garc&#237;a Iglesias, RevEstExtreme&#241;os 39, 1983, 579-580; l&#225;m. 2. (C) - AE 1983.</bibl><bibl>AE 1994, 0799.</bibl><bibl>CIL 02, 00577. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a40d0e1c-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="a40d0ec6-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="a40d0f3e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d0f0c-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a40d0f5c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d0f98-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="a40d10a6-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d107e-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a40d104c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1024-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a40d0ffc-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d0fca-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a40d10ba-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d10f6-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="a40d11d2-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d11a0-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a40d1178-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1150-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d1128-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="a40d11e6-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="a40d127c-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="a40d1268-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d1254-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1240-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1222-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d120e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d11fa-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="a40d131c-583b-11ee-a136-4e7b8ce151d1">D</c><c xml:id="a40d1308-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d12f4-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a40d12e0-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d12cc-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d12b8-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d12a4-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="a40d1394-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d1362-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="a40d1466-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a40d143e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a40d1416-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d13ee-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d13bc-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="a40d14d4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a40d14c0-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="a40d14ac-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="a40d1498-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="a40d147a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d151a-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="a40d1574-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d154c-583b-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="a40d1588-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d15c4-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="a40d1678-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1646-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a40d161e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d15f6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a40d168c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d16c8-583b-11ee-a136-4e7b8ce151d1">e</c></abbr><ex><c xml:id="a40d1722-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d16fa-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="a40d1736-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d1772-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="a40d17cc-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d17a4-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="a40d17e0-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d1812-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="a40d189e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1876-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a40d1844-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="a40d18b2-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d18ee-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="a40d1998-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a40d1970-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1948-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1920-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="a40d19ac-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d19e8-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="a40d1a9c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a40d1a6a-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="a40d1a42-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1a1a-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a40d1ab0-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="a40d1c22-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="a40d1c04-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d1bf0-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1bd2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1bbe-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d1ba0-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d1b8c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a40d1b78-583b-11ee-a136-4e7b8ce151d1">T</c><c xml:id="a40d1b5a-583b-11ee-a136-4e7b8ce151d1">y</c><c xml:id="a40d1b46-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a40d1b32-583b-11ee-a136-4e7b8ce151d1">h</c><c xml:id="a40d1b14-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1b00-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d1ae2-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d1ace-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="a40d1dee-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="a40d1dd0-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d1db2-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a40d1d9e-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1d80-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1d62-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a40d1d4e-583b-11ee-a136-4e7b8ce151d1">k</c><c xml:id="a40d1d30-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a40d1d12-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a40d1cfe-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1ce0-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d1cc2-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d1cae-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1c90-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="a40d1c7c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a40d1c5e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a40d1e48-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="a40d1f2e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a40d1f06-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a40d1ed4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a40d1eac-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a40d1e84-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

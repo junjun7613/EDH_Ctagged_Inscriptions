@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068580</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068580</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(86)</height><width>(68)</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">{&#211;buda}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068580_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">Crescen[---]?+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: alternative Lesung/Erg&#228;nzung: [def(uncto) in] expedi[t(ione) ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TitAq 0605; Foto.</bibl><bibl>AE 2010, 1297.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="84d9cd64-2c3a-11ee-b679-4e7b8ce151d0">D</c></abbr><ex><c xml:id="84d9ce36-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9cde6-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="84d9ce68-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="84d9cecc-2c3a-11ee-b679-4e7b8ce151d0">M</c></abbr><ex><c xml:id="84d9d08e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="84d9d048-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84d9cff8-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9cfb2-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="84d9cf6c-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="84d9cf1c-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="84d9d0b6-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="84d9d160-2c3a-11ee-b679-4e7b8ce151d0">C</c><c xml:id="84d9d110-2c3a-11ee-b679-4e7b8ce151d0">r</c></supplied><c xml:id="84d9d232-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9d20a-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="84d9d1ec-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="84d9d1c4-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9d1a6-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84d9d17e-2c3a-11ee-b679-4e7b8ce151d0">t</c><supplied reason="lost" cert="low"><c xml:id="84d9d32c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9d2e6-2c3a-11ee-b679-4e7b8ce151d0">-</c><c xml:id="84d9d2a0-2c3a-11ee-b679-4e7b8ce151d0">-</c></supplied><c xml:id="84d9d354-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><supplied reason="lost" cert="low"><c xml:id="84d9d750-2c3a-11ee-b679-4e7b8ce151d0">-</c><c xml:id="84d9d70a-2c3a-11ee-b679-4e7b8ce151d0">-</c><c xml:id="84d9d6c4-2c3a-11ee-b679-4e7b8ce151d0">-</c><c xml:id="84d9d67e-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84d9d638-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="84d9d5e8-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9d5a2-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="84d9d55c-2c3a-11ee-b679-4e7b8ce151d0">(</c><c xml:id="84d9d516-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9d4d0-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="84d9d48a-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="84d9d444-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84d9d3fe-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84d9d3ae-2c3a-11ee-b679-4e7b8ce151d0">)</c></supplied><c xml:id="84d9d872-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84d9d84a-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9d822-2c3a-11ee-b679-4e7b8ce151d0">x</c><c xml:id="84d9d804-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84d9d7dc-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="84d9d7be-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9d796-2c3a-11ee-b679-4e7b8ce151d0">d</c><c xml:id="84d9d76e-2c3a-11ee-b679-4e7b8ce151d0">i</c><supplied reason="lost"><c xml:id="84d9d930-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="84d9d8ea-2c3a-11ee-b679-4e7b8ce151d0">e</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="84d9d94e-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84d9d98a-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="84d9dab6-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="84d9da70-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="84d9da2a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9d9e4-2c3a-11ee-b679-4e7b8ce151d0">p</c></abbr><ex><c xml:id="84d9dd04-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84d9dcbe-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84d9dc6e-2c3a-11ee-b679-4e7b8ce151d0">d</c><c xml:id="84d9dc28-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9dbe2-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84d9db9c-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="84d9db56-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="84d9db06-2c3a-11ee-b679-4e7b8ce151d0">m</c></ex></expan><c xml:id="84d9dd2c-2c3a-11ee-b679-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84d9dd54-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="84d9ddf4-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="84d9ddae-2c3a-11ee-b679-4e7b8ce151d0">n</c></abbr><ex><c xml:id="84d9df66-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84d9df16-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84d9ded0-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="84d9de8a-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="84d9de44-2c3a-11ee-b679-4e7b8ce151d0">m</c></ex></expan></supplied><c xml:id="84d9dffc-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84d9dfd4-2c3a-11ee-b679-4e7b8ce151d0">L</c><c xml:id="84d9dfb6-2c3a-11ee-b679-4e7b8ce151d0">V</c><c xml:id="84d9df8e-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="84d9e06a-2c3a-11ee-b679-4e7b8ce151d0">h</c></abbr><ex><c xml:id="84d9e100-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9e0ba-2c3a-11ee-b679-4e7b8ce151d0">c</c></ex></expan><c xml:id="84d9e128-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="84d9e182-2c3a-11ee-b679-4e7b8ce151d0">s</c></abbr><ex><c xml:id="84d9e2a4-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84d9e25e-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="84d9e218-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="84d9e1d2-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="84d9e2cc-2c3a-11ee-b679-4e7b8ce151d0"> </c><supplied reason="lost"><expan><abbr><c xml:id="84d9e330-2c3a-11ee-b679-4e7b8ce151d0">e</c></abbr><ex><c xml:id="84d9e3c6-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="84d9e380-2c3a-11ee-b679-4e7b8ce151d0">t</c></ex></expan></supplied><c xml:id="84d9e3ee-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="84d9e420-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

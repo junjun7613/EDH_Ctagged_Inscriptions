@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025481</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025481</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(19)</height><width>(80)</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0041" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">41 AD - 54 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Ponte Rotto, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025481_1" sex="M"><persName><name type="praenomen">Germanicus+</name><name type="nomen">Caesar</name></persName></person><person xml:id="HD025481_2" sex="M"><persName><name type="cognomen">Augustus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015341" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d3a9c185-e980-419c-810f-80186fd01baf/file/id/774918/file_version/name/small" /><graphic xml:id="F010259" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/36f4bd79-0a6d-4e7e-9018-b4805b69e5fd/file/id/769779/file_version/name/small" /><graphic xml:id="F026165" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81f527a1-9c8f-4433-b0fb-c94e4ab9f6a4/file/id/786917/file_version/name/small" /><graphic xml:id="F031535" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b3ba94c9-fa5c-4f09-837e-53b293fd072c/file/id/792298/file_version/name/small" /><graphic xml:id="F031536" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c259d9b9-30f4-4f52-b1ba-12363e2256fd/file/id/792299/file_version/name/small" /><graphic xml:id="F042905" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bcc7e3a2-2549-44e5-bc60-d0e3250e0a08/file/id/804011/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei zusammengeh&#246;rige Fragmente erhalten. Spuren sp&#228;tantiker Wiederverwendung an Ober-, Unter- und R&#252;ckseite.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40412; fig. &#945; u. &#946;.</bibl><bibl>CIL 06, 00924.</bibl><bibl>CIL 06, 31205.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost">Germani</supplied>co Caesari <lb n="2" /><supplied reason="lost"><expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>epoti</ex></expan> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Ca<supplied reason="lost">esari</supplied> <lb n="2" /><expan><abbr>Aug</abbr><ex>usto</ex></expan> Germa<supplied reason="lost">nico</supplied> <lb n="3" /><expan><abbr><supplied reason="lost">po</supplied>ntif</abbr><ex>ici</ex></expan> m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imo</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

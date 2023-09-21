@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Waldfischbach-Burgalben (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076248</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076248</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(43)</height><width>93</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1833"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2815032">Waldfischbach-Burgalben</placeName><placeName type="findspot">Waldfischbach, {Heidelsburg}, n&#246;rdliche Befestigungsmauer, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076248_1" sex="M"><persName><name type="cognomen">Ammo</name></persName></person><person xml:id="HD076248_2" sex="M"><persName><name type="cognomen">Drappo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039380" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fec5293-67ee-457c-b5e1-1dc8c58e9c61/file/id/800259/file_version/name/small" /><graphic xml:id="F039381" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d03d55a7-fbc7-483e-a36a-8a1234dfe61d/file/id/800260/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Stele war aus mehreren Bl&#246;cken zusammengesetzt. (B): CIL 13, 04516: Z. 3: FIIII; Faust: Z. 3: fi[l(io)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 04516. (B)</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (K&#246;ln 1998) 184, Nr. 297. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="b5652f46-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b5652f1e-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="b5652f00-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="b5652ee2-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5652ec4-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5652e9c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5652e60-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="b565302c-2c3a-11ee-96ce-4e7b8ce151d0">D</c><c xml:id="b565300e-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5652ff0-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5652fc8-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5652faa-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5652f8c-2c3a-11ee-96ce-4e7b8ce151d0">o</c><lb break="no" n="3" /><c xml:id="b56530cc-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b56530ae-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5653090-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5653068-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b56531e4-2c3a-11ee-96ce-4e7b8ce151d0">f</c><c xml:id="b5653194-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5653144-2c3a-11ee-96ce-4e7b8ce151d0">l</c></abbr><ex><c xml:id="b5653284-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5653234-2c3a-11ee-96ce-4e7b8ce151d0">o</c></ex></expan><c xml:id="b56532ac-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5653306-2c3a-11ee-96ce-4e7b8ce151d0">I</c></abbr><ex cert="low" /><c xml:id="b565332e-2c3a-11ee-96ce-4e7b8ce151d0">A</c></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

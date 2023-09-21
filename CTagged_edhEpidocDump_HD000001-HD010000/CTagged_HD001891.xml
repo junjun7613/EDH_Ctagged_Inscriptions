@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vicopisano (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001891</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001891</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pieve di Santa Giulia di Caprona, bei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>89</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1970"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Vicopisano</placeName><placeName type="findspot">Pieve di Santa Giulia di Caprona, bei</placeName><placeName type="region">Pisa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001891_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Petronius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD001891_2" sex="W"><persName><name type="nomen">Varronia</name><name type="cognomen">Fortunata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-11" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vielleicht sp&#228;tere Wiederverwendung als Abdeckung eines Grabes. C. Petronius Felix ist der 1. aus Pisa bekannte publicus haruspex.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0358.</bibl><bibl>G. Ciampoltrini, Epigraphica 43, 1981, 228-231, Nr. 2; fig. 2. - AE 1982.</bibl><bibl>AE 1990, 0348.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="3138f4b8-583c-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="3138f526-583c-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="3138f58a-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138f562-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="3138f59e-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3138f5da-583c-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="3138f6de-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138f6b6-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="3138f68e-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138f65c-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="3138f634-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138f60c-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="3138f6f2-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="3138f72e-583c-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="3138f7e2-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138f7b0-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138f788-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138f756-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="3138f8b4-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="3138f8a0-583c-11ee-a136-4e7b8ce151d1">P</c><c xml:id="3138f88c-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="3138f878-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="3138f864-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3138f850-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="3138f846-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="3138f832-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138f81e-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138f80a-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="3138f7f6-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3138f8fa-583c-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="3138f954-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138f92c-583c-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="3138f968-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3138f99a-583c-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="3138fa62-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138fa3a-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="3138fa12-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138f9ea-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138f9c2-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="3138fa76-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3138faf8-583c-11ee-a136-4e7b8ce151d1">G</c><c xml:id="3138fad0-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138faa8-583c-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="3138fb98-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="3138fb70-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3138fb52-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138fb2a-583c-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="3138fbac-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="3138fc2e-583c-11ee-a136-4e7b8ce151d1">F</c><c xml:id="3138fc1a-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="3138fc06-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="3138fbf2-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138fbde-583c-11ee-a136-4e7b8ce151d1">x</c><c xml:id="3138fbca-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3138fcc4-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="3138fc92-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138fc6a-583c-11ee-a136-4e7b8ce151d1">b</c></abbr><ex><c xml:id="3138fd8c-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="3138fd64-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138fd3c-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="3138fd14-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138fcec-583c-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="3138fe5e-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="3138fe4a-583c-11ee-a136-4e7b8ce151d1">h</c><c xml:id="3138fe36-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138fe22-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3138fe04-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3138fdf0-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="3138fddc-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="3138fdc8-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="3138fdb4-583c-11ee-a136-4e7b8ce151d1">x</c><c xml:id="3138fd96-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="3138ff4e-583c-11ee-a136-4e7b8ce151d1">V</c><c xml:id="3138ff30-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138ff1c-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3138ff08-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3138feea-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="3138fed6-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="3138fec2-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3138feae-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138fe90-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3138ff94-583c-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="3138ffee-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3138ffc6-583c-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="31390002-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3139003e-583c-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="3139014c-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3139011a-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="313900f2-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="313900c0-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="31390098-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="31390070-583c-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="31390160-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="313902be-583c-11ee-a136-4e7b8ce151d1">F</c><c xml:id="313902a0-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="3139028c-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3139026e-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="3139025a-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="3139023c-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="31390228-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="31390214-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="313901f6-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="313901e2-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="313901c4-583c-11ee-a136-4e7b8ce151d1">h</c><c xml:id="313901b0-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="31390192-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="3139017e-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="31390372-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3139034a-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="31390318-583c-11ee-a136-4e7b8ce151d1">q</c></abbr><ex><c xml:id="313904bc-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="31390494-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3139046c-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="31390444-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="3139041c-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="313903f4-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="313903cc-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="313903a4-583c-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="313904d0-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="3139069c-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="31390688-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="3139066a-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="3139064c-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="3139062e-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="3139061a-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="313905fc-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="313905e8-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="313905ca-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="313905ac-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="31390598-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="3139057a-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="31390566-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="31390548-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="3139052a-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="31390516-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="313904f8-583c-11ee-a136-4e7b8ce151d1">i</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

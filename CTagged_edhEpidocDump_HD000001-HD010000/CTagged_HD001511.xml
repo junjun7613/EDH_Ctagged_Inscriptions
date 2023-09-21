@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Luceria &amp;ndash; Lucera (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001511</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001511</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Castello Svevo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442640">Luceria</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lucera</placeName><placeName type="findspot">Castello Svevo, sekund&#228;r verwendet</placeName><placeName type="region">Foggia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001511_1" sex="M"><persName><name type="nomen">Allius</name><name type="cognomen">Eutraphilus</name></persName></person><person xml:id="HD001511_2" sex="W"><persName><name type="nomen">Allia+</name><name type="cognomen">Cypare</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1991-03-08" who="Krempl">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das cognomen Eutraphilus ist nicht belegt. (B): Sogliano: Z. 3: A Cypare statt [All]ia Cypare; AE, B&#224;lice: L&#252;cke bei Pseudofiliation fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0255. (B)</bibl><bibl>M. B&#224;lice, in: V.A. Sirago, Lucera romana (Lucera 1980) 26. (B) - AE.</bibl><bibl>A. Sogliano, NSA 1899, 276. (B) - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="1f63c6dc-583c-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="1f63c6c8-583c-11ee-a136-4e7b8ce151d1">A</c><c xml:id="1f63c6aa-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="1f63c696-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="1f63c682-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="1f63c664-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="1f63c5c4-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="1f63c70e-583c-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1f63c768-583c-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="1f63c8a8-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="1f63c876-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="1f63c844-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63c812-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="1f63c7e0-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="1f63c7ae-583c-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="1f63c9b6-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="1f63c9a2-583c-11ee-a136-4e7b8ce151d1">E</c><c xml:id="1f63c98e-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="1f63c97a-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="1f63c95c-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="1f63c948-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="1f63c934-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="1f63c920-583c-11ee-a136-4e7b8ce151d1">h</c><c xml:id="1f63c902-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="1f63c8ee-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="1f63c8da-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="1f63c8c6-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><c xml:id="1f63ca92-583c-11ee-a136-4e7b8ce151d1">A</c><c xml:id="1f63ca60-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="1f63ca2e-583c-11ee-a136-4e7b8ce151d1">l</c></supplied><c xml:id="1f63cb82-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="1f63cb6e-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="1f63cb5a-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="1f63cb3c-583c-11ee-a136-4e7b8ce151d1">C</c><c xml:id="1f63cb28-583c-11ee-a136-4e7b8ce151d1">y</c><c xml:id="1f63cb0a-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="1f63caf6-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="1f63cad8-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="1f63cac4-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63caa6-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="1f63cc72-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="1f63cc54-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="1f63cc40-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="1f63cc22-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="1f63cc04-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="1f63cbf0-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63cbd2-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="1f63cbbe-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><c xml:id="1f63ccc2-583c-11ee-a136-4e7b8ce151d1">c</c></supplied><c xml:id="1f63cdee-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="1f63cdd0-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="1f63cdbc-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="1f63cd9e-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="1f63cd80-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="1f63cd6c-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63cd4e-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="1f63cd30-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="1f63ccfe-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="1f63ccea-583c-11ee-a136-4e7b8ce151d1">l</c><supplied reason="lost"><c xml:id="1f63ce48-583c-11ee-a136-4e7b8ce151d1">i</c></supplied><c xml:id="1f63ce66-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="1f63cefc-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="1f63cede-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63cec0-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="1f63cea2-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63ce84-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="1f63cfe2-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="1f63cfc4-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63cfa6-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="1f63cf88-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="1f63cf6a-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="1f63cf4c-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="1f63cf2e-583c-11ee-a136-4e7b8ce151d1">i</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

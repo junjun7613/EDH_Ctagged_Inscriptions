@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Deva &amp;ndash; Chester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069779</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069779</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chester, Grosvenor Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(117)</height><width>76</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79420">Deva</placeName></origPlace><origDate><origDate notBefore-custom="0083" notAfter-custom="0116" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">83 AD - 116 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653228">Chester</placeName><placeName type="findspot">{Nordmauer, westlicher Teil}</placeName><placeName type="region">Cheshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069779_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Vibius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD069779_2" sex="M"><persName><name type="cognomen">Octavianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 7 Octavi[---] statt Octavia[ni]. Zur Datierung vgl. RIB 3005.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 544 n. 1066. (B)</bibl><bibl>RIB 0508; Zeichnung.</bibl><bibl>M. Henig, Roman sculpture from the North West Midlands CSIR Great Britain 1, 9 (Oxford 2004) 15, Nr. 38; Pl. 16, 38.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a5ffaa2a-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="a5ffaa16-5842-11ee-a013-4e7b8ce151d1">D</c><c xml:id="a5ffaa02-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffa9ee-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5ffa9da-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffa9c6-5842-11ee-a013-4e7b8ce151d1">M</c><c xml:id="a5ffa9b2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a5ffa99e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffa96c-5842-11ee-a013-4e7b8ce151d1">i</c></line><line break="no" n="2"><c xml:id="a5ffaaa2-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="a5ffaa8e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffaa7a-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5ffaa5c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a5ffaafc-5842-11ee-a013-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="a5ffac28-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffabf6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffabc4-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffab92-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5ffab60-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffab38-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a5ffac78-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffac64-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="a5ffac50-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffac3c-5842-11ee-a013-4e7b8ce151d1">b</c></line><line break="no" n="3"><c xml:id="a5ffad4a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffad36-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffad22-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5ffad0e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffacf0-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="a5ffacdc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5ffacc8-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a5ffacb4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffaca0-5842-11ee-a013-4e7b8ce151d1">n</c></line><line break="no" n="4"><c xml:id="a5ffae3a-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="a5ffae1c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffae08-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5ffadf4-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffade0-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="a5ffadc2-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffadae-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffad90-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffad7c-5842-11ee-a013-4e7b8ce151d1">e</c><expan><ex><c xml:id="a5ffae8a-5842-11ee-a013-4e7b8ce151d1">n</c></ex><abbr><c xml:id="a5ffaebc-5842-11ee-a013-4e7b8ce151d1">s</c></abbr></expan></line><line break="no" n="5"><c xml:id="a5ffaf8e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffaf7a-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5ffaf5c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffaf48-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="a5ffaf34-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a5ffaf16-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5ffaf02-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a5ffaeee-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a5ffaed0-5842-11ee-a013-4e7b8ce151d1">n</c></line><line break="no" n="6"><c xml:id="a5ffb074-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a5ffb060-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffb042-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a5ffb02e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb010-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a5ffaffc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5ffafde-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5ffafc0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a5ffb11e-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a5ffb0f6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5ffb0c4-5842-11ee-a013-4e7b8ce151d1">g</c></abbr><ex><c xml:id="a5ffb20e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb1dc-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a5ffb1b4-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffb182-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb15a-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a5ffb272-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffb254-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="a5ffb240-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="a5ffb222-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="7"><expan><abbr><c xml:id="a5ffb2b8-5842-11ee-a013-4e7b8ce151d1">V</c></abbr><ex><c xml:id="a5ffb3f8-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a5ffb3d0-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="a5ffb39e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5ffb376-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a5ffb344-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb31c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a5ffb2ea-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan><c xml:id="a5ffb40c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a5ffb452-5842-11ee-a013-4e7b8ce151d1">v</c></abbr><ex><c xml:id="a5ffb5ce-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb59c-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a5ffb56a-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5ffb542-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a5ffb510-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb4e8-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a5ffb4b6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb484-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="a5ffb5e2-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><am><g type="centuria" /></am></abbr><ex><c xml:id="a5ffb768-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a5ffb740-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5ffb718-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffb6e6-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5ffb6be-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5ffb68c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a5ffb65a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb628-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="a5ffb84e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5ffb83a-5842-11ee-a013-4e7b8ce151d1">O</c><c xml:id="a5ffb81c-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="a5ffb7fe-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5ffb7e0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a5ffb7c2-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="a5ffb7a4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5ffb786-5842-11ee-a013-4e7b8ce151d1">a</c><supplied reason="lost"><c xml:id="a5ffb8d0-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5ffb8a8-5842-11ee-a013-4e7b8ce151d1">i</c></supplied><c xml:id="a5ffb8e4-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="8"><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

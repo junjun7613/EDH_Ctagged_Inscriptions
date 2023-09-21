@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023011</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023011</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>(5)</height><width>13</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0030" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1943"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">Legionslager, bei, {Schutth&#252;gel}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/402">letter</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023011_1" sex="M"><persName><name type="nomen">Primigenius</name><name type="cognomen">Camerius</name></persName></person><person xml:id="HD023011_2" sex="M"><persName><name type="nomen">Primigenius</name><name type="cognomen">Oclatius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-26" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Untere H&#228;lfte der Aussentafel eines Briefes. Material: Weisstanne. Text 1 befindet sich auf der Aussenseite, Text 2 auf der Innenseite. Schreibtechnik: geritzt. Reste von Wachs auf der Innenseite. (B): AE 1946; Laur-Belart: Text 2 nicht gelesen; Text 1, Z. 2: |(centuria) Primigenii Imber g; CEL 016: Text 1, Z. 1: Oclati[o]; Z. 2: Camer[io]; Text 2: Z. 2: vales [...].. ego valeo; Z. 3: rogo ut ...t... eos [...].......br... / qui&#160;[---] / [------] / [---] verbo / [---] utpresi; CEL 016 add. p. 61-61: Text 2, Z. 3ff.: opto deos .[---].g..... / quos nos / [------] / [---]q verba; Speidel; Text 1; Z. 2/3: Camer/io.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1946, 0274. (B)</bibl><bibl>AE 1946, p. 65-66 s. n. 236.</bibl><bibl>CEL 016. (B)</bibl><bibl>CEL 016 add. p. 61-62. (B)</bibl><bibl>R. Laur-Belart, Pro Vindonissa 1943-44, 36-37, Nr. 8; Abb. 25-28 (Foto 25. 27 u. Zeichnung 26. 28). (B) - AE 1946.</bibl><bibl>M.A. Speidel, Die r&#246;mischen Schreibtafeln von Vindonissa (Brugg 1996) 204-205, Nr. 52; Foto u. Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />Pr<surplus>r</surplus>imigenio Oclati <lb n="2" />a Primigenio Camer<lb break="no" n="3" /><supplied reason="lost">io</supplied> </div><div n="2" type="textpart"><lb n="1" /> Primigenius Camerius Primigenio Oclati fratri suo <lb n="2" />salutem frater si vales b<supplied reason="lost">ene e</supplied>st verso ego valeo <lb n="3" />rogo et opto deos u<supplied reason="lost">t<certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied>EG<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied>S<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied>CODA<gap reason="lost" extent="unknown" unit="character" /> <lb n="4" />quas nos <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="5" /><gap reason="lost" extent="unknown" unit="character" /> verba <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="6" /><gap reason="lost" extent="unknown" unit="character" />QVATRES<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

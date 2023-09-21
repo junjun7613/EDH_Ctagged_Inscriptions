@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Leoben (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006547</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006547</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Peter Freienstein, S. Maria Freienstein, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>76</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772649">Leoben</placeName><placeName type="findspot">{S. Peter Freienstein}</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006547_1" sex="M"><persName><name type="cognomen">Privatus</name></persName></person><person xml:id="HD006547_2" sex="M"><persName><name type="cognomen">Turturus</name></persName></person><person xml:id="HD006547_3" sex="W"><persName><name type="cognomen">Secundina*</name></persName></person><person xml:id="HD006547_4" sex="M"><persName><name type="cognomen">Fannio</name></persName></person><person xml:id="HD006547_5" sex="M"><persName><name type="cognomen">Pl[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-01" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 2 u. 4 steht die Filiation (filio) bzw. (filiae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0542. (B)</bibl><bibl>E. Weber, R&#338; 11/12, 1983/84, 342-345, Nr. 8; Taf. 22, 8. - AE 1986. (B)</bibl><bibl>E. Weber - R. Selinger, R&#338; 19/20, 1991/92, 229, Nr. 321.</bibl><bibl>ILLPRON 1188.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="e24a6c06-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="e24a6bf2-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="e24a6bde-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e24a6bca-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a6bb6-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="e24a6ba2-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e24a6b8e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="e24a6b70-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="e24a6ae4-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="e24a6cd8-583b-11ee-a136-4e7b8ce151d1">T</c><c xml:id="e24a6cc4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a6cb0-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e24a6c9c-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="e24a6c88-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a6c74-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e24a6c6a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a6c4c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e24a6c38-583b-11ee-a136-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="e24a6d46-583b-11ee-a136-4e7b8ce151d1">t</c></supplied><c xml:id="e24a6d5a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="e24a6e0e-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="e24a6dfa-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e24a6de6-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="e24a6dd2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a6dbe-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e24a6daa-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="e24a6d96-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a6d82-583b-11ee-a136-4e7b8ce151d1">n</c><expan><ex><c xml:id="e24a6e68-583b-11ee-a136-4e7b8ce151d1">a</c></ex><abbr><c xml:id="e24a6ea4-583b-11ee-a136-4e7b8ce151d1">e</c></abbr></expan><c xml:id="e24a6eb8-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="e24a6fd0-583b-11ee-a136-4e7b8ce151d1">F</c><c xml:id="e24a6fbc-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e24a6fa8-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e24a6f8a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e24a6f76-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a6f62-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="e24a6f44-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e24a6f30-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a6f1c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="e24a6efe-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e24a6eea-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="e24a6ed6-583b-11ee-a136-4e7b8ce151d1">l</c></line><line break="no" n="5"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e24a7034-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a7020-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="e24a700c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e24a707a-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="e24a7160-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a7138-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="e24a7106-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a70de-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a70ac-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="e24a7174-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e24a71d8-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="e24a71b0-583b-11ee-a136-4e7b8ce151d1">i</c></abbr><ex><c xml:id="e24a7264-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="e24a723c-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a720a-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="e24a7354-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e24a7336-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="e24a7318-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a7304-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="e24a72e6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a72be-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e24a72aa-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e24a728c-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="e24a7278-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e24a73fe-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="e24a73cc-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e24a73a4-583b-11ee-a136-4e7b8ce151d1">r</c></abbr><ex><c xml:id="e24a7818-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e24a77f0-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e24a77be-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="e24a778c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e24a775a-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="e24a7714-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e24a75c0-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

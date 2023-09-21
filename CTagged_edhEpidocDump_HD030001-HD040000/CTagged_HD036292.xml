@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Bad S. Leonhard/Lavanttal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036292</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036292</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad S. Leonhard/Lavanttal, Wiesenau, Schloss Wiesenau</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(25)</height><width>(45)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1956"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761303">Bad S. Leonhard/Lavanttal</placeName><placeName type="findspot">Wiesenau, {Galgenbichl}</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036292_1" sex="M"><persName><name type="cognomen">Dubitatus+</name></persName></person><person xml:id="HD036292_2" sex="W"><persName><name type="cognomen">Suadra+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-20" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 2: Egger: v. [f.]; Gerstl: v(ivus) f(ecit) [---]. Auf dem oberen Rand die Buchstaben LIA erhalten; nach Gerstl: [fi]lia[e].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Alf&#246;ldy, in: EpStud 8 (D&#252;sseldorf 1969) 16, Nr. 23.</bibl><bibl>R. Egger, Carinthia I 149, 1959, 776. (B)</bibl><bibl>ILLPRON 0709.</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III f&#252;r K&#228;rnten und Osttirol 1902-1961 (Diss. Wien 1961) 66, Nr. 147. (B)</bibl><bibl>P.S. Leber, Die in K&#228;rnten seit 1902 gefundenen r&#246;mischen Steininschriften (Klagenfurt 1972) 148, Nr. 279.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost" cert="low">Fi</supplied>lia<supplied reason="lost" cert="low">e</supplied> </div><div n="2" type="textpart"><lb n="1" /> Dubitat<supplied reason="lost">us</supplied> <lb n="2" />Sua<supplied reason="lost">drae</supplied> <lb n="3" />con<supplied reason="lost">iugi</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

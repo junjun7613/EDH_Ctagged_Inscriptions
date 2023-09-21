@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Diluntum &amp;ndash; Stolac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052721</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052721</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(63)</height><width>(21)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197247">Diluntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3189823">Stolac</placeName><placeName type="findspot" /><placeName type="region">Hercegova&#269;ko-neretvanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-01" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Imamovi&#263;: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13874.</bibl><bibl>E. Imamovi&#263;, Anti&#269;ki kultni i votivni spomenici na podru&#269;ju Bosne i Hercegovine (Sarajevo 1977) 472, Nr. 268. (B)</bibl><bibl>F. Fiala - C. Patsch, WMBH 3, 1895, 279; Fig. 104 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="e2cde85a-5841-11ee-a9c6-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="e2cde896-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="e2cde8f0-5841-11ee-a9c6-4e7b8ce151d1">A</c></abbr><ex cert="low" /><c xml:id="e2cde90e-5841-11ee-a9c6-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><expan><abbr><c xml:id="e2cde954-5841-11ee-a9c6-4e7b8ce151d1">R</c></abbr><ex cert="low" /><c xml:id="e2cde968-5841-11ee-a9c6-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="e2cde97c-5841-11ee-a9c6-4e7b8ce151d1">K</c><supplied reason="lost" cert="low"><c xml:id="e2cde9b8-5841-11ee-a9c6-4e7b8ce151d1">-</c></supplied><c xml:id="e2cde9cc-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="e2cdea08-5841-11ee-a9c6-4e7b8ce151d1">N</c></abbr><ex cert="low" /><c xml:id="e2cdea1c-5841-11ee-a9c6-4e7b8ce151d1">C</c></expan><c xml:id="e2cdea76-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="e2cdea62-5841-11ee-a9c6-4e7b8ce151d1">O</c><c xml:id="e2cdea4e-5841-11ee-a9c6-4e7b8ce151d1">B</c><c xml:id="e2cdea3a-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e2cdeb16-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="e2cdeb02-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e2cdeaee-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="e2cdeada-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="e2cdeac6-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="e2cdeaa8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e2cdea94-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e2cdeb66-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="e2cdeb52-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="e2cdeb3e-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e2cdeba2-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="e2cdeb8e-5841-11ee-a9c6-4e7b8ce151d1">[</c><expan><abbr><c xml:id="e2cdec06-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="e2cdebde-5841-11ee-a9c6-4e7b8ce151d1">o</c></abbr><ex><c xml:id="e2cdec38-5841-11ee-a9c6-4e7b8ce151d1">n</c></ex><abbr><c xml:id="e2cdec6a-5841-11ee-a9c6-4e7b8ce151d1">s</c></abbr><ex><c xml:id="e2cded6e-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e2cded46-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="e2cded14-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e2cdecec-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="e2cdecc4-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e2cdec92-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="e2cded96-5841-11ee-a9c6-4e7b8ce151d1">]</c><c xml:id="e2cded82-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e2cdede6-5841-11ee-a9c6-4e7b8ce151d1">[</c><c xml:id="e2cdedd2-5841-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="e2cdedbe-5841-11ee-a9c6-4e7b8ce151d1">N</c></supplied><c xml:id="e2cdee18-5841-11ee-a9c6-4e7b8ce151d1">]</c><c xml:id="e2cdee04-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="7"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e2cdee40-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e2cdee7c-5841-11ee-a9c6-4e7b8ce151d1">d</c></abbr><ex cert="low"><c xml:id="e2cdef80-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e2cdef58-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="e2cdef26-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="e2cdeefe-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e2cdeed6-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="e2cdeeae-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="e2cdef94-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e2cdefd0-5841-11ee-a9c6-4e7b8ce151d1">d</c></abbr><ex cert="low"><c xml:id="e2cdf16a-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="e2cdf138-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="e2cdf110-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e2cdf0d4-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="e2cdf0ac-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="e2cdf07a-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="e2cdf052-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="e2cdf02a-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="e2cdeff8-5841-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augustiana &amp;ndash; Traismauer (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021817</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021817</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Traismauer, Heimatmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(53)</height><width>71</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118581">Augustiana</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1925"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763459">Traismauer</placeName><placeName type="findspot">{Traismauer} - {Stollhofen}, zwischen</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021817_1" sex="M"><persName><name type="cognomen">Troucleimarus</name></persName></person><person xml:id="HD021817_2" sex="M"><persName><name type="cognomen">Demarus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037461" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/641b405e-1ef6-4073-b896-6cfc61d616ac/file/id/798328/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Wahrscheinlich f&#252;r ein Grab des 4. Jh. n. Chr. wiederverwendet. Reste eines Stuck&#252;berzugs auf der Oberfl&#228;che. Inschrifttr&#228;ger: m&#246;glicherweise auch Rest einer Stele. Z. 5: nur die oberen Buchstabenenden erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1950, 0116.</bibl><bibl>E. Weber, Supplementum epigraphicum zu CIL III f&#252;r Salzburg, Steiermark, Ober&#246;sterreich und das norische Nieder&#246;sterreich 1902-1964 (Diss. Wien 1964) 217-218, Nr. 196.</bibl><bibl>E. Polaschek - H. Ladenbauer-Orel, J&#338;AI (Beibl.) 37, 1948, 203-204; Abb. 59 (Zeichnung). - AE 1950.</bibl><bibl>ILLPRON 0896.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="9a34e956-2c39-11ee-91fe-4e7b8ce151d0">T</c><c xml:id="9a34e938-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34e91a-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="9a34e8f2-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34e8d4-2c39-11ee-91fe-4e7b8ce151d0">c</c><c xml:id="9a34e8ac-2c39-11ee-91fe-4e7b8ce151d0">l</c><c xml:id="9a34e884-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="9a34e834-2c39-11ee-91fe-4e7b8ce151d0">i</c><lb break="no" n="2" /><c xml:id="9a34ea96-2c39-11ee-91fe-4e7b8ce151d0">m</c><c xml:id="9a34ea78-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34ea50-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34ea32-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34ea0a-2c39-11ee-91fe-4e7b8ce151d0">s</c><c xml:id="9a34e9ec-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="9a34e9ce-2c39-11ee-91fe-4e7b8ce151d0">D</c><c xml:id="9a34e9a6-2c39-11ee-91fe-4e7b8ce151d0">e</c><lb break="no" n="3" /><c xml:id="9a34eb72-2c39-11ee-91fe-4e7b8ce151d0">m</c><c xml:id="9a34eb54-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34eb2c-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34eb04-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="9a34eadc-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34ebf4-2c39-11ee-91fe-4e7b8ce151d0">f</c></abbr><ex><c xml:id="9a34ed7a-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="9a34ed2a-2c39-11ee-91fe-4e7b8ce151d0">l</c><c xml:id="9a34ece4-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="9a34ec9e-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34ec4e-2c39-11ee-91fe-4e7b8ce151d0">s</c></ex></expan><c xml:id="9a34ed98-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34ee42-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="9a34edfc-2c39-11ee-91fe-4e7b8ce151d0">q</c></abbr><ex><c xml:id="9a34ef28-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34eee2-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="9a34ee92-2c39-11ee-91fe-4e7b8ce151d0">s</c></ex></expan><c xml:id="9a34ef46-2c39-11ee-91fe-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="9a34eff0-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34efaa-2c39-11ee-91fe-4e7b8ce151d0">l</c></abbr><ex><c xml:id="9a34f086-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34f040-2c39-11ee-91fe-4e7b8ce151d0">e</c></ex></expan><c xml:id="9a34f0ae-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34f108-2c39-11ee-91fe-4e7b8ce151d0">T</c></abbr><ex><c xml:id="9a34f2c0-2c39-11ee-91fe-4e7b8ce151d0">h</c><c xml:id="9a34f270-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34f22a-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34f1e4-2c39-11ee-91fe-4e7b8ce151d0">c</c><c xml:id="9a34f19e-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34f158-2c39-11ee-91fe-4e7b8ce151d0">m</c></ex></expan><c xml:id="9a34f2de-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34f388-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34f342-2c39-11ee-91fe-4e7b8ce151d0">n</c></abbr><ex><c xml:id="9a34f4fa-2c39-11ee-91fe-4e7b8ce151d0">n</c><c xml:id="9a34f4b4-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="9a34f464-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34f41e-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34f3d8-2c39-11ee-91fe-4e7b8ce151d0">m</c></ex></expan><c xml:id="9a34f612-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="9a34f5ea-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="9a34f5c2-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="9a34f59a-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="9a34f568-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="9a34f54a-2c39-11ee-91fe-4e7b8ce151d0">V</c><c xml:id="9a34f522-2c39-11ee-91fe-4e7b8ce151d0"> </c><lb n="5" /><expan><abbr><c xml:id="9a34f6d0-2c39-11ee-91fe-4e7b8ce151d0">s</c><c xml:id="9a34f68a-2c39-11ee-91fe-4e7b8ce151d0">t</c></abbr><ex><c xml:id="9a34f9a0-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="9a34f95a-2c39-11ee-91fe-4e7b8ce151d0">p</c><c xml:id="9a34f914-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="9a34f8ce-2c39-11ee-91fe-4e7b8ce151d0">n</c><c xml:id="9a34f888-2c39-11ee-91fe-4e7b8ce151d0">d</c><c xml:id="9a34f842-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="9a34f7fc-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="9a34f7b6-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34f766-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="9a34f720-2c39-11ee-91fe-4e7b8ce151d0">m</c></ex></expan><c xml:id="9a34fa9a-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="9a34fa72-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="9a34fa4a-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="9a34fa22-2c39-11ee-91fe-4e7b8ce151d0">V</c><c xml:id="9a34f9f0-2c39-11ee-91fe-4e7b8ce151d0">I</c><c xml:id="9a34f9c8-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34fb12-2c39-11ee-91fe-4e7b8ce151d0">c</c></abbr><ex><c xml:id="9a34fd10-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="9a34fcca-2c39-11ee-91fe-4e7b8ce151d0">l</c><c xml:id="9a34fc84-2c39-11ee-91fe-4e7b8ce151d0">l</c><c xml:id="9a34fc3e-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="9a34fbf8-2c39-11ee-91fe-4e7b8ce151d0">g</c><c xml:id="9a34fbb2-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34fb62-2c39-11ee-91fe-4e7b8ce151d0">e</c></ex></expan><c xml:id="9a34fd38-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34fd9c-2c39-11ee-91fe-4e7b8ce151d0">p</c></abbr><ex><c xml:id="9a34fe3c-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="9a34fdec-2c39-11ee-91fe-4e7b8ce151d0">o</c></ex></expan><c xml:id="9a34fe5a-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="9a34febe-2c39-11ee-91fe-4e7b8ce151d0">p</c></abbr><ex><c xml:id="9a350076-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="9a350030-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="9a34ffea-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="9a34ffa4-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="9a34ff54-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="9a34ff0e-2c39-11ee-91fe-4e7b8ce151d0">e</c></ex></expan><c xml:id="9a350094-2c39-11ee-91fe-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

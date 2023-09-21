@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novi Grad (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033757</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033757</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>118</height><width>85</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3203967">Novi Grad</placeName><placeName type="findspot">Blagaj Japra, {Japra, Fluss, linkes Ufer}</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033757_1" sex="M"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Nonntio</name></persName></person><person xml:id="HD033757_2" sex="M"><persName><name type="nomen">Campanius*</name><name type="cognomen">Marcianus</name></persName></person><person xml:id="HD033757_3" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Marciana+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1479A.</bibl><bibl>D. Sergejevski, GlasSarajevo 51, 1, 1939, 12, Nr. 2; tab. 3.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="d0fbb794-2c39-11ee-a36e-4e7b8ce151d0">D</c></abbr><ex><c xml:id="d0fbb8a2-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbb848-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d0fbb8d4-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d0fbb942-2c39-11ee-a36e-4e7b8ce151d0">M</c></abbr><ex><c xml:id="d0fbbb2c-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbbadc-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d0fbba8c-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbba3c-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d0fbb9ec-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d0fbb99c-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d0fbbb54-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="d0fbbc58-2c39-11ee-a36e-4e7b8ce151d0">U</c><c xml:id="d0fbbc08-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="d0fbbbb8-2c39-11ee-a36e-4e7b8ce151d0">p</c></abbr><ex><c xml:id="d0fbbd02-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbbcb2-2c39-11ee-a36e-4e7b8ce151d0">o</c></ex></expan><c xml:id="d0fbbdac-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d0fbbd8e-2c39-11ee-a36e-4e7b8ce151d0">N</c><c xml:id="d0fbbd66-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d0fbbd48-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d0fbbd20-2c39-11ee-a36e-4e7b8ce151d0">n</c><lb break="no" n="3" /><c xml:id="d0fbbe9c-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d0fbbe74-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbbe56-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d0fbbe2e-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d0fbbe10-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbbdf2-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d0fbbf6e-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbbf1e-2c39-11ee-a36e-4e7b8ce151d0">n</c></abbr><ex><c xml:id="d0fbc108-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d0fbc0b8-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d0fbc068-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d0fbc018-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d0fbbfc8-2c39-11ee-a36e-4e7b8ce151d0">m</c></ex></expan><c xml:id="d0fbc194-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d0fbc176-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="d0fbc14e-2c39-11ee-a36e-4e7b8ce151d0">L</c><c xml:id="d0fbc130-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="d0fbc2fc-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d0fbc2ac-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbc25c-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="d0fbc20c-2c39-11ee-a36e-4e7b8ce151d0">p</c></abbr><ex><c xml:id="d0fbc48c-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbc43c-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d0fbc3f6-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbc3a6-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d0fbc34c-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d0fbc5a4-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d0fbc572-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="d0fbc54a-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbc52c-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d0fbc504-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d0fbc4dc-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbc4b4-2c39-11ee-a36e-4e7b8ce151d0">a</c><lb break="no" n="5" /><c xml:id="d0fbc662-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d0fbc63a-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d0fbc612-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d0fbc5ea-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d0fbc6da-2c39-11ee-a36e-4e7b8ce151d0">v</c></abbr><ex><c xml:id="d0fbc81a-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbc7ca-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="d0fbc77a-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d0fbc72a-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d0fbc842-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d0fbc8a6-2c39-11ee-a36e-4e7b8ce151d0">s</c></abbr><ex><c xml:id="d0fbc996-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbc946-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d0fbc8f6-2c39-11ee-a36e-4e7b8ce151d0">i</c></ex></expan><c xml:id="d0fbca36-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d0fbca0e-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d0fbc9e6-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d0fbc9be-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="6" /><expan><abbr><c xml:id="d0fbcb4e-2c39-11ee-a36e-4e7b8ce151d0">I</c><c xml:id="d0fbcafe-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d0fbcaae-2c39-11ee-a36e-4e7b8ce151d0">l</c></abbr><ex><c xml:id="d0fbcbee-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbcb9e-2c39-11ee-a36e-4e7b8ce151d0">a</c></ex></expan><c xml:id="d0fbcd42-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d0fbcd1a-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="d0fbccf2-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbccc0-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d0fbcc98-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d0fbcc70-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbcc48-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbcc16-2c39-11ee-a36e-4e7b8ce151d0">n</c><supplied reason="lost"><c xml:id="d0fbcdc4-2c39-11ee-a36e-4e7b8ce151d0">a</c></supplied><c xml:id="d0fbcdec-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="7" /><expan><abbr><c xml:id="d0fbcf9a-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="d0fbcf4a-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d0fbcefa-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d0fbceaa-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d0fbce5a-2c39-11ee-a36e-4e7b8ce151d0">n</c></abbr><ex><c xml:id="d0fbd08a-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d0fbd03a-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d0fbcfea-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d0fbd134-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d0fbd10c-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="d0fbd0da-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d0fbd0a8-2c39-11ee-a36e-4e7b8ce151d0">i</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d0fbd17a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="8" /><c xml:id="d0fbd27e-2c39-11ee-a36e-4e7b8ce151d0">I</c><c xml:id="d0fbd242-2c39-11ee-a36e-4e7b8ce151d0">I</c><c xml:id="d0fbd210-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d0fbd1e8-2c39-11ee-a36e-4e7b8ce151d0">E</c><c xml:id="d0fbd1b6-2c39-11ee-a36e-4e7b8ce151d0">T</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d0fbd2c4-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

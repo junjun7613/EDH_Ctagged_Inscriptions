@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Altiaia (Civitas Vangionum) &amp;ndash; Alzey (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021196</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021196</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alzey, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>15</height><width>7</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108736">Altiaia (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1944"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956710">Alzey</placeName><placeName type="findspot">{Eppelsheimer Weg}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021196_1" sex="M"><persName><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD021196_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">P(---)</name><name type="cognomen">D(---)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027116" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/82bc4b0e-4327-441b-bfef-581bcdc40a87/file/id/787873/file_version/name/small" /><graphic xml:id="F027117" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/817fe41d-fbac-46ae-9cb9-98fefb812225/file/id/787874/file_version/name/small" /><graphic xml:id="F035109" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d40bb9a0-5b51-49a6-a92f-93f2d03ffe4b/file/id/795955/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1/2 stehen auf der jetzigen R&#252;ckseite des Altars; urspr&#252;nglich wohl der Anfang der Inschrift, die vermutlich wegen einer Verschreibung auf der gegen&#252;berliegenden Seite neu begonnen wurde. Z. 4: Buchstabe V als U geschrieben. AE 1951, 136; Behrens: Z. 10: l(oco) p(ublice) d(ato). (B): Behrens, MZ 39/40: R&#252;ckseite: ODN.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1951, 0136.</bibl><bibl>AE 1951, p. 42 s. n. 134.</bibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 167, Nr. 119.</bibl><bibl>G. Behrens, MZ 41-43, 1946-1948, 136, Nr. 3; Abb. 5 (Zeichnungen). - AE 1951, 0136.</bibl><bibl>G. Behrens, MZ 39/40, 1944/45, 107. (B) - AE 1951, p. 42 s. n. 134.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost">In <expan><abbr>h</abbr><ex>onorem</ex></expan></supplied> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>D</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>V</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied> </div><div n="2" type="textpart"><lb n="1" /> In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> de<lb break="no" n="2" />o Mercu<lb break="no" n="3" />rio pro <lb n="4" />salute S<lb break="no" n="5" />abini ex <lb n="6" />voto po<lb break="no" n="7" />s<expan><ex>u</ex><abbr>it</abbr></expan> aram <lb n="8" /><expan><abbr>L</abbr><ex>ucius</ex></expan> <abbr>P</abbr> <abbr>D</abbr></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

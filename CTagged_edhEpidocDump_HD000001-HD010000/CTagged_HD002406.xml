@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002406</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002406</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mentana, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>33</height><width>(23)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-1.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot" /><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002406_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Publilius+</name><name type="cognomen">Heliodorus+?</name></persName></person><person xml:id="HD002406_2" sex="M"><persName><name type="nomen">Publilius</name><name type="cognomen">Primitivus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-09-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023264" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1c97c4a7-2e0b-4134-b57b-d93c923a0d6c/file/id/783923/file_version/name/small" /><graphic xml:id="F023658" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fdc0f9b6-bc8d-4d9a-9f3f-c4e2ab7b938f/file/id/784318/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Cognomen der 1. Person: He[lio]dorus, He[rmo]dorus, der 2. Person: Primi[tivus]; wohl weniger wahrscheinlich: Primus, Primi[genius].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0144.</bibl><bibl>G. Pisani Sartorio, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 238-239, Nr. 155; tav. 118. - AE 1985.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a6db1760-583b-11ee-a136-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="a6db1828-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="a6db18be-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db188c-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="a6db18dc-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a6db1922-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="a6db1a44-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a6db1a12-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a6db19e0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db19b8-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a6db1986-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a6db1954-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a6db1a58-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" quantity="1" unit="character" /><supplied reason="lost"><c xml:id="a6db1ac6-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="a6db1a94-583b-11ee-a136-4e7b8ce151d1">u</c></supplied><c xml:id="a6db1b8e-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a6db1b7a-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a6db1b66-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1b52-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a6db1b3e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1b2a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a6db1b16-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a6db1b02-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db1aee-583b-11ee-a136-4e7b8ce151d1">H</c><c xml:id="a6db1ada-583b-11ee-a136-4e7b8ce151d1">e</c><supplied reason="lost" cert="low"><c xml:id="a6db1bde-583b-11ee-a136-4e7b8ce151d1">l</c></supplied></line><line break="no" n="3"><supplied reason="lost" cert="low"><c xml:id="a6db1c42-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1c1a-583b-11ee-a136-4e7b8ce151d1">o</c></supplied><c xml:id="a6db1d1e-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="a6db1d0a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a6db1cf6-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a6db1cd8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a6db1cc4-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a6db1cb0-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db1c9c-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a6db1c88-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a6db1c6a-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a6db1c56-583b-11ee-a136-4e7b8ce151d1">a</c></line><line break="no" n="4"><supplied reason="lost"><c xml:id="a6db1ddc-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a6db1db4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1d82-583b-11ee-a136-4e7b8ce151d1">u</c></supplied><c xml:id="a6db1f4e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a6db1f30-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db1f1c-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="a6db1f08-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a6db1eea-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a6db1ed6-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a6db1ec2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1ea4-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a6db1e90-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1e7c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db1e5e-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="a6db1e4a-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a6db1e22-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1e0e-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="a6db1dfa-583b-11ee-a136-4e7b8ce151d1">i</c></line><line break="no" n="5"><supplied reason="lost" cert="low"><c xml:id="a6db2034-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a6db2002-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db1fda-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="a6db1fa8-583b-11ee-a136-4e7b8ce151d1">i</c></supplied><c xml:id="a6db21b0-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db2192-583b-11ee-a136-4e7b8ce151d1">h</c><c xml:id="a6db2174-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db2160-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a6db2142-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db212e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a6db2110-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db20fc-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a6db20de-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a6db20ca-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a6db20ac-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db2098-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a6db207a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a6db2066-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a6db2048-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost" cert="low"><c xml:id="a6db2296-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a6db2264-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="a6db223c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a6db220a-583b-11ee-a136-4e7b8ce151d1">c</c></supplied><c xml:id="a6db2390-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a6db2372-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db2354-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a6db2336-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a6db2318-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a6db2304-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a6db22dc-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a6db22c8-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="a6db22aa-583b-11ee-a136-4e7b8ce151d1">e</c></line><line break="no" n="7"><supplied reason="lost"><c xml:id="a6db2444-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a6db2412-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a6db23ea-583b-11ee-a136-4e7b8ce151d1">n</c></supplied><c xml:id="a6db2476-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a6db2458-583b-11ee-a136-4e7b8ce151d1">i</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032450</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032450</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(32)</height><width>(40)</width><depth>(4)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">porta Pia, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032450_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032450_2"><persName><name type="praenomen">C.</name><name type="nomen">Appius Octavius Suetrius</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD032450_3"><persName><name type="praenomen">A.</name><name type="nomen">[---]</name><name type="cognomen">Caecina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011143" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e238a0b3-13f0-4241-aa75-0a27d952bd54/file/id/770666/file_version/name/small" /><graphic xml:id="F011245" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/22ca093c-30df-4da9-a0a9-efec7a73784d/file/id/770768/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Tafel ist beidseitig beschrieben; Ma&#223;e beziehen sich auf die fr&#252;here Inschrift A; Inschrift B: Buchstabenh&#246;he: 7,5 cm; Datierung: 4. Jh. n. Chr. Z. 6 (Anfang): statt C auch G, O, Q oder B, P, R m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41236; fig. &#945; u. &#946;.</bibl><bibl>CIL 06, 37061.</bibl><bibl>PIR (2. Aufl.) A 952.</bibl><bibl>PIR (2. Aufl.) C 107.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><expan><abbr>c</abbr><ex>larissimae</ex></expan> <supplied reason="lost" cert="low">f(eminae)</supplied> <lb n="2" />nepti <expan><abbr>C</abbr><ex>ai</ex></expan> Appi <supplied reason="lost">Octavi Suetri</supplied> <lb n="3" />Sabini <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> bi<supplied reason="lost">s <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> ordinarii</supplied> <lb n="4" />filiae <expan><abbr>A</abbr><ex>uli</ex></expan> Cae<supplied reason="lost">cinae</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="5" /><expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> <del rend="erasure">p<supplied reason="lost">rae</supplied><expan><abbr>f</abbr><ex>ecti</ex></expan> [urbi</del> ---<certainty match="preceding-sibling::node()" locus="value" />] <lb n="6" /><expan><abbr>C</abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>I</abbr><ex cert="low" />RE</expan><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" />XV<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

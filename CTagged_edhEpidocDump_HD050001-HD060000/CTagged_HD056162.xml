@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056162</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056162</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>111</height><width>39</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1801"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2944180">Mainz</placeName><placeName type="findspot">Zahlbach, {Zahlbacher Steige}, Nekropole</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056162_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Pompeius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-17" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015288" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1cfb7a3e-b2b1-430a-905b-091dfd656f5e/file/id/774865/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Z. 1 (Ende): Buchstabe S steht auf dem Rahmen. Z. 5 (Ende): Buchstabe P steht teilweise auf dem Rahmen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06944.</bibl><bibl>W. Selzer, R&#246;mische Steindenkm&#228;ler. Mainz in r&#246;mischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 134, Nr. 42; Foto.</bibl><bibl>W. Boppert, Milit&#228;rische Grabdenkm&#228;ler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 181-182, Nr. 66; Tafel 59, 66.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="104503fe-5842-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="10450476-5842-11ee-a9c6-4e7b8ce151d1">T</c></abbr><ex><c xml:id="10450548-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10450516-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="104504ee-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="104504bc-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="10450610-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="104505fc-5842-11ee-a9c6-4e7b8ce151d1">P</c><c xml:id="104505e8-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="104505de-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="104505ca-5842-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="104505b6-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="104505a2-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="1045058e-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="1045057a-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="1045055c-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="10450660-5842-11ee-a9c6-4e7b8ce151d1">T</c></abbr><ex><c xml:id="104506ec-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="104506c4-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="10450692-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="10450700-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1045073c-5842-11ee-a9c6-4e7b8ce151d1">f</c></abbr><ex><c xml:id="10450818-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="104507e6-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="104507be-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10450796-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="10450764-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="1045082c-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="104508b8-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="10450890-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="10450868-5842-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="10450994-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="1045096c-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="1045093a-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="10450912-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="104508ea-5842-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="104509d0-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="104509bc-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="104509a8-5842-11ee-a9c6-4e7b8ce151d1">i</c></line><line break="no" n="3"><expan><abbr><c xml:id="10450a3e-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="10450a16-5842-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex><c xml:id="10450a70-5842-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="10450a84-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="10450b10-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="10450ae8-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10450ac0-5842-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="10450b6a-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="10450b42-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="10450b7e-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="10450c14-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="10450bec-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="10450bba-5842-11ee-a9c6-4e7b8ce151d1">g</c></abbr><ex><c xml:id="10450cf0-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10450cbe-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="10450c96-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="10450c6e-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10450c46-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="10450d5e-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="10450d40-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="10450d2c-5842-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="10450d18-5842-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="10450d04-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="10450dcc-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="10450d9a-5842-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex><c xml:id="10450ea8-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="10450e80-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="10450e4e-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="10450e26-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="10450dfe-5842-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="10450f34-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="10450f16-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="10450f02-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="10450eee-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="10450ed0-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="10450ebc-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="10450ffc-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="10450fd4-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="10450fa2-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10450f7a-5842-11ee-a9c6-4e7b8ce151d1">p</c></abbr><ex><c xml:id="1045115a-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="10451132-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="10451100-5842-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="104510d8-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="104510b0-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="10451088-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="10451056-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="1045102e-5842-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="1045116e-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="104511d2-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="104511be-5842-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="104511a0-5842-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="1045118c-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="10451218-5842-11ee-a9c6-4e7b8ce151d1">h</c></abbr><ex><c xml:id="10451272-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="1045124a-5842-11ee-a9c6-4e7b8ce151d1">c</c></ex></expan><c xml:id="10451286-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="104512c2-5842-11ee-a9c6-4e7b8ce151d1">s</c></abbr><ex><c xml:id="1045136c-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10451344-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="1045131c-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="104512ea-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="10451380-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="104513bc-5842-11ee-a9c6-4e7b8ce151d1">e</c></abbr><ex><c xml:id="10451416-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="104513e4-5842-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="10451420-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="7"><expan><ex><c xml:id="10451466-5842-11ee-a9c6-4e7b8ce151d1">h</c></ex><abbr><c xml:id="1045151a-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="104514e8-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="104514c0-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="10451498-5842-11ee-a9c6-4e7b8ce151d1">s</c></abbr></expan><c xml:id="1045157e-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="10451560-5842-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="1045154c-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="1045152e-5842-11ee-a9c6-4e7b8ce151d1">s</c></line><line break="no" n="8"><expan><ex><c xml:id="104515c4-5842-11ee-a9c6-4e7b8ce151d1">u</c></ex><abbr><c xml:id="1045161e-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="104515f6-5842-11ee-a9c6-4e7b8ce151d1">t</c></abbr></expan><c xml:id="104516be-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="104516a0-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="1045168c-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="1045166e-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="10451650-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="10451632-5842-11ee-a9c6-4e7b8ce151d1">c</c></line><line break="no" n="9"><c xml:id="10451722-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1045170e-5842-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="104516f0-5842-11ee-a9c6-4e7b8ce151d1">s</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032483</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032483</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Sebastiano, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(25)</height><width>(25)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Sebastiano, Basilika, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032483_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]r(---)</name><name type="cognomen">Titianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-20" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010949" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eef5a99a-4de4-4609-8f0e-6f3005fd3985/file/id/770469/file_version/name/small" /><graphic xml:id="F040241" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/29453ef4-7035-406f-be28-674628666fad/file/id/801123/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Es sind 2 nicht aneinanderpassende Fragmente erhalten; Ma&#223;e beziehen sich auf Fragment a (aus 4 Teilen zusammgesetzt); Ma&#223;e Fragment b: (9) x (8,5) x 2 cm. Z. 8: statt B auch R m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41248; Foto.</bibl><bibl>CIL 06, 32074.</bibl><bibl>ICUR n. s. 13374.</bibl><bibl>ICUR n. s. 13647.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /> scientiae viro <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><abbr>r</abbr> Titiano <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />ibus hono<lb break="no" n="4" /><supplied reason="lost">ribus</supplied><gap reason="lost" extent="unknown" unit="character" /> mori priu<supplied reason="lost">s</supplied> <lb n="5" /><gap reason="lost" extent="unknown" unit="character" />MP<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />SIT <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />MPO <lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>SCIB</abbr><ex cert="low" /></expan> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

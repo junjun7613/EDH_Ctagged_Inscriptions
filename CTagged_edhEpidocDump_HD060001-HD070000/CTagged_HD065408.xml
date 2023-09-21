@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Roma? &amp;ndash; Roma? (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065408</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065408</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Brit. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(22)</height><width>(25)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 37 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot" /><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065408_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.+</name><name type="nomen">Caesar+</name><name type="cognomen">Augustus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014206" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d66ec961-48d4-47fd-9d24-087728334813/file/id/773738/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Herkunft der Inschrift aus Rom unsicher.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40345; Foto.</bibl><bibl>CIL 06, 01230 add. p. 3778.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Caesari</supplied> <lb n="2" /><supplied reason="lost">Aug</supplied>us<supplied reason="lost">to</supplied> <lb n="3" /><supplied reason="lost">divi Augusti <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> Divi Iuli n<supplied reason="lost">epoti</supplied> </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost" cert="low">&#7969; &#7952;&#955;&#949;&#965;&#952;&#8051;&#961;&#945;</supplied> &#960;&#8057;&#955;&#953;&#962; &#964;<supplied reason="lost">&#8182;&#957;</supplied> <lb n="2" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> &#964;</supplied>&#8182;&#957; &#949;&#8016;&#949;&#961;&#947;&#949;&#963;&#953;&#8182;<supplied reason="lost">&#957;</supplied> <lb n="3" /><supplied reason="lost">&#960;&#959;&#955;&#955;&#8182;&#957;<certainty locus="name" match="preceding-sibling::text()" cert="low" /> &#7957;&#957;&#949;&#954;&#949;&#957; &#964;</supplied>&#8182;&#957; &#949;&#7984;&#962; &#945;&#8017;&#964;<supplied reason="lost">&#8053;&#957;</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001581</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001581</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Chamb&#233;ry</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>120</height><width>(113)</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" /><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001581_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Decidius*</name><name type="cognomen">[---]u[---]</name></persName></person><person xml:id="HD001581_2" sex="M"><persName><name type="cognomen">Priscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-25" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Herkunft unbekannt. 2 IF, das linke ist beschrieben. (B): Z. 4 fehlt. Material: grauer Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0633. (B)</bibl><bibl>J. Prieur, in: Catalogue des collections du Mus&#233;e de Chamb&#233;ry.</bibl><bibl>Epoque romaine (Chamb&#233;ry 1984) 33, Nr. 8; Foto. - AE.</bibl><bibl>AE 1994, 1168.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c78f39aa-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="c78f3af4-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="c78f3ac2-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f3a7c-583b-11ee-a136-4e7b8ce151d1">x</c></abbr><ex><c xml:id="c78f3b94-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c78f3b62-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c78f3b30-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="c78f3ba8-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c78f3c84-583b-11ee-a136-4e7b8ce151d1">D</c><c xml:id="c78f3c5c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f3c34-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="c78f3c02-583b-11ee-a136-4e7b8ce151d1">i</c></abbr><ex><c xml:id="c78f3d38-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="c78f3d10-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f3ce8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c78f3cb6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="c78f3d4c-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="c78f3dce-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="c78f3dc4-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="c78f3db0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f3d9c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c78f3d88-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="c78f3d74-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f3d60-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c78f3e6e-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c78f3e3c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f3e14-583b-11ee-a136-4e7b8ce151d1">b</c></abbr><ex><c xml:id="c78f3f36-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f3f0e-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="c78f3ee6-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c78f3ebe-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c78f3e96-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="c78f3f4a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c78f3f68-583b-11ee-a136-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c78f3f7c-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="c78f404e-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="c78f403a-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="c78f4026-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="c78f4012-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="c78f3ffe-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="c78f3fea-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="c78f3fd6-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="c78f3fc2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f3fae-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="c78f3f9a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c78f40ee-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="c78f40bc-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c78f4094-583b-11ee-a136-4e7b8ce151d1">g</c></abbr><ex><c xml:id="c78f4210-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c78f41e8-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c78f41c0-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c78f418e-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c78f4166-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c78f413e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f4116-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="c78f421a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="c78f42f6-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f42e2-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="c78f42ce-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="c78f42ba-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c78f42a6-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f4292-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c78f427e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c78f4260-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c78f424c-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="c78f4238-583b-11ee-a136-4e7b8ce151d1">e</c></line><line break="no" n="6"><expan><abbr><c xml:id="c78f4378-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="c78f4350-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="c78f43aa-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="c78f43be-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c78f4440-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="c78f4418-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="c78f43f0-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex cert="low"><c xml:id="c78f4512-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="c78f44ea-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f44b8-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="c78f4490-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="c78f4472-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="c78f4526-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c78f45bc-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="c78f4594-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="c78f4562-583b-11ee-a136-4e7b8ce151d1">g</c></abbr><ex><c xml:id="c78f465c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="c78f4634-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="c78f460c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="c78f45e4-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

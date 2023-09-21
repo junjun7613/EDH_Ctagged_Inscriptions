@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055272</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055272</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vence, S. Anne, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">urn?</objectType><dimensions unit="cm"><height>37</height><width>58</width><depth>49</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot">{Malbosquet}</placeName><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055272_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Demanius+</name><name type="cognomen">Ligur+</name></persName></person><person xml:id="HD055272_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Demanius+</name><name type="cognomen">Marcellianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1991; Vismara 1991: Z. 2-3: C(aius) Be+u+/ius; Z. 3-4: Marcell/ianus. Puncta triangularia. Eingemei&#223;elt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1170. (B)</bibl><bibl>AE 1994, 1138.</bibl><bibl>C. Vismara, Gallia 48, 1991, 270-271, Nr. 3; Foto. - AE 1991 (B)</bibl><bibl>C. Vismara, RSL 59-60, 1993-1994, 267-284, Nr. 15; Foto. - AE 1994 S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 197-198, Nr. 87; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="f3323ce6-5841-11ee-a9c6-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="f3323d2c-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="1"><supplied reason="lost"><expan><abbr><c xml:id="f3323d7c-5841-11ee-a9c6-4e7b8ce151d1">C</c></abbr><ex><c xml:id="f3323e1c-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f3323dea-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f3323db8-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="f3323eda-5841-11ee-a9c6-4e7b8ce151d1">?</c><c xml:id="f3323ec6-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f3323eb2-5841-11ee-a9c6-4e7b8ce151d1">D</c><c xml:id="f3323e9e-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f3323e8a-5841-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="f3323e76-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f3323e62-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f3323e4e-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f3323e3a-5841-11ee-a9c6-4e7b8ce151d1">o</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /><c xml:id="f3323f34-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f3323f20-5841-11ee-a9c6-4e7b8ce151d1">L</c><c xml:id="f3323f0c-5841-11ee-a9c6-4e7b8ce151d1">i</c></supplied></line><line break="no" n="2"><c xml:id="f3323fa2-5841-11ee-a9c6-4e7b8ce151d1">g</c><c xml:id="f3323f8e-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f3323f7a-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f3323f66-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f3323f52-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f3323ff2-5841-11ee-a9c6-4e7b8ce151d1">C</c></abbr><ex><c xml:id="f33240b0-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f332407e-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f3324056-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f3324024-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="f3324100-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f33240ec-5841-11ee-a9c6-4e7b8ce151d1">D</c><c xml:id="f33240d8-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f33240c4-5841-11ee-a9c6-4e7b8ce151d1">m</c><supplied reason="lost"><c xml:id="f332416e-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f3324146-5841-11ee-a9c6-4e7b8ce151d1">n</c></supplied></line><line break="no" n="3"><expan><abbr><c xml:id="f3324204-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f33241d2-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f33241aa-5841-11ee-a9c6-4e7b8ce151d1">s</c></abbr><ex cert="low" /></expan><c xml:id="f332438a-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f3324376-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="f3324362-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f332434e-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f332433a-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="f332431c-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f3324308-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="f33242f4-5841-11ee-a9c6-4e7b8ce151d1">&amp;</c><c xml:id="f33242e0-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="f33242cc-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f33242b8-5841-11ee-a9c6-4e7b8ce151d1">;</c><c xml:id="f33242a4-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="f3324290-5841-11ee-a9c6-4e7b8ce151d1">=</c><c xml:id="f332427c-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f3324268-5841-11ee-a9c6-4e7b8ce151d1">&amp;</c><c xml:id="f332424a-5841-11ee-a9c6-4e7b8ce151d1">g</c><c xml:id="f3324236-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f3324222-5841-11ee-a9c6-4e7b8ce151d1">;</c></line><line break="no" n="4"><c xml:id="f33244de-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f33244ca-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f33244ac-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f3324498-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f332447a-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="f3324466-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f3324448-5841-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="f3324434-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f3324420-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f3324402-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f33243ee-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f33243d0-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f3324538-5841-11ee-a9c6-4e7b8ce151d1">b</c></abbr><ex><c xml:id="f33245c4-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f3324592-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f332456a-5841-11ee-a9c6-4e7b8ce151d1">e</c></ex></expan><c xml:id="f33245d8-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f3324614-5841-11ee-a9c6-4e7b8ce151d1">m</c></abbr><ex><c xml:id="f3324722-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f33246fa-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f33246c8-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f33246a0-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f332466e-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f3324646-5841-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="f3324736-5841-11ee-a9c6-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

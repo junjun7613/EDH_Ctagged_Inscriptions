@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Caleruela (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004388</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004388</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520526">Caleruela</placeName><placeName type="findspot">Pfarrkriche, bei der</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004388_1" sex="M"><persName><name type="cognomen">Bassus</name></persName></person><person xml:id="HD004388_2"><persName><name type="cognomen">Turobeius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-05-21" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Cort&#233;s Hern&#225;ndez u. a.: Z. 2: Iurobei; Gonz&#225;lez-Conde Puente: Z. 2: Turobri(gensis). - Abweichungen auch in der Lesung der Schlu&#223;formel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0823. (B)</bibl><bibl>M.P. Gonz&#225;lez-Conde Puente, Studia Historica 6, 1988, 131-132. (B) - AE 1988.</bibl><bibl>G. Alf&#246;ldy, in: G. Alf&#246;ldy, R&#246;mische Heeresgeschichte (Amsterdam 1987) 517-519, Nr. 2; Abb. 2. - AE 1988.</bibl><bibl>AE 1986, 0426.</bibl><bibl>S. Cort&#233;s Hern&#225;ndez u. a., Museos 3, o. J., 74-75, Nr. 3; l&#225;m. 3. (B) - AE 1986.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="6cc00f60-5794-11ee-89a0-4e7b8ce151d0">
+</c><c xml:id="6cc00f56-5794-11ee-89a0-4e7b8ce151d0">B</c><c xml:id="6cc00f42-5794-11ee-89a0-4e7b8ce151d0">a</c><c xml:id="6cc00f2e-5794-11ee-89a0-4e7b8ce151d0">s</c><c xml:id="6cc00f1a-5794-11ee-89a0-4e7b8ce151d0">s</c><c xml:id="6cc00f06-5794-11ee-89a0-4e7b8ce151d0">u</c><c xml:id="6cc00ee8-5794-11ee-89a0-4e7b8ce151d0">s</c><c xml:id="6cc00e8e-5794-11ee-89a0-4e7b8ce151d0"> </c></line><line n="2"><c xml:id="6cc01028-5794-11ee-89a0-4e7b8ce151d0">T</c><c xml:id="6cc01014-5794-11ee-89a0-4e7b8ce151d0">u</c><c xml:id="6cc01000-5794-11ee-89a0-4e7b8ce151d0">r</c><c xml:id="6cc00fec-5794-11ee-89a0-4e7b8ce151d0">o</c><c xml:id="6cc00fd8-5794-11ee-89a0-4e7b8ce151d0">b</c><c xml:id="6cc00fc4-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc00fb0-5794-11ee-89a0-4e7b8ce151d0">i</c><c xml:id="6cc00f92-5794-11ee-89a0-4e7b8ce151d0"> </c></line><line n="3"><c xml:id="6cc010dc-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc010c8-5794-11ee-89a0-4e7b8ce151d0">q</c><c xml:id="6cc010b4-5794-11ee-89a0-4e7b8ce151d0">u</c><c xml:id="6cc010a0-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc0108c-5794-11ee-89a0-4e7b8ce151d0">s</c><c xml:id="6cc01078-5794-11ee-89a0-4e7b8ce151d0"> </c><c xml:id="6cc01064-5794-11ee-89a0-4e7b8ce151d0">a</c><c xml:id="6cc01050-5794-11ee-89a0-4e7b8ce151d0">l</c></line><line break="no" n="4"><c xml:id="6cc011a4-5794-11ee-89a0-4e7b8ce151d0">a</c><c xml:id="6cc01190-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc01172-5794-11ee-89a0-4e7b8ce151d0"> </c><c xml:id="6cc0115e-5794-11ee-89a0-4e7b8ce151d0">V</c><c xml:id="6cc0114a-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc01136-5794-11ee-89a0-4e7b8ce151d0">t</c><c xml:id="6cc01122-5794-11ee-89a0-4e7b8ce151d0">t</c><c xml:id="6cc0110e-5794-11ee-89a0-4e7b8ce151d0">o</c></line><line break="no" n="5"><c xml:id="6cc0124e-5794-11ee-89a0-4e7b8ce151d0">n</c><c xml:id="6cc0123a-5794-11ee-89a0-4e7b8ce151d0">u</c><c xml:id="6cc01226-5794-11ee-89a0-4e7b8ce151d0">m</c><c xml:id="6cc01212-5794-11ee-89a0-4e7b8ce151d0"> </c><c xml:id="6cc011fe-5794-11ee-89a0-4e7b8ce151d0">a</c><c xml:id="6cc011ea-5794-11ee-89a0-4e7b8ce151d0">r</c><c xml:id="6cc011cc-5794-11ee-89a0-4e7b8ce151d0">a</c></line><line break="no" n="6"><c xml:id="6cc012da-5794-11ee-89a0-4e7b8ce151d0">m</c><c xml:id="6cc012c6-5794-11ee-89a0-4e7b8ce151d0"> </c><c xml:id="6cc012a8-5794-11ee-89a0-4e7b8ce151d0">p</c><c xml:id="6cc01294-5794-11ee-89a0-4e7b8ce151d0">o</c><c xml:id="6cc01280-5794-11ee-89a0-4e7b8ce151d0">s</c><expan><ex><c xml:id="6cc01334-5794-11ee-89a0-4e7b8ce151d0">u</c></ex><abbr><c xml:id="6cc01398-5794-11ee-89a0-4e7b8ce151d0">i</c><c xml:id="6cc01366-5794-11ee-89a0-4e7b8ce151d0">t</c></abbr></expan><c xml:id="6cc013ac-5794-11ee-89a0-4e7b8ce151d0"> </c></line><line n="7"><c xml:id="6cc01460-5794-11ee-89a0-4e7b8ce151d0">A</c><c xml:id="6cc0144c-5794-11ee-89a0-4e7b8ce151d0">t</c><c xml:id="6cc0142e-5794-11ee-89a0-4e7b8ce151d0">a</c><c xml:id="6cc0141a-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc013fc-5794-11ee-89a0-4e7b8ce151d0">c</c><c xml:id="6cc013e8-5794-11ee-89a0-4e7b8ce151d0">i</c><c xml:id="6cc013ca-5794-11ee-89a0-4e7b8ce151d0">n</c></line><line break="no" n="8"><c xml:id="6cc01528-5794-11ee-89a0-4e7b8ce151d0">a</c><c xml:id="6cc0150a-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc014f6-5794-11ee-89a0-4e7b8ce151d0"> </c><c xml:id="6cc014d8-5794-11ee-89a0-4e7b8ce151d0">v</c><c xml:id="6cc014c4-5794-11ee-89a0-4e7b8ce151d0">o</c><c xml:id="6cc014a6-5794-11ee-89a0-4e7b8ce151d0">t</c><c xml:id="6cc01492-5794-11ee-89a0-4e7b8ce151d0">u</c></line><line break="no" n="9"><c xml:id="6cc015dc-5794-11ee-89a0-4e7b8ce151d0">m</c><c xml:id="6cc015be-5794-11ee-89a0-4e7b8ce151d0"> </c><c xml:id="6cc015aa-5794-11ee-89a0-4e7b8ce151d0">s</c><c xml:id="6cc0158c-5794-11ee-89a0-4e7b8ce151d0">o</c><c xml:id="6cc0156e-5794-11ee-89a0-4e7b8ce151d0">l</c><c xml:id="6cc0155a-5794-11ee-89a0-4e7b8ce151d0">v</c></line><line break="no" n="10"><c xml:id="6cc01640-5794-11ee-89a0-4e7b8ce151d0">i</c><c xml:id="6cc01622-5794-11ee-89a0-4e7b8ce151d0">t</c><c xml:id="6cc01604-5794-11ee-89a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="6cc0167c-5794-11ee-89a0-4e7b8ce151d0">m</c></abbr><ex><c xml:id="6cc0174e-5794-11ee-89a0-4e7b8ce151d0">e</c><c xml:id="6cc01726-5794-11ee-89a0-4e7b8ce151d0">r</c><c xml:id="6cc016fe-5794-11ee-89a0-4e7b8ce151d0">i</c><c xml:id="6cc016d6-5794-11ee-89a0-4e7b8ce151d0">t</c><c xml:id="6cc016ae-5794-11ee-89a0-4e7b8ce151d0">o</c></ex></expan><c xml:id="6cc01762-5794-11ee-89a0-4e7b8ce151d0"> </c></line><line n="0"><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="6cc0178a-5794-11ee-89a0-4e7b8ce151d0">]</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

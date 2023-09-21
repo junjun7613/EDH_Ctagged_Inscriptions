@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032816</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032816</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Agnese, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(38)</height><width>(43)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0443" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">443 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Costanza, Kirche, sekund&#228;r verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032816_1" sex="M"><persName><name type="nomen">Flavius</name><name type="cognomen">Merobaudes</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-11-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011167" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7e8c334d-556e-4731-bd63-36701eb27c33/file/id/770690/file_version/name/small" /><graphic xml:id="F014388" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/556b8e95-92ff-4135-82e2-9659ea496a51/file/id/773922/file_version/name/small" /><graphic xml:id="F011316" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/403b9a1e-5ab2-4046-bb35-42b463b1a6f7/file/id/770839/file_version/name/small" /><graphic xml:id="F014389" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d24cbedd-863c-471f-8a00-aeef74842aa1/file/id/773923/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Erg&#228;nzungsvorschlag nach G. Alf&#246;ldy. Es sind 2 Fragmente erhalten; Ma&#223;e beziehen sich auf Fragment a; Ma&#223;e Fragment b: (39) x (78) x 4 cm; Fundstelle: bei der Kirche S. Agnese. Zeilenlinien f&#252;r die Beschriftung. Z. 4: FIG steht auf eradiertem Text. Z. 5 (Anfang): statt V vielleicht auch T m&#246;glich. Datierung: wohl bald nach 443 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41395; fig. &#945; u. &#946;.</bibl><bibl>CIL 06, 31983.</bibl><bibl>CLE 1756.</bibl><bibl>ILCV 0105.</bibl><bibl>ICUR n. s. 21048.</bibl><bibl>ILS 2950.</bibl><bibl>P. Cugusi, Per un nuovo corpus dei Carmina Latina Epigraphica. Materiale e discussioni, MAL 22 (Roma 2007) 136.</bibl><bibl>PLRE 2 Merobaudes.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />i maxi<supplied reason="lost">m<gap reason="lost" quantity="1" unit="character" /> <gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="2" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> doctrinae car</supplied>mina magnae <lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">disc</supplied>eret acta puer <lb n="4" /><gap reason="lost" extent="unknown" unit="character" />m figeretur <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap> <lb n="5" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>V</abbr><ex cert="low" /></expan> penetraret a<supplied reason="lost">mor</supplied> <lb n="6" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">vi</supplied>vo lacrimosus a<supplied reason="lost">more</supplied> <lb n="7" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">toto</supplied> pectore quest<supplied reason="lost">us erat</supplied> <lb n="8" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>I</abbr><ex cert="low" />a</expan> flenda d<supplied reason="lost">omusque</supplied> <lb n="9" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>V</abbr><ex cert="low" />D</expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> ------<certainty match="preceding-sibling::node()" locus="value" />] <lb n="2" />fecisti patriam quo<supplied reason="lost">circa miseram</supplied> <lb n="3" />i&amp;lt;n&amp;gt;felix nimium sociatus q<supplied reason="lost">uamquam uxori</supplied> <lb n="4" />quam tibi nec fati s<supplied reason="lost">ors superesse dedit</supplied> <lb n="5" />Flavius Merobaudes orator <supplied reason="lost">qui vixit annis <gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="6" />minus duobus mensibus et diebus q<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> in pace</supplied> <lb n="7" />hic requiescit mortuus est V K<expan><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> <gap reason="lost" extent="unknown" unit="character" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

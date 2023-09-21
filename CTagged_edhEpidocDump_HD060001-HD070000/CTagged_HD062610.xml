@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062610</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062610</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1846"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot" /><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062610_1" sex="M"><persName><name type="nomen">Septimius+?</name><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD062610_2" sex="W"><persName><name type="nomen">Septimia+?</name><name type="cognomen">[---]na</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-02-14" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>CIL III: Z. 1-4: Septi[mia]/no Se[ptimi]/na f[ilio] / pie[nt(issimo)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02524.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a5b4785c-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="a5b47848-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="a5b47834-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5b47816-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="a5b477f8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5b477c6-5842-11ee-a013-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="a5b47924-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a5b478f2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b478b6-5842-11ee-a013-4e7b8ce151d1">o</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied></line><line break="no" n="2"><c xml:id="a5b4799c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5b47988-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a5b4796a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5b47956-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="a5b47942-5842-11ee-a013-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="a5b47adc-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="a5b47ab4-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5b47a82-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b47a50-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a5b47a1e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b479ec-5842-11ee-a013-4e7b8ce151d1">a</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied></line><line break="no" n="3"><c xml:id="a5b47b22-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5b47b0e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="a5b47af0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a5b47b68-5842-11ee-a013-4e7b8ce151d1">F</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a5b47b86-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="a5b47bd6-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="a5b47bc2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b47bae-5842-11ee-a013-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="a5b47d66-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5b47d3e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5b47d0c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b47cda-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5b47ca8-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5b47c80-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b47c4e-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a5b47c1c-5842-11ee-a013-4e7b8ce151d1">o</c></supplied><c xml:id="a5b47d7a-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="a5b47dc0-5842-11ee-a013-4e7b8ce151d1">b</c></abbr><ex><c xml:id="a5b47e56-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5b47e24-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5b47df2-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan><c xml:id="a5b47e6a-5842-11ee-a013-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="a5b481d0-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="a5b4819e-5842-11ee-a013-4e7b8ce151d1">(</c><c xml:id="a5b4816c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5b4813a-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="a5b48112-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="a5b480e0-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="a5b480ae-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5b4807c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b48054-5842-11ee-a013-4e7b8ce151d1">)</c><c xml:id="a5b48022-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="a5b47ff0-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="a5b47fc8-5842-11ee-a013-4e7b8ce151d1">(</c><c xml:id="a5b47f96-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="a5b47f64-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="a5b47f32-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="a5b47f0a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="a5b47ed8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="a5b47ea6-5842-11ee-a013-4e7b8ce151d1">)</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

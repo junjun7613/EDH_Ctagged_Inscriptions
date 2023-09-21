@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Perinthus &amp;ndash; Marmara Ere&#287;lisi (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044454</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044454</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>80</height><width>55</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511357">Perinthus</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/741725">Marmara Ere&#287;lisi</placeName><placeName type="findspot" /><placeName type="region">Tekirda&#287;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044454_1" sex="W"><persName><name type="nomen">Iulia / &#7992;&#959;&#965;&#955;&#8055;&#945;</name><name type="cognomen">Archidia Iuliana / &#7944;&#961;&#967;&#953;&#948;&#8055;&#945; &#7992;&#959;&#965;&#955;&#953;&#945;&#957;&#8053;</name></persName></person><person xml:id="HD044454_2" sex="M"><persName><name type="nomen">Ulpius* / &#927;&#8020;&#955;&#960;&#953;&#959;&#962;+</name><name type="cognomen">Valerianus / &#927;&#8016;&#945;&#955;&#949;&#961;&#953;&#945;&#957;&#972;&#962;+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-05-21" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Am Anfang der Z. 5 stehen, wie von G. Seure gesehen, die Buchstaben &#931;&#919;&#931;. Seine Interpetation als [&#950;&#8053;&#963;&#945;]/&#963;&#951;&#962; (sic) ist vielleicht weniger &#252;berzeugend.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 1176. (B)</bibl><bibl>M.H. Sayar, Perinthos-Herakleia (Marmara Ere&#287;lisi) und Umgebung.</bibl><bibl>Geschichte, Testimonien, griechische und lateinische Inschriften (Wien 1998) 286, Nr. 108; Taf. 27, 102. (B) - AE 1998.</bibl><bibl>G. Seure, BCH 36, 1912, 610-611, Nr. 67, fig. 42 (Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />Iulia Archidia Iuliana ux<supplied reason="lost">or Ulpi Valeriani vixit</supplied> <lb n="2" /><expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> XXX&amp;lt;V&amp;gt; <expan><abbr>Ulpi</abbr><ex>us</ex></expan> Valerianus <expan><abbr>eq</abbr><ex>ues</ex></expan> <expan><abbr>R</abbr><ex>omanus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="3" />si quis hunc sarcofagum aperuerit, poen<supplied reason="lost">ae nomine dabit <gap reason="lost" extent="unknown" unit="character" /></supplied> </div><div n="2" type="textpart"><lb n="1" /> &#7992;&#959;&#965;&#955;&#8055;&#945; &#7944;&#961;&#967;&#953;&#948;&#8055;&#945; &#7992;&#959;&#965;&#955;&#953;&#945;&#957;&#8053; &#947;&#965;&#957;&#8052; &#927;&#8016;&#955;<supplied reason="lost">&#960;&#8055;&#959;&#965; &#927;&#8016;&#945;&#955;&#949;&#961;&#953;&#945;&#957;&#959;&#8166;</supplied> &amp;lt;&#950;=&#931;&amp;gt;&#8053;&#963;(&#945;&#963;&#945;) &#7956;&#964;&#949;&#963;&#953; &#955;&#949; &#927;&#8020;&#955;&#960;<supplied reason="lost">&#953;&#959;&#962; &#927;&#8016;&#945;&#955;&#949;&#961;&#953;&#945;&#957;&#8056;&#962; <gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

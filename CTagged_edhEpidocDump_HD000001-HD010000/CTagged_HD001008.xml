@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Urso &amp;ndash; Osuna (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001008</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001008</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Osuna</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>25</height><width>36</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256503">Urso</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2513052">Osuna</placeName><placeName type="findspot" /><placeName type="region">Sevilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001008_1" sex="W"><persName><name type="nomen">Argentaria</name><name type="cognomen">Eucherea*</name></persName></person><person xml:id="HD001008_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Argentarius</name><name type="cognomen">Pamphilus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-13" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038477" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/74aa7fb9-b2c0-499a-b8c7-a4a1d05daf2e/file/id/799349/file_version/name/small" /><graphic xml:id="F038478" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fedcdacc-ae93-45db-b017-6a787c0eca9b/file/id/799350/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Es existieren 5 Ziegel mit identischer Inschrift; die Inschrift entstand dadurch, da&#223; man den heute nicht mehr erhaltenen Grabstein in westgotischer Zeit als Unterlage f&#252;r die Herstellung von Ziegeln wiederverwendete. (B): Gonz&#225;lez Fern&#225;ndez, AE 1982, Dardaine: Z. 1: [A]rgentaria; Gonz&#225;lez Fern&#225;ndez, AE 1982: Z. 2: [E)uc(h)erea; Dardaine, AE 1983: [Euge[ni]a; Gonz&#225;lez Fern&#225;ndez, AE 1982: Z. 3: [L(ucio)] Argentario; Dardaine: Z. 3: [L(ucio)] Arge[n]tario; Gonz&#225;lez Fern&#225;ndez, AE 1982, Dardaine, AE 1983: Z. 4: [P]amp(h)ilo; Gonz&#225;lez Fern&#225;ndez, AE 1982, Dardaine: Z. 5: [s]uo. Serrano Ramos - Atencia Pa&#233;z, AE 1981: Z. 2: Eugeba; Serrano Ramos - Atencia Pa&#233;z: Z. 3: [L.] Arge[n]tario; AE 1981: Z. 3: Arge[n]tario; Serrano Ramos - Atencia Pa&#233;z, AE 1981: Z. 4: Amphio; Z. 5: [s]uo.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0456. (B)</bibl><bibl>S. Dardaine, MCV 19, 1983, 14-15. (B) - AE 1983.</bibl><bibl>AE 1982, 0533. (B)</bibl><bibl>J. Gonz&#225;lez Fern&#225;ndez, Habis 10/11, 1979/80, 208-210, Nr. 4; l&#225;m. 5a. (B) - AE 1982.</bibl><bibl>CIL 02 (2. Aufl.) 05, 01045; Fotos.</bibl><bibl>AE 1981, 0511. (B)</bibl><bibl>E. Serrano Ramos - R. Atencia Pa&#233;z, Inscripciones latinas del Museo de Malaga (Madrid 1981) 54-55, Nr. 57; l&#225;m. 77-78. (B) - AE 1981.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="af6182fc-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="af6182e8-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="af6182d4-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af6182c0-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="af6182ac-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af618298-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="af618284-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="af618270-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="af61825c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af618248-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af61822a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="af61819e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="af61836a-583b-11ee-a136-4e7b8ce151d1">L</c></abbr><ex><c xml:id="af61840a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="af6183e2-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="af6183b0-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="af618428-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="af618464-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="af618586-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af618554-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="af61852c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af6184fa-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af6184c8-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="af618496-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="af61859a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="af6185ea-583b-11ee-a136-4e7b8ce151d1">E</c><c xml:id="af6185d6-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="af6185b8-583b-11ee-a136-4e7b8ce151d1">c</c><expan><ex><c xml:id="af618626-583b-11ee-a136-4e7b8ce151d1">h</c></ex><abbr><c xml:id="af6186e4-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af6186bc-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af61868a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af618662-583b-11ee-a136-4e7b8ce151d1">a</c></abbr></expan><c xml:id="af6187ac-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="af618798-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="af618784-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af618770-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="af618752-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af61873e-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="af61872a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af618716-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="af6186f8-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="af6187fc-583b-11ee-a136-4e7b8ce151d1">L</c></abbr><ex><c xml:id="af6188ba-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="af618888-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="af618860-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af61882e-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="af6189d2-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="af6189b4-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="af6189a0-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af61898c-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="af61896e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af61895a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="af618946-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="af618928-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="af618914-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af618900-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af6188e2-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="af6188ce-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="af618a54-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="af618a40-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="af618a22-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="af618a0e-583b-11ee-a136-4e7b8ce151d1">p</c><expan><ex><c xml:id="af618a9a-583b-11ee-a136-4e7b8ce151d1">h</c></ex><abbr><c xml:id="af618b26-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af618af4-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="af618acc-583b-11ee-a136-4e7b8ce151d1">o</c></abbr></expan><c xml:id="af618bbc-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="af618b9e-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="af618b8a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="af618b6c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af618b58-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="af618b3a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><c xml:id="af618c02-583b-11ee-a136-4e7b8ce151d1">s</c></supplied><c xml:id="af618d6a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="af618d4c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="af618d2e-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="af618d1a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="af618cfc-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="af618cde-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="af618cc0-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="af618ca2-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="af618c8e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="af618c70-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="af618c52-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="af618c3e-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="af618c20-583b-11ee-a136-4e7b8ce151d1">o</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

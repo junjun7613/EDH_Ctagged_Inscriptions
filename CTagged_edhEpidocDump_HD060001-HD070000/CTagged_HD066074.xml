@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Segusio &amp;ndash; Susa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066074</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066074</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Susa, Mus. Civ.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(45)</height><width>(53)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/912936">Segusio</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1938"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3166018">Susa</placeName><placeName type="findspot">{Castello}</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066074_1" sex="W"><persName><name type="nomen">0++</name><name type="cognomen">0++</name></persName></person><person xml:id="HD066074_2" sex="M"><persName><name type="cognomen">Modrimelus++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027475" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/49eae526-bdbd-49cc-9370-411a5848bd01/file/id/788232/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Marmor, wei&#223;. Scalpellatura parziale del testo.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 0813.</bibl><bibl>E. Cimarosti, Testimonianze di et&#224; romana. Guida alla lettura delle epigrafi della Valle di Susa (Susa 2008) 185, Nr. 12. - AE 2008.</bibl><bibl>A. Ferrua, Segusium 8, 1971, 53; fig. 3f.</bibl><bibl>E. Cimarosti, Le iscrizioni di et&#224; romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 357, Nr. 162; Foto Nr. 136.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="ae940906-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="ae9408c0-5842-11ee-a013-4e7b8ce151d1">[</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="ae940942-5842-11ee-a013-4e7b8ce151d1">]</c><c xml:id="ae94092e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="1"><del rend="erasure"><c xml:id="ae940a28-5842-11ee-a013-4e7b8ce151d1">3</c><c xml:id="ae9409f6-5842-11ee-a013-4e7b8ce151d1">]</c><c xml:id="ae9409c4-5842-11ee-a013-4e7b8ce151d1">[</c><c xml:id="ae940992-5842-11ee-a013-4e7b8ce151d1">M</c></del><c xml:id="ae940ad2-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="ae940abe-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="ae940aaa-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="ae940aa0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940a8c-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="ae940a78-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ae940a64-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="ae940a50-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940a3c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae940b22-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ae940bd6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940bae-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="ae940b86-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940b54-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="ae940bea-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="ae940c58-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="ae940c44-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940c3a-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="ae940c1c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="ae940c08-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><del rend="erasure"><expan><abbr><c xml:id="ae940c9e-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex><c xml:id="ae940e24-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ae940dfc-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="ae940dd4-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="ae940da2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="ae940d7a-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="ae940d52-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ae940d2a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="ae940d02-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="ae940cd0-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan></del><c xml:id="ae940e38-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae940e74-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ae940f1e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940ef6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="ae940ece-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="ae940ea6-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="ae940f32-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae940f64-5842-11ee-a013-4e7b8ce151d1">i</c></abbr><ex><c xml:id="ae941036-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="ae94100e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="ae940fe6-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="ae940fbe-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="ae940f96-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

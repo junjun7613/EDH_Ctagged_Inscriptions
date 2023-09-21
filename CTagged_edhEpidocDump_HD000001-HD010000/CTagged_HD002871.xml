@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from La Gudi&#241;a (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002871</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002871</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>60</height><width>50</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">La Gudi&#241;a</placeName><placeName type="findspot">Pentes</placeName><placeName type="region">Orense</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002871_1" sex="M"><persName><name type="cognomen">Niger</name></persName></person><person xml:id="HD002871_2" sex="M"><persName><name type="cognomen">Camalus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-23" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Es ist nicht sicher, ob es sich um ein antikes Monument oder eine Kopie handelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0546.</bibl><bibl>A. Rodr&#237;guez Colmenero - M. Covadonga Carreno, in: Lucerna.</bibl><bibl>Homenaje a D.D. de Pinho Brand&#227;o (Porto 1984) 223, Nr. 4; Foto. - AE. (unzug&#228;nglich).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="de68a4ae-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="de68a49a-583b-11ee-a136-4e7b8ce151d1">N</c><c xml:id="de68a486-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="de68a472-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="de68a45e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="de68a44a-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="de68a418-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="de68a53a-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="de68a526-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="de68a512-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="de68a4fe-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="de68a4ea-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="de68a4d6-583b-11ee-a136-4e7b8ce151d1">i</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

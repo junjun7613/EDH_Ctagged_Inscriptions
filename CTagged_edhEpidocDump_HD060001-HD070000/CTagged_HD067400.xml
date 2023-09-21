@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Wals-Siezenheim (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067400</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067400</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wals-Siezenheim, Siezenheim, Friedhof, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(123)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765077">Wals-Siezenheim</placeName><placeName type="findspot">Siezenheim, {Mari&#228; Geburt, Pfarrkirche}, sekund&#228;r verwendet</placeName><placeName type="region">Salzburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067400_1" sex="M"><persName><name type="nomen">Pacilius*</name><name type="cognomen">Privatus*</name></persName></person><person xml:id="HD067400_2" sex="W"><persName><name type="cognomen">Ursa+</name></persName></person><person xml:id="HD067400_3" sex="M"><persName><name type="cognomen">Ursulus</name></persName></person><person xml:id="HD067400_4" sex="W"><persName><name type="cognomen">Ianuaria*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fundort, Fundjahr, Material und Ma&#223;e nach lupa 9286. Material nach Moosleitner u.a.: Kalkstein (sogenannter Untersberger Marmor). Auf der Vorderseite der crepido eine ascia. Z. 1: [D] und M in den Akroterien der corona.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C.M. Hutter, Iuvavum. Alltag im r&#246;mischen Salzburg (Salzburg 2012) 134; Foto.</bibl><bibl>F. Moosleitner u. a., Auf den Spuren der R&#246;mer. &#220;bersichtskarte (Freilassing 2002) Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="866aeec2-5842-11ee-a013-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="866aef44-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="866aefda-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866aef94-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="866aeff8-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="866af052-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="866af1ba-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="866af17e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="866af142-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866af110-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="866af0ca-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="866af08e-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="866af1d8-5842-11ee-a013-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="866af282-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="866af26e-5842-11ee-a013-4e7b8ce151d1">P</c><c xml:id="866af250-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="866af23c-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="866af21e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866af20a-5842-11ee-a013-4e7b8ce151d1">l</c><expan><ex><c xml:id="866af2dc-5842-11ee-a013-4e7b8ce151d1">i</c></ex><abbr><c xml:id="866af3a4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="866af35e-5842-11ee-a013-4e7b8ce151d1">s</c></abbr></expan><c xml:id="866af3c2-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="866af584-5842-11ee-a013-4e7b8ce151d1">P</c><c xml:id="866af548-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="866af50c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866af4d0-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="866af494-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="866af44e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="866af412-5842-11ee-a013-4e7b8ce151d1">u</c></abbr><ex><c xml:id="866af5c0-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="866af5de-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="866af66a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="866af656-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="866af638-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="866af61a-5842-11ee-a013-4e7b8ce151d1">U</c><c xml:id="866af5fc-5842-11ee-a013-4e7b8ce151d1">r</c><supplied reason="lost"><c xml:id="866af6c4-5842-11ee-a013-4e7b8ce151d1">s</c></supplied><c xml:id="866af746-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="866af732-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="866af714-5842-11ee-a013-4e7b8ce151d1">U</c><c xml:id="866af6f6-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="866af6e2-5842-11ee-a013-4e7b8ce151d1">s</c></line><line break="no" n="4"><c xml:id="866af7d2-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="866af7b4-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="866af796-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866af778-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="866af89a-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="866af85e-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="866af822-5842-11ee-a013-4e7b8ce151d1">n</c></abbr><ex><c xml:id="866af980-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866af94e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="866af912-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="866af8d6-5842-11ee-a013-4e7b8ce151d1">x</c></ex></expan><c xml:id="866af9f8-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="866af9da-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="866af9bc-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="866af99e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="866afac0-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="866afaa2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="866afa84-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="866afa66-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="866afa48-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="866afa2a-5842-11ee-a013-4e7b8ce151d1">r</c><expan><ex><c xml:id="866afb1a-5842-11ee-a013-4e7b8ce151d1">i</c></ex><abbr><c xml:id="866afb60-5842-11ee-a013-4e7b8ce151d1">a</c></abbr></expan><c xml:id="866afb74-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="866afc3c-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="866afc00-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866afbc4-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="866afcb4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866afc78-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="866afcd2-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="866afd7c-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="866afd54-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866afd36-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="866afd18-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="866afcfa-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="866afe4e-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="866afe12-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="866afdd6-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="866aff70-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="866aff34-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="866afef8-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="866afec6-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="866afe8a-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069657</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069657</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Caerleon, Nat. Rom. Leg. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(78)</height><width>(78)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1815"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">{Great Bulmore, Obstgarten}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069657_1" sex="W"><persName><name type="nomen">Caesoria</name><name type="cognomen">Corocca+</name></persName></person><person xml:id="HD069657_2" sex="M"><persName><name type="cognomen">Renatus+</name></persName></person><person xml:id="HD069657_3" sex="M"><persName><name type="cognomen">Munatius+</name></persName></person><person xml:id="HD069657_4" sex="M"><persName><name type="cognomen">Lestinus</name></persName></person><person xml:id="HD069657_5" sex="M"><persName><name type="cognomen">Leontius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-01-13" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009160" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0c0937d6-c6eb-49f6-a433-a1c9d83e95a4/file/id/768926/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 0371. In Z. 3 sind eindeutige Reste des Buchstabens R am Anfang des Namens Ren[atus] sichtbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00127. (B)</bibl><bibl>RIB 0371; Zeichnung. (B)</bibl><bibl>AE 2013, 0934.</bibl><bibl>R.S.O. Tomlin, Britannia 44, 2013, 395 (a). - AE 2013.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c76bb032-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="c76bb096-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="c76bb10e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bb0dc-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c76bb12c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c76bb186-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="c76bb2b2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c76bb28a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bb258-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bb21c-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="c76bb1ea-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bb1b8-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c76bb2d0-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="c76bb3f2-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="c76bb3de-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c76bb3c0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bb3ac-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bb398-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c76bb384-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c76bb370-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bb35c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c76bb348-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bb334-5842-11ee-a013-4e7b8ce151d1">C</c><c xml:id="c76bb316-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c76bb302-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c76bb2ee-5842-11ee-a013-4e7b8ce151d1">o</c><supplied reason="lost"><c xml:id="c76bb47e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c76bb44c-5842-11ee-a013-4e7b8ce151d1">i</c></supplied></line><line break="no" n="3"><c xml:id="c76bb4c4-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c76bb4b0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c76bb492-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c76bb50a-5842-11ee-a013-4e7b8ce151d1">v</c></abbr><ex><c xml:id="c76bb5dc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bb5a0-5842-11ee-a013-4e7b8ce151d1">x</c><c xml:id="c76bb56e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bb53c-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan><c xml:id="c76bb5f0-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c76bb636-5842-11ee-a013-4e7b8ce151d1">a</c></abbr><ex><c xml:id="c76bb71c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bb6ea-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bb6b8-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c76bb686-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c76bb83e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bb820-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="c76bb7ee-5842-11ee-a013-4e7b8ce151d1">L</c><c xml:id="c76bb7da-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="c76bb7bc-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="c76bb7a8-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="c76bb794-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="c76bb776-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bb762-5842-11ee-a013-4e7b8ce151d1">R</c><c xml:id="c76bb744-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bb730-5842-11ee-a013-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="c76bb8fc-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c76bb8ca-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c76bb898-5842-11ee-a013-4e7b8ce151d1">u</c></supplied></line><line break="no" n="4"><c xml:id="c76bb9e2-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bb9ce-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bb9b0-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c76bb99c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c76bb97e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bb960-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bb94c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bb92e-5842-11ee-a013-4e7b8ce151d1">x</c><c xml:id="c76bb910-5842-11ee-a013-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="c76bbaa0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bba6e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bba3c-5842-11ee-a013-4e7b8ce151d1">u</c></supplied><c xml:id="c76bbbea-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bbbcc-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bbb40-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bbadc-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c76bbab4-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="c76bbd16-5842-11ee-a013-4e7b8ce151d1">M</c><c xml:id="c76bbc80-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bbc58-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bbc44-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c76bbc26-5842-11ee-a013-4e7b8ce151d1">t</c><supplied reason="lost"><c xml:id="c76bbe9c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bbe6a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bbe2e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bbdfc-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bbdca-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bbd8e-5842-11ee-a013-4e7b8ce151d1">t</c></supplied><c xml:id="c76bbf32-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bbf14-5842-11ee-a013-4e7b8ce151d1">L</c><c xml:id="c76bbef6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bbed8-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bbeb0-5842-11ee-a013-4e7b8ce151d1">t</c></line><line break="no" n="6"><c xml:id="c76bc004-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bbfdc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bbfbe-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bbfa0-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bbf82-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bbf64-5842-11ee-a013-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="c76bc0b8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c76bc086-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bc054-5842-11ee-a013-4e7b8ce151d1">L</c></supplied><c xml:id="c76bc14e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bc130-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c76bc112-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bc0ea-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c76bc0cc-5842-11ee-a013-4e7b8ce151d1">i</c></line><line break="no" n="7"><c xml:id="c76bc266-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bc23e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c76bc220-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bc202-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="c76bc1e4-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bc1bc-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c76bc19e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bc180-5842-11ee-a013-4e7b8ce151d1">r</c><supplied reason="lost"><c xml:id="c76bc2c0-5842-11ee-a013-4e7b8ce151d1">u</c></supplied><c xml:id="c76bc31a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c76bc2f2-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c76bc2d4-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="c76bc45a-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="c76bc432-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bc414-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c76bc3f6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bc3ce-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c76bc3b0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c76bc388-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c76bc36a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c76bc342-5842-11ee-a013-4e7b8ce151d1">s</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

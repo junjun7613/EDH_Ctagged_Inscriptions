@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Virunum? &amp;ndash; Magdalensberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063746</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063746</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>1</height><width>5</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197365">Virunum?</placeName></origPlace><origDate><origDate notBefore-custom="0047" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">47 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772135">Magdalensberg</placeName><placeName type="findspot">Pischeldorf, {Stadt auf dem Magdalensberg}, Haus T/3</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD063746_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Ati(---)?</name></persName></person><person xml:id="HD063746_2" sex="M"><persName><name type="cognomen">Philimusus* (= Philomusus*)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bleietikett; beidseitig beschrieben; Fundjahr: zwischen 1987 und 1990. Vorderseite: Z. 1: m(---) bezeichnet irgendeine Warengattung mit folgender St&#252;ckzahl; Z. 2: nach Dolenz eventuell auch p(edibus); dahinter zwei Punkte. R&#252;ckseite: vierter Buchstabe in Form des claudischen Buchstabens |- geschrieben (Lautwert zwischen I und U). (B): Vorderseite: AE 2005: Zeilenfall nicht angegeben; R&#252;ckseite: Dolenz: vierter Buchstabe ist ein verschriebenes O. Datierung: nicht vor der Schriftreform des Claudius 47 n. Chr. und nicht nach dem Ende der Siedlung auf dem Magdalensberg um 50 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1162. (B)</bibl><bibl>H. Dolenz, in: G. Piccottini (Hrsg.), Die Ausgrabungen auf dem Magdalensberg 1986-1990 (Klagenfurt 2004) 146-147; Taf. 2, 10 (Zeichnung). (B) - AE 2005.</bibl><bibl>H. Gra&#223;l, ZPE 153, 2005, 241-242; Zeichnung. - AE 2005.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>AtI</abbr><ex cert="low" /></expan><abbr /> <abbr>m</abbr> IV <lb n="2" /><expan><abbr>p</abbr><ex cert="low">ondo</ex></expan> III |(unciis<certainty match="preceding-sibling::node()" locus="value" /> duabus<certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> P<expan><ex>h</ex><abbr>ilimuso</abbr></expan> <note>sic</note></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

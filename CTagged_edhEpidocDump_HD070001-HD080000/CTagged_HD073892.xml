@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073892</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073892</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Sch&#252;ttkasten, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(39)</height><width>(44)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073892_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Antonius+</name><name type="cognomen">[---]curius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vorgezeichnete Hilfslinine schwach erkennbar. Zeile 2: NZ-, NI-Ligatur. Zeile 4: [A]curius, [Ca]curius, [Mer]curius, [Se]curius? (B): Vorbeck: Z. 2/3: Antonius / M(arci) l(ibertus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04504.</bibl><bibl>CIL 03, 04505.</bibl><bibl>CIL 03, 04504 add. p. 1770.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 8, Nr. 19. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0b103812-5843-11ee-8920-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="0b103880-5843-11ee-8920-4e7b8ce151d1">D</c></abbr><ex><c xml:id="0b10390c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b1038da-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="0b10392a-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b103966-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="0b103a9c-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b103a6a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b103a38-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b103a06-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="0b1039d4-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b1039a2-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b103aba-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="0b103b64-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0b103b46-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="0b103b32-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b103b1e-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b103b00-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0b103aec-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b103ad8-5843-11ee-8920-4e7b8ce151d1">i</c></line><line break="no" n="3"><supplied reason="lost"><c xml:id="0b103be6-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b103bb4-5843-11ee-8920-4e7b8ce151d1">s</c></supplied><c xml:id="0b103bfa-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b103c36-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="0b103d08-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b103cd6-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b103ca4-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0b103c72-5843-11ee-8920-4e7b8ce151d1">i</c></ex></expan><c xml:id="0b103d1c-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b103dbc-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="0b103d8a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b103d58-5843-11ee-8920-4e7b8ce151d1">b</c></abbr><ex><c xml:id="0b103eb6-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="0b103e84-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b103e52-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b103e2a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b103df8-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b103eca-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="0b103f60-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0b103f4c-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b103f38-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b103f1a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b103f06-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b103ef2-5843-11ee-8920-4e7b8ce151d1">s</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

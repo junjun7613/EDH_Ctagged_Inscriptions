@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057044</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057044</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. d'Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>43</height><width>76</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.1-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Calle Aviny&#243; - calle de la Baixada de S. Miquel, Ecke, Stadtmauer</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057044_1" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Privata</name></persName></person><person xml:id="HD057044_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Marcius</name><name type="cognomen">Modestus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-08-24" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Block eines Grabmonuments. Z. 2: Spuren von roter Farbe in den Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 207; pl. 98, 207.</bibl><bibl>IRC 5, p. 114.</bibl><bibl>ILER 6849; Foto.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 176, Nr. 202.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="fa9c019c-5841-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="fa9c026e-5841-11ee-a9c6-4e7b8ce151d1">V</c></abbr><ex><c xml:id="fa9c0322-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c02f0-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="fa9c02b4-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="fa9c0336-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="fa9c03e0-5841-11ee-a9c6-4e7b8ce151d1">Q</c><c xml:id="fa9c03cc-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="fa9c03b8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c03a4-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="fa9c0390-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c037c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0368-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="fa9c0354-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><am><g type="mulieris" /></am></abbr><ex><c xml:id="fa9c0570-5841-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="fa9c0548-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="fa9c0516-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="fa9c04ee-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c04bc-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="fa9c048a-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="fa9c0462-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0430-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="fa9c0584-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fa9c05ca-5841-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="fa9c06d8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c06a6-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="fa9c067e-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="fa9c0656-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="fa9c0624-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c05fc-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="fa9c078c-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="fa9c0778-5841-11ee-a9c6-4e7b8ce151d1">P</c><c xml:id="fa9c0764-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="fa9c0750-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c073c-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="fa9c0728-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="fa9c0714-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c0700-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="fa9c06ec-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="fa9c0854-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="fa9c0836-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0822-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="fa9c080e-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c07fa-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="fa9c07e6-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="fa9c07d2-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c07be-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="fa9c0930-5841-11ee-a9c6-4e7b8ce151d1">@</c><c xml:id="fa9c091c-5841-11ee-a9c6-4e7b8ce151d1">(</c><c xml:id="fa9c0908-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="fa9c08f4-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="fa9c08d6-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c08c2-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c08ae-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="fa9c0890-5841-11ee-a9c6-4e7b8ce151d1">)</c><c xml:id="fa9c087c-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fa9c0980-5841-11ee-a9c6-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="fa9c0a5c-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="fa9c0a34-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0a0c-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="fa9c09da-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c09b2-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="fa9c0b1a-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="fa9c0b06-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="fa9c0ae8-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="fa9c0ad4-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="fa9c0ac0-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="fa9c0aa2-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0a84-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="fa9c0a70-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fa9c0b60-5841-11ee-a9c6-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="fa9c0c3c-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="fa9c0c14-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0bec-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="fa9c0bc4-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c0b92-5841-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="fa9c0c50-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fa9c0c8c-5841-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="fa9c0dae-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="fa9c0d7c-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="fa9c0d54-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="fa9c0d2c-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="fa9c0cfa-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c0cd2-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="fa9c0dc2-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="fa9c0fca-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="fa9c0fac-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="fa9c0f98-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="fa9c0f7a-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="fa9c0f66-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="fa9c0f48-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c0f34-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="fa9c0f16-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="fa9c0f02-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="fa9c0ee4-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="fa9c0ec6-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="fa9c0eb2-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="fa9c0e94-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="fa9c0e80-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="fa9c0e62-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="fa9c0e4e-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="fa9c0e30-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="fa9c0e12-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="fa9c0dfe-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="fa9c0de0-5841-11ee-a9c6-4e7b8ce151d1">i</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

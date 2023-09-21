@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043461</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043461</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material>Gesteine</material><dimensions unit="cm"><height>50</height><width>42</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Amphitheater, n&#246;rdlich, {Parzelle Nr. 3947/2 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043461_1" sex="M"><persName><name type="cognomen">Crinitus</name></persName></person><person xml:id="HD043461_2" sex="W"><persName><name type="cognomen">Afidia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033633" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a69fc6c7-a7fd-477b-89e3-ed9b78e1c192/file/id/794440/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Sanader: Z. 4/5: keine Angabe des Zeilenfalls; Z. 5: frugalitatae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08825.</bibl><bibl>M. Sanader, ARadRaspr 13, 2001, 25, Nr. 7. (B) - AE 2001.</bibl><bibl>AE 2001, 1622.</bibl><bibl>E. Dyggve, in: Recherches &#224; Salone 2 (Copenhague 1933) 87, Nr. 28; fig. 40, 28.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="08e0fd4e-5841-11ee-8e19-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="08e0fdc6-5841-11ee-8e19-4e7b8ce151d1">D</c></abbr><ex><c xml:id="08e0fe3e-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e0fe0c-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="08e0fe52-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="08e0fe8e-5841-11ee-8e19-4e7b8ce151d1">M</c></abbr><ex><c xml:id="08e0ffb0-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e0ff88-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e0ff56-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e0ff2e-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="08e0fefc-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e0feca-5841-11ee-8e19-4e7b8ce151d1">s</c></ex></expan><c xml:id="08e0ffc4-5841-11ee-8e19-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="08e10140-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e1012c-5841-11ee-8e19-4e7b8ce151d1">C</c><c xml:id="08e10118-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e10104-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e100f0-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e100dc-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e100c8-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e100b4-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e100aa-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e10096-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="08e10082-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e1006e-5841-11ee-8e19-4e7b8ce151d1">c</c><c xml:id="08e1005a-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e1003c-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e10028-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e10014-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e10000-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e0ffec-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="08e10208-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e101d6-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e101a4-5841-11ee-8e19-4e7b8ce151d1">t</c></abbr><ex><c xml:id="08e102bc-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e10294-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e10262-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e1023a-5841-11ee-8e19-4e7b8ce151d1">e</c></ex></expan><c xml:id="08e102d0-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="08e10352-5841-11ee-8e19-4e7b8ce151d1">A</c><c xml:id="08e10334-5841-11ee-8e19-4e7b8ce151d1">f</c><c xml:id="08e10320-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e1030c-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e102f8-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="08e103c0-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e10398-5841-11ee-8e19-4e7b8ce151d1">n</c></abbr><ex><c xml:id="08e104a6-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e10474-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e1044c-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e10424-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e103f2-5841-11ee-8e19-4e7b8ce151d1">m</c></ex></expan><c xml:id="08e10500-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e104ec-5841-11ee-8e19-4e7b8ce151d1">X</c><c xml:id="08e104ce-5841-11ee-8e19-4e7b8ce151d1">X</c><c xml:id="08e104ba-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="08e105a0-5841-11ee-8e19-4e7b8ce151d1">p</c><c xml:id="08e1056e-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e10546-5841-11ee-8e19-4e7b8ce151d1">g</c></abbr><ex><c xml:id="08e1067c-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e10654-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e1062c-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e105fa-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e105d2-5841-11ee-8e19-4e7b8ce151d1">m</c></ex></expan><c xml:id="08e10924-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e10910-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="08e108f2-5841-11ee-8e19-4e7b8ce151d1">&amp;</c><c xml:id="08e108de-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="08e108c0-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e108ac-5841-11ee-8e19-4e7b8ce151d1">;</c><c xml:id="08e1088e-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="08e1087a-5841-11ee-8e19-4e7b8ce151d1">=</c><c xml:id="08e1085c-5841-11ee-8e19-4e7b8ce151d1">L</c><c xml:id="08e10848-5841-11ee-8e19-4e7b8ce151d1">&amp;</c><c xml:id="08e1082a-5841-11ee-8e19-4e7b8ce151d1">g</c><c xml:id="08e10816-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e107f8-5841-11ee-8e19-4e7b8ce151d1">;</c><c xml:id="08e107e4-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e107c6-5841-11ee-8e19-4e7b8ce151d1">@</c><c xml:id="08e1079e-5841-11ee-8e19-4e7b8ce151d1">(</c><c xml:id="08e1078a-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e1076c-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="08e10758-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e1073a-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e10726-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e10712-5841-11ee-8e19-4e7b8ce151d1">)</c><c xml:id="08e106f4-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e106e0-5841-11ee-8e19-4e7b8ce151d1">A</c><c xml:id="08e106cc-5841-11ee-8e19-4e7b8ce151d1">f</c><c xml:id="08e106b8-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e1069a-5841-11ee-8e19-4e7b8ce151d1">d</c></line><line break="no" n="3"><c xml:id="08e10c94-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e10c76-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e10c58-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e10c30-5841-11ee-8e19-4e7b8ce151d1">p</c><c xml:id="08e10bd6-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e10b4a-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="08e10b36-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e10b18-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e10afa-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e10adc-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e10abe-5841-11ee-8e19-4e7b8ce151d1">d</c><c xml:id="08e10aaa-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e10a8c-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e10a6e-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="08e10a50-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e10a32-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e10a14-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="08e10a00-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="08e109d8-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e109c4-5841-11ee-8e19-4e7b8ce151d1">b</c><c xml:id="08e109a6-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e10988-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="08e10e60-5841-11ee-8e19-4e7b8ce151d1">f</c><c xml:id="08e10e42-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e10e24-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e10dfc-5841-11ee-8e19-4e7b8ce151d1">g</c><c xml:id="08e10dde-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e10dc0-5841-11ee-8e19-4e7b8ce151d1">l</c><c xml:id="08e10da2-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e10d84-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e10d66-5841-11ee-8e19-4e7b8ce151d1">a</c><c xml:id="08e10d48-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e10d20-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e10d02-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="08e10f32-5841-11ee-8e19-4e7b8ce151d1">b</c></abbr><ex><c xml:id="08e10ff0-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e10fc8-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e10f8c-5841-11ee-8e19-4e7b8ce151d1">e</c></ex></expan><c xml:id="08e1100e-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="08e11054-5841-11ee-8e19-4e7b8ce151d1">m</c></abbr><ex><c xml:id="08e11176-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e11144-5841-11ee-8e19-4e7b8ce151d1">r</c><c xml:id="08e1111c-5841-11ee-8e19-4e7b8ce151d1">e</c><c xml:id="08e110ea-5841-11ee-8e19-4e7b8ce151d1">n</c><c xml:id="08e110b8-5841-11ee-8e19-4e7b8ce151d1">t</c><c xml:id="08e11090-5841-11ee-8e19-4e7b8ce151d1">i</c></ex></expan><c xml:id="08e1118a-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="08e111d0-5841-11ee-8e19-4e7b8ce151d1">p</c></abbr><ex><c xml:id="08e112c0-5841-11ee-8e19-4e7b8ce151d1">o</c><c xml:id="08e1128e-5841-11ee-8e19-4e7b8ce151d1">s</c><c xml:id="08e11266-5841-11ee-8e19-4e7b8ce151d1">u</c><c xml:id="08e11234-5841-11ee-8e19-4e7b8ce151d1">i</c><c xml:id="08e1120c-5841-11ee-8e19-4e7b8ce151d1">t</c></ex></expan><c xml:id="08e112d4-5841-11ee-8e19-4e7b8ce151d1"> </c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

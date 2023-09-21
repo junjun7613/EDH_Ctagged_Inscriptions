@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Eburacum &amp;ndash; York (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069933</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069933</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>York, Yorkshire Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>62</height><width>230</width><depth>73</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">15.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89175">Eburacum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1835"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2633352">York</placeName><placeName type="findspot">{Castle Yard}</placeName><placeName type="region">North Yorkshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069933_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Super</name></persName></person><person xml:id="HD069933_2" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Censorina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-09" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00246.</bibl><bibl>RIB 0670; Zeichnung.</bibl><bibl>S.R. Tufi, Yorkshire, CSIR Great Britain 1, 3 (Oxford 1983) 42, Nr. 63; Pl. 19, 63.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="847f1e6e-2c3a-11ee-b679-4e7b8ce151d0">D</c></abbr><ex><c xml:id="847f1f5e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f1f04-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="847f1f90-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="847f1ffe-2c3a-11ee-b679-4e7b8ce151d0">M</c></abbr><ex><c xml:id="847f21b6-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="847f2170-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f212a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f20e4-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="847f2094-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f204e-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="847f21d4-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="847f22c4-2c3a-11ee-b679-4e7b8ce151d0">A</c><c xml:id="847f227e-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f2238-2c3a-11ee-b679-4e7b8ce151d0">r</c></abbr><ex><c xml:id="847f23e6-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f23a0-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="847f235a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2314-2c3a-11ee-b679-4e7b8ce151d0">o</c></ex></expan><c xml:id="847f24f4-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f24cc-2c3a-11ee-b679-4e7b8ce151d0">S</c><c xml:id="847f24ae-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f2490-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="847f2468-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f244a-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="847f242c-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="847f2404-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="847f2634-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="847f25ee-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f25a8-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f2562-2c3a-11ee-b679-4e7b8ce151d0">t</c></abbr><ex><c xml:id="847f27e2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f279c-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="847f2756-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2710-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="847f26ca-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f2684-2c3a-11ee-b679-4e7b8ce151d0">i</c></ex></expan><c xml:id="847f2800-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><expan><abbr><c xml:id="847f28e6-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="847f28a0-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f285a-2c3a-11ee-b679-4e7b8ce151d0">g</c></abbr><ex><c xml:id="847f2a44-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f29fe-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="847f29c2-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f297c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2936-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="847f2c74-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f2c4c-2c3a-11ee-b679-4e7b8ce151d0">V</c><c xml:id="847f2c2e-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f2c06-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f2be8-2c3a-11ee-b679-4e7b8ce151d0">q</c><c xml:id="847f2bca-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f2ba2-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2b84-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f2b5c-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="847f2b3e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2b16-2c3a-11ee-b679-4e7b8ce151d0">x</c><c xml:id="847f2af8-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2ada-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="847f2ab2-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f2a94-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="847f2a6c-2c3a-11ee-b679-4e7b8ce151d0">n</c><expan><ex><c xml:id="847f2d00-2c3a-11ee-b679-4e7b8ce151d0">n</c></ex><abbr><c xml:id="847f2d96-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f2d50-2c3a-11ee-b679-4e7b8ce151d0">s</c></abbr></expan><c xml:id="847f2dbe-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="847f2ef4-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="847f2ecc-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="847f2eae-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="847f2e86-2c3a-11ee-b679-4e7b8ce151d0">V</c><c xml:id="847f2e5e-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f2e36-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f2e0e-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f2df0-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="847f2f6c-2c3a-11ee-b679-4e7b8ce151d0">m</c></abbr><ex><c xml:id="847f3156-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f3110-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f30ca-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="847f308e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f3048-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="847f3002-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f2fbc-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="847f3246-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f321e-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f31f6-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f31ce-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f31a6-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f317e-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="847f32be-2c3a-11ee-b679-4e7b8ce151d0">d</c></abbr><ex><c xml:id="847f341c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f33d6-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f3390-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="847f3354-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f330e-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="847f35c0-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f3598-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="847f3566-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f353e-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f3516-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="847f34e4-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f34bc-2c3a-11ee-b679-4e7b8ce151d0">A</c><c xml:id="847f3494-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f346c-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="847f343a-2c3a-11ee-b679-4e7b8ce151d0">e</c><lb break="no" n="5" /><c xml:id="847f38d6-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="847f38ae-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f387c-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="847f3854-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f3822-2c3a-11ee-b679-4e7b8ce151d0">C</c><c xml:id="847f37f0-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f37be-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f3796-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="847f3764-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="847f3732-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="847f370a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f36d8-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f36a6-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="847f3674-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f364c-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="847f361a-2c3a-11ee-b679-4e7b8ce151d0">o</c><expan><ex><c xml:id="847f3976-2c3a-11ee-b679-4e7b8ce151d0">n</c></ex><abbr><c xml:id="847f3a98-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f3a52-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f3a0c-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="847f39c6-2c3a-11ee-b679-4e7b8ce151d0">x</c></abbr></expan><c xml:id="847f3ac0-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="6" /><c xml:id="847f3e1c-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="847f3dea-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="847f3db8-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="847f3d86-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="847f3d54-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="847f3d22-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f3cf0-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="847f3cbe-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="847f3c8c-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="847f3c5a-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="847f3c28-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="847f3bf6-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="847f3bc4-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="847f3b92-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="847f3b60-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="847f3b2e-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="847f3afc-2c3a-11ee-b679-4e7b8ce151d0"> </c><note>sic</note></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

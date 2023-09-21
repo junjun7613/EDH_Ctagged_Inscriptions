@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Colonia Claudia Augusta? Agrippinensium, bei &amp;ndash; K&#246;ln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024427</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024427</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>K&#246;ln, R&#246;m.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/42">weapon</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/111">Eisen</material><dimensions unit="cm"><height>4</height><width>(32)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1927"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2873613">K&#246;ln</placeName><placeName type="findspot">Marienburg, {Flottenlager Alteburg}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024427_1" sex="M"><persName><name type="nomen">Apuleius?</name><name type="cognomen">Apuleius?</name></persName></person><person xml:id="HD024427_2" sex="M"><persName><name type="cognomen">Probinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-09-26" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Lanzenspitze; rekonstruierbare L&#228;nge ca. 35 cm; Durchmesser des Schaftes: 2 cm. Die Inschrift verteilt sich auf die beiden Seiten des Lanzenblattes. Schreibtechnik: gepunzt. (B): Fremersdorf; AE 1929, 0112: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0111.</bibl><bibl>AE 1929, 0112. (B)</bibl><bibl>AE 2004, 0982.</bibl><bibl>F. Fremersdorf, Germania 13, 1929, Nr. 22; Abb. 2, 1 u. 2, 1a-c. (B) - AE 1929.</bibl><bibl>N. Hanel, KJ 37, 2004, 989-996, Nr. 2; Abb. 2; Abb. 4 u. 5 (Fotos u. Zeichnungen). - AE 2004.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr><am><g type="centuria" /></am></abbr><ex>centuria</ex></expan> Apulei PI </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr><am><g type="centuria" /></am></abbr><ex>centuria</ex></expan> <expan><abbr>Apul</abbr><ex>ei</ex></expan><certainty match="preceding-sibling::node()" locus="value" /> PI I <lb n="2" /><supplied reason="lost" cert="low">|(centuria)</supplied> <expan><abbr>Probin</abbr><ex>i</ex></expan> PII <abbr>C</abbr> <abbr>M</abbr> <abbr>S</abbr></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

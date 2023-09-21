@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Andautonia, bei &amp;ndash; Sveta Nedelja (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071783</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071783</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(155)</height><width>68</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197113">Andautonia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198172">Sveta Nedelja</placeName><placeName type="findspot">{Kerestinec}</placeName><placeName type="region">Zagreba&#269;ka &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071783_1" sex="M"><persName><name type="cognomen">Pontius</name></persName></person><person xml:id="HD071783_2" sex="M"><persName><name type="praenomen">M.?</name><name type="nomen">C[---]?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-29" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Im Bildfeld &#252;ber dem Inschriftfeld und teils in den dar&#252;berliegenden Giebel hineinragend drei stehende Figuren. Z. 1: M M(?) befinden sich im Giebel links und rechts des Kopfes der mittleren Figur; anstelle des zweiten M auch A ohne Querhaste m&#246;glich. Z. 3 (Ende): vom I m&#246;glicherweise noch ein kleiner Rest vom oberen cornu erhalten. Z. 6: Buchstabe A ohne Querhaste. (B): CIL 03, 15183: Z. 1: M D; Z. 3: sibi; AIJ: Z. 4: co[niu]g[i]; Z. 5: [e]t.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 15183. (B)</bibl><bibl>AIJ 483; Foto. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="3174c5cc-5843-11ee-8920-4e7b8ce151d1">
+</c><abbr><c xml:id="3174c64e-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><c xml:id="3174c676-5843-11ee-8920-4e7b8ce151d1"> </c><abbr><c xml:id="3174c6bc-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="3174c6da-5843-11ee-8920-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="3174c7ac-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="3174c798-5843-11ee-8920-4e7b8ce151d1">P</c><c xml:id="3174c784-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="3174c770-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="3174c75c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="3174c73e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="3174c72a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="3174c716-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="3174c702-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="3174c810-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="3174c7fc-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="3174c7de-5843-11ee-8920-4e7b8ce151d1">s</c><expan><ex><c xml:id="3174c856-5843-11ee-8920-4e7b8ce151d1">u</c></ex><abbr><c xml:id="3174c8c4-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="3174c892-5843-11ee-8920-4e7b8ce151d1">t</c></abbr></expan><c xml:id="3174c91e-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="3174c90a-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="3174c8f6-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="3174c8d8-5843-11ee-8920-4e7b8ce151d1">b</c><supplied reason="lost"><c xml:id="3174c964-5843-11ee-8920-4e7b8ce151d1">i</c></supplied><c xml:id="3174c978-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><c xml:id="3174c9be-5843-11ee-8920-4e7b8ce151d1">e</c></supplied><c xml:id="3174ca18-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="3174ca04-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="3174c9f0-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="3174c9d2-5843-11ee-8920-4e7b8ce151d1">o</c><supplied reason="lost"><c xml:id="3174cdec-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="3174cdb0-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="3174cd6a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="3174cc20-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="3174ca68-5843-11ee-8920-4e7b8ce151d1">i</c></supplied><c xml:id="3174ce28-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><c xml:id="3174ce8c-5843-11ee-8920-4e7b8ce151d1">e</c></supplied><c xml:id="3174cec8-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="3174ceaa-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="3174cf18-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex cert="low"><c xml:id="3174cff4-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="3174cfb8-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="3174cf86-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="3174cf54-5843-11ee-8920-4e7b8ce151d1">o</c></ex></expan><c xml:id="3174d026-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="3174d008-5843-11ee-8920-4e7b8ce151d1">C</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="3174d044-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="3174d06c-5843-11ee-8920-4e7b8ce151d1">A</c><gap reason="lost" extent="unknown" unit="character" /></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

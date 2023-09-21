@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Apulum &amp;ndash; Alba Iulia (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038880</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038880</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206927">Apulum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1836"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="findspot">canabae</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038880_1" sex="M"><persName ref="http://romans1by1.com/rpeople/11283"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Bassus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-08-04" who="Garcia">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Stele oder Tafel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 5, 507; Zeichung.</bibl><bibl>CIL 03, 01206.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="da096110-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="da09608e-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="da09616a-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="da096142-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="da09628c-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="da096264-2c39-11ee-a36e-4e7b8ce151d0">B</c><c xml:id="da096246-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="da09621e-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="da096200-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="da0961e2-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="da0961ba-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="da09619c-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /><c xml:id="da0962dc-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="da0963f4-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="da0963a4-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="da09634a-2c39-11ee-a36e-4e7b8ce151d0">g</c></abbr><ex><c xml:id="da096584-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096534-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="da0964ee-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="da09649e-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da09644e-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="da0965ac-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="da09669c-2c39-11ee-a36e-4e7b8ce151d0">I</c></abbr><ex cert="low" /></expan><c xml:id="da09670a-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="da096926-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="da0968d6-2c39-11ee-a36e-4e7b8ce151d0">d</c><c xml:id="da096886-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096836-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="da0967dc-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="da096782-2c39-11ee-a36e-4e7b8ce151d0">r</c></abbr><ex><c xml:id="da096a66-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096a20-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="da0969d0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096980-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="da096a8e-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="5" /><expan><abbr><supplied reason="lost"><c xml:id="da096c32-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="da096be2-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="da096b9c-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096b4c-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="da096afc-2c39-11ee-a36e-4e7b8ce151d0">e</c></supplied><c xml:id="da096cdc-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="da096cbe-2c39-11ee-a36e-4e7b8ce151d0">d</c><c xml:id="da096ca0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096c78-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="da096c5a-2c39-11ee-a36e-4e7b8ce151d0">r</c></abbr><ex><c xml:id="da096d9a-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="da096d4a-2c39-11ee-a36e-4e7b8ce151d0">m</c></ex></expan><c xml:id="da096dc2-2c39-11ee-a36e-4e7b8ce151d0"> </c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="da096df4-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="6" /><supplied reason="lost"><expan><abbr><c xml:id="da096f02-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="da096eb2-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096e62-2c39-11ee-a36e-4e7b8ce151d0">x</c></abbr><ex><c xml:id="da096fa2-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da096f52-2c39-11ee-a36e-4e7b8ce151d0">t</c></ex></expan><c xml:id="da096fe8-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="da096fca-2c39-11ee-a36e-4e7b8ce151d0">a</c></supplied><c xml:id="da097150-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="da097128-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="da097100-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="da0970e2-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="da0970ba-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="da097092-2c39-11ee-a36e-4e7b8ce151d0">L</c><c xml:id="da09706a-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="da097042-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="da09701a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

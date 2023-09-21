@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Capidava &amp;ndash; Topalu (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042028</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042028</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Capidava, Ausgrabungsdepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(32)</height><width>(38)</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216748">Capidava</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/682814">Topalu</placeName><placeName type="findspot">Capidava, {Lager, Sektor III}, sekund&#228;r verwendet</placeName><placeName type="region">Constan&#539;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042028_1" sex="M"><persName ref="http://romans1by1.com/rpeople/15535"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Celsus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gefunden im Fundament eines mittelalterlichen Hauses. (B): Opri&#351; - Popescu; AE 1997: Abweichungen in Lesung / Erg&#228;nzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1329. (B)</bibl><bibl>I.I.C. Opri&#351; - M. Popescu, Pontica 30, 1997, 177-181; fig. 1a; fig. 1b (Zeichnung). (B) - AE 1997.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 194, Nr. 254; Taf. 124, 3.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="20668c6e-2c3a-11ee-b0b3-4e7b8ce151d0">D</c></abbr><ex><c xml:id="20668d40-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="20668ce6-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="20668d68-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="20668dcc-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="20668f84-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="20668f3e-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="20668ef8-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="20668eb2-2c3a-11ee-b0b3-4e7b8ce151d0">b</c><c xml:id="20668e62-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="20668e1c-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="20668fa2-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="2066904c-2c3a-11ee-b0b3-4e7b8ce151d0">C</c><c xml:id="20669006-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></supplied><c xml:id="20669146-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="2066911e-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="20669100-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="206690d8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="206690ba-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="20669092-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="20669074-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><lb break="no" n="3" /><supplied reason="lost"><c xml:id="20669330-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="206692e0-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="2066929a-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="20669254-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="20669204-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="206691be-2c3a-11ee-b0b3-4e7b8ce151d0">p</c></supplied><expan><abbr><c xml:id="20669452-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="2066940c-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="206693c6-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="20669380-2c3a-11ee-b0b3-4e7b8ce151d0">f</c></abbr><ex><c xml:id="2066957e-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="20669538-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="206694f2-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="206694a2-2c3a-11ee-b0b3-4e7b8ce151d0">i</c></ex></expan><c xml:id="2066959c-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="2066968c-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="20669646-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="20669600-2c3a-11ee-b0b3-4e7b8ce151d0">h</c></abbr><ex><c xml:id="206697fe-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="206697b8-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="20669772-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="20669722-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="206696dc-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="20669826-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="4" /><supplied reason="lost"><c xml:id="20669880-2c3a-11ee-b0b3-4e7b8ce151d0">I</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <expan><abbr>German</abbr><ex>orum</ex></expan>? v</supplied><c xml:id="206699ac-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="20669984-2c3a-11ee-b0b3-4e7b8ce151d0">x</c><c xml:id="2066995c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="2066993e-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="20669916-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="206698ee-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="206698d0-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="206698a8-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><lb break="no" n="5" /><supplied reason="lost"><c xml:id="20669aba-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="20669a74-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="20669a24-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>mil</abbr><ex>itavit</ex></expan></supplied><c xml:id="20669bc8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="20669ba0-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="20669b78-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="20669b50-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="20669b28-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="20669b00-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="20669ad8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

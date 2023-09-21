@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Brigetio &amp;ndash; Kom&#225;rom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039477</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039477</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Kom&#225;rom</placeName><placeName type="findspot">{reformierte Kirche, Turm}, bei</placeName><placeName type="region">Kom&#225;rom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039477_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">IuliI(?)[---]</name><name type="cognomen">German[---]?</name></persName></person><person xml:id="HD039477_2" sex="W"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Verschollen. Z. 1: Iullinius? Ob in Z. 2/3 CLAV und GERMAN als Bestandteile des Namens des Verstorbenen (tribus und cognomen oder Herkunftsangabe) zu verstehen sind, oder als separate Eigennamen anderer Personen, ist nicht klar. Wenn Z. 2 F zu f(ilius/o) erg&#228;nzt wird, so wird man in Z. 1 ein l&#228;ngeres nomen gentile als Iulius oder eine Filiation mit peregrinem cognomen des Vaters annehmen m&#252;ssen. Z. 4 das I als Ende einer verlorenen Altersangabe in Z. 3?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0563.</bibl><bibl>CIL 03, 04341.</bibl><bibl>CIL 03, 04341 add. p. 2280.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="a7ad2304-5840-11ee-8e0b-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="a7ad2340-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="1"><expan><abbr><c xml:id="a7ad239a-5840-11ee-8e0b-4e7b8ce151d1">C</c></abbr><ex><c xml:id="a7ad244e-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a7ad241c-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad23d6-5840-11ee-8e0b-4e7b8ce151d1">-</c></ex></expan><c xml:id="a7ad2462-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a7ad2566-5840-11ee-8e0b-4e7b8ce151d1">I</c><c xml:id="a7ad2534-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a7ad2502-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a7ad24da-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad24a8-5840-11ee-8e0b-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a7ad2584-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="a7ad25d4-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="a7ad26f6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad26c4-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a7ad269c-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad266a-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2638-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2606-5840-11ee-8e0b-4e7b8ce151d1">-</c></ex></expan><c xml:id="a7ad2764-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a7ad2750-5840-11ee-8e0b-4e7b8ce151d1">C</c><c xml:id="a7ad273c-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="a7ad2728-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a7ad270a-5840-11ee-8e0b-4e7b8ce151d1">u</c><supplied reason="lost"><c xml:id="a7ad280e-5840-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="a7ad27e6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad27b4-5840-11ee-8e0b-4e7b8ce151d1">a</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="a7ad282c-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="a7ad28b8-5840-11ee-8e0b-4e7b8ce151d1">G</c><c xml:id="a7ad28a4-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="a7ad2890-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="a7ad2872-5840-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="a7ad285e-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a7ad284a-5840-11ee-8e0b-4e7b8ce151d1">n</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a7ad28e0-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="a7ad291c-5840-11ee-8e0b-4e7b8ce151d1">I</c><c xml:id="a7ad2908-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a7ad29bc-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="a7ad298a-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="a7ad2962-5840-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="a7ad2a84-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad2a52-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="a7ad2a20-5840-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="a7ad29f8-5840-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="a7ad2b9c-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a7ad2b7e-5840-11ee-8e0b-4e7b8ce151d1">k</c><c xml:id="a7ad2b6a-5840-11ee-8e0b-4e7b8ce151d1">[</c><c xml:id="a7ad2b4c-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="a7ad2b38-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="a7ad2b1a-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad2b06-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="a7ad2ae8-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="a7ad2ad4-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="a7ad2ab6-5840-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="a7ad2a98-5840-11ee-8e0b-4e7b8ce151d1">-</c><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="a7ad2c6e-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="a7ad2c5a-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2c3c-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2c1e-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2c0a-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2bec-5840-11ee-8e0b-4e7b8ce151d1">-</c><c xml:id="a7ad2bce-5840-11ee-8e0b-4e7b8ce151d1">-</c><certainty match="preceding-sibling::node()" locus="value" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

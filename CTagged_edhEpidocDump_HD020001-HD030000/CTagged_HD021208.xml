@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Zevenaar (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021208</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021208</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2751538">Zevenaar</placeName><placeName type="findspot">Rijnwaarden, {Lobith}, bei</placeName><placeName type="region">Gelderland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021208_1"><persName><name type="cognomen">Marcellus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zum Denkmaltyp: Bronzetopf. Lesung nach G. Alf&#246;ldy. (B): Vollgraff - Roes, AE 1951: Aclid(i)cus Vel(ina) v(eteranus) c(enturio) I l(egionis) f(ieri) i(ussit) p(atinam).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1951, 0140. (B)</bibl><bibl>C.W. Vollgraff - A. Roes, MonAL 5, 1942, 316. 322-326, Nr. 19; Foto; Zeichnung. (B) - AE 1951.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="1d171e4a-583e-11ee-8b4f-4e7b8ce151d1">
+</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="1d171ed6-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="1d171ec2-583e-11ee-8b4f-4e7b8ce151d1">C</c><c xml:id="1d171ea4-583e-11ee-8b4f-4e7b8ce151d1">R</c><c xml:id="1d171e90-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1d172098-583e-11ee-8b4f-4e7b8ce151d1">M</c><c xml:id="1d172066-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="1d172034-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="1d172002-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="1d171fd0-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="1d171f94-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="1d171f62-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="1d171f26-583e-11ee-8b4f-4e7b8ce151d1">u</c></abbr><ex><c xml:id="1d1720ca-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

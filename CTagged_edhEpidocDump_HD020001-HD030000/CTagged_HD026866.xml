@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026866</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026866</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bingen/Rhein, Mus. am Strom</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(52)</height><width>(47)</width><depth>(27)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot">{Hospitalstra&#223;e / Vorstadt, Ecke}, mittelalterlicher Stadtturm, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026866_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Avitius</name><name type="cognomen">Hermes+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028976" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0dc7dd47-47f8-4c91-8b89-fc6fc4ee6603/file/id/789733/file_version/name/small" /><graphic xml:id="F028286" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0101225e-d585-495b-903a-31d520dc3330/file/id/789043/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Boppert: Z. 2/3: secu[ri]/tati; AE 1934: Z. 3: Q nicht gelesen; Boppert: Z. 3/4: He[rme]/ti; Behrens; AE 1934; R&#233;my - Faure: Z. 3/4: Her/[me]ti; AE 1934; Boppert; Faust: Z. 5: nicht wiedergegeben; Behrens: Z. 5: nur in der Zeichnung; R&#233;my - Faure: Z. 4/5: con/[i&#8230;]ugi(?)[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1934, 0129. (B)</bibl><bibl>G. Behrens, MZ 27, 1932, 29, Nr. 1; Abb. 2 (Zeichnung). (B) - AE 1934.</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 81-82, Nr. 39; Tafel 18, 39. (B)</bibl><bibl>H. Nesselhauf, BRGK 27, 1937, 88-89, Nr. 123.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (K&#246;ln 1998) 99, Nr. 23. (B)</bibl><bibl>B. R&#233;my - P. Faure, Les m&#233;decins dans l'Occident romain (P&#233;ninsule Ib&#233;rique, Bretagne, Gaules, Germanies) (Bordeaux 2010) 160, Nr. 58.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="a5e24262-2c39-11ee-91fe-4e7b8ce151d0">D</c></abbr><ex><c xml:id="a5e24398-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e2433e-2c39-11ee-91fe-4e7b8ce151d0">s</c></ex></expan><c xml:id="a5e243ca-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="a5e2442e-2c39-11ee-91fe-4e7b8ce151d0">M</c></abbr><ex><c xml:id="a5e245f0-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="a5e245aa-2c39-11ee-91fe-4e7b8ce151d0">n</c><c xml:id="a5e24564-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e2451e-2c39-11ee-91fe-4e7b8ce151d0">b</c><c xml:id="a5e244ce-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="a5e24488-2c39-11ee-91fe-4e7b8ce151d0">s</c></ex></expan><c xml:id="a5e24618-2c39-11ee-91fe-4e7b8ce151d0"> </c><lb n="2" /><supplied reason="lost"><c xml:id="a5e24686-2c39-11ee-91fe-4e7b8ce151d0">p</c></supplied><c xml:id="a5e24852-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e2482a-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="a5e2480c-2c39-11ee-91fe-4e7b8ce151d0">p</c><c xml:id="a5e247e4-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e247c6-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="a5e2479e-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="a5e24780-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="a5e24758-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e2473a-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="a5e24712-2c39-11ee-91fe-4e7b8ce151d0">s</c><c xml:id="a5e246f4-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e246d6-2c39-11ee-91fe-4e7b8ce151d0">c</c><c xml:id="a5e246ae-2c39-11ee-91fe-4e7b8ce151d0">u</c><lb break="no" n="3" /><supplied reason="lost"><c xml:id="a5e2492e-2c39-11ee-91fe-4e7b8ce151d0">r</c><c xml:id="a5e248de-2c39-11ee-91fe-4e7b8ce151d0">i</c></supplied><c xml:id="a5e249ec-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="a5e249c4-2c39-11ee-91fe-4e7b8ce151d0">a</c><c xml:id="a5e2499c-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="a5e24974-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e24956-2c39-11ee-91fe-4e7b8ce151d0"> </c><expan><abbr><c xml:id="a5e24a5a-2c39-11ee-91fe-4e7b8ce151d0">Q</c></abbr><ex><c xml:id="a5e24bcc-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="a5e24b86-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e24b40-2c39-11ee-91fe-4e7b8ce151d0">n</c><c xml:id="a5e24af0-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="a5e24aaa-2c39-11ee-91fe-4e7b8ce151d0">o</c></ex></expan><c xml:id="a5e24d7a-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="a5e24d5c-2c39-11ee-91fe-4e7b8ce151d0">A</c><c xml:id="a5e24d34-2c39-11ee-91fe-4e7b8ce151d0">v</c><c xml:id="a5e24d0c-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e24ce4-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="a5e24cb2-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e24c94-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="a5e24c6c-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="a5e24c44-2c39-11ee-91fe-4e7b8ce151d0">H</c><c xml:id="a5e24c1c-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e24bf4-2c39-11ee-91fe-4e7b8ce151d0">r</c><lb break="no" n="4" /><supplied reason="lost"><c xml:id="a5e24e06-2c39-11ee-91fe-4e7b8ce151d0">m</c></supplied><c xml:id="a5e25054-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e2502c-2c39-11ee-91fe-4e7b8ce151d0">t</c><c xml:id="a5e24ffa-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e24fd2-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="a5e24faa-2c39-11ee-91fe-4e7b8ce151d0">m</c><c xml:id="a5e24f82-2c39-11ee-91fe-4e7b8ce151d0">e</c><c xml:id="a5e24f50-2c39-11ee-91fe-4e7b8ce151d0">d</c><c xml:id="a5e24f28-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e24f00-2c39-11ee-91fe-4e7b8ce151d0">c</c><c xml:id="a5e24ed8-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="a5e24eb0-2c39-11ee-91fe-4e7b8ce151d0"> </c><c xml:id="a5e24e7e-2c39-11ee-91fe-4e7b8ce151d0">c</c><c xml:id="a5e24e56-2c39-11ee-91fe-4e7b8ce151d0">o</c><c xml:id="a5e24e2e-2c39-11ee-91fe-4e7b8ce151d0">n</c><lb break="no" n="5" /><supplied reason="lost"><c xml:id="a5e251c6-2c39-11ee-91fe-4e7b8ce151d0">i</c><c xml:id="a5e25180-2c39-11ee-91fe-4e7b8ce151d0">u</c><c xml:id="a5e2513a-2c39-11ee-91fe-4e7b8ce151d0">g</c><c xml:id="a5e250ea-2c39-11ee-91fe-4e7b8ce151d0">i</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="a5e251ee-2c39-11ee-91fe-4e7b8ce151d0"> </c><lb n="6" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a5e2522a-2c39-11ee-91fe-4e7b8ce151d0">T</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><expan><abbr><c xml:id="a5e252e8-2c39-11ee-91fe-4e7b8ce151d0">X</c><c xml:id="a5e25298-2c39-11ee-91fe-4e7b8ce151d0">E</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a5e25310-2c39-11ee-91fe-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

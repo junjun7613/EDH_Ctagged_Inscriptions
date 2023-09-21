@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Solva &amp;ndash; Esztergom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037996</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037996</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Esztergom, Balassa B&#225;lint M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(156)</height><width>83</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-10.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197519">Solva</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053163">Esztergom</placeName><placeName type="findspot">Flur B&#225;nom, {sp&#228;tantike Nekropole}, Grab 221</placeName><placeName type="region">Kom&#225;rom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037996_1" sex="M"><persName><name type="cognomen">Asper</name></persName></person><person xml:id="HD037996_2" sex="M"><persName><name type="cognomen">Iucundus</name></persName></person><person xml:id="HD037996_3" sex="M"><persName><name type="cognomen">Talalnus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-15" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschriftfeld von rankenverzierten Pilastern eingefasst; dar&#252;ber Nische mit den B&#252;sten einer Frau, eines Mannes und eines Kindes; &#252;ber der Nische Hippokampen. Z. 1 befindet sich zwischen dem Inschriftfeld und dem Bildfeld.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1261.</bibl><bibl>TRHR (Suppl.) 117; Abb. 117 (Foto u. Zeichnung).</bibl><bibl>B. L&#337;rincz - M.H. Kelemen, Klio 79, 1997, 180-181, Nr. 2; Abb. 4. - AE 1997.</bibl><bibl>B. L&#337;rincz, Die r&#246;mischen Hilfstruppen in Pannonien w&#228;hrend der Prinzipatszeit 1. Die Inschriften (Wien 2001) 200, Nr. 139.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 289, Nr. 618.</bibl><bibl>Z. Mr&#225;v, AErt 13, 2006, 64; Abb. 23.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />Dis <expan><abbr>Manib</abbr><ex>us</ex></expan> sacrum </div><div n="2" type="textpart"><lb n="1" /> Asper <lb n="2" /><expan><abbr>eq</abbr><ex>ues</ex></expan> alae <lb n="3" /><expan><abbr>Hisp</abbr><ex>anorum</ex></expan> I <expan><abbr>Aurian</abbr><ex>ae</ex></expan> <lb n="4" />Iucundo Talal<lb break="no" n="5" />ni <expan><abbr>f</abbr><ex>ilio</ex></expan> <del rend="erasure">principi</del> civ<lb break="no" n="6" />itatis Azalior<lb break="no" n="7" />um patri vivo et <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

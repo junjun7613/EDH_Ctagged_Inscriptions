@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Borbetomagus (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075814</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075814</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Dom, Saliergruft, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>67</height><width>224</width><depth>82</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1907"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot">{Dom, Mittelschiff}, im 1. Joch vor der Ostvierung, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075814_1" sex="W"><persName><name type="nomen">Felicia*</name><name type="cognomen">Felicula*</name></persName></person><person xml:id="HD075814_2" sex="M"><persName><name type="nomen">Viatorius</name><name type="cognomen">Quintianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabr&#252;gge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Sarkophag befindet sich im Wormser Dom in der Saliergruft in Sekund&#228;rverwendung als Sarkophag f&#252;r Prinzessin Mathilde (&#10013; 1034), Tochter Kaiser Konrads II. Der heute auf dem Sarkophag befindliche Deckel ist nicht der originale, dieser k&#246;nnte die dann zu erg&#228;nzende Zeile &amp;apos;D(is) M(anibus)&amp;apos; getragen haben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11709a.</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus Worms und Umgebung, CSIR Deutschland 2, 10 (Mainz 1998) 113, Nr. 68; Taf. 70, 68.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="237db9f6-5843-11ee-8920-4e7b8ce151d1">
+</c><c xml:id="237db9d8-5843-11ee-8920-4e7b8ce151d1">F</c><c xml:id="237db9c4-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="237db9b0-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="237db992-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237db974-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="237db8fc-5843-11ee-8920-4e7b8ce151d1">i</c><expan><ex><c xml:id="237dba82-5843-11ee-8920-4e7b8ce151d1">a</c></ex><abbr><c xml:id="237dbad2-5843-11ee-8920-4e7b8ce151d1">e</c></abbr></expan><c xml:id="237dbb86-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="237dbb72-5843-11ee-8920-4e7b8ce151d1">F</c><c xml:id="237dbb54-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="237dbb40-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="237dbb2c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbb18-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="237dbb04-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dbae6-5843-11ee-8920-4e7b8ce151d1">l</c><expan><ex><c xml:id="237dbbe0-5843-11ee-8920-4e7b8ce151d1">a</c></ex><abbr><c xml:id="237dbc30-5843-11ee-8920-4e7b8ce151d1">e</c></abbr></expan><c xml:id="237dbcbc-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="237dbca8-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="237dbc8a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbc76-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="237dbc62-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="237dbc44-5843-11ee-8920-4e7b8ce151d1">o</c></line><line break="no" n="2"><c xml:id="237dbe4c-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="237dbe38-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbe24-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dbe06-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="237dbdf2-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="237dbdd4-5843-11ee-8920-4e7b8ce151d1">Q</c><c xml:id="237dbdc0-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dbdac-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbd8e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="237dbd7a-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="237dbd66-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbd48-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="237dbd34-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="237dbd16-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dbd02-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="237dbcee-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="237dc162-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="237dc144-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="237dc126-5843-11ee-8920-4e7b8ce151d1">&amp;</c><c xml:id="237dc108-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="237dc0ea-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="237dc0cc-5843-11ee-8920-4e7b8ce151d1">;</c><c xml:id="237dc0b8-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="237dc09a-5843-11ee-8920-4e7b8ce151d1">=</c><c xml:id="237dc07c-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="237dc068-5843-11ee-8920-4e7b8ce151d1">&amp;</c><c xml:id="237dc04a-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="237dc02c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="237dc00e-5843-11ee-8920-4e7b8ce151d1">;</c><c xml:id="237dbffa-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbfdc-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dbfc8-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="237dbfaa-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbf8c-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="237dbf78-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="237dbf5a-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="237dbf3c-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="237dbf28-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbf0a-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="237dbeec-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="237dbeba-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dbe9c-5843-11ee-8920-4e7b8ce151d1">m</c><expan><ex><c xml:id="237dc1ee-5843-11ee-8920-4e7b8ce151d1">a</c></ex><abbr><c xml:id="237dc22a-5843-11ee-8920-4e7b8ce151d1">e</c></abbr></expan><c xml:id="237dc23e-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="237dc2a2-5843-11ee-8920-4e7b8ce151d1">f</c></abbr><ex><c xml:id="237dc432-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="237dc400-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="237dc3ce-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dc39c-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="237dc36a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="237dc338-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="237dc306-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dc2d4-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="237dc450-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="237dc496-5843-11ee-8920-4e7b8ce151d1">c</c></abbr><ex><c xml:id="237dc5c2-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="237dc590-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="237dc55e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="237dc52c-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="237dc4fa-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="237dc4c8-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan><c xml:id="237dc5d6-5843-11ee-8920-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

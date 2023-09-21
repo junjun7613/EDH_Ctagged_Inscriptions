@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aelium Cetium, bei &amp;ndash; S. Leonhard/Forst (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011271</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011271</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Leonhard/Forst, S. Leonhard, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Marmor, ge&#228;dert / farbig</material><dimensions unit="cm"><height>(53)</height><width>(63)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118629">Aelium Cetium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1973"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/7871827">S. Leonhard/Forst</placeName><placeName type="findspot">{S. Leonhard, Pfarrkirche}, sekund&#228;r verwendet</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011271_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Cupitus</name></persName></person><person xml:id="HD011271_2" sex="W"><persName><name type="cognomen">Cupita+</name></persName></person><person xml:id="HD011271_3"><persName><name type="nomen">Aurelius/a*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-25" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: grauer Marmor. Im Giebelfeld oberhalb der Inschrift Herkules als Knabe, der Schlangen erw&#252;rgt. Ubl: Z. 1: Aur[el(ius)]; Z. 5: [sib(i) et]. (B): AE 1974: Z. 4/5: kein Zeilenfall.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1974, 0476. (B)</bibl><bibl>H. Ubl, AustrRom 24, 1974, 34-35, Nr. 1. - AE 1974.</bibl><bibl>H. Ubl, Die Skulpturen des Stadtgebietes von Aelium Cetium, CSIR &#214;sterreich 1, 6 (Wien 1979) 41, Nr. 28; Taf. 18, 28.</bibl><bibl>ILLPRON 0890.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="6aba80dc-2c39-11ee-8ac2-4e7b8ce151d0">D</c></abbr><ex><c xml:id="6aba81ae-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba815e-2c39-11ee-8ac2-4e7b8ce151d0">s</c></ex></expan><c xml:id="6aba81e0-2c39-11ee-8ac2-4e7b8ce151d0"> </c><expan><abbr><c xml:id="6aba8244-2c39-11ee-8ac2-4e7b8ce151d0">M</c></abbr><ex><c xml:id="6aba8406-2c39-11ee-8ac2-4e7b8ce151d0">a</c><c xml:id="6aba83b6-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="6aba8370-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba832a-2c39-11ee-8ac2-4e7b8ce151d0">b</c><c xml:id="6aba82e4-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba8294-2c39-11ee-8ac2-4e7b8ce151d0">s</c></ex></expan><c xml:id="6aba842e-2c39-11ee-8ac2-4e7b8ce151d0"> </c><expan><abbr><c xml:id="6aba851e-2c39-11ee-8ac2-4e7b8ce151d0">A</c><c xml:id="6aba84d8-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba8488-2c39-11ee-8ac2-4e7b8ce151d0">r</c></abbr><ex><c xml:id="6aba8690-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6aba864a-2c39-11ee-8ac2-4e7b8ce151d0">l</c><c xml:id="6aba8604-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba85b4-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba856e-2c39-11ee-8ac2-4e7b8ce151d0">s</c></ex></expan><c xml:id="6aba86ae-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="6aba87d0-2c39-11ee-8ac2-4e7b8ce151d0">C</c><c xml:id="6aba87b2-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba878a-2c39-11ee-8ac2-4e7b8ce151d0">p</c><c xml:id="6aba876c-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba8744-2c39-11ee-8ac2-4e7b8ce151d0">t</c><c xml:id="6aba8726-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba8708-2c39-11ee-8ac2-4e7b8ce151d0">s</c><c xml:id="6aba86e0-2c39-11ee-8ac2-4e7b8ce151d0"> </c><supplied reason="lost"><c xml:id="6aba8898-2c39-11ee-8ac2-4e7b8ce151d0">v</c><c xml:id="6aba8848-2c39-11ee-8ac2-4e7b8ce151d0">e</c></supplied><lb break="no" n="3" /><expan><abbr><c xml:id="6aba897e-2c39-11ee-8ac2-4e7b8ce151d0">t</c><c xml:id="6aba8938-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6aba88e8-2c39-11ee-8ac2-4e7b8ce151d0">r</c></abbr><ex><c xml:id="6aba8aaa-2c39-11ee-8ac2-4e7b8ce151d0">a</c><c xml:id="6aba8a64-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="6aba8a1e-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba89ce-2c39-11ee-8ac2-4e7b8ce151d0">s</c></ex></expan><c xml:id="6aba8bfe-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="6aba8be0-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6aba8bae-2c39-11ee-8ac2-4e7b8ce151d0">t</c><c xml:id="6aba8b86-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="6aba8b68-2c39-11ee-8ac2-4e7b8ce151d0">C</c><c xml:id="6aba8b40-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba8b18-2c39-11ee-8ac2-4e7b8ce151d0">p</c><c xml:id="6aba8afa-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba8ad2-2c39-11ee-8ac2-4e7b8ce151d0">t</c><supplied reason="lost"><c xml:id="6aba8c80-2c39-11ee-8ac2-4e7b8ce151d0">a</c></supplied><c xml:id="6aba8ca8-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="6aba8d98-2c39-11ee-8ac2-4e7b8ce151d0">c</c><c xml:id="6aba8d52-2c39-11ee-8ac2-4e7b8ce151d0">o</c><c xml:id="6aba8d0c-2c39-11ee-8ac2-4e7b8ce151d0">n</c></abbr><ex><c xml:id="6aba8ec4-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba8e7e-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba8e38-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="6aba8de8-2c39-11ee-8ac2-4e7b8ce151d0">x</c></ex></expan><c xml:id="6aba8ffa-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="6aba8fd2-2c39-11ee-8ac2-4e7b8ce151d0">v</c><c xml:id="6aba8faa-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba8f82-2c39-11ee-8ac2-4e7b8ce151d0">v</c><c xml:id="6aba8f5a-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba8f32-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="6aba8f0a-2c39-11ee-8ac2-4e7b8ce151d0">f</c><c xml:id="6aba8ee2-2c39-11ee-8ac2-4e7b8ce151d0">e</c><supplied reason="lost"><expan><abbr><c xml:id="6aba907c-2c39-11ee-8ac2-4e7b8ce151d0">c</c></abbr><ex><c xml:id="6aba91ee-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6aba91a8-2c39-11ee-8ac2-4e7b8ce151d0">r</c><c xml:id="6aba9162-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba9112-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="6aba90cc-2c39-11ee-8ac2-4e7b8ce151d0">t</c></ex></expan></supplied><c xml:id="6aba9216-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="5" /><supplied reason="lost"><c xml:id="6aba9432-2c39-11ee-8ac2-4e7b8ce151d0">s</c><c xml:id="6aba93ec-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba939c-2c39-11ee-8ac2-4e7b8ce151d0">b</c><c xml:id="6aba9356-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba9310-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="6aba92ca-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6aba927a-2c39-11ee-8ac2-4e7b8ce151d0">t</c></supplied><c xml:id="6aba9450-2c39-11ee-8ac2-4e7b8ce151d0"> </c><expan><abbr><c xml:id="6aba954a-2c39-11ee-8ac2-4e7b8ce151d0">A</c><c xml:id="6aba9504-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6aba94be-2c39-11ee-8ac2-4e7b8ce151d0">r</c></abbr><ex><c xml:id="6aba9676-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6aba9630-2c39-11ee-8ac2-4e7b8ce151d0">l</c><c xml:id="6aba95ea-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6aba95a4-2c39-11ee-8ac2-4e7b8ce151d0">-</c></ex></expan><c xml:id="6aba969e-2c39-11ee-8ac2-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="6aba96d0-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

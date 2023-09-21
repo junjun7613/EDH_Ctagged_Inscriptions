@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073138</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073138</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>172</height><width>75</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1883"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Legionslager}?</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073138_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cassius*</name><name type="cognomen">Florentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-09" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019578" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9fee013a-d64e-477a-9ce2-a175a80e39a0/file/id/779650/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Altar oder Basis? Die Oberfl&#228;che ist stark besch&#228;digt und nur schwer lesbar. Auf der corona befand sich wohl noch eine Weihung. Zeile 2: VTE-Ligatur; Zeile 9 VE- und TE-Ligatur; Zeile 10: NT- und VET-Ligatur; Zeile 12: TV-Ligatur. In Zeile 9 m&#246;glicherweise RE-Ligatur, jedoch auf dem Foto nicht eindeutig zu erkennen. In Zeile 3-6 befanden sich die Namen und Titel des Maximinus Thrax und des Maximus, jedoch ist unklar, in welcher Form. (B): CIL 03, 11189: Beginnt mit Zeile 2. Z. 2: Imp[p(eratorum)]; Z. 12: devotu[s]. (B): Kremer: Z. 8: col[l(egii)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11189. (B)</bibl><bibl>M.-L. Kr&#252;ger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR &#214;sterreich 1, 4 (Wien 1972) 38, Nr. 503; Taf. 37, 503.</bibl><bibl>G. Kremer, G&#246;tterdarstellungen, Kult- und Weihedenkm&#228;ler aus Carnuntum, CSIR &#214;sterreich Carnuntum (Suppl.) 1 (Wien 2012) 268-269, Nr. 618; Taf. 181, 618. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> pro salute <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>Imp</abbr><ex>eratorum</ex></expan> <lb n="0" />[<gap reason="lost" quantity="1" unit="line" />] <lb n="0" />[<gap reason="lost" quantity="1" unit="line" />] <lb n="0" />[<gap reason="lost" quantity="1" unit="line" />] <lb n="2" /><del rend="erasure"><gap reason="lost" extent="unknown" unit="character" /></del> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> to<lb break="no" n="3" />tiusque domus divi<lb break="no" n="4" />nae in honorem <expan><abbr>col</abbr><ex>legii</ex></expan> <lb n="5" /><expan><abbr>conveter</abbr><ex>anorum</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Cass</abbr><ex>ius</ex></expan> Flore<lb break="no" n="6" />ntinus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <expan><abbr>gem</abbr><ex>inae</ex></expan> <lb n="7" /><del rend="erasure">M<supplied reason="lost">aximini</supplied>anae</del> ex <expan><abbr>c</abbr><ex>ustode</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> <lb n="8" /><expan><abbr>mag</abbr><ex>ister</ex></expan> <expan><abbr>coll</abbr><ex>egii</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripti</ex></expan> devotus <lb n="9" />numini maies<surplus>s</surplus>tati</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

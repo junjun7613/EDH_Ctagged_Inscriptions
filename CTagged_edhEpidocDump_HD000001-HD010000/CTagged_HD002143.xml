@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Istrus &amp;ndash; Istria (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002143</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002143</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istria, Muzeul</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(85)</height><width>80</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216839">Istrus</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1924"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675471">Istria</placeName><placeName type="findspot">sp&#228;tantike Festung, {Kurtine k}, Tor IV, bei, sekund&#228;r verwendet</placeName><placeName type="region">Constan&#539;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002143_1" sex="W"><persName><name type="cognomen">Mama</name></persName></person><person xml:id="HD002143_2" sex="M"><persName><name type="cognomen">Dada+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): IScM, AE 1980: Z. 6: testamenti ave.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0800. (B)</bibl><bibl>IScM 1, 307; Foto. (B)</bibl><bibl>V. P&#226;rvan, Dacia 2, 1925, 238-240, Nr. 38; fig. 61; fig. 62 (Zeichnung) - AE 1983, AE 1984.</bibl><bibl>AE 1983, 0881.</bibl><bibl>S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 179, Nr. 203; Taf. 115, 1.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="2bc27b76-583c-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap><c xml:id="2bc27c16-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="2bc27c98-583c-11ee-a136-4e7b8ce151d1">M</c><c xml:id="2bc27c84-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc27c70-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="2bc27c52-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc27c3e-583c-11ee-a136-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap><c xml:id="2bc27cde-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc27cca-583c-11ee-a136-4e7b8ce151d1">D</c><c xml:id="2bc27cb6-583c-11ee-a136-4e7b8ce151d1">a</c><supplied reason="lost" cert="low"><c xml:id="2bc27da6-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="2bc27d74-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc27d38-583c-11ee-a136-4e7b8ce151d1">e</c></supplied><c xml:id="2bc27e00-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc27de2-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="2bc27dce-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2bc27dba-583c-11ee-a136-4e7b8ce151d1">b</c><supplied reason="lost"><c xml:id="2bc27ea0-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc27e6e-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="2bc27e3c-583c-11ee-a136-4e7b8ce151d1">t</c></supplied><c xml:id="2bc27ec8-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc27eb4-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="2bc28012-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="2bc27ffe-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc27fe0-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc27fcc-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="2bc27fb8-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2bc27fa4-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="2bc27f90-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2bc27f7c-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc27f68-583c-11ee-a136-4e7b8ce151d1">b</c><c xml:id="2bc27f4a-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc27f36-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="2bc27f22-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc27f0e-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc27efa-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="2bc27ee6-583c-11ee-a136-4e7b8ce151d1">e</c></line><line break="no" n="4"><c xml:id="2bc28102-583c-11ee-a136-4e7b8ce151d1">r</c><c xml:id="2bc280ee-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc280da-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="2bc280c6-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc280a8-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2bc28094-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc28080-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc28062-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2bc2804e-583c-11ee-a136-4e7b8ce151d1">t</c><expan><ex><c xml:id="2bc2815c-583c-11ee-a136-4e7b8ce151d1">u</c></ex><abbr><c xml:id="2bc281e8-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="2bc281b6-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2bc2818e-583c-11ee-a136-4e7b8ce151d1">m</c></abbr></expan><c xml:id="2bc28260-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc28242-583c-11ee-a136-4e7b8ce151d1">p</c><c xml:id="2bc2822e-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2bc28210-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2bc281fc-583c-11ee-a136-4e7b8ce151d1">u</c></line><line break="no" n="5"><c xml:id="2bc283f0-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2bc283d2-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc283b4-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc283a0-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="2bc28382-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc2836e-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc28350-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2bc28332-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2bc2831e-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2bc28300-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc282ec-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2bc282ce-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc282ba-583c-11ee-a136-4e7b8ce151d1">g</c><c xml:id="2bc2829c-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2bc28288-583c-11ee-a136-4e7b8ce151d1">n</c></line><line break="no" n="6"><c xml:id="2bc28486-583c-11ee-a136-4e7b8ce151d1">d</c><c xml:id="2bc28468-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2bc2844a-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="2bc2842c-583c-11ee-a136-4e7b8ce151d1"> </c><note>sic</note><c xml:id="2bc285ee-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc285d0-583c-11ee-a136-4e7b8ce151d1">v</c><c xml:id="2bc285b2-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2bc28594-583c-11ee-a136-4e7b8ce151d1">l</c><c xml:id="2bc28576-583c-11ee-a136-4e7b8ce151d1">u</c><c xml:id="2bc28558-583c-11ee-a136-4e7b8ce151d1">c</c><c xml:id="2bc2853a-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc28526-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc28508-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc284ea-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc284cc-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="2bc284ae-583c-11ee-a136-4e7b8ce151d1"> </c><note>sic</note><c xml:id="2bc2862a-583c-11ee-a136-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="2bc2879c-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc2877e-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc28760-583c-11ee-a136-4e7b8ce151d1">s</c><c xml:id="2bc28742-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc28724-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc28706-583c-11ee-a136-4e7b8ce151d1">m</c><c xml:id="2bc286e8-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc286ca-583c-11ee-a136-4e7b8ce151d1">n</c><c xml:id="2bc286ac-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc2868e-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2bc28670-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc28652-583c-11ee-a136-4e7b8ce151d1">a</c></line><line break="no" n="8"><c xml:id="2bc288d2-583c-11ee-a136-4e7b8ce151d1">v</c><c xml:id="2bc288b4-583c-11ee-a136-4e7b8ce151d1">e</c><c xml:id="2bc28896-583c-11ee-a136-4e7b8ce151d1"> </c><c xml:id="2bc28878-583c-11ee-a136-4e7b8ce151d1">v</c><c xml:id="2bc28850-583c-11ee-a136-4e7b8ce151d1">i</c><c xml:id="2bc28832-583c-11ee-a136-4e7b8ce151d1">a</c><c xml:id="2bc28814-583c-11ee-a136-4e7b8ce151d1">t</c><c xml:id="2bc287f6-583c-11ee-a136-4e7b8ce151d1">o</c><c xml:id="2bc287d8-583c-11ee-a136-4e7b8ce151d1">r</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

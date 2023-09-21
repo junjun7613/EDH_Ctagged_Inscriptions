@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from La Puebla de Cazalla, bei? (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031781</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031781</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Madrid, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(7)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.5-0.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0081" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">81 AD - 96 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">La Puebla de Cazalla, bei?</placeName><placeName type="findspot">Rancho de la Estaca?</placeName><placeName type="region">Sevilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-11-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Stadtrecht. Fundort: Gonz&#225;lez: Rancho de la Estaca (ca. 7 km s&#252;dlich von Puebla de Cazalla); Stylow; CIL II (2. Aufl.): Cerro de las Balas (10 km nord&#246;stlich von La Lantejuela). Datierung: wohl unter Domitian wie die Stadtgesetze der &#252;brigen flavischen Munizipien Hispaniens. 4 nicht aneinanderpassende Fragmente erhalten; Ma&#223;e beziehen sich auf Fragment b; Fragment a: (6) x (13,5) x 0,7 cm; Fragment c: (5) x (8) x 0,7 cm; Fragment d: (7) x (5,9) x 0,7 cm. Fragment c: Z. 1 (Ende): nach Gonz&#225;lez Fern&#225;ndez noch der Rest vom unteren Tel eines O von IVBETO erkennbar, doch l&#228;sst sich dies nicht mit der Zeilenordination in Einklang bringen, so dass es sich wohl um den Rest eines eines anderen Buchstabens handelt. CIL II (2. Aufl.): nur Fragment b. (B): Gonz&#225;lez Fern&#225;ndez; AE 1984: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 0896.</bibl><bibl>A. Stylow, in: J. Gonz&#225;lez (Hrsg.) Ciudades privilegiadas en el occidente romano (Sevilla 1994) 229-231; Foto. - AE 1999.</bibl><bibl>AE 2000, 0728.</bibl><bibl>CIL 02 (2. Aufl.) 05, 01120; Foto.</bibl><bibl>AE 1984, 0510. (B)</bibl><bibl>J. Gonz&#225;lez Fern&#225;ndez, SDHI 49, 1983, 395-399. (B) - AE 1984.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><supplied reason="lost">ut</supplied>i ii ea&amp;lt;e&amp;gt;ve <expan><abbr>p</abbr><ex>opulo</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <supplied reason="lost">obligati obligataeve essent si</supplied> <lb n="2" /><supplied reason="lost">apud e</supplied>os qui Romae aerario praeess<supplied reason="lost">ent ii praedes iique</supplied> <lb n="3" /><supplied reason="lost">cognitores</supplied> facti eaque praedia subd<supplied reason="lost">ita subsignata obli</supplied><lb break="no" n="4" /><supplied reason="lost">gatave esse</supplied>nt eosque praedes eaque <supplied reason="lost">praedia eosque</supplied> <lb n="5" /><supplied reason="lost">cognitores si qui</supplied>t <note>sic</note> eorum in <expan><abbr>qua</abbr><ex>e</ex></expan> cogni<supplied reason="lost">tores facti</supplied> <lb n="6" /><supplied reason="lost">erunt ita non erit q</supplied>ui <expan><abbr>quae</abbr><ex>ve</ex></expan> soluti libe<supplied reason="lost">rati soluta</supplied> <lb n="7" /><supplied reason="lost">liberataque non sunt</supplied> non erunt aut n<supplied reason="lost">on sine <expan><abbr>d</abbr><ex>olo</ex></expan> <expan><abbr>m</abbr><ex>alo</ex></expan> sunt</supplied> <lb n="8" /><supplied reason="lost">erunt IIviris qui ibi</supplied> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> p<supplied reason="lost">raeerunt ambobus <expan><abbr>alteri</abbr><ex>us</ex>ve</expan></supplied> <lb n="9" /><supplied reason="lost">eorum ex decurionum conscriptorumque decreto</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> uti ei qui eos praedes cognitores</supplied> <lb n="2" /><supplied reason="lost">ea praedia mercati erunt praedesque socii heredesque</supplied> <lb n="3" /><supplied reason="lost">eorum iique ad quos ea res pertinebit de</supplied> is rebus <supplied reason="lost">agere</supplied> <lb n="4" /><supplied reason="lost">easque res petere persequi recte pos</supplied>sint <lb n="5" /><supplied reason="lost"><expan><abbr>r</abbr><ex>ubrica</ex></expan> de multa quae dicta erit</supplied> <lb n="6" /><supplied reason="lost">multas in eo <expan><abbr>mun</abbr><ex>icipio</ex></expan> ab <expan><abbr>IIvir</abbr><ex>is</ex></expan> praefecto</supplied>ve dictas i<supplied reason="lost">tem ab aedilibus quas</supplied> <lb n="7" /><supplied reason="lost">aediles dixisse se aput! IIv</supplied><expan><abbr>ir</abbr><ex>os</ex></expan> ambo al<supplied reason="lost"><expan><abbr>ter</abbr><ex>um</ex>ve</expan> ex his professi</supplied> <lb n="8" /><supplied reason="lost">erunt IIvir qui <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>prae</abbr><ex>e</ex>rit</expan> i</supplied>n tabulas co<supplied reason="lost">mmunes muni</supplied><lb break="no" n="9" /><supplied reason="lost">cipum eius <expan><abbr>municipi</abbr><ex>i</ex></expan> refe</supplied>rri iubeto <supplied reason="lost">si is cui ea multa dicta</supplied> <lb n="10" /><supplied reason="lost">erit aut no</supplied>mine eiius <note>sic</note> ali<supplied reason="lost">us pos</supplied>tu<supplied reason="lost">labit ut de ea ad</supplied> <lb n="11" /><supplied reason="lost">decurio</supplied>nes conscriptosve <supplied reason="lost">referatur de ea decuri</supplied><lb break="no" n="12" /><supplied reason="lost">onum c</supplied>nscriptorumve <supplied reason="lost">iudicium esto quaeque</supplied> <lb n="13" /><supplied reason="lost">multae non</supplied> erunt iniustae d<supplied reason="lost">ecurionibus conscriptisve</supplied> <lb n="14" /><supplied reason="lost">iudicat</supplied>ae eas multa<supplied reason="lost">s IIviri in publicum muni</supplied><lb break="no" n="15" /><supplied reason="lost">cipum eius municipii redigunto</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><supplied reason="lost">per quem steterit quominus ita pecunia re</supplied><lb break="no" n="2" /><supplied reason="lost">digeretur referretur quove minus it</supplied>a ratione<supplied reason="lost">s redderen</supplied><lb break="no" n="3" /><supplied reason="lost">tur is per que</supplied>m steterit quom<supplied reason="lost">inus</supplied> rationes red<supplied reason="lost">deren</supplied><lb break="no" n="4" /><supplied reason="lost">tur quove minus</supplied> pecunia rediger<supplied reason="lost">etur</supplied> referretur <supplied reason="lost">heresque</supplied> <lb n="5" /><supplied reason="lost">eius isque ad q</supplied>uem <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>es</ex></expan> qua de agi<supplied reason="lost">tur</supplied> pertinebit <supplied reason="lost">quanti</supplied> <lb n="6" /><supplied reason="lost">ea res erit tant</supplied>um et alterum <supplied reason="lost">tantu</supplied>m muni<supplied reason="lost">cipibus eius muni</supplied><lb break="no" n="7" /><supplied reason="lost">cipii <expan><abbr>d</abbr><ex>are</ex></expan></supplied> <expan><abbr>d</abbr><ex>amnas</ex></expan> esto eiius<supplied reason="lost">que! pec</supplied>uniae de<supplied reason="lost">que ea pe</supplied><lb break="no" n="8" /><supplied reason="lost">cunia munici</supplied>pum mun<supplied reason="lost">icipii Flavi Bas</supplied>ilipone<supplied reason="lost">nsis qui volet</supplied> <lb n="9" /><supplied reason="lost">cuique per <expan><abbr>h</abbr><ex>anc</ex></expan> <expan><abbr>l</abbr><ex>egem</ex></expan> li</supplied>cebit <supplied reason="lost">actio petitio pe</supplied>rsecu<supplied reason="lost">tio esto</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

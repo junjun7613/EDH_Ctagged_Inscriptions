@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Maribor (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066505</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066505</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(159)</height><width>90</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1898"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3195506">Maribor</placeName><placeName type="findspot">{Stolnica}</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066505_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Primus</name></persName></person><person xml:id="HD066505_2" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">Sisiunis</name></persName></person><person xml:id="HD066505_3" sex="W"><persName><name type="nomen">Ulpia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-26" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL bietet nur 5 Zeilen und eine abweichende Textgestaltung von Z. 3-5.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 15206. (B)</bibl><bibl>AIJ 112; Zeichnung.</bibl><bibl>ILLPRON 1814.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="90395f44-2c3a-11ee-b679-4e7b8ce151d0">D</c></abbr><ex><c xml:id="9039603e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="90395fe4-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="90396070-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="903960de-2c3a-11ee-b679-4e7b8ce151d0">M</c></abbr><ex><c xml:id="903962a0-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="90396250-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="9039620a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="903961c4-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="9039617e-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="9039612e-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="903962c8-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="9039632c-2c3a-11ee-b679-4e7b8ce151d0">M</c></abbr><ex><c xml:id="9039649e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="90396458-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="90396408-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="903963c2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="9039637c-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="903965b6-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="9039658e-2c3a-11ee-b679-4e7b8ce151d0">U</c><c xml:id="90396570-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="90396548-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="9039652a-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="90396502-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="903964e4-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="903964bc-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="903967dc-2c3a-11ee-b679-4e7b8ce151d0">P</c><c xml:id="903967be-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="9039678c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9039675a-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="90396642-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="90396624-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="903965fc-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="90396912-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="903968c2-2c3a-11ee-b679-4e7b8ce151d0">n</c></abbr><ex><c xml:id="90396a98-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="90396a52-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="903969f8-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="903969b2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="90396962-2c3a-11ee-b679-4e7b8ce151d0">m</c></ex></expan><c xml:id="90396b38-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="90396b10-2c3a-11ee-b679-4e7b8ce151d0">L</c><c xml:id="90396ae8-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="90396ac0-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="90396c8c-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="90396c46-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="90396bf6-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="90396ba6-2c3a-11ee-b679-4e7b8ce151d0">t</c></abbr><ex><c xml:id="90396e4e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="90396dfe-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="90396db8-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="90396d72-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="90396d2c-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="90396cdc-2c3a-11ee-b679-4e7b8ce151d0">o</c></ex></expan><c xml:id="90396e76-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="90396f84-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="90396f34-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="90396ee4-2c3a-11ee-b679-4e7b8ce151d0">n</c></abbr><ex><c xml:id="90396fd4-2c3a-11ee-b679-4e7b8ce151d0">i</c></ex></expan><c xml:id="9039706a-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="90397042-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9039701a-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="90396ff2-2c3a-11ee-b679-4e7b8ce151d0">s</c><expan><ex><c xml:id="903970e2-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex><abbr><c xml:id="90397178-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="90397132-2c3a-11ee-b679-4e7b8ce151d0">t</c></abbr></expan><c xml:id="903971a0-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="5" /><c xml:id="903974de-2c3a-11ee-b679-4e7b8ce151d0">U</c><c xml:id="903974ac-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="90397484-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="9039745c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="90397434-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="9039740c-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="903973e4-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="903973bc-2c3a-11ee-b679-4e7b8ce151d0">S</c><c xml:id="90397394-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9039736c-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="90397344-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="90397312-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="903972e0-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="90397286-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9039720e-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="6" /><c xml:id="903975e2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="903975b0-2c3a-11ee-b679-4e7b8ce151d0">x</c><c xml:id="90397588-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="90397556-2c3a-11ee-b679-4e7b8ce151d0">r</c><supplied reason="lost"><c xml:id="90397768-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="90397722-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="903976dc-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="90397682-2c3a-11ee-b679-4e7b8ce151d0">t</c></supplied><c xml:id="90397858-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="90397826-2c3a-11ee-b679-4e7b8ce151d0">U</c><c xml:id="903977f4-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="903977cc-2c3a-11ee-b679-4e7b8ce151d0">p</c><c xml:id="90397790-2c3a-11ee-b679-4e7b8ce151d0">i</c><supplied reason="lost"><c xml:id="90397916-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="903978d0-2c3a-11ee-b679-4e7b8ce151d0">e</c></supplied><c xml:id="9039793e-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

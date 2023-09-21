@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum, bei &amp;ndash; Pilissz&#225;nt&#243; (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038744</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038744</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(190)</height><width>77</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3046345">Pilissz&#225;nt&#243;</placeName><placeName type="findspot">Weinberg, sp&#228;tantikes Steinkistengrab, sekund&#228;r verwendet</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038744_1" sex="W"><persName><name type="cognomen">Ve[--]rienda</name></persName></person><person xml:id="HD038744_2" sex="M"><persName><name type="cognomen">Tertius</name></persName></person><person xml:id="HD038744_3" sex="M"><persName><name type="cognomen">Valerinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung f&#252;r ein sp&#228;tantikes Grab. Oberhalb des Inschriftfeldes Darstellung eines Ehepaars. Z. 1: D und M befinden sich auf dem Rahmen links und rechts oberhalb des Inschriftfeldes. Z. 2: m&#246;glicherweise auch Verienda, falls die L&#252;cke zwischen E und R bereits auf eine antike Besch&#228;digung zur&#252;ckgeht, auf die der Steinmetz R&#252;cksicht nahm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0948; Abb. 948 (Foto u. Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="bb9a3988-5840-11ee-8e0b-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="bb9a39e2-5840-11ee-8e0b-4e7b8ce151d1">D</c></abbr><ex><c xml:id="bb9a3a50-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a3a1e-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="bb9a3a6e-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a3aaa-5840-11ee-8e0b-4e7b8ce151d1">M</c></abbr><ex><c xml:id="bb9a3bc2-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="bb9a3b90-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="bb9a3b68-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a3b36-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="bb9a3b0e-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a3adc-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="bb9a3bd6-5840-11ee-8e0b-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="bb9a3c1c-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a3c08-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="bb9a3bf4-5840-11ee-8e0b-4e7b8ce151d1">e</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="bb9a3cee-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="bb9a3cda-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a3cc6-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="bb9a3cb2-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="bb9a3c9e-5840-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="bb9a3c94-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="bb9a3c80-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a3c6c-5840-11ee-8e0b-4e7b8ce151d1">T</c><c xml:id="bb9a3c58-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="bb9a3c44-5840-11ee-8e0b-4e7b8ce151d1">r</c></line><line break="no" n="2"><c xml:id="bb9a3d48-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="bb9a3d34-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a3d20-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a3d8e-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="bb9a3e42-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a3e1a-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="bb9a3de8-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a3dc0-5840-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="bb9a3e56-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a3ec4-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="bb9a3e92-5840-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="bb9a3fa0-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="bb9a3f78-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="bb9a3f46-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="bb9a3f1e-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a3ef6-5840-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="bb9a3ffa-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a3fe6-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="bb9a3fd2-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="bb9a3fb4-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a4040-5840-11ee-8e0b-4e7b8ce151d1">h</c></abbr><ex><c xml:id="bb9a409a-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a4072-5840-11ee-8e0b-4e7b8ce151d1">c</c></ex></expan><c xml:id="bb9a40ae-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a40ea-5840-11ee-8e0b-4e7b8ce151d1">s</c></abbr><ex><c xml:id="bb9a4176-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a4144-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="bb9a411c-5840-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="bb9a418a-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a41c6-5840-11ee-8e0b-4e7b8ce151d1">e</c></abbr><ex><c xml:id="bb9a4220-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="bb9a41f8-5840-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan><c xml:id="bb9a4234-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="bb9a4270-5840-11ee-8e0b-4e7b8ce151d1">t</c></abbr><ex><c xml:id="bb9a437e-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a4356-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="bb9a4324-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a42fc-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="bb9a42ca-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a42a2-5840-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="bb9a4392-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="bb9a43ce-5840-11ee-8e0b-4e7b8ce151d1">p</c></abbr><ex><c xml:id="bb9a44b4-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="bb9a448c-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="bb9a445a-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a4432-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a4400-5840-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan><c xml:id="bb9a4568-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a4554-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="bb9a4540-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="bb9a4522-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="bb9a450e-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="bb9a44fa-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="bb9a44dc-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a44c8-5840-11ee-8e0b-4e7b8ce151d1">n</c></line><line break="no" n="4"><c xml:id="bb9a46bc-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a469e-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="bb9a468a-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a466c-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="bb9a4658-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a4644-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="bb9a4626-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a4612-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a45f4-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="bb9a45e0-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a45cc-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="bb9a45ae-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="bb9a459a-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="bb9a47de-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="bb9a47ca-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="bb9a47ac-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="bb9a478e-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="bb9a477a-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="bb9a475c-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="bb9a4748-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="bb9a472a-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="bb9a470c-5840-11ee-8e0b-4e7b8ce151d1">g</c><c xml:id="bb9a46f8-5840-11ee-8e0b-4e7b8ce151d1">i</c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

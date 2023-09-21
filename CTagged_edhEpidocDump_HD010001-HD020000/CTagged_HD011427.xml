@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mursa &amp;ndash; Osijek (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011427</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011427</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osijek, Muz. Slav. Osijek</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(19)</height><width>(19)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197389">Mursa</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3193935">Osijek</placeName><placeName type="findspot">{Vukovarska ulica}?</placeName><placeName type="region">Osje&#269;ko-baranjska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011427_1" sex="W"><persName><name type="nomen">[---]lia+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1974: Z. 1/2, 2/3, 4/5: Zeilenfall nicht angegeben; Bulat - Pinterovi&#263;: Z. 4 (Ende): Aur(elius?) [---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1974, 0533. (B)</bibl><bibl>ILJug 1068.</bibl><bibl>M. Bulat - D. Pinterovi&#263;, OsjZbor 11, 1967, 88-89. 92, Nr. 4; sl. 4. (B) - AE 1974.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="a21aef92-583c-11ee-a8fa-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /></line><line break="no" n="1"><c xml:id="a21aeff6-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="a21aefe2-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="a21aefce-583c-11ee-a8fa-4e7b8ce151d1">a</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a21af01e-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="a21af078-583c-11ee-a8fa-4e7b8ce151d1">P</c><c xml:id="a21af064-583c-11ee-a8fa-4e7b8ce151d1">R</c><c xml:id="a21af050-583c-11ee-a8fa-4e7b8ce151d1">O</c><c xml:id="a21af03c-583c-11ee-a8fa-4e7b8ce151d1">L</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a21af096-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="a21af0fa-583c-11ee-a8fa-4e7b8ce151d1">P</c><c xml:id="a21af0e6-583c-11ee-a8fa-4e7b8ce151d1">R</c><c xml:id="a21af0d2-583c-11ee-a8fa-4e7b8ce151d1">O</c><c xml:id="a21af0b4-583c-11ee-a8fa-4e7b8ce151d1">C</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a21af118-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost" cert="low"><c xml:id="a21af168-583c-11ee-a8fa-4e7b8ce151d1">-</c></supplied><c xml:id="a21af1b8-583c-11ee-a8fa-4e7b8ce151d1">V</c><c xml:id="a21af1a4-583c-11ee-a8fa-4e7b8ce151d1">M</c><c xml:id="a21af190-583c-11ee-a8fa-4e7b8ce151d1">A</c><c xml:id="a21af17c-583c-11ee-a8fa-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="a21af1e0-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="a21af280-583c-11ee-a8fa-4e7b8ce151d1">p</c><c xml:id="a21af26c-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="a21af258-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="a21af244-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="a21af226-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="a21af212-583c-11ee-a8fa-4e7b8ce151d1">t</c><c xml:id="a21af1fe-583c-11ee-a8fa-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="a21af334-583c-11ee-a8fa-4e7b8ce151d1">b</c><c xml:id="a21af302-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="a21af2d0-583c-11ee-a8fa-4e7b8ce151d1">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

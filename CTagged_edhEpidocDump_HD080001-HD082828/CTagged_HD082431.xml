@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ch&#226;tillon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082431</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082431</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Fribourg, Mus. Art Hist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/8533338">Ch&#226;tillon</placeName><placeName type="findspot" /><placeName type="region">&#201;tat de Fribourg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082431_1" sex="M"><persName><name type="cognomen">[---]ilus?</name></persName></person><person xml:id="HD082431_2" sex="W"><persName><name type="cognomen">[---]icisia?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-30" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031334" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/831e95a3-3f84-45c6-a7ac-1dbad259f648/file/id/792095/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 (Anfang): vor L noch eine senkrechte Haste erhalten. Z. 2 (Anfang): vor C noch eine senkrechte Haste erhalten. Z. 4 (Anfang): vor D spatium und davor noch das rechte Ende vom unteren cornu einer senkrechten Haste erhalten. (B): Ewald: Z. 2: [---]cisia; Z. 4: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Ewald, Pal&#228;o- und epigraphische Untersuchungen an den r&#246;mischen Steinschriften der Schweiz (Liestal 1974) 127, Nr. 1. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="d561c1f6-2c3a-11ee-87bb-4e7b8ce151d0">I</c></abbr><ex cert="low" /><c xml:id="d561c2aa-2c3a-11ee-87bb-4e7b8ce151d0">l</c><c xml:id="d561c282-2c3a-11ee-87bb-4e7b8ce151d0">u</c><c xml:id="d561c25a-2c3a-11ee-87bb-4e7b8ce151d0">s</c></expan><c xml:id="d561c2e6-2c3a-11ee-87bb-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d561c318-2c3a-11ee-87bb-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="d561c37c-2c3a-11ee-87bb-4e7b8ce151d0">I</c></abbr><ex cert="low" /><c xml:id="d561c426-2c3a-11ee-87bb-4e7b8ce151d0">c</c><c xml:id="d561c408-2c3a-11ee-87bb-4e7b8ce151d0">i</c><c xml:id="d561c3ea-2c3a-11ee-87bb-4e7b8ce151d0">s</c><c xml:id="d561c3cc-2c3a-11ee-87bb-4e7b8ce151d0">i</c><c xml:id="d561c3ae-2c3a-11ee-87bb-4e7b8ce151d0">a</c></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d561c462-2c3a-11ee-87bb-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="d561c4c6-2c3a-11ee-87bb-4e7b8ce151d0">f</c></supplied><c xml:id="d561c57a-2c3a-11ee-87bb-4e7b8ce151d0">e</c><c xml:id="d561c552-2c3a-11ee-87bb-4e7b8ce151d0">c</c><c xml:id="d561c534-2c3a-11ee-87bb-4e7b8ce151d0">i</c><c xml:id="d561c50c-2c3a-11ee-87bb-4e7b8ce151d0">t</c><c xml:id="d561c4ee-2c3a-11ee-87bb-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d561c5b6-2c3a-11ee-87bb-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="d561c61a-2c3a-11ee-87bb-4e7b8ce151d0">I</c></abbr><ex cert="low" /></expan><c xml:id="d561c6a6-2c3a-11ee-87bb-4e7b8ce151d0"> </c><c xml:id="d561c688-2c3a-11ee-87bb-4e7b8ce151d0">D</c><c xml:id="d561c660-2c3a-11ee-87bb-4e7b8ce151d0">V</c><c xml:id="d561c642-2c3a-11ee-87bb-4e7b8ce151d0">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d561c6e2-2c3a-11ee-87bb-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

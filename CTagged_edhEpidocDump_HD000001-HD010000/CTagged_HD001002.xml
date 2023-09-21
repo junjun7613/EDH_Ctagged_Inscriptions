@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Astigi &amp;ndash; &#201;cija (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001002</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001002</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>&#201;cija, Museo Parroquial de Santa Mar&#237;a; verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(65)</height><width>32</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/255996">Astigi</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2518770">&#201;cija</placeName><placeName type="findspot" /><placeName type="region">Sevilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001002_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Lusander+</name></persName></person><person xml:id="HD001002_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Pacata+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-10" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Stele ehemals in 3 Teile gebrochen, von denen heute 2 verschollen sind. Material: rosa Kalkstein. M(arci) f(ilia) Pacat[a]; Gonz&#225;les: Z. 4: Luxor h(ic) s(ita) e(st); AE 1982: Z. 4: [---?] h(ic) s(ita) e(st); Gonz&#225;les: in f(ronte) p(edes) XIIII / [in a(gro) p(edes) XIII]; AE 1982: in f(ronte) p(edes) XIIII / [in a(gro) p(edes) ---]. XIIII / [in a(gro) p(edes) ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0529. (B)</bibl><bibl>J. Gonz&#225;lez Fern&#225;ndez, in: Homenaje a Conchita Fern&#225;ndez Chicarro (Madrid 1982) 372-373, Nr. 7; fig. 4. (B) - AE 1982.</bibl><bibl>CIL 02 (2. Aufl.) 05, 01230.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="e3716292-583b-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="e3716346-583b-11ee-a136-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="e3716364-583b-11ee-a136-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><expan><abbr><c xml:id="e37163b4-583b-11ee-a136-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><expan><abbr><c xml:id="e37163f0-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="e37164d6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e37164ae-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="e371647c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716454-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e3716422-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="e37164f4-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="e3716562-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="e371654e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e371653a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="e3716526-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e3716512-583b-11ee-a136-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="e3716602-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="e37165da-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e37165a8-583b-11ee-a136-4e7b8ce151d1">r</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="e3716616-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="e3716652-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="e3716706-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e37166d4-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e37166ac-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="e3716684-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="e371671a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e371674c-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="e3716800-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e37167d8-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="e37167b0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e371677e-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="e3716882-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e371686e-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="e371685a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e3716846-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="e3716828-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e3716814-583b-11ee-a136-4e7b8ce151d1">t</c><supplied reason="lost"><c xml:id="e37168fa-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="e37168d2-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr>ann</abbr><ex>orum</ex></expan></supplied><c xml:id="e371690e-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="e37169ae-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="e371699a-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e3716986-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="e3716972-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="e371695e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="e3716940-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e371692c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e37169fe-583b-11ee-a136-4e7b8ce151d1">h</c></abbr><ex><c xml:id="e3716a58-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716a30-583b-11ee-a136-4e7b8ce151d1">c</c></ex></expan><c xml:id="e3716a6c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3716aa8-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="e3716b34-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716b02-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="e3716ada-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="e3716b52-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3716b8e-583b-11ee-a136-4e7b8ce151d1">e</c></abbr><ex><c xml:id="e3716be8-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="e3716bb6-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="e3716bfc-583b-11ee-a136-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="e3716c38-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="e3716c92-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716c6a-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="e3716ca6-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3716ce2-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="e3716d64-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716d3c-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="e3716d0a-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="e3716d78-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3716db4-583b-11ee-a136-4e7b8ce151d1">t</c></abbr><ex><c xml:id="e3716e5e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e3716e36-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e3716e04-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e3716ddc-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="e3716e72-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3716ea4-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="e3716f58-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e3716f30-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="e3716efe-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716ed6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="e3716f6c-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="e3716fbc-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3716fa8-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e3716f8a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3717002-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="e37170de-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e37170ac-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="e3717084-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e371705c-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="e3717034-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="e37170f2-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e371712e-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="e37171e2-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e37171ba-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="e3717188-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e3717160-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="e37172b4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e37172a0-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="e3717282-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="e3717264-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="e3717246-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="e3717232-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="e3717214-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="e37171f6-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e3717304-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex><c xml:id="e3717390-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="e371735e-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="e3717336-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="e37173a4-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="e37173e0-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="e3717494-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e3717462-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="e371743a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="e3717412-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="e37174a8-583b-11ee-a136-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

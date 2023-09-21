@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Salvium &amp;ndash; Glamo&#269; (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056171</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056171</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(54)</height><width>(42)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197491">Municipium Salvium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3259928">Glamo&#269;</placeName><placeName type="findspot">{Vrba}, fr&#252;hchristliche Kirche</placeName><placeName type="region">Hercegbosanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056171_1" sex="M"><persName><name type="nomen">Mucius+</name><name type="cognomen">Super</name></persName></person><person xml:id="HD056171_2" sex="W"><persName><name type="nomen">Mucia</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-20" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeilenlinien f&#252;r die Beschriftung. Buchstabe A mit spitz nach unten zeigender Querhaste. Erg&#228;nzungsvorschlag nach Bojanovski. Z. 1/2: m&#246;glicherweise auch Sura Muci / [fil(ia)] super vixit. (B): &#352;kegro: Abweichungen bei der Angabe der Zeilenf&#228;lle.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>I. Bojanovski, GlasSarajevo 37, 1982, 23-24, Nr. 16; sl. 12.</bibl><bibl>A. &#352;kegro, OpuscArchZagreb 21, 1997, 96, Nr. 75. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="4fdcd660-2c3a-11ee-97a0-4e7b8ce151d0">S</c><c xml:id="4fdcd642-2c3a-11ee-97a0-4e7b8ce151d0">V</c><c xml:id="4fdcd61a-2c3a-11ee-97a0-4e7b8ce151d0">R</c><c xml:id="4fdcd5fc-2c3a-11ee-97a0-4e7b8ce151d0">A</c><c xml:id="4fdcd5de-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdcd5c0-2c3a-11ee-97a0-4e7b8ce151d0">M</c><c xml:id="4fdcd598-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fdcd566-2c3a-11ee-97a0-4e7b8ce151d0">c</c><c xml:id="4fdcd502-2c3a-11ee-97a0-4e7b8ce151d0">i</c><lb break="no" n="2" /><supplied reason="lost"><c xml:id="4fdcd750-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fdcd700-2c3a-11ee-97a0-4e7b8ce151d0">s</c></supplied><c xml:id="4fdcd91c-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdcd8f4-2c3a-11ee-97a0-4e7b8ce151d0">S</c><c xml:id="4fdcd8d6-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fdcd8ae-2c3a-11ee-97a0-4e7b8ce151d0">p</c><c xml:id="4fdcd890-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fdcd868-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fdcd84a-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdcd82c-2c3a-11ee-97a0-4e7b8ce151d0">v</c><c xml:id="4fdcd804-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fdcd7e6-2c3a-11ee-97a0-4e7b8ce151d0">x</c><c xml:id="4fdcd7be-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fdcd7a0-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="4fdcd778-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="3" /><supplied reason="lost"><expan><abbr><c xml:id="4fdcda02-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fdcd9b2-2c3a-11ee-97a0-4e7b8ce151d0">n</c></abbr><ex><c xml:id="4fdcdafc-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fdcdaac-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="4fdcda5c-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="4fdcdb24-2c3a-11ee-97a0-4e7b8ce151d0"> </c><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="4fdcdc5a-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="4fdcdc32-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="4fdcdc0a-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="4fdcdbe2-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdcdbc4-2c3a-11ee-97a0-4e7b8ce151d0">m</c><c xml:id="4fdcdb9c-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fdcdb74-2c3a-11ee-97a0-4e7b8ce151d0">m</c><c xml:id="4fdcdb4c-2c3a-11ee-97a0-4e7b8ce151d0">o</c><lb break="no" n="4" /><supplied reason="lost"><c xml:id="4fdcde4e-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fdcde08-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fdcddb8-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fdcdd72-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fdcdd22-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdcdcd2-2c3a-11ee-97a0-4e7b8ce151d0">p</c></supplied><c xml:id="4fdcdf3e-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fdcdf16-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fdcdeee-2c3a-11ee-97a0-4e7b8ce151d0">p</c><c xml:id="4fdcdec6-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fdcde9e-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="4fdcde6c-2c3a-11ee-97a0-4e7b8ce151d0">u</c><lb break="no" n="5" /><supplied reason="lost" cert="low"><c xml:id="4fdce29a-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fdce254-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fdce20e-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdce1be-2c3a-11ee-97a0-4e7b8ce151d0">p</c><c xml:id="4fdce178-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="4fdce132-2c3a-11ee-97a0-4e7b8ce151d0">s</c><c xml:id="4fdce0e2-2c3a-11ee-97a0-4e7b8ce151d0">(</c><c xml:id="4fdce09c-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fdce04c-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fdce006-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="4fdcdfb6-2c3a-11ee-97a0-4e7b8ce151d0">)</c></supplied><c xml:id="4fdce3b2-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdce38a-2c3a-11ee-97a0-4e7b8ce151d0">M</c><c xml:id="4fdce362-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fdce33a-2c3a-11ee-97a0-4e7b8ce151d0">c</c><c xml:id="4fdce312-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fdce2ea-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fdce2c2-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="6" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="4fdce402-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="4fdce4b6-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fdce470-2c3a-11ee-97a0-4e7b8ce151d0">n</c></abbr><ex><c xml:id="4fdce628-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fdce5e2-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="4fdce59c-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fdce556-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fdce506-2c3a-11ee-97a0-4e7b8ce151d0">m</c></ex></expan><c xml:id="4fdce6fa-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fdce6d2-2c3a-11ee-97a0-4e7b8ce151d0">L</c><c xml:id="4fdce6a0-2c3a-11ee-97a0-4e7b8ce151d0">X</c><c xml:id="4fdce678-2c3a-11ee-97a0-4e7b8ce151d0">V</c><c xml:id="4fdce650-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

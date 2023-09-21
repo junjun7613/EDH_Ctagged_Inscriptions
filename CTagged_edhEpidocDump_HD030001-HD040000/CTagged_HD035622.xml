@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Beograd, Sopot (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035622</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035622</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(74)</height><width>(51)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/790109">Beograd, Sopot</placeName><placeName type="findspot">{Guberevac}, Haus des Mateja Mili&#263;, sekund&#228;r verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035622_1" sex="W"><persName ref="http://romans1by1.com/rpeople/10461"><name type="nomen">Valeria*</name><name type="cognomen">Venusta</name></persName></person><person xml:id="HD035622_2" sex="M"><persName ref="http://romans1by1.com/rpeople/10462"><name type="cognomen">Demetrius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Vuli&#263;: Z. 4: [Dem]etrius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 1, 133; Zeichnung.</bibl><bibl>N. Vuli&#263;, J&#338;AI (Beibl.) 13, 1910, 222, Nr. 37; Fig. 133. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="d66cfd14-2c39-11ee-a36e-4e7b8ce151d0">D</c></abbr><ex><c xml:id="d66cfe36-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d66cfdd2-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d66cfe5e-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d66cfecc-2c39-11ee-a36e-4e7b8ce151d0">M</c></abbr><ex><c xml:id="d66d048a-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d66d0412-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d66d0282-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d66cffd0-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d66cff76-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d66cff26-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d66d04ee-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="d66d0638-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d66d05de-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d66d0584-2c39-11ee-a36e-4e7b8ce151d0">l</c></abbr><ex><c xml:id="d66d0796-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d66d0746-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d66d06ec-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d66d069c-2c39-11ee-a36e-4e7b8ce151d0">a</c></ex></expan><c xml:id="d66d08e0-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d66d08c2-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d66d089a-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d66d087c-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d66d0854-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d66d0836-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d66d080e-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d66d07e6-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d66d07be-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="3" /><expan><abbr><c xml:id="d66d0a0c-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="d66d09bc-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d66d096c-2c39-11ee-a36e-4e7b8ce151d0">x</c></abbr><ex><c xml:id="d66d0ac0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d66d0a70-2c39-11ee-a36e-4e7b8ce151d0">t</c></ex></expan><c xml:id="d66d0ae8-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d66d0b9c-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d66d0b4c-2c39-11ee-a36e-4e7b8ce151d0">n</c></abbr><ex><c xml:id="d66d0c96-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d66d0c46-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d66d0bf6-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan><c xml:id="d66d0d54-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d66d0d36-2c39-11ee-a36e-4e7b8ce151d0">L</c><c xml:id="d66d0d0e-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="d66d0ce6-2c39-11ee-a36e-4e7b8ce151d0">X</c><c xml:id="d66d0cbe-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><supplied reason="lost"><c xml:id="d66d0e26-2c39-11ee-a36e-4e7b8ce151d0">D</c><c xml:id="d66d0dd6-2c39-11ee-a36e-4e7b8ce151d0">e</c></supplied><c xml:id="d66d0f16-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="d66d0eee-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d66d0ec6-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d66d0e9e-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d66d0e76-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d66d0e4e-2c39-11ee-a36e-4e7b8ce151d0">u</c><supplied reason="lost"><c xml:id="d66d0f8e-2c39-11ee-a36e-4e7b8ce151d0">s</c></supplied><c xml:id="d66d0fb6-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

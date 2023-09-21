@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Abodiacum &amp;ndash; Epfach (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058439</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058439</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187242">Abodiacum</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1750"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2929874">Epfach</placeName><placeName type="findspot">{S. Lorenz, Kapelle}, sekund&#228;r verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058439_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Vehemens+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-14" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Nur handschriftlich &#252;berliefert. Z. 3: statt X? auch XIII? oder XIV? m&#246;glich. Z. 6: Lesung offenbar unsicher. Grabinschrift? Dann auch anderer Kasus in der Erg&#228;nzung m&#246;glich. (B): Kraft: Z. 3: trib(unus) mili[tum]</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 088.</bibl><bibl>CIL 03, 05778.</bibl><bibl>K. Kraft, in: H. Castritius - D. Kienast (Hrsg.), Konrad Kraft. Gesammelte Aufs&#228;tze zur antiken Geschichte und Milit&#228;rgeschichte (Darmstadt 1973) 245, Nr. 7. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="4fbb0012-2c3a-11ee-97a0-4e7b8ce151d0">T</c><c xml:id="4fbaff5e-2c3a-11ee-97a0-4e7b8ce151d0">i</c></abbr><ex><c xml:id="4fbb0210-2c3a-11ee-97a0-4e7b8ce151d0">b</c><c xml:id="4fbb01ac-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb0166-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fbb0116-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb00c6-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb0076-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="4fbb0242-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="4fbb0300-2c3a-11ee-97a0-4e7b8ce151d0">C</c><c xml:id="4fbb02b0-2c3a-11ee-97a0-4e7b8ce151d0">l</c></abbr><ex><c xml:id="4fbb04cc-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb047c-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb0436-2c3a-11ee-97a0-4e7b8ce151d0">d</c><c xml:id="4fbb03f0-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb03a0-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb035a-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="4fbb04f4-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="4fbb059e-2c3a-11ee-97a0-4e7b8ce151d0">T</c><c xml:id="4fbb054e-2c3a-11ee-97a0-4e7b8ce151d0">i</c></abbr><ex><c xml:id="4fbb06ca-2c3a-11ee-97a0-4e7b8ce151d0">b</c><c xml:id="4fbb0684-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb0634-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fbb05ee-2c3a-11ee-97a0-4e7b8ce151d0">i</c></ex></expan><c xml:id="4fbb06e8-2c3a-11ee-97a0-4e7b8ce151d0"> </c><supplied reason="lost"><expan><abbr><c xml:id="4fbb07e2-2c3a-11ee-97a0-4e7b8ce151d0">f</c><c xml:id="4fbb079c-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb074c-2c3a-11ee-97a0-4e7b8ce151d0">l</c></abbr><ex><c xml:id="4fbb08d2-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb0882-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb083c-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="4fbb08fa-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="4fbb0990-2c3a-11ee-97a0-4e7b8ce151d0">V</c><c xml:id="4fbb0968-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb094a-2c3a-11ee-97a0-4e7b8ce151d0">h</c><c xml:id="4fbb0922-2c3a-11ee-97a0-4e7b8ce151d0">e</c><supplied reason="lost" cert="low"><c xml:id="4fbb0aee-2c3a-11ee-97a0-4e7b8ce151d0">m</c><c xml:id="4fbb0a9e-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb0a58-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb0a08-2c3a-11ee-97a0-4e7b8ce151d0">s</c></supplied><c xml:id="4fbb0b0c-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="3" /><expan><abbr><supplied reason="lost"><c xml:id="4fbb0b70-2c3a-11ee-97a0-4e7b8ce151d0">t</c></supplied><c xml:id="4fbb0bde-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fbb0bb6-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb0b98-2c3a-11ee-97a0-4e7b8ce151d0">b</c></abbr><ex><c xml:id="4fbb0d28-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb0ce2-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb0c9c-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb0c4c-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="4fbb0d50-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="4fbb0e4a-2c3a-11ee-97a0-4e7b8ce151d0">m</c><c xml:id="4fbb0e04-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb0db4-2c3a-11ee-97a0-4e7b8ce151d0">l</c></abbr><ex><c xml:id="4fbb0f76-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb0f30-2c3a-11ee-97a0-4e7b8ce151d0">t</c><c xml:id="4fbb0eea-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="4fbb0e9a-2c3a-11ee-97a0-4e7b8ce151d0">m</c></ex></expan><c xml:id="4fbb0f9e-2c3a-11ee-97a0-4e7b8ce151d0"> </c><supplied reason="lost" cert="low"><c xml:id="4fbb130e-2c3a-11ee-97a0-4e7b8ce151d0">l</c><c xml:id="4fbb12c8-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb1282-2c3a-11ee-97a0-4e7b8ce151d0">g</c><c xml:id="4fbb123c-2c3a-11ee-97a0-4e7b8ce151d0">(</c><c xml:id="4fbb11f6-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb11b0-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="4fbb116a-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb111a-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb10d4-2c3a-11ee-97a0-4e7b8ce151d0">s</c><c xml:id="4fbb108e-2c3a-11ee-97a0-4e7b8ce151d0">)</c><c xml:id="4fbb1048-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="4fbb1002-2c3a-11ee-97a0-4e7b8ce151d0">X</c></supplied><c xml:id="4fbb1336-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="4fbb13b8-2c3a-11ee-97a0-4e7b8ce151d0">g</c><c xml:id="4fbb1390-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb1368-2c3a-11ee-97a0-4e7b8ce151d0">m</c><supplied reason="lost"><c xml:id="4fbb14f8-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb14b2-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb146c-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb141c-2c3a-11ee-97a0-4e7b8ce151d0">e</c></supplied><c xml:id="4fbb1516-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="5" /><expan><abbr><c xml:id="4fbb157a-2c3a-11ee-97a0-4e7b8ce151d0">S</c></abbr><ex><c xml:id="4fbb1818-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb17d2-2c3a-11ee-97a0-4e7b8ce151d0">v</c><c xml:id="4fbb178c-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb173c-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fbb16f6-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb16b0-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb1660-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb161a-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb15ca-2c3a-11ee-97a0-4e7b8ce151d0">e</c></ex></expan><c xml:id="4fbb1840-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="4fbb18a4-2c3a-11ee-97a0-4e7b8ce151d0">A</c></abbr><ex><c xml:id="4fbb1c0a-2c3a-11ee-97a0-4e7b8ce151d0">l</c><c xml:id="4fbb1bc4-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="4fbb1b7e-2c3a-11ee-97a0-4e7b8ce151d0">x</c><c xml:id="4fbb1b38-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb1af2-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb1aac-2c3a-11ee-97a0-4e7b8ce151d0">d</c><c xml:id="4fbb1a66-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="4fbb1a16-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="4fbb19d0-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb198a-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="4fbb1944-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="4fbb18f4-2c3a-11ee-97a0-4e7b8ce151d0">e</c></ex></expan><c xml:id="4fbb1c32-2c3a-11ee-97a0-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="4fbb1c64-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="6" /><expan><abbr><c xml:id="4fbb1e3a-2c3a-11ee-97a0-4e7b8ce151d0">G</c><c xml:id="4fbb1df4-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="4fbb1dae-2c3a-11ee-97a0-4e7b8ce151d0">S</c><c xml:id="4fbb1d5e-2c3a-11ee-97a0-4e7b8ce151d0">E</c><c xml:id="4fbb1d18-2c3a-11ee-97a0-4e7b8ce151d0">D</c><c xml:id="4fbb1cd2-2c3a-11ee-97a0-4e7b8ce151d0">A</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="4fbb1e62-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

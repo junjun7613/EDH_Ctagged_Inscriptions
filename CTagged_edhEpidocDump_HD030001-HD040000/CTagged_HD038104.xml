@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Frohnleiten (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038104</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038104</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(28)</height><width>(30)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/3335274">Frohnleiten</placeName><placeName type="findspot">{Kugelstein}, Tempelbezirk</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038104_1" sex="M"><persName><name type="nomen">Vibius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD038104_2" sex="M"><persName><name type="cognomen">Muscus</name></persName></person><person xml:id="HD038104_3" sex="W"><persName><name type="nomen">Iunia</name><name type="cognomen">I[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-19" who="B&#246;hm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragmentierte Grabinschrift, deren Buchstabencharakter an Inschriften des 5. oder 6. Jh. aus Italien erinnern k&#246;nnte.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 91, Nr. 30; Foto.</bibl><bibl>CIL 03, 11747.</bibl><bibl>ILLPRON 1258.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="d69358f6-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d69358d8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d69358b0-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d6935888-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d6935810-2c39-11ee-a36e-4e7b8ce151d0">u</c><supplied reason="lost"><c xml:id="d693598c-2c39-11ee-a36e-4e7b8ce151d0">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d69359b4-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="d6935a90-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="d6935a68-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d6935a4a-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d6935a2c-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d6935a04-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d69359e6-2c39-11ee-a36e-4e7b8ce151d0"> </c><supplied reason="lost" cert="low"><c xml:id="d6935f0e-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="d6935ec8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d6935e78-2c39-11ee-a36e-4e7b8ce151d0">b</c><c xml:id="d6935e28-2c39-11ee-a36e-4e7b8ce151d0">(</c><c xml:id="d6935dd8-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d6935d88-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d6935d38-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d6935ce8-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d6935c98-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d6935c48-2c39-11ee-a36e-4e7b8ce151d0">)</c><c xml:id="d6935bf8-2c39-11ee-a36e-4e7b8ce151d0">?</c><c xml:id="d6935bb2-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d6935b62-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d6935b08-2c39-11ee-a36e-4e7b8ce151d0">t</c></supplied><c xml:id="d6935f36-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="d6936044-2c39-11ee-a36e-4e7b8ce151d0">I</c><c xml:id="d693601c-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d6935ffe-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d6935fd6-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d6935fae-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d6935f90-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d6935f68-2c39-11ee-a36e-4e7b8ce151d0">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d693608a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="d69360ee-2c39-11ee-a36e-4e7b8ce151d0">v</c></abbr><ex><c xml:id="d69361e8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d6936198-2c39-11ee-a36e-4e7b8ce151d0">v</c><c xml:id="d6936148-2c39-11ee-a36e-4e7b8ce151d0">i</c></ex></expan><c xml:id="d6936210-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d6936274-2c39-11ee-a36e-4e7b8ce151d0">f</c></abbr><ex><c xml:id="d693649a-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d6936454-2c39-11ee-a36e-4e7b8ce151d0">c</c><c xml:id="d6936404-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d69363b4-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d6936364-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d6936314-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d69362c4-2c39-11ee-a36e-4e7b8ce151d0">t</c></ex></expan><c xml:id="d693653a-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d6936512-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d69364ea-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d69364c2-2c39-11ee-a36e-4e7b8ce151d0">b</c><supplied reason="lost"><c xml:id="d69366e8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d6936698-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="d6936648-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d6936602-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d69365b2-2c39-11ee-a36e-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="d6936710-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

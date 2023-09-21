@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria &amp;ndash; Szombathely (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018448</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018448</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(24)</height><width>(24)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1957"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044310">Szombathely</placeName><placeName type="findspot">{Kert&#233;sz utca 43}</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018448_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]erus</name></persName></person><person xml:id="HD018448_2"><persName><name type="nomen">Septimius/a*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-23" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente erhalten. Z. 3: statt F auch E m&#246;glich. (B): Bu&#243;cz: Z. 1 (Ende): V; AE 1965: Z. 1 (Ende): VE (jedoch im Kommentar &amp;quot;&amp;quot;vet(erano)&amp;quot;&amp;quot;).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0275. (B)</bibl><bibl>TRHR (Suppl.) 025; Abb. 25 (Foto u. Zeichnung).</bibl><bibl>T. Bu&#243;cz, Savaria 1, 1963, 137. 142, Nr. 13; Zeichnung. (B) - AE 1965.</bibl><bibl>E. T&#243;th, Lapidarium Savariense. Savaria r&#243;mai feliratos k&#337;eml&#233;kei (Szombathely 2011) 170-171, Nr. 119; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="5a784ec0-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="5a784e98-2c39-11ee-8ac2-4e7b8ce151d0">r</c><c xml:id="5a784e70-2c39-11ee-8ac2-4e7b8ce151d0">o</c><c xml:id="5a784e2a-2c39-11ee-8ac2-4e7b8ce151d0"> </c><expan><abbr><c xml:id="5a784fd8-2c39-11ee-8ac2-4e7b8ce151d0">v</c><c xml:id="5a784f88-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="5a784f38-2c39-11ee-8ac2-4e7b8ce151d0">t</c></abbr><ex><c xml:id="5a78515e-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="5a78510e-2c39-11ee-8ac2-4e7b8ce151d0">r</c><c xml:id="5a7850be-2c39-11ee-8ac2-4e7b8ce151d0">a</c><c xml:id="5a785078-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="5a785028-2c39-11ee-8ac2-4e7b8ce151d0">o</c></ex></expan><c xml:id="5a785186-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="5a78521c-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="5a7851fe-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="5a7851d6-2c39-11ee-8ac2-4e7b8ce151d0">t</c><c xml:id="5a7851b8-2c39-11ee-8ac2-4e7b8ce151d0"> </c><expan><abbr><c xml:id="5a785320-2c39-11ee-8ac2-4e7b8ce151d0">S</c><c xml:id="5a7852d0-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="5a78528a-2c39-11ee-8ac2-4e7b8ce151d0">p</c></abbr><ex><c xml:id="5a7854e2-2c39-11ee-8ac2-4e7b8ce151d0">t</c><c xml:id="5a78549c-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="5a78544c-2c39-11ee-8ac2-4e7b8ce151d0">m</c><c xml:id="5a785406-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="5a7853c0-2c39-11ee-8ac2-4e7b8ce151d0">-</c><c xml:id="5a785370-2c39-11ee-8ac2-4e7b8ce151d0">-</c></ex></expan><c xml:id="5a78550a-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="5a785564-2c39-11ee-8ac2-4e7b8ce151d0">F</c></abbr><ex cert="low" /><c xml:id="5a78558c-2c39-11ee-8ac2-4e7b8ce151d0">I</c></expan><c xml:id="5a78562c-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="5a785604-2c39-11ee-8ac2-4e7b8ce151d0">I</c><c xml:id="5a7855dc-2c39-11ee-8ac2-4e7b8ce151d0">V</c><c xml:id="5a7855be-2c39-11ee-8ac2-4e7b8ce151d0">S</c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

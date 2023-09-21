@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Segusio &amp;ndash; Susa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066012</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066012</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Susa, Seminario</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>45</height><width>34</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/912936">Segusio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3166018">Susa</placeName><placeName type="findspot" /><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066012_1" sex="W"><persName><name type="nomen">[---]a+</name><name type="cognomen">Fortunata+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027438" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bcf1d8da-2cdd-466e-a727-218f60ac5446/file/id/788195/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 3: Ferrua, Mercando-Paci: [Fortu]natae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07319.</bibl><bibl>A. Ferrua, Segusium 4, 1967, 51; fig. 2f. (B)</bibl><bibl>L. Mercando - G. Paci, MonAL 57 (Roma 1998) 255, Nr. 179. (B)</bibl><bibl>E. Cimarosti, Le iscrizioni di et&#224; romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 313, Nr. 126; Foto Nr. 106.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><c xml:id="915a327c-2c3a-11ee-b679-4e7b8ce151d0">D</c><c xml:id="915a3236-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="915a31e6-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="915a31a0-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="915a3132-2c3a-11ee-b679-4e7b8ce151d0">M</c></supplied><c xml:id="915a336c-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="915a334e-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="915a3330-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="915a3308-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="915a32ea-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="915a32cc-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="915a32a4-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="915a33ee-2c3a-11ee-b679-4e7b8ce151d0">a</c></supplied><c xml:id="915a3434-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="915a340c-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="915a348e-2c3a-11ee-b679-4e7b8ce151d0">C</c></abbr><ex><c xml:id="915a3524-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="915a34de-2c3a-11ee-b679-4e7b8ce151d0">i</c></ex></expan><c xml:id="915a3542-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="915a359c-2c3a-11ee-b679-4e7b8ce151d0">f</c></abbr><ex><c xml:id="915a36fa-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="915a36b4-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="915a366e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="915a3628-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="915a35ec-2c3a-11ee-b679-4e7b8ce151d0">e</c></ex></expan><c xml:id="915a3722-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><supplied reason="lost"><c xml:id="915a38d0-2c3a-11ee-b679-4e7b8ce151d0">F</c><c xml:id="915a388a-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="915a384e-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="915a3808-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="915a37c2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="915a377c-2c3a-11ee-b679-4e7b8ce151d0">n</c></supplied><c xml:id="915a397a-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="915a395c-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="915a3934-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="915a3916-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="915a38ee-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

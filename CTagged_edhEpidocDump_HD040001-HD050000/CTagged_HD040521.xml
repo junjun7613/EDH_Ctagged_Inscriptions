@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from H&#233;d&#233;rv&#225;r (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040521</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040521</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gy&#337;r, X&#225;ntus J&#225;nos M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(74)</height><width>49</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3051610">H&#233;d&#233;rv&#225;r</placeName><placeName type="findspot" /><placeName type="region">Gy&#337;r-Moson-Sopron megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040521_1" sex="M"><persName><name type="cognomen">Dasius</name></persName></person><person xml:id="HD040521_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Farrax</name><name type="cognomen">Iucundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes drei Rosetten und eine Mondsichel. Z. 6: noch geringe Reste vom oberen Ende mehrerer nicht mehr eindeutig identifizierbarer Buchstaben; CLEPann 014: [lacrimat us]qu[e] pa[te]r et q[---]. Metrik: ab Z. 3-: elegisches Distichon.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10947.</bibl><bibl>RIU 0239; Abb. 239 (Zeichnung).</bibl><bibl>Z. Farkas - D. Gabler, Die Skulpturen des Stadtgebietes von Scarbantia und der Limesstrecke Ad Flexum - Arrabona, CSIR Ungarn 2 (Budapest 1994) 84, Nr. 109; Taf. 40, 2.</bibl><bibl>CLEPann 014.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="1b7a2e36-2c3a-11ee-b0b3-4e7b8ce151d0">D</c><c xml:id="1b7a2e18-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a2dfa-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a2ddc-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a2db4-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a2d8c-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a2d28-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1b7a2ec2-2c3a-11ee-b0b3-4e7b8ce151d0">C</c></abbr><ex><c xml:id="1b7a2f76-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a2f26-2c3a-11ee-b0b3-4e7b8ce151d0">i</c></ex></expan><c xml:id="1b7a3002-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a2fe4-2c3a-11ee-b0b3-4e7b8ce151d0">F</c><c xml:id="1b7a2fbc-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a2f9e-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><lb break="no" n="2" /><c xml:id="1b7a31f6-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1b7a31d8-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a31b0-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="1b7a3192-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3174-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a314c-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a312e-2c3a-11ee-b0b3-4e7b8ce151d0">I</c><c xml:id="1b7a3106-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a30e8-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="1b7a30c0-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a30a2-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1b7a307a-2c3a-11ee-b0b3-4e7b8ce151d0">d</c><c xml:id="1b7a305c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3034-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="1b7a355c-2c3a-11ee-b0b3-4e7b8ce151d0">h</c><c xml:id="1b7a3534-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1b7a350c-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="1b7a34e4-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a34bc-2c3a-11ee-b0b3-4e7b8ce151d0">p</c><c xml:id="1b7a3494-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1b7a3476-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a344e-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3426-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1b7a33fe-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a33d6-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a33ae-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3390-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1b7a3368-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a3340-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1b7a3318-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a32f0-2c3a-11ee-b0b3-4e7b8ce151d0">m</c><c xml:id="1b7a32d2-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a32aa-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="1b7a3282-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1b7a325a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="1b7a39da-2c3a-11ee-b0b3-4e7b8ce151d0">p</c><c xml:id="1b7a39b2-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a3980-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="1b7a394e-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1b7a3926-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a38f4-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a38c2-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a3890-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a385e-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1b7a382c-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1b7a3804-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a37d2-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1b7a37a0-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a376e-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a373c-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a370a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a36e2-2c3a-11ee-b0b3-4e7b8ce151d0">v</c><c xml:id="1b7a36ba-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3688-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1b7a3660-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1b7a3638-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1b7a3606-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1b7a35de-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="5" /><c xml:id="1b7a3e76-2c3a-11ee-b0b3-4e7b8ce151d0">q</c><c xml:id="1b7a3e44-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a3e12-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="1b7a3dd6-2c3a-11ee-b0b3-4e7b8ce151d0">m</c><c xml:id="1b7a3da4-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a3d72-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="1b7a3d40-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a3d0e-2c3a-11ee-b0b3-4e7b8ce151d0">p</c><c xml:id="1b7a3cdc-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="1b7a3ca0-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="1b7a3c6e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a3c3c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3c0a-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1b7a3bd8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="1b7a3b9c-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1b7a3b6a-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1b7a3b38-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="1b7a3b06-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1b7a3ad4-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="1b7a3aa2-2c3a-11ee-b0b3-4e7b8ce151d0">o</c><c xml:id="1b7a3a70-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="6" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1b7a3f3e-2c3a-11ee-b0b3-4e7b8ce151d0">T</c><c xml:id="1b7a3f0c-2c3a-11ee-b0b3-4e7b8ce151d0">O</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="1b7a3f8e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

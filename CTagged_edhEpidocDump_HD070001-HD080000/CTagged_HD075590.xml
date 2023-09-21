@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075590</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075590</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bingen/Rhein</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>(32)</height><width>60</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot">{Basilikastra&#223;e 3}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075590_1" sex="M"><persName><name type="cognomen">Biddu[---]</name></persName></person><person xml:id="HD075590_2" sex="M"><persName><name type="cognomen">[---]astor</name></persName></person><person xml:id="HD075590_3"><persName><name type="cognomen">Asipa[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-19" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Boppert: Z. 3: sag[ittariorum] a(nnorum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07512.</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 68-69, Nr. 27;Tafel 14, 27 (Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="b5fd43bc-2c3a-11ee-96ce-4e7b8ce151d0">B</c><c xml:id="b5fd439e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd4380-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b5fd4358-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b5fd4312-2c3a-11ee-96ce-4e7b8ce151d0">u</c><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="b5fd456a-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5fd4524-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5fd44de-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd448e-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5fd443e-2c3a-11ee-96ce-4e7b8ce151d0">r</c></abbr><ex><c xml:id="b5fd4614-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd45c4-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5fd4632-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="b5fd4696-2c3a-11ee-96ce-4e7b8ce151d0">f</c></abbr><ex><c xml:id="b5fd4808-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd47b8-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b5fd4772-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd472c-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd46e6-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5fd48d0-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd48b2-2c3a-11ee-96ce-4e7b8ce151d0">T</c><c xml:id="b5fd488a-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5fd486c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd484e-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5fd4826-2c3a-11ee-96ce-4e7b8ce151d0">o</c><supplied reason="lost"><c xml:id="b5fd4a9c-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b5fd4a56-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd4a10-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd49ca-2c3a-11ee-96ce-4e7b8ce151d0">S</c><c xml:id="b5fd4984-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd493e-2c3a-11ee-96ce-4e7b8ce151d0">r</c></supplied><c xml:id="b5fd4b28-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd4b0a-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5fd4ae2-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd4ac4-2c3a-11ee-96ce-4e7b8ce151d0">c</c><expan><ex><c xml:id="b5fd4b96-2c3a-11ee-96ce-4e7b8ce151d0">o</c></ex><abbr><c xml:id="b5fd4be6-2c3a-11ee-96ce-4e7b8ce151d0">h</c></abbr><ex><c xml:id="b5fd4d4e-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5fd4d08-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5fd4cc2-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd4c7c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd4c36-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5fd4d6c-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="b5fd4dc6-2c3a-11ee-96ce-4e7b8ce151d0">I</c><c xml:id="b5fd4d9e-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5fd4eb6-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5fd4e66-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5fd4e20-2c3a-11ee-96ce-4e7b8ce151d0">g</c></abbr><ex><c xml:id="b5fd5186-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd5136-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd50f0-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd50aa-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5fd5064-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5fd501e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd4fd8-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5fd4f92-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5fd4f4c-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd4f06-2c3a-11ee-96ce-4e7b8ce151d0">m</c></ex></expan><c xml:id="b5fd51cc-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd51a4-2c3a-11ee-96ce-4e7b8ce151d0">a</c><supplied reason="lost"><expan><abbr><c xml:id="b5fd5276-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5fd5230-2c3a-11ee-96ce-4e7b8ce151d0">n</c></abbr><ex><c xml:id="b5fd5398-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5fd5352-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5fd530c-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd52c6-2c3a-11ee-96ce-4e7b8ce151d0">m</c></ex></expan></supplied><c xml:id="b5fd5870-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd583e-2c3a-11ee-96ce-4e7b8ce151d0">X</c><c xml:id="b5fd5816-2c3a-11ee-96ce-4e7b8ce151d0">X</c><c xml:id="b5fd57ee-2c3a-11ee-96ce-4e7b8ce151d0">V</c><c xml:id="b5fd57c6-2c3a-11ee-96ce-4e7b8ce151d0">I</c><c xml:id="b5fd579e-2c3a-11ee-96ce-4e7b8ce151d0">I</c><c xml:id="b5fd5776-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd574e-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5fd5726-2c3a-11ee-96ce-4e7b8ce151d0">&amp;</c><c xml:id="b5fd56fe-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b5fd56e0-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd56b8-2c3a-11ee-96ce-4e7b8ce151d0">;</c><c xml:id="b5fd5690-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd5668-2c3a-11ee-96ce-4e7b8ce151d0">=</c><c xml:id="b5fd5640-2c3a-11ee-96ce-4e7b8ce151d0">I</c><c xml:id="b5fd5618-2c3a-11ee-96ce-4e7b8ce151d0">&amp;</c><c xml:id="b5fd55fa-2c3a-11ee-96ce-4e7b8ce151d0">g</c><c xml:id="b5fd55d2-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd55aa-2c3a-11ee-96ce-4e7b8ce151d0">;</c><c xml:id="b5fd558c-2c3a-11ee-96ce-4e7b8ce151d0">(</c><c xml:id="b5fd5564-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd553c-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5fd5514-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5fd54ec-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5fd54ce-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b5fd54a6-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd547e-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5fd5460-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5fd5438-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd5410-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="b5fd53e8-2c3a-11ee-96ce-4e7b8ce151d0">)</c><c xml:id="b5fd53ca-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="b5fd597e-2c3a-11ee-96ce-4e7b8ce151d0">X</c><c xml:id="b5fd594c-2c3a-11ee-96ce-4e7b8ce151d0">V</c><c xml:id="b5fd591a-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5fd59ec-2c3a-11ee-96ce-4e7b8ce151d0">h</c></abbr><ex><c xml:id="b5fd5a8c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd5a46-2c3a-11ee-96ce-4e7b8ce151d0">c</c></ex></expan><c xml:id="b5fd5ab4-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5fd5b18-2c3a-11ee-96ce-4e7b8ce151d0">s</c></abbr><ex><c xml:id="b5fd5c30-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd5bf4-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd5bae-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5fd5b68-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="b5fd5d16-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5fd5ce4-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5fd5cb2-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5fd5c8a-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5fd5c58-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="5" /><c xml:id="b5fd5e24-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b5fd5df2-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5fd5dc0-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5fd5d98-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b5fd5d66-2c3a-11ee-96ce-4e7b8ce151d0">a</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5fd5e74-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="b5fd5eb0-2c3a-11ee-96ce-4e7b8ce151d0"> </c></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

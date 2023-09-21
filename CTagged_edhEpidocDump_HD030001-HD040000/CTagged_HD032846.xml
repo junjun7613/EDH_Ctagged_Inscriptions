@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032846</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032846</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Vat. (Gall. Lap.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(26)</height><width>(44)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0455" notAfter-custom="0476" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">455 AD - 476 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot" /><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032846_1"><persName><name type="nomen">Vettius+ Iunius+</name><name type="cognomen">Valentinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-21" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011168" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/982724be-5e23-4c9f-b363-c9690786ce34/file/id/770691/file_version/name/small" /><graphic xml:id="F011317" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7fd64296-14f9-4869-9614-716358539f52/file/id/770840/file_version/name/small" /><graphic xml:id="F032634" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c59581a1-148a-41a6-b281-044ebbbc526f/file/id/793430/file_version/name/small" /><graphic xml:id="F040508" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ffeb5875-2854-4a73-a0ae-801e52a6f246/file/id/801390/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Es sind 2 nicht aneinanderpassende Fragmente erhalten; Ma&#223;e beziehen sich auf Fragment a; Ma&#223;e Fragment b: (12) x (10) x ? cm. Z. 6: hinter A noch Rest eines nicht mehr identifizierbaren Buchstabens.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41404; fig. &#945; u. &#946;.</bibl><bibl>CIL 06, 31891.</bibl><bibl>CIL 06, 01788.</bibl><bibl>CIL 06, 01788 add. p. 3174.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost">Vettius Iunius</supplied> <lb n="2" /><supplied reason="lost">Valenti</supplied>nus urbi <lb n="3" /><supplied reason="lost">praefect</supplied>us hostili <lb n="4" /><supplied reason="lost">impetu sublata</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <gap reason="lost" extent="unknown" unit="character" />VLO<gap reason="lost" extent="unknown" unit="character" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />A<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

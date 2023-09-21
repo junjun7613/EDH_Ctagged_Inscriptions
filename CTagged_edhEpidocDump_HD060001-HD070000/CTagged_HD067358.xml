@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Stadtschlaining (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067358</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067358</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stadtschlaining, Neumarkt/Tauchental, S. Nikolaus, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(49)</height><width>116</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1875"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2770721">Stadtschlaining</placeName><placeName type="findspot">Neumarkt/Tauchental, {S. Nikolaus, Pfarrkirche}</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067358_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17572"><name type="praenomen">C.</name><name type="nomen">Samuconius</name><name type="cognomen">Spectatus</name></persName></person><person xml:id="HD067358_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17573"><name type="cognomen">Amuca</name></persName></person><person xml:id="HD067358_3" sex="M"><persName><name type="cognomen">Burranus</name></persName></person><person xml:id="HD067358_4" sex="W"><persName ref="http://romans1by1.com/rpeople/17574"><name type="cognomen">Respectilla*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-30" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>M&#246;glicherweise der untere Teil eines Kastengrabsteins.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05056.</bibl><bibl>CIL 03, 10937.</bibl><bibl>M.-L. Kr&#252;ger, Die Reliefs der Stadtgebiete von Scarbantia und Savaria, CSIR &#214;sterreich 1, 5 (Wien 1974) 36, Nr. 8; Taf. 4, 8.</bibl><bibl>E. T&#243;th, Lapidarium Savariense. Savaria r&#243;mai feliratos k&#337;eml&#233;kei (Szombathely 2011) 255, Nr. 224.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="894fef20-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="894fefa2-5842-11ee-a013-4e7b8ce151d1">C</c></abbr><ex><c xml:id="894ff088-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ff056-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff024-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894fefe8-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="894ff196-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="894ff182-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="894ff164-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ff150-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="894ff13c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894ff128-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="894ff114-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="894ff100-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="894ff0ec-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff0d8-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894ff0ba-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="894ff0a6-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="894ff36c-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="894ff358-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="894ff344-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ff326-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="894ff312-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="894ff2fe-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ff2e0-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="894ff2cc-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894ff2b8-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="894ff29a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="894ff286-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ff272-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="894ff25e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="894ff240-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="894ff22c-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="894ff218-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894ff204-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="894ff1e6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ff1d2-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="894ff470-5842-11ee-a013-4e7b8ce151d1">B</c><c xml:id="894ff452-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894ff43e-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="894ff420-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="894ff40c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ff3ee-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="894ff3da-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff3bc-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="894ff4ca-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="894ff5a6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff574-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="894ff542-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff510-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="894ff5ba-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="894ff600-5842-11ee-a013-4e7b8ce151d1">v</c></abbr><ex><c xml:id="894ff696-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff664-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="894ff63c-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="894ff6aa-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="894ff772-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="894ff93e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ff90c-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="894ff8da-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ff8a8-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="894ff862-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894ff830-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="894ff7f4-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan><c xml:id="894ff95c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="894ffa10-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="894ff9de-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ff9ac-5842-11ee-a013-4e7b8ce151d1">b</c></abbr><ex><c xml:id="894ffa42-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="894ffaba-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="894ffa9c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ffa7e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="894ffa60-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="894ffbf0-5842-11ee-a013-4e7b8ce151d1">R</c><c xml:id="894ffbd2-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ffbb4-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="894ffb96-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="894ffb78-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ffb5a-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="894ffb3c-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="894ffb1e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ffb00-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="894ffae2-5842-11ee-a013-4e7b8ce151d1">l</c><expan><ex><c xml:id="894ffc4a-5842-11ee-a013-4e7b8ce151d1">a</c></ex><abbr><c xml:id="894ffc86-5842-11ee-a013-4e7b8ce151d1">e</c></abbr></expan><c xml:id="894ffc9a-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="894ffcea-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="894ffdee-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ffdbc-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="894ffd8a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="894ffd4e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ffd1c-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan><c xml:id="894ffe0c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="894ffeb6-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="894ffe84-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="894ffe52-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="894fffe2-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="894fffb0-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="894fff7e-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="894fff4c-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="894fff1a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="894ffef2-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan><c xml:id="894ffff6-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="89500078-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="89500046-5842-11ee-a013-4e7b8ce151d1">n</c></abbr><ex><c xml:id="8950017c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8950014a-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="89500118-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="895000e6-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="895000b4-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="895001d6-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="895001ae-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="89500190-5842-11ee-a013-4e7b8ce151d1">X</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

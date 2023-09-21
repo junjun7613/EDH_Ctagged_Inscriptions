@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Caesarea &amp;ndash; Cherchel (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033307</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033307</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/658378">Caesarea</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" /></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2501440">Cherchel</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033307_1"><persName><name type="praenomen">Cn.</name><name type="nomen">Haius</name><name type="cognomen">Diadumenianus</name></persName></person><person xml:id="HD033307_2"><persName><name type="nomen">Iulius+*</name><name type="cognomen">Valentinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2001-11-21" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Datierung: Der Geehrte war 202 n. Chr. Prokurator der Mauretania Tingitana und wohl bald darauf Prokurator der Mauretania Caesariensis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtstr&#228;ger in den r&#246;mischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 209, Nr. 25.</bibl><bibl>CIL 08, 09366.</bibl><bibl>PIR (2. Aufl.) H 8.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="dcddb29c-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="dcddb1fc-2c39-11ee-a36e-4e7b8ce151d0">n</c></abbr><ex><c xml:id="dcddb3c8-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddb36e-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dcddb30a-2c39-11ee-a36e-4e7b8ce151d0">o</c></ex></expan><c xml:id="dcddb4c2-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dcddb49a-2c39-11ee-a36e-4e7b8ce151d0">H</c><c xml:id="dcddb472-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddb44a-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddb422-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddb3fa-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="dcddb5f8-2c39-11ee-a36e-4e7b8ce151d0">D</c><c xml:id="dcddb5d0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddb5a8-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddb580-2c39-11ee-a36e-4e7b8ce151d0">d</c><c xml:id="dcddb558-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddb530-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="dcddb508-2c39-11ee-a36e-4e7b8ce151d0">e</c><lb break="no" n="3" /><c xml:id="dcddb710-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddb6e8-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddb6c0-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddb698-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddb670-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddb648-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="dcddb8aa-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="dcddb85a-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddb800-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddb79c-2c39-11ee-a36e-4e7b8ce151d0">c</c></abbr><ex><c xml:id="dcddbb20-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddbac6-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddba76-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddba1c-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddb9c2-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddb968-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddb90e-2c39-11ee-a36e-4e7b8ce151d0">i</c></ex></expan><c xml:id="dcddbb48-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="dcddbc06-2c39-11ee-a36e-4e7b8ce151d0">A</c><c xml:id="dcddbbde-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddbbac-2c39-11ee-a36e-4e7b8ce151d0">g</c><c xml:id="dcddbb84-2c39-11ee-a36e-4e7b8ce151d0">g</c><del rend="erasure"><c xml:id="dcddbc88-2c39-11ee-a36e-4e7b8ce151d0">[</c><expan><abbr>gg</abbr><ex>ustorum</ex></expan></del><c xml:id="dcddbd00-2c39-11ee-a36e-4e7b8ce151d0">]</c><c xml:id="dcddbcd8-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dcddbcb0-2c39-11ee-a36e-4e7b8ce151d0">u</c><supplied reason="lost"><c xml:id="dcddbd78-2c39-11ee-a36e-4e7b8ce151d0">t</c></supplied><c xml:id="dcddbda0-2c39-11ee-a36e-4e7b8ce151d0">r</c><lb break="no" n="5" /><supplied reason="lost"><c xml:id="dcddbe72-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddbe18-2c39-11ee-a36e-4e7b8ce151d0">r</c></supplied><c xml:id="dcddc002-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddbfd0-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="dcddbfa8-2c39-11ee-a36e-4e7b8ce151d0">q</c><c xml:id="dcddbf76-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddbf4e-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dcddbf1c-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dcddbef4-2c39-11ee-a36e-4e7b8ce151d0">M</c><c xml:id="dcddbec2-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddbe90-2c39-11ee-a36e-4e7b8ce151d0">u</c><lb break="no" n="6" /><c xml:id="dcddc25a-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddc228-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddc1f6-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddc1c4-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddc192-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddc160-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddc12e-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddc0fc-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddc0ca-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddc098-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="dcddc05c-2c39-11ee-a36e-4e7b8ce151d0"> </c><note>sic</note><c xml:id="dcddc2c8-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="7" /><c xml:id="dcddc4b2-2c39-11ee-a36e-4e7b8ce151d0">T</c><c xml:id="dcddc476-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddc444-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddc412-2c39-11ee-a36e-4e7b8ce151d0">g</c><c xml:id="dcddc3e0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddc3a4-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddc372-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddc340-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddc30e-2c39-11ee-a36e-4e7b8ce151d0">a</c><supplied reason="lost"><c xml:id="dcddc552-2c39-11ee-a36e-4e7b8ce151d0">e</c></supplied><c xml:id="dcddc57a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="8" /><supplied reason="lost"><c xml:id="dcddc6b0-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="dcddc656-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddc5fc-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr>Caes</abbr><ex>ariensis</ex></expan></supplied><c xml:id="dcddc746-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dcddc70a-2c39-11ee-a36e-4e7b8ce151d0">I</c><c xml:id="dcddc6ce-2c39-11ee-a36e-4e7b8ce151d0">u</c><supplied reason="lost"><expan><abbr><c xml:id="dcddc7c8-2c39-11ee-a36e-4e7b8ce151d0">l</c></abbr><ex><c xml:id="dcddc8e0-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddc886-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddc82c-2c39-11ee-a36e-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="dcddc908-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="9" /><supplied reason="lost"><c xml:id="dcddca98-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="dcddca3e-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddc9e4-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="dcddc98a-2c39-11ee-a36e-4e7b8ce151d0">e</c></supplied><c xml:id="dcddcc1e-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddcbe2-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddcba6-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="dcddcb74-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddcb38-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddcafc-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="dcddcac0-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="dcddcc78-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="10" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="dcddcdea-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="dcddcdae-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddcd72-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddcd36-2c39-11ee-a36e-4e7b8ce151d0"> </c><c xml:id="dcddccfa-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="dcddccc8-2c39-11ee-a36e-4e7b8ce151d0">r</c><lb break="no" n="11" /><c xml:id="dcddce44-2c39-11ee-a36e-4e7b8ce151d0">o</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="dcddce94-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="12" /><c xml:id="dcddd010-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddcfd4-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddcf98-2c39-11ee-a36e-4e7b8ce151d0">d</c><c xml:id="dcddcf52-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddcf16-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddceda-2c39-11ee-a36e-4e7b8ce151d0">u</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="dcddd06a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="13" /><c xml:id="dcddd272-2c39-11ee-a36e-4e7b8ce151d0">p</c><c xml:id="dcddd236-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="dcddd1fa-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="dcddd1b4-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="dcddd178-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="dcddd13c-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="dcddd0f6-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="dcddd0ba-2c39-11ee-a36e-4e7b8ce151d0">s</c></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

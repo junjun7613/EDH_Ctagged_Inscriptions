@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bonna &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078211</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078211</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>188</height><width>75</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.6-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna</placeName></origPlace><origDate><origDate notBefore-custom="0035" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">35 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1837"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="findspot">{Adenauerallee}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078211_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Clodius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018563" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d6282871-a5ec-40c2-b169-1eb4c8f9d7ff/file/id/778635/file_version/name/small" /><graphic xml:id="F004121" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/34427eaf-5f3e-4e0a-9537-8c06841bcae5/file/id/764883/file_version/name/small" /><graphic xml:id="F018561" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a2c05b26-b096-4054-bd6f-7801472883d2/file/id/778633/file_version/name/small" /><graphic xml:id="F018562" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b314beb3-8b28-4650-b00a-eb9ca0b7a083/file/id/778634/file_version/name/small" /><graphic xml:id="F018564" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cfcdd61a-03c0-4394-8884-4c6250f3ac1e/file/id/778636/file_version/name/small" /><graphic xml:id="F020253" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3e6ebb67-53e9-4c8e-83f3-19cdc910ac0c/file/id/780326/file_version/name/small" /><graphic xml:id="F028420" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d5204c04-5e62-4ee9-8d41-865aa8983b19/file/id/789177/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08056; Zeichnung.</bibl><bibl>ILS 2245.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 223, Nr. 599; Zeichnung.</bibl><bibl>G. Bauchhen&#223;, Germania inferior. Bonn und Umgebung. Milit&#228;rische Grabdenkm&#228;ler, CSIR Deutschland 3, 1 (Bonn 1978) 22-24, Nr. 2; Taf. 5-7.</bibl><bibl>M. Kaiser, in: M. van Rey (Hrsg.), Geschichte der Stadt Bonn 1. Bonn von der Vorgeschichte bis zum Ende der R&#246;merzeit (Bonn 2001) 235; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="26f20416-5843-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="26f20484-5843-11ee-8920-4e7b8ce151d1">P</c></abbr><ex><c xml:id="26f20588-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="26f20556-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="26f20524-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="26f204f2-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f204c0-5843-11ee-8920-4e7b8ce151d1">o</c></ex></expan><c xml:id="26f20632-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="26f2061e-5843-11ee-8920-4e7b8ce151d1">C</c><c xml:id="26f2060a-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="26f205f6-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="26f205e2-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="26f205ce-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f205ba-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="26f2059c-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f20682-5843-11ee-8920-4e7b8ce151d1">P</c></abbr><ex><c xml:id="26f20740-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="26f20718-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="26f206e6-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="26f206b4-5843-11ee-8920-4e7b8ce151d1">i</c></ex></expan><c xml:id="26f2075e-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f2079a-5843-11ee-8920-4e7b8ce151d1">f</c></abbr><ex><c xml:id="26f2084e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20826-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="26f207f4-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f207cc-5843-11ee-8920-4e7b8ce151d1">o</c></ex></expan><c xml:id="26f2086c-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f20902-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="26f208d0-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="26f2089e-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="26f209de-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="26f209b6-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20984-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="26f2095c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f2092a-5843-11ee-8920-4e7b8ce151d1">a</c></ex></expan><c xml:id="26f209f2-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="26f20a88-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="26f20a60-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="26f20a2e-5843-11ee-8920-4e7b8ce151d1">b</c></abbr><ex><c xml:id="26f20aba-5843-11ee-8920-4e7b8ce151d1">a</c></ex></expan><c xml:id="26f20ace-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f20b5a-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="26f20b32-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20b00-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="26f20be6-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20bbe-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="26f20b8c-5843-11ee-8920-4e7b8ce151d1">i</c></ex></expan><c xml:id="26f20bfa-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f20c90-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="26f20c5e-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="26f20c36-5843-11ee-8920-4e7b8ce151d1">g</c></abbr><ex><c xml:id="26f20d6c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20d44-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="26f20d12-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="26f20cea-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20cc2-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="26f20db2-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="26f20d9e-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="26f20d8a-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="26f20e20-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="26f20df8-5843-11ee-8920-4e7b8ce151d1">n</c></abbr><ex><c xml:id="26f20f06-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="26f20ede-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="26f20eac-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="26f20e7a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="26f20e52-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="26f20fa6-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="26f20f92-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="26f20f74-5843-11ee-8920-4e7b8ce151d1">L</c><c xml:id="26f20f60-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="26f20f4c-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="26f20f38-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="26f20f1a-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f21078-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="26f21050-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="26f2101e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f20ff6-5843-11ee-8920-4e7b8ce151d1">p</c></abbr><ex><c xml:id="26f211e0-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="26f211b8-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="26f21186-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="26f2115e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f21136-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="26f21104-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="26f210dc-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="26f210aa-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="26f21258-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="26f21244-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="26f21230-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="26f21212-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="26f211f4-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="26f212a8-5843-11ee-8920-4e7b8ce151d1">h</c></abbr><ex><c xml:id="26f21302-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f212da-5843-11ee-8920-4e7b8ce151d1">c</c></ex></expan><c xml:id="26f21316-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f21352-5843-11ee-8920-4e7b8ce151d1">s</c></abbr><ex><c xml:id="26f21410-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="26f213de-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="26f213b6-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="26f21384-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="26f21424-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="26f21460-5843-11ee-8920-4e7b8ce151d1">e</c></abbr><ex><c xml:id="26f214ba-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="26f21492-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

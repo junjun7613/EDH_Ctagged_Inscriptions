@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from (Civitas Lingonum) &amp;ndash; Pontailler-sur-Sa&#244;ne (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082258</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082258</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(83)</height><width>(42)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate when-custom="0139" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">139 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1965"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2986310">Pontailler-sur-Sa&#244;ne</placeName><placeName type="findspot">{Rue du 8 Mai 1945}, Apotheke</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082258_1" sex="W"><persName><name type="cognomen">Prima</name></persName></person><person xml:id="HD082258_2" sex="M"><persName><name type="cognomen">Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-05-28" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Lesung und damit auch Datierung unsicher. Auf der rechten Nebenseite Reliefreste.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Provost, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or de Nuits-Saint-Georges &#224; Voulaines-les-Templiers, Carte arch&#233;ologique de la Gaule 21, 3 (Paris 2009) 68.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" />pos<gap reason="lost" extent="unknown" unit="character" />I <lb n="2" />dedicata <lb n="0" />Prima <gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Antoni<lb break="no" n="2" />no <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan></supplied> <lb n="3" /><supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <expan><abbr>II</abbr><ex cert="low" /></expan> <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>uli</ex></expan> II<certainty locus="name" match="preceding-sibling::text()" cert="low" /> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

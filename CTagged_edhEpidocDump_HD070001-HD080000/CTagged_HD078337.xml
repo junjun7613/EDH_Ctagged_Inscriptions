@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078337</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078337</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(35)</height><width>(25)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{S. Alban, Stift, ehemalige Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078337_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-02" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017260" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/05f11c59-46c1-4395-a262-3aee32fca1c6/file/id/776866/file_version/name/small" /><graphic xml:id="F015775" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/22eb4d31-9980-4cf4-b8dc-e8888aea4d20/file/id/775353/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Pal&#228;ographie: Vorkarolingische Kapitalis I. (B): Kessel: Lesung unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11934.</bibl><bibl>K. K&#246;rber, MZ 3, 1908, 10, Nr. 29; Abb. 19 (Zeichnung).</bibl><bibl>C. Kessel, MZ 113, 2018, 78-79, Nr. 61; Abb. 68 (Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="1699d63e-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="1699d6de-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="1699d77e-5843-11ee-8920-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1699d7ba-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="1699d828-5843-11ee-8920-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="1699d896-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1699d878-5843-11ee-8920-4e7b8ce151d1">S</c><c xml:id="1699d850-5843-11ee-8920-4e7b8ce151d1">A</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1699d8d2-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="1699da80-5843-11ee-8920-4e7b8ce151d1">N</c><c xml:id="1699da30-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="1699d9ea-5843-11ee-8920-4e7b8ce151d1">L</c><c xml:id="1699d99a-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="1699d940-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1699daa8-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1699db7a-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1699db52-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1699db2a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1699db0c-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1699dae4-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1699dbe8-5843-11ee-8920-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1699dc1a-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="1699dc7e-5843-11ee-8920-4e7b8ce151d1">q</c></supplied><expan><abbr><c xml:id="1699dd1e-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1699dcd8-5843-11ee-8920-4e7b8ce151d1">i</c></abbr><ex cert="low" /></expan><c xml:id="1699de36-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1699de0e-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="1699dde6-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1699ddbe-5843-11ee-8920-4e7b8ce151d1">x</c><c xml:id="1699dd96-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1699dd78-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1699dd46-5843-11ee-8920-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1699de86-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="6"><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="1699dfd0-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="1699df80-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1699df3a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1699deea-5843-11ee-8920-4e7b8ce151d1">s</c></supplied><c xml:id="1699e138-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1699e110-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1699e0e8-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1699e0c0-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="1699e098-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1699e070-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1699e048-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1699e020-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1699dfee-5843-11ee-8920-4e7b8ce151d1">d</c><supplied reason="lost"><c xml:id="1699e25a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1699e20a-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1699e1c4-5843-11ee-8920-4e7b8ce151d1">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

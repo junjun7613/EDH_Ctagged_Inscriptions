@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vindobona &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074264</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074264</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>52</height><width>32</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1862"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">{Staatsoper}, antikes Grab, sekund&#228;r verwendet</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074264_1" sex="M"><persName><name type="nomen">Antonius</name><name type="cognomen">Ingenuus*</name></persName></person><person xml:id="HD074264_2" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Nubilis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-25" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: Buchstaben D und M stehen links und rechts von ANTO. (B): Farka u. a.: Z. 7: c[o]niugi; Z. 8: [fi]li(i)s.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04569.</bibl><bibl>C. Farka u. a., in: Vindobona - die R&#246;mer im Wiener Raum. 52. Sonderausstellung des Historischen Museums der Stadt Wien, Karlsplatz (Wien 1977) 195, Nr. S 84. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="1e8d43bc-5843-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="1e8d4434-5843-11ee-8920-4e7b8ce151d1">D</c></abbr><ex><c xml:id="1e8d44ac-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d447a-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1e8d44c0-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1e8d4506-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="1e8d461e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1e8d45ec-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d45c4-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4592-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="1e8d456a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d4538-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="1e8d4682-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1e8d466e-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="1e8d465a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d4646-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1e8d4632-5843-11ee-8920-4e7b8ce151d1">o</c></line><line break="no" n="2"><c xml:id="1e8d474a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d4736-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4722-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d470e-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1e8d46fa-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1e8d46e6-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="1e8d46d2-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d46be-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="1e8d46aa-5843-11ee-8920-4e7b8ce151d1">e</c></line><line break="no" n="3"><c xml:id="1e8d4790-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d477c-5843-11ee-8920-4e7b8ce151d1">u</c><expan><ex><c xml:id="1e8d47cc-5843-11ee-8920-4e7b8ce151d1">u</c></ex><abbr><c xml:id="1e8d47fe-5843-11ee-8920-4e7b8ce151d1">s</c></abbr></expan><c xml:id="1e8d4880-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1e8d486c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1e8d4858-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1e8d4844-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1e8d4830-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1e8d481c-5843-11ee-8920-4e7b8ce151d1">e</c></line><line break="no" n="4"><c xml:id="1e8d4934-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1e8d4920-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1e8d4902-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1e8d48ee-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d48da-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d48c6-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="1e8d48b2-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="1e8d4a1a-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="1e8d4a06-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d49e8-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1e8d49d4-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1e8d49c0-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d49a2-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d498e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1e8d497a-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1e8d495c-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="1e8d4aec-5843-11ee-8920-4e7b8ce151d1">N</c><c xml:id="1e8d4ace-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d4ab0-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="1e8d4a9c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4a7e-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="1e8d4a6a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4a4c-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="1e8d4bd2-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="1e8d4bb4-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1e8d4b96-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d4b82-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4b64-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d4b50-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="1e8d4b32-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4b14-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="1e8d4ca4-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1e8d4c86-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1e8d4c72-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1e8d4c54-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="1e8d4c36-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4c18-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="1e8d4c04-5843-11ee-8920-4e7b8ce151d1">i</c><expan><ex><c xml:id="1e8d4cfe-5843-11ee-8920-4e7b8ce151d1">i</c></ex><abbr><c xml:id="1e8d4d30-5843-11ee-8920-4e7b8ce151d1">s</c></abbr></expan><c xml:id="1e8d4db2-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="1e8d4d94-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="1e8d4d76-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1e8d4d62-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="1e8d4d44-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="9"><c xml:id="1e8d4eac-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="1e8d4e8e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4e70-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1e8d4e5c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1e8d4e3e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1e8d4e20-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="1e8d4e02-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1e8d4de4-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1e8d4f06-5843-11ee-8920-4e7b8ce151d1">f</c></abbr><ex><c xml:id="1e8d506e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1e8d503c-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="1e8d5014-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d4fec-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="1e8d4fba-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="1e8d4f92-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="1e8d4f60-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d4f38-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="1e8d5082-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1e8d50be-5843-11ee-8920-4e7b8ce151d1">c</c></abbr><ex><c xml:id="1e8d51d6-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="1e8d51a4-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="1e8d517c-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="1e8d514a-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="1e8d5122-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="1e8d50f0-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

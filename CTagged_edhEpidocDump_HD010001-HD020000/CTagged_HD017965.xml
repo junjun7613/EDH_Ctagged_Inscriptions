@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Divio (Civitas Lingonum)? &amp;ndash; Dijon? (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017965</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017965</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>150</height><width>44</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)?</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon?</placeName><placeName type="findspot" /><placeName type="region">Bourgogne-Franche-Comt&#233;?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017965_1" sex="M"><persName><name type="cognomen">Decmillus</name></persName></person><person xml:id="HD017965_2" sex="M"><persName><name type="cognomen">Decmanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-07" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030762" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c411a67-1602-4b4a-a063-4a300ef3431b/file/id/791519/file_version/name/small" /><graphic xml:id="F030763" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/03d19403-bc4d-49a8-8d54-586bfadaaabf/file/id/791520/file_version/name/small" /><graphic xml:id="F030764" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2d03b455-1378-4b56-b1cd-071f33b85c64/file/id/791521/file_version/name/small" /><graphic xml:id="F031460" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/be5cfe9f-8b1f-4adb-8258-e4f24cf12de0/file/id/792221/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Spitz zulaufender Grabpfeiler/Pyramidion (ob&#233;lisque lingon). Die Inschrift wurde mit einer stark abweichenden Lesung erneut im CIL 13 publiziert, ihre Identit&#228;t nicht erkannt. (B): CIL 13, 05511: Z. 2: Decm(i)/llus; Z. 4/5: Decm/anii [f(il.)]. CIL 13, 05629: Mo/nim / LIV / II CIV / ANIPI; Benoit - Provost; Le Bohec: Z. 5: p(oni) i(ussit); Provost - P&#233;richon: Z. 4/5: Decm/anii [fil(ii)]?. Fundort nach CIL 13, 05511; Provost - P&#233;richon: Dijon; nach Le Bohec; CIL 13, 05629; ILTG; AE 1961; Lebel; Benoit - Provost: Til-Ch&#226;tel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1961, 0238.</bibl><bibl>CIL 13, 05511. (B)</bibl><bibl>CIL 13, 05629. (B)</bibl><bibl>ILTG 412.</bibl><bibl>P. Lebel, MCACO 24, 1954-1958, 37. - AE 1961.</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons. Inscriptions sur pierre (Paris 2003) 155, Nr. 247; Abb. 112. (B)</bibl><bibl>M. Provost - D. P&#233;richon, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or d'Allerey &#224; Normier, Carte arch&#233;ologique de la Gaule 21, 2 (Paris 2009) 287. (B)</bibl><bibl>B. Benoit - M. Provost, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or de Nuits-Saint-Georges &#224; Voulaines-les-Templiers, Carte arch&#233;ologique de la Gaule 21, 3 (Paris 2009) 222; fig. 338. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="6667d212-583c-11ee-a8fa-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="6667d2f8-583c-11ee-a8fa-4e7b8ce151d1">M</c></abbr><ex><c xml:id="6667d4c4-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="6667d488-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="6667d460-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="6667d42e-583c-11ee-a8fa-4e7b8ce151d1">m</c><c xml:id="6667d3fc-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="6667d3d4-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="6667d3a2-583c-11ee-a8fa-4e7b8ce151d1">t</c><c xml:id="6667d370-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="6667d33e-583c-11ee-a8fa-4e7b8ce151d1">m</c></ex></expan><c xml:id="6667d4d8-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="6667d546-583c-11ee-a8fa-4e7b8ce151d1">D</c><c xml:id="6667d532-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="6667d51e-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="6667d50a-583c-11ee-a8fa-4e7b8ce151d1">m</c><c xml:id="6667d4f6-583c-11ee-a8fa-4e7b8ce151d1">i</c></line><line break="no" n="3"><c xml:id="6667d5b4-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="6667d5a0-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="6667d58c-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="6667d578-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="6667d564-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="6667d618-583c-11ee-a8fa-4e7b8ce151d1">D</c><c xml:id="6667d604-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="6667d5f0-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="6667d5dc-583c-11ee-a8fa-4e7b8ce151d1">m</c></line><line break="no" n="5"><c xml:id="6667d690-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="6667d67c-583c-11ee-a8fa-4e7b8ce151d1">n</c><c xml:id="6667d668-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="6667d64a-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="6667d6fe-583c-11ee-a8fa-4e7b8ce151d1">f</c><c xml:id="6667d6cc-583c-11ee-a8fa-4e7b8ce151d1">i</c></abbr><ex><c xml:id="6667d7b2-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="6667d78a-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="6667d758-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="6667d730-583c-11ee-a8fa-4e7b8ce151d1">s</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

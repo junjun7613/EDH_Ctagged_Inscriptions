@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075596</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075596</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bingen/Rhein, Burg Klopp</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(32)</height><width>(47)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot">{Hospitalstra&#223;e / Vorstadt, Ecke}, mittelalterlicher Stadtturm, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075596_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD075596_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]sia*</name></persName></person><person xml:id="HD075596_3" sex="M"><persName><name type="nomen">[---]tius</name><name type="cognomen">Le[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-27" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028297" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f33fba88-1fb9-4d13-9be1-855ece4fc00c/file/id/789054/file_version/name/small" /><graphic xml:id="F028987" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e50a6ef8-f8f9-4f29-9056-7aa20b45909c/file/id/789744/file_version/name/small" /><graphic xml:id="F028298" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f2e5035-c954-4446-914c-83e018f27ea1/file/id/789055/file_version/name/small" /><graphic xml:id="F028986" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/665d3ace-2f88-4c64-8d35-0e5e0052730d/file/id/789743/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente; Zusammengeh&#246;rigkeit nicht gesichert; Ma&#223;e beziehen sich auf Fragment a; b: ca. (56) x (55) x ca. 20 cm. Auf dem Rahmen Weinranken. Z. 1: noch die unteren Enden von zwei oder drei nicht mehr eindeutig identifizierbaren Buchstaben erhalten. (B): Boppert: Z. 1: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf, BRGK 27, 1937, 90, Nr. 127.</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 73, Nr. 31; Tafel 15, 31 (Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="1" />signi<lb break="no" n="2" /><supplied reason="lost">fero <gap reason="lost" extent="unknown" unit="character" /> vixi</supplied>t annis <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />si<expan><ex>a</ex><abbr>e</abbr></expan> quae <lb n="4" /><supplied reason="lost">vixit annis <gap reason="lost" extent="unknown" unit="character" /> mensibus</supplied> VI die<lb break="no" n="5" /><supplied reason="lost">bus</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /><lb break="no" n="1" />tius Le<gap reason="lost" extent="unknown" unit="character" /><certainty match="preceding-sibling::node()" locus="value" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />tissim<expan><ex>a</ex><abbr>e</abbr></expan> <gap reason="lost" extent="unknown" unit="character" /><certainty match="preceding-sibling::node()" locus="value" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

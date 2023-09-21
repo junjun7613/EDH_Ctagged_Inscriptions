@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075387</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075387</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{S. Alban, Stift, ehemalige Kirche}, S&#252;dwestturm, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075387_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD075387_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">O[---]</name><name type="cognomen">Valens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-14" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Nur handschriftlich in verschiedenen Varianten &#252;berliefert. Oberhalb des Inschriftfeldes die stehende Figur wohl eines Soldaten. Z. 1: Die Buchstaben D und M befanden sich nach verschiedenen Zeichnungen im Bildfeld oder noch dar&#252;ber. Lesung nach CIL 13, 06823.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06823.</bibl><bibl>CLE 0407.</bibl><bibl>W. Boppert, Milit&#228;rische Grabdenkm&#228;ler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 107-109, Nr. 11; Tafel 12 (Zeichnung).</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preu&#223; - E. Wittkopf, Der r&#246;mische Weihebezirk von Osterburken 1 (Stuttgart 1990) 119-120, Nr. 133.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> et bon<expan><ex>a</ex><abbr>e</abbr></expan> memoriae <lb n="2" />quid stas et <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="3" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="4" />situs <lb n="5" /><expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXIIII probi<lb break="no" n="6" />tus <note>sic</note> hic in <expan><abbr>leg</abbr><ex>ione</ex></expan> VII <expan><abbr>Cl</abbr><ex>audia</ex></expan> <lb n="7" />lectus in praetor<supplied reason="lost">io</supplied> <lb n="8" />factus <expan><abbr>eq</abbr><ex>ues</ex></expan> promot<supplied reason="lost">us |(centurio)</supplied> <lb n="9" />ex b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> praefectorum <lb n="10" />natus provincia M<supplied reason="lost">oe</supplied><lb break="no" n="11" />sia superiore reg<supplied reason="lost">io</supplied><lb break="no" n="12" />ne Scupini&amp;lt;t&amp;gt;<expan><abbr>a</abbr><ex cert="low" /></expan> Da<supplied reason="lost">r</supplied>dan<supplied reason="lost">ia</supplied> <lb n="13" />me genuit tenuit G<supplied reason="lost">erma</supplied><lb break="no" n="14" />nia colonum <expan><abbr>C</abbr><ex>aius</ex></expan> O<gap reason="lost" extent="unknown" unit="character" /> <lb n="15" /><expan><abbr>Ser</abbr><ex>gia</ex></expan> Valens primus <lb n="16" /><supplied reason="lost">he</supplied><lb break="no" n="17" />res et consobrinus <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

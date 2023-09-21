@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bad M&#252;nstereifel (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077550</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077550</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(35)</height><width>(33)</width><depth>(22)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 208 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1870"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2895534">Bad M&#252;nstereifel</placeName><placeName type="findspot">{Iversheim}, nord&#246;stlich, Kalkbrennofen</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077550_1" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Castinus</name></persName></person><person xml:id="HD077550_2" sex="M"><persName><name type="nomen">Petronius</name><name type="cognomen">Aquila</name></persName></person><person xml:id="HD077550_3" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Amandus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016991" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/db2484ce-77ef-443a-af45-76643b4f1efd/file/id/776577/file_version/name/small" /><graphic xml:id="F016992" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8652fb09-c241-40aa-8bf0-95799ad7ab9f/file/id/776578/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Altar zweimal beschriftet worden. Von der ersten Inschrift ist nur die erste Zeile erhalten geblieben; Datierung: 2. Jh. n. Chr. - Die zweite Inschrift wurde in die (urspr&#252;ngliche) R&#252;ckseite eingemeisselt; Datierung: 205 oder 208 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07945; Zeichnung.</bibl><bibl>ILS 2459.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 18-19, Nr. 32; Zeichnung.</bibl><bibl>G. Alf&#246;ldy, in: EpStud 5 (D&#252;sseldorf 1968) 19-20, Nr. 4.</bibl><bibl>G. Alf&#246;ldy, in: EpStud 3 (K&#246;ln 1967) 51, Nr. 62.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> et Geni<supplied reason="lost">o</supplied> <lb n="2" /><supplied reason="lost" cert="low">vexillationis</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> Sub Iulio Cas<lb break="no" n="2" />tino <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>M</abbr><ex>inerviae</ex></expan> <lb n="3" />cura Petroni <lb n="4" />Aquilae |(centurionis) &amp;lt;f=E&amp;gt;ur<lb break="no" n="5" />nus &amp;lt;f=E&amp;gt;actus <expan><abbr>ar</abbr><ex>chitectante</ex></expan> <lb n="6" /><expan><abbr>Val</abbr><ex>erio</ex></expan> <expan><abbr>Aman</abbr><ex>do</ex></expan> dis<lb break="no" n="7" />cente <del rend="erasure">duobus</del> <lb n="8" />Aug<del rend="erasure"><expan><abbr>g</abbr><ex>ustis</ex></expan></del> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> </div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

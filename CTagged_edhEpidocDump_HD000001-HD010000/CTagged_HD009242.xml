@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ruhstorf/Rott (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009242</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009242</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruhstorf/Rott, Eholfing, Kirche, S&#252;dwand, vermauert; Passau, R&#246;mermus. Kastell Boiotro (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>126</height><width>86</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1856"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2932879">Ruhstorf/Rott</placeName><placeName type="findspot">Eholfing, {Kirche}, S&#252;dwand, sekund&#228;r verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009242_1" sex="W"><persName><name type="nomen">Lollia*</name><name type="cognomen">Attica</name></persName></person><person xml:id="HD009242_2" sex="W"><persName><name type="nomen">Lollia*</name><name type="cognomen">Onesime</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-14" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Die Lesungen in CIL sind teilweise v&#246;llig irrig. Die Lesung D(is) M(anibus) in IBR und AE ist inkorrekt, denn diese Buchstaben fehlen auf dem Stein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05618. (B)</bibl><bibl>IBR 439; tab. 61, 439. (B)</bibl><bibl>AE 1988, 0909. (B)</bibl><bibl>H. Wolff, OstbGrenzm 29, 1987, 209, Nr. 2. - AE 1988.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 128-129, Nr. 95; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="cbe79cc2-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="cbe79dda-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="cbe79da8-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="cbe79d6c-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="cbe79ea2-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cbe79e70-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe79e3e-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cbe79e0c-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="cbe79f60-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="cbe79f4c-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="cbe79f38-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cbe79f1a-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cbe79f06-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe79ef2-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="cbe79ede-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cbe79eca-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cbe79eb6-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="cbe7a046-583b-11ee-a136-4e7b8ce151d1">@</c><c xml:id="cbe7a032-583b-11ee-a136-4e7b8ce151d1">(</c><c xml:id="cbe7a01e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="cbe7a00a-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="cbe79ff6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe79fe2-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cbe79fce-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cbe79fb0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cbe79f9c-583b-11ee-a136-4e7b8ce151d1">)</c><c xml:id="cbe79f88-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cbe7a096-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex><c xml:id="cbe7a14a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="cbe7a122-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="cbe7a0fa-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a0c8-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="cbe7a1b8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="cbe7a1a4-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="cbe7a190-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="cbe7a17c-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="cbe7a168-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="cbe7a276-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="cbe7a24e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="cbe7a21c-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="cbe7a302-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cbe7a2da-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a2a8-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="cbe7a3d4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="cbe7a3c0-583b-11ee-a136-4e7b8ce151d1">O</c><c xml:id="cbe7a3a2-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="cbe7a38e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cbe7a37a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="cbe7a35c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a348-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="cbe7a334-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cbe7a316-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="cbe7a424-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="cbe7a50a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a4e2-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="cbe7a4b0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a488-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cbe7a456-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="cbe7a528-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cbe7a564-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="cbe7a758-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a730-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cbe7a6fe-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="cbe7a6cc-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="cbe7a6a4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a67c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="cbe7a64a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="cbe7a622-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a5f0-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="cbe7a5be-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="cbe7a596-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="cbe7a76c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="cbe7a7a8-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="cbe7a85c-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="cbe7a834-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="cbe7a80c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="cbe7a7da-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

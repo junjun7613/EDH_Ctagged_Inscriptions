@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bigeste &amp;ndash; Ljubu&#353;ki (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034084</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034084</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubu&#353;ki, Humac, Museum (Franziskanerkloster)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>90</height><width>40</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-1.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197167">Bigeste</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3288712">Ljubu&#353;ki</placeName><placeName type="findspot">Humac, {Kloster}, sekund&#228;r verwendet</placeName><placeName type="region">Zapadnohercegova&#269;ki kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034084_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD034084_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Valerius</name><name type="cognomen">Dento</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes aedicula mit B&#252;ste einer Frau. Zwischen Z. 1 und 2 gab es urspr&#252;nglich vielleicht eine weitere, mit kleineren Buchstaben geschriebene Zeile. (B): &#352;kegro: Z. 1-3: P(ubliae) R[---]a / Ar[---]a/to.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0670.</bibl><bibl>A. Zelenika, GlasSarajevo 15/16, 1961, 323-324; Tabla.</bibl><bibl>A. &#352;kegro, OpuscArchZagreb 21, 1997, 86, Nr. 2. (B)</bibl><bibl>V. Atanackovi&#263;-Sal&#269;i&#263;, Na&#353;e starine 14/15, 1981, 265-266, Nr. 5; sl. 5; cr. 5 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="8f178dde-5840-11ee-8e0b-4e7b8ce151d1">
+</c><c xml:id="8f178dca-5840-11ee-8e0b-4e7b8ce151d1">P</c><c xml:id="8f178da2-5840-11ee-8e0b-4e7b8ce151d1">r</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="8f178e10-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="8f178dfc-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="8f178e42-5840-11ee-8e0b-4e7b8ce151d1">A</c><c xml:id="8f178e2e-5840-11ee-8e0b-4e7b8ce151d1">T</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="8f178e88-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="8f178e74-5840-11ee-8e0b-4e7b8ce151d1">f</c><c xml:id="8f178e60-5840-11ee-8e0b-4e7b8ce151d1">a</c></line><line break="no" n="3"><c xml:id="8f178f46-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="8f178f32-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="8f178f1e-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="8f178f0a-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="8f178ef6-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f178ee2-5840-11ee-8e0b-4e7b8ce151d1">p</c><c xml:id="8f178ece-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="8f178eba-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f178ea6-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f178f96-5840-11ee-8e0b-4e7b8ce151d1">h</c></abbr><ex><c xml:id="8f178ffa-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f178fd2-5840-11ee-8e0b-4e7b8ce151d1">c</c></ex></expan><c xml:id="8f17900e-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f17904a-5840-11ee-8e0b-4e7b8ce151d1">s</c></abbr><ex><c xml:id="8f1790cc-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f1790a4-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="8f17907c-5840-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="8f1790e0-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f17911c-5840-11ee-8e0b-4e7b8ce151d1">e</c></abbr><ex><c xml:id="8f179176-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="8f17914e-5840-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan><c xml:id="8f17918a-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="8f1791c6-5840-11ee-8e0b-4e7b8ce151d1">C</c></abbr><ex><c xml:id="8f179270-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f179248-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f179216-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="8f1791ee-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="8f17934c-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="8f179338-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="8f17931a-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f179306-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="8f1792f2-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f1792de-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="8f1792ca-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f1792ac-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="8f179298-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="8f179284-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f179392-5840-11ee-8e0b-4e7b8ce151d1">C</c></abbr><ex><c xml:id="8f17940a-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f1793c4-5840-11ee-8e0b-4e7b8ce151d1">i</c></ex></expan><c xml:id="8f179414-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f179450-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="8f179540-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f17950e-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="8f1794e6-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f1794be-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="8f179482-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="8f179590-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="8f17957c-5840-11ee-8e0b-4e7b8ce151d1">D</c><c xml:id="8f179568-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f17954a-5840-11ee-8e0b-4e7b8ce151d1">n</c></line><line break="no" n="5"><c xml:id="8f1795ea-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="8f1795d6-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="8f1795b8-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f1796da-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="8f1796a8-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f179680-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="8f179658-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f179626-5840-11ee-8e0b-4e7b8ce151d1">r</c></abbr><ex><c xml:id="8f179784-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f17975c-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="8f179734-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="8f179702-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="8f179798-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f17982e-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="8f1797fc-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f1797d4-5840-11ee-8e0b-4e7b8ce151d1">g</c></abbr><ex><c xml:id="8f179900-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f1798d8-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="8f1798b0-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="8f17987e-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f179856-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="8f179982-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="8f179964-5840-11ee-8e0b-4e7b8ce151d1">V</c><c xml:id="8f179946-5840-11ee-8e0b-4e7b8ce151d1">I</c><c xml:id="8f179932-5840-11ee-8e0b-4e7b8ce151d1">I</c><c xml:id="8f179914-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8f179a18-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="8f1799f0-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f1799c8-5840-11ee-8e0b-4e7b8ce151d1">b</c></abbr><ex><c xml:id="8f179af4-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f179acc-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="8f179a9a-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="8f179a72-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f179a4a-5840-11ee-8e0b-4e7b8ce151d1">e</c></ex></expan><c xml:id="8f179b08-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="8f179c34-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="8f179c20-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="8f179c02-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="8f179be4-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="8f179bd0-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="8f179bb2-5840-11ee-8e0b-4e7b8ce151d1">p</c><c xml:id="8f179b94-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="8f179b76-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="8f179b62-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="8f179b44-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="8f179b26-5840-11ee-8e0b-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

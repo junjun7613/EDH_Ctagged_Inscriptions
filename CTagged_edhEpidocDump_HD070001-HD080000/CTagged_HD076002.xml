@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Altenkirchen (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076002</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076002</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1603"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2957570">Altenkirchen</placeName><placeName type="findspot" /><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076002_1" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Candidianus</name><name type="cognomen">Tacitus</name></persName></person><person xml:id="HD076002_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Candidianius+</name><name type="cognomen">Iunianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>M&#246;glicherweise wurde, wie bereits Zangemeister im CIL erwog, die letzte Zeile der Inschrift in der Abschrift fehlerhaft an erster Stelle gesetzt, so dass statt dessen: [T]ib(erio) Candidiano T/acito mon&amp;lt;u&amp;gt;me[n]tu/m fecit Tib(erius) Candid/[i]anius Iunianus / [f]rater et heres zu lesen w&#228;re.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06197.</bibl><bibl>F.J. Hildenbrand, Der r&#246;mische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 67.</bibl><bibl>S. Ditsch, Dis Manibus. Die r&#246;mischen Grabdenkm&#228;ler aus der Pfalz (Neustadt/Weinstra&#223;e 2011) 67, Nr. Altenkirchen 03.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="27751770-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="27751806-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="2775186a-5843-11ee-8920-4e7b8ce151d1">f</c></supplied><c xml:id="27751996-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="27751982-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="2775196e-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="2775195a-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="27751946-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="27751932-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="2775191e-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2775190a-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="277518f6-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="277518ec-5843-11ee-8920-4e7b8ce151d1">h</c><c xml:id="277518d8-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="277518c4-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="277518b0-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2775189c-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="27751888-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><supplied reason="lost"><c xml:id="277519fa-5843-11ee-8920-4e7b8ce151d1">T</c></supplied><c xml:id="27751a2c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751a18-5843-11ee-8920-4e7b8ce151d1">b</c></abbr><ex><c xml:id="27751afe-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="27751acc-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="27751a9a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751a68-5843-11ee-8920-4e7b8ce151d1">o</c></ex></expan><c xml:id="27751c2a-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="27751c16-5843-11ee-8920-4e7b8ce151d1">C</c><c xml:id="27751bf8-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="27751be4-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="27751bd0-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="27751bbc-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751ba8-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="27751b94-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751b80-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="27751b6c-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="27751b4e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751b3a-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="27751b26-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="27751b12-5843-11ee-8920-4e7b8ce151d1">T</c></line><line break="no" n="3"><c xml:id="27751e50-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="27751e3c-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="27751e28-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751e0a-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="27751df6-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="27751dd8-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="27751dc4-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="27751da6-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="27751d92-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="27751d7e-5843-11ee-8920-4e7b8ce151d1">&amp;</c><c xml:id="27751d6a-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="27751d4c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="27751d38-5843-11ee-8920-4e7b8ce151d1">;</c><c xml:id="27751d24-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="27751d06-5843-11ee-8920-4e7b8ce151d1">=</c><c xml:id="27751cf2-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="27751cde-5843-11ee-8920-4e7b8ce151d1">&amp;</c><c xml:id="27751cca-5843-11ee-8920-4e7b8ce151d1">g</c><c xml:id="27751cac-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="27751c98-5843-11ee-8920-4e7b8ce151d1">;</c><c xml:id="27751c7a-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="27751c66-5843-11ee-8920-4e7b8ce151d1">e</c><expan><ex><c xml:id="27751ec8-5843-11ee-8920-4e7b8ce151d1">n</c></ex><abbr><c xml:id="27751f2c-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="27751efa-5843-11ee-8920-4e7b8ce151d1">u</c></abbr></expan></line><line break="no" n="4"><c xml:id="27751ffe-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="27751fe0-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="27751fc2-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="27751fae-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="27751f90-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="27751f7c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27751f5e-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="27751f40-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2775209e-5843-11ee-8920-4e7b8ce151d1">T</c><c xml:id="27752076-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27752044-5843-11ee-8920-4e7b8ce151d1">b</c></abbr><ex><c xml:id="2775217a-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="27752152-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="2775212a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="277520f8-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="277520c6-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="27752238-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="2775221a-5843-11ee-8920-4e7b8ce151d1">C</c><c xml:id="277521fc-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="277521de-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="277521c0-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="277521ac-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2775218e-5843-11ee-8920-4e7b8ce151d1">d</c></line><line break="no" n="5"><supplied reason="lost"><c xml:id="27752288-5843-11ee-8920-4e7b8ce151d1">i</c></supplied><c xml:id="2775242c-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="2775240e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="277523f0-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="277523d2-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="277523be-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="277523a0-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="27752382-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="27752364-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="27752346-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="27752328-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="27752314-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="277522f6-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="277522d8-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="277522ba-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="2775229c-5843-11ee-8920-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

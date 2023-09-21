@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lousonna &amp;ndash; Lausanne (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080152</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080152</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lausanne, Mus&#233;e</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177565">Lousonna</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1856"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659994">Lausanne</placeName><placeName type="findspot" /><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080152_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Lucanus</name></persName></person><person xml:id="HD080152_2" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Censorina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040492" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/beaa5ddf-b20b-4bdb-b65d-598ac78293ce/file/id/801374/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberer Teil einer Stele mit verziertem Giebel und Akroteren. Z. LL-Ligatur; A in C eingeschrieben; Z. 2: TP-Ligatur; Z. 3: E in C eingeschrieben, O und S verschr&#228;nkt; IN-Ligatur; Z. 4: VR-Ligatur klein in C eingeschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05029.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="72e839d0-5843-11ee-9558-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="72e83a48-5843-11ee-9558-4e7b8ce151d1">C</c></abbr><ex><c xml:id="72e83b2e-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="72e83afc-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e83ac0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e83a8e-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="72e83b42-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="72e83be2-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="72e83bb0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e83b88-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="72e83c6e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e83c46-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e83c14-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="72e83d22-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="72e83d0e-5843-11ee-9558-4e7b8ce151d1">L</c><c xml:id="72e83cfa-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e83ce6-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="72e83cd2-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="72e83cbe-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="72e83caa-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e83c96-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="72e83c82-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="72e83dea-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="72e83dd6-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="72e83dc2-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="72e83dae-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="72e83d9a-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e83d86-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="72e83d72-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e83d5e-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="72e83d4a-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="72e83e3a-5843-11ee-9558-4e7b8ce151d1">t</c></abbr><ex><c xml:id="72e83ff2-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="72e83fca-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="72e83f98-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="72e83f70-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="72e83f48-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="72e83f20-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="72e83eee-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="72e83ec6-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="72e83e6c-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="72e84006-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="72e84042-5843-11ee-9558-4e7b8ce151d1">p</c></abbr><ex><c xml:id="72e840c4-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="72e8409c-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="72e8406a-5843-11ee-9558-4e7b8ce151d1">i</c></ex></expan><c xml:id="72e840d8-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="72e84114-5843-11ee-9558-4e7b8ce151d1">i</c></abbr><ex><c xml:id="72e841f0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e841c8-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="72e841a0-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="72e84178-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e84146-5843-11ee-9558-4e7b8ce151d1">t</c></ex></expan><c xml:id="72e8420e-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="72e8429a-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="72e84268-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e84240-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="72e842f4-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e842c2-5843-11ee-9558-4e7b8ce151d1">a</c></ex></expan><c xml:id="72e843e4-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="72e843c6-5843-11ee-9558-4e7b8ce151d1">C</c><c xml:id="72e843b2-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="72e8439e-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="72e8438a-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="72e84376-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="72e84358-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="72e84344-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e84330-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="72e8431c-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="72e84308-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="72e84416-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="72e84452-5843-11ee-9558-4e7b8ce151d1">f</c></abbr><ex><c xml:id="72e845a6-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="72e8457e-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="72e84556-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e8452e-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="72e844fc-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="72e844d4-5843-11ee-9558-4e7b8ce151d1">d</c><c xml:id="72e844ac-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e84484-5843-11ee-9558-4e7b8ce151d1">m</c></ex></expan><c xml:id="72e845ba-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="72e84650-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="72e8461e-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="72e845f6-5843-11ee-9558-4e7b8ce151d1">r</c></abbr><ex><c xml:id="72e846fa-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="72e846d2-5843-11ee-9558-4e7b8ce151d1">v</c><c xml:id="72e846aa-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="72e84678-5843-11ee-9558-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

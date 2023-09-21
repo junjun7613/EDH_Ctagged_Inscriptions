@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Narona &amp;ndash; Metkovi&#263; (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005677</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005677</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Metkovi&#263;, Vid, Arch&#228;ologische Sammlung</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>64</height><width>51</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197400">Narona</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187815">Metkovi&#263;</placeName><placeName type="findspot">{Vid}, Lu&#269;ica, Nordwesttor, bei</placeName><placeName type="region">Dubrova&#269;ko-neretvanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005677_1" sex="M"><persName><name type="praenomen">C.++</name><name type="nomen">Iulius+++</name><name type="cognomen">Verus++ Maximinus++</name></persName></person><person xml:id="HD005677_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q518890"><name type="praenomen">C.</name><name type="nomen">Iulius++</name><name type="cognomen">Verus++ Maximus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-13" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente erhalten. Gefunden beim nordwestlichen Stadttor von Narona. (B): Bojanovski; AE 1980: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0678. (B)</bibl><bibl>I. Bojanovski, AArchSlov 28, 1977, 188-195; tab. 1, 1. (B) - AE 1980.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="dde2ab10-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="dde2aab6-583b-11ee-a136-4e7b8ce151d1">P</c><del rend="erasure"><c xml:id="dde2abba-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2ab7e-583b-11ee-a136-4e7b8ce151d1">o</c><supplied reason="lost"><expan><abbr>sal</abbr><ex>ute</ex></expan></supplied> <expan><abbr>dd</abbr><ex>ominorum</ex></expan> [<expan><abbr>nn</abbr><ex>ostrorum</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan></del><c xml:id="dde2abec-583b-11ee-a136-4e7b8ce151d1">]</c><c xml:id="dde2abce-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="dde2ac0a-583b-11ee-a136-4e7b8ce151d1">C</c><del rend="erasure"><c xml:id="dde2ad7c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2ad54-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="dde2ad2c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dde2acfa-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2acc8-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2ac96-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2ac6e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dde2ac46-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr>G</abbr><ex>ai</ex></expan> <supplied reason="lost">I</supplied>uli Veri</del><c xml:id="dde2ad90-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="dde2adae-583b-11ee-a136-4e7b8ce151d1">M</c><del rend="erasure"><c xml:id="dde2af20-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2aeee-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="dde2aec6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2ae9e-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="dde2ae6c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2ae44-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dde2ae1c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2adea-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr>Aug</abbr><ex>usti</ex></expan> et</del><c xml:id="dde2af34-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="dde2af70-583b-11ee-a136-4e7b8ce151d1">G</c></abbr><ex><c xml:id="dde2afd4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2afac-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="dde2aff2-583b-11ee-a136-4e7b8ce151d1"> </c><del rend="erasure"><c xml:id="dde2b2ea-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="dde2b2b8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dde2b290-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="dde2b268-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b236-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="dde2b20e-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="dde2b1e6-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="dde2b1be-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2b18c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b164-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="dde2b13c-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="dde2b10a-583b-11ee-a136-4e7b8ce151d1">[</c><c xml:id="dde2b0e2-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2b0b0-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="dde2b088-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b056-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="dde2b02e-583b-11ee-a136-4e7b8ce151d1">i</c></del><c xml:id="dde2b312-583b-11ee-a136-4e7b8ce151d1">]</c><c xml:id="dde2b2fe-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="dde2b3b2-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dde2b394-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="dde2b380-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="dde2b36c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b358-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="dde2b344-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b330-583b-11ee-a136-4e7b8ce151d1">s</c><expan><ex><c xml:id="dde2b3f8-583b-11ee-a136-4e7b8ce151d1">s</c></ex><abbr><c xml:id="dde2b484-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b452-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="dde2b42a-583b-11ee-a136-4e7b8ce151d1">i</c></abbr></expan><c xml:id="dde2b498-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="dde2b556-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="dde2b52e-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2b4fc-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="dde2b4d4-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="dde2b60a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2b5e2-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2b5ba-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b588-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="dde2b61e-583b-11ee-a136-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="dde2b6e6-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2b6b4-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="dde2b68c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dde2b65a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr>p</abbr><ex>ublica</ex></expan></supplied><c xml:id="dde2b6fa-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="dde2b7ea-583b-11ee-a136-4e7b8ce151d1">N</c><c xml:id="dde2b7d6-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2b7b8-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2b7a4-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="dde2b790-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dde2b772-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dde2b75e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="dde2b74a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dde2b72c-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dde2b718-583b-11ee-a136-4e7b8ce151d1">o</c><supplied reason="lost"><c xml:id="dde2b89e-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dde2b86c-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dde2b844-583b-11ee-a136-4e7b8ce151d1">m</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

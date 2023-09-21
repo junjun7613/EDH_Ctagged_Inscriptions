@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augustiana &amp;ndash; Traismauer (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064381</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064381</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Traismauer, Mus. f&#252;r Fr&#252;hgesch. d. Landes Nieder&#246;sterr.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/74">Konglomerat</material><dimensions unit="cm"><height>(203)</height><width>96</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118581">Augustiana</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763459">Traismauer</placeName><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064381_1" sex="M"><persName><name type="cognomen">Haldius</name></persName></person><person xml:id="HD064381_2" sex="M"><persName><name type="cognomen">Attus</name></persName></person><person xml:id="HD064381_3" sex="M"><persName><name type="cognomen">Macer</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-14" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025600" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9ff09b4c-338c-41b3-a8e9-2f9d971ea6f8/file/id/786352/file_version/name/small" /><graphic xml:id="F025601" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d8977c9f-a56a-4a4d-b60b-9bbe0aaa66d9/file/id/786353/file_version/name/small" /><graphic xml:id="F025988" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/899c20d9-106c-415e-8c9c-d2f02a46a2a1/file/id/786740/file_version/name/small" /><graphic xml:id="F037455" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fb09a9b1-846b-461b-b4d3-9eb521145c5c/file/id/798322/file_version/name/small" /><graphic xml:id="F037456" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c8aa0985-6125-4071-8028-c0ea0973bc94/file/id/798323/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 2/3 u. 4/5: Weber - Holzner: keine Angabe der Zeilenf&#228;lle; Z. 5: Risy (nach P. Scherrer): h(eres) e(t) c(ontubernalis); Weber - Holzner, AE 2007: h(ic) e(st situs) C(aius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1086. (B)</bibl><bibl>M. Holzner - E. Weber, Tyche 23, 2008, 209, Nr. 178. (B) - AE 2007.</bibl><bibl>S. Traxler, in: V. H&#246;ck - F. Lang - W. Hohlmayr (Hrsg.), Akten zum 2.</bibl><bibl>&#214;sterreichischen "R&#246;merstein-Treffen", Salzburg 2006 (Wien 2007) 103, Nr. Traismauer G05; Tafel 11, 1. - AE 2007.</bibl><bibl>R. Risy, R&#338; 31, 2008, 99. 107, Nr. 32. - AE 2007.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="71fbace2-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="71fbacce-5842-11ee-a013-4e7b8ce151d1">H</c><c xml:id="71fbacba-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbaca6-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="71fbac9c-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="71fbac88-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbac74-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbac60-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="71fbac4c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="71fbac38-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="71fbac24-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="71fbac06-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="71fbabf2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbabac-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="71fbad5a-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="71fbae54-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbae22-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="71fbadf0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbadc8-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbad96-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="71fbae68-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="71fbaed6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbaea4-5842-11ee-a013-4e7b8ce151d1">q</c></abbr><ex><c xml:id="71fbaf62-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbaf30-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbaf08-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="71fbb00c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="71fbaff8-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbafe4-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="71fbafd0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbafbc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbaf9e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="71fbaf8a-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="71fbaf76-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="71fbb0d4-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="71fbb0c0-5842-11ee-a013-4e7b8ce151d1">h</c><c xml:id="71fbb0ac-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="71fbb098-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbb07a-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="71fbb066-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbb052-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="71fbb03e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="71fbb156-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbb124-5842-11ee-a013-4e7b8ce151d1">n</c></abbr><ex><c xml:id="71fbb23c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="71fbb20a-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="71fbb1e2-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="71fbb1b0-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbb188-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="71fbb250-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="71fbb304-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="71fbb2f0-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="71fbb2d2-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="71fbb2be-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="71fbb2a0-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="71fbb28c-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="71fbb26e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="71fbb3d6-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="71fbb3ae-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="71fbb37c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbb34a-5842-11ee-a013-4e7b8ce151d1">p</c></abbr><ex><c xml:id="71fbb548-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbb520-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="71fbb4ee-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="71fbb4c6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbb494-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="71fbb46c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="71fbb43a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbb412-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="71fbb5f2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="71fbb5de-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="71fbb5c0-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="71fbb5ac-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="71fbb58e-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="71fbb57a-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="71fbb55c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="71fbb64c-5842-11ee-a013-4e7b8ce151d1">h</c></abbr><ex><c xml:id="71fbb700-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbb6d8-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="71fbb6a6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbb67e-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="71fbb980-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="71fbb962-5842-11ee-a013-4e7b8ce151d1">&amp;</c><c xml:id="71fbb94e-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="71fbb930-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="71fbb912-5842-11ee-a013-4e7b8ce151d1">;</c><c xml:id="71fbb8f4-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="71fbb8e0-5842-11ee-a013-4e7b8ce151d1">=</c><c xml:id="71fbb8c2-5842-11ee-a013-4e7b8ce151d1">E</c><c xml:id="71fbb8a4-5842-11ee-a013-4e7b8ce151d1">&amp;</c><c xml:id="71fbb886-5842-11ee-a013-4e7b8ce151d1">g</c><c xml:id="71fbb868-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="71fbb84a-5842-11ee-a013-4e7b8ce151d1">;</c><c xml:id="71fbb82c-5842-11ee-a013-4e7b8ce151d1">(</c><c xml:id="71fbb818-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbb7fa-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="71fbb7dc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbb7be-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbb7aa-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="71fbb78c-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="71fbb778-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbb75a-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="71fbb73c-5842-11ee-a013-4e7b8ce151d1">)</c><c xml:id="71fbb71e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="71fbb9f8-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="71fbbb10-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="71fbbade-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="71fbbab6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbba84-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="71fbba5c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbba2a-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan><c xml:id="71fbbbd8-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="71fbbbba-5842-11ee-a013-4e7b8ce151d1">M</c><c xml:id="71fbbb9c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="71fbbb7e-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="71fbbb60-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbbb42-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="71fbbb24-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="71fbbc8c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="71fbbc64-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbbc32-5842-11ee-a013-4e7b8ce151d1">g</c></abbr><ex><c xml:id="71fbbd72-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="71fbbd40-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="71fbbd18-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="71fbbce6-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="71fbbcbe-5842-11ee-a013-4e7b8ce151d1">r</c></ex></expan><c xml:id="71fbbd86-5842-11ee-a013-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

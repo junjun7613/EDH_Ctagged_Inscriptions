@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057033</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057033</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. d'Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/112">cupa</objectType><dimensions unit="cm"><height>51</height><width>88</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Ensenyan&#231;a, Kloster</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057033_1"><persName><name type="nomen">Porciola</name></persName></person><person xml:id="HD057033_2" sex="W"><persName><name type="nomen">Trocina</name><name type="cognomen">Chreste</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-01" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschriftenfeld von zwei Pulvini bekr&#246;nt und seitlich von geschwungnenen Linien gerahmt. Text 1 &#252;ber dem eigentlichen Inschriftenfeld. Text 2 Z. 2: die Lesung m(ensium) II(?)I ist ebenfalls m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 205; pl. 97, 205.</bibl><bibl>CIL 02, 06175.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 172-173, Nr. 196.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="294d631e-5842-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="294d63be-5842-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="294d6436-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d6404-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="294d644a-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="294d6486-5842-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="294d659e-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="294d656c-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="294d6544-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d6512-5842-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="294d64ea-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="294d64c2-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="294d65a8-5842-11ee-a9c6-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="294d6684-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="294d667a-5842-11ee-a9c6-4e7b8ce151d1">P</c><c xml:id="294d6666-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="294d6652-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="294d663e-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="294d662a-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d6616-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="294d660c-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="294d65f8-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="294d65e4-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="294d65d0-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="294d66de-5842-11ee-a9c6-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="294d6706-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="294d671a-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="294d6756-5842-11ee-a9c6-4e7b8ce151d1">m</c></abbr><ex><c xml:id="294d6832-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="294d6800-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="294d67d8-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="294d67b0-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d677e-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="294d686e-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="294d685a-5842-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="294d6846-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="294d68aa-5842-11ee-a9c6-4e7b8ce151d1">d</c></abbr><ex><c xml:id="294d692c-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d6904-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="294d68d2-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="294d6968-5842-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="294d6954-5842-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="294d6940-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="294d6a26-5842-11ee-a9c6-4e7b8ce151d1">T</c><c xml:id="294d6a08-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="294d69f4-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="294d69e0-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="294d69cc-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d69b8-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="294d69a4-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="294d6990-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="294d6b0c-5842-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="294d6af8-5842-11ee-a9c6-4e7b8ce151d1">h</c><c xml:id="294d6ae4-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="294d6ad0-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="294d6abc-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="294d6aa8-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="294d6a8a-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="294d6a4e-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="294d6b84-5842-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="294d6b5c-5842-11ee-a9c6-4e7b8ce151d1">e</c></abbr><ex><c xml:id="294d6c10-5842-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="294d6be8-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="294d6bb6-5842-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073685</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073685</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(47)</height><width>(36)</width><depth>(6)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1898"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Pfaffenberg, Tempelbezirk}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073685_1" sex="M"><persName><name type="nomen">Camius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-09" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente einer Tafel. Fragment (a) verschollen. Schreibtechnik: geritzt. Merkmale der Kursive. Z. 1: CA-Ligatur. Z. 2 k&#246;nnte f&#252;r &amp;apos;[---]a eius&amp;apos; oder den Teil eines Frauennamen wie bspw. [Iuli]ae Ius[tae] stehen. Der Fundort ist wahrscheinlich Resultat einer sekund&#228;ren Verwendung. Ma&#223;e erhaltenes Fragment (b) in cm: H: 21; B: 23; T: 6. (B): CIL 03, 14359, 9r; Vorbeck: Z. 1: Canio; Z. 2: eius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14359, 9r. (B)</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 86, Nr. 399r. (B)</bibl><bibl>I. Piso, Das Heiligtum des Jupiter Optimus Maximus auf dem Pfaffenberg/Carnuntum 1. Die Inschriften (Wien 2003) 81-82, Nr. 126; Foto u. Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="b6748da0-2c3a-11ee-96ce-4e7b8ce151d0">C</c><c xml:id="b6748d78-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b6748d5a-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="b6748d3c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b6748d14-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b6748cd8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap><c xml:id="b6748ddc-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b6748e9a-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b6748e72-2c3a-11ee-96ce-4e7b8ce151d0">E</c><c xml:id="b6748e54-2c3a-11ee-96ce-4e7b8ce151d0">I</c><c xml:id="b6748e2c-2c3a-11ee-96ce-4e7b8ce151d0">U</c><c xml:id="b6748e0e-2c3a-11ee-96ce-4e7b8ce151d0">S</c><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap><c xml:id="b6748ed6-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

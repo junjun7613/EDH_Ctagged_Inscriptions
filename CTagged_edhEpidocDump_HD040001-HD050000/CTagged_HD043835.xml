@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Baetulo &amp;ndash; Badalona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043835</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043835</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Badalona, Mus. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>87</height><width>(56)</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.6-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246221">Baetulo</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3129028">Badalona</placeName><placeName type="findspot" /><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043835_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-10" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. Lesung anhand der Fotografie nur teilweise &#252;berpr&#252;fbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 1, 140; pl. 49, 140.</bibl><bibl>IRC 5, p. 15.</bibl><bibl>HEp 01, 1989, 119.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="35f54754-5841-11ee-8e19-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="35f5481c-5841-11ee-8e19-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54844-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="35f5488a-5841-11ee-8e19-4e7b8ce151d1">R</c></abbr><ex cert="low" /><c xml:id="35f548a8-5841-11ee-8e19-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f548c6-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f548e4-5841-11ee-8e19-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f5492a-5841-11ee-8e19-4e7b8ce151d1"> </c><c xml:id="35f54916-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="35f54902-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="35f54970-5841-11ee-8e19-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="35f54984-5841-11ee-8e19-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="35f54998-5841-11ee-8e19-4e7b8ce151d1">R</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="35f549ca-5841-11ee-8e19-4e7b8ce151d1">V</c><c xml:id="35f549b6-5841-11ee-8e19-4e7b8ce151d1">A</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f549e8-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="5"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="35f54a24-5841-11ee-8e19-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="35f54a38-5841-11ee-8e19-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="35f54a56-5841-11ee-8e19-4e7b8ce151d1"> </c><expan><abbr><c xml:id="35f54a88-5841-11ee-8e19-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="35f54a9c-5841-11ee-8e19-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54aba-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="6"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="35f54af6-5841-11ee-8e19-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="35f54b0a-5841-11ee-8e19-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="35f54b5a-5841-11ee-8e19-4e7b8ce151d1">C</c><c xml:id="35f54b3c-5841-11ee-8e19-4e7b8ce151d1">A</c><c xml:id="35f54b28-5841-11ee-8e19-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54b78-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="7"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="35f54bb4-5841-11ee-8e19-4e7b8ce151d1">Q</c></abbr><ex cert="low" /><c xml:id="35f54c04-5841-11ee-8e19-4e7b8ce151d1">V</c><c xml:id="35f54bf0-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="35f54bdc-5841-11ee-8e19-4e7b8ce151d1">N</c><c xml:id="35f54bc8-5841-11ee-8e19-4e7b8ce151d1">Q</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54c22-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="8"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54c5e-5841-11ee-8e19-4e7b8ce151d1">C</c><c xml:id="35f54c40-5841-11ee-8e19-4e7b8ce151d1">O</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54c86-5841-11ee-8e19-4e7b8ce151d1">T</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54ca4-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="9"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54d1c-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="35f54cfe-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="35f54ce0-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="35f54ccc-5841-11ee-8e19-4e7b8ce151d1">I</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="35f54d44-5841-11ee-8e19-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54dc6-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="10"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54e02-5841-11ee-8e19-4e7b8ce151d1">I</c><c xml:id="35f54dee-5841-11ee-8e19-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54e2a-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="11"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54e84-5841-11ee-8e19-4e7b8ce151d1">O</c><c xml:id="35f54e66-5841-11ee-8e19-4e7b8ce151d1">N</c><c xml:id="35f54e48-5841-11ee-8e19-4e7b8ce151d1">O</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54eac-5841-11ee-8e19-4e7b8ce151d1">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54ed4-5841-11ee-8e19-4e7b8ce151d1"> </c></line><line n="12"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="35f54f10-5841-11ee-8e19-4e7b8ce151d1">P</c><c xml:id="35f54ef2-5841-11ee-8e19-4e7b8ce151d1">A</c><gap reason="lost" extent="unknown" unit="character" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

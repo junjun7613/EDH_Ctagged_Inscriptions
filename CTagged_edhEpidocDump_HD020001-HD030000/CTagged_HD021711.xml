@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cemenelum &amp;ndash; Nice (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021711</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021711</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nice, Mus. Arch. Nice</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>64</height><width>49</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157834">Cemenelum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3024946">Nice</placeName><placeName type="findspot">{Cimiez}, Vigne des Carolins</placeName><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021711_1" sex="M"><persName><name type="nomen">Lucenius</name></persName></person><person xml:id="HD021711_2" sex="M"><persName><name type="cognomen">Rutanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1948; AE 1951; CIL 05, 07890; Duval; Laguerre: Leseabweichungen. Eingemei&#223;elt (capitalis rustica). Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1948, 0123. (B)</bibl><bibl>AE 1951, 0238. (B)</bibl><bibl>CIL 05, 07890. (B)</bibl><bibl>P.-M. Duval, Gallia 4, 1946, 129-135; fig. 39-40. - AE 1948. (B)</bibl><bibl>N. Lamboglia, RSL 13, 1947, 21-28. - AE 1951. (B)</bibl><bibl>G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 68-70, Nr. 50; pl. 12, 59. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 306, Nr. 196; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="804ed2e6-583e-11ee-8b4f-4e7b8ce151d1">
+</c><c xml:id="804ed2d2-583e-11ee-8b4f-4e7b8ce151d1">L</c><c xml:id="804ed2be-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804ed2aa-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="804ed296-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804ed282-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="804ed26e-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed25a-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804ed246-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="804ed232-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="804ed21e-583e-11ee-8b4f-4e7b8ce151d1">R</c><c xml:id="804ed1ec-583e-11ee-8b4f-4e7b8ce151d1">u</c></line><line break="no" n="2"><c xml:id="804ed372-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804ed35e-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="804ed34a-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="804ed336-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed322-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="804ed3cc-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="804ed4c6-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed494-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="804ed46c-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed43a-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804ed408-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="804ed4da-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="804ed5a2-583e-11ee-8b4f-4e7b8ce151d1">B</c><c xml:id="804ed57a-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="804ed548-583e-11ee-8b4f-4e7b8ce151d1">d</c><c xml:id="804ed516-583e-11ee-8b4f-4e7b8ce151d1">i</c></abbr><ex><c xml:id="804ed6ec-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="804ed6c4-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="804ed692-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804ed66a-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed638-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="804ed610-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804ed5de-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="804ed700-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="804ed7a0-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="804ed76e-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed73c-583e-11ee-8b4f-4e7b8ce151d1">l</c></abbr><ex><c xml:id="804ed7fa-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804ed7d2-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="804ed840-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="804ed82c-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="804ed818-583e-11ee-8b4f-4e7b8ce151d1">o</c><supplied reason="lost"><expan><abbr><c xml:id="804ed886-583e-11ee-8b4f-4e7b8ce151d1">h</c></abbr><ex><c xml:id="804ed96c-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="804ed944-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="804ed912-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804ed8ea-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed8b8-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="804ed98a-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="804eda20-583e-11ee-8b4f-4e7b8ce151d1">L</c><c xml:id="804ed9ee-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ed9c6-583e-11ee-8b4f-4e7b8ce151d1">g</c></abbr><ex><c xml:id="804edad4-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804edaac-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="804eda84-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804eda52-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><c xml:id="804edae8-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><expan><abbr><am><g type="centuria" /></am></abbr><ex><c xml:id="804edc6e-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="804edc46-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804edc14-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="804edbec-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804edbba-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="804edb92-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="804edb60-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804edb2e-583e-11ee-8b4f-4e7b8ce151d1">a</c></ex></expan></supplied><c xml:id="804edce6-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="804edcd2-583e-11ee-8b4f-4e7b8ce151d1">D</c><c xml:id="804edcb4-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="804edca0-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="804edc82-583e-11ee-8b4f-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="804edd5e-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804edd2c-583e-11ee-8b4f-4e7b8ce151d1">i</c></supplied><c xml:id="804edd72-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="804eddae-583e-11ee-8b4f-4e7b8ce151d1">h</c></abbr><ex><c xml:id="804ede6c-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804ede3a-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="804ede12-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804edde0-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="804ee006-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="804edfe8-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804edfd4-583e-11ee-8b4f-4e7b8ce151d1">x</c><c xml:id="804edfb6-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="804edfa2-583e-11ee-8b4f-4e7b8ce151d1">(</c><c xml:id="804edf84-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804edf70-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804edf5c-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="804edf3e-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804edf2a-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="804edf16-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="804edef8-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804edee4-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="804edec6-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="804edeb2-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="804ede94-583e-11ee-8b4f-4e7b8ce151d1">)</c><c xml:id="804ede80-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="804ee06a-583e-11ee-8b4f-4e7b8ce151d1">f</c></abbr><ex><c xml:id="804ee128-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="804ee0f6-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="804ee0ce-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="804ee09c-583e-11ee-8b4f-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

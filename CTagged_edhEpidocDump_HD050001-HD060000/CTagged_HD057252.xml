@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Liebenfels? (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057252</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057252</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Liebenfels, Pulst, Pfarrhof, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(85)</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1817"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/276825">Liebenfels?</placeName><placeName type="findspot">Pulst, {Pfarrhof}, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057252_1" sex="M"><persName><name type="cognomen">Vibius</name></persName></person><person xml:id="HD057252_2" sex="M"><persName><name type="cognomen">Ursus</name></persName></person><person xml:id="HD057252_3" sex="W"><persName><name type="cognomen">Vibia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-03" who="Siegl">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift B&#252;ste eines Knaben mit Pferdeschwanz an seiner rechten Kopfseite. Z. 5 (Ende): Buchstabe T steht auf dem Rahmen. (B): Leber 1972, 92-93, Nr. 168: D(is) [M(anibus)] / Vib[i]o Ursi / f[il(io)] o(bito) an(norum) IIII / Vibia h[a]via / [ne]pot(i) [k]ar(issimo) fecit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0381.</bibl><bibl>CIL 03, 04994.</bibl><bibl>P.S. Leber, Die in K&#228;rnten seit 1902 gefundenen r&#246;mischen Steininschriften (Klagenfurt 1972) 92-93, Nr. 168. (B)</bibl><bibl>G. Piccottini, Die Rundmedaillons und Nischenportr&#228;ts des Stadtgebietes von Virunum, CSIR &#214;sterreich 2, 2 (Wien 1972) 32-33, Nr. 137, Taf. 21, 137.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="f9de07b4-5841-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="f9de0890-5841-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="f9de0912-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de08d6-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="f9de0926-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f9de096c-5841-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="f9de0a8e-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f9de0a52-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f9de0a20-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de09f8-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="f9de09c6-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f9de0994-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="f9de0aa2-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="f9de0b7e-5841-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="f9de0b6a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0b56-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="f9de0b42-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0b2e-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f9de0b1a-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f9de0b06-5841-11ee-a9c6-4e7b8ce151d1">U</c><c xml:id="f9de0af2-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f9de0ade-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="f9de0ad4-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0ac0-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="f9de0c32-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="f9de0c00-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0bce-5841-11ee-a9c6-4e7b8ce151d1">l</c></abbr><ex><c xml:id="f9de0c8c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0c64-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="f9de0d5e-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f9de0d4a-5841-11ee-a9c6-4e7b8ce151d1">@</c><c xml:id="f9de0d36-5841-11ee-a9c6-4e7b8ce151d1">(</c><c xml:id="f9de0d22-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f9de0d0e-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="f9de0cfa-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0ce6-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f9de0cd2-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f9de0cbe-5841-11ee-a9c6-4e7b8ce151d1">)</c><c xml:id="f9de0caa-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f9de0de0-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f9de0dae-5841-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex><c xml:id="f9de0ebc-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f9de0e94-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f9de0e62-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="f9de0e3a-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="f9de0e12-5841-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="f9de0f3e-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f9de0f2a-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f9de0f16-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f9de0ef8-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f9de0ee4-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="f9de0ed0-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="f9de106a-5841-11ee-a9c6-4e7b8ce151d1">V</c><c xml:id="f9de104c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de1038-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="f9de1024-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de1010-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f9de0ff2-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f9de0fde-5841-11ee-a9c6-4e7b8ce151d1">h</c><c xml:id="f9de0fca-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f9de0fac-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="f9de0f98-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de0f84-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f9de0f66-5841-11ee-a9c6-4e7b8ce151d1"> </c><note>sic</note><c xml:id="f9de109c-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="f9de115a-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="f9de113c-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f9de1128-5841-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="f9de110a-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="f9de10f6-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="f9de10d8-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de10c4-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="f9de11fa-5841-11ee-a9c6-4e7b8ce151d1">k</c><c xml:id="f9de11d2-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="f9de11a0-5841-11ee-a9c6-4e7b8ce151d1">r</c></abbr><ex><c xml:id="f9de12fe-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de12d6-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="f9de12ae-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="f9de127c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de1254-5841-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="f9de122c-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="f9de139e-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="f9de1380-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="f9de1362-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="f9de134e-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="f9de1330-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="f9de1312-5841-11ee-a9c6-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

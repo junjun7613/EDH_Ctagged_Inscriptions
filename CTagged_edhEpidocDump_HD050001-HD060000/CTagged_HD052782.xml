@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kobern-Gondorf (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052782</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052782</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen (Fragment a); Koblenz, Mittelrheinmus., Depot (Fragment b)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(23)</height><width>55</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108906" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1827"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886968">Kobern-Gondorf</placeName><placeName type="findspot">Kobern, {S. Lubentius, Pfarrkirche} (romanischer Vorg&#228;ngerbau)</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052782_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]onius</name><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD052782_2" sex="W"><persName><name type="nomen">[---]onia</name><name type="cognomen">Se[---]</name></persName></person><person xml:id="HD052782_3" sex="W"><persName><name type="nomen">Iuniania+</name><name type="cognomen">Apra?</name></persName></person><person xml:id="HD052782_4" sex="W"><persName><name type="nomen">Iuniania</name><name type="cognomen">Procella</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-07-19" who="Gr&#228;f">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038192" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d8c173db-9533-404d-b102-9c99c8737cea/file/id/799064/file_version/name/small" /><graphic xml:id="F020370" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e1662749-28ca-4365-a04f-20b31c5ec489/file/id/780443/file_version/name/small" /><graphic xml:id="F038193" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2af0d0fe-71d8-4986-a371-980ef243ea1e/file/id/799065/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente; Fragment a heute verschollen; Fragment b ist mehrfach gebrochen und teilweise geklebt; Ma&#223;e beziehen sich auf das erhaltene Fragment. Reste von roter Farbe in den Buchstaben. (B): Fragment a: Bodewig, CIL 13, 07638: Z. 2: ONIOM; Haas: Z. 2: ONIO M[---]; Z. 3: Bodewig: VODE F; CIL 13, 07638: Z. 3: NO DE F; Haas: Z. 3: DE F[(UNCTO) ET]; Bodewig: Z. 4: C[-]I AE SET; CIL 13, 07638: Z. 4: ONIAE S E[-]; Haas: Z. 4: [---]NI[?]AE SET; Fragment b: Haas: Z. 1: nur Buchstabenreste, keine Lesung m&#246;glich; Z. 2: [---] e?t Iu. Autopsie R. Wiegels. Fragment b: Z. 2: statt Apra auch Afra m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 0941.</bibl><bibl>R. Bodewig, in: H.G. Kuhn (Hrsg.), Professor Dr. Robert Bodewig: Lehrer, Historiker, Arch&#228;ologe 1. Gr&#246;&#223;ere Schriften (Neudr. Lahnstein 1998) 104, Nr. 6-7. (B)</bibl><bibl>J. Haas, AKB 36, 2006, 423-428. (B) - AE 2006.</bibl><bibl>R. Wiegels, AKB 36, 2006, 531-535; Abb. 1. - AE 2006.</bibl><bibl>R. Wiegels, BerArchMittelrheinMosel 16, 2010, 490-491, Nr. 35; Abb. I 35a.</bibl><bibl>K. Matijevi&#263;, R&#246;mische und fr&#252;hchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und &#246;stlicher Eifel (Rahden (Westf.) 2010) 402-406, Nr. 109; Abb. 54; Abb. 52 u. 53 (Zeichnungen).</bibl><bibl>CIL 13, 07638. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" />onio <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />no <expan><abbr>def</abbr><ex>uncto</ex></expan> <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />oniae Se<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">Iu</supplied>ni<lb break="no" n="2" />ania <expan><abbr>AP</abbr><ex cert="low" />ra</expan> et Iu<lb break="no" n="3" />niania Procella <lb n="4" />filiae eorum <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

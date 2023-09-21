@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026347</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026347</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vence, S. Anne, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material>Gesteine</material><dimensions unit="cm"><height>26</height><width>56</width><depth>1</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot">{Place du Grand Jardin}</placeName><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026347_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Valerius*</name><name type="cognomen">Mucianus+*</name></persName></person><person xml:id="HD026347_2" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Muciana+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1924, Blanchet: Z. 1: [- - -]AL[- - -]CA[- - -]; Z. 2: [- - -]aro sacerdo(ti) Vint(iensium); Z. 3: flam(ini) et patrono Vi[- - -]; Z. 4: [- - -]io marit(o) Valeria; Z. 5: [- - -]NATI[- - -]MPRIF (?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1924, 0061. (B)</bibl><bibl>A. Blanchet, BSAF 1923, 199. - AE 1924. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 189-191, Nr. 82A; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="b09a842c-583e-11ee-8b4f-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b09a8472-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a854e-583e-11ee-8b4f-4e7b8ce151d1">V</c><c xml:id="b09a8526-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a84fe-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="b09a84c2-583e-11ee-8b4f-4e7b8ce151d1">e</c></abbr><ex><c xml:id="b09a85da-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a85b2-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a8580-583e-11ee-8b4f-4e7b8ce151d1">o</c></ex></expan><c xml:id="b09a85ee-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a862a-583e-11ee-8b4f-4e7b8ce151d1">M</c><supplied reason="lost">u</supplied>cian</abbr><ex><c xml:id="b09a8652-583e-11ee-8b4f-4e7b8ce151d1">o</c></ex></expan><c xml:id="b09a8666-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><c xml:id="b09a8710-583e-11ee-8b4f-4e7b8ce151d1">I</c><c xml:id="b09a86e8-583e-11ee-8b4f-4e7b8ce151d1">I</c><c xml:id="b09a86b6-583e-11ee-8b4f-4e7b8ce151d1">v</c></supplied><c xml:id="b09a8760-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a874c-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a8738-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="b09a8724-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a8882-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="b09a885a-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a8828-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="b09a8800-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="b09a87ce-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a87a6-583e-11ee-8b4f-4e7b8ce151d1">d</c></abbr><ex><c xml:id="b09a890e-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="b09a88dc-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="b09a88b4-583e-11ee-8b4f-4e7b8ce151d1">i</c></ex></expan><c xml:id="b09a8922-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a89d6-583e-11ee-8b4f-4e7b8ce151d1">V</c><c xml:id="b09a89ae-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a897c-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="b09a8954-583e-11ee-8b4f-4e7b8ce151d1">t</c></abbr><ex><c xml:id="b09a8ad0-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a8aa8-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="b09a8a80-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="b09a8a58-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="b09a8a30-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a8a08-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="b09a8ae4-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="b09a8ba2-583e-11ee-8b4f-4e7b8ce151d1">f</c><c xml:id="b09a8b70-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="b09a8b48-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a8b20-583e-11ee-8b4f-4e7b8ce151d1">m</c></abbr><ex><c xml:id="b09a8c24-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a8bfc-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="b09a8bca-583e-11ee-8b4f-4e7b8ce151d1">i</c></ex></expan><c xml:id="b09a8d1e-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="b09a8d0a-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="b09a8cf6-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="b09a8cd8-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="b09a8cc4-583e-11ee-8b4f-4e7b8ce151d1">p</c><c xml:id="b09a8cb0-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a8c9c-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="b09a8c88-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a8c74-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="b09a8c60-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="b09a8c4c-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="b09a8c38-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a8df0-583e-11ee-8b4f-4e7b8ce151d1">p</c><c xml:id="b09a8dbe-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a8d96-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="b09a8d6e-583e-11ee-8b4f-4e7b8ce151d1">v</c></abbr><ex><c xml:id="b09a8ef4-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a8ecc-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="b09a8e9a-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="b09a8e72-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a8e4a-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a8e18-583e-11ee-8b4f-4e7b8ce151d1">e</c></ex></expan><c xml:id="b09a8f08-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="b09a8f94-583e-11ee-8b4f-4e7b8ce151d1">A</c><c xml:id="b09a8f6c-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="b09a8f3a-583e-11ee-8b4f-4e7b8ce151d1">p</c></abbr><ex><c xml:id="b09a9034-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a900c-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="b09a8fc6-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><c xml:id="b09a9048-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a912e-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="b09a9106-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a90d4-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a90ac-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a9084-583e-11ee-8b4f-4e7b8ce151d1">t</c></abbr><ex><c xml:id="b09a9232-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a9200-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="b09a91d8-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a91b0-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a9188-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="b09a9156-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><c xml:id="b09a9336-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="b09a9322-583e-11ee-8b4f-4e7b8ce151d1">V</c><c xml:id="b09a92f0-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a92d2-583e-11ee-8b4f-4e7b8ce151d1">l</c><c xml:id="b09a92be-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="b09a92aa-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a928c-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a9278-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a9246-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><c xml:id="b09a9408-583e-11ee-8b4f-4e7b8ce151d1">M</c><c xml:id="b09a93e0-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="b09a93ae-583e-11ee-8b4f-4e7b8ce151d1">c</c><c xml:id="b09a9386-583e-11ee-8b4f-4e7b8ce151d1">i</c></supplied><c xml:id="b09a94ee-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a94da-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="b09a94c6-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a94a8-583e-11ee-8b4f-4e7b8ce151d1"> </c><c xml:id="b09a9494-583e-11ee-8b4f-4e7b8ce151d1">p</c><c xml:id="b09a9480-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="b09a9462-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="b09a944e-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a943a-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a941c-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b09a95e8-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="b09a95c0-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="b09a9598-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="b09a9570-583e-11ee-8b4f-4e7b8ce151d1">e</c><c xml:id="b09a953e-583e-11ee-8b4f-4e7b8ce151d1">n</c></abbr><ex><c xml:id="b09a9750-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="b09a9728-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a9700-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="b09a96d8-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="b09a96b0-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="b09a967e-583e-11ee-8b4f-4e7b8ce151d1">m</c><c xml:id="b09a9656-583e-11ee-8b4f-4e7b8ce151d1">o</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

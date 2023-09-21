@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Baetulo &amp;ndash; Badalona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043855</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043855</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Badalona, Mus. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(8)</height><width>(10)</width><depth>1</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246221">Baetulo</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3129028">Badalona</placeName><placeName type="findspot" /><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043855_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Eudia?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-10" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 2: vom zweiten E ist die obere linke Ecke erhalten; statt Eudiae(?) ist auch die Lesung Eudia E(?)[ denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 1, 156; pl. 51, 156.</bibl><bibl>IRC 5, p. 15.</bibl><bibl>HEp 01, 1989, 0123.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="1588e53a-2c3a-11ee-b0b3-4e7b8ce151d0">D</c></abbr><ex><c xml:id="1588e60c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1588e5bc-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="1588e63e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1588e6a2-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="1588e85a-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1588e80a-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="1588e7c4-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1588e77e-2c3a-11ee-b0b3-4e7b8ce151d0">b</c><c xml:id="1588e738-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1588e6f2-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="1588e878-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1588e8aa-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="1588ea62-2c3a-11ee-b0b3-4e7b8ce151d0">E</c><c xml:id="1588ea1c-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1588e9d6-2c3a-11ee-b0b3-4e7b8ce151d0">d</c><c xml:id="1588e990-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1588e94a-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="1588e904-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></abbr><ex cert="low" /></expan><c xml:id="1588ea8a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="1588eab2-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

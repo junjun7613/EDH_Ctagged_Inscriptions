@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Doboj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055852</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055852</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(30)</height><width>(17)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.2-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0195" notAfter-custom="0196" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD - 196 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3195887">Doboj</placeName><placeName type="findspot">Makljenovac, {Crkvina, r&#246;mische Befestigung}, Vorburg</placeName><placeName type="region">Zeni&#269;ko-dobojski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055852_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.+</name><name type="nomen">Septimius+</name><name type="cognomen">Severus+ Pertinax+</name></persName></person><person xml:id="HD055852_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-08-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente; Fundjahr und Ma&#223;e beziehen sich auf Fragment a; Fragment b: Fundjahr 1890, (13) x (22,5) x 7,5 cm. Reste von roter Farbe in den Buchstaben. Hederae. Z. 4: potestat]is III oder III[I; imp. V], VI], VII] oder VIII]. (B): CIL III 14618: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12758.</bibl><bibl>CIL 03, 14618. (B)</bibl><bibl>W. Radimsk&#253;, WMBH 1, 1893, 267; Fig. 11 (Zeichnung).</bibl><bibl>K. Patsch, AEM 16, 1893, 78-79, Nr. 4.</bibl><bibl>C. Patsch, WMBH 6, 1899, 254-256, Nr. 1; Fig. 74.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius</supplied> <lb n="2" /><supplied reason="lost">Severus Pius Pe</supplied>rti<supplied reason="lost">nax</supplied> <lb n="3" /><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arab</abbr><ex>cius</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> p</supplied><expan><abbr>ont</abbr><ex>ifex</ex></expan> <supplied reason="lost"><expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="4" /><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicae</ex></expan> potestat</supplied>is III<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" />? <expan><abbr>imp</abbr><ex>erator</ex></expan> V<gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="5" /><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <expan><abbr>proco</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost" cert="low"> cura</supplied>nte <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>I</abbr><ex cert="low" />I</expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />nte <expan><abbr>coh</abbr><ex>or-</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="3" />miliar<supplied reason="lost">ia</supplied><gap reason="lost" extent="unknown" unit="character" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

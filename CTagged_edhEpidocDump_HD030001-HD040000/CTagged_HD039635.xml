@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Prevalje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039635</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039635</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Prevalje, Zagrad, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material>Marmor, ge&#228;dert / farbig</material><dimensions unit="cm"><height>102</height><width>221</width><depth>81</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1870"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192484">Prevalje</placeName><placeName type="findspot">Zagrad, Bran&#269;urnik-Br&#252;cke, bei, {Me&#382;a, Flu&#223;bett}</placeName><placeName type="region">Koro&#353;ka statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Sarkophagkasten. Material: r&#246;tlicher Marmor. Z. 2: nur die unteren Buchstabenh&#228;lften erhalten. (B): CIL 03, 06522: Z. 1: fehlt; ILLPRON: Z. 1: [---]M[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06522. (B)</bibl><bibl>ILLPRON 1979. (B)</bibl><bibl>AIJ 002; Foto.</bibl><bibl>ILJug 0362.</bibl><bibl>S. Djura Jelenko - J. Viso&#269;nik, AArchSlov 57, 2006, 375-376. 408, Nr. 13; sl. 38.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="4a888d9a-583f-11ee-8e0b-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="4a888e1c-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="1"><c xml:id="4a888e44-583f-11ee-8e0b-4e7b8ce151d1">M</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="4a888e62-583f-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="4a888ef8-583f-11ee-8e0b-4e7b8ce151d1">f</c><c xml:id="4a888ee4-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4a888ed0-583f-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="4a888ec6-583f-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="4a888eb2-583f-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="4a888e9e-583f-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="4a888e8a-583f-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="4a888e76-583f-11ee-8e0b-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

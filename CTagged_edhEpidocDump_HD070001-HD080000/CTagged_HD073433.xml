@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073433</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073433</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(52)</height><width>(33)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Burgfeld}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-28" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019089" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/72dcd278-7fa6-4589-b1f6-ab426bbacc63/file/id/779161/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Auf der R&#252;ckseite zwei Pfauen (sekund&#228;r angebracht?) Z. 1: wahrscheinlich nep[os] oder nep[otes]. Das S ist m&#246;glicherweise das Ende eines Personennamens, vorher kann V gestanden haben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11286.</bibl><bibl>M.-L. Kr&#252;ger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR &#214;sterreich 1, 4 (Wien 1972) 16, Nr. 405; Taf. 8, 405.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 53, Nr. 217.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="30f525ec-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="30f52696-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="30f5270e-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="30f526fa-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="30f526e6-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="30f526d2-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="30f526be-5843-11ee-8920-4e7b8ce151d1">p</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="30f52736-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="30f52786-5843-11ee-8920-4e7b8ce151d1">h</c></abbr><ex><c xml:id="30f52876-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="30f5283a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="30f52808-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="30f527c2-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="30f5288a-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="30f528da-5843-11ee-8920-4e7b8ce151d1">f</c></abbr><ex><c xml:id="30f52a56-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="30f52a24-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="30f529fc-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="30f529ca-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="30f529a2-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="30f52970-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="30f52948-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="30f52916-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="30f52a6a-5843-11ee-8920-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="30f52aa6-5843-11ee-8920-4e7b8ce151d1">c</c></abbr><ex><c xml:id="30f52bb4-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="30f52b82-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="30f52b5a-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="30f52b32-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="30f52b00-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="30f52ad8-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

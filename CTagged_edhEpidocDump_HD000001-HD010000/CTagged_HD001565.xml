@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bosa (Sardinia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001565</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001565</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/83">Trachyt</material><dimensions unit="cm"><height>60</height><width>41</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sardinia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/471895" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Bosa</placeName><placeName type="findspot">Oliveto di Antonio Mura</placeName><placeName type="region">Sardegna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001565_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Arrius</name><name type="cognomen">Crescens</name></persName></person><person xml:id="HD001565_2" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Rutilia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-08" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Grabstein ist in 8 Teile zerbrochen. (B): Crescen/ti.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0432. (B)</bibl><bibl>A. Mastino, AFLC 38, 1976/77, 53. - AE.</bibl><bibl>AE 1979, 0301.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="db913ade-583b-11ee-a136-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="db913bb0-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="db913c32-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db913bf6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="db913c46-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="db913c8c-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="db913da4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="db913d72-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db913d4a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db913d18-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="db913cf0-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="db913cbe-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="db913db8-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="db913df4-583b-11ee-a136-4e7b8ce151d1">L</c></abbr><ex><c xml:id="db913ea8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="db913e76-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="db913e4e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db913e1c-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="db913f34-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="db913f20-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="db913f0c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="db913ef8-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="db913ee4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db913ed0-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="db913ebc-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="db913fca-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="db913fb6-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="db913fa2-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="db913f84-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="db913f70-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="db913f5c-583b-11ee-a136-4e7b8ce151d1">e</c></line><line break="no" n="4"><c xml:id="db91407e-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db91406a-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="db914056-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db914042-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="db91402e-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="db91401a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="db914006-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="db913fe8-583b-11ee-a136-4e7b8ce151d1">i</c></line><line break="no" n="5"><c xml:id="db914132-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="db91411e-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="db91410a-583b-11ee-a136-4e7b8ce151d1">A</c><c xml:id="db9140f6-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db9140d8-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="db9140c4-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="db9140b0-583b-11ee-a136-4e7b8ce151d1">n</c></line><line break="no" n="6"><c xml:id="db91420e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db9141f0-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="db9141dc-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="db9141c8-583b-11ee-a136-4e7b8ce151d1">R</c><c xml:id="db9141aa-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="db914196-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="db914182-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db914164-583b-11ee-a136-4e7b8ce151d1">l</c></line><line break="no" n="7"><c xml:id="db914272-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db914254-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="db914236-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="db9142ae-583b-11ee-a136-4e7b8ce151d1">c</c></abbr><ex><c xml:id="db9143bc-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="db914394-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db914362-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db91433a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="db914312-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="db9142e0-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="db9143da-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="db914416-583b-11ee-a136-4e7b8ce151d1">b</c></abbr><ex><c xml:id="db9144b6-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="db914470-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db91443e-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="db9144d4-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="db914510-583b-11ee-a136-4e7b8ce151d1">m</c></abbr><ex><c xml:id="db91461e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="db9145ec-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="db9145c4-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="db91459c-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db91456a-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="db914542-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="db914632-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="8"><supplied reason="lost"><expan><abbr><c xml:id="db91466e-583b-11ee-a136-4e7b8ce151d1">v</c></abbr><ex><c xml:id="db914722-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db9146fa-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="db9146d2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="db9146a0-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="db914740-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="db914772-583b-11ee-a136-4e7b8ce151d1">a</c></abbr><ex><c xml:id="db914826-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db9147fe-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="db9147d6-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="db9147a4-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="db9148a8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="db914894-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="db914876-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="db914858-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="db91483a-583b-11ee-a136-4e7b8ce151d1">X</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

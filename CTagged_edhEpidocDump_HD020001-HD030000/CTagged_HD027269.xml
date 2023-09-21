@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027269</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027269</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, For. Caes.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(38)</height><width>(32)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0364" notAfter-custom="0367" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">364 AD - 367 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Forum Caesaris</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027269_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Cons[tan---]</name></persName></person><person xml:id="HD027269_2" sex="M"><persName><name type="cognomen">Valentinianus+</name></persName></person><person xml:id="HD027269_3" sex="M"><persName><name type="cognomen">Valens+</name></persName></person><person xml:id="HD027269_4" sex="M"><persName ref="https://www.wikidata.org/wiki/Q189108"><name type="cognomen">Gratianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-12" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010646" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/98fe41db-3686-4047-9c5d-8197defe1313/file/id/770166/file_version/name/small" /><graphic xml:id="F026594" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e2ab5893-e2f7-4c6e-81d8-b292ec05b360/file/id/787346/file_version/name/small" /><graphic xml:id="F042780" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bedb6373-04d3-486f-959c-ffcef4238621/file/id/803886/file_version/name/small" /><graphic xml:id="F010645" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d3aa58f6-37c9-431b-89ea-cb5164c3164d/file/id/770165/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Urspr&#252;ngliche Inschrift eradiert (Buchstabenh&#246;he: 7; Datierung: 2. oder 3. Jh. n. Chr.) und &#252;berschrieben (Buchstabenh&#246;he: 10,5; Datierung: 312-361 n. Chr.). Auf der R&#252;ckseite eine dritte Inschrift (Buchstabenh&#246;he und Datierung s.o.). Autopsie G. Alf&#246;ldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40788; fig. &#945; u. &#946;.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />------<certainty match="preceding-sibling::node()" locus="value" />] <lb n="2" /><del rend="erasure"><gap reason="lost" extent="unknown" unit="character" />O[<gap reason="lost" extent="unknown" unit="character" /></del>] <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /> Cons<supplied reason="lost">tan</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />N<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /> </div><div n="3" type="textpart"><lb n="1" /> <supplied reason="lost"><expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <expan><abbr>ddd</abbr><ex>ominis</ex></expan> <expan><abbr>nnn</abbr><ex>ostris</ex></expan> indul</supplied><lb break="no" n="2" />gen<supplied reason="lost">tissimis Valentiniano</supplied> <lb n="3" />et Vale<supplied reason="lost">nti semper Augustis et</supplied> <lb n="4" />Grati<supplied reason="lost">ano <expan><abbr>nobiliss</abbr><ex>imo</ex></expan> puero<certainty locus="name" match="preceding-sibling::text()" cert="low" /> glorio</supplied><lb break="no" n="5" />sis ur<supplied reason="lost">bis suae defensoribus</supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Borbetomagus (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075794</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075794</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Stadtmus. im Andreasstift</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(96)</height><width>46</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot">{ehemaliges Kloster Maria M&#252;nster}, bei, s&#252;dliches Gr&#228;berfeld</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075794_1" sex="W"><persName><name type="cognomen">Fausta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabr&#252;gge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003956" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9cb292a7-43ab-45fc-b0e4-4a87742d471a/file/id/764714/file_version/name/small" /><graphic xml:id="F023035" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/be41613f-5e62-4a78-9667-1a04e9de5c11/file/id/783694/file_version/name/small" /><graphic xml:id="F038878" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ba083f83-31f2-4fc7-87cd-c9c21e27eef1/file/id/799751/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Stele mit Bogennische, unten abgebrochen. Im Bildfeld Brustbild einer Frau mit Scheitelzopffrisur. (B): Faust: Z. 2: in[f]eli(cis).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06245.</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus Worms und Umgebung, CSIR Deutschland 2, 10 (Mainz 1998) 102-103, Nr. 60; Taf. 62, 60.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (K&#246;ln 1998) 190, Nr. 312. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> Faustae <expan><abbr>iu</abbr><ex cert="low">venis</ex></expan> <lb n="2" /><expan><abbr>infeli</abbr><ex>cis</ex></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3" /><expan><abbr>vixi</abbr><ex>t</ex></expan> annos <lb n="4" />XXVII et <expan><abbr>m</abbr><ex>enses</ex></expan> IIII dies XX <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

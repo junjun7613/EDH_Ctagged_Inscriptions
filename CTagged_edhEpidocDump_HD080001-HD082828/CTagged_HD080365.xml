@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salodurum &amp;ndash; Solothurn (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080365</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080365</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Solothurn, Jesuitenkirche, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(72)</height><width>(48)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177624">Salodurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1762"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658564">Solothurn</placeName><placeName type="findspot">{S. Urs und Vickor, Kathedrale}, sekund&#228;r verwendet</placeName><placeName type="region">Kanton Solothurn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080365_1" sex="M"><persName><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-31" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F036985" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fe0c9375-5e3c-4c01-b77a-958aa9667f69/file/id/797846/file_version/name/small" /><graphic xml:id="F038820" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/31af4e56-4521-4947-8343-c43cb0da79a1/file/id/799693/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das Monument wurde f&#252;r die Sekund&#228;rverwendung allseitig rechteckig abgearbeitet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05184.</bibl><bibl>G. Walser, R&#246;mische Inschriften in der Schweiz 2 (Bern 1980) 58-59, Nr. 137; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="62ec81e4-5843-11ee-9557-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="62ec8298-5843-11ee-9557-4e7b8ce151d1">D</c></abbr><ex><c xml:id="62ec8310-5843-11ee-9557-4e7b8ce151d1">i</c><c xml:id="62ec82d4-5843-11ee-9557-4e7b8ce151d1">s</c></ex></expan><c xml:id="62ec8324-5843-11ee-9557-4e7b8ce151d1"> </c><expan><abbr><c xml:id="62ec8360-5843-11ee-9557-4e7b8ce151d1">M</c></abbr><ex><c xml:id="62ec8478-5843-11ee-9557-4e7b8ce151d1">a</c><c xml:id="62ec8450-5843-11ee-9557-4e7b8ce151d1">n</c><c xml:id="62ec841e-5843-11ee-9557-4e7b8ce151d1">i</c><c xml:id="62ec83f6-5843-11ee-9557-4e7b8ce151d1">b</c><c xml:id="62ec83c4-5843-11ee-9557-4e7b8ce151d1">u</c><c xml:id="62ec8392-5843-11ee-9557-4e7b8ce151d1">s</c></ex></expan><c xml:id="62ec8496-5843-11ee-9557-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="62ec854a-5843-11ee-9557-4e7b8ce151d1">S</c><c xml:id="62ec8536-5843-11ee-9557-4e7b8ce151d1">e</c><c xml:id="62ec8522-5843-11ee-9557-4e7b8ce151d1">v</c><c xml:id="62ec850e-5843-11ee-9557-4e7b8ce151d1">e</c><c xml:id="62ec8504-5843-11ee-9557-4e7b8ce151d1">r</c><c xml:id="62ec84e6-5843-11ee-9557-4e7b8ce151d1">i</c><c xml:id="62ec84dc-5843-11ee-9557-4e7b8ce151d1"> </c><c xml:id="62ec84c8-5843-11ee-9557-4e7b8ce151d1">c</c><c xml:id="62ec84b4-5843-11ee-9557-4e7b8ce151d1">u</c></line><line break="no" n="3"><c xml:id="62ec861c-5843-11ee-9557-4e7b8ce151d1">r</c><c xml:id="62ec8608-5843-11ee-9557-4e7b8ce151d1">a</c><c xml:id="62ec85f4-5843-11ee-9557-4e7b8ce151d1">v</c><c xml:id="62ec85e0-5843-11ee-9557-4e7b8ce151d1">e</c><c xml:id="62ec85cc-5843-11ee-9557-4e7b8ce151d1">r</c><c xml:id="62ec85b8-5843-11ee-9557-4e7b8ce151d1">u</c><c xml:id="62ec85a4-5843-11ee-9557-4e7b8ce151d1">n</c><c xml:id="62ec8590-5843-11ee-9557-4e7b8ce151d1">t</c><c xml:id="62ec857c-5843-11ee-9557-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="62ec86da-5843-11ee-9557-4e7b8ce151d1">f</c><c xml:id="62ec86c6-5843-11ee-9557-4e7b8ce151d1">r</c><c xml:id="62ec86b2-5843-11ee-9557-4e7b8ce151d1">a</c><c xml:id="62ec869e-5843-11ee-9557-4e7b8ce151d1">t</c><c xml:id="62ec868a-5843-11ee-9557-4e7b8ce151d1">r</c><c xml:id="62ec866c-5843-11ee-9557-4e7b8ce151d1">e</c><c xml:id="62ec8658-5843-11ee-9557-4e7b8ce151d1">s</c><c xml:id="62ec8644-5843-11ee-9557-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="62ec8748-5843-11ee-9557-4e7b8ce151d1">e</c><c xml:id="62ec8734-5843-11ee-9557-4e7b8ce151d1">i</c><c xml:id="62ec8716-5843-11ee-9557-4e7b8ce151d1">u</c><c xml:id="62ec8702-5843-11ee-9557-4e7b8ce151d1">s</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

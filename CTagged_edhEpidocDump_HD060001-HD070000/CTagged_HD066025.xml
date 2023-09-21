@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066025</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066025</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vence, Place des &#201;v&#234;ch&#233;, Cath&#233;drale</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>99</height><width>82</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot">{Place de l'&#201;v&#234;ch&#233;, Kathedrale}, bei</placeName><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066025_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Veludius</name><name type="cognomen">Valerianus</name></persName></person><person xml:id="HD066025_2" sex="W"><persName><name type="nomen">Vibia</name><name type="cognomen">Paterna</name></persName></person><person xml:id="HD066025_3" sex="M"><persName><name type="cognomen">Mucus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL: Z. 6: et. Puncta triangularia. Eingemei&#223;elt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00020. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 193-194, Nr. 84; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="7132be72-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="7132bef4-5842-11ee-a013-4e7b8ce151d1">L</c></abbr><ex><c xml:id="7132c048-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132c002-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="7132bfc6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132bf8a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132bf44-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="7132c160-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7132c142-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="7132c12e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132c110-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7132c0fc-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132c0de-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="7132c0c0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c0ac-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132c08e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132c066-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="7132c2be-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="7132c2a0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132c282-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7132c264-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132c246-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7132c228-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c214-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132c1f6-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7132c1d8-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132c1ba-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132c1a6-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="7132c3b8-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="7132c372-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132c32c-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="7132c4b2-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132c476-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7132c43a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c3fe-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="7132c4c6-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="7132c5ca-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="7132c58e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c552-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7132c516-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex><c xml:id="7132c764-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c728-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132c6ec-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7132c6b0-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132c67e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c642-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132c606-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="7132c778-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="7132c840-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="7132c804-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132c7c8-5842-11ee-a013-4e7b8ce151d1">g</c></abbr><ex><c xml:id="7132c9da-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132c99e-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132c962-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7132c926-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7132c8ea-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132c8b8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7132c87c-5842-11ee-a013-4e7b8ce151d1">u</c></ex></expan><c xml:id="7132c9ee-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="7132cb2e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132cb10-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7132caf2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7132cad4-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132cab6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132ca98-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="7132ca7a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132ca5c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7132ca3e-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="7132ca16-5842-11ee-a013-4e7b8ce151d1">o</c></line><line break="no" n="5"><c xml:id="7132ccdc-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7132ccbe-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132cca0-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7132cc78-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7132cc5a-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="7132cc3c-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132cc1e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7132cbf6-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="7132cbd8-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7132cbb0-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132cb92-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132cb74-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="7132ceb2-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132ce94-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132ce6c-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="7132ce44-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132ce26-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7132cdfe-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="7132cde0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132cdb8-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="7132cd9a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132cd72-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132cd54-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132cd2c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="7132cf98-5842-11ee-a013-4e7b8ce151d1">M</c><c xml:id="7132cf70-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132cf52-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="7132cf2a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132cf02-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="7132d074-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="7132d038-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132cffc-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="7132d132-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132d0f6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132d0ba-5842-11ee-a013-4e7b8ce151d1">e</c></ex></expan><c xml:id="7132d150-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="8"><c xml:id="7132d2c2-5842-11ee-a013-4e7b8ce151d1">P</c><c xml:id="7132d29a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132d272-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7132d24a-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132d222-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7132d1fa-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="7132d1d2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7132d1aa-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132d182-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="9"><c xml:id="7132d3da-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7132d3b2-5842-11ee-a013-4e7b8ce151d1">x</c><c xml:id="7132d38a-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7132d362-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7132d33a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132d308-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="10"><c xml:id="7132d4f2-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="7132d4c0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132d498-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="7132d470-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132d448-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7132d420-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="7132d556-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="7132d650-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="7132d614-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="7132d5d8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="7132d59c-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073999</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073999</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1890"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Hutweide}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-16" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019096" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc8645b0-03b2-4a82-be04-263e1501664b/file/id/779168/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 1/2: CIL 03, 11289a: [ben]e merenti / F C; Vorbeck: ben]e merenti / f(aciendum) c(uravit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11289 a. (B)</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 85, Nr. 398a. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="290756d4-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="29075738-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><c xml:id="290757b0-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="2907579c-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="29075788-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="29075774-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="29075756-5843-11ee-8920-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="29075832-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="29075800-5843-11ee-8920-4e7b8ce151d1">i</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="29075846-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="290758c8-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="290758b4-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="290758a0-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="2907588c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="29075878-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="29075864-5843-11ee-8920-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><certainty match="preceding-sibling::node()" locus="value" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Astigi, bei &amp;ndash; Turullote (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032159</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032159</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sevilla, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, ge&#228;dert / farbig</material><dimensions unit="cm"><height>73</height><width>31</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.8-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/255996">Astigi, bei</placeName></origPlace><origDate><origDate when-custom="0596" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">596 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Turullote</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032159_1" sex="M"><persName><name type="cognomen">Leontius++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-01" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: wei&#223;er, grau ge&#228;derter Marmor. Inschriftengattung, Buchstabenh&#246;he u. Datierung beziehen sich auf die christliche Inschrift (CIL II (2. Aufl.) 5, 1281 b). Auf derselben Seite des Steins befinden sich Reste einer &#228;lteren Inschrift (Ehreninschrift?) aus dem fr&#252;hen 3. Jh. n. Chr. (CIL II (2. Aufl.) 5, 1281 a): Buchstabenh&#246;he 9-10 cm; hedera am Ende. Zur Wiederverwendung wurde der Stein links abgeschlagen. Zeilenlinien f&#252;r die Beschriftung. (B): Inschrift b: AE 1995: Z. 1: [[[Leo]ntius]]; CILA II: Z. 4/5: annos LXX re/cessit; Z. 6/7: pace / sub; Z. 8: XXXIII.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 0771. (B)</bibl><bibl>CIL 02 (2. Aufl.) 05, 01281 a; Foto.</bibl><bibl>CIL 02 (2. Aufl.) 05, 01281 b; Foto.</bibl><bibl>CILA 2, 1247; figura 489. (B)</bibl><bibl>HEp 06, 1996, 0871.</bibl><bibl>F. Fern&#225;ndez G&#243;mez - R. Chasco Vila, Habis 26, 1995, 315-322; l&#225;m. 1, 1-2, 2; fig. 1, 2 (Zeichnung). - AE 1995.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><del rend="erasure">Leontius</del> <lb n="2" />famulus <lb n="3" />Dei vixit <lb n="4" />annos plus <lb n="5" />minus LXX re<lb break="no" n="6" />cessit in pa<lb break="no" n="7" />ce sub <expan><abbr>d</abbr><ex>ie</ex></expan> III K<expan><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> <lb n="8" />Apr<expan><ex>i</ex><abbr>l</abbr><ex>es</ex></expan> era DC<lb break="no" n="9" />XXXIIII </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" />MO <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" />] <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" />] <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />VLI <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" />]</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

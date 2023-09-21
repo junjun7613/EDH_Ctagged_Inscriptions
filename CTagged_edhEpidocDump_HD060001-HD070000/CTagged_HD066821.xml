@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Slovenska Bistrica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066821</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066821</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Slovenska Bistrica, &#352;martno na Pohorju, S. Martin, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/230">grave monument</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, wei&#223;</material><dimensions unit="cm"><height>(165)</height><width>(74)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190500">Slovenska Bistrica</placeName><placeName type="findspot">&#352;martno na Pohorju, {S. Martin, Pfarrkirche}, sekund&#228;r verwendet</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066821_1" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Kalandinus+ (= Kalendinus+)</name></persName></person><person xml:id="HD066821_2" sex="M"><persName><name type="cognomen">[---]tus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Fries mit Jagdszene; dar&#252;ber Bildfeld mit Darstellung des Leier spielenden Orpheus zwischen Tieren; im Giebel dar&#252;ber Selene und Endymion; im rechten Zwickel &#252;ber dem Giebel Genius mit Fackel. Z. 1 : Buchstabe D ehemals am Anfang, Buchstabe M noch am Ende des Jagdfrieses eingemei&#223;elt. (B): CIL 03, 05292; CIL 03, 11708; AIJ; ILLPRON: Lesung abweichend / unvollst&#228;ndig. Material: Bacherermarmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05292. (B)</bibl><bibl>CIL 03, 11708. (B)</bibl><bibl>AIJ 101; Foto. (B)</bibl><bibl>ILLPRON 1893. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="c7fd747c-5842-11ee-a013-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="c7fd74d6-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="c7fd7544-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd7512-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="c7fd7562-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7fd7594-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="c7fd76ac-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd7684-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7fd765c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd762a-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="c7fd7602-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd75da-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c7fd76c0-5842-11ee-a013-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="c7fd777e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd776a-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="c7fd7756-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd7742-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7fd772e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7fd771a-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c7fd7706-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd76f2-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c7fd76de-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><c xml:id="c7fd77c4-5842-11ee-a013-4e7b8ce151d1">K</c></supplied><c xml:id="c7fd7878-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd7864-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c7fd7850-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd783c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7fd7828-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="c7fd781e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd780a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7fd77f6-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c7fd77d8-5842-11ee-a013-4e7b8ce151d1"> </c><note>sic</note><c xml:id="c7fd78aa-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c7fd790e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd78e6-5842-11ee-a013-4e7b8ce151d1">n</c></abbr><ex><c xml:id="c7fd79ea-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7fd79c2-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="c7fd7990-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7fd7968-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd7940-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="c7fd7a26-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd7a12-5842-11ee-a013-4e7b8ce151d1">L</c><c xml:id="c7fd79fe-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><supplied reason="lost"><c xml:id="c7fd7aa8-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="c7fd7a62-5842-11ee-a013-4e7b8ce151d1">e</c></supplied><c xml:id="c7fd7abc-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex><c xml:id="c7fd7b98-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7fd7b66-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7fd7b3e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd7b16-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="c7fd7aee-5842-11ee-a013-4e7b8ce151d1">o</c></ex></expan><c xml:id="c7fd7bd4-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd7bc0-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c7fd7bac-5842-11ee-a013-4e7b8ce151d1">o</c><expan><ex><c xml:id="c7fd7c38-5842-11ee-a013-4e7b8ce151d1">h</c><c xml:id="c7fd7c10-5842-11ee-a013-4e7b8ce151d1">o</c></ex><abbr><c xml:id="c7fd7c6a-5842-11ee-a013-4e7b8ce151d1">r</c></abbr><ex><c xml:id="c7fd7cec-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7fd7cc4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd7c9c-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="c7fd7ddc-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd7dc8-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="c7fd7db4-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd7da0-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="c7fd7d8c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7fd7d6e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7fd7d5a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd7d46-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7fd7d32-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd7d14-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="c7fd7d00-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c7fd7f26-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7fd7f12-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd7efe-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7fd7ee0-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd7ecc-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="c7fd7eb8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd7e9a-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="c7fd7e86-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7fd7e72-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7fd7e54-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="c7fd7e40-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd7e2c-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="c7fd7e0e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><supplied reason="lost"><c xml:id="c7fd805c-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="c7fd8034-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd800c-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c7fd7fda-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd7fb2-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="c7fd7f80-5842-11ee-a013-4e7b8ce151d1">n</c></supplied><c xml:id="c7fd8174-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="c7fd8156-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd8142-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="c7fd8124-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="c7fd8110-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="c7fd80f2-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="c7fd80d4-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="c7fd80c0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="c7fd80a2-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="c7fd808e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="c7fd8070-5842-11ee-a013-4e7b8ce151d1">t</c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062612</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062612</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regensburg, Hist. Mus., Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(80)</height><width>76</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118929">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1507"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="findspot">{Unserer Lieben Frau zur Alten Kapelle, Stiftskirche}, sekund&#228;r verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062612_1" sex="M"><persName><name type="nomen">Vindelicius</name><name type="cognomen">Hermogenianus*</name></persName></person><person xml:id="HD062612_2" sex="M"><persName><name type="nomen">Vindelicius</name><name type="cognomen">Victor+</name></persName></person><person xml:id="HD062612_3" sex="W"><persName><name type="nomen">Vindelicia</name><name type="cognomen">Sura*</name></persName></person><person xml:id="HD062612_4" sex="M"><persName><name type="nomen">Vindelicius*</name><name type="cognomen">Surinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-11" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente, z. T. modern erg&#228;nzt. Z. 3: RV-Ligatur. (B): CIL 03, 05969: Z. 7: [S]ur(a)e.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 414; tab. 57, 414.</bibl><bibl>CIL 03, 05969. (B)</bibl><bibl>CIL 03, 05969 add. p. 1051.</bibl><bibl>K. Dietz - T. Fischer, Die R&#246;mer in Regensburg (Regensburg 1996) 153.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="972493d0-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="97249466-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="972494f2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="972494b6-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="97249510-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="97249556-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="9724968c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="9724965a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="97249628-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="972495f6-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="972495c4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="97249592-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="972496a0-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="97249772-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="9724975e-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="9724974a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="97249736-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="97249722-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="9724970e-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="972496f0-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="972496dc-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="972496c8-5842-11ee-a013-4e7b8ce151d1">i</c><expan><ex><c xml:id="972497cc-5842-11ee-a013-4e7b8ce151d1">a</c></ex><abbr><c xml:id="972497fe-5842-11ee-a013-4e7b8ce151d1">e</c></abbr></expan><c xml:id="97249812-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="97249952-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="97249934-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="97249920-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="9724990c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="972498ee-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="972498da-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="972498bc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="972498a8-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="97249894-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="97249876-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="97249862-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9724984e-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="97249830-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="97249a60-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="97249a42-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="97249a2e-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="97249a10-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="972499fc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="972499de-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="972499ca-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="972499ac-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="9724998e-5842-11ee-a013-4e7b8ce151d1">i</c><expan><ex><c xml:id="97249ab0-5842-11ee-a013-4e7b8ce151d1">i</c></ex><abbr><c xml:id="97249aec-5842-11ee-a013-4e7b8ce151d1">s</c></abbr></expan><c xml:id="97249b00-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><ex><c xml:id="97249b3c-5842-11ee-a013-4e7b8ce151d1">H</c></ex><abbr><c xml:id="97249d58-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="97249d30-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="97249cfe-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="97249ccc-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="97249c9a-5842-11ee-a013-4e7b8ce151d1">g</c><c xml:id="97249c68-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="97249c40-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="97249c0e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="97249bdc-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="97249baa-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="97249b78-5842-11ee-a013-4e7b8ce151d1">o</c></abbr></expan><c xml:id="97249d76-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="97249dee-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="97249dd0-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="97249db2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="97249d94-5842-11ee-a013-4e7b8ce151d1">V</c><supplied reason="lost"><c xml:id="97249e3e-5842-11ee-a013-4e7b8ce151d1">i</c></supplied><c xml:id="97249ee8-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="97249eca-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="97249eac-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="97249e98-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="97249e7a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="97249e5c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="97249fb0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="97249f92-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="97249f74-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="97249f56-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="97249f38-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="97249f1a-5842-11ee-a013-4e7b8ce151d1">r</c><expan><ex><c xml:id="9724a00a-5842-11ee-a013-4e7b8ce151d1">a</c></ex><abbr><c xml:id="9724a046-5842-11ee-a013-4e7b8ce151d1">e</c></abbr></expan><c xml:id="9724a05a-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9724a104-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="9724a0d2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a0a0-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="9724a19a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a168-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a136-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="9724a1ae-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="8"><expan><abbr><c xml:id="9724a2e4-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="9724a2b2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a280-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="9724a258-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="9724a226-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="9724a1f4-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="9724a3d4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a3a2-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="9724a37a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a348-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9724a316-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="9724a4ec-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="9724a4ce-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="9724a4b0-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9724a492-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="9724a46a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a44c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="9724a42e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9724a410-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="9724a3e8-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="9"><c xml:id="9724a6ea-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a6cc-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="9724a6ae-5842-11ee-a013-4e7b8ce151d1">f</c><c xml:id="9724a686-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="9724a668-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="9724a64a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a62c-5842-11ee-a013-4e7b8ce151d1">x</c><c xml:id="9724a604-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="9724a5e6-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="9724a5b4-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="9724a596-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="9724a578-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="9724a550-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="9724a532-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9724a758-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="9724a8f2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="9724a8c0-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="9724a88e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a85c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="9724a82a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="9724a802-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="9724a7bc-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9724a78a-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="9724a906-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9724a94c-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="9724aab4-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="9724aa82-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="9724aa50-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="9724aa0a-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="9724a9d8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="9724a9a6-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

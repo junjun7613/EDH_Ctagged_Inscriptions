@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Buzenol (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007800</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007800</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bruxelles, Mus. Royaux Art Hist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">base?</objectType><dimensions unit="cm"><height>(60)</height><width>85</width><depth>90</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108840" /></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2802361">Belgium</placeName><placeName type="modern" ref="http://www.geonames.org/2800698">Buzenol</placeName><placeName type="findspot">Montauban</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007800_1"><persName><name type="nomen">Maius</name><name type="cognomen">Saturnalis+</name></persName></person><person xml:id="HD007800_2"><persName><name type="nomen">Lutussia*</name><name type="cognomen">Resilla*</name></persName></person><person xml:id="HD007800_3"><persName><name type="cognomen">Iuvenis</name></persName></person><person xml:id="HD007800_4"><persName><name type="cognomen">Cassianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-06-19" who="Garcia">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Finke, BRGK 17, 1927, 21-22; Nr. 65.</bibl><bibl>AE 1986, 0499.</bibl><bibl>ILB (2. Aufl.) 126; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><line n="1"><c xml:id="9aea3c60-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="9aea3d14-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="9aea3da0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea3d64-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="9aea3dbe-583b-11ee-a136-4e7b8ce151d1"> </c></line></div><div n="2" type="textpart"><line n="1"><c xml:id="9aea3dfa-583b-11ee-a136-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="9aea3f4e-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="9aea3f1c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9aea3ef4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea3ecc-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea3e9a-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="9aea3e68-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea3e36-583b-11ee-a136-4e7b8ce151d1">s</c></supplied><c xml:id="9aea3f62-583b-11ee-a136-4e7b8ce151d1"> </c></line></div><div n="3" type="textpart"><line n="1"><c xml:id="9aea4002-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea3fee-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="9aea3fda-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9aea3fc6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea3fbc-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9aea3fa8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea3f94-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="9aea3f80-583b-11ee-a136-4e7b8ce151d1">a</c><supplied reason="lost"><c xml:id="9aea40fc-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9aea40d4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea40ac-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9aea407a-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea4048-583b-11ee-a136-4e7b8ce151d1">a</c></supplied><c xml:id="9aea417e-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="9aea416a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea414c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea4138-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="9aea4124-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea4110-583b-11ee-a136-4e7b8ce151d1">t</c></line><line break="no" n="2"><c xml:id="9aea41e2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea41ce-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea41ba-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea41a6-583b-11ee-a136-4e7b8ce151d1">i</c><expan><ex><c xml:id="9aea421e-583b-11ee-a136-4e7b8ce151d1">a</c></ex><abbr><c xml:id="9aea4250-583b-11ee-a136-4e7b8ce151d1">e</c></abbr></expan><c xml:id="9aea42e6-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea42d2-583b-11ee-a136-4e7b8ce151d1">R</c><c xml:id="9aea42be-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9aea42aa-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea4296-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea4278-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="9aea4264-583b-11ee-a136-4e7b8ce151d1">l</c><expan><ex><c xml:id="9aea4336-583b-11ee-a136-4e7b8ce151d1">a</c></ex><abbr><c xml:id="9aea4368-583b-11ee-a136-4e7b8ce151d1">e</c></abbr></expan><c xml:id="9aea4458-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea443a-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9aea4426-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9aea4412-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea43fe-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea43ea-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea43cc-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="9aea43b8-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea43a4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea4390-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="9aea437c-583b-11ee-a136-4e7b8ce151d1">e</c><supplied reason="lost"><c xml:id="9aea44a8-583b-11ee-a136-4e7b8ce151d1">f</c></supplied></line><line break="no" n="3"><c xml:id="9aea44ee-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea44da-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea44bc-583b-11ee-a136-4e7b8ce151d1">c</c><supplied reason="lost"><c xml:id="9aea452a-583b-11ee-a136-4e7b8ce151d1">t</c></supplied><c xml:id="9aea453e-583b-11ee-a136-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="9aea462e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea45fc-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea45d4-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9aea45ac-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea457a-583b-11ee-a136-4e7b8ce151d1">v</c></supplied><c xml:id="9aea476e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9aea4750-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea473c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea471e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea4700-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea46ec-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9aea46ce-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9aea46ba-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea469c-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="9aea4688-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9aea4674-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea4656-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea4642-583b-11ee-a136-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="9aea47c8-583b-11ee-a136-4e7b8ce151d1">a</c></supplied></line><line break="no" n="4"><c xml:id="9aea482c-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea480e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea47fa-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9aea47dc-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9aea48cc-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="9aea48a4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea487c-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="9aea4926-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea48fe-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="9aea493a-583b-11ee-a136-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="9aea4980-583b-11ee-a136-4e7b8ce151d1">v</c></supplied><c xml:id="9aea4994-583b-11ee-a136-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="9aea49d0-583b-11ee-a136-4e7b8ce151d1">v</c></supplied><c xml:id="9aea4ade-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9aea4aca-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9aea4aac-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="9aea4a8e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9aea4a70-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9aea4a52-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9aea4a34-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9aea4a20-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9aea4a02-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9aea49e4-583b-11ee-a136-4e7b8ce151d1">t</c></line></div></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bremenium &amp;ndash; High Rochester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070491</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070491</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>104</height><width>58</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89124">Bremenium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1810"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2639267">High Rochester</placeName><placeName type="findspot" /><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070491_1"><persName><name type="nomen">Ro[---]</name><name type="cognomen">M[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-25" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 1293.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 01059. (B)</bibl><bibl>RIB 1293; Zeichnungen.</bibl><bibl>E.J. Phillips, Corbridge. Hadrian's Wall east of the North Tyne, CSIR Great Britain 1, 1 (Oxford 1977) 100, Nr. 271; Pl. 73, 271.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="fa6e55a2-5842-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="fa6e5688-5842-11ee-8920-4e7b8ce151d1">D</c></abbr><ex><c xml:id="fa6e573c-5842-11ee-8920-4e7b8ce151d1">i</c><c xml:id="fa6e56ec-5842-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="fa6e5764-5842-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="fa6e57be-5842-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="fa6e5958-5842-11ee-8920-4e7b8ce151d1">a</c><c xml:id="fa6e591c-5842-11ee-8920-4e7b8ce151d1">n</c><c xml:id="fa6e58d6-5842-11ee-8920-4e7b8ce151d1">i</c><c xml:id="fa6e5890-5842-11ee-8920-4e7b8ce151d1">b</c><c xml:id="fa6e5854-5842-11ee-8920-4e7b8ce151d1">u</c><c xml:id="fa6e580e-5842-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="fa6e5980-5842-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="fa6e59c6-5842-11ee-8920-4e7b8ce151d1">R</c><c xml:id="fa6e59a8-5842-11ee-8920-4e7b8ce151d1">o</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="fa6e59ee-5842-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="fa6e5a16-5842-11ee-8920-4e7b8ce151d1">M</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="fa6e5a3e-5842-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="fa6e5afc-5842-11ee-8920-4e7b8ce151d1">v</c><c xml:id="fa6e5ade-5842-11ee-8920-4e7b8ce151d1">i</c><c xml:id="fa6e5ac0-5842-11ee-8920-4e7b8ce151d1">x</c><c xml:id="fa6e5aa2-5842-11ee-8920-4e7b8ce151d1">i</c><c xml:id="fa6e5a84-5842-11ee-8920-4e7b8ce151d1">t</c><c xml:id="fa6e5a66-5842-11ee-8920-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="fa6e5bec-5842-11ee-8920-4e7b8ce151d1">a</c><c xml:id="fa6e5bb0-5842-11ee-8920-4e7b8ce151d1">n</c><c xml:id="fa6e5b60-5842-11ee-8920-4e7b8ce151d1">n</c></abbr><ex><c xml:id="fa6e5c78-5842-11ee-8920-4e7b8ce151d1">o</c><c xml:id="fa6e5c3c-5842-11ee-8920-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="fa6e5ca0-5842-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="fa6e5d9a-5842-11ee-8920-4e7b8ce151d1">X</c><c xml:id="fa6e5d7c-5842-11ee-8920-4e7b8ce151d1">X</c><c xml:id="fa6e5d5e-5842-11ee-8920-4e7b8ce151d1">X</c><c xml:id="fa6e5d40-5842-11ee-8920-4e7b8ce151d1">V</c><c xml:id="fa6e5d22-5842-11ee-8920-4e7b8ce151d1">I</c><c xml:id="fa6e5d04-5842-11ee-8920-4e7b8ce151d1">I</c><c xml:id="fa6e5cc8-5842-11ee-8920-4e7b8ce151d1">I</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

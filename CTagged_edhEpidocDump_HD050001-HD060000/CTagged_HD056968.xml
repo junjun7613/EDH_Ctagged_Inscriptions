@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056968</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056968</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Plaza de la Vila de Madrid, Nekropole</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(71)</height><width>37</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1955"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Plaza de la Vila de Madrid, Nekropole, Grab 59</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056968_1" sex="W"><persName><name type="nomen">Cornelia</name><name type="cognomen">Cosme</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-17" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035662" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/526dd9bc-9363-42fb-8e9f-b3d9643e77e1/file/id/796512/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente einer Stele mit gerundetem Giebel. Z. 4: auf dem Stein steht am Anfang der Zeile A A; offenbar liegt ein Versehen bei der Umsetzung der Vorlage vor, so da&#223; eher entweder ma(tri?) oder ma(ritae?) zu verstehen ist. Text 2 ist auf der Oberseite angebracht; vielleicht h&#228;ngen die beiden Buchstaben mit der Positionierung der Stele auf der Nekropole zusammen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 156; pl. 79, 156.</bibl><bibl>HAE 1956.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 137-138, Nr. 142.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="1d23f56c-5842-11ee-a9c6-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="1d23f648-5842-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="1d23f6de-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="1d23f6a2-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="1d23f6fc-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1d23f760-5842-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="1d23f88c-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="1d23f864-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="1d23f832-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="1d23f800-5842-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="1d23f7ce-5842-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="1d23f792-5842-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="1d23f8aa-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="1d23f990-5842-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="1d23f97c-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="1d23f95e-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="1d23f94a-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="1d23f936-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1d23f922-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="1d23f90e-5842-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="1d23f8fa-5842-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="1d23f8e6-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1d23f8c8-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="1d23fa30-5842-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="1d23fa1c-5842-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="1d23fa08-5842-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="1d23f9f4-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="1d23f9d6-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1d23f9c2-5842-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="1d23fb66-5842-11ee-a9c6-4e7b8ce151d1">&amp;</c><c xml:id="1d23fb52-5842-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="1d23fb34-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="1d23fb20-5842-11ee-a9c6-4e7b8ce151d1">;</c><c xml:id="1d23faee-5842-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="1d23fada-5842-11ee-a9c6-4e7b8ce151d1">=</c><c xml:id="1d23fabc-5842-11ee-a9c6-4e7b8ce151d1">A</c><c xml:id="1d23faa8-5842-11ee-a9c6-4e7b8ce151d1">&amp;</c><c xml:id="1d23fa94-5842-11ee-a9c6-4e7b8ce151d1">g</c><c xml:id="1d23fa76-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="1d23fa62-5842-11ee-a9c6-4e7b8ce151d1">;</c><expan><abbr><c xml:id="1d23fbc0-5842-11ee-a9c6-4e7b8ce151d1">a</c></abbr><ex><c xml:id="1d23fc7e-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="1d23fc2e-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="1d23fbfc-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="1d23fc92-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1d23fcd8-5842-11ee-a9c6-4e7b8ce151d1">b</c></abbr><ex><c xml:id="1d23fd82-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1d23fd50-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="1d23fd14-5842-11ee-a9c6-4e7b8ce151d1">e</c></ex></expan><c xml:id="1d23fd96-5842-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="1d23fddc-5842-11ee-a9c6-4e7b8ce151d1">m</c></abbr><ex><c xml:id="1d23ff1c-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1d23feea-5842-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="1d23feb8-5842-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="1d23fe90-5842-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="1d23fe5e-5842-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="1d23fe22-5842-11ee-a9c6-4e7b8ce151d1">i</c></ex></expan><c xml:id="1d23ff30-5842-11ee-a9c6-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025547</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025547</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Nazionale</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025547_1" sex="W"><persName><name type="cognomen">Agrippina</name></persName></person><person xml:id="HD025547_2" sex="W"><persName><name type="nomen">Flavia+</name><name type="cognomen">Domitilla+</name></persName></person><person xml:id="HD025547_3" sex="M"><persName><name type="cognomen">Vespasianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-05-03" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010274" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/485e230d-637d-4a1d-a0b6-99599919c4d7/file/id/769794/file_version/name/small" /><graphic xml:id="F026203" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/af6b23a5-2d35-4f1d-9756-d4e51fa39138/file/id/786955/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Drei nicht aneinanderpassende Fragmente bezeugt; damit drei Kolumnen rekonstruierbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40452; Zeichnung.</bibl><bibl>CIL 06, 31287.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />Agrippina <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usta</ex></expan></supplied> <lb n="2" />divi Claud<supplied reason="lost">i</supplied> <lb n="3" />Germanic<supplied reason="lost">i</supplied> <lb n="4" />Caesaris <supplied reason="lost"><expan><abbr>f</abbr><ex>ilia</ex></expan></supplied> </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost">Flavi</supplied>a Domitil<supplied reason="lost">la</supplied> <lb n="2" /><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> Caesa<supplied reason="lost">ris</supplied> <lb n="3" /><supplied reason="lost">Vesp</supplied>asiani A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan></supplied> </div><div n="3" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">A</supplied><expan><abbr>ug</abbr><ex>ust-</ex></expan> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

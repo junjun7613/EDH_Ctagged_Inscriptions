@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Geistthal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008203</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008203</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>K&#246;flach, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(29)</height><width>(38)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1970"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778718">Geistthal</placeName><placeName type="findspot">{Sonnleiten 40}, sekund&#228;r verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008203_1" sex="M"><persName><name type="cognomen">N[---]</name></persName></person><person xml:id="HD008203_2" sex="W"><persName><name type="cognomen">Mo[---]</name></persName></person><person xml:id="HD008203_3" sex="M"><persName><name type="cognomen">Quin[---]*</name></persName></person><person xml:id="HD008203_4" sex="M"><persName><name type="cognomen">Tinianus+</name></persName></person><person xml:id="HD008203_5" sex="M"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-29" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>In Z. 3-4 kommen Q(u)intinianu[s] oder Q(u)in[tus Mar]tinianu[s] als M&#246;glichkeiten in Betracht. Es gibt eine Darstellung einer weiblichen Figur mitten in der Inschrift. Buchstaben neuzeitlich mit Farbe nachgezogen; teilweise moderne Einmei&#223;elungen. Nicht antik vermutlich die Buchstabenreste EIAVI auf dem linken und O and dem unteren Rahmen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0442.</bibl><bibl>E. Weber, in: Festschrift Modrijan, SchildStei 15/16 (Graz 1979) 105-108; Foto. - AE 1979.</bibl><bibl>ILLPRON 1191.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="ce0ce43a-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="ce0ce3fe-583b-11ee-a136-4e7b8ce151d1">N</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="ce0ce462-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="ce0ce4d0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ce0ce4bc-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="ce0ce4a8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ce0ce494-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="ce0ce480-583b-11ee-a136-4e7b8ce151d1">o</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="ce0ce4ee-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="ce0ce598-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="ce0ce570-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ce0ce53e-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ce0ce624-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0ce5fc-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ce0ce5ca-583b-11ee-a136-4e7b8ce151d1">x</c></ex></expan><c xml:id="ce0ce688-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ce0ce674-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ce0ce660-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="ce0ce64c-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ce0ce638-583b-11ee-a136-4e7b8ce151d1">Q</c><expan><ex><c xml:id="ce0ce6ce-583b-11ee-a136-4e7b8ce151d1">u</c></ex><abbr><c xml:id="ce0ce728-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0ce700-583b-11ee-a136-4e7b8ce151d1">n</c></abbr></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="ce0ce73c-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="ce0ce7dc-583b-11ee-a136-4e7b8ce151d1">T</c><c xml:id="ce0ce7c8-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0ce7aa-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ce0ce796-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0ce782-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ce0ce76e-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ce0ce75a-583b-11ee-a136-4e7b8ce151d1">u</c><supplied reason="lost"><c xml:id="ce0ce822-583b-11ee-a136-4e7b8ce151d1">s</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="ce0ce836-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="ce0ce872-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ce0ce958-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0ce930-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="ce0ce8fe-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0ce8d6-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ce0ce8a4-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="ce0ce96c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ce0ce9da-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="ce0ce9a8-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ce0ceab6-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ce0cea8e-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="ce0cea5c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ce0cea34-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ce0cea0c-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="ce0ceb42-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ce0ceb2e-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="ce0ceb1a-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="ce0ceafc-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="ce0ceae8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="ce0ceaca-583b-11ee-a136-4e7b8ce151d1">f</c><expan><ex><c xml:id="ce0ceb92-583b-11ee-a136-4e7b8ce151d1">i</c></ex><abbr><c xml:id="ce0cec3c-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="ce0cecbe-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="ce0cec96-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="ce0ced04-583b-11ee-a136-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="ce0ceef8-583b-11ee-a136-4e7b8ce151d1">f</c><c xml:id="ce0ceed0-583b-11ee-a136-4e7b8ce151d1">(</c><c xml:id="ce0ceea8-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ce0cee76-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="ce0cee30-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="ce0cee08-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="ce0cedd6-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="ce0ceda4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="ce0ced72-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="ce0ced4a-583b-11ee-a136-4e7b8ce151d1">)</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

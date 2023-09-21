@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049549</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049549</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newport, Mus. and Art Gall.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(31)</height><width>(15)</width><depth>(0)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1986"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">Mill Street, {Riding School Field}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049549_1"><persName><name type="cognomen">[---]NVM[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-10" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): in Z. 2 wird [Ia]nua[rius] / fil(ius) vorgeschlagen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 0979.</bibl><bibl>R.S.O. Tomlin, Britannia 28, 1997, 458-459, Nr. 3; fig. 3 (Zeichnung). - AE 1997.</bibl><bibl>RIB 3094; Foto u. Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="138830d8-2c3a-11ee-b0b3-4e7b8ce151d0">D</c></abbr><ex><c xml:id="138831aa-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="1388315a-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="138831dc-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><supplied reason="lost"><expan><abbr><c xml:id="13883240-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="13883402-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="138833bc-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="13883376-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="13883330-2c3a-11ee-b0b3-4e7b8ce151d0">b</c><c xml:id="138832e0-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="1388329a-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="1388342a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="138834ac-2c3a-11ee-b0b3-4e7b8ce151d0">N</c><c xml:id="13883484-2c3a-11ee-b0b3-4e7b8ce151d0">V</c><c xml:id="1388345c-2c3a-11ee-b0b3-4e7b8ce151d0">M</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="138834de-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><c xml:id="1388354c-2c3a-11ee-b0b3-4e7b8ce151d0">F</c><c xml:id="1388352e-2c3a-11ee-b0b3-4e7b8ce151d0">I</c><c xml:id="13883506-2c3a-11ee-b0b3-4e7b8ce151d0">L</c><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

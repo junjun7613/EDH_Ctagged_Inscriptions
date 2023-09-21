@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (unknown)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000875</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000875</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. di Villa Giulia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>76</height><width>141</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" /><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000875_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Sorilius+</name><name type="cognomen">Bassus</name></persName></person><person xml:id="HD000875_2" sex="W"><persName><name type="nomen">Pacia</name><name type="cognomen">Galla</name></persName></person><person xml:id="HD000875_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sorilius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Kastengrabstein; Material: Carrara-Marmor. Genaue Herkunft unbekannt: wohl von einer Stra&#223;e, die aus Rom kommt. Relief mit 2 M&#228;nnern verschiedenen Alters und einer alten Frau in der Mitte: Sohn - Mutter - Enkel. (B): princ(ipi) statt princ(ipali); Rom(ilia) statt statt Rom(ilia) p(osuit). (C): Datierung: 1. Viertel 1. Jh. n.Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0409. (BC)</bibl><bibl>A.M. Sgubini Moretti, in: Nuove scoperte e acquisizioni nell'Etruria meridionale (Roma 1975) 251-253, Nr. 5; tav. 78, 5. (C) - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="d931bf2a-583b-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="character" /><supplied reason="lost"><c xml:id="d931c024-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="d931bff2-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931bfb6-583b-11ee-a136-4e7b8ce151d1">r</c></supplied><c xml:id="d931c088-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c074-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931c060-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c04c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931c038-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c0d8-583b-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="d931c13c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c10a-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="d931c150-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c1aa-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="d931c272-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c240-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931c20e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c1e6-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="d931c286-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c376-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="d931c31c-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="d931c2b8-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="d931c434-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c402-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="d931c3da-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c3a8-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="d931c4ca-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d931c4b6-583b-11ee-a136-4e7b8ce151d1">B</c><c xml:id="d931c498-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c484-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d931c470-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d931c45c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931c448-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c56a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d931c542-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="d931c510-583b-11ee-a136-4e7b8ce151d1">r</c></abbr><ex><c xml:id="d931c628-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c600-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="d931c5ce-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c59c-583b-11ee-a136-4e7b8ce151d1">e</c></ex></expan><c xml:id="d931c646-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c72c-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="d931c704-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="d931c6d2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c6aa-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="d931c678-583b-11ee-a136-4e7b8ce151d1">c</c></abbr><ex><c xml:id="d931c812-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c7e0-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="d931c7b8-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c790-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931c768-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="d931c8bc-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d931c89e-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="d931c88a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c86c-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="d931c858-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c844-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c830-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c902-583b-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="d931c966-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931c934-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="d931c97a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931c9b6-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="d931ca74-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931ca42-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931ca1a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931c9e8-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="d931cb1e-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d931cb00-583b-11ee-a136-4e7b8ce151d1">G</c><c xml:id="d931caec-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931cad8-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931caba-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931caa6-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931ca88-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931cb6e-583b-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="d931cbfa-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="d931cbc8-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931cba0-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="d931cccc-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="d931ccb8-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="d931cc9a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931cc86-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="d931cc72-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931cc54-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931cc40-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931cc22-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931cc0e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931cd1c-583b-11ee-a136-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="d931ce02-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="d931cdda-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931cdb2-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="d931cd80-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="d931cd4e-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="d931ce16-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931ce5c-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="d931cf10-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931cee8-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931ceb6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931ce8e-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="d931cf2e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931cfc4-583b-11ee-a136-4e7b8ce151d1">R</c><c xml:id="d931cf9c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931cf6a-583b-11ee-a136-4e7b8ce151d1">m</c></abbr><ex><c xml:id="d931d078-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931d050-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="d931d028-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931cff6-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="d931d08c-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="d931d0d2-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="d931d1ae-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="d931d186-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="d931d154-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="d931d12c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="d931d0fa-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

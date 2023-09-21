@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Alauna &amp;ndash; Maryport (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070119</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070119</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maryport, Senhouse Roman Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(20)</height><width>(27)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89102">Alauna</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1870"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2642927">Maryport</placeName><placeName type="findspot">{Lager, bei}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070119_1" sex="M"><persName><name type="cognomen">Tiriunculus?+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-18" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 0875.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 3, p. 130 n. 94b. (B)</bibl><bibl>RIB 0875; Zeichnungen.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="04ceb71c-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="04ceb758-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="04ceb7a8-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="04ceb794-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="04ceb780-5843-11ee-8920-4e7b8ce151d1">B</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="04ceb80c-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="04ceb7f8-5843-11ee-8920-4e7b8ce151d1">R</c><c xml:id="04ceb7e4-5843-11ee-8920-4e7b8ce151d1">I</c><c xml:id="04ceb7d0-5843-11ee-8920-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="04ceb834-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="04ceb8ca-5843-11ee-8920-4e7b8ce151d1">T</c><c xml:id="04ceb8b6-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="04ceb8a2-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="04ceb88e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="04ceb87a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="04ceb866-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="04ceb852-5843-11ee-8920-4e7b8ce151d1">c</c><supplied reason="lost" cert="low"><c xml:id="04ceb9c4-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="04ceb99c-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="04ceb96a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="04ceb92e-5843-11ee-8920-4e7b8ce151d1">s</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

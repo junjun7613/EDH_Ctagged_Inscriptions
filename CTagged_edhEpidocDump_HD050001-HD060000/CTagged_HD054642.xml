@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Vitez (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054642</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054642</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(19)</height><width>(49)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3195661">Vitez</placeName><placeName type="findspot">{Mali Mo&#353;unj}</placeName><placeName type="region">Srednjobosanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054642_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Aprio+</name></persName></person><person xml:id="HD054642_2" sex="W"><persName><name type="nomen">Aurelia+*</name><name type="cognomen">Apronia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-11-20" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Textwiedergabe nach Truhelka - Patsch. Zwei aneinander passende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13865.</bibl><bibl>&#262;. Truhelka - C. Patsch, WMBH 3, 1895, 241, Nr. 3; Fig. 45 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="b9a0b304-5841-11ee-a9c6-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="b9a0b39a-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="b9a0b37c-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9a0b462-5841-11ee-a9c6-4e7b8ce151d1">F</c><c xml:id="b9a0b430-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="b9a0b3f4-5841-11ee-a9c6-4e7b8ce151d1">a</c></abbr><ex><c xml:id="b9a0b4f8-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="b9a0b4c6-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="b9a0b49e-5841-11ee-a9c6-4e7b8ce151d1">o</c></ex></expan><c xml:id="b9a0b584-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="b9a0b570-5841-11ee-a9c6-4e7b8ce151d1">A</c><c xml:id="b9a0b55c-5841-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="b9a0b548-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="b9a0b534-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="b9a0b520-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="b9a0b50c-5841-11ee-a9c6-4e7b8ce151d1">n</c><supplied reason="lost" cert="low"><c xml:id="b9a0b5ca-5841-11ee-a9c6-4e7b8ce151d1">i</c></supplied><c xml:id="b9a0b5d4-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><supplied reason="lost"><c xml:id="b9a0b61a-5841-11ee-a9c6-4e7b8ce151d1">A</c></supplied><c xml:id="b9a0b638-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="b9a0b62e-5841-11ee-a9c6-4e7b8ce151d1">r</c></abbr><ex><c xml:id="b9a0b700-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="b9a0b6d8-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="b9a0b6a6-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="b9a0b67e-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="b9a0b7be-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="b9a0b7aa-5841-11ee-a9c6-4e7b8ce151d1">A</c><c xml:id="b9a0b796-5841-11ee-a9c6-4e7b8ce151d1">p</c><c xml:id="b9a0b782-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="b9a0b76e-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="b9a0b75a-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="b9a0b746-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="b9a0b732-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="b9a0b714-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="b9a0b80e-5841-11ee-a9c6-4e7b8ce151d1">m</c></abbr><ex cert="low" /></expan><c xml:id="b9a0b8b8-5841-11ee-a9c6-4e7b8ce151d1">[</c><c xml:id="b9a0b8a4-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="b9a0b886-5841-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="b9a0b872-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="b9a0b85e-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="b9a0b84a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="b9a0b836-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="b9a0b822-5841-11ee-a9c6-4e7b8ce151d1">m</c><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="b9a0b96c-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="b9a0b958-5841-11ee-a9c6-4e7b8ce151d1">-</c><c xml:id="b9a0b93a-5841-11ee-a9c6-4e7b8ce151d1">-</c><c xml:id="b9a0b926-5841-11ee-a9c6-4e7b8ce151d1">-</c><c xml:id="b9a0b912-5841-11ee-a9c6-4e7b8ce151d1">-</c><c xml:id="b9a0b8f4-5841-11ee-a9c6-4e7b8ce151d1">-</c><c xml:id="b9a0b8e0-5841-11ee-a9c6-4e7b8ce151d1">-</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

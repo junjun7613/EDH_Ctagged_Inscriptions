@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mesagne (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001654</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001654</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Civico, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>43</height><width>26</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Mesagne</placeName><placeName type="findspot" /><placeName type="region">Puglia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001654_1" sex="M"><persName><name type="cognomen">Curus</name></persName></person><person xml:id="HD001654_2" sex="M"><persName><name type="nomen">Petillius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD001654_3" sex="W"><persName><name type="cognomen">Homulla*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das 1. L in Petillius hat die Form eines griechischen Lambda. Das 2. scheint verschrieben. (B): Z. 2/3: Petilui statt Petilli; Z. 6: Homul(ia) statt Homul(la). (C): Unzutreffende Ausf&#252;hrungen zu Curus. Unten links: von anderer Hand P eingemei&#223;elt, geh&#246;rt nicht zur Inschrift. Material: rosa Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0210bis.</bibl><bibl>H. Solin, Arctos 15, 1981, 107. - AE 1982.</bibl><bibl>AE 1980, 0322. (BC)</bibl><bibl>C. Marangio, in: C. Santoro - C. Marangio, Studi storico-linguistici in onore di Francesco Ribezzo (Mesagne 1978) 83-85, Nr. 24; tav. 6a. (BC) - AE 1980.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a9feb7b2-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="a9feb852-583b-11ee-a136-4e7b8ce151d1">D</c></abbr><ex><c xml:id="a9feb8d4-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9feb898-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9feb8e8-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9feb92e-583b-11ee-a136-4e7b8ce151d1">M</c></abbr><ex><c xml:id="a9feba46-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a9feba14-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a9feb9ec-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9feb9ba-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a9feb992-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a9feb960-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9feba5a-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="a9febae6-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="a9febad2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a9febabe-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a9febab4-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a9febaa0-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a9feba8c-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="a9feba78-583b-11ee-a136-4e7b8ce151d1">e</c></line><line break="no" n="3"><c xml:id="a9febbc2-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a9febbae-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9febb9a-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a9febb86-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a9febb72-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9febb68-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a9febb54-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="a9febb40-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a9febb22-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="a9febb0e-583b-11ee-a136-4e7b8ce151d1">e</c></line><line break="no" n="4"><c xml:id="a9febc1c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a9febc08-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9febbf4-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9febcbc-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a9febc8a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a9febc62-583b-11ee-a136-4e7b8ce151d1">r</c></abbr><ex><c xml:id="a9febd16-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="a9febcee-583b-11ee-a136-4e7b8ce151d1">o</c></ex></expan><c xml:id="a9febd2a-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9febd66-583b-11ee-a136-4e7b8ce151d1">v</c></abbr><ex><c xml:id="a9febe1a-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9febdf2-583b-11ee-a136-4e7b8ce151d1">x</c><c xml:id="a9febdc0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9febd98-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan><c xml:id="a9febe2e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9febe60-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="a9febeec-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9febec4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a9febe92-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9febf00-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="a9febf64-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a9febf3c-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="a9febff0-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a9febfbe-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a9febf96-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="a9fec0a4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a9fec086-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="a9fec072-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="a9fec05e-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="a9fec04a-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="a9fec02c-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="a9fec018-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="a9fec004-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="a9fec194-583b-11ee-a136-4e7b8ce151d1">H</c><c xml:id="a9fec16c-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a9fec144-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="a9fec112-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a9fec0ea-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="a9fec1ee-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a9fec1c6-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="a9fec202-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a9fec28e-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a9fec266-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a9fec23e-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="a9fec342-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a9fec310-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a9fec2e8-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="a9fec2c0-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

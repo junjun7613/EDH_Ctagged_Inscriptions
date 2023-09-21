@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Avigliana (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065982</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065982</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Avigliana, S. Maria Maggiore in Borgo Vecchio</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>94</height><width>56</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3182634">Avigliana</placeName><placeName type="findspot" /><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065982_1" sex="W"><persName><name type="nomen">Graecia?</name><name type="cognomen">Secunda</name></persName></person><person xml:id="HD065982_2" sex="M"><persName><name type="cognomen">Ambiavus?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027423" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/52772668-e2c8-4eac-9d52-8243bd753527/file/id/788180/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Marmor, wei&#223;. Sekund&#228;r verwendet: gradino.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 0901.</bibl><bibl>A. Ferrua, Segusium 8, 1971, 42.</bibl><bibl>E. Cimarosti, RSL 72/73, 2006/2007, 126. - AE 2007.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="8262b530-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="8262b706-5842-11ee-a013-4e7b8ce151d1">G</c><c xml:id="8262b6ca-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="8262b698-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8262b666-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="8262b62a-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="8262b5ee-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8262b5a8-5842-11ee-a013-4e7b8ce151d1">a</c></abbr><ex cert="low" /></expan><c xml:id="8262b724-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="8262b7ec-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="8262b7d8-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="8262b7c4-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="8262b7a6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8262b792-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="8262b774-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="8262b760-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8262b742-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="8262b846-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="8262b92c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8262b8f0-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="8262b8be-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="8262b882-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="8262b940-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="8262b9fe-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="8262b9e0-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="8262b9cc-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="8262b9ae-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="8262b99a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="8262b97c-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="8262b95e-5842-11ee-a013-4e7b8ce151d1">a</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

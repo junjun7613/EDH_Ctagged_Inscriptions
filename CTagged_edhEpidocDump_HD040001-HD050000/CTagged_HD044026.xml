@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Label from Gerunda, bei &amp;ndash; Girona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044026</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044026</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Girona, Mus. Hist. Ciutat</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>342</height><width>708</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246406">Gerunda, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1876"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3121456">Girona</placeName><placeName type="findspot">Torre de Bell-Lloc, r&#246;mische Villa</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/109">label</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044026_1" sex="M"><persName><name type="cognomen">Filoromus</name></persName></person><person xml:id="HD044026_2" sex="M"><persName><name type="cognomen">Thorax+*</name></persName></person><person xml:id="HD044026_3" sex="M"><persName><name type="cognomen">Callimorfus+*</name></persName></person><person xml:id="HD044026_4" sex="M"><persName><name type="cognomen">Limenius+</name></persName></person><person xml:id="HD044026_5" sex="M"><persName><name type="cognomen">Caecilianus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-03-03" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bodenmosaik mit Darstellung eines Wagenrennens im Circus. Beischriften zu den Wagenlenkern und Pferden sowie entweder Herstellerinschrift des Mosaizisten oder (eher) Beischrift des Spielgebers. Die Buchstaben waren bei der Auffindung noch vollst&#228;ndig erhalten; Ma&#223;angaben zum Mosaik beziehen sich auf den Zustand bei der Auffindung. (B): ILER; IRC III; AE 1992; Darder, BASantJordi: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1108. (B)</bibl><bibl>AE 2000, 0803.</bibl><bibl>ILER 2104. (B)</bibl><bibl>IRC 3, 006; pl. 3 u. 5-7; pl. 4 (Zeichnung). (B)</bibl><bibl>IRC 5, p. 81.</bibl><bibl>CIL 02, 06180.</bibl><bibl>M. Darder, Fonaments 8, 1992, 222-231; l&#224;m. 35-39. - AE 1992.</bibl><bibl>M. Darder - G. Ripoll, in: Romanit&#233; et cit&#233; chr&#233;tienne. Permanences et mutations, int&#233;gration et exclusion du Ier au VIe si&#232;cle. M&#232;langes en l'honneur d'Yvette Duval (Paris 2000) 127-142; fig. 1-5. - AE 2000.</bibl><bibl>M. Darder, BASantJordi 7/8, 1993/94, 253, Anm. 5; 260, Anm. 32. (B) - AE 2000.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" />Filoro<lb break="no" n="2" />mus <lb n="3" />Pantaracus </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost"><expan><abbr>T</abbr><ex>h</ex>orax</expan></supplied> <lb n="2" />Polys<supplied reason="lost">tef</supplied><lb break="no" n="3" />anus </div><div n="3" type="textpart"><lb n="1" /> Cal<expan><ex>l</ex><abbr>imor</abbr></expan><supplied reason="lost">fus</supplied> <lb n="2" />Patinicus </div><div n="4" type="textpart"><lb n="1" /> Limeni<supplied reason="lost">us</supplied> <lb n="2" /><supplied reason="lost">Eu</supplied>plium </div><div n="5" type="textpart"><lb n="1" /> C<expan><ex>a</ex><abbr>ecil</abbr></expan><supplied reason="lost">i</supplied>anus ficet <note>sic</note></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

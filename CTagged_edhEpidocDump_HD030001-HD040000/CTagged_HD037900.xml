@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Seggauberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037900</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037900</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1737"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765224">Seggauberg</placeName><placeName type="findspot">{Schlo&#223; Seggau, Alter Turm}, sekund&#228;r verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037900_1" sex="M"><persName><name type="cognomen">[---]si[--]</name></persName></person><person xml:id="HD037900_2" sex="W?"><persName><name type="cognomen">Lucana+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Nur handschriftlich &#252;berliefert. Fundjahr: Die Inschrift wurde erstmals 1737 von Richard Pococke am Alten Turm gesehen und dokumentiert. Z. 4: &#252;berliefert ist IVCAN[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05349.</bibl><bibl>ILLPRON 1377.</bibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 247-248, Nr. 189.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur st&#228;dtischen Administration in Noricum (Klagenfurt 1997) 214-215, Nr. S 15.</bibl><bibl>S. Karl, in: S. Karl - G. Wrolli, Der Alte Turm im Schloss Seggau zu Leibnitz. Historische Untersuchungen zum &#228;ltesten Bauteil der Burgenanlage Leibnitz in der Steiermark (Wien - Berlin - M&#252;nster 2011) 99; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="135ea5d4-583f-11ee-8e0a-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="135ea606-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="135ea638-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="135ea624-583f-11ee-8e0a-4e7b8ce151d1">i</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="135ea656-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="135ea71e-583f-11ee-8e0a-4e7b8ce151d1">S</c><c xml:id="135ea6f6-583f-11ee-8e0a-4e7b8ce151d1">o</c><c xml:id="135ea6ce-583f-11ee-8e0a-4e7b8ce151d1">l</c><c xml:id="135ea69c-583f-11ee-8e0a-4e7b8ce151d1">v</c></abbr><ex><c xml:id="135ea82c-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="135ea804-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="135ea7dc-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="135ea7b4-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135ea782-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135ea750-583f-11ee-8e0a-4e7b8ce151d1">m</c></ex></expan><c xml:id="135ea840-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="135ea8f4-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="135ea8cc-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135ea8a4-583f-11ee-8e0a-4e7b8ce151d1">m</c><c xml:id="135ea87c-583f-11ee-8e0a-4e7b8ce151d1">m</c></abbr><ex><c xml:id="135ea9a8-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="135ea980-583f-11ee-8e0a-4e7b8ce151d1">r</c><c xml:id="135ea958-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135ea926-583f-11ee-8e0a-4e7b8ce151d1">m</c></ex></expan><c xml:id="135ea9bc-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="135eaa20-583f-11ee-8e0a-4e7b8ce151d1">v</c><c xml:id="135ea9f8-583f-11ee-8e0a-4e7b8ce151d1">i</c></abbr><ex><c xml:id="135eaa98-583f-11ee-8e0a-4e7b8ce151d1">v</c><c xml:id="135eaa70-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135eaa48-583f-11ee-8e0a-4e7b8ce151d1">s</c></ex></expan><c xml:id="135eaaac-583f-11ee-8e0a-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="135eadcc-583f-11ee-8e0a-4e7b8ce151d1">f</c><c xml:id="135eada4-583f-11ee-8e0a-4e7b8ce151d1">(</c><c xml:id="135ead7c-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="135ead54-583f-11ee-8e0a-4e7b8ce151d1">c</c><c xml:id="135ead2c-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135ead04-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="135eacdc-583f-11ee-8e0a-4e7b8ce151d1">)</c><c xml:id="135eacb4-583f-11ee-8e0a-4e7b8ce151d1">?</c><c xml:id="135eac8c-583f-11ee-8e0a-4e7b8ce151d1"> </c><c xml:id="135eac64-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="135eac3c-583f-11ee-8e0a-4e7b8ce151d1">(</c><c xml:id="135eac0a-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135eabe2-583f-11ee-8e0a-4e7b8ce151d1">b</c><c xml:id="135eabba-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135eab92-583f-11ee-8e0a-4e7b8ce151d1">)</c><c xml:id="135eab6a-583f-11ee-8e0a-4e7b8ce151d1">?</c><c xml:id="135eab38-583f-11ee-8e0a-4e7b8ce151d1"> </c><c xml:id="135eab10-583f-11ee-8e0a-4e7b8ce151d1">e</c><c xml:id="135eaae8-583f-11ee-8e0a-4e7b8ce151d1">t</c></supplied><c xml:id="135eade0-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="135eae4e-583f-11ee-8e0a-4e7b8ce151d1">L</c><c xml:id="135eae3a-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135eae26-583f-11ee-8e0a-4e7b8ce151d1">c</c><c xml:id="135eae12-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="135eadfe-583f-11ee-8e0a-4e7b8ce151d1">n</c><supplied reason="lost" cert="low"><c xml:id="135eaeb2-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="135eae8a-583f-11ee-8e0a-4e7b8ce151d1">e</c></supplied><c xml:id="135eaec6-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost" cert="low"><c xml:id="135eb04c-583f-11ee-8e0a-4e7b8ce151d1">c</c><c xml:id="135eb01a-583f-11ee-8e0a-4e7b8ce151d1">o</c><c xml:id="135eaff2-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="135eafca-583f-11ee-8e0a-4e7b8ce151d1">(</c><c xml:id="135eafa2-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135eaf7a-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135eaf52-583f-11ee-8e0a-4e7b8ce151d1">g</c><c xml:id="135eaf2a-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135eaf02-583f-11ee-8e0a-4e7b8ce151d1">)</c></supplied><c xml:id="135eb056-583f-11ee-8e0a-4e7b8ce151d1"> </c><expan><abbr><c xml:id="135eb0ba-583f-11ee-8e0a-4e7b8ce151d1">a</c><c xml:id="135eb092-583f-11ee-8e0a-4e7b8ce151d1">n</c></abbr><ex><c xml:id="135eb18c-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="135eb164-583f-11ee-8e0a-4e7b8ce151d1">o</c><c xml:id="135eb13c-583f-11ee-8e0a-4e7b8ce151d1">r</c><c xml:id="135eb114-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135eb0ec-583f-11ee-8e0a-4e7b8ce151d1">m</c></ex></expan><c xml:id="135eb1a0-583f-11ee-8e0a-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="135eb1be-583f-11ee-8e0a-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="135eb22c-583f-11ee-8e0a-4e7b8ce151d1">c</c><c xml:id="135eb218-583f-11ee-8e0a-4e7b8ce151d1">o</c><c xml:id="135eb204-583f-11ee-8e0a-4e7b8ce151d1">g</c><c xml:id="135eb1f0-583f-11ee-8e0a-4e7b8ce151d1">n</c><c xml:id="135eb1dc-583f-11ee-8e0a-4e7b8ce151d1">a</c><supplied reason="lost"><c xml:id="135eb344-583f-11ee-8e0a-4e7b8ce151d1">t</c><c xml:id="135eb31c-583f-11ee-8e0a-4e7b8ce151d1">i</c><c xml:id="135eb2ea-583f-11ee-8e0a-4e7b8ce151d1">s</c><c xml:id="135eb2c2-583f-11ee-8e0a-4e7b8ce151d1">q</c><c xml:id="135eb29a-583f-11ee-8e0a-4e7b8ce151d1">u</c><c xml:id="135eb272-583f-11ee-8e0a-4e7b8ce151d1">e</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

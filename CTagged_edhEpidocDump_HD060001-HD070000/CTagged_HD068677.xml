@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068677</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068677</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(153)</height><width>(53)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">{&#211;buda}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068677_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius+*</name><name type="cognomen">[---]terus</name></persName></person><person xml:id="HD068677_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Ulpius+*</name><name type="cognomen">Vibianus</name></persName></person><person xml:id="HD068677_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">V[---]nilis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038219" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2713106e-83cb-4f20-a9be-79ec0a1ee61f/file/id/799091/file_version/name/small" /><graphic xml:id="F038220" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48714f31-fe44-4bda-9caf-d7a12c3cc085/file/id/799092/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vier zu 3/4 aneinander passende Fragmente erhalten. Abmessungen des gr&#246;&#223;ten Fragments: s.o.; Abmessungen der &#252;brigen drei Fragmente: 34 x 41 x 21; 58 x 47 x 22; 42 x 24 x 21</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1311.</bibl><bibl>TitAq 0716; Fotos.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2" /><expan><abbr>M</abbr><ex>arco</ex></expan> Ul<supplied reason="lost"><expan><abbr>p</abbr><ex>io</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" />tero dupl<lb break="no" n="3" /><expan><abbr>ar</abbr><ex>io</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">II</supplied> <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> L <expan><abbr>do</abbr><ex>mo</ex></expan> <lb n="4" /><expan><abbr>Aq</abbr><ex cert="low">uinco</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>M</abbr><ex>arco</ex></expan> U</supplied><expan><abbr>lp</abbr><ex>io</ex></expan> Vibiano <lb n="5" />av<supplied reason="lost" cert="low">unculo</supplied> eius <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> <lb n="6" /><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> V<gap reason="lost" extent="unknown" unit="character" />nilis Poe<lb break="no" n="7" />t&amp;lt;o=E&amp;gt;<expan><abbr>vi</abbr><ex>one</ex></expan> V<gap reason="lost" extent="unknown" unit="character" /> <lb n="8" />con<supplied reason="lost">iugi</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="9" />VO<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />ENTI H<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /> curav<gap reason="lost" extent="unknown" unit="character" /> </div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

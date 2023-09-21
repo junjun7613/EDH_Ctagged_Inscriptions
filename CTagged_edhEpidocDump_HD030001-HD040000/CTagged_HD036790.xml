@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sumelocenna (Civitas Sumelocennensis) &amp;ndash; Rottenburg/Neckar (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036790</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036790</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>152</height><width>58</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118985">Sumelocenna (Civitas Sumelocennensis)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1852"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843729">Rottenburg/Neckar</placeName><placeName type="findspot">{Jahnstra&#223;e 22-40}</placeName><placeName type="region">Baden-W&#252;rttemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036790_1" sex="W"><persName><name type="cognomen">Matrona</name></persName></person><person xml:id="HD036790_2" sex="M"><persName><name type="nomen">Balbius</name><name type="cognomen">Liber</name></persName></person><person xml:id="HD036790_3" sex="M"><persName><name type="cognomen">Caratullus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-07" who="Osnabr&#252;gge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012151" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8c925f23-3d6b-41e7-8291-b4eeeb6b24e5/file/id/771678/file_version/name/small" /><graphic xml:id="F026022" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2aad06ed-b6fd-4b31-8d1f-743ab4b8dbbb/file/id/786774/file_version/name/small" /><graphic xml:id="F027068" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0602db57-1135-48f2-8f2f-9f140258749f/file/id/787825/file_version/name/small" /><graphic xml:id="F034879" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/84c96f94-d713-4871-a344-1e0d379288fc/file/id/795716/file_version/name/small" /><graphic xml:id="F034880" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e7a545de-d500-41f5-8e66-96e599c3280b/file/id/795717/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift muschelartige Nische und Pinienzapfen dargestellt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Haug - G. Sixt, Die r&#246;mischen Inschriften und Bildwerke W&#252;rttembergs (2. Aufl. Stuttgart 1914) 236-237, Nr. 127; Foto.</bibl><bibl>CIL 13, 06369.</bibl><bibl>&#201;. Esp&#233;randieu, Recueil g&#233;n&#233;ral des bas-reliefs, statues et bustes de la Germanie romaine (Paris - Bruxelles 1931) 380-381, Nr. 604; Foto.</bibl><bibl>M. Luik - F. Reutti, Der R&#246;merpark in K&#246;ngen (Stuttgart 1988) 93-94; Foto.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (K&#246;ln 1998) 159-160, Nr. 217.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="ae494f4e-5840-11ee-8e0b-4e7b8ce151d1">
+</c><c xml:id="ae494f30-5840-11ee-8e0b-4e7b8ce151d1">D</c><c xml:id="ae494f1c-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae494efe-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="ae494ecc-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae495016-5840-11ee-8e0b-4e7b8ce151d1">M</c><c xml:id="ae494fe4-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae494fa8-5840-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ae4950e8-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae4950b6-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="ae495084-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae495052-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="ae495106-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="ae4951ba-5840-11ee-8e0b-4e7b8ce151d1">M</c><c xml:id="ae4951a6-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae495192-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="ae49517e-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="ae49516a-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="ae49514c-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="ae495138-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae495124-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="ae4952be-5840-11ee-8e0b-4e7b8ce151d1">C</c><c xml:id="ae4952a0-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae49528c-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="ae495278-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae49525a-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="ae495246-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae495232-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="ae49521e-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="ae495200-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae4951ec-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="ae495322-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ae4953f4-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae4953c2-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="ae495390-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae49535e-5840-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="ae4954a8-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="ae49548a-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="ae495476-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae495458-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="ae495444-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="ae495426-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="ae495412-5840-11ee-8e0b-4e7b8ce151d1"> </c><note>sic</note><c xml:id="ae4954da-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae49557a-5840-11ee-8e0b-4e7b8ce151d1">H</c><c xml:id="ae495548-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="ae495516-5840-11ee-8e0b-4e7b8ce151d1">l</c></abbr><ex><c xml:id="ae4956b0-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="ae49567e-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="ae49564c-5840-11ee-8e0b-4e7b8ce151d1">t</c><c xml:id="ae49561a-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae4955e8-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="ae4955b6-5840-11ee-8e0b-4e7b8ce151d1">a</c></ex></expan><c xml:id="ae4956c4-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="ae49573c-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae49570a-5840-11ee-8e0b-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ae495836-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="ae495804-5840-11ee-8e0b-4e7b8ce151d1">o</c><c xml:id="ae4957d2-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="ae4957a0-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae49576e-5840-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="ae495944-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="ae495908-5840-11ee-8e0b-4e7b8ce151d1">X</c><c xml:id="ae4958ea-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="ae4958cc-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="ae4958b8-5840-11ee-8e0b-4e7b8ce151d1">B</c><c xml:id="ae49589a-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae495886-5840-11ee-8e0b-4e7b8ce151d1">l</c><c xml:id="ae495868-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="ae49584a-5840-11ee-8e0b-4e7b8ce151d1">i</c></line><line break="no" n="6"><c xml:id="ae495a7a-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae495a66-5840-11ee-8e0b-4e7b8ce151d1">s</c><c xml:id="ae495a48-5840-11ee-8e0b-4e7b8ce151d1"> </c><c xml:id="ae495a0c-5840-11ee-8e0b-4e7b8ce151d1">L</c><c xml:id="ae4959ee-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae4959da-5840-11ee-8e0b-4e7b8ce151d1">b</c><c xml:id="ae4959bc-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="ae49599e-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="ae495980-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae495ba6-5840-11ee-8e0b-4e7b8ce151d1">m</c><c xml:id="ae495b74-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae495b42-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="ae495b10-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae495ade-5840-11ee-8e0b-4e7b8ce151d1">t</c></abbr><ex><c xml:id="ae495c3c-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae495bd8-5840-11ee-8e0b-4e7b8ce151d1">s</c></ex></expan><c xml:id="ae495c50-5840-11ee-8e0b-4e7b8ce151d1"> </c></line><line n="7"><expan><abbr><c xml:id="ae495c96-5840-11ee-8e0b-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ae495e26-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae495df4-5840-11ee-8e0b-4e7b8ce151d1">c</c><c xml:id="ae495dc2-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae495d90-5840-11ee-8e0b-4e7b8ce151d1">e</c><c xml:id="ae495d5e-5840-11ee-8e0b-4e7b8ce151d1">n</c><c xml:id="ae495d2c-5840-11ee-8e0b-4e7b8ce151d1">d</c><c xml:id="ae495cfa-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae495cc8-5840-11ee-8e0b-4e7b8ce151d1">m</c></ex></expan><c xml:id="ae495e3a-5840-11ee-8e0b-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ae495e80-5840-11ee-8e0b-4e7b8ce151d1">c</c></abbr><ex><c xml:id="ae495fa2-5840-11ee-8e0b-4e7b8ce151d1">u</c><c xml:id="ae495f70-5840-11ee-8e0b-4e7b8ce151d1">r</c><c xml:id="ae495f48-5840-11ee-8e0b-4e7b8ce151d1">a</c><c xml:id="ae495f16-5840-11ee-8e0b-4e7b8ce151d1">v</c><c xml:id="ae495ee4-5840-11ee-8e0b-4e7b8ce151d1">i</c><c xml:id="ae495eb2-5840-11ee-8e0b-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

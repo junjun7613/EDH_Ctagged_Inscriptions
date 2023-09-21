@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081854</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081854</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1750"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Zitadelle}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081854_1" sex="M"><persName><name type="cognomen">Cintus</name></persName></person><person xml:id="HD081854_2" sex="W"><persName><name type="cognomen">Cotubina+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 2-4: Handschriftlich &#252;berlieferter Text: CINTVS.M / PO..IT COTV / BI. I. M.; Lesungsvorschlag Joly: D(iis) M(anibus) et Cotusiae Bitiliae Maternae posuit Cintus maritus. Gefunden im 18. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Joly, Langres, Carte arch&#233;ologique de la Gaule 52, 2 (Paris 2001) 115.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="74fc2826-5843-11ee-9558-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="74fc28b2-5843-11ee-9558-4e7b8ce151d1">D</c></abbr><ex><c xml:id="74fc292a-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="74fc28f8-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="74fc2948-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="74fc2984-5843-11ee-9558-4e7b8ce151d1">M</c></abbr><ex><c xml:id="74fc2a9c-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="74fc2a74-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="74fc2a42-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="74fc2a1a-5843-11ee-9558-4e7b8ce151d1">b</c><c xml:id="74fc29e8-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="74fc29b6-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="74fc2aba-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="74fc2bc8-5843-11ee-9558-4e7b8ce151d1">C</c><c xml:id="74fc2ba0-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="74fc2b78-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="74fc2b50-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="74fc2b1e-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="74fc2af6-5843-11ee-9558-4e7b8ce151d1">s</c></abbr><ex cert="low" /></expan><c xml:id="74fc2be6-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="74fc2c18-5843-11ee-9558-4e7b8ce151d1">m</c></abbr><ex><c xml:id="74fc2d1c-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="74fc2cf4-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="74fc2ccc-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="74fc2c9a-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="74fc2c72-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="74fc2c4a-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="74fc2d30-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="74fc2d62-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="74fc2d4e-5843-11ee-9558-4e7b8ce151d1">o</c><supplied reason="lost"><c xml:id="74fc2dc6-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="74fc2d9e-5843-11ee-9558-4e7b8ce151d1">u</c></supplied><c xml:id="74fc2e52-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="74fc2e3e-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="74fc2e2a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="74fc2e16-5843-11ee-9558-4e7b8ce151d1">C</c><c xml:id="74fc2e02-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="74fc2dee-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="74fc2dda-5843-11ee-9558-4e7b8ce151d1">u</c></line><line break="no" n="4"><c xml:id="74fc2e8e-5843-11ee-9558-4e7b8ce151d1">b</c><c xml:id="74fc2e7a-5843-11ee-9558-4e7b8ce151d1">i</c><supplied reason="lost" cert="low"><c xml:id="74fc2f24-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="74fc2ef2-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="74fc2eca-5843-11ee-9558-4e7b8ce151d1">e</c></supplied><c xml:id="74fc2f38-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="74fc2f74-5843-11ee-9558-4e7b8ce151d1">m</c></abbr><ex cert="low"><c xml:id="74fc30fa-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="74fc30d2-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="74fc30a0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="74fc3078-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="74fc3046-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="74fc301e-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="74fc2ff6-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="74fc2fce-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="74fc2f9c-5843-11ee-9558-4e7b8ce151d1">m</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

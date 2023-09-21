@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Valentia &amp;ndash; Valencia (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024278</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024278</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Valencia, SIAM (Serv. Invest. Arq. Mun.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(13)</height><width>(9)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Valencia</placeName><placeName type="findspot">Plaza de l'Almoina, sekund&#228;r verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024278_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Phoeb[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-13" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007928" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/aaa2456f-43c3-49b6-b5c5-8d7b0aa8eb91/file/id/768089/file_version/name/small" /><graphic xml:id="F007927" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/98253cb1-4c10-49f7-be4d-f0607273e811/file/id/768088/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Tafel beidseitig beschrieben; Buchstabenh&#246;he und Datierung beziehen sich auf die Inschrift der Vorderseite CIL II (2. Aufl.) 14, 88g. CIL II (2. Aufl.) 14, 88h: Buchstabenh&#246;he 2,5 cm; Datierung 4. bis 6. Jh.; Z. 3: statt E auch F m&#246;glich; Z. 4 statt C auch S m&#246;glich. Vorgezeichnete Hilfslinien bei beiden Inschriften. (B): AE 1991: Inschrift Vorderseite: Z. 2: [---]t R[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1095. (B)</bibl><bibl>V. Escriv&#225; Torres, Saguntum 24, 1991, 188, Nr. 5; l&#225;m. 3; fig. 4 (Zeichnung). - AE 1991.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00088g.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00088h.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />ED<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />T H<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /> Phoeb<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />AE <gap reason="lost" extent="unknown" unit="character" /> <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />E<certainty match="preceding-sibling::node()" locus="value" /> <gap reason="lost" extent="unknown" unit="character" /> <lb n="4" /><gap reason="lost" extent="unknown" unit="character" />C<certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

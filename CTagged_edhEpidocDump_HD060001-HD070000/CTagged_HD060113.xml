@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saal/Donau (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060113</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060113</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>M&#252;nchen, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(54)</height><width>(80)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1509"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2818807">Saal/Donau</placeName><placeName type="findspot">Untersaal, {sp&#228;tantikes Lager}, sekund&#228;r verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060113_1" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Maternina</name></persName></person><person xml:id="HD060113_2" sex="W"><persName><name type="cognomen">Hilarina* SammoI[---]</name></persName></person><person xml:id="HD060113_3" sex="M"><persName><name type="nomen">C[---]?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-05" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei verbundene hederae in Z. 1 zwischen D und M. Z. 5: vom C(?) ist der obere linke Teil erhalten; auch O(?) oder Q(?) m&#246;glich. Am Ende von Z. 4 noch eine senkrechte Haste, heute nicht mehr zu erkennen, N oder L. Etwa Sammon[is f(iliae)] oder &#228;hnliches cognomen. CIL 03, 05939: Sammol[ae].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 355; tab. 51, 355.</bibl><bibl>CIL 03, 05939.</bibl><bibl>CIL 03, 05939 add. p. 1050.</bibl><bibl>CIL 03, 05939 add. p. 1859.</bibl><bibl>CIL 03, 05939 add. p. 2328, 201.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="914844fe-2c3a-11ee-b679-4e7b8ce151d0">D</c></abbr><ex><c xml:id="914845c6-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484576-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="914845ee-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="91484652-2c3a-11ee-b679-4e7b8ce151d0">M</c></abbr><ex><c xml:id="91484814-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="914847ce-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="9148477e-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484738-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="914846f2-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="914846a2-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="91484832-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="914848dc-2c3a-11ee-b679-4e7b8ce151d0">C</c><c xml:id="9148488c-2c3a-11ee-b679-4e7b8ce151d0">l</c></abbr><ex><c xml:id="91484a80-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91484a44-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="914849fe-2c3a-11ee-b679-4e7b8ce151d0">d</c><c xml:id="914849b8-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484968-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91484922-2c3a-11ee-b679-4e7b8ce151d0">e</c></ex></expan><c xml:id="91484bca-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="91484bac-2c3a-11ee-b679-4e7b8ce151d0">M</c><c xml:id="91484b8e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91484b70-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="91484b52-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="91484b2a-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="91484b0c-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="91484aee-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484ac6-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="91484aa8-2c3a-11ee-b679-4e7b8ce151d0">a</c><supplied reason="lost"><c xml:id="91484c4c-2c3a-11ee-b679-4e7b8ce151d0">e</c></supplied><c xml:id="91484c6a-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="91484d46-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="91484d28-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91484d00-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="91484ce2-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="91484cba-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484c9c-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="91484e40-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="91484dfa-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484db4-2c3a-11ee-b679-4e7b8ce151d0">x</c></abbr><ex><c xml:id="91484ed6-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91484e90-2c3a-11ee-b679-4e7b8ce151d0">t</c></ex></expan><c xml:id="91484efe-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="91484f9e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91484f58-2c3a-11ee-b679-4e7b8ce151d0">n</c></abbr><ex><c xml:id="91485070-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="91485034-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="91484fee-2c3a-11ee-b679-4e7b8ce151d0">s</c></ex></expan><c xml:id="914850de-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="914850c0-2c3a-11ee-b679-4e7b8ce151d0">L</c><c xml:id="91485098-2c3a-11ee-b679-4e7b8ce151d0">X</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9148511a-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><c xml:id="91485318-2c3a-11ee-b679-4e7b8ce151d0">H</c><c xml:id="914852d2-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9148528c-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="91485246-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91485200-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="914851ba-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="91485174-2c3a-11ee-b679-4e7b8ce151d0">n</c></abbr><ex><c xml:id="914853a4-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91485368-2c3a-11ee-b679-4e7b8ce151d0">e</c></ex></expan><c xml:id="914854b2-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="9148548a-2c3a-11ee-b679-4e7b8ce151d0">S</c><c xml:id="91485462-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="9148543a-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="91485412-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="914853f4-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="914853cc-2c3a-11ee-b679-4e7b8ce151d0">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="914854f8-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="5" /><c xml:id="9148573c-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="91485714-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="914856ec-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="914856c4-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9148569c-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="9148566a-2c3a-11ee-b679-4e7b8ce151d0">g</c><c xml:id="91485642-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="9148561a-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="914855f2-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="914855ca-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="914855a2-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="9148557a-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="91485552-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="9148552a-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="914857d2-2c3a-11ee-b679-4e7b8ce151d0">C</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="91485804-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

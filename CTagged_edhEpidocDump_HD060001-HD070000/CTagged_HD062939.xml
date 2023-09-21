@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Klis (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062939</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062939</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>38</height><width>(77)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1880"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198062">Klis</placeName><placeName type="findspot">{Jadroquelle}, bei</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062939_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-14" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente von der Vorderseite eines Sarkophagkastens. Buchstabe A mit spitz nach unten zeigender Querhaste. Z. 1: von beiden I(?) jeweils nur etwa die untere H&#228;lfte erhalten. Lesung und Erg&#228;nzung nach J.-P. Caillet, in: Marin u. a, Salona 4. (B): CIL III; ILCV: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09672. (B)</bibl><bibl>ILCV 0835. (B)</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 1011-1012, Nr. 633; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="769707e2-5842-11ee-a013-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="7697083c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="769708d2-5842-11ee-a013-4e7b8ce151d1">S</c><c xml:id="76970896-5842-11ee-a013-4e7b8ce151d1">I</c></abbr><ex cert="low" /><c xml:id="7697092c-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="76970918-5842-11ee-a013-4e7b8ce151d1">G</c><c xml:id="76970904-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="769708f0-5842-11ee-a013-4e7b8ce151d1">I</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="76970954-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost" cert="low"><c xml:id="769709c2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970990-5842-11ee-a013-4e7b8ce151d1">c</c></supplied><c xml:id="76970a6c-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="76970a58-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="76970a44-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="76970a30-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76970a1c-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="76970a08-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="769709ea-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="769709d6-5842-11ee-a013-4e7b8ce151d1"> </c><note>sic</note><c xml:id="76970bf2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970bde-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="76970bca-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76970bb6-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76970b98-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="76970b84-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970b70-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="76970b5c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76970b48-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970b34-5842-11ee-a013-4e7b8ce151d1">q</c><c xml:id="76970b20-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="76970b02-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76970aee-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="76970ada-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970ac6-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="76970ab2-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="76970a9e-5842-11ee-a013-4e7b8ce151d1">r</c><supplied reason="lost"><c xml:id="76970dbe-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="76970d96-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="76970d64-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="76970d3c-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970d0a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="76970ce2-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="76970cb0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76970c88-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="76970c56-5842-11ee-a013-4e7b8ce151d1">d</c></supplied><c xml:id="76970dd2-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><c xml:id="76970f76-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="76970f4e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="76970f26-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="76970ef4-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76970ecc-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="76970e9a-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970e72-5842-11ee-a013-4e7b8ce151d1">h</c><c xml:id="76970e40-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="76970e18-5842-11ee-a013-4e7b8ce151d1">c</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> ponere v</supplied><c xml:id="76971052-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7697103e-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="7697102a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="7697100c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76970fee-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="76970fda-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76970fbc-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="76970fa8-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76970f8a-5842-11ee-a013-4e7b8ce151d1">p</c><expan><ex><c xml:id="769710ac-5842-11ee-a013-4e7b8ce151d1">o</c></ex><abbr><c xml:id="7697112e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76971106-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="769710d4-5842-11ee-a013-4e7b8ce151d1">a</c></abbr><ex><c xml:id="76971160-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="76971296-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76971282-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="76971264-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="76971246-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="76971232-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76971214-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76971200-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="769711e2-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="769711c4-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="769711b0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76971192-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="7697117e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="769712f0-5842-11ee-a013-4e7b8ce151d1">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="7697130e-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="769714f8-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="769714da-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="769714bc-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="7697149e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="7697148a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="7697146c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="7697144e-5842-11ee-a013-4e7b8ce151d1">g</c><c xml:id="76971430-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76971412-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="769713fe-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="769713e0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="769713c2-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="769713a4-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="76971386-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="76971368-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="76971354-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="76971336-5842-11ee-a013-4e7b8ce151d1">a</c><supplied reason="lost"><c xml:id="769715c0-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="7697158e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="76971566-5842-11ee-a013-4e7b8ce151d1">q</c></supplied><c xml:id="7697162e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="76971610-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="769715f2-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="769715d4-5842-11ee-a013-4e7b8ce151d1">q</c><supplied reason="lost" cert="low"><c xml:id="7697175a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="76971728-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="76971700-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="769716ce-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="769716a6-5842-11ee-a013-4e7b8ce151d1">-</c><c xml:id="76971674-5842-11ee-a013-4e7b8ce151d1">-</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Versoix (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080086</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080086</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gen&#232;ve, Mus. Art. Hist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><dimensions unit="cm"><height>(91)</height><width>(94)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177528" /></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2660646">Versoix</placeName><placeName type="findspot" /><placeName type="region">R&#233;publique et Canton de Gen&#232;ve</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080086_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD080086_2" sex="M"><persName><name type="praenomen">D.+</name><name type="nomen">Iulius+*</name><name type="cognomen">Ripanus Capito+ Bassianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040126" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5f6b0e8e-07ea-4e01-b3c1-3e2e7cf43904/file/id/801008/file_version/name/small" /><graphic xml:id="F040128" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a161838c-44bc-44fc-acf4-215f9d49ef6c/file/id/801010/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bruchst&#252;ck vom oberen Teil eines aediculaf&#246;rmigen Grabmals, Stele oder Grabbau. Zur Erg&#228;nzung des Namens vgl. https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD080085.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05008.</bibl><bibl>J.-L. Maier, Genavae Augustae. Les inscriptions romaines de Gen&#232;ve (Gen&#232;ve 1983) 133, Nr. 100.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="695efd36-5843-11ee-9558-4e7b8ce151d1">
+</c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="695efe44-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="695efe12-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695efde0-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695efda4-5843-11ee-9558-4e7b8ce151d1">o</c></supplied><c xml:id="695efed0-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="695efebc-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="695efea8-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="695efe9e-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695efe8a-5843-11ee-9558-4e7b8ce151d1">X</c><c xml:id="695efe76-5843-11ee-9558-4e7b8ce151d1">X</c><c xml:id="695efe58-5843-11ee-9558-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="695eff02-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><expan><abbr><c xml:id="695eff3e-5843-11ee-9558-4e7b8ce151d1">D</c></abbr><ex><c xml:id="695f0024-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="695efffc-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="695effca-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695effa2-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="695eff70-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="695f0038-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="695f00ce-5843-11ee-9558-4e7b8ce151d1">I</c><c xml:id="695f009c-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="695f0074-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="695f011e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f00f6-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="695f013c-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="695f016e-5843-11ee-9558-4e7b8ce151d1">L</c></abbr><ex><c xml:id="695f01f0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="695f01c8-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="695f0196-5843-11ee-9558-4e7b8ce151d1">i</c></ex></expan><c xml:id="695f0204-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="695f0236-5843-11ee-9558-4e7b8ce151d1">f</c></abbr><ex><c xml:id="695f02ea-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f02b8-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="695f0290-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f0268-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan></supplied><c xml:id="695f02fe-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="695f038a-5843-11ee-9558-4e7b8ce151d1">V</c><c xml:id="695f0362-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f033a-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="695f0466-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="695f043e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f0416-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695f03e4-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f03bc-5843-11ee-9558-4e7b8ce151d1">a</c></ex></expan><c xml:id="695f0556-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f0542-5843-11ee-9558-4e7b8ce151d1">R</c><c xml:id="695f052e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f051a-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="695f0506-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="695f04f2-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695f04d4-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f04c0-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f0498-5843-11ee-9558-4e7b8ce151d1">C</c><c xml:id="695f0484-5843-11ee-9558-4e7b8ce151d1">a</c><supplied reason="lost"><c xml:id="695f0812-5843-11ee-9558-4e7b8ce151d1">p</c><c xml:id="695f07e0-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f07b8-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="695f0790-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f075e-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695f0736-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f070e-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f06dc-5843-11ee-9558-4e7b8ce151d1">B</c><c xml:id="695f06b4-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="695f0682-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="695f065a-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="695f0632-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f0600-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="695f05d8-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695f05a6-5843-11ee-9558-4e7b8ce151d1">o</c></supplied><c xml:id="695f0826-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="3"><supplied reason="lost"><c xml:id="695f0aba-5843-11ee-9558-4e7b8ce151d1">h</c><c xml:id="695f0a88-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f0a60-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="695f0a38-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f0a10-5843-11ee-9558-4e7b8ce151d1">r</c><c xml:id="695f09e8-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="695f09b6-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="695f098e-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f0966-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f0934-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="695f090c-5843-11ee-9558-4e7b8ce151d1">q</c><c xml:id="695f08e4-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="695f08b2-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="695f088a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f0862-5843-11ee-9558-4e7b8ce151d1">p</c></supplied><expan><abbr><c xml:id="695f0b96-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="695f0b64-5843-11ee-9558-4e7b8ce151d1">b</c><c xml:id="695f0b3c-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="695f0b14-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f0ae2-5843-11ee-9558-4e7b8ce151d1">c</c></abbr><ex><c xml:id="695f0bc8-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="695f0c4a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f0c36-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="695f0c22-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="695f0c04-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="695f0bf0-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="695f0bdc-5843-11ee-9558-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="695f0cea-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="695f0cb8-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="695f0c90-5843-11ee-9558-4e7b8ce151d1">r</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="695f0cfe-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="4"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="695f0d1c-5843-11ee-9558-4e7b8ce151d1">F</c><gap reason="lost" quantity="1" unit="line" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

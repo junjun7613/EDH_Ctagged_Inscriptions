@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Castrum Rauracense &amp;ndash; Kaiseraugst (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082709</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082709</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augst, Mus. Augusta Raurica</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/115">Silber</material><dimensions unit="cm"><height>19</height><width>2</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/81716458">Castrum Rauracense</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2660204">Kaiseraugst</placeName><placeName type="findspot">{Sportplatz}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082709_1" sex="M"><persName><name type="cognomen">Marcellianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-12" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>L&#246;ffel; Z. 1-2 befinden sich auf der Au&#223;en-, Z. 3-5 auf der Innenseite der Laffe. Z. 4 u. 5: jeweils nur noch der Rest eines nicht mehr eindeutig identifizierbaren Buchstabens erhalten. Schreibtechnik: eingeritzt / Graffito.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1255.</bibl><bibl>M. Martin, in: Der sp&#228;tr&#246;mische Silberschatz von Kaiseraugst (Derendingen 1984) 58. 61. 67-68, Nr. 21; Abb. 28 (Zeichnung). - AE 2003.</bibl><bibl>M. Martin, in: Der sp&#228;tr&#246;mische Silberschatz von Kaiseraugst (Derendingen 1984) 388-390, Nr. IN 32. 34 u. 36; Abb. 152 (Zeichnung). - AE 2003.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>Mar</abbr><ex>celliano</ex></expan> <lb n="2" />Ma<supplied reason="lost">rce</supplied>lli<supplied reason="lost" cert="low">ano</supplied> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr><supplied reason="lost">Ma</supplied>r</abbr><ex>celliano</ex></expan><certainty match="preceding-sibling::node()" locus="value" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

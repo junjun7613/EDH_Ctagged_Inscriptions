@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Tribocorum?) &amp;ndash; Hultehouse, bei (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018127</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018127</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarrebourg, Mus. du pays de Sarrebourg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(90)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Tribocorum?)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3013000">Hultehouse, bei</placeName><placeName type="findspot">{Limmersberg/Diebsberg}, gallo-r&#246;mische H&#246;hensiedlung</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018127_1" sex="W"><persName><name type="cognomen">Martina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bruchst&#252;ck mit dem oberen Teil einer rechteckigen Stele mit eingeschriebenem Dreiecksgiebel, im Giebelfeld und den Zwickelfeldern stark stilisierter Akanthusdreipass mit Rosette. (B): AE 1965; Hatt: D M Martinae; Goubet u. a.: kleinere Abweichungen in Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0182. (B)</bibl><bibl>J.-J. Hatt, Gallia 22, 1964, 354; fig. 24. (B) - AE 1965.</bibl><bibl>(o. Autor), in: P. Flott&#233; u. a., La Moselle, Carte arch&#233;ologique de la Gaule 57, 1 (Paris 2004) 520; fig. 326.</bibl><bibl>F. Goubet - F. Jodry - N. Meyer - N. Weiss, Au "gr&#232;s" du temps. Collections lapidaires celtes et gallo-romaines du Mus&#233;e arch&#233;ologique de Saverne (Saverne 2015) 69-70. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="6ea94ef8-2c39-11ee-8ac2-4e7b8ce151d0">D</c></abbr><ex><c xml:id="6ea95240-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6ea9511e-2c39-11ee-8ac2-4e7b8ce151d0">s</c></ex></expan><c xml:id="6ea952e0-2c39-11ee-8ac2-4e7b8ce151d0"> </c><expan><abbr><c xml:id="6ea95434-2c39-11ee-8ac2-4e7b8ce151d0">M</c></abbr><ex><c xml:id="6ea95a2e-2c39-11ee-8ac2-4e7b8ce151d0">a</c><c xml:id="6ea9593e-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="6ea95844-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6ea9574a-2c39-11ee-8ac2-4e7b8ce151d0">b</c><c xml:id="6ea95650-2c39-11ee-8ac2-4e7b8ce151d0">u</c><c xml:id="6ea95556-2c39-11ee-8ac2-4e7b8ce151d0">s</c></ex></expan><c xml:id="6ea95aba-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="2" /><supplied reason="lost"><c xml:id="6ea95bf0-2c39-11ee-8ac2-4e7b8ce151d0">M</c></supplied><c xml:id="6ea95e98-2c39-11ee-8ac2-4e7b8ce151d0">a</c><c xml:id="6ea95e2a-2c39-11ee-8ac2-4e7b8ce151d0">r</c><c xml:id="6ea95dc6-2c39-11ee-8ac2-4e7b8ce151d0">t</c><c xml:id="6ea95d58-2c39-11ee-8ac2-4e7b8ce151d0">i</c><c xml:id="6ea95cea-2c39-11ee-8ac2-4e7b8ce151d0">n</c><c xml:id="6ea95c72-2c39-11ee-8ac2-4e7b8ce151d0">a</c><supplied reason="lost" cert="low"><c xml:id="6ea963d4-2c39-11ee-8ac2-4e7b8ce151d0">e</c><c xml:id="6ea962e4-2c39-11ee-8ac2-4e7b8ce151d0"> </c><c xml:id="6ea961f4-2c39-11ee-8ac2-4e7b8ce151d0">-</c><c xml:id="6ea960fa-2c39-11ee-8ac2-4e7b8ce151d0">-</c><c xml:id="6ea96000-2c39-11ee-8ac2-4e7b8ce151d0">-</c></supplied><c xml:id="6ea96456-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="6ea9656e-2c39-11ee-8ac2-4e7b8ce151d0">I</c><c xml:id="6ea964f6-2c39-11ee-8ac2-4e7b8ce151d0">I</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="6ea9660e-2c39-11ee-8ac2-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

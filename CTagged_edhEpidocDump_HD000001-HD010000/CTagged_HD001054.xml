@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tarrant Hinton (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001054</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001054</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wimborne, Priest's House Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(11)</height><width>(44)</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate when-custom="0258" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">258 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2636206">Tarrant Hinton</placeName><placeName type="findspot">{R&#246;mische Villa}, Brunnen</placeName><placeName type="region">Dorset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001054_1" sex="M"><persName><name type="nomen">Cupitius*</name><name type="cognomen">Verinus+</name></persName></person><person xml:id="HD001054_2" sex="M"><persName><name type="cognomen">Tuscus</name></persName></person><person xml:id="HD001054_3" sex="M"><persName><name type="cognomen">Bassus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-25" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Stein ist in zwei aneinanderpassende H&#228;lften zerbrochen. (B): Z. 1 (Anfang:) Lesung anhand der Fotos nicht mit letzter Sicherheit zu entscheiden. Hassall - Tomlin: Cup(itius) Vep[---]; AE: Cup(itius) Veri[nus].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0668. (B)</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 12, 1981, 369, Nr. 4; pl. 30a. (B) - AE 1982.</bibl><bibl>PIR (2. Aufl.) N 237.</bibl><bibl>PIR (2. Aufl.) M 702.</bibl><bibl>RIB 3045; Foto u. Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="9c3e8d32-583b-11ee-a136-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="9c3e8e9a-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="9c3e8e68-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9c3e8e22-583b-11ee-a136-4e7b8ce151d1">p</c></abbr><ex><c xml:id="9c3e8f76-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9c3e8f4e-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9c3e8f26-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9c3e8ef4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9c3e8ecc-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="9c3e8fe4-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e8fd0-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="9c3e8fbc-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e8fa8-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9c3e8f94-583b-11ee-a136-4e7b8ce151d1">i</c><supplied reason="lost"><c xml:id="9c3e90b6-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9c3e9084-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9c3e9052-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9c3e9020-583b-11ee-a136-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /> d</supplied><c xml:id="9c3e925a-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e9246-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9c3e9232-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e921e-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9c3e920a-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9c3e91f6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9c3e91ec-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9c3e91d8-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e91c4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9c3e91b0-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9c3e919c-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9c3e9188-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9c3e9174-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e9160-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="9c3e914c-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="9c3e9138-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="9c3e9124-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="9c3e9110-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9c3e90fc-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9c3e90f2-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9c3e90de-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9c3e90ca-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="9c3e9408-583b-11ee-a136-4e7b8ce151d1">T</c><c xml:id="9c3e93f4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9c3e93d6-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9c3e93c2-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9c3e93ae-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9c3e939a-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e9386-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e9372-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9c3e9354-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e9340-583b-11ee-a136-4e7b8ce151d1">B</c><c xml:id="9c3e932c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9c3e9318-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9c3e92fa-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="9c3e92e6-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9c3e92d2-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e92be-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="9c3e92aa-583b-11ee-a136-4e7b8ce151d1">o</c><expan><ex><c xml:id="9c3e9462-583b-11ee-a136-4e7b8ce151d1">n</c></ex><abbr><c xml:id="9c3e9494-583b-11ee-a136-4e7b8ce151d1">s</c></abbr><ex><c xml:id="9c3e95ac-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9c3e9584-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="9c3e955c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9c3e952a-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="9c3e9502-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9c3e94c6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="9c3e9624-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9c3e9610-583b-11ee-a136-4e7b8ce151d1">V</c><c xml:id="9c3e95fc-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9c3e95de-583b-11ee-a136-4e7b8ce151d1">I</c><c xml:id="9c3e95ca-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9c3e96c4-583b-11ee-a136-4e7b8ce151d1">K</c><c xml:id="9c3e969c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9c3e966a-583b-11ee-a136-4e7b8ce151d1">l</c></abbr><ex><c xml:id="9c3e97a0-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e976e-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9c3e9746-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="9c3e971e-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9c3e96f6-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="9c3e97b4-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9c3e98ea-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="9c3e98c2-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e989a-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="9c3e9872-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="9c3e9840-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e9818-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="9c3e97f0-583b-11ee-a136-4e7b8ce151d1">b</c></abbr><ex><c xml:id="9c3e9976-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9c3e9944-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="9c3e991c-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

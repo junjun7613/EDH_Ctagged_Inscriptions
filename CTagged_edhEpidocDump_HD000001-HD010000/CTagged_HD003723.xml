@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sentinum &amp;ndash; Sassoferrato (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003723</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003723</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413312">Sentinum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sassoferrato</placeName><placeName type="findspot">Sentino</placeName><placeName type="region">Marche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003723_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]orina</name></persName></person><person xml:id="HD003723_2"><persName><name type="nomen">Ampudia+</name><name type="cognomen">Se[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1991-10-01" who="Scheithauer">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: vielleicht [Fl]orina, [Sec]orina, [Lep]orina. Zahl der genannten Personen, Verwandtschaftsbeziehungen wegen fragmentarischen Erhaltungszustandes nicht eindeutig bestimmbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0332.</bibl><bibl>G. Paci, in: L. Gasperini, Scritti sul mondo antico in memoria di Fulvio Grosso (Roma 1981) 439-440, Nr. 21; tav. 43,1. - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="9de17410-583b-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="9de1750a-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="9de174f6-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="9de174e2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9de174ce-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="9de174ba-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9de1749c-583b-11ee-a136-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9de17532-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="1"><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9de17578-583b-11ee-a136-4e7b8ce151d1">?</c><c xml:id="9de17564-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9de17550-583b-11ee-a136-4e7b8ce151d1">A</c></supplied><c xml:id="9de17618-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="9de17604-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="9de175f0-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="9de175dc-583b-11ee-a136-4e7b8ce151d1">d</c><c xml:id="9de175c8-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9de175b4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9de175a0-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9de1767c-583b-11ee-a136-4e7b8ce151d1">C</c></abbr><ex><c xml:id="9de176f4-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9de176b8-583b-11ee-a136-4e7b8ce151d1">i</c></ex></expan><c xml:id="9de17708-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9de1774e-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="9de1780c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9de177da-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="9de177b2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9de17780-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="9de17848-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="9de17834-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="9de17820-583b-11ee-a136-4e7b8ce151d1">e</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9de17870-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="9de178ca-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="9de178b6-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="9de178a2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="9de1788e-583b-11ee-a136-4e7b8ce151d1">a</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

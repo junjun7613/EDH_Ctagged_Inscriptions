@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saguntum &amp;ndash; Sagunto (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003295</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003295</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sagunto, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>40</height><width>48</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266021">Saguntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="findspot">Castillo, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003295_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Caecilius+</name><name type="cognomen">Eutichus+</name></persName></person><person xml:id="HD003295_2" sex="W"><persName><name type="nomen">Babullia+?</name><name type="cognomen">Successa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Beltr&#225;n Lloris: Z. 2: [us ---]ticthus; Z. 4: Abullia; Z. 5: v(ivi) f(ecerunt) Z. 2: ungew&#246;hnliche Form des H; Z. 4: statt [B]abullia auch [F]abullia m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0585.</bibl><bibl>G. Alf&#246;ldy, ZPE 41, 1981, 234-235, Nr. 14; Taf. 12,14. - AE 1981.</bibl><bibl>HAE 1579. (B)</bibl><bibl>CIL 02 (2. Aufl.) 14, 00431.</bibl><bibl>F. Beltr&#225;n Lloris, Epigraf&#237;a latina de Saguntum y su territorium (Valencia 1980) 126-127, Nr. 125; l&#225;m. 41. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="a5a6044a-583b-11ee-a136-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="character" /><supplied reason="lost"><c xml:id="a5a60526-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="a5a604e0-583b-11ee-a136-4e7b8ce151d1">a</c></supplied><c xml:id="a5a60594-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a5a60580-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a5a6056c-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a5a60558-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a5a60544-583b-11ee-a136-4e7b8ce151d1">i</c></line><line break="no" n="2"><supplied reason="lost"><c xml:id="a5a6068e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a5a6065c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a5a60634-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a5a60602-583b-11ee-a136-4e7b8ce151d1">E</c><c xml:id="a5a605da-583b-11ee-a136-4e7b8ce151d1">u</c></supplied><c xml:id="a5a6071a-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="a5a60706-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a5a606f2-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a5a606de-583b-11ee-a136-4e7b8ce151d1">h</c><c xml:id="a5a606ca-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a5a606b6-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a5a606a2-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="a5a607b0-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a5a60788-583b-11ee-a136-4e7b8ce151d1">n</c></abbr><ex><c xml:id="a5a60896-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="a5a60864-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="a5a6083c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="a5a60814-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a5a607ec-583b-11ee-a136-4e7b8ce151d1">m</c></ex></expan><c xml:id="a5a608e6-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a5a608d2-583b-11ee-a136-4e7b8ce151d1">X</c><c xml:id="a5a608be-583b-11ee-a136-4e7b8ce151d1">L</c><c xml:id="a5a608aa-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost" cert="low"><c xml:id="a5a60936-583b-11ee-a136-4e7b8ce151d1">B</c></supplied><c xml:id="a5a60a1c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a5a60a08-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="a5a609f4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a5a609d6-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a5a609c2-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="a5a609ae-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a5a6099a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a5a60986-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="a5a60972-583b-11ee-a136-4e7b8ce151d1">S</c><c xml:id="a5a6095e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="a5a6094a-583b-11ee-a136-4e7b8ce151d1">c</c></line><line break="no" n="5"><c xml:id="a5a60abc-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a5a60aa8-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a5a60a94-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a5a60a80-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="a5a60a62-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="a5a60a4e-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a5a60b02-583b-11ee-a136-4e7b8ce151d1">v</c></abbr><ex><c xml:id="a5a60b84-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a5a60b5c-583b-11ee-a136-4e7b8ce151d1">v</c><c xml:id="a5a60b34-583b-11ee-a136-4e7b8ce151d1">a</c></ex></expan><c xml:id="a5a60b98-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="a5a60bd4-583b-11ee-a136-4e7b8ce151d1">f</c></abbr><ex><c xml:id="a5a60c88-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="a5a60c56-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="a5a60c2e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="a5a60c06-583b-11ee-a136-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

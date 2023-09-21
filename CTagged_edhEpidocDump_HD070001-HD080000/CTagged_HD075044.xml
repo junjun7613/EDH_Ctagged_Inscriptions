@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Oslip (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075044</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075044</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland, Depot Siegendorf</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(81)</height><width>63</width><depth>43</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1933"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769396">Oslip</placeName><placeName type="findspot" /><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075044_1" sex="M"><persName><name type="nomen">Flavius+*?</name><name type="cognomen">Aelianus+</name></persName></person><person xml:id="HD075044_2" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Aemilianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-03" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment vom unteren Teil eines Altars mit dem profilierten Sockel. In Z. 1 links am unteren Zeilenrand noch das Ende einer Horizontalhaste(?) mit Serife, statt L jedoch auch C m&#246;glich. Am Zeilenende Reste von roter Farbe in den Buchstaben. (B): Hild: Z. 1: [C]aelianu[s].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 60, Nr. 100. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="2a033eae-5843-11ee-8920-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="2a033eea-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="1"><expan><abbr><supplied reason="lost"><c xml:id="2a033f3a-5843-11ee-8920-4e7b8ce151d1">F</c></supplied><c xml:id="2a033f4e-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="2a034070-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="2a03403e-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="2a034016-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a033fee-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="2a033f94-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><certainty match="preceding-sibling::node()" locus="value" /><c xml:id="2a03412e-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="2a03411a-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="2a034106-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a0340fc-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="2a0340e8-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a0340d4-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="2a0340c0-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="2a0340ac-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="2a034098-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="2a034084-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="2a034188-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a034174-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="2a034160-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2a0341ec-5843-11ee-8920-4e7b8ce151d1">F</c><c xml:id="2a0341c4-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="2a0342c8-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="2a0342a0-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="2a03426e-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a034246-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="2a03421e-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="2a034368-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="2a03434a-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="2a034340-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a03432c-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="2a034318-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a034304-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="2a0342f0-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a0342dc-5843-11ee-8920-4e7b8ce151d1">a</c></line><line break="no" n="3"><c xml:id="2a0343cc-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="2a0343b8-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="2a0343a4-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="2a034390-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2a034408-5843-11ee-8920-4e7b8ce151d1">v</c></abbr><ex><c xml:id="2a0344da-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="2a0344b2-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="2a03448a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="2a03443a-5843-11ee-8920-4e7b8ce151d1">m</c></ex></expan><c xml:id="2a0344ee-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2a034520-5843-11ee-8920-4e7b8ce151d1">s</c></abbr><ex><c xml:id="2a03466a-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="2a034642-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="2a03461a-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="2a0345f2-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a0345ca-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="2a0345a2-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="2a03457a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="2a034552-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan><c xml:id="2a034674-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2a0346ce-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="2a034804-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a0347dc-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="2a0347b4-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a03478c-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="2a034764-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="2a03471e-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a0346f6-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="2a034818-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="2a034854-5843-11ee-8920-4e7b8ce151d1">m</c></abbr><ex><c xml:id="2a03493a-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="2a034912-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="2a0348ea-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="2a0348a4-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="2a03487c-5843-11ee-8920-4e7b8ce151d1">o</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

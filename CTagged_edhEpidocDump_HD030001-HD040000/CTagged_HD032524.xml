@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Lanuvium &amp;ndash; Lanuvio (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032524</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032524</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(60)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">14-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/422956">Lanuvium</placeName></origPlace><origDate><origDate notBefore-custom="0081" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">81 AD - 96 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lanuvio</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032524_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1423"><name type="cognomen">Domitianus+</name></persName></person><person xml:id="HD032524_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-11" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): NSA, EphEp: abweichende Erg&#228;nzungen und Textwiedergaben. Datierung der sekund&#228;ren Inschrift der R&#252;ckseite: 117-138.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Horster, Bauinschriften r&#246;mischer Kaiser (Stuttgart 2001) 82. 84. 265-266, Nr. Ia 8,1 u. 2.</bibl><bibl>EphEp 9, p. 384 n. 610. (B)</bibl><bibl>D. Vaglieri, NSA 1907, 658-659; Zeichnungen. (B)</bibl><bibl>G. Alf&#246;ldy, Epigraphica 64, 2002, 118-119, Nr. 6.</bibl><bibl>EphEp 9, p. 384 n. 609. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caes</supplied>ar di<supplied reason="lost">vi Vespasiani <expan><abbr>f</abbr><ex>ilius</ex></expan> Domitianus</supplied> <lb n="2" /><supplied reason="lost">Aug</supplied>ustus p<supplied reason="lost">o</supplied>ntife<supplied reason="lost">x ma</supplied>xim<supplied reason="lost">us</supplied> <lb n="3" /><expan><abbr><supplied reason="lost">t</supplied>ribunic</abbr><ex>ia</ex></expan> potest<supplied reason="lost"><expan><abbr>at</abbr><ex>e</ex></expan></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar di</supplied>vi Traiani Par<supplied reason="lost">thici <expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <lb n="2" /><supplied reason="lost">divi Nervae <expan><abbr>nep</abbr><ex>os</ex></expan></supplied> Traianus Hadr<supplied reason="lost">ian</supplied>us Aug<supplied reason="lost">ustus</supplied> <lb n="3" /><supplied reason="lost">pontifex ma</supplied>ximus t<supplied reason="lost"><expan><abbr>rib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character" /></supplied> <lb n="4" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /> vetustate coll</supplied>apsam <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" />? restituit</supplied></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

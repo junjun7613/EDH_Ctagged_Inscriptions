@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kupres (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058531</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058531</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(22)</height><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3193794">Kupres</placeName><placeName type="findspot">Otinovci, {fr&#252;hchristliche Basilika}, sekund&#228;r verwendet</placeName><placeName type="region">Hercegbosanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058531_1"><persName><name type="cognomen">AEQ[---]IOM?</name></persName></person><person xml:id="HD058531_2" sex="M"><persName><name type="cognomen">Dasius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-17" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Drei teilweise aneinander passende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Patsch, WMBH 5, 1897, 22-33, Nr. 3; Fig. 93 (Zeichnung).</bibl><bibl>CIL 03, 14320; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="45e0b8ca-2c3a-11ee-97a0-4e7b8ce151d0">D</c></abbr><ex><c xml:id="45e0b992-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="45e0b942-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="45e0b9ba-2c3a-11ee-97a0-4e7b8ce151d0"> </c><expan><abbr><c xml:id="45e0ba1e-2c3a-11ee-97a0-4e7b8ce151d0">M</c></abbr><ex><c xml:id="45e0bbd6-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="45e0bb90-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="45e0bb4a-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="45e0bb04-2c3a-11ee-97a0-4e7b8ce151d0">b</c><c xml:id="45e0babe-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="45e0ba6e-2c3a-11ee-97a0-4e7b8ce151d0">s</c></ex></expan><c xml:id="45e0bbfe-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="2" /><expan><abbr><c xml:id="45e0bce4-2c3a-11ee-97a0-4e7b8ce151d0">A</c><c xml:id="45e0bc9e-2c3a-11ee-97a0-4e7b8ce151d0">E</c><c xml:id="45e0bc58-2c3a-11ee-97a0-4e7b8ce151d0">Q</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="45e0bdca-2c3a-11ee-97a0-4e7b8ce151d0">I</c><c xml:id="45e0bd84-2c3a-11ee-97a0-4e7b8ce151d0">O</c><c xml:id="45e0bd3e-2c3a-11ee-97a0-4e7b8ce151d0">M</c></abbr><ex cert="low" /></expan><c xml:id="45e0bdf2-2c3a-11ee-97a0-4e7b8ce151d0"> </c><lb n="3" /><expan><abbr><c xml:id="45e0bed8-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="45e0be92-2c3a-11ee-97a0-4e7b8ce151d0">n</c><c xml:id="45e0be4c-2c3a-11ee-97a0-4e7b8ce151d0">n</c></abbr><ex cert="low"><c xml:id="45e0bffa-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="45e0bfb4-2c3a-11ee-97a0-4e7b8ce151d0">r</c><c xml:id="45e0bf6e-2c3a-11ee-97a0-4e7b8ce151d0">u</c><c xml:id="45e0bf28-2c3a-11ee-97a0-4e7b8ce151d0">m</c></ex></expan><c xml:id="45e0c018-2c3a-11ee-97a0-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost" cert="low"><c xml:id="45e0c0fe-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="45e0c0b8-2c3a-11ee-97a0-4e7b8ce151d0">e</c><c xml:id="45e0c072-2c3a-11ee-97a0-4e7b8ce151d0">t</c></supplied><c xml:id="45e0c18a-2c3a-11ee-97a0-4e7b8ce151d0"> </c><c xml:id="45e0c16c-2c3a-11ee-97a0-4e7b8ce151d0">D</c><c xml:id="45e0c144-2c3a-11ee-97a0-4e7b8ce151d0">a</c><c xml:id="45e0c11c-2c3a-11ee-97a0-4e7b8ce151d0">s</c><lb n="0" /><c xml:id="45e0c20c-2c3a-11ee-97a0-4e7b8ce151d0">i</c><c xml:id="45e0c1e4-2c3a-11ee-97a0-4e7b8ce151d0">o</c><c xml:id="45e0c1c6-2c3a-11ee-97a0-4e7b8ce151d0"> </c><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

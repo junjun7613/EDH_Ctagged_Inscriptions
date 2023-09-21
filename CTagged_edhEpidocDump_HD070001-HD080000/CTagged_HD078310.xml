@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078310</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078310</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(40)</height><width>(44)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1904"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Mombacher Stra&#223;e 11}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078310_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]urnius</name><name type="cognomen">[---]aro</name></persName></person><person xml:id="HD078310_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">[---]io?</name><name type="cognomen">Adbugio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-13" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015556" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f4fb9bcb-3213-4d17-a276-b3e47cae38dd/file/id/775133/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3 (Anfang): statt I auch N m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11877.</bibl><bibl>K. K&#246;rber, ZRheinGeschMainz 4, 1893-1905, 386, Nr. 18; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5b0aaa2-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5b0aa84-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5b0aa66-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5b0aa48-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5b0aa20-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5b0aa02-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="b5b0a9c6-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5b0ab56-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5b0ab38-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b5b0ab10-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5b0aaf2-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5b0abce-2c3a-11ee-96ce-4e7b8ce151d0">Q</c></abbr><ex><c xml:id="b5b0ad54-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5b0ad0e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5b0acbe-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5b0ac78-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5b0ac28-2c3a-11ee-96ce-4e7b8ce151d0">o</c></ex></expan><c xml:id="b5b0ad7c-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="b5b0ade0-2c3a-11ee-96ce-4e7b8ce151d0">I</c></abbr><ex cert="low" /><c xml:id="b5b0ae08-2c3a-11ee-96ce-4e7b8ce151d0">o</c></expan><c xml:id="b5b0af48-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5b0af2a-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b5b0af02-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b5b0aee4-2c3a-11ee-96ce-4e7b8ce151d0">b</c><c xml:id="b5b0aebc-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="b5b0ae9e-2c3a-11ee-96ce-4e7b8ce151d0">g</c><c xml:id="b5b0ae76-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b5b0ae58-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5b0ae30-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b5b0b056-2c3a-11ee-96ce-4e7b8ce151d0">v</c><c xml:id="b5b0b02e-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b5b0b006-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b5b0afe8-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5b0afc0-2c3a-11ee-96ce-4e7b8ce151d0">x</c><c xml:id="b5b0af98-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="b5b0b15a-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5b0b114-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5b0b0c4-2c3a-11ee-96ce-4e7b8ce151d0">s</c></abbr><ex><c xml:id="b5b0b34e-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5b0b308-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b5b0b2cc-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="b5b0b27c-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b5b0b236-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b5b0b1f0-2c3a-11ee-96ce-4e7b8ce151d0">t</c><c xml:id="b5b0b1aa-2c3a-11ee-96ce-4e7b8ce151d0">o</c></ex></expan><c xml:id="b5b0b376-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

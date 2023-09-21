@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Carnuntum &amp;ndash; Bad Deutsch-Altenburg / Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053774</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053774</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(3)</height><width>(2)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.3-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0149" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">149 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg / Petronell-Carnuntum</placeName><placeName type="findspot">{canabae}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053774_1" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-23" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment der tab. I; Tiefe: knapp 0,1 cm. Genser; Weber - Selinger; AE 1992: Lesung der Au&#223;en- und Innenseite zusammengefa&#223;t. Z. 5 (int.): m&#246;glicherweise auch Thr(acum) v(ictrix). (B): Genser; Weber - Selinger; AE 1992: Z. 3 (ext. und int.): Had[rianus Z. 4 (ext. und int.): trib(unicia); pot(estate); Z. 5 (ext. und int.): equitib(us).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1409. (B)</bibl><bibl>K. Genser, CarnuntumJb 1988, 41-53; Abb. 1; Abb. 2 (Zeichnungen). (B) - AE 1992.</bibl><bibl>E. Weber - R. Selinger, R&#338; 19/20, 1991/92, 203, Nr. 198. (B) - AE 1992.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> div<supplied reason="lost">i Hadriani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> <lb n="2" /><supplied reason="lost">Par</supplied>thic<supplied reason="lost">i <expan><abbr>nep</abbr><ex>os</ex></expan> divi Nervae <expan><abbr>pronep</abbr><ex>os</ex></expan></supplied> <lb n="3" /><supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Aeli</supplied>us Had<supplied reason="lost">rianus Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius</supplied> <lb n="4" /><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan></supplied> <expan><abbr>max</abbr><ex>imus</ex></expan> t<supplied reason="lost"><expan><abbr>rib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>imp</abbr><ex>erator</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5" /><expan><abbr><supplied reason="lost">equi</supplied>tib</abbr><ex>us</ex></expan> et <supplied reason="lost"><expan><abbr>pedit</abbr><ex>ibus</ex></expan> qui <expan><abbr>milit</abbr><ex>averunt</ex></expan> in alis V quae</supplied> <lb n="6" /><supplied reason="lost"><expan><abbr>appel</abbr><ex>lantur</ex></expan></supplied> I Ulpi<supplied reason="lost">a <expan><abbr>contario</abbr><ex>rum</ex></expan> |(milliaria) et I <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>victr</abbr><ex>ix</ex></expan></supplied> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="1" /> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Hadriani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> <lb n="2" />P<supplied reason="lost">arthici <expan><abbr>nep</abbr><ex>os</ex></expan> divi Nervae <expan><abbr>pronep</abbr><ex>os</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan></supplied> <lb n="3" />Hadr<supplied reason="lost">ianus Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="4" /><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>imp</abbr><ex>erator</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5" /><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et pe<supplied reason="lost"><expan><abbr>d</abbr><ex>itibus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>m</abbr><ex>ilitaverunt</ex></expan> in alis V <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>a</abbr><ex>ppellantur</ex></expan> I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>cont</abbr><ex>ariorum</ex></expan> |(milliaria) et</supplied> <lb n="6" />I <expan><abbr>Thra</abbr><ex>acum</ex></expan> <supplied reason="lost"><expan><abbr>victr</abbr><ex>ix</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

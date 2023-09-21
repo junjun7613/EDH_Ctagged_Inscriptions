@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Emerita Augusta &amp;ndash; M&#233;rida (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045504</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045504</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(65)</height><width>(52)</width><depth>(3)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256155">Emerita Augusta</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2513917">M&#233;rida</placeName><placeName type="findspot">Forum, sogenannter Dianatempel</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-12-10" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 0878.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">M</supplied>acer <lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">R</supplied>ufinus <lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">Ma</supplied><expan><abbr>cer</abbr><ex cert="low" /></expan> <lb n="4" /><gap reason="lost" extent="unknown" unit="character" />sus <lb n="5" /><gap reason="lost" extent="unknown" unit="character" />us <lb n="6" /><gap reason="lost" extent="unknown" unit="character" />us <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="7" /><gap reason="lost" extent="unknown" unit="character" />o <lb n="8" /><expan><abbr>M</abbr><ex>arcus</ex></expan> Iuliu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="9" /><expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">Iu</supplied><expan><abbr>lius</abbr><ex cert="low" /></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="3" /><expan><abbr>C</abbr><ex>aius</ex></expan> Umerius <expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="4" /><expan><abbr>M</abbr><ex>arcus</ex></expan> Aemilius <expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character" /> <lb n="5" /><expan><abbr>L</abbr><ex>ucius</ex></expan> Aemilius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="6" /><expan><abbr>L</abbr><ex>ucius</ex></expan> Flavius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> V<gap reason="lost" extent="unknown" unit="character" /> <lb n="7" /><expan><abbr>L</abbr><ex>ucius</ex></expan> Marcius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="8" /><expan><abbr>P</abbr><ex>ublius</ex></expan> Marcius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="9" /><expan><abbr>L</abbr><ex>ucius</ex></expan> Fabius Aspe<supplied reason="lost">ctus</supplied> <lb n="10" /><expan><abbr>M</abbr><ex>arcus</ex></expan> Manilius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character" /> <lb n="11" /><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Satu<gap reason="lost" extent="unknown" unit="character" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Vindelicorum &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058080</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058080</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Fronhofmauer</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(48)</height><width>(49)</width><depth>(45)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1949"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="findspot">{Fronhof 12}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058080_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-14" who="Osnabr&#252;gge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment mit dem linken und unteren Rand des Inschriftfeldes. Buchstabenreste im oberen Teil und zwischen Z. 2 und 3 sprechen f&#252;r sekund&#228;re Verwendung. Statt FA auch PO m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>L. Ohlenroth - F. Wagner, BVBl 18/19, 1951/52, 279, Abb. 29 (Zeichnung).</bibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 228, Nr. 44.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="9c2a8e94-5841-11ee-a9c6-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /></line><line break="no" n="1"><c xml:id="9c2a8ee4-5841-11ee-a9c6-4e7b8ce151d1">S</c><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="9c2a8f7a-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a8f3e-5841-11ee-a9c6-4e7b8ce151d1">x</c></supplied><c xml:id="9c2a8f8e-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="9c2a9038-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="9c2a9024-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a9010-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="9c2a8ffc-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="9c2a8fe8-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="9c2a8fd4-5841-11ee-a9c6-4e7b8ce151d1">m</c><c xml:id="9c2a8fc0-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a8fac-5841-11ee-a9c6-4e7b8ce151d1">n</c><supplied reason="lost"><c xml:id="9c2a90a6-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="9c2a907e-5841-11ee-a9c6-4e7b8ce151d1">o</c></supplied><c xml:id="9c2a90ba-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="9c2a9150-5841-11ee-a9c6-4e7b8ce151d1">h</c><c xml:id="9c2a9128-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a90f6-5841-11ee-a9c6-4e7b8ce151d1">r</c></abbr><ex><c xml:id="9c2a91aa-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a9182-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="9c2a91e6-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="9c2a91d2-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="9c2a91be-5841-11ee-a9c6-4e7b8ce151d1">a</c><supplied reason="lost" cert="low"><c xml:id="9c2a931c-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="9c2a92f4-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="9c2a92cc-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a92a4-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="9c2a927c-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="9c2a924a-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="9c2a9222-5841-11ee-a9c6-4e7b8ce151d1">m</c></supplied><supplied reason="lost"><c xml:id="9c2a943e-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="9c2a9416-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="9c2a93ee-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="9c2a93c6-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="9c2a939e-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="9c2a9376-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="9c2a9344-5841-11ee-a9c6-4e7b8ce151d1">m</c></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

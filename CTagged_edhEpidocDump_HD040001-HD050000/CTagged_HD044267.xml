@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Drobeta &amp;ndash; Drobeta - Turnu Severin (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044267</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044267</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Drobeta - Turnu Severin, Muz. Reg. Por&#355;ilor de Fier</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(140)</height><width>72</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207100">Drobeta</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0171" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 171 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/678817">Drobeta - Turnu Severin</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Mehedin&#539;i</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044267_1" sex="W"><persName ref="http://romans1by1.com/rpeople/7782"><name type="nomen">Iulia</name><name type="cognomen">Philumene</name></persName></person><person xml:id="HD044267_2" sex="M"><persName ref="http://romans1by1.com/rpeople/7783"><name type="cognomen">Philetus</name></persName></person><person xml:id="HD044267_3" sex="M"><persName ref="http://romans1by1.com/rpeople/7784"><name type="nomen">Iulius*</name><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-25" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020531" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2b2d298c-8813-417b-ae74-cfd43df57ba5/file/id/780604/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes eine weibliche B&#252;ste. Hederae. (B): CIL III 6280; IDR II: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. B&#259;rc&#259;cil&#259;, in: L'arch&#233;ologie en Roumanie (Bucarest 1938) 39; pl. 23, 46.</bibl><bibl>CIL 03, 06280. (B)</bibl><bibl>CIL 03, 08020.</bibl><bibl>IDR 2, 055; Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><expan><abbr><c xml:id="200fcaa0-2c3a-11ee-b0b3-4e7b8ce151d0">D</c></abbr><ex><c xml:id="200fcb72-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fcb18-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="200fcb9a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fcbfe-2c3a-11ee-b0b3-4e7b8ce151d0">M</c></abbr><ex><c xml:id="200fcdc0-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="200fcd7a-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fcd2a-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fcce4-2c3a-11ee-b0b3-4e7b8ce151d0">b</c><c xml:id="200fcc9e-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fcc4e-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></ex></expan><c xml:id="200fcde8-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="200fcf28-2c3a-11ee-b0b3-4e7b8ce151d0">I</c><c xml:id="200fcf0a-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fcee2-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="200fcec4-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fcea6-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="200fce7e-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="200fce60-2c3a-11ee-b0b3-4e7b8ce151d0">P</c><c xml:id="200fce38-2c3a-11ee-b0b3-4e7b8ce151d0">h</c><c xml:id="200fce1a-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><lb break="no" n="3" /><c xml:id="200fd04a-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="200fd02c-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fd004-2c3a-11ee-b0b3-4e7b8ce151d0">m</c><c xml:id="200fcfdc-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="200fcfbe-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fcf96-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="200fcf78-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="4" /><expan><abbr><supplied reason="lost"><c xml:id="200fd0cc-2c3a-11ee-b0b3-4e7b8ce151d0">v</c></supplied><c xml:id="200fd112-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fd0f4-2c3a-11ee-b0b3-4e7b8ce151d0">x</c></abbr><ex><c xml:id="200fd1b2-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fd16c-2c3a-11ee-b0b3-4e7b8ce151d0">t</c></ex></expan><c xml:id="200fd2c0-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="200fd298-2c3a-11ee-b0b3-4e7b8ce151d0">a</c><c xml:id="200fd270-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fd248-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fd22a-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fd202-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="200fd1da-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="5" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="200fd388-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="200fd360-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="200fd338-2c3a-11ee-b0b3-4e7b8ce151d0">X</c><c xml:id="200fd310-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fd3f6-2c3a-11ee-b0b3-4e7b8ce151d0">h</c></abbr><ex><c xml:id="200fd48c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fd446-2c3a-11ee-b0b3-4e7b8ce151d0">c</c></ex></expan><c xml:id="200fd4b4-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fd518-2c3a-11ee-b0b3-4e7b8ce151d0">s</c></abbr><ex><c xml:id="200fd5f4-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fd5ae-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="200fd568-2c3a-11ee-b0b3-4e7b8ce151d0">a</c></ex></expan><c xml:id="200fd61c-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fd676-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></abbr><ex><c xml:id="200fd716-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="200fd6c6-2c3a-11ee-b0b3-4e7b8ce151d0">t</c></ex></expan><c xml:id="200fd806-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="200fd7de-2c3a-11ee-b0b3-4e7b8ce151d0">P</c><c xml:id="200fd7b6-2c3a-11ee-b0b3-4e7b8ce151d0">h</c><c xml:id="200fd78e-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fd75c-2c3a-11ee-b0b3-4e7b8ce151d0">l</c><c xml:id="200fd734-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><lb break="no" n="6" /><c xml:id="200fd8d8-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="200fd8a6-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fd87e-2c3a-11ee-b0b3-4e7b8ce151d0">s</c><c xml:id="200fd84c-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fd9dc-2c3a-11ee-b0b3-4e7b8ce151d0">I</c><c xml:id="200fd98c-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fd946-2c3a-11ee-b0b3-4e7b8ce151d0">l</c></abbr><ex><c xml:id="200fda2c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c></ex></expan><c xml:id="200fdb94-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><c xml:id="200fdb62-2c3a-11ee-b0b3-4e7b8ce151d0">R</c><c xml:id="200fdb30-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fdb08-2c3a-11ee-b0b3-4e7b8ce151d0">f</c><c xml:id="200fdad6-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fdaae-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fda7c-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fda54-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="7" /><expan><abbr><supplied reason="lost"><c xml:id="200fdc66-2c3a-11ee-b0b3-4e7b8ce151d0">c</c><c xml:id="200fdc16-2c3a-11ee-b0b3-4e7b8ce151d0">o</c></supplied><c xml:id="200fdcde-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fdcc0-2c3a-11ee-b0b3-4e7b8ce151d0">i</c><c xml:id="200fdca2-2c3a-11ee-b0b3-4e7b8ce151d0">u</c><c xml:id="200fdc84-2c3a-11ee-b0b3-4e7b8ce151d0">g</c></abbr><ex><c xml:id="200fdd42-2c3a-11ee-b0b3-4e7b8ce151d0">i</c></ex></expan><c xml:id="200fdd6a-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fddce-2c3a-11ee-b0b3-4e7b8ce151d0">b</c></abbr><ex><c xml:id="200fdeb4-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="200fde6e-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fde1e-2c3a-11ee-b0b3-4e7b8ce151d0">e</c></ex></expan><c xml:id="200fded2-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><expan><abbr><c xml:id="200fdf40-2c3a-11ee-b0b3-4e7b8ce151d0">m</c></abbr><ex><c xml:id="200fe0f8-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="200fe0a8-2c3a-11ee-b0b3-4e7b8ce151d0">r</c><c xml:id="200fe062-2c3a-11ee-b0b3-4e7b8ce151d0">e</c><c xml:id="200fe01c-2c3a-11ee-b0b3-4e7b8ce151d0">n</c><c xml:id="200fdfd6-2c3a-11ee-b0b3-4e7b8ce151d0">t</c><c xml:id="200fdf90-2c3a-11ee-b0b3-4e7b8ce151d0">i</c></ex></expan><c xml:id="200fe116-2c3a-11ee-b0b3-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

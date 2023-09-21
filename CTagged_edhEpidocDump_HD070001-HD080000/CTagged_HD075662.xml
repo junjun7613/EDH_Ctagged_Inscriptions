@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Oberstaufenbach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075662</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075662</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz, Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(37)</height><width>75</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2858965">Oberstaufenbach</placeName><placeName type="findspot">Burgruine {Heidenburg}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075662_1" sex="W"><persName><name type="nomen">Axsinia</name><name type="cognomen">Ammula</name></persName></person><person xml:id="HD075662_2" sex="M"><persName><name type="cognomen">Mariniano</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039560" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2ae003a3-031f-44e7-a30c-c98325ed875a/file/id/800439/file_version/name/small" /><graphic xml:id="F039561" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/245690eb-ba96-4107-88a6-ec61186ee60a/file/id/800440/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bruchst&#252;ck einer Stele mit dem bogenf&#246;rmigen Abschluss des Inschriftfeldes, oben und unten abgebrochen. Oben noch der untere Ansatz des M in Z. 1 erkennbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06184.</bibl><bibl>F.J. Hildenbrand, Der r&#246;mische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 33, Nr. 66.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (K&#246;ln 1998) 154, Nr. 197.</bibl><bibl>S. Ditsch, Dis Manibus. Die r&#246;mischen Grabdenkm&#228;ler aus der Pfalz (Neustadt/Weinstra&#223;e 2011) 153, Nr. Oberstaufenbach 13; Taf. 43, 1 u. 2 (Foto u. Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><supplied reason="lost"><expan><abbr><c xml:id="ae753c8a-2c3a-11ee-96ce-4e7b8ce151d0">D</c></abbr><ex><c xml:id="ae753d5c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae753d0c-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan></supplied><c xml:id="ae753d8e-2c3a-11ee-96ce-4e7b8ce151d0"> </c><expan><abbr><c xml:id="ae753dfc-2c3a-11ee-96ce-4e7b8ce151d0">M</c></abbr><ex><c xml:id="ae753fd2-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="ae753f82-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="ae753f3c-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae753eec-2c3a-11ee-96ce-4e7b8ce151d0">b</c><c xml:id="ae753e9c-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="ae753e56-2c3a-11ee-96ce-4e7b8ce151d0">s</c></ex></expan><c xml:id="ae753ffa-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="ae754130-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="ae754112-2c3a-11ee-96ce-4e7b8ce151d0">x</c><c xml:id="ae7540f4-2c3a-11ee-96ce-4e7b8ce151d0">s</c><c xml:id="ae7540d6-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae7540ae-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="ae754090-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae754068-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="ae75404a-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="ae754022-2c3a-11ee-96ce-4e7b8ce151d0">m</c><lb break="no" n="3" /><c xml:id="ae75431a-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="ae7542f2-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="ae7542d4-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="ae7542b6-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="ae75428e-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="ae754266-2c3a-11ee-96ce-4e7b8ce151d0">c</c><c xml:id="ae754248-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="ae75422a-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="ae754202-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae7541e4-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="ae7541bc-2c3a-11ee-96ce-4e7b8ce151d0">g</c><c xml:id="ae75419e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae754180-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="4" /><c xml:id="ae754536-2c3a-11ee-96ce-4e7b8ce151d0">M</c><c xml:id="ae75450e-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="ae7544e6-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="ae7544c8-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae7544a0-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="ae754478-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="ae754450-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="ae754432-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="ae75440a-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="ae7543e2-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="ae7543ba-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="ae75439c-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="ae754374-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="5" /><supplied reason="lost"><expan><abbr><c xml:id="ae7545cc-2c3a-11ee-96ce-4e7b8ce151d0">s</c></abbr><ex><c xml:id="ae754676-2c3a-11ee-96ce-4e7b8ce151d0">u</c><c xml:id="ae754626-2c3a-11ee-96ce-4e7b8ce151d0">o</c></ex></expan><c xml:id="ae7546bc-2c3a-11ee-96ce-4e7b8ce151d0">?</c><c xml:id="ae754694-2c3a-11ee-96ce-4e7b8ce151d0"> </c><gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="ae7546e4-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081786</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081786</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1835"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">Stadtmauer, {Place Jean Duvet 8}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081786_1" sex="M"><persName><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD081786_2" sex="M"><persName><name type="cognomen">O[---]tus</name></persName></person><person xml:id="HD081786_3" sex="M"><persName><name type="cognomen">[---]onus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-04" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei Lesungen &#252;berliefert. Alternative Lesung nach CIL: ---]NVS / [---]O SIB E[---] / [---]ON[---] / [---]F[---]PO[---.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05892.</bibl><bibl>M. Joly, Langres, Carte arch&#233;ologique de la Gaule 52, 2 (Paris 2001) 52.</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons (Paris 2003) 326, Nr. 596.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="67c68ba6-5843-11ee-9558-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="67c68c64-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="67c68c50-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="67c68c32-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="67c68c1e-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67c68c0a-5843-11ee-9558-4e7b8ce151d1">M</c><c xml:id="67c68bec-5843-11ee-9558-4e7b8ce151d1">V</c></line><line break="no" n="1"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="67c68d86-5843-11ee-9558-4e7b8ce151d1">A</c><c xml:id="67c68d72-5843-11ee-9558-4e7b8ce151d1">R</c><c xml:id="67c68d5e-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67c68d40-5843-11ee-9558-4e7b8ce151d1">s</c><c xml:id="67c68d2c-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67c68d18-5843-11ee-9558-4e7b8ce151d1">b</c><c xml:id="67c68d04-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67c68ce6-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67c68cd2-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="67c68cbe-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67c68caa-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67c68c8c-5843-11ee-9558-4e7b8ce151d1">O</c></line><line break="no" n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="67c68df4-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="67c68de0-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67c68dc2-5843-11ee-9558-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="67c68e6c-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="67c68e4e-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="67c68e3a-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67c68e1c-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="67c68ec6-5843-11ee-9558-4e7b8ce151d1">f</c></abbr><ex cert="low"><c xml:id="67c68fa2-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67c68f70-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="67c68f3e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="67c68f0c-5843-11ee-9558-4e7b8ce151d1">o</c></ex></expan><c xml:id="67c68fc0-5843-11ee-9558-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="67c6902e-5843-11ee-9558-4e7b8ce151d1">A</c><c xml:id="67c69010-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="67c68ffc-5843-11ee-9558-4e7b8ce151d1">P</c><c xml:id="67c68fde-5843-11ee-9558-4e7b8ce151d1">O</c><gap reason="lost" quantity="1" unit="line" /></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

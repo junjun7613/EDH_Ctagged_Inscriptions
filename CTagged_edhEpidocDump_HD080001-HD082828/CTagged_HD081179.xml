@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Divio (Civitas Lingonum) &amp;ndash; Dijon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081179</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081179</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>68</height><width>(43)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1852"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="findspot">{Tour de Bar}, bei, Lager, sp&#228;tantike Stadtmauer, sekund&#228;r verwendet</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081179_1" sex="M"><persName><name type="cognomen">Regalis</name></persName></person><person xml:id="HD081179_2" sex="M"><persName><name type="cognomen">Silvinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031544" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ff26ecb1-a91e-4961-9679-84571c6322b5/file/id/792307/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Auf der Oberseite noch kreisf&#246;rmige Vertiefung zu erkennen, stark besto&#223;en. Beachtung verdient die Positionierung des Namenformulars. M&#246;glicherweise wurde Regalis gezielt vom Familiengrab ausgeschlossen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05554.</bibl><bibl>I. Mednikarova, ZPE 143, 2003, 131.</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons (Paris 2003) 102-103, Nr. 139; Abb. 59. (B)</bibl><bibl>M. Provost - D. P&#233;richon, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or d'Allerey &#224; Normier, Carte arch&#233;ologique de la Gaule 21, 2 (Paris 2009) 265. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="664fe7b8-5843-11ee-9558-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="664fe876-5843-11ee-9558-4e7b8ce151d1">D</c></abbr><ex><c xml:id="664fe90c-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="664fe8c6-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="664fe92a-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="664fe97a-5843-11ee-9558-4e7b8ce151d1">M</c></abbr><ex><c xml:id="664feace-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="664fea92-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="664fea56-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="664fea24-5843-11ee-9558-4e7b8ce151d1">b</c><c xml:id="664fe9e8-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664fe9b6-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="664feae2-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="664feb28-5843-11ee-9558-4e7b8ce151d1">h</c></abbr><ex><c xml:id="664feba0-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="664feb64-5843-11ee-9558-4e7b8ce151d1">c</c></ex></expan><c xml:id="664febbe-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="664febfa-5843-11ee-9558-4e7b8ce151d1">m</c></abbr><ex><c xml:id="664fede4-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="664fedb2-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="664fed80-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664fed44-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="664fed08-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="664fecd6-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="664feca4-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="664fec68-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664fec36-5843-11ee-9558-4e7b8ce151d1">m</c></ex></expan><c xml:id="664fee02-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="664fee20-5843-11ee-9558-4e7b8ce151d1">s</c><expan><ex><c xml:id="664fee66-5843-11ee-9558-4e7b8ce151d1">i</c></ex><abbr><c xml:id="664feea2-5843-11ee-9558-4e7b8ce151d1">v</c></abbr><ex><c xml:id="664feede-5843-11ee-9558-4e7b8ce151d1">e</c></ex></expan><c xml:id="664feefc-5843-11ee-9558-4e7b8ce151d1"> </c><expan><abbr><c xml:id="664fef42-5843-11ee-9558-4e7b8ce151d1">l</c></abbr><ex><c xml:id="664ff014-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="664fefe2-5843-11ee-9558-4e7b8ce151d1">c</c><c xml:id="664fefb0-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664fef74-5843-11ee-9558-4e7b8ce151d1">s</c></ex></expan><c xml:id="664ff032-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="664ff10e-5843-11ee-9558-4e7b8ce151d1">R</c><c xml:id="664ff0f0-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="664ff0d2-5843-11ee-9558-4e7b8ce151d1">g</c><c xml:id="664ff0be-5843-11ee-9558-4e7b8ce151d1">a</c><c xml:id="664ff0a0-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="664ff08c-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="664ff06e-5843-11ee-9558-4e7b8ce151d1">m</c><c xml:id="664ff050-5843-11ee-9558-4e7b8ce151d1"> </c><note>sic</note><c xml:id="664ff37a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="664ff35c-5843-11ee-9558-4e7b8ce151d1">S</c><c xml:id="664ff33e-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="664ff32a-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="664ff30c-5843-11ee-9558-4e7b8ce151d1">v</c><c xml:id="664ff2ee-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="664ff2da-5843-11ee-9558-4e7b8ce151d1">n</c><c xml:id="664ff2bc-5843-11ee-9558-4e7b8ce151d1">&amp;</c><c xml:id="664ff29e-5843-11ee-9558-4e7b8ce151d1">l</c><c xml:id="664ff28a-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="664ff26c-5843-11ee-9558-4e7b8ce151d1">;</c><c xml:id="664ff258-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="664ff23a-5843-11ee-9558-4e7b8ce151d1">=</c><c xml:id="664ff21c-5843-11ee-9558-4e7b8ce151d1">T</c><c xml:id="664ff208-5843-11ee-9558-4e7b8ce151d1">&amp;</c><c xml:id="664ff1ea-5843-11ee-9558-4e7b8ce151d1">g</c><c xml:id="664ff1cc-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="664ff1b8-5843-11ee-9558-4e7b8ce151d1">;</c><c xml:id="664ff19a-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="664ff17c-5843-11ee-9558-4e7b8ce151d1">f</c><c xml:id="664ff168-5843-11ee-9558-4e7b8ce151d1">i</c><c xml:id="664ff14a-5843-11ee-9558-4e7b8ce151d1">l</c><expan><ex><c xml:id="664ff3fc-5843-11ee-9558-4e7b8ce151d1">i</c></ex><abbr><c xml:id="664ff474-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664ff438-5843-11ee-9558-4e7b8ce151d1">s</c></abbr></expan><c xml:id="664ff492-5843-11ee-9558-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="664ff4e2-5843-11ee-9558-4e7b8ce151d1">n</c></abbr><ex><c xml:id="664ff550-5843-11ee-9558-4e7b8ce151d1">o</c><c xml:id="664ff514-5843-11ee-9558-4e7b8ce151d1">n</c></ex></expan><c xml:id="664ff58c-5843-11ee-9558-4e7b8ce151d1"> </c><c xml:id="664ff564-5843-11ee-9558-4e7b8ce151d1">s</c><expan><ex><c xml:id="664ff5d2-5843-11ee-9558-4e7b8ce151d1">e</c></ex><abbr><c xml:id="664ff60e-5843-11ee-9558-4e7b8ce151d1">q</c></abbr><ex><c xml:id="664ff71c-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664ff6ea-5843-11ee-9558-4e7b8ce151d1">e</c><c xml:id="664ff6b8-5843-11ee-9558-4e7b8ce151d1">t</c><c xml:id="664ff67c-5843-11ee-9558-4e7b8ce151d1">u</c><c xml:id="664ff64a-5843-11ee-9558-4e7b8ce151d1">r</c></ex></expan><c xml:id="664ff73a-5843-11ee-9558-4e7b8ce151d1"> </c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

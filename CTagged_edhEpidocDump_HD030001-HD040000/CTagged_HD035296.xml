@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Solentia, insula &amp;ndash; &#352;olta (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035296</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035296</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(41)</height><width>34</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197418">Solentia, insula</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1914"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199531">&#352;olta</placeName><placeName type="findspot">Grohote, {S. Stjepan, Kirche}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035296_1" sex="W"><persName><name type="nomen">Curtia</name><name type="cognomen">Gemelia</name></persName></person><person xml:id="HD035296_2" sex="M"><persName><name type="cognomen">Ursio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-11" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Nach F. Buli&#263; (BAHD 43, 1920, 112; vgl. ILJug) mit CIL III 3110 zu identifizieren.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2937.</bibl><bibl>CIL 03, 03110.</bibl><bibl>G. Alf&#246;ldy, Die Personennamen in der r&#246;mischen Provinz Dalmatia (Heidelberg 1969) 210.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><c xml:id="d42ff92a-2c39-11ee-a36e-4e7b8ce151d0">C</c><c xml:id="d42ff90c-2c39-11ee-a36e-4e7b8ce151d0">u</c><c xml:id="d42ff8e4-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d42ff8c6-2c39-11ee-a36e-4e7b8ce151d0">t</c><c xml:id="d42ff89e-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d42ff86c-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d42ff7f4-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="2" /><c xml:id="d42ffa74-2c39-11ee-a36e-4e7b8ce151d0">G</c><c xml:id="d42ffa4c-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d42ffa2e-2c39-11ee-a36e-4e7b8ce151d0">m</c><c xml:id="d42ffa10-2c39-11ee-a36e-4e7b8ce151d0">e</c><c xml:id="d42ff9e8-2c39-11ee-a36e-4e7b8ce151d0">l</c><c xml:id="d42ff9ca-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d42ff9a2-2c39-11ee-a36e-4e7b8ce151d0">a</c><c xml:id="d42ff97a-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="3" /><c xml:id="d42ffbbe-2c39-11ee-a36e-4e7b8ce151d0">U</c><c xml:id="d42ffba0-2c39-11ee-a36e-4e7b8ce151d0">r</c><c xml:id="d42ffb78-2c39-11ee-a36e-4e7b8ce151d0">s</c><c xml:id="d42ffb50-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d42ffb32-2c39-11ee-a36e-4e7b8ce151d0">o</c><c xml:id="d42ffb0a-2c39-11ee-a36e-4e7b8ce151d0">n</c><c xml:id="d42ffae2-2c39-11ee-a36e-4e7b8ce151d0">i</c><c xml:id="d42ffaba-2c39-11ee-a36e-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="d42ffc0e-2c39-11ee-a36e-4e7b8ce151d0"> </c><expan><abbr><c xml:id="d42ffe02-2c39-11ee-a36e-4e7b8ce151d0">N</c><c xml:id="d42ffdb2-2c39-11ee-a36e-4e7b8ce151d0">V</c><c xml:id="d42ffd58-2c39-11ee-a36e-4e7b8ce151d0">T</c><c xml:id="d42ffcfe-2c39-11ee-a36e-4e7b8ce151d0">R</c><c xml:id="d42ffca4-2c39-11ee-a36e-4e7b8ce151d0">I</c></abbr><ex cert="low" /></expan><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

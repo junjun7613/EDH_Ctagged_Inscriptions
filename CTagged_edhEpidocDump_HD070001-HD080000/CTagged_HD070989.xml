@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Magnae &amp;ndash; Carvoran (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Blenkinsopp Castle, sekund&#228;r verwendet</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>86</height><width>(38)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89238">Magnae</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1880"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Carvoran</placeName><placeName type="findspot">{Blenkinsopp Castle}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070989_1" sex="W"><persName><name type="cognomen">Lifana</name></persName></person><person xml:id="HD070989_2" sex="M"><persName><name type="cognomen">B[---]cus</name></persName></person><person xml:id="HD070989_3" sex="M"><persName><name type="nomen">Lucius*</name><name type="cognomen">Senovalus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-27" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 1830.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 328 n. 1061. (B)</bibl><bibl>RIB 1830; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0fcbca2e-5843-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="0fcbcae2-5843-11ee-8920-4e7b8ce151d1">D</c></abbr><ex><c xml:id="0fcbcb5a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbcb28-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0fcbcb78-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0fcbcbb4-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="0fcbccd6-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0fcbcca4-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0fcbcc7c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbcc4a-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="0fcbcc22-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbcbf0-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0fcbccea-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="0fcbcd9e-5843-11ee-8920-4e7b8ce151d1">L</c><c xml:id="0fcbcd8a-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbcd76-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="0fcbcd58-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0fcbcd44-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0fcbcd30-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0fcbcd1c-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0fcbcd08-5843-11ee-8920-4e7b8ce151d1">B</c><gap reason="lost" extent="unknown" unit="character" /></line><line break="no" n="3"><c xml:id="0fcbce84-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0fcbce70-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbce5c-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0fcbce48-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="0fcbce34-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbce20-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="0fcbce0c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbcdee-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0fcbcdda-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0fcbcdc6-5843-11ee-8920-4e7b8ce151d1">v</c><supplied reason="lost"><c xml:id="0fcbcf10-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbcede-5843-11ee-8920-4e7b8ce151d1">x</c></supplied></line><line break="no" n="4"><c xml:id="0fcbcf56-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbcf42-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0fcbcf2e-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0fcbcf9c-5843-11ee-8920-4e7b8ce151d1">n</c><am>n</am></abbr><ex><c xml:id="0fcbcff6-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0fcbcfce-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0fcbd00a-5843-11ee-8920-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="0fcbd032-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="0fcbd06e-5843-11ee-8920-4e7b8ce151d1">L</c></abbr><ex><c xml:id="0fcbd14a-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbd122-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0fcbd0f0-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbd0c8-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbd096-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0fcbd1c2-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0fcbd1ae-5843-11ee-8920-4e7b8ce151d1">S</c><c xml:id="0fcbd190-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="0fcbd17c-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0fcbd15e-5843-11ee-8920-4e7b8ce151d1">o</c><supplied reason="lost"><c xml:id="0fcbd23a-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="0fcbd208-5843-11ee-8920-4e7b8ce151d1">a</c></supplied></line><line break="no" n="6"><c xml:id="0fcbd2c6-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="0fcbd2b2-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbd294-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="0fcbd280-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0fcbd262-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0fcbd24e-5843-11ee-8920-4e7b8ce151d1">v</c><supplied reason="lost"><c xml:id="0fcbd33e-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbd30c-5843-11ee-8920-4e7b8ce151d1">n</c></supplied><c xml:id="0fcbd3d4-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0fcbd3b6-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbd3a2-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="0fcbd384-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0fcbd366-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="0fcbd352-5843-11ee-8920-4e7b8ce151d1"> </c><supplied reason="lost"><c xml:id="0fcbd442-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="0fcbd41a-5843-11ee-8920-4e7b8ce151d1">e</c></supplied></line><line break="no" n="7"><c xml:id="0fcbd492-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0fcbd474-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0fcbd456-5843-11ee-8920-4e7b8ce151d1">t</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

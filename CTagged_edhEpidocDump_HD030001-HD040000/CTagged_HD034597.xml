@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Curicum, bei &amp;ndash; Ba&#353;ka (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034597</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034597</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ba&#353;ka, Jurandvor, S. Lucia, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(34)</height><width>136</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197235">Curicum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198557">Ba&#353;ka</placeName><placeName type="findspot">Jurandvor, {S. Lucija, Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">Primorsko-goranska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034597_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Kapius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD034597_2" sex="W"><persName><name type="nomen">Kapia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD034597_3" sex="W"><persName><name type="nomen">Kapia</name><name type="cognomen">Maxima</name></persName></person><person xml:id="HD034597_4" sex="W"><persName><name type="nomen">Kapia</name><name type="cognomen">Postuma</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-20" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Namen der Verstorbenen sind in Kolumnen angeordnet; die letzte erhaltene Zeile lief offenbar durchgehend unter den Kolumnen hinweg. (B): CIL III 3133. 13293. 3133 add. p. 2328; Nowotny - P. Sticotti: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0943.</bibl><bibl>CIL 03, 03133. (B)</bibl><bibl>CIL 03, 03133 add. p. 2328, 176. (B)</bibl><bibl>CIL 03, 13293a. (B)</bibl><bibl>E. Nowotny - P. Sticotti, AEM 19, 1896, 165. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>Q</abbr><ex>uinto</ex></expan> Kapio <lb n="2" />Maximo </div><div n="2" type="textpart"><lb n="1" /> Kapiae <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="3" type="textpart"><lb n="1" /> Kapiae <lb n="2" />Maximae </div><div n="4" type="textpart"><lb n="1" /> Kapiae <lb n="2" />Postumae </div><div n="5" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" /> et <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

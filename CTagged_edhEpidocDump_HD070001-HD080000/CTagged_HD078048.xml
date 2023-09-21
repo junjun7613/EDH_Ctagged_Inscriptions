@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078048</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078048</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wiesbaden, Mus. Wiesbaden</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>51</height><width>111</width><depth>52</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1837"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2944180">Mainz</placeName><placeName type="findspot">{Bretzenheim} - {Marienborn}, zwischen</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078048_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Maximius</name><name type="cognomen">Victor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-11" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die lateinische Inschrift befindet sich auf dem Sarkophagkasten; f&#252;r den Deckel des Sarkophags wurde eine Tafel mit einer &#228;lteren griechischen Inschrift wiederverwendet und die griechische Inschrift eradiert. Ma&#223;angaben beziehen sich auf den Kasten; Ma&#223;e des Deckels: 13 x 123 x 68 cm. (B): CIL 13, 07239: Z. 4 (Ende): XV h(oram) I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07239. (B)</bibl><bibl>K. K&#246;rber, MZ 7, 1912, 18-19, Nr. 34; Zeichnungen.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>M</abbr><ex>arci</ex></expan> Maximi Victoris <lb n="2" />iunioris <lb n="3" />infantis dulcissimi <lb n="4" />qui vixit <expan><abbr>an</abbr><ex>num</ex></expan> I <expan><abbr>m</abbr><ex>enses</ex></expan> II <expan><abbr>d</abbr><ex>ies</ex></expan> XVIII <lb n="5" />pater et mater <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan> </div><div n="2" type="textpart"><lb n="1" /> <gap reason="lost" extent="unknown" unit="character" />&#921;<supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied>&#923;&#932;&#927;&#923;&#913;<certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />&#921;&#934;&#937; &#913;&#8016;&#947;&#965;&#963;&#964;&#953; <lb n="3" /><gap reason="lost" extent="unknown" unit="character" />&#935;<certainty match="preceding-sibling::node()" locus="value" />&#913;<certainty match="preceding-sibling::node()" locus="value" />&#933;<certainty match="preceding-sibling::node()" locus="value" />&#913;<certainty match="preceding-sibling::node()" locus="value" /> &#947;&#955;&#965;&#954;&#250;&#964;&#945;<lb break="no" n="4" /><supplied reason="lost">&#964;&#959;&#962;<certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied>&#935;<certainty match="preceding-sibling::node()" locus="value" />&#937; &#917;<gap reason="lost" extent="unknown" unit="character" /> <lb n="5" /><gap reason="lost" extent="unknown" unit="character" />&#931;<certainty match="preceding-sibling::node()" locus="value" />&#949;&#8016;&#963;&#949;<lb break="no" n="6" /><supplied reason="lost" cert="low">&#946;---</supplied>&#913;<certainty match="preceding-sibling::node()" locus="value" />&#931;<certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" />&#921;<certainty match="preceding-sibling::node()" locus="value" />&#921;<certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap> <lb n="7" />&#921;<certainty match="preceding-sibling::node()" locus="value" />&#921;<certainty match="preceding-sibling::node()" locus="value" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied>&#921;<certainty match="preceding-sibling::node()" locus="value" />&#913;<certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap> <lb n="8" /><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied>&#925;<certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

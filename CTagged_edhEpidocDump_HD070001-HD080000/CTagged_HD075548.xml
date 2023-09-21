@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075548</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075548</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regensburg, Hist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>44</height><width>40</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118791">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/8378694">Regensburg</placeName><placeName type="findspot">Kumpfm&#252;hler Stra&#223;e, {Altenpflegeheim}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075548_1" sex="M"><persName><name type="nomen">Septimius*</name><name type="cognomen">Victorinus</name></persName></person><person xml:id="HD075548_2" sex="W"><persName><name type="nomen">Acilia*</name><name type="cognomen">Faustina</name></persName></person><person xml:id="HD075548_3" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Maternina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-06" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017930" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6acc42f5-5271-481c-9188-9158da2711be/file/id/777541/file_version/name/small" /><graphic xml:id="F035344" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c44b148b-9f98-4aab-8243-2bb4f9eff1ff/file/id/796193/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Hedera in Z. 1. Z. 2: O klein am Zeilenende. Buchstaben modern rot ausgemalt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>I.G. Farkas, The Dislocation of the Roman Army in Raetia (Oxford 2015) 310, Nr. A.1 - 3.38.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="0b947a1e-5843-11ee-8920-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="0b947a8c-5843-11ee-8920-4e7b8ce151d1">D</c></abbr><ex><c xml:id="0b947b04-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947ad2-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b947b18-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b947b54-5843-11ee-8920-4e7b8ce151d1">M</c></abbr><ex><c xml:id="0b947c62-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b947c3a-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b947c08-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947be0-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="0b947bae-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b947b86-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b947c76-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="0b947d0c-5843-11ee-8920-4e7b8ce151d1">S</c><c xml:id="0b947ce4-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="0b947cb2-5843-11ee-8920-4e7b8ce151d1">p</c></abbr><ex><c xml:id="0b947df2-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b947dca-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947d98-5843-11ee-8920-4e7b8ce151d1">m</c><c xml:id="0b947d70-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947d3e-5843-11ee-8920-4e7b8ce151d1">o</c></ex></expan><c xml:id="0b947ece-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0b947eba-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="0b947ea6-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947e92-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0b947e7e-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b947e6a-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0b947e56-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b947e42-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947e2e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b947e1a-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0b947e06-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="0b947fbe-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="0b947faa-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b947f96-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="0b947f82-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="0b947f6e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b947f5a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b947f46-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b947f32-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b947f14-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="0b947f00-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b9480c2-5843-11ee-8920-4e7b8ce151d1">p</c><c xml:id="0b94809a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b948068-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0b948040-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0b94800e-5843-11ee-8920-4e7b8ce151d1">u</c></abbr><ex><c xml:id="0b94822a-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b9481f8-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b9481d0-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b9481a8-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b948176-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b94814e-5843-11ee-8920-4e7b8ce151d1">b</c><c xml:id="0b94811c-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b9480f4-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b94823e-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="0b948270-5843-11ee-8920-4e7b8ce151d1">A</c><c xml:id="0b94825c-5843-11ee-8920-4e7b8ce151d1">c</c><expan><ex><c xml:id="0b9482ac-5843-11ee-8920-4e7b8ce151d1">i</c></ex><abbr><c xml:id="0b9482de-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="0b948342-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b948310-5843-11ee-8920-4e7b8ce151d1">a</c></ex></expan><c xml:id="0b94841e-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0b94840a-5843-11ee-8920-4e7b8ce151d1">F</c><c xml:id="0b9483f6-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b9483e2-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b9483c4-5843-11ee-8920-4e7b8ce151d1">s</c><c xml:id="0b9483b0-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b94839c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b94837e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b94836a-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b948356-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="0b948554-5843-11ee-8920-4e7b8ce151d1">c</c><c xml:id="0b948522-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0b9484fa-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b9484d2-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b9484a0-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b948478-5843-11ee-8920-4e7b8ce151d1">g</c></abbr><ex><c xml:id="0b948586-5843-11ee-8920-4e7b8ce151d1">e</c></ex></expan><c xml:id="0b9485ea-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0b9485cc-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="0b9485ae-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b94859a-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="6"><expan><abbr><c xml:id="0b948658-5843-11ee-8920-4e7b8ce151d1">C</c><c xml:id="0b948630-5843-11ee-8920-4e7b8ce151d1">l</c></abbr><ex><c xml:id="0b94873e-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b94870c-5843-11ee-8920-4e7b8ce151d1">u</c><c xml:id="0b9486e4-5843-11ee-8920-4e7b8ce151d1">d</c><c xml:id="0b9486bc-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b94868a-5843-11ee-8920-4e7b8ce151d1">a</c></ex></expan><c xml:id="0b948856-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0b948838-5843-11ee-8920-4e7b8ce151d1">M</c><c xml:id="0b948824-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b948806-5843-11ee-8920-4e7b8ce151d1">t</c><c xml:id="0b9487f2-5843-11ee-8920-4e7b8ce151d1">e</c><c xml:id="0b9487d4-5843-11ee-8920-4e7b8ce151d1">r</c><c xml:id="0b9487c0-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b9487a2-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b94878e-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b948770-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b948752-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="7"><c xml:id="0b948914-5843-11ee-8920-4e7b8ce151d1">f</c><c xml:id="0b948900-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b9488e2-5843-11ee-8920-4e7b8ce151d1">l</c><c xml:id="0b9488c4-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b9488a6-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b948888-5843-11ee-8920-4e7b8ce151d1"> </c></line><line n="8"><expan><abbr><c xml:id="0b9489be-5843-11ee-8920-4e7b8ce151d1">v</c><c xml:id="0b94898c-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b948964-5843-11ee-8920-4e7b8ce151d1">x</c></abbr><ex><c xml:id="0b948a18-5843-11ee-8920-4e7b8ce151d1">i</c><c xml:id="0b9489f0-5843-11ee-8920-4e7b8ce151d1">t</c></ex></expan><c xml:id="0b948a2c-5843-11ee-8920-4e7b8ce151d1"> </c><expan><abbr><c xml:id="0b948a9a-5843-11ee-8920-4e7b8ce151d1">a</c><c xml:id="0b948a68-5843-11ee-8920-4e7b8ce151d1">n</c></abbr><ex><c xml:id="0b948b1c-5843-11ee-8920-4e7b8ce151d1">n</c><c xml:id="0b948af4-5843-11ee-8920-4e7b8ce151d1">o</c><c xml:id="0b948ac2-5843-11ee-8920-4e7b8ce151d1">s</c></ex></expan><c xml:id="0b948bda-5843-11ee-8920-4e7b8ce151d1"> </c><c xml:id="0b948bc6-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="0b948ba8-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="0b948b8a-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="0b948b6c-5843-11ee-8920-4e7b8ce151d1">X</c><c xml:id="0b948b4e-5843-11ee-8920-4e7b8ce151d1">V</c><c xml:id="0b948b30-5843-11ee-8920-4e7b8ce151d1">I</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

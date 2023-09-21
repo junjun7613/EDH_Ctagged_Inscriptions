@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Edeta sive Liria, bei &amp;ndash; Villar del Arzobispo (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024680</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024680</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Villar del Arzobispo, Pal. Arzobispal, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(26)</height><width>(36)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266095">Edeta sive Liria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2509520">Villar del Arzobispo</placeName><placeName type="findspot">Ca&#241;adas</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024680_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]anus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-12-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bei der verstorbenen Person k&#246;nnte es sich auch um eine Frau handeln; dementsprechend w&#252;rde die Erg&#228;nzung bzw. Aufl&#246;sung folgenderma&#223;en lauten: Z. 1: [---]an[a]; Z. 2: s(ita). Autopsie G. Alf&#246;ldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00221.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="0"><c xml:id="9ae721f8-583e-11ee-8b4f-4e7b8ce151d1">
+</c><gap reason="lost" quantity="1" unit="line" /><c xml:id="9ae72248-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="1"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="9ae72284-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="9ae72270-583e-11ee-8b4f-4e7b8ce151d1">n</c><supplied reason="lost" cert="low"><c xml:id="9ae72306-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="9ae722d4-583e-11ee-8b4f-4e7b8ce151d1">s</c></supplied><c xml:id="9ae7231a-583e-11ee-8b4f-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost"><expan><abbr><c xml:id="9ae7237e-583e-11ee-8b4f-4e7b8ce151d1">a</c><c xml:id="9ae72356-583e-11ee-8b4f-4e7b8ce151d1">n</c></abbr><ex><c xml:id="9ae7246e-583e-11ee-8b4f-4e7b8ce151d1">n</c><c xml:id="9ae7243c-583e-11ee-8b4f-4e7b8ce151d1">o</c><c xml:id="9ae72400-583e-11ee-8b4f-4e7b8ce151d1">r</c><c xml:id="9ae723d8-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="9ae723b0-583e-11ee-8b4f-4e7b8ce151d1">m</c></ex></expan><c xml:id="9ae72496-583e-11ee-8b4f-4e7b8ce151d1">?</c><c xml:id="9ae72482-583e-11ee-8b4f-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="9ae724c8-583e-11ee-8b4f-4e7b8ce151d1">X</c><c xml:id="9ae724b4-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9ae72504-583e-11ee-8b4f-4e7b8ce151d1">h</c></abbr><ex><c xml:id="9ae72554-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="9ae7252c-583e-11ee-8b4f-4e7b8ce151d1">c</c></ex></expan><c xml:id="9ae72568-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9ae725a4-583e-11ee-8b4f-4e7b8ce151d1">s</c></abbr><ex cert="low"><c xml:id="9ae72658-583e-11ee-8b4f-4e7b8ce151d1">i</c><c xml:id="9ae72630-583e-11ee-8b4f-4e7b8ce151d1">t</c><c xml:id="9ae72608-583e-11ee-8b4f-4e7b8ce151d1">u</c><c xml:id="9ae725cc-583e-11ee-8b4f-4e7b8ce151d1">s</c></ex></expan><c xml:id="9ae7266c-583e-11ee-8b4f-4e7b8ce151d1"> </c><expan><abbr><c xml:id="9ae726a8-583e-11ee-8b4f-4e7b8ce151d1">e</c></abbr><ex><c xml:id="9ae726f8-583e-11ee-8b4f-4e7b8ce151d1">s</c><c xml:id="9ae726d0-583e-11ee-8b4f-4e7b8ce151d1">t</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

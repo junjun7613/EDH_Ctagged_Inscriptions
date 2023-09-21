@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(37)</height><width>(71)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1909"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Am Frankenhag}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078311_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Candidus+?</name></persName></person><person xml:id="HD078311_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Aelianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-12-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015684" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/99151c09-dc81-458f-9236-cda56825d44a/file/id/775262/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11878.</bibl><bibl>K. K&#246;rber, MZ 6, 1911, 125, Nr. 12; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b555c506-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b555c4e8-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b555c4c0-2c3a-11ee-96ce-4e7b8ce151d0">C</c><c xml:id="b555c4a2-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b555c47a-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b555c43e-2c3a-11ee-96ce-4e7b8ce151d0">d</c><supplied reason="lost"><c xml:id="b555c61e-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b555c5d8-2c3a-11ee-96ce-4e7b8ce151d0">d</c><c xml:id="b555c588-2c3a-11ee-96ce-4e7b8ce151d0">o</c><certainty locus="name" match="preceding-sibling::text()" cert="low" /> <gap reason="lost" extent="unknown" unit="character" /></supplied><c xml:id="b555c646-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b555c75e-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b555c740-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b555c718-2c3a-11ee-96ce-4e7b8ce151d0">A</c><c xml:id="b555c6fa-2c3a-11ee-96ce-4e7b8ce151d0">e</c><c xml:id="b555c6dc-2c3a-11ee-96ce-4e7b8ce151d0">l</c><c xml:id="b555c6b4-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b555c696-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b555c678-2c3a-11ee-96ce-4e7b8ce151d0">n</c><supplied reason="lost"><c xml:id="b555c7d6-2c3a-11ee-96ce-4e7b8ce151d0">o</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b555c808-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b555c952-2c3a-11ee-96ce-4e7b8ce151d0">m</c><c xml:id="b555c92a-2c3a-11ee-96ce-4e7b8ce151d0">a</c><c xml:id="b555c90c-2c3a-11ee-96ce-4e7b8ce151d0">n</c><c xml:id="b555c8e4-2c3a-11ee-96ce-4e7b8ce151d0">o</c><c xml:id="b555c8c6-2c3a-11ee-96ce-4e7b8ce151d0"> </c><c xml:id="b555c89e-2c3a-11ee-96ce-4e7b8ce151d0">p</c><c xml:id="b555c880-2c3a-11ee-96ce-4e7b8ce151d0">r</c><c xml:id="b555c858-2c3a-11ee-96ce-4e7b8ce151d0">i</c><c xml:id="b555c830-2c3a-11ee-96ce-4e7b8ce151d0">m</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="b555c9a2-2c3a-11ee-96ce-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

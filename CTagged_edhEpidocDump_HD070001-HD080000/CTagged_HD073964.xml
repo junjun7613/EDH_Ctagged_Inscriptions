@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073964</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073964</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, wei&#223;</material><dimensions unit="cm"><height>(74)</height><width>(45)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">Legionslager, {praetorium}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073964_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Nu[---]</name><name type="cognomen">Lupus</name></persName></person><person xml:id="HD073964_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Vep[---]</name><name type="cognomen">Inventus+?</name></persName></person><person xml:id="HD073964_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD073964_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019068" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/28abb6b3-b823-479a-b38e-fef1291eda31/file/id/779140/file_version/name/small" /><graphic xml:id="F019082" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dc324876-575f-4137-b5a2-9121a0f9c0f9/file/id/779154/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente. Fragment (a), Z. 2: ET-Ligatur; Frag,ment (b), Z. 4: NN ineinander geschrieben, aber nicht ligiert, AE-Ligatur klein am Zeilenende. Die Ma&#223;angabe bezieht sich auf Fragment (a); Ma&#223;e Fragment (b) (HxBxT in cm): 45,0x30,0x16,0. Vorbeck Nr. 156; CIL 03, 11258: Fragment (b). (B): Fragment (b), Z. 1: CIL 03, 11258: &amp;apos;I&amp;apos;. Z. 1-3: Vorbeck: I[---] / Ae[---] / [-] Ul(pius) [---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11258. (B)</bibl><bibl>CIL 03, 11275.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 40, Nr. 156.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" />SA<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" />et <expan><abbr>C</abbr><ex>aio</ex></expan> Nu<gap reason="lost" extent="unknown" unit="character" /> <lb n="3" />Lupo F<gap reason="lost" extent="unknown" unit="character" /> <lb n="4" /><expan><abbr>M</abbr><ex>arcus</ex></expan> Vep<gap reason="lost" extent="unknown" unit="character" /> <lb n="5" />Inv<supplied reason="lost" cert="low">entus</supplied> <lb n="0" />I<gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" />F <lb n="1" /><gap reason="lost" extent="unknown" unit="character" />AE <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />NVL <lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost">V</supplied>iennae <lb n="4" /><gap reason="lost" extent="unknown" unit="character" />us <lb n="5" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr>vix</abbr><ex cert="low" /></expan><lb break="no" n="6" />[it<certainty match="preceding-sibling::node()" locus="value" /> ------</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

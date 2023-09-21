@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from &#268;rnomelj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068510</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068510</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Metlika, Belokrajnski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(140)</height><width>(55)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-2.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1888"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202333">&#268;rnomelj</placeName><placeName type="findspot">M&#252;hle, sekund&#228;r verwendet</placeName><placeName type="region">Jugovzhodna Slovenija statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068510_1"><persName><name type="nomen">Pet(---)</name><name type="cognomen">Paullianus/a*</name></persName></person><person xml:id="HD068510_2" sex="M"><persName><name type="nomen">Pet(---)</name><name type="cognomen">Verianus</name></persName></person><person xml:id="HD068510_3"><persName><name type="cognomen">Apuleius/a*?</name></persName></person><person xml:id="HD068510_4"><persName><name type="cognomen">Rufinus/a+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012822" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cccc289f-db2c-40ed-9dce-4817f9aca555/file/id/772347/file_version/name/small" /><graphic xml:id="F012823" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/694fcc97-296d-4101-bd34-d77a2e9e1b21/file/id/772348/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen; Oberfl&#228;che teilweise stark verrieben. Oberhalb des Inschriftfeldes mehrere Bildfelder &#252;bereinander (von unten nach oben: Opferszene; Knabe, B&#252;sten eines Mannes, zweier Frauen und eines Kindes; B&#252;sten zweier Frauen mit Kind, flankiert von den B&#252;sten zweier M&#228;nner); im Giebel dar&#252;ber Jagdszene mit Reiter. Auf der linken Nebenseite weitere, teils nicht identifizierbare Figuren. Z. 1: Buchstaben GAV oder GAN stehen vor D(is) M(anibus). Z. 6: nur die oberen Buchstabenenden erhalten; bei der Auffindung Buchstabe A noch erhalten. (B): Mander: Z. 1: GAV nicht gelesen; AIJ 490: Z. 1: CIAN; CIL 03, 10825: Z. 6/7: Apulei. Rufi / [obit.] a[n]orum; AIJ 490: Z. 6/7: Apulei(ae) Rufi/[nae obitae ann]orum; Mander: Z. 7: [---] o[bitae ann]norum; ILSl; Mander: Z. 8: [---]I[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10825. (B)</bibl><bibl>AIJ 490; Foto. (B)</bibl><bibl>AIJ 490 add. p. 5*.</bibl><bibl>ILSl 1, 161; Fotos. (B)</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 284, Nr. 594.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="1" /><expan><abbr>GAV</abbr><ex cert="low" /></expan> </div><div n="2" type="textpart"><lb n="1" /> <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2" /><abbr>Pet</abbr> <expan><abbr>Paullian</abbr><ex>-</ex></expan> <lb n="3" /><abbr>Pet</abbr> Veriano <lb n="4" />obito an<expan><ex>n</ex><abbr>or</abbr><ex>um</ex></expan> V <lb n="5" />et <expan><abbr>Apul</abbr><ex cert="low">ei-</ex></expan> et Rufi<lb break="no" n="6" /><supplied reason="lost">n<gap reason="lost" quantity="1" unit="character" /></supplied> o<supplied reason="lost">bit<gap reason="lost" quantity="1" unit="character" /> ann</supplied>orum <lb n="0" /><gap reason="lost" quantity="1" unit="line" /></div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

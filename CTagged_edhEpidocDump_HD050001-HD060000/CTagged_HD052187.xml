@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052187</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052187</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Arch. Denkmalpflege</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>2</height><width>(3)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{L&#246;hrstra&#223;e}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052187_1" sex="M"><persName><name type="cognomen">Atticus</name></persName></person><person xml:id="HD052187_2" sex="M"><persName><name type="cognomen">Secund[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-25" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bleit&#228;felchen. Vier Mal auf beiden Seiten beschrieben; von der ersten Inschrift der Vorderseite nur noch Reste von nicht mehr identifizierbaren Buchstaben erhalten; Zuordnung der Buchstaben auf der R&#252;ckseite zu Phasen 1-3 unsicher und hier nur vorschlagsweise. Fundjahr: 1981/82. (B): Vorderseite, Phase 2: AE 2004: Z. 1: Secun(---).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1032. (B)</bibl><bibl>M. Scholz, MAZ 5/6, 1998/99, 244. 269, Nr. 8, 4; Abb. 8, (Fotos u. Zeichnungen). - AE 2004.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap> </div><div n="2" type="textpart"><lb n="1" /> |(denari--)<certainty match="preceding-sibling::node()" locus="value" /> <gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap> </div><div n="3" type="textpart"><lb n="1" /> Atticus </div><div n="4" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name" /></gap> <lb n="1" />sar<supplied reason="lost" cert="low">ca</supplied> <gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><gap reason="lost" extent="unknown" unit="character" />IINI </div><div n="5" type="textpart"><lb n="1" /> Secund<gap reason="lost" extent="unknown" unit="character" /> <lb n="2" /><expan><abbr>p</abbr><ex>ondo</ex></expan> VIII </div><div n="6" type="textpart"><lb n="1" /> Iulia </div><div n="7" type="textpart"><lb n="1" /> <expan><abbr>Apiu</abbr><ex>m</ex></expan> |(sestertium) I <lb n="2" /><expan><abbr>p</abbr><ex>ondo</ex></expan> II |(semis)</div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

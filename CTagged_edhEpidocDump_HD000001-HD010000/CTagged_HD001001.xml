@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Molaccia (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001001</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001001</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>68</height><width>65</width><depth>45</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1846"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Molaccia</placeName><placeName type="findspot" /><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001001_1" sex="W"><persName><name type="nomen">Turrania</name><name type="cognomen">Philippa</name></persName></person><person xml:id="HD001001_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Turranius</name><name type="cognomen">Callistus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-08-31" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Mari: Q(uintae) statt Q(uintus); AE: Z. 6: fehlt piissimae. (C): Gegen Ende 1. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0157. (BC)</bibl><bibl>Z. Mari, Tibur, Forma Italiae, Regio I 17 (Firenze 1983) 204, Nr. 213; fig. 333. (BC) - AE 1983.</bibl><bibl>H. Solin, Arctos 17, 1983, 98.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="dc5c65d8-583b-11ee-a136-4e7b8ce151d1">
+</c><c xml:id="dc5c65c4-583b-11ee-a136-4e7b8ce151d1">D</c><c xml:id="dc5c65b0-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c659c-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c6588-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="dc5c657e-583b-11ee-a136-4e7b8ce151d1">M</c><c xml:id="dc5c656a-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c6556-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dc5c6542-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c652e-583b-11ee-a136-4e7b8ce151d1">b</c><c xml:id="dc5c6524-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6506-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c64ac-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="dc5c66c8-583b-11ee-a136-4e7b8ce151d1">T</c><c xml:id="dc5c66b4-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c66a0-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dc5c668c-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dc5c6678-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c6664-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dc5c6650-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c663c-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c6628-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="dc5c6614-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="dc5c67b8-583b-11ee-a136-4e7b8ce151d1">P</c><c xml:id="dc5c67a4-583b-11ee-a136-4e7b8ce151d1">h</c><c xml:id="dc5c6790-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c677c-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="dc5c675e-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c674a-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="dc5c6736-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="dc5c6722-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c670e-583b-11ee-a136-4e7b8ce151d1">e</c><c xml:id="dc5c66fa-583b-11ee-a136-4e7b8ce151d1"> </c><expan><abbr><c xml:id="dc5c681c-583b-11ee-a136-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="dc5c693e-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6916-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c68e4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dc5c68bc-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="dc5c688a-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6858-583b-11ee-a136-4e7b8ce151d1">s</c></ex></expan><c xml:id="dc5c6952-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="4"><c xml:id="dc5c6a42-583b-11ee-a136-4e7b8ce151d1">T</c><c xml:id="dc5c6a24-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6a10-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dc5c69fc-583b-11ee-a136-4e7b8ce151d1">r</c><c xml:id="dc5c69e8-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c69ca-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dc5c69b6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c69a2-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6984-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c6970-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="dc5c6b50-583b-11ee-a136-4e7b8ce151d1">C</c><c xml:id="dc5c6b32-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c6b1e-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="dc5c6b00-583b-11ee-a136-4e7b8ce151d1">l</c><c xml:id="dc5c6aec-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c6ace-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c6aba-583b-11ee-a136-4e7b8ce151d1">t</c><c xml:id="dc5c6a9c-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6a88-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c6a74-583b-11ee-a136-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="dc5c6d26-583b-11ee-a136-4e7b8ce151d1">c</c><c xml:id="dc5c6d08-583b-11ee-a136-4e7b8ce151d1">o</c><c xml:id="dc5c6cf4-583b-11ee-a136-4e7b8ce151d1">n</c><c xml:id="dc5c6cd6-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c6cb8-583b-11ee-a136-4e7b8ce151d1">u</c><c xml:id="dc5c6c9a-583b-11ee-a136-4e7b8ce151d1">g</c><c xml:id="dc5c6c86-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c6c68-583b-11ee-a136-4e7b8ce151d1"> </c><c xml:id="dc5c6c4a-583b-11ee-a136-4e7b8ce151d1">p</c><c xml:id="dc5c6c36-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c6c18-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c6c04-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c6be6-583b-11ee-a136-4e7b8ce151d1">s</c><c xml:id="dc5c6bd2-583b-11ee-a136-4e7b8ce151d1">i</c><c xml:id="dc5c6bb4-583b-11ee-a136-4e7b8ce151d1">m</c><c xml:id="dc5c6b96-583b-11ee-a136-4e7b8ce151d1">a</c><c xml:id="dc5c6b82-583b-11ee-a136-4e7b8ce151d1">e</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Burnum &amp;ndash; Kistanje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061410</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061410</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197184">Burnum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199030">Kistanje</placeName><placeName type="findspot">Ivo&#353;evci, bei, {&#352;uplja Crkva (Archi Romani)}</placeName><placeName type="region">&#352;ibensko-kninska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061410_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Primus</name></persName></person><person xml:id="HD061410_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Naevius</name><name type="cognomen">Ponticus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-07-28" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: von M(?) ist nur die letzte Schr&#228;ghaste, von A(?) nur die aufsteigende Schr&#228;ghaste erhalten. Z. 5 (Anfang): &#252;berliefert ist I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02838.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="790f47aa-5842-11ee-a013-4e7b8ce151d1">
+</c><c xml:id="790f4764-5842-11ee-a013-4e7b8ce151d1">I</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied><expan><abbr><c xml:id="790f4822-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex cert="low" /><c xml:id="790f484a-5842-11ee-a013-4e7b8ce151d1">A</c></expan><certainty match="preceding-sibling::node()" locus="value" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="790f4872-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><c xml:id="790f48ea-5842-11ee-a013-4e7b8ce151d1">N</c><c xml:id="790f48cc-5842-11ee-a013-4e7b8ce151d1">A</c><c xml:id="790f48b8-5842-11ee-a013-4e7b8ce151d1">E</c><c xml:id="790f489a-5842-11ee-a013-4e7b8ce151d1">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="790f491c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="790f496c-5842-11ee-a013-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="790f4a98-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="790f4a66-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f4a2a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="790f49ee-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="790f49b2-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="790f4ab6-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="790f4b7e-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="790f4b42-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f4b06-5842-11ee-a013-4e7b8ce151d1">b</c></abbr><ex><c xml:id="790f4c6e-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="790f4c32-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="790f4bf6-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="790f4bba-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="790f4d36-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="790f4d18-5842-11ee-a013-4e7b8ce151d1">P</c><c xml:id="790f4cfa-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="790f4cdc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f4cbe-5842-11ee-a013-4e7b8ce151d1">m</c><c xml:id="790f4ca0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f4c8c-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="790f4d90-5842-11ee-a013-4e7b8ce151d1">Q</c></abbr><ex><c xml:id="790f4eee-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="790f4ebc-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f4e80-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="790f4e44-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="790f4e08-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="790f4dd6-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="790f4ffc-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="790f4fde-5842-11ee-a013-4e7b8ce151d1">N</c><c xml:id="790f4fc0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="790f4fa2-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="790f4f84-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="790f4f66-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f4f48-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="790f4f2a-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="790f4f0c-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="790f5060-5842-11ee-a013-4e7b8ce151d1">C</c></abbr><ex><c xml:id="790f50e2-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="790f50a6-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="790f5100-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="790f5150-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="790f527c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f5240-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="790f520e-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f51d2-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="790f5196-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="790f529a-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="790f5358-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="790f5326-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="790f52ea-5842-11ee-a013-4e7b8ce151d1">l</c></abbr><ex><c xml:id="790f5484-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="790f5448-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f5416-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="790f53da-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f539e-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="790f54a2-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><c xml:id="790f55c4-5842-11ee-a013-4e7b8ce151d1">P</c><c xml:id="790f55a6-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="790f5588-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="790f556a-5842-11ee-a013-4e7b8ce151d1">t</c><c xml:id="790f554c-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f552e-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="790f5506-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="790f54e8-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="790f54ca-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="790f574a-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="790f5718-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f56dc-5842-11ee-a013-4e7b8ce151d1">g</c><c xml:id="790f56a0-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="790f5664-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="790f5628-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="790f57cc-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="790f5790-5842-11ee-a013-4e7b8ce151d1">r</c></ex></expan></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

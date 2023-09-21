@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Rosegg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057273</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057273</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rosegg, S. Christoph am Hum, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>44</height><width>(36)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2767220">Rosegg</placeName><placeName type="findspot">{S. Christoph am Hum, Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057273_1" sex="W"><persName><name type="cognomen">Secunda+?</name></persName></person><person xml:id="HD057273_2" sex="M"><persName><name type="cognomen">Missicus</name></persName></person><person xml:id="HD057273_3" sex="M"><persName><name type="nomen">Lottius+</name><name type="cognomen">Camulius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-15" who="Siegl">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Hedera am Ende von Z. 1. Z. 6 (Anfang): Buchstabe D im CIL wiedergegeben, aber nicht erhalten oder von Putz &#252;berdeckt. (B): ILLPRON; Leber: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0393. (B)</bibl><bibl>CIL 03, 06492.</bibl><bibl>CIL 03, 06492 add. p. 1812.</bibl><bibl>P.S. Leber, Die in K&#228;rnten seit 1902 gefundenen r&#246;mischen Steininschriften (Klagenfurt 1972) 27, Nr. 32. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="ce8df254-5841-11ee-a9c6-4e7b8ce151d1">
+</c><supplied reason="lost"><expan><abbr><c xml:id="ce8df31c-5841-11ee-a9c6-4e7b8ce151d1">D</c></abbr><ex><c xml:id="ce8df394-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df362-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="ce8df3b2-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ce8df3f8-5841-11ee-a9c6-4e7b8ce151d1">M</c></abbr><ex><c xml:id="ce8df506-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ce8df4de-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ce8df4b6-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df484-5841-11ee-a9c6-4e7b8ce151d1">b</c><c xml:id="ce8df45c-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ce8df42a-5841-11ee-a9c6-4e7b8ce151d1">s</c></ex></expan><c xml:id="ce8df51a-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="2"><supplied reason="lost" cert="low"><c xml:id="ce8df588-5841-11ee-a9c6-4e7b8ce151d1">S</c><c xml:id="ce8df556-5841-11ee-a9c6-4e7b8ce151d1">e</c></supplied><c xml:id="ce8df600-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="ce8df5ec-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ce8df5d8-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ce8df5c4-5841-11ee-a9c6-4e7b8ce151d1">d</c><c xml:id="ce8df5b0-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ce8df59c-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="3"><c xml:id="ce8df6b4-5841-11ee-a9c6-4e7b8ce151d1">M</c><c xml:id="ce8df6a0-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df68c-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="ce8df678-5841-11ee-a9c6-4e7b8ce151d1">s</c><c xml:id="ce8df664-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df650-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="ce8df63c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df628-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ce8df6fa-5841-11ee-a9c6-4e7b8ce151d1">v</c></abbr><ex><c xml:id="ce8df786-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df75e-5841-11ee-a9c6-4e7b8ce151d1">v</c><c xml:id="ce8df72c-5841-11ee-a9c6-4e7b8ce151d1">a</c></ex></expan><c xml:id="ce8df79a-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ce8df7d6-5841-11ee-a9c6-4e7b8ce151d1">f</c></abbr><ex><c xml:id="ce8df8a8-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ce8df876-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="ce8df844-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df812-5841-11ee-a9c6-4e7b8ce151d1">t</c></ex></expan><c xml:id="ce8df8bc-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><c xml:id="ce8df8f8-5841-11ee-a9c6-4e7b8ce151d1">L</c></supplied><c xml:id="ce8df9c0-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ce8df9ac-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="ce8df98e-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="ce8df97a-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8df966-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ce8df952-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ce8df93e-5841-11ee-a9c6-4e7b8ce151d1">C</c><c xml:id="ce8df92a-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ce8df90c-5841-11ee-a9c6-4e7b8ce151d1">m</c></line><line break="no" n="5"><c xml:id="ce8dfad8-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ce8dfac4-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="ce8dfab0-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8dfa92-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ce8dfa7e-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ce8dfa6a-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="ce8dfa4c-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8dfa38-5841-11ee-a9c6-4e7b8ce151d1">l</c><c xml:id="ce8dfa24-5841-11ee-a9c6-4e7b8ce151d1">i</c><c xml:id="ce8dfa06-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ce8df9f2-5841-11ee-a9c6-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost"><c xml:id="ce8dfb32-5841-11ee-a9c6-4e7b8ce151d1">d</c></supplied><c xml:id="ce8dfbfa-5841-11ee-a9c6-4e7b8ce151d1">e</c><c xml:id="ce8dfbe6-5841-11ee-a9c6-4e7b8ce151d1">f</c><c xml:id="ce8dfbc8-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ce8dfbb4-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ce8dfb96-5841-11ee-a9c6-4e7b8ce151d1">c</c><c xml:id="ce8dfb82-5841-11ee-a9c6-4e7b8ce151d1">t</c><c xml:id="ce8dfb64-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ce8dfb46-5841-11ee-a9c6-4e7b8ce151d1"> </c><expan><abbr><c xml:id="ce8dfc7c-5841-11ee-a9c6-4e7b8ce151d1">a</c><c xml:id="ce8dfc4a-5841-11ee-a9c6-4e7b8ce151d1">n</c></abbr><ex><c xml:id="ce8dfd62-5841-11ee-a9c6-4e7b8ce151d1">n</c><c xml:id="ce8dfd30-5841-11ee-a9c6-4e7b8ce151d1">o</c><c xml:id="ce8dfd08-5841-11ee-a9c6-4e7b8ce151d1">r</c><c xml:id="ce8dfcd6-5841-11ee-a9c6-4e7b8ce151d1">u</c><c xml:id="ce8dfcae-5841-11ee-a9c6-4e7b8ce151d1">m</c></ex></expan><c xml:id="ce8dfdf8-5841-11ee-a9c6-4e7b8ce151d1"> </c><c xml:id="ce8dfdda-5841-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="ce8dfdbc-5841-11ee-a9c6-4e7b8ce151d1">X</c><c xml:id="ce8dfda8-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="ce8dfd8a-5841-11ee-a9c6-4e7b8ce151d1">I</c><c xml:id="ce8dfd76-5841-11ee-a9c6-4e7b8ce151d1">I</c></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

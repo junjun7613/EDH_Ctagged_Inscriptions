@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Deva &amp;ndash; Chester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069777</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069777</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chester, Grosvenor Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(50)</height><width>91</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79420">Deva</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653228">Chester</placeName><placeName type="findspot">{Nordmauer, westlicher Teil}</placeName><placeName type="region">Cheshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069777_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Ianuarius</name></persName></person><person xml:id="HD069777_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Ianuarius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 551 n. 1093.</bibl><bibl>RIB 0506; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="91f3ef6e-5842-11ee-a013-4e7b8ce151d1">
+</c><expan><abbr><c xml:id="91f3f036-5842-11ee-a013-4e7b8ce151d1">D</c></abbr><ex><c xml:id="91f3f0b8-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f086-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="91f3f0d6-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="91f3f112-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="91f3f234-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3f20c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="91f3f1d0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f1a8-5842-11ee-a013-4e7b8ce151d1">b</c><c xml:id="91f3f176-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3f144-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="91f3f248-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="2"><expan><abbr><c xml:id="91f3f284-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="91f3f36a-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3f342-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f3f310-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="91f3f2e8-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3f2b6-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="91f3f37e-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="91f3f414-5842-11ee-a013-4e7b8ce151d1">U</c><c xml:id="91f3f3ec-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="91f3f3ba-5842-11ee-a013-4e7b8ce151d1">p</c></abbr><ex><c xml:id="91f3f4a0-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f46e-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3f446-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="91f3f4b4-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="91f3f4f0-5842-11ee-a013-4e7b8ce151d1">M</c></abbr><ex><c xml:id="91f3f5ae-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3f57c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f3f554-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="91f3f522-5842-11ee-a013-4e7b8ce151d1">i</c></ex></expan><c xml:id="91f3f5c2-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="91f3f5f4-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="91f3f6da-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f6b2-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="91f3f680-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f658-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3f626-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan><c xml:id="91f3f6f8-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="3"><expan><abbr><c xml:id="91f3f7b6-5842-11ee-a013-4e7b8ce151d1">U</c><c xml:id="91f3f78e-5842-11ee-a013-4e7b8ce151d1">l</c><c xml:id="91f3f75c-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="91f3f734-5842-11ee-a013-4e7b8ce151d1">i</c></abbr><ex><c xml:id="91f3f7e8-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="91f3f8ce-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="91f3f8ba-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3f8a6-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3f888-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="91f3f874-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3f860-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3f84c-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f3f838-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f824-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3f810-5842-11ee-a013-4e7b8ce151d1">s</c><c xml:id="91f3f7fc-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="4"><expan><abbr><c xml:id="91f3f9dc-5842-11ee-a013-4e7b8ce151d1">T</c><c xml:id="91f3f9aa-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f3f982-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3f950-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3f928-5842-11ee-a013-4e7b8ce151d1">a</c></abbr><ex><c xml:id="91f3fa36-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="91f3fa04-5842-11ee-a013-4e7b8ce151d1">a</c></ex></expan><c xml:id="91f3fa5e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="91f3fa4a-5842-11ee-a013-4e7b8ce151d1">s</c><supplied reason="lost"><expan><abbr><c xml:id="91f3fa9a-5842-11ee-a013-4e7b8ce151d1">t</c></abbr><ex><c xml:id="91f3fc70-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3fc3e-5842-11ee-a013-4e7b8ce151d1">p</c><c xml:id="91f3fc0c-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="91f3fbe4-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="91f3fbb2-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="91f3fb8a-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f3fb58-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="91f3fb30-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f3fafe-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3fad6-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan></supplied><c xml:id="91f3fd2e-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="91f3fd1a-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="91f3fcfc-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="91f3fce8-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3fcca-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3fcb6-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3fc98-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3fc84-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="5"><expan><abbr><c xml:id="91f3fdb0-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f3fd7e-5842-11ee-a013-4e7b8ce151d1">n</c></abbr><ex><c xml:id="91f3fe8c-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="91f3fe64-5842-11ee-a013-4e7b8ce151d1">o</c><c xml:id="91f3fe32-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f3fe0a-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f3fdd8-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="91f3ff54-5842-11ee-a013-4e7b8ce151d1"> </c><c xml:id="91f3ff40-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="91f3ff22-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="91f3ff0e-5842-11ee-a013-4e7b8ce151d1">X</c><c xml:id="91f3fef0-5842-11ee-a013-4e7b8ce151d1">V</c><c xml:id="91f3fedc-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3febe-5842-11ee-a013-4e7b8ce151d1">I</c><c xml:id="91f3feaa-5842-11ee-a013-4e7b8ce151d1"> </c></line><line n="6"><supplied reason="lost"><expan><abbr><c xml:id="91f3ffa4-5842-11ee-a013-4e7b8ce151d1">h</c></abbr><ex><c xml:id="91f40062-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="91f4003a-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f40008-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="91f3ffe0-5842-11ee-a013-4e7b8ce151d1">s</c></ex></expan></supplied><c xml:id="91f40080-5842-11ee-a013-4e7b8ce151d1"> </c><expan><abbr><c xml:id="91f400bc-5842-11ee-a013-4e7b8ce151d1">f</c></abbr><ex><c xml:id="91f4022e-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f40206-5842-11ee-a013-4e7b8ce151d1">c</c><c xml:id="91f401d4-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f401ac-5842-11ee-a013-4e7b8ce151d1">e</c><c xml:id="91f4017a-5842-11ee-a013-4e7b8ce151d1">n</c><c xml:id="91f40148-5842-11ee-a013-4e7b8ce151d1">d</c><c xml:id="91f40120-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f400ee-5842-11ee-a013-4e7b8ce151d1">m</c></ex></expan><c xml:id="91f40242-5842-11ee-a013-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="91f4027e-5842-11ee-a013-4e7b8ce151d1">c</c></abbr><ex><c xml:id="91f40396-5842-11ee-a013-4e7b8ce151d1">u</c><c xml:id="91f40364-5842-11ee-a013-4e7b8ce151d1">r</c><c xml:id="91f4033c-5842-11ee-a013-4e7b8ce151d1">a</c><c xml:id="91f40314-5842-11ee-a013-4e7b8ce151d1">v</c><c xml:id="91f402e2-5842-11ee-a013-4e7b8ce151d1">i</c><c xml:id="91f402b0-5842-11ee-a013-4e7b8ce151d1">t</c></ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

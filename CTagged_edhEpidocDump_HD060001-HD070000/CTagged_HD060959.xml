@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Kobern-Gondorf (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060959</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060959</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(24)</height><width>(12)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108906" /></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886968">Kobern-Gondorf</placeName><placeName type="findspot">Kobern, {Gr&#228;berfeld Gondorf II}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-07-11" who="Gr&#228;f">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007098" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/000c77a2-cc6c-4d7b-9298-8dd397267d29/file/id/767510/file_version/name/small" /><graphic xml:id="F018373" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eab92ced-74d2-4794-bc9e-8985ed79d1f6/file/id/778445/file_version/name/small" /><graphic xml:id="F018372" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/71c59c67-91aa-4c34-8d22-b7589f0ce38a/file/id/778444/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Buchstabe A mit spitz nach unten zeigender Querhaste. Fundjahr: 1882/83. Z. 6: noch die oberen Enden mehrerer nicht mehr eindeutig identifizierbarer Buchstaben erhalten. (B): CIL 13, 07648; Lehner: Z. 4: [---]ORIN[---]; Z. 6 nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07648. (B)</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 380, Nr. 987. (B)</bibl><bibl>K. Matijevi&#263;, R&#246;mische und fr&#252;hchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und &#246;stlicher Eifel (Rahden (Westf.) 2010) 387-389, Nr. 104; Abb. 46.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="85daf21a-2c3a-11ee-b679-4e7b8ce151d0">I</c></abbr><ex cert="low" /><c xml:id="85daf558-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="85daf4ea-2c3a-11ee-b679-4e7b8ce151d0">S</c><c xml:id="85daf472-2c3a-11ee-b679-4e7b8ce151d0">A</c><c xml:id="85daf3e6-2c3a-11ee-b679-4e7b8ce151d0">B</c></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85daf620-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85daf8e6-2c3a-11ee-b679-4e7b8ce151d0">V</c><c xml:id="85daf864-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="85daf7f6-2c3a-11ee-b679-4e7b8ce151d0">C</c><c xml:id="85daf792-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="85daf724-2c3a-11ee-b679-4e7b8ce151d0">R</c><c xml:id="85daf6b6-2c3a-11ee-b679-4e7b8ce151d0">A</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85daf9ae-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="85dafddc-2c3a-11ee-b679-4e7b8ce151d0">M</c><c xml:id="85dafcec-2c3a-11ee-b679-4e7b8ce151d0">A</c><c xml:id="85dafbfc-2c3a-11ee-b679-4e7b8ce151d0">R</c><c xml:id="85dafaf8-2c3a-11ee-b679-4e7b8ce151d0">I</c></abbr><ex cert="low" /></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85dafe72-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85db0066-2c3a-11ee-b679-4e7b8ce151d0">O</c><c xml:id="85dafff8-2c3a-11ee-b679-4e7b8ce151d0">P</c><c xml:id="85daff8a-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="85daff12-2c3a-11ee-b679-4e7b8ce151d0">N</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85db0138-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="5" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85db02dc-2c3a-11ee-b679-4e7b8ce151d0">Q</c><c xml:id="85db0264-2c3a-11ee-b679-4e7b8ce151d0">C</c><c xml:id="85db01d8-2c3a-11ee-b679-4e7b8ce151d0">S</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="85db0386-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><c xml:id="85db0426-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /><certainty match="preceding-sibling::node()" locus="value" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

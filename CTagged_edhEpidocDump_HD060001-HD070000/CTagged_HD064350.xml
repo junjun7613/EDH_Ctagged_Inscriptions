@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064350</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064350</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>(32)</height><width>(26)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Porta suburbana, bei, {Parzelle Nr. 3912 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064350_1" sex="M"><persName><name type="cognomen">Valen[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>3 aneinanderpassende Fragmente von der Vorderseite eines Sarkophagkastens. Z. 1: als Name sind Valens, Valentinus oder Valentianus m&#246;glich. Z. 5: nur die oberen Buchstabenh&#228;lften erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 837-838, Nr. 468; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><lb n="1" /><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae41f8-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84ae41da-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae41bc-2c3a-11ee-b679-4e7b8ce151d0">V</c><c xml:id="84ae419e-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="84ae4176-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="84ae414e-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84ae4126-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84ae40cc-2c3a-11ee-b679-4e7b8ce151d0">t</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae4248-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="2" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="84ae42c0-2c3a-11ee-b679-4e7b8ce151d0">e</c></supplied><c xml:id="84ae4306-2c3a-11ee-b679-4e7b8ce151d0">x</c><c xml:id="84ae42e8-2c3a-11ee-b679-4e7b8ce151d0"> </c><expan><abbr><c xml:id="84ae4400-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="84ae43ba-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84ae4374-2c3a-11ee-b679-4e7b8ce151d0">l</c></abbr><ex><c xml:id="84ae457c-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="84ae452c-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84ae44e6-2c3a-11ee-b679-4e7b8ce151d0">g</c><c xml:id="84ae44a0-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84ae445a-2c3a-11ee-b679-4e7b8ce151d0">o</c></ex></expan><c xml:id="84ae45e0-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae45c2-2c3a-11ee-b679-4e7b8ce151d0">f</c><c xml:id="84ae459a-2c3a-11ee-b679-4e7b8ce151d0">a</c><supplied reason="lost"><c xml:id="84ae4720-2c3a-11ee-b679-4e7b8ce151d0">b</c><c xml:id="84ae46da-2c3a-11ee-b679-4e7b8ce151d0">r</c><c xml:id="84ae4694-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="84ae464e-2c3a-11ee-b679-4e7b8ce151d0">m</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae473e-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="3" /><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae48c4-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae48a6-2c3a-11ee-b679-4e7b8ce151d0">v</c><c xml:id="84ae4888-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84ae486a-2c3a-11ee-b679-4e7b8ce151d0">x</c><c xml:id="84ae484c-2c3a-11ee-b679-4e7b8ce151d0">i</c><c xml:id="84ae482e-2c3a-11ee-b679-4e7b8ce151d0">t</c><c xml:id="84ae4810-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae47f2-2c3a-11ee-b679-4e7b8ce151d0">a</c><c xml:id="84ae47d4-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84ae47b6-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84ae4798-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84ae477a-2c3a-11ee-b679-4e7b8ce151d0">s</c></supplied><c xml:id="84ae4a4a-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae4a22-2c3a-11ee-b679-4e7b8ce151d0">L</c><c xml:id="84ae49fa-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="84ae49d2-2c3a-11ee-b679-4e7b8ce151d0">X</c><c xml:id="84ae49b4-2c3a-11ee-b679-4e7b8ce151d0">V</c><c xml:id="84ae498c-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="84ae4964-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="84ae493c-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae491e-2c3a-11ee-b679-4e7b8ce151d0">V</c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae4a90-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="4" /><gap reason="lost" extent="unknown" unit="character" /><supplied reason="lost"><c xml:id="84ae4bd0-2c3a-11ee-b679-4e7b8ce151d0">l</c><c xml:id="84ae4b8a-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84ae4b44-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="84ae4afe-2c3a-11ee-b679-4e7b8ce151d0">u</c></supplied><c xml:id="84ae4d38-2c3a-11ee-b679-4e7b8ce151d0">m</c><c xml:id="84ae4d10-2c3a-11ee-b679-4e7b8ce151d0"> </c><c xml:id="84ae4ce8-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="84ae4cc0-2c3a-11ee-b679-4e7b8ce151d0">o</c><c xml:id="84ae4c98-2c3a-11ee-b679-4e7b8ce151d0">n</c><c xml:id="84ae4c70-2c3a-11ee-b679-4e7b8ce151d0">c</c><c xml:id="84ae4c48-2c3a-11ee-b679-4e7b8ce151d0">e</c><c xml:id="84ae4c20-2c3a-11ee-b679-4e7b8ce151d0">s</c><c xml:id="84ae4bf8-2c3a-11ee-b679-4e7b8ce151d0">s</c><supplied reason="lost"><c xml:id="84ae4e00-2c3a-11ee-b679-4e7b8ce151d0">u</c><c xml:id="84ae4dba-2c3a-11ee-b679-4e7b8ce151d0">m</c></supplied><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae4e28-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="5" /><gap reason="lost" extent="unknown" unit="character" /><expan><abbr><c xml:id="84ae4e96-2c3a-11ee-b679-4e7b8ce151d0">V</c></abbr><ex cert="low" /><c xml:id="84ae4f54-2c3a-11ee-b679-4e7b8ce151d0">O</c><c xml:id="84ae4f36-2c3a-11ee-b679-4e7b8ce151d0">D</c><c xml:id="84ae4f18-2c3a-11ee-b679-4e7b8ce151d0">O</c><c xml:id="84ae4efa-2c3a-11ee-b679-4e7b8ce151d0">M</c><c xml:id="84ae4edc-2c3a-11ee-b679-4e7b8ce151d0">I</c><c xml:id="84ae4ebe-2c3a-11ee-b679-4e7b8ce151d0">V</c></expan><gap reason="lost" extent="unknown" unit="character" /><c xml:id="84ae4f90-2c3a-11ee-b679-4e7b8ce151d0"> </c><lb n="0" /><gap reason="lost" quantity="1" unit="line" /></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

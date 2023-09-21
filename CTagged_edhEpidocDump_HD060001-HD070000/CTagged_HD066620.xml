@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Caturigomagus &amp;ndash; Chorges (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066620</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066620</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chorges, &#233;glise paroissiale</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>140</height><width>62</width><depth>68</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167701">Caturigomagus</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1550"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3025033">Chorges</placeName><placeName type="findspot" /><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066620_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD066620_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD066620_3" sex="M"><persName><name type="nomen">Annius</name><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Morabito: Z. 1: [--- pio]; Z. 2: f(elici) inuic(to) Aug(usto) tr(ibunicia) [pot(estate) ---]; Z. 3: co(n)s(uli) p(atri) p(atriae) proco(n)s(uli); Z. 4: Catur(igomagensium); Z. 5: [m(aiestatique)] e(ius) cur[an]te (et) [d]edic[an]te; Z. 6: [Annio Rufino, u(ir) e(gregio) (?)]; Z. 7: p[ro]cur(atore) [p]ro[u(inciae)] Al[pium Maritimar(um)]. (b): H&#246;he: 71; Breite: 45. Per la pertinenza del documento al territorio delle &amp;quot;&amp;quot;Alpes Cottiae&amp;quot;&amp;quot; cfr. HD 065255.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00078 add. p. 804.</bibl><bibl>B. R&#233;my- F. Kayser, in: E. Cimarosti, Le iscrizioni di et&#224; romana sul versante italiano delle Alpes Cottiae (Barcelona 2012 ) 570-574, Nr. 3.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 90-93, Nr. 9; Foto. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><div n="1" type="textpart"><lb n="0" />
+                <gap reason="lost" quantity="1" unit="line" /> <lb n="1" /><expan><abbr>F</abbr><ex>elici</ex></expan> Invi<supplied reason="lost"><expan><abbr>c</abbr><ex>to</ex></expan></supplied> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /><gap reason="lost" quantity="1" unit="character" /></supplied> <lb n="2" />co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> pro<surplus>ro</surplus>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="3" /><expan><abbr>civit</abbr><ex>as</ex></expan> <expan><abbr>Catur</abbr><ex>igum</ex></expan> <expan><abbr>d</abbr><ex>evota</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <lb n="4" /><supplied reason="lost"><expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan></supplied> <expan><abbr>e</abbr><ex>ius</ex></expan> CVRIE PE E DIC FE <lb n="5" />P CVR RO AL<gap reason="lost" extent="unknown" unit="character" /> <lb n="0" /><gap reason="lost" quantity="1" unit="line" /> </div><div n="2" type="textpart"><lb n="0" /> <gap reason="lost" quantity="1" unit="line" /> <lb n="1" />Pio &amp;lt;Principi=Felici&amp;gt; <lb n="2" />Invicto Augusto <lb n="3" />restitutori orbis <lb n="4" />providentissimo <lb n="5" />retro principum <lb n="6" />ac super omnes <lb n="7" />fortissimo <lb n="8" />Annius Rufinus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> <expan><abbr>proc</abbr><ex>urator</ex></expan> et <lb n="9" />prae<supplied reason="lost" cert="low">s(es)</supplied> Alpium <expan><abbr>Maritimar</abbr><ex>um</ex></expan> <lb n="10" />devotus numini <expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> <lb n="11" />eius </div></surface><surface type="position"><zone /></surface><figure><graphic url="--URI of a 3D object--" /></figure></surfaceGrp></sourceDoc></TEI>

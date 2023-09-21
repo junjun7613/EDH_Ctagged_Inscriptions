@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tucci &amp;ndash; Martos (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017470</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017470</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256232">Tucci</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2514073">Martos</placeName><placeName type="findspot">plaza de San Sebasti&#225;n y de San Miguel</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017470_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Iulius</name><name type="cognomen">[---]rpio</name></persName></person><person xml:id="HD017470_2" sex="W"><persName><name type="nomen">[---]a</name><name type="cognomen">Numphia+ (= Nymphia)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Cabez&#243;n, AE 1965: Z. 1-2: Iulius / [Ca]rpio / h(ic) s(itus) e(st); Cabez&#243;n: Z. 3: a(nnorum) [---] m(ensium) [---]; AE 1965: Z. 4: an(norum) [---] m(ensium); Cabez&#243;n: Z. 5: [---] se vivo d(edit); AE 1965: Z. 5: se vivo d(edit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0086. (B)</bibl><bibl>CIL 02 (2. Aufl.) 05, 00116.</bibl><bibl>A. Cabez&#243;n, AEA 37, 1964, 124, Nr. 24; fig. 24 (Zeichnung). (B) - AE 1965.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition"><line n="1"><c xml:id="c477efe0-583c-11ee-a8fa-4e7b8ce151d1">
+</c><supplied reason="lost"><gap reason="lost" quantity="1" unit="character" /></supplied><c xml:id="c477f0b2-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="c477f09e-583c-11ee-a8fa-4e7b8ce151d1">I</c><c xml:id="c477f08a-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="c477f076-583c-11ee-a8fa-4e7b8ce151d1">l</c><c xml:id="c477f062-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="c477f04e-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="c477f03a-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="c477f026-583c-11ee-a8fa-4e7b8ce151d1"> </c><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c477f0da-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="2"><gap reason="lost" extent="unknown" unit="character" /><c xml:id="c477f170-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="c477f15c-583c-11ee-a8fa-4e7b8ce151d1">p</c><c xml:id="c477f148-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="c477f134-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="c477f120-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="c477f10c-583c-11ee-a8fa-4e7b8ce151d1">S</c><c xml:id="c477f0f8-583c-11ee-a8fa-4e7b8ce151d1">E</c><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap><c xml:id="c477f198-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="3"><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name" /></gap><c xml:id="c477f1ca-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="c477f1b6-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c477f210-583c-11ee-a8fa-4e7b8ce151d1">M</c></abbr><ex><c xml:id="c477f2d8-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="c477f2a6-583c-11ee-a8fa-4e7b8ce151d1">r</c><c xml:id="c477f27e-583c-11ee-a8fa-4e7b8ce151d1">c</c><c xml:id="c477f24c-583c-11ee-a8fa-4e7b8ce151d1">i</c></ex></expan><c xml:id="c477f2ec-583c-11ee-a8fa-4e7b8ce151d1"> </c><supplied reason="lost" cert="low"><c xml:id="c477f328-583c-11ee-a8fa-4e7b8ce151d1">-</c></supplied><c xml:id="c477f33c-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="4"><supplied reason="lost"><c xml:id="c477f36e-583c-11ee-a8fa-4e7b8ce151d1">N</c></supplied><c xml:id="c477f404-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="c477f3f0-583c-11ee-a8fa-4e7b8ce151d1">m</c><c xml:id="c477f3dc-583c-11ee-a8fa-4e7b8ce151d1">p</c><c xml:id="c477f3c8-583c-11ee-a8fa-4e7b8ce151d1">h</c><c xml:id="c477f3b4-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="c477f396-583c-11ee-a8fa-4e7b8ce151d1">a</c><c xml:id="c477f382-583c-11ee-a8fa-4e7b8ce151d1"> </c><note>sic</note><c xml:id="c477f47c-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="c477f468-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="c477f44a-583c-11ee-a8fa-4e7b8ce151d1">x</c><c xml:id="c477f436-583c-11ee-a8fa-4e7b8ce151d1">s</c><supplied reason="lost"><c xml:id="c477f4f4-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="c477f4c2-583c-11ee-a8fa-4e7b8ce151d1">r</c></supplied><c xml:id="c477f508-583c-11ee-a8fa-4e7b8ce151d1"> </c><note>sic</note><c xml:id="c477f526-583c-11ee-a8fa-4e7b8ce151d1"> </c></line><line n="5"><c xml:id="c477f5ee-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="c477f5d0-583c-11ee-a8fa-4e7b8ce151d1">e</c><c xml:id="c477f5bc-583c-11ee-a8fa-4e7b8ce151d1"> </c><c xml:id="c477f5a8-583c-11ee-a8fa-4e7b8ce151d1">v</c><c xml:id="c477f58a-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="c477f576-583c-11ee-a8fa-4e7b8ce151d1">v</c><c xml:id="c477f558-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="c477f544-583c-11ee-a8fa-4e7b8ce151d1"> </c><note>sic</note><c xml:id="c477f620-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c477f65c-583c-11ee-a8fa-4e7b8ce151d1">d</c></abbr><ex><c xml:id="c477f68e-583c-11ee-a8fa-4e7b8ce151d1">e</c></ex></expan><c xml:id="c477f6a2-583c-11ee-a8fa-4e7b8ce151d1"> </c><supplied reason="lost"><expan><abbr><c xml:id="c477f6de-583c-11ee-a8fa-4e7b8ce151d1">s</c></abbr><ex><c xml:id="c477f742-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="c477f710-583c-11ee-a8fa-4e7b8ce151d1">o</c></ex></expan><c xml:id="c477f756-583c-11ee-a8fa-4e7b8ce151d1"> </c><expan><abbr><c xml:id="c477f788-583c-11ee-a8fa-4e7b8ce151d1">p</c></abbr><ex cert="low"><c xml:id="c477f864-583c-11ee-a8fa-4e7b8ce151d1">o</c><c xml:id="c477f83c-583c-11ee-a8fa-4e7b8ce151d1">s</c><c xml:id="c477f80a-583c-11ee-a8fa-4e7b8ce151d1">u</c><c xml:id="c477f7e2-583c-11ee-a8fa-4e7b8ce151d1">i</c><c xml:id="c477f7ba-583c-11ee-a8fa-4e7b8ce151d1">t</c></ex></expan></supplied></line></surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>
