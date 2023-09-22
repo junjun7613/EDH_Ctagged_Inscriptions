@@ -12,3 +12,6 @@ As modifications are all processed automatically using Python, there must be som
 
 ## What the advantage?
 As each character in the texts is now marked with \<c\> and given xml:id, we can now refer it as a web data resource with respective URI. This makes more granular encoding of textual data possible, for example, connceting each character resource to an image corresponded, putting caligraphical information on it, or giving 3D spatial coordinates on the character level. 
+
+## Licence
+All data provided in this repository can be reused under the [CC BY-SA 4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
