@@ -1,0 +1,228 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Antes (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000484</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000484</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material>
+                                    <dimensions unit="cm">
+                                        <height>(215)</height>
+                                        <width>50</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">4-6.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Hispania citerior</placeName>
+                                <placeName type="ancient" ref="#" />
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/3129959">Antes</placeName>
+                            <placeName type="findspot">Pfarrkirche San Cosme, sekund&#228;r verwendet</placeName>
+                            <placeName type="region">La Coru&#241;a</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000484_1" sex="W">
+                            <persName>
+                                <name type="cognomen">Amoena+?</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000484_2" sex="M">
+                            <persName>
+                                <name type="cognomen">Maximus</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-12-12" who="Feraudi">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1983: Z. 1: D(is) M(anibus); AE 1983, Acu&#241;a Castroviejo, Z. 2-5: P N[---]/na Ma/ximo a/nnoru/m. (C): Datierung: 3./4. Jh.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0589. (B)</bibl>
+                    <bibl>F. Acu&#241;a Castroviejo - R. Casal Garc&#237;a, Brigantium 2, 1981, 273-280; Fotos. (BC) - AE 1983.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="e0bdc9a0-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="e0bdcad6-583b-11ee-a136-4e7b8ce151d1">D</c>
+                            <c xml:id="e0bdca90-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="e0bdcb12-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="e0bdcb26-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="e0bdcb6c-583b-11ee-a136-4e7b8ce151d1">M</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="e0bdcc8e-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="e0bdcc66-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="e0bdcc2a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="e0bdcbf8-583b-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="e0bdcbd0-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="e0bdcb9e-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="e0bdccac-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <supplied reason="lost" cert="low">
+                        <c xml:id="e0bdce14-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="e0bdcdec-583b-11ee-a136-4e7b8ce151d1">(</c>
+                        <c xml:id="e0bdcdba-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        <c xml:id="e0bdcd92-583b-11ee-a136-4e7b8ce151d1">c</c>
+                        <c xml:id="e0bdcd60-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        <c xml:id="e0bdcd38-583b-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="e0bdcd10-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        <c xml:id="e0bdccde-583b-11ee-a136-4e7b8ce151d1">)</c>
+                    </supplied>
+                    <c xml:id="e0bdce28-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <expan>
+                        <abbr>
+                            <c xml:id="e0bdce64-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        </abbr>
+                        <ex cert="low">
+                            <c xml:id="e0bdcf40-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="e0bdcf18-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="e0bdcee6-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="e0bdcebe-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="e0bdce96-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="e0bdcf7c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="e0bdcf68-583b-11ee-a136-4e7b8ce151d1">A</c>
+                    <c xml:id="e0bdcf54-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <supplied reason="lost" cert="low">
+                        <c xml:id="e0bdcfe0-583b-11ee-a136-4e7b8ce151d1">o</c>
+                        <c xml:id="e0bdcfb8-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    </supplied>
+                </line>
+                <line break="no" n="3">
+                    <c xml:id="e0bdd044-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="e0bdd030-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="e0bdd01c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="e0bdd008-583b-11ee-a136-4e7b8ce151d1">M</c>
+                    <c xml:id="e0bdcff4-583b-11ee-a136-4e7b8ce151d1">a</c>
+                </line>
+                <line break="no" n="4">
+                    <c xml:id="e0bdd0bc-583b-11ee-a136-4e7b8ce151d1">x</c>
+                    <c xml:id="e0bdd0a8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="e0bdd094-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="e0bdd080-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="e0bdd06c-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="5">
+                    <c xml:id="e0bdd148-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="e0bdd134-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="e0bdd120-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="e0bdd10c-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="e0bdd0f8-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="e0bdd0da-583b-11ee-a136-4e7b8ce151d1">u</c>
+                </line>
+                <line break="no" n="6">
+                    <c xml:id="e0bdd1d4-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="e0bdd1c0-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="e0bdd1ac-583b-11ee-a136-4e7b8ce151d1">L</c>
+                    <c xml:id="e0bdd198-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="e0bdd184-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="e0bdd170-583b-11ee-a136-4e7b8ce151d1">I</c>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

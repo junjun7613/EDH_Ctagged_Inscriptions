@@ -1,0 +1,184 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Baedro, bei &amp;ndash; Belalc&#225;zar (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000933</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000933</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cercada de la Torre, finca</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material>
+                                    <dimensions unit="cm">
+                                        <height>(88)</height>
+                                        <width>43</width>
+                                        <depth>21</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">8.5-9</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Baetica</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/256004">Baedro, bei</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/2521183">Belalc&#225;zar</placeName>
+                            <placeName type="findspot">Finca Cercada de la Torre</placeName>
+                            <placeName type="region">C&#243;rdoba</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000933_1" sex="M">
+                            <persName>
+                                <name type="praenomen">[-]</name>
+                                <name type="nomen">[---]</name>
+                                <name type="cognomen">Peregrinus+?</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-04-06" who="Feraudi">checked with photo</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1982, 0543. (B)</bibl>
+                    <bibl>J.M. Igl&#233;sias Gil, FichEpigr 2, 1982, 8, Nr. 7; Foto 7. (B) - AE 1982.</bibl>
+                    <bibl>CIL 02 (2. Aufl.) 07, 00823.</bibl>
+                    <bibl>AE 1987, 0517.</bibl>
+                    <bibl>A.U. Stylow, MDAI(M) 28, 1987, 75, Nr. 48; Taf. 9b. - AE 1987.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="0">
+                    <c xml:id="ca39fed8-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" quantity="1" unit="line" />
+                    <c xml:id="ca39ff78-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="1">
+                    <supplied reason="lost" cert="low">
+                        <c xml:id="ca3a0022-583b-11ee-a136-4e7b8ce151d1">P</c>
+                        <c xml:id="ca39ffe6-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    </supplied>
+                    <c xml:id="ca3a004a-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="ca3a0036-583b-11ee-a136-4e7b8ce151d1">e</c>
+                </line>
+                <line break="no" n="2">
+                    <supplied reason="lost" cert="low">
+                        <c xml:id="ca3a0090-583b-11ee-a136-4e7b8ce151d1">g</c>
+                    </supplied>
+                    <c xml:id="ca3a00cc-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="ca3a00b8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ca3a00a4-583b-11ee-a136-4e7b8ce151d1">n</c>
+                </line>
+                <line break="no" n="3">
+                    <c xml:id="ca3a011c-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="ca3a00fe-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ca3a00ea-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <expan>
+                        <abbr>
+                            <c xml:id="ca3a018a-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="ca3a0158-583b-11ee-a136-4e7b8ce151d1">n</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="ca3a027a-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="ca3a0252-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="ca3a0220-583b-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="ca3a01f8-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="ca3a01bc-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="ca3a02d4-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ca3a02c0-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="ca3a02ac-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="ca3a028e-583b-11ee-a136-4e7b8ce151d1">X</c>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

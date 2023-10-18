@@ -1,0 +1,276 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sabora, bei &amp;ndash; Ca&#241;ete la Real (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000121</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000121</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ca&#241;ete la Real, Calle Iglesia Baja 11</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <dimensions unit="cm">
+                                        <height>(81)</height>
+                                        <width>53</width>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">5-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Baetica</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/256408">Sabora, bei</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/2520266">Ca&#241;ete la Real</placeName>
+                            <placeName type="findspot">calle Iglesia Baja 11, sekund&#228;r verwendet</placeName>
+                            <placeName type="region">M&#225;laga</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000121_1" sex="W">
+                            <persName>
+                                <name type="nomen">Numeria+</name>
+                                <name type="cognomen">Optata</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-06-10" who="Gr&#228;f">checked with photo</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Rodr&#237;guez Oliva - Atencia Pa&#233;z, AE 1983: Z. 1: Nu[me]ria; Z. 2: [---]XX[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0526. (B)</bibl>
+                    <bibl>P. Rodr&#237;guez Oliva - R. Atencia P&#225;ez, BSEAA 49, 1983, 155-156, Nr. 5; l&#225;m. 3,1; l&#225;m. 5, 2 (Zeichnung). - AE 1983.</bibl>
+                    <bibl>CIL 02 (2. Aufl.) 05, 00884.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="db4bf596-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="db4bf582-583b-11ee-a136-4e7b8ce151d1">N</c>
+                    <c xml:id="db4bf564-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="db4bf4c4-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <supplied reason="lost">
+                        <c xml:id="db4bf5f0-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    </supplied>
+                    <c xml:id="db4bf6cc-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="db4bf6b8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="db4bf6a4-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="db4bf690-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="db4bf67c-583b-11ee-a136-4e7b8ce151d1">O</c>
+                    <c xml:id="db4bf668-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="db4bf654-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="db4bf640-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="db4bf62c-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="db4bf618-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="db4bf604-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bf726-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <am>n</am>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bf802-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="db4bf7d0-583b-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="db4bf794-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="db4bf762-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bf816-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <supplied reason="lost">
+                        <c xml:id="db4bf852-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    </supplied>
+                    <c xml:id="db4bf87a-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="db4bf866-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="db4bf898-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bf8d4-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bf942-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="db4bf906-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bf99c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="db4bf988-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="db4bf974-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="db4bf956-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <c xml:id="db4bf9d8-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="db4bf9c4-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <supplied reason="lost">
+                        <c xml:id="db4bfa3c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="db4bfa14-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    </supplied>
+                    <c xml:id="db4bfa50-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bfa8c-583b-11ee-a136-4e7b8ce151d1">h</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bfae6-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="db4bfabe-583b-11ee-a136-4e7b8ce151d1">c</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bfafa-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bfb40-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bfbe0-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="db4bfb9a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="db4bfb72-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bfbf4-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bfc30-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bfc8a-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="db4bfc62-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bfc9e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bfcda-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bfd34-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="db4bfd0c-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bfd48-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bfd84-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4bfdfc-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="db4bfdd4-583b-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="db4bfdac-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="db4bfe10-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <supplied reason="lost">
+                        <expan>
+                            <abbr>
+                                <c xml:id="db4bfe6a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                            </abbr>
+                            <ex>
+                                <c xml:id="db4bff1e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                                <c xml:id="db4bfef6-583b-11ee-a136-4e7b8ce151d1">r</c>
+                                <c xml:id="db4bfece-583b-11ee-a136-4e7b8ce151d1">r</c>
+                                <c xml:id="db4bfe9c-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            </ex>
+                        </expan>
+                    </supplied>
+                    <c xml:id="db4bff3c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="db4bff6e-583b-11ee-a136-4e7b8ce151d1">l</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="db4c0022-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="db4bfffa-583b-11ee-a136-4e7b8ce151d1">v</c>
+                            <c xml:id="db4bffc8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="db4bffa0-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

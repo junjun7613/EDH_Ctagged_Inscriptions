@@ -1,0 +1,263 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salinae &amp;ndash; Castellane (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000051</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000051</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Castellane, S. Victor, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <material>Gesteine unbestimmt</material>
+                                    <dimensions unit="cm">
+                                        <height>46</height>
+                                        <width>44</width>
+                                        <depth>41</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">3-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Alpes Maritimae</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/157920">Salinae</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/3017382">France</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/3028382">Castellane</placeName>
+                            <placeName type="findspot">Notre-Dame-du-Plan, Kirche, bei</placeName>
+                            <placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000051_1" sex="M">
+                            <persName>
+                                <name type="praenomen">[-]</name>
+                                <name type="nomen">[---]atius</name>
+                                <name type="cognomen">Severus</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-07-19" who="Cimarosti">checked with photo</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1983; ILGN 011: Leseabweichungen. Eingemei&#223;elt (capitalis rustica). Bearbeiterin: V. Pettirossi. Z. 4: [nos ---]m III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0646. (B)</bibl>
+                    <bibl>ILGN 011. (B)</bibl>
+                    <bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 131-132, Nr. 32; Foto.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="0">
+                    <c xml:id="fa54731e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" quantity="1" unit="line" />
+                    <c xml:id="fa547396-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="1">
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="fa5473be-583b-11ee-a136-4e7b8ce151d1">A</c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="fa54740e-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="fa5473fa-583b-11ee-a136-4e7b8ce151d1">E</c>
+                    <c xml:id="fa5473e6-583b-11ee-a136-4e7b8ce151d1">O</c>
+                    <c xml:id="fa5473d2-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="fa547512-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="fa5474fe-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="fa5474ea-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa5474d6-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="fa5474c2-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="fa5474ae-583b-11ee-a136-4e7b8ce151d1">S</c>
+                    <c xml:id="fa54749a-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="fa547486-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="fa547472-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="fa54745e-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="fa54744a-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="fa547436-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <expan>
+                        <abbr>
+                            <c xml:id="fa547580-583b-11ee-a136-4e7b8ce151d1">f</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="fa547652-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="fa547620-583b-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="fa5475ee-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="fa5475c6-583b-11ee-a136-4e7b8ce151d1">o</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="fa547774-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="fa547760-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="fa54774c-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="fa54772e-583b-11ee-a136-4e7b8ce151d1">b</c>
+                    <c xml:id="fa54771a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa547706-583b-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="fa5476f2-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa5476d4-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="fa5476c0-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="fa5476ac-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa547698-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="fa54767a-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="fa547666-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <expan>
+                        <abbr>
+                            <c xml:id="fa5477ce-583b-11ee-a136-4e7b8ce151d1">q</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="fa547828-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="fa547800-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="fa5478e6-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="fa5478d2-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="fa5478b4-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa5478a0-583b-11ee-a136-4e7b8ce151d1">x</c>
+                    <c xml:id="fa54788c-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="fa54786e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa54785a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="fa54783c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <note>sic</note>
+                    <c xml:id="fa547918-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="fa54797c-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="fa547954-583b-11ee-a136-4e7b8ce151d1">n</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="fa547a08-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="fa5479e0-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="fa5479ae-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="fa547a1c-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="5">
+                    <c xml:id="fa547aee-583b-11ee-a136-4e7b8ce151d1">q</c>
+                    <c xml:id="fa547ad0-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="fa547abc-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="fa547a9e-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="fa547a8a-583b-11ee-a136-4e7b8ce151d1">q</c>
+                    <c xml:id="fa547a6c-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="fa547a58-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="fa547a3a-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="fa547b34-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="fa547c10-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="fa547be8-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="fa547bc0-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="fa547b8e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="fa547b66-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="fa547c74-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="fa547c56-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="fa547c42-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="fa547c24-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="fa547cba-583b-11ee-a136-4e7b8ce151d1">d</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="fa547d3c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="fa547d14-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="fa547ce2-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="fa547d50-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

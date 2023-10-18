@@ -1,0 +1,244 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Morro (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000593</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000593</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Gregorio Maggiore, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="#">cippus?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <dimensions unit="cm">
+                                        <height>118</height>
+                                        <width>54</width>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <ab />
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Umbria (Regio VI)</placeName>
+                                <placeName type="ancient" ref="#" />
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="-1955">
+                            <placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName>
+                            <placeName type="modern">Morro</placeName>
+                            <placeName type="findspot">Kirche von Morro, sekund&#228;r verwendet</placeName>
+                            <placeName type="region">Marche</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000593_1" sex="M">
+                            <persName>
+                                <name type="praenomen">C.</name>
+                                <name type="nomen">Arrius+?</name>
+                                <name type="cognomen">[---]ius</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000593_2" sex="M">
+                            <persName>
+                                <name type="praenomen">C.</name>
+                                <name type="nomen">Arrius</name>
+                                <name type="cognomen">P[---]</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-12-18" who="Feraudi">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): A. Rambaldi Z. 2: C. Ap[---] statt C. Ar[---]; G. Alf&#246;ldy (m&#252;ndlich), A. Scheithauer: Z. 5: p[atri bene m]er(enti); AE 1983: Z. 5: [fec]er(unt) oder [posu]er(unt) statt [m]er(enti). (C): Grabinschrift des Sohnes f&#252;r seinen Vater statt der Eltern f&#252;r ihren Sohn.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0351. (BC)</bibl>
+                    <bibl>A. Rambaldi, Spoletium 11, 1962, 4, Nr. 6. (BC) - AE 1983.</bibl>
+                    <bibl>A. Scheithauer, ZPE 76, 1989, 150-151, Nr. 3.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="114df4aa-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="114df518-583c-11ee-a136-4e7b8ce151d1">D</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="114df590-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="114df55e-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="114df5a4-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="114df5e0-583c-11ee-a136-4e7b8ce151d1">M</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="114df70c-583c-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="114df6da-583c-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="114df6a8-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="114df676-583c-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="114df644-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="114df612-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="114df720-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <expan>
+                        <abbr>
+                            <c xml:id="114df75c-583c-11ee-a136-4e7b8ce151d1">C</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="114df8d8-583c-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="114df89c-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="114df842-583c-11ee-a136-4e7b8ce151d1">o</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="114df928-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="114df914-583c-11ee-a136-4e7b8ce151d1">A</c>
+                    <c xml:id="114df8f6-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <supplied reason="lost">
+                        <c xml:id="114df9c8-583c-11ee-a136-4e7b8ce151d1">r</c>
+                        <c xml:id="114df996-583c-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="114df964-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    </supplied>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="114dfa04-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="114df9f0-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="114df9dc-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <expan>
+                        <abbr>
+                            <c xml:id="114dfa40-583c-11ee-a136-4e7b8ce151d1">C</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="114dfaf4-583c-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="114dfacc-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="114dfaa4-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="114dfa72-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="114dfb9e-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="114dfb80-583c-11ee-a136-4e7b8ce151d1">A</c>
+                    <c xml:id="114dfb76-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="114dfb58-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="114dfb44-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="114dfb30-583c-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="114dfb1c-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="114dfb08-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <c xml:id="114dfbc6-583c-11ee-a136-4e7b8ce151d1">P</c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="114dfbe4-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="5">
+                    <c xml:id="114dfbf8-583c-11ee-a136-4e7b8ce151d1">p</c>
+                    <supplied reason="lost">
+                        <c xml:id="114dfdd8-583c-11ee-a136-4e7b8ce151d1">a</c>
+                        <c xml:id="114dfdb0-583c-11ee-a136-4e7b8ce151d1">t</c>
+                        <c xml:id="114dfd88-583c-11ee-a136-4e7b8ce151d1">r</c>
+                        <c xml:id="114dfd56-583c-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="114dfd2e-583c-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="114dfd06-583c-11ee-a136-4e7b8ce151d1">b</c>
+                        <c xml:id="114dfcde-583c-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="114dfcb6-583c-11ee-a136-4e7b8ce151d1">n</c>
+                        <c xml:id="114dfc8e-583c-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="114dfc66-583c-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="114dfc34-583c-11ee-a136-4e7b8ce151d1">m</c>
+                    </supplied>
+                    <expan>
+                        <abbr>
+                            <c xml:id="114dfe32-583c-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="114dfe0a-583c-11ee-a136-4e7b8ce151d1">r</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="114dfedc-583c-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="114dfeb4-583c-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="114dfe8c-583c-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="114dfe64-583c-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

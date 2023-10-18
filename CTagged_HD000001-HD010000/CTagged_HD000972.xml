@@ -1,0 +1,308 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gades &amp;ndash; C&#225;diz (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000972</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000972</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>C&#225;diz, Mus. Arqueol&#243;gico</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+                                    <material>Marmor, ge&#228;dert / farbig</material>
+                                    <dimensions unit="cm">
+                                        <height>13</height>
+                                        <width>27</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">2.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Baetica</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/256177">Gades</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/2520600">C&#225;diz</placeName>
+                            <placeName type="findspot" />
+                            <placeName type="region">C&#225;diz</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000972_1" sex="M">
+                            <persName>
+                                <name type="praenomen">C.</name>
+                                <name type="nomen">Arrius</name>
+                                <name type="cognomen">Heraclida</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000972_2" sex="M">
+                            <persName>
+                                <name type="cognomen">Probatus</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-12-30" who="Feraudi">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(C): Gonz&#225;lez: Datierung Ende 2.Jh. Material: schwarzer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1982, 0560.</bibl>
+                    <bibl>J. Gonz&#225;lez Fern&#225;ndez, Inscripciones romanas de la provincia de C&#225;diz (C&#225;diz 1982) 253, Nr. 498; l&#225;m. 142. (C) - AE 1982.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="329d96c4-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9728-583c-11ee-a136-4e7b8ce151d1">C</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d97f0-583c-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="329d97be-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="329d9796-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="329d9764-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d994e-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="329d993a-583c-11ee-a136-4e7b8ce151d1">A</c>
+                    <c xml:id="329d9926-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329d9912-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329d98fe-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="329d98ea-583c-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="329d98d6-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="329d98c2-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="329d98ae-583c-11ee-a136-4e7b8ce151d1">H</c>
+                    <c xml:id="329d98a4-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329d9890-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329d987c-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="329d9868-583c-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="329d9854-583c-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="329d9840-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="329d982c-583c-11ee-a136-4e7b8ce151d1">d</c>
+                    <c xml:id="329d9818-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="329d9804-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d99bc-583c-11ee-a136-4e7b8ce151d1">n</c>
+                            <am>n</am>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d9a8e-583c-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="329d9a5c-583c-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="329d9a2a-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="329d99f8-583c-11ee-a136-4e7b8ce151d1">m</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d9b06-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="329d9af2-583c-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="329d9ade-583c-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="329d9aca-583c-11ee-a136-4e7b8ce151d1">V</c>
+                    <c xml:id="329d9ab6-583c-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="329d9aa2-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9b56-583c-11ee-a136-4e7b8ce151d1">h</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d9bba-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="329d9b88-583c-11ee-a136-4e7b8ce151d1">c</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d9bce-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9c0a-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d9cd2-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="329d9ca0-583c-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="329d9c6e-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="329d9c46-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d9ce6-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9d22-583c-11ee-a136-4e7b8ce151d1">e</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d9d86-583c-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="329d9d54-583c-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d9d9a-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9dd6-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d9e30-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="329d9e08-583c-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d9e44-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9e80-583c-11ee-a136-4e7b8ce151d1">t</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329d9f0c-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="329d9ee4-583c-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="329d9eb2-583c-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329d9f20-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329d9f5c-583c-11ee-a136-4e7b8ce151d1">t</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329da010-583c-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="329d9fe8-583c-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="329d9fb6-583c-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="329d9f8e-583c-11ee-a136-4e7b8ce151d1">a</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329da024-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="329da060-583c-11ee-a136-4e7b8ce151d1">l</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="329da114-583c-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="329da0ec-583c-11ee-a136-4e7b8ce151d1">v</c>
+                            <c xml:id="329da0c4-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="329da092-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="329da128-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <c xml:id="329da2b8-583c-11ee-a136-4e7b8ce151d1">P</c>
+                    <c xml:id="329da29a-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329da286-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="329da268-583c-11ee-a136-4e7b8ce151d1">b</c>
+                    <c xml:id="329da254-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="329da240-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="329da222-583c-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="329da20e-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="329da1f0-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="329da1dc-583c-11ee-a136-4e7b8ce151d1">f</c>
+                    <c xml:id="329da1c8-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329da1b4-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="329da196-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="329da182-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329da164-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329da150-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <c xml:id="329da4ac-583c-11ee-a136-4e7b8ce151d1">b</c>
+                    <c xml:id="329da498-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329da47a-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="329da466-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329da448-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="329da42a-583c-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="329da416-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329da3f8-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="329da3e4-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329da3c6-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="329da3a8-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="329da394-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="329da376-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="329da358-583c-11ee-a136-4e7b8ce151d1">d</c>
+                    <c xml:id="329da344-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="329da326-583c-11ee-a136-4e7b8ce151d1">d</c>
+                    <c xml:id="329da312-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="329da2f4-583c-11ee-a136-4e7b8ce151d1">t</c>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

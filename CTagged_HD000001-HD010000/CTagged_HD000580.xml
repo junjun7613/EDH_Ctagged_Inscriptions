@@ -1,0 +1,273 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tibur, bei? &amp;ndash; Tivoli, bei? (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000580</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000580</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <dimensions unit="cm">
+                                        <height>(35)</height>
+                                        <width>25</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <ab />
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Latium et Campania (Regio I)</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423081">Tibur, bei?</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName>
+                            <placeName type="modern">Tivoli, bei?</placeName>
+                            <placeName type="findspot">Grab bei Fosso Capaldo</placeName>
+                            <placeName type="region">Roma</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000580_1" sex="M">
+                            <persName>
+                                <name type="cognomen">Corus</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000580_2" sex="M">
+                            <persName>
+                                <name type="praenomen">P.</name>
+                                <name type="nomen">Laetorius</name>
+                                <name type="cognomen">Laetus+?</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000580_3" sex="M">
+                            <persName>
+                                <name type="praenomen">[-]</name>
+                                <name type="nomen">[---]</name>
+                                <name type="cognomen">Proculus+?</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="1997-07-29" who="Niquet">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>H&#246;henangabe nicht in Originalpublikation enthalten. (B): Z. 3: AE, Solin: Plaetori; Z. 5: AE:[---]his; Z. 6: Mari: proc[uratori?]; Z. 6/7: AE: [patri] ind[ulgentissimo] (?). (C): Z. 4/5: Erg&#228;nzung Eparchis wenig plausibel, eher Filiarchis; Z.7: AE: IN[---]. - Corus nicht mit Chorus identisch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0153. (B)</bibl>
+                    <bibl>Z. Mari, Tibur, Forma Italiae, Regio I 17 (Firenze 1983) 191-192, Nr. 199; fig. 310. (BC)</bibl>
+                    <bibl>H. Solin, Arctos 17, 1983, 98. (B)</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="3188ce66-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="3188ce52-583c-11ee-a136-4e7b8ce151d1">D</c>
+                    <c xml:id="3188ce3e-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188ce2a-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="3188ce20-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="3188ce0c-583c-11ee-a136-4e7b8ce151d1">M</c>
+                    <c xml:id="3188cdf8-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="3188cde4-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="3188cdd0-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188cdb2-583c-11ee-a136-4e7b8ce151d1">b</c>
+                    <c xml:id="3188cd44-583c-11ee-a136-4e7b8ce151d1">u</c>
+                    <supplied reason="lost">
+                        <c xml:id="3188ced4-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    </supplied>
+                    <c xml:id="3188cef2-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <c xml:id="3188cf60-583c-11ee-a136-4e7b8ce151d1">C</c>
+                    <c xml:id="3188cf4c-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="3188cf38-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="3188cf24-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188cf10-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <expan>
+                        <abbr>
+                            <c xml:id="3188cfb0-583c-11ee-a136-4e7b8ce151d1">P</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="3188d064-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="3188d03c-583c-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="3188d014-583c-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="3188cfe2-583c-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="3188d15e-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="3188d14a-583c-11ee-a136-4e7b8ce151d1">L</c>
+                    <c xml:id="3188d12c-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="3188d118-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="3188d104-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="3188d0e6-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="3188d0d2-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="3188d0be-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188d0aa-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="3188d096-583c-11ee-a136-4e7b8ce151d1">L</c>
+                    <c xml:id="3188d082-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <supplied reason="lost" cert="low">
+                        <c xml:id="3188d226-583c-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="3188d1ea-583c-11ee-a136-4e7b8ce151d1">t</c>
+                        <c xml:id="3188d1b8-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    </supplied>
+                    <c xml:id="3188d23a-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <c xml:id="3188d2da-583c-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="3188d2c6-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="3188d2b2-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="3188d294-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="3188d280-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="3188d26c-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="3188d258-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="3188d32a-583c-11ee-a136-4e7b8ce151d1">E</c>
+                        </abbr>
+                        <ex cert="low" />
+                    </expan>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                </line>
+                <line break="no" n="5">
+                    <expan>
+                        <abbr>
+                            <c xml:id="3188d41a-583c-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="3188d3f2-583c-11ee-a136-4e7b8ce151d1">c</c>
+                            <c xml:id="3188d3b6-583c-11ee-a136-4e7b8ce151d1">h</c>
+                            <c xml:id="3188d38e-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="3188d366-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex cert="low" />
+                    </expan>
+                    <c xml:id="3188d46a-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="3188d44c-583c-11ee-a136-4e7b8ce151d1">P</c>
+                    <c xml:id="3188d438-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="3188d488-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="6">
+                    <c xml:id="3188d4f6-583c-11ee-a136-4e7b8ce151d1">P</c>
+                    <c xml:id="3188d4e2-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="3188d4c4-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="3188d4b0-583c-11ee-a136-4e7b8ce151d1">c</c>
+                    <supplied reason="lost">
+                        <c xml:id="3188d5be-583c-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="3188d596-583c-11ee-a136-4e7b8ce151d1">l</c>
+                        <c xml:id="3188d564-583c-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="3188d53c-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        <certainty locus="name" match="preceding-sibling::text()" cert="low" />
+                        <gap reason="lost" extent="unknown" unit="character" />
+                    </supplied>
+                    <c xml:id="3188d5d2-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="7">
+                    <c xml:id="3188d780-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188d762-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="3188d744-583c-11ee-a136-4e7b8ce151d1">d</c>
+                    <c xml:id="3188d730-583c-11ee-a136-4e7b8ce151d1">[</c>
+                    <c xml:id="3188d712-583c-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="3188d6f4-583c-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="3188d6e0-583c-11ee-a136-4e7b8ce151d1">g</c>
+                    <c xml:id="3188d6c2-583c-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="3188d6a4-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="3188d690-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="3188d672-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188d654-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="3188d640-583c-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="3188d622-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="3188d60e-583c-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="3188d5f0-583c-11ee-a136-4e7b8ce151d1">o</c>
+                    <certainty match="preceding-sibling::node()" locus="value" />
+                    <c xml:id="3188d870-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="3188d852-583c-11ee-a136-4e7b8ce151d1">-</c>
+                    <c xml:id="3188d834-583c-11ee-a136-4e7b8ce151d1">-</c>
+                    <c xml:id="3188d816-583c-11ee-a136-4e7b8ce151d1">-</c>
+                    <c xml:id="3188d7f8-583c-11ee-a136-4e7b8ce151d1">-</c>
+                    <c xml:id="3188d7da-583c-11ee-a136-4e7b8ce151d1">-</c>
+                    <c xml:id="3188d7bc-583c-11ee-a136-4e7b8ce151d1">-</c>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

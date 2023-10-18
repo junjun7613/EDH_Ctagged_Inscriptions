@@ -1,0 +1,245 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bracara Augusta &amp;ndash; Braga (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000171</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000171</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Braga, Mus. Pio XII Braga</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material>
+                                    <dimensions unit="cm">
+                                        <height>(70)</height>
+                                        <width>48</width>
+                                        <depth>18</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">7-8.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Hispania citerior</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/236377">Bracara Augusta</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/2742032">Braga</placeName>
+                            <placeName type="findspot">Casa do Avelar</placeName>
+                            <placeName type="region">Braga</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000171_1" sex="M">
+                            <persName>
+                                <name type="cognomen">[---]</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000171_2" sex="M">
+                            <persName>
+                                <name type="cognomen">Cundena</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-01-08" who="Gr&#228;f">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>4 aneinanderpassende Fragmente erhalten. EphEp: Zugeh&#246;rigkeit der Fragmente zu einer Inschrift nicht erkannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0570.</bibl>
+                    <bibl>L. Dos Santos - P. Le Roux - A. Tranoy, Inscri&#231;&#245;es romanas do Museu Pio XII em Braga (Braga 1983) 18-19, Nr. 24; l&#225;m. 9, 31.</bibl>
+                    <bibl>EphEp 8, p. 406 n. 125a-b.</bibl>
+                    <bibl>L. Dos Santos - P. Le Roux - A. Tranoy, Bracara Augusta 37, 1983, 196-197, Nr. 24; l&#225;m. 9, 31. - AE 1983.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="0">
+                    <c xml:id="a312ef18-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" quantity="1" unit="line" />
+                    <c xml:id="a312efa4-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="1">
+                    <c xml:id="a312f026-583b-11ee-a136-4e7b8ce151d1">C</c>
+                    <c xml:id="a312f012-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="a312eff4-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="a312efe0-583b-11ee-a136-4e7b8ce151d1">d</c>
+                    <c xml:id="a312efcc-583b-11ee-a136-4e7b8ce151d1">e</c>
+                </line>
+                <line break="no" n="2">
+                    <c xml:id="a312f094-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="a312f080-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="a312f062-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="a312f04e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="a312f0ee-583b-11ee-a136-4e7b8ce151d1">f</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="a312f1fc-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="a312f1ca-583b-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="a312f18e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="a312f15c-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="a312f12a-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="a312f210-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <c xml:id="a312f292-583b-11ee-a136-4e7b8ce151d1">C</c>
+                    <c xml:id="a312f27e-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="a312f26a-583b-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="a312f24c-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="a312f22e-583b-11ee-a136-4e7b8ce151d1">d</c>
+                </line>
+                <line break="no" n="4">
+                    <c xml:id="a312f2ba-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <supplied reason="lost">
+                        <c xml:id="a312f300-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    </supplied>
+                    <c xml:id="a312f346-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="a312f332-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="a312f31e-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="5">
+                    <supplied reason="lost">
+                        <expan>
+                            <abbr>
+                                <c xml:id="a312f3c8-583b-11ee-a136-4e7b8ce151d1">a</c>
+                                <c xml:id="a312f396-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            </abbr>
+                            <ex>
+                                <c xml:id="a312f4cc-583b-11ee-a136-4e7b8ce151d1">n</c>
+                                <c xml:id="a312f49a-583b-11ee-a136-4e7b8ce151d1">o</c>
+                                <c xml:id="a312f468-583b-11ee-a136-4e7b8ce151d1">r</c>
+                                <c xml:id="a312f436-583b-11ee-a136-4e7b8ce151d1">u</c>
+                                <c xml:id="a312f404-583b-11ee-a136-4e7b8ce151d1">m</c>
+                            </ex>
+                        </expan>
+                    </supplied>
+                    <c xml:id="a312f54e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="a312f530-583b-11ee-a136-4e7b8ce151d1">L</c>
+                    <c xml:id="a312f51c-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="a312f4fe-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="a312f4e0-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="6">
+                    <supplied reason="lost">
+                        <expan>
+                            <abbr>
+                                <c xml:id="a312f59e-583b-11ee-a136-4e7b8ce151d1">h</c>
+                            </abbr>
+                            <ex>
+                                <c xml:id="a312f602-583b-11ee-a136-4e7b8ce151d1">i</c>
+                                <c xml:id="a312f5d0-583b-11ee-a136-4e7b8ce151d1">c</c>
+                            </ex>
+                        </expan>
+                        <c xml:id="a312f620-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <expan>
+                            <abbr>
+                                <c xml:id="a312f65c-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            </abbr>
+                            <ex>
+                                <c xml:id="a312f724-583b-11ee-a136-4e7b8ce151d1">i</c>
+                                <c xml:id="a312f6f2-583b-11ee-a136-4e7b8ce151d1">t</c>
+                                <c xml:id="a312f6c0-583b-11ee-a136-4e7b8ce151d1">u</c>
+                                <c xml:id="a312f68e-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            </ex>
+                        </expan>
+                    </supplied>
+                    <c xml:id="a312f738-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="a312f77e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="a312f7e2-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="a312f7b0-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

@@ -1,0 +1,357 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Durocortorum Remorum &amp;ndash; Reims (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000450</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000450</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">20</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Belgica</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/108945">Durocortorum Remorum</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0002" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2 AD - 14 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1978">
+                            <placeName type="country" ref="https://www.geonames.org/3017382">France</placeName>
+                            <placeName type="modern">Reims</placeName>
+                            <placeName type="findspot">sp&#228;tantike Stadtmauer, sekund&#228;r verwendet</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000450_1" sex="M">
+                            <persName ref="https://www.wikidata.org/wiki/Q298162">
+                                <name type="praenomen">C.+</name>
+                                <name type="nomen">Caesar+</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000450_2" sex="M">
+                            <persName ref="https://www.wikidata.org/wiki/Q1405">
+                                <name type="cognomen">Augustus</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000450_3" sex="M">
+                            <persName ref="https://www.wikidata.org/wiki/Q313735">
+                                <name type="praenomen">L.+</name>
+                                <name type="nomen">Caesar+</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-08-12" who="Feraudi">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="F022646" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a615bb49-c942-4c15-bdae-6f4b87f58af2/file/id/782812/file_version/name/small" />
+        <graphic xml:id="F022647" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4833f700-6b39-4f67-a13d-917edfba9ef9/file/id/782813/file_version/name/small" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vassileiou verbindet die von Fr&#233;zouls publizierten Teile mit CIL 13, 3254. Die Neufunde waren in der Stadtmauer sekund&#228;r verbaut. Vermutlich geh&#246;rten ebda. aufgefundene Architekturteile zum selben Objekt. - Y: Terminus post quem: &#220;bernahme des Imperatortitels durch Gaius (2 oder 3); wahrscheinlich ist Erstellung erst nach Tod desselben (4 n.Chr.), da er nach Vassileious Ausf&#252;hrungen, gew&#246;hnlich erst nach seinem Tod auf Inschriften Imperator genannt wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1982, 0715.</bibl>
+                    <bibl>A. Vassileiou, ZPE 47, 1982, 119-129. - AE 1982.</bibl>
+                    <bibl>AE 1979, 0411.</bibl>
+                    <bibl>E. Fr&#233;zouls, Gallia 37, 1979, 424; fig. 19. - AE 1979.</bibl>
+                    <bibl>CIL 13, 03254.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="d8e363f2-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <supplied reason="lost">
+                        <expan>
+                            <abbr>
+                                <c xml:id="d8e364ba-583b-11ee-a136-4e7b8ce151d1">C</c>
+                            </abbr>
+                            <ex>
+                                <c xml:id="d8e3653c-583b-11ee-a136-4e7b8ce151d1">a</c>
+                                <c xml:id="d8e3650a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            </ex>
+                        </expan>
+                        <c xml:id="d8e3674e-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e3673a-583b-11ee-a136-4e7b8ce151d1">C</c>
+                        <c xml:id="d8e36726-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        <c xml:id="d8e36712-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="d8e366fe-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e366ea-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        <c xml:id="d8e366d6-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        <c xml:id="d8e366c2-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e366ae-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e3669a-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36686-583b-11ee-a136-4e7b8ce151d1">A</c>
+                        <c xml:id="d8e3667c-583b-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="d8e36668-583b-11ee-a136-4e7b8ce151d1">g</c>
+                        <c xml:id="d8e36654-583b-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="d8e36640-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e3662c-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        <c xml:id="d8e36618-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36604-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e365f0-583b-11ee-a136-4e7b8ce151d1">f</c>
+                        <c xml:id="d8e365dc-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e365d2-583b-11ee-a136-4e7b8ce151d1">l</c>
+                        <c xml:id="d8e365be-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e365aa-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36596-583b-11ee-a136-4e7b8ce151d1">D</c>
+                        <c xml:id="d8e36582-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e3656e-583b-11ee-a136-4e7b8ce151d1">v</c>
+                        <c xml:id="d8e3655a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    </supplied>
+                    <c xml:id="d8e369b0-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e3699c-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="d8e36988-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="d8e36974-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="d8e36960-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="d8e3694c-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e36938-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e36924-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e36910-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e368fc-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="d8e368e8-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="d8e368d4-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="d8e368c0-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e368ac-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e36898-583b-11ee-a136-4e7b8ce151d1">f</c>
+                    <c xml:id="d8e36884-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e36870-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="d8e3685c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e36848-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e36834-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e36820-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="d8e3680c-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="d8e367f8-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="d8e367e4-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e367d0-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="d8e367bc-583b-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="d8e367a8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <supplied reason="lost">
+                        <c xml:id="d8e36ae6-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e36abe-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36a8c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36a50-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    </supplied>
+                    <c xml:id="d8e36be0-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="d8e36bcc-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="d8e36bb8-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="d8e36b9a-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="d8e36b86-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e36b72-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="d8e36b54-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="d8e36b40-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e36b18-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e36b04-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <supplied reason="lost">
+                        <expan>
+                            <abbr>
+                                <c xml:id="d8e36c3a-583b-11ee-a136-4e7b8ce151d1">L</c>
+                            </abbr>
+                            <ex>
+                                <c xml:id="d8e36cd0-583b-11ee-a136-4e7b8ce151d1">u</c>
+                                <c xml:id="d8e36c9e-583b-11ee-a136-4e7b8ce151d1">c</c>
+                                <c xml:id="d8e36c6c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            </ex>
+                        </expan>
+                        <c xml:id="d8e36f28-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36f14-583b-11ee-a136-4e7b8ce151d1">C</c>
+                        <c xml:id="d8e36f00-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        <c xml:id="d8e36eec-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="d8e36ed8-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e36ece-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        <c xml:id="d8e36eba-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        <c xml:id="d8e36ea6-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36e92-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e36e7e-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36e6a-583b-11ee-a136-4e7b8ce151d1">A</c>
+                        <c xml:id="d8e36e56-583b-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="d8e36e42-583b-11ee-a136-4e7b8ce151d1">g</c>
+                        <c xml:id="d8e36e2e-583b-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="d8e36e1a-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        <c xml:id="d8e36e06-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        <c xml:id="d8e36dfc-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36de8-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36dd4-583b-11ee-a136-4e7b8ce151d1">f</c>
+                        <c xml:id="d8e36dc0-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36dac-583b-11ee-a136-4e7b8ce151d1">l</c>
+                        <c xml:id="d8e36d98-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36d84-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36d7a-583b-11ee-a136-4e7b8ce151d1">D</c>
+                        <c xml:id="d8e36d66-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36d52-583b-11ee-a136-4e7b8ce151d1">v</c>
+                        <c xml:id="d8e36d3e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="d8e36d2a-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <c xml:id="d8e36d16-583b-11ee-a136-4e7b8ce151d1">n</c>
+                        <c xml:id="d8e36d0c-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="d8e36cf8-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        <c xml:id="d8e36ce4-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    </supplied>
+                    <c xml:id="d8e3722a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e3720c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e371f8-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e371da-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e371bc-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="d8e371a8-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="d8e3718a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e3716c-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="d8e3714e-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="d8e3713a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e37126-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="d8e37108-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e370f4-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e370d6-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e370c2-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e370a4-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="d8e37086-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="d8e37072-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="d8e3705e-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="d8e37040-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e3702c-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="d8e3700e-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e36ffa-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e36fdc-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e36fc8-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e36faa-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="d8e36f96-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <expan>
+                        <ex>
+                            <c xml:id="d8e372ac-583b-11ee-a136-4e7b8ce151d1">n</c>
+                        </ex>
+                        <abbr>
+                            <c xml:id="d8e372de-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="d8e3739c-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="d8e3736a-583b-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="d8e37342-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="d8e37310-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="d8e373b0-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="d8e374dc-583b-11ee-a136-4e7b8ce151d1">d</c>
+                            <c xml:id="d8e374aa-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="d8e37482-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="d8e37450-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="d8e37428-583b-11ee-a136-4e7b8ce151d1">g</c>
+                            <c xml:id="d8e373f6-583b-11ee-a136-4e7b8ce151d1">n</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="d8e37568-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="d8e37536-583b-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="d8e3750e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="d8e37662-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="d8e37644-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="d8e37626-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="d8e37612-583b-11ee-a136-4e7b8ce151d1">g</c>
+                    <c xml:id="d8e375f4-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="d8e375d6-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="d8e375b8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e3759a-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e3757c-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <c xml:id="d8e377a2-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="d8e37784-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e37766-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="d8e37748-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="d8e3772a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="d8e3770c-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="d8e376bc-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="d8e3769e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <supplied reason="lost">
+                        <c xml:id="d8e3790a-583b-11ee-a136-4e7b8ce151d1">R</c>
+                        <c xml:id="d8e378e2-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="d8e378b0-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        <c xml:id="d8e37888-583b-11ee-a136-4e7b8ce151d1">o</c>
+                        <c xml:id="d8e37856-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        <c xml:id="d8e3782e-583b-11ee-a136-4e7b8ce151d1">u</c>
+                        <c xml:id="d8e377fc-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    </supplied>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

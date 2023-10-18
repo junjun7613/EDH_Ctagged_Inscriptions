@@ -1,0 +1,224 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Monticelli di Esperia (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000983</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000983</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <dimensions unit="cm">
+                                        <height>(20)</height>
+                                        <width>(15)</width>
+                                        <depth>5</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <ab />
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Latium et Campania (Regio I)</placeName>
+                                <placeName type="ancient" ref="#" />
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1923">
+                            <placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName>
+                            <placeName type="modern">Monticelli di Esperia</placeName>
+                            <placeName type="findspot">Pichini (Costa del Diavolo)</placeName>
+                            <placeName type="region">Roma</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000983_1" sex="W">
+                            <persName>
+                                <name type="nomen">Papiria</name>
+                                <name type="cognomen">[---]ria</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="1997-08-23" who="Niquet">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(A): Tiefe: 15 statt 5.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0155. (A)</bibl>
+                    <bibl>Z. Mari, Tibur, Forma Italiae, Regio I 17 (Firenze 1983) 202, Nr. 213; fig. 332,2 (Zeichnung). - AE 1983.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="946fe722-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="946fe7f4-583b-11ee-a136-4e7b8ce151d1">D</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="946fe86c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="946fe83a-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="946fe880-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="946fe8bc-583b-11ee-a136-4e7b8ce151d1">M</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="946fe9c0-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="946fe998-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="946fe970-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="946fe93e-583b-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="946fe916-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="946fe8ee-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="946fe9d4-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <c xml:id="946fea88-583b-11ee-a136-4e7b8ce151d1">P</c>
+                    <c xml:id="946fea74-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="946fea60-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="946fea4c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="946fea38-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="946fea2e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="946fea1a-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="946fea06-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="946fe9f2-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                </line>
+                <line break="no" n="3">
+                    <c xml:id="946feb3c-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="946feb28-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="946feb14-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="946feb00-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="946feaec-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="946fead8-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="946feac4-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="946feab0-583b-11ee-a136-4e7b8ce151d1">x</c>
+                    <supplied reason="lost">
+                        <c xml:id="946febd2-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        <c xml:id="946febaa-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        <c xml:id="946feb82-583b-11ee-a136-4e7b8ce151d1"></c>
+                        <expan>
+                            <abbr>a</abbr>
+                            <ex>nnos</ex>
+                        </expan>
+                    </supplied>
+                    <c xml:id="946febe6-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <c xml:id="946fec36-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="946fec22-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="946fec0e-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="946febfa-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="946fec7c-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="946fed4e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="946fed26-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="946fecfe-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="946fecd6-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="946feca4-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="946fed9e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="946fed8a-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="946fed76-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="946fed62-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="946fedda-583b-11ee-a136-4e7b8ce151d1">d</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="946fee52-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="946fee2a-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="946fee02-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="946fee66-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" quantity="1" unit="line" />
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

@@ -1,0 +1,216 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae Calidae &amp;ndash; Hammam-Righa (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000469</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000469</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Khemis-Miliana</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <dimensions unit="cm">
+                                        <height>71</height>
+                                        <width>40</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">6-8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Mauretania Caesariensis</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/246169">Aquae Calidae</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName>
+                            <placeName type="modern">Hammam-Righa</placeName>
+                            <placeName type="findspot" />
+                            <placeName type="region">Ech Cheliff</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000469_1" sex="W">
+                            <persName>
+                                <name type="nomen">Claudia*</name>
+                                <name type="cognomen">Saturnina</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-12-12" who="Feraudi">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: bl&#228;ulicher Kalkstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0993.</bibl>
+                    <bibl>P. Leveau, in: EpStud 13 (K&#246;ln 1983) 214-215, Nr. 4; fig. 7. - AE 1983.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="0023f0da-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="0023f184-583c-11ee-a136-4e7b8ce151d1">D</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="0023f206-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="0023f1d4-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="0023f21a-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="0023f260-583c-11ee-a136-4e7b8ce151d1">M</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="0023f36e-583c-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="0023f346-583c-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="0023f314-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="0023f2ec-583c-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="0023f2ba-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="0023f292-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="0023f382-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <expan>
+                        <abbr>
+                            <c xml:id="0023f56c-583c-11ee-a136-4e7b8ce151d1">C</c>
+                            <c xml:id="0023f4ea-583c-11ee-a136-4e7b8ce151d1">l</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="0023f67a-583c-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="0023f648-583c-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="0023f616-583c-11ee-a136-4e7b8ce151d1">d</c>
+                            <c xml:id="0023f5ee-583c-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="0023f5b2-583c-11ee-a136-4e7b8ce151d1">a</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="0023f6ca-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="0023f6ac-583c-11ee-a136-4e7b8ce151d1">S</c>
+                    <c xml:id="0023f698-583c-11ee-a136-4e7b8ce151d1">a</c>
+                </line>
+                <line break="no" n="3">
+                    <c xml:id="0023f738-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="0023f724-583c-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="0023f710-583c-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="0023f6fc-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="0023f6e8-583c-11ee-a136-4e7b8ce151d1">i</c>
+                </line>
+                <line break="no" n="4">
+                    <c xml:id="0023f80a-583c-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="0023f7f6-583c-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="0023f7e2-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="0023f7ce-583c-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="0023f7ba-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="0023f79c-583c-11ee-a136-4e7b8ce151d1">x</c>
+                    <c xml:id="0023f788-583c-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="0023f774-583c-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="0023f760-583c-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="5">
+                    <expan>
+                        <abbr>
+                            <c xml:id="0023f85a-583c-11ee-a136-4e7b8ce151d1">a</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="0023f918-583c-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="0023f8e6-583c-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="0023f8be-583c-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="0023f88c-583c-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="0023f986-583c-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="0023f972-583c-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="0023f954-583c-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="0023f940-583c-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="0023f92c-583c-11ee-a136-4e7b8ce151d1">V</c>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

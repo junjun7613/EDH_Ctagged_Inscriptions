@@ -1,0 +1,193 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Porolissum &amp;ndash; Creaca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000883</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000883</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <ab />
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Dacia</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1958">
+                            <placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/675302">Creaca</placeName>
+                            <placeName type="findspot">Jac, bei, {Ursoie&#351;, H&#252;gel}, r&#246;mische Nekropole</placeName>
+                            <placeName type="region">S&#259;laj</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000883_1">
+                            <persName>
+                                <name type="praenomen">[-]</name>
+                                <name type="nomen">[---]</name>
+                                <name type="cognomen">[---]</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-07-31" who="Gr&#228;f">checked with drawing</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Auf dem Friedhof gefunden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0856.</bibl>
+                    <bibl>N. Gudea, ActaMusPorol 6, 1982, 71, Nr. 5; fig. 5 (Zeichnung). - AE 1983.</bibl>
+                    <bibl>ILD 716.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="0">
+                    <c xml:id="ae130da8-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <gap reason="lost" quantity="1" unit="line" />
+                    <c xml:id="ae130e20-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="1">
+                    <supplied reason="lost">
+                        <gap reason="lost" quantity="1" unit="character" />
+                        <gap reason="lost" quantity="1" unit="character" />
+                    </supplied>
+                    <expan>
+                        <abbr>
+                            <c xml:id="ae130e7a-583b-11ee-a136-4e7b8ce151d1">I</c>
+                        </abbr>
+                        <ex cert="low" />
+                        <c xml:id="ae130e98-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    </expan>
+                    <certainty match="preceding-sibling::node()" locus="value" />
+                    <c xml:id="ae130eca-583b-11ee-a136-4e7b8ce151d1">A</c>
+                    <c xml:id="ae130eb6-583b-11ee-a136-4e7b8ce151d1">P</c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                </line>
+                <line break="no" n="2">
+                    <c xml:id="ae130f88-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ae130f74-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="ae130f60-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="ae130f4c-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="ae130f38-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="ae130f24-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ae130f10-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ae130efc-583b-11ee-a136-4e7b8ce151d1">Y</c>
+                    <c xml:id="ae130ee8-583b-11ee-a136-4e7b8ce151d1">E</c>
+                    <gap reason="lost" extent="unknown" unit="character" />
+                    <c xml:id="ae130fba-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <c xml:id="ae131096-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="ae131082-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="ae13106e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ae13105a-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="ae131046-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="ae131032-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="ae13101e-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ae131000-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ae130fec-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ae130fd8-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <note>sic</note>
+                    <c xml:id="ae131122-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ae13110e-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="ae1310fa-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ae1310dc-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="ae1310c8-583b-11ee-a136-4e7b8ce151d1">o</c>
+                </line>
+                <line break="no" n="4">
+                    <c xml:id="ae1311ea-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ae1311d6-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="ae1311c2-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ae1311a4-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="ae131190-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ae13117c-583b-11ee-a136-4e7b8ce151d1">p</c>
+                    <c xml:id="ae13115e-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="ae13114a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <supplied reason="lost">
+                        <c xml:id="ae131276-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        <c xml:id="ae131244-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    </supplied>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

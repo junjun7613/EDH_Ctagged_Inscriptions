@@ -1,0 +1,402 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Prijepolje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000698</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000698</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType>
+                                    <dimensions unit="cm">
+                                        <height>158</height>
+                                        <width>62</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">4-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Dalmatia</placeName>
+                                <placeName type="ancient" ref="#" />
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0231" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 300 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1978">
+                            <placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName>
+                            <placeName type="modern" ref="http://www.geonames.org/3305274">Prijepolje</placeName>
+                            <placeName type="findspot">Kolovrat, Dvorine, {Nekropole}</placeName>
+                            <placeName type="region">Centralna Srbija</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000698_1" sex="W">
+                            <persName>
+                                <name type="nomen">Aurelia*</name>
+                                <name type="cognomen">Scenuta</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000698_2" sex="M">
+                            <persName>
+                                <name type="nomen">Aurelius*</name>
+                                <name type="cognomen">Plares</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000698_3" sex="M">
+                            <persName>
+                                <name type="cognomen">Lavius</name>
+                            </persName>
+                        </person>
+                        <person xml:id="HD000698_4" sex="W">
+                            <persName>
+                                <name type="cognomen">Delmanna</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-10-06" who="Gr&#228;f">checked with photo</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes zwei m&#228;nnliche neben einer weiblichen B&#252;ste; dar&#252;ber eine weitere weibliche B&#252;ste.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0742.</bibl>
+                    <bibl>A. Cermanovi&#263;-Kuzmanovi&#263;, ArchIug 19, 1978/79, 46-48; fig. 1 u. 2. - AE 1983.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="adc1982e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc198ec-583b-11ee-a136-4e7b8ce151d1">D</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc19964-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc19932-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc19982-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc199d2-583b-11ee-a136-4e7b8ce151d1">M</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc19b08-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc19ad6-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="adc19aae-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc19a86-583b-11ee-a136-4e7b8ce151d1">b</c>
+                            <c xml:id="adc19a36-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc19a04-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc19b1c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc19b4e-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc19c34-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc19bee-583b-11ee-a136-4e7b8ce151d1">c</c>
+                            <c xml:id="adc19bc6-583b-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="adc19b9e-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc19b76-583b-11ee-a136-4e7b8ce151d1">m</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc19c48-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc19ce8-583b-11ee-a136-4e7b8ce151d1">A</c>
+                            <c xml:id="adc19cac-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc19c7a-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc19dba-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="adc19d92-583b-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="adc19d6a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc19d42-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc19d1a-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc19e0a-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc19df6-583b-11ee-a136-4e7b8ce151d1">S</c>
+                    <c xml:id="adc19de2-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="adc19dce-583b-11ee-a136-4e7b8ce151d1">e</c>
+                </line>
+                <line break="no" n="3">
+                    <c xml:id="adc19e96-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="adc19e78-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="adc19e64-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="adc19e5a-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="adc19e46-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="adc19e32-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc19ed2-583b-11ee-a136-4e7b8ce151d1">q</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc19f54-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc19f2c-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc19f04-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc19f68-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc19fd6-583b-11ee-a136-4e7b8ce151d1">v</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1a094-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1a06c-583b-11ee-a136-4e7b8ce151d1">x</c>
+                            <c xml:id="adc1a03a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1a008-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1a0a8-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1a0da-583b-11ee-a136-4e7b8ce151d1">a</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1a198-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="adc1a166-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="adc1a134-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="adc1a10c-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1a210-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1a1fc-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="adc1a1e8-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="adc1a1d4-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="adc1a1c0-583b-11ee-a136-4e7b8ce151d1">V</c>
+                    <c xml:id="adc1a1ac-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="5">
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1a2b0-583b-11ee-a136-4e7b8ce151d1">A</c>
+                            <c xml:id="adc1a288-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc1a256-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1a382-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="adc1a35a-583b-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="adc1a332-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1a300-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc1a2d8-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1a42c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1a418-583b-11ee-a136-4e7b8ce151d1">P</c>
+                    <c xml:id="adc1a404-583b-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="adc1a3f0-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="adc1a3dc-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="adc1a3be-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="adc1a3aa-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="adc1a396-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1a512-583b-11ee-a136-4e7b8ce151d1">c</c>
+                            <c xml:id="adc1a4cc-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="adc1a4a4-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="adc1a472-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1a594-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc1a56c-583b-11ee-a136-4e7b8ce151d1">g</c>
+                            <c xml:id="adc1a544-583b-11ee-a136-4e7b8ce151d1">i</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1a5a8-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="6">
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1a5da-583b-11ee-a136-4e7b8ce151d1">k</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1a742-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc1a710-583b-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="adc1a6e8-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1a6c0-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="adc1a698-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="adc1a666-583b-11ee-a136-4e7b8ce151d1">m</c>
+                            <c xml:id="adc1a634-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc1a60c-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1a88c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1a86e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="adc1a85a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="adc1a846-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1a828-583b-11ee-a136-4e7b8ce151d1">L</c>
+                    <c xml:id="adc1a814-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="adc1a7f6-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="adc1a7e2-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="adc1a7ce-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="adc1a7b0-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="adc1a79c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1a77e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="adc1a76a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="adc1a756-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="7">
+                    <c xml:id="adc1a9a4-583b-11ee-a136-4e7b8ce151d1">D</c>
+                    <c xml:id="adc1a986-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="adc1a968-583b-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="adc1a954-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="adc1a936-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="adc1a922-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="adc1a904-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="adc1a8e6-583b-11ee-a136-4e7b8ce151d1">a</c>
+                    <c xml:id="adc1a8c8-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1a9ea-583b-11ee-a136-4e7b8ce151d1">f</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1aac6-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1aa94-583b-11ee-a136-4e7b8ce151d1">l</c>
+                            <c xml:id="adc1aa6c-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1aa44-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc1aa1c-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1aada-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1ab16-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1acec-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1acc4-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="adc1ac9c-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="adc1ac74-583b-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="adc1ac42-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1ac1a-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="adc1abf2-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="adc1abc0-583b-11ee-a136-4e7b8ce151d1">i</c>
+                            <c xml:id="adc1ab98-583b-11ee-a136-4e7b8ce151d1">m</c>
+                            <c xml:id="adc1ab70-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="adc1ab48-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="adc1ad00-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="8">
+                    <c xml:id="adc1aeb8-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="adc1ae9a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="adc1ae7c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1ae5e-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="adc1ae40-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="adc1ae2c-583b-11ee-a136-4e7b8ce151d1">b</c>
+                    <c xml:id="adc1ae0e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="adc1adf0-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="adc1add2-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="adc1adb4-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="adc1ad96-583b-11ee-a136-4e7b8ce151d1">v</c>
+                    <c xml:id="adc1ad78-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="adc1ad5a-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="adc1af12-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="adc1b07a-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="adc1b048-583b-11ee-a136-4e7b8ce151d1">s</c>
+                            <c xml:id="adc1b016-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc1afee-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="adc1afc6-583b-11ee-a136-4e7b8ce151d1">r</c>
+                            <c xml:id="adc1af94-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="adc1af6c-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="adc1af44-583b-11ee-a136-4e7b8ce151d1">t</c>
+                        </ex>
+                    </expan>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

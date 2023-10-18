@@ -1,0 +1,251 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Allifae &amp;ndash; Alife (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+                <idno type="localID">HD000482</idno>
+                <idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000482</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Alife, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <dimensions unit="cm">
+                                        <height>100</height>
+                                        <width>48</width>
+                                        <depth>41</depth>
+                                    </dimensions>
+                                    <rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <height unit="cm">5-3.1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="province">Latium et Campania (Regio I)</placeName>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432658">Allifae</placeName>
+                            </origPlace>
+                            <origDate>
+                                <origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="-1962">
+                            <placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName>
+                            <placeName type="modern">Alife</placeName>
+                            <placeName type="findspot">Grundst&#252;ck des Celestino di Cosmo</placeName>
+                            <placeName type="region">Caserta</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <editionStmt>
+                <edition ana="revised edition">put C tags to each single characters</edition>
+                <respStmt>
+                    <resp>re-edited by</resp>
+                    <name>Jun Ogawa</name>
+                </respStmt>
+            </editionStmt>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term>
+                </keywords>
+            </textClass>
+            <particDesc>
+                <p>
+                    <listPerson>
+                        <person xml:id="HD000482_1" sex="M">
+                            <persName>
+                                <name type="praenomen">Sex.</name>
+                                <name type="nomen">Verginius</name>
+                                <name type="cognomen">Anteros</name>
+                            </persName>
+                        </person>
+                    </listPerson>
+                </p>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2006-08-31" who="Feraudi">provisional</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="#" />
+    </facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(C): Datierung ausgehende Republik wegen tria nomina zu fr&#252;h.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>AE 1983, 0330. (C)</bibl>
+                    <bibl>R. Palmieri, in: MGR 8 (Roma 1982) 434-435, Nr. 1; tav. 1. (C) - AE 1983.</bibl>
+                    <bibl />
+                </listBibl>
+            </div>
+        </body>
+    </text>
+    <sourceDoc>
+        <surfaceGrp type="3Dobject">
+            <surface type="text" xml:space="preserve" ana="edition">
+                <line n="1">
+                    <c xml:id="ffaa020c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="ffaa0342-583b-11ee-a136-4e7b8ce151d1">S</c>
+                            <c xml:id="ffaa0310-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="ffaa02d4-583b-11ee-a136-4e7b8ce151d1">x</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="ffaa03e2-583b-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="ffaa03b0-583b-11ee-a136-4e7b8ce151d1">u</c>
+                            <c xml:id="ffaa037e-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="ffaa05a4-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ffaa0590-583b-11ee-a136-4e7b8ce151d1">V</c>
+                    <c xml:id="ffaa0586-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="ffaa0572-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="ffaa055e-583b-11ee-a136-4e7b8ce151d1">g</c>
+                    <c xml:id="ffaa054a-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ffaa0536-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="ffaa0522-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ffaa050e-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="ffaa04fa-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ffaa04b4-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="2">
+                    <c xml:id="ffaa06e4-583b-11ee-a136-4e7b8ce151d1">A</c>
+                    <c xml:id="ffaa06d0-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="ffaa06bc-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="ffaa06a8-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="ffaa0694-583b-11ee-a136-4e7b8ce151d1">r</c>
+                    <c xml:id="ffaa0680-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="ffaa066c-583b-11ee-a136-4e7b8ce151d1">s</c>
+                    <c xml:id="ffaa0658-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ffaa0644-583b-11ee-a136-4e7b8ce151d1">l</c>
+                    <c xml:id="ffaa0630-583b-11ee-a136-4e7b8ce151d1">o</c>
+                    <c xml:id="ffaa061c-583b-11ee-a136-4e7b8ce151d1">c</c>
+                    <c xml:id="ffaa0608-583b-11ee-a136-4e7b8ce151d1">u</c>
+                    <c xml:id="ffaa05f4-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="ffaa05e0-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="3">
+                    <c xml:id="ffaa07b6-583b-11ee-a136-4e7b8ce151d1">e</c>
+                    <c xml:id="ffaa07a2-583b-11ee-a136-4e7b8ce151d1">m</c>
+                    <c xml:id="ffaa078e-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ffaa077a-583b-11ee-a136-4e7b8ce151d1">t</c>
+                    <c xml:id="ffaa0766-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ffaa0748-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ffaa0734-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="ffaa0720-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="ffaa0856-583b-11ee-a136-4e7b8ce151d1">f</c>
+                            <c xml:id="ffaa0824-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="ffaa090a-583b-11ee-a136-4e7b8ce151d1">o</c>
+                            <c xml:id="ffaa08d8-583b-11ee-a136-4e7b8ce151d1">n</c>
+                            <c xml:id="ffaa08b0-583b-11ee-a136-4e7b8ce151d1">t</c>
+                            <c xml:id="ffaa0888-583b-11ee-a136-4e7b8ce151d1">e</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="ffaa091e-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="ffaa095a-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="ffaa0a04-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="ffaa09dc-583b-11ee-a136-4e7b8ce151d1">d</c>
+                            <c xml:id="ffaa09b4-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="ffaa0982-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="ffaa0acc-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ffaa0aae-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="ffaa0a9a-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="ffaa0a7c-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="ffaa0a68-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="ffaa0a4a-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="ffaa0a36-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="ffaa0a22-583b-11ee-a136-4e7b8ce151d1"></c>
+                </line>
+                <line n="4">
+                    <c xml:id="ffaa0b26-583b-11ee-a136-4e7b8ce151d1">i</c>
+                    <c xml:id="ffaa0b12-583b-11ee-a136-4e7b8ce151d1">n</c>
+                    <c xml:id="ffaa0af4-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="ffaa0bbc-583b-11ee-a136-4e7b8ce151d1">a</c>
+                            <c xml:id="ffaa0b94-583b-11ee-a136-4e7b8ce151d1">g</c>
+                            <c xml:id="ffaa0b62-583b-11ee-a136-4e7b8ce151d1">r</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="ffaa0bee-583b-11ee-a136-4e7b8ce151d1">o</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="ffaa0c02-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <expan>
+                        <abbr>
+                            <c xml:id="ffaa0c3e-583b-11ee-a136-4e7b8ce151d1">p</c>
+                        </abbr>
+                        <ex>
+                            <c xml:id="ffaa0ce8-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="ffaa0cc0-583b-11ee-a136-4e7b8ce151d1">d</c>
+                            <c xml:id="ffaa0c8e-583b-11ee-a136-4e7b8ce151d1">e</c>
+                            <c xml:id="ffaa0c66-583b-11ee-a136-4e7b8ce151d1">s</c>
+                        </ex>
+                    </expan>
+                    <c xml:id="ffaa0d4c-583b-11ee-a136-4e7b8ce151d1"></c>
+                    <c xml:id="ffaa0d2e-583b-11ee-a136-4e7b8ce151d1">X</c>
+                    <c xml:id="ffaa0d10-583b-11ee-a136-4e7b8ce151d1">I</c>
+                    <c xml:id="ffaa0cfc-583b-11ee-a136-4e7b8ce151d1">I</c>
+                </line>
+            </surface>
+            <surface type="position">
+                <zone />
+            </surface>
+            <figure>
+                <graphic url="https://www.example.com/sample.obj" />
+            </figure>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>
