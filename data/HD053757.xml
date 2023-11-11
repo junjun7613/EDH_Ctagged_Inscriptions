@@ -1,0 +1,123 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Larissa &amp;ndash; Larisa (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053757</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053757</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Larisa, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>125</height><width>38</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/894019">Larissa</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" /></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/258576">Larisa</placeName><placeName type="findspot" /><placeName type="region">Thessal&#237;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053757_1" sex="W"><persName><name type="nomen">&#922;&#945;&#953;&#963;&#8055;&#945;</name><name type="cognomen">&#918;&#969;&#963;&#8055;&#956;&#951;</name></persName></person><person xml:id="HD053757_2" sex="M"><persName><name type="nomen">&#931;&#949;&#961;&#964;&#8061;&#961;&#953;&#959;&#962;</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-07" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Abweichende Lesung am Ende der Z. 1 und am Anfang der Z. 2.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1514. (B)</bibl><bibl>A. Tziafalias, AD 42 B, 1987, 288, Nr. 37. (B) &#173;- AE 1992.</bibl><bibl>SEG 42, 0516.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">&#922;</c>
+		<c xml:id="L1C3">&#945;</c>
+		<c xml:id="L1C4">&#953;</c>
+		<c xml:id="L1C5">&#963;</c>
+		<c xml:id="L1C6">&#8055;</c>
+		<c xml:id="L1C7">&#945;</c>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">&#918;</c>
+		<c xml:id="L1C10">&#969;</c>
+		<c xml:id="L1C11">&#963;</c>
+		<c xml:id="L1C12">&#8055;</c>
+		<c xml:id="L1C13">&#956;</c>
+		<c xml:id="L1C14">&#951;</c>
+		<c xml:id="L1C15"> </c>
+		<c xml:id="L1C16">&#947;</c>
+		<c xml:id="L1C17">&#965;</c>
+		<c xml:id="L1C18">&#957;</c>
+		<c xml:id="L1C19">&#8052;</c>
+		<c xml:id="L1C20"> </c>
+		<c xml:id="L1C21">&#931;</c>
+		<c xml:id="L1C22">&#949;</c>
+		<c xml:id="L1C23">&#961;</c>
+		<c xml:id="L1C24">&#964;</c>
+		<supplied reason="lost">
+			<c xml:id="L1C25">&#969;</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">&#961;</c>
+		<c xml:id="L2C2">&#8055;</c>
+		<c xml:id="L2C3">&#959;</c>
+		<c xml:id="L2C4">&#965;</c>
+		<c xml:id="L2C5"> </c>
+		<c xml:id="L2C6">&#7969;</c>
+		<c xml:id="L2C7">&#961;</c>
+		<c xml:id="L2C8">&#8061;</c>
+		<c xml:id="L2C9">&#970;</c>
+		<c xml:id="L2C10">&#963;</c>
+		<c xml:id="L2C11">&#963;</c>
+		<c xml:id="L2C12">&#945;</c>
+		<c xml:id="L2C13"> </c>
+		<c xml:id="L2C14">&#967;</c>
+		<c xml:id="L2C15">&#961;</c>
+		<c xml:id="L2C16">&#951;</c>
+		<c xml:id="L2C17">&#963;</c>
+		<c xml:id="L2C18">&#964;</c>
+		<c xml:id="L2C19">&#8053;</c>
+		<c xml:id="L2C20"> </c>
+		<c xml:id="L2C21">&#967;</c>
+		<c xml:id="L2C22">&#945;</c>
+		<c xml:id="L2C23">&#8150;</c>
+		<c xml:id="L2C24">&#961;</c>
+		<c xml:id="L2C25">&#949;</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

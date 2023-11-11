@@ -1,0 +1,203 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Torregrossa (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000390</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000390</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Torregrossa, Madonna delle Neve, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Torregrossa</placeName><placeName type="findspot">Kirche Madonna delle Neve</placeName><placeName type="region">Umbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000390_1" sex="W"><persName><name type="nomen">[---]iena</name><name type="cognomen">Ter[---]</name></persName></person><person xml:id="HD000390_2" sex="M"><persName><name type="praenomen">Sa.+</name><name type="nomen">Lissidius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000390_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Lissidius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>AE 1983: Z. 2/3: [S]al(vio) Lissidio L(uci) f(ilio) / [---] C(aio). (B): CIL: Z. 2 Ende: I; Z.3 Anfang kein C.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0352bis. (B)</bibl><bibl>A. Rambaldi, Spoletium 11, 1962, 5, Nr. 10. - AE 1983.</bibl><bibl>CIL 11, 04880. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">i</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">n</c>
+		<c xml:id="L1C5">a</c>
+		<c xml:id="L1C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C7">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C8">a</c>
+				<c xml:id="L1C9">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C12">i</c>
+				<c xml:id="L1C13">l</c>
+				<c xml:id="L1C14">i</c>
+				<c xml:id="L1C15">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C16"> </c>
+		<c xml:id="L1C17">T</c>
+		<c xml:id="L1C18">e</c>
+		<c xml:id="L1C19">r</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C20"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L2C1">S</c>
+				</supplied>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">v</c>
+				<c xml:id="L2C5">i</c>
+				<c xml:id="L2C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">L</c>
+		<c xml:id="L2C9">i</c>
+		<c xml:id="L2C10">s</c>
+		<c xml:id="L2C11">s</c>
+		<c xml:id="L2C12">i</c>
+		<c xml:id="L2C13">d</c>
+		<c xml:id="L2C14">i</c>
+		<c xml:id="L2C15">o</c>
+		<c xml:id="L2C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C17">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C18">u</c>
+				<c xml:id="L2C19">c</c>
+				<c xml:id="L2C20">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C21"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C22">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C23">i</c>
+					<c xml:id="L2C24">l</c>
+					<c xml:id="L2C25">i</c>
+					<c xml:id="L2C26">o</c>
+				</ex>
+			</expan>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L2C27"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">a</c>
+				<c xml:id="L3C3">i</c>
+				<c xml:id="L3C4">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C5"> </c>
+		<c xml:id="L3C6">L</c>
+		<c xml:id="L3C7">i</c>
+		<c xml:id="L3C8">s</c>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11">d</c>
+		<c xml:id="L3C12">i</c>
+		<c xml:id="L3C13">o</c>
+		<c xml:id="L3C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C15">S</c>
+				<c xml:id="L3C16">a</c>
+				<c xml:id="L3C17">l</c>
+				<c xml:id="L3C18">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C19">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C20"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C21">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C22">i</c>
+					<c xml:id="L3C23">l</c>
+					<c xml:id="L3C24">i</c>
+					<c xml:id="L3C25">o</c>
+				</ex>
+			</expan>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

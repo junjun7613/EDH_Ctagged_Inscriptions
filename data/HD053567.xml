@@ -1,0 +1,135 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aventicum (Civitas Helvetiorum) &amp;ndash; Avenches (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053567</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053567</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Avenches, Mus. Rom., Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(30)</height><width>40</width><depth>(17)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.3-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177495">Aventicum (Civitas Helvetiorum)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661661">Avenches</placeName><placeName type="findspot">{Osttor}, Nekropole</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053567_1" sex="M"><persName><name type="nomen">Flavius+?</name><name type="cognomen">Carpus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-21" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016628" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e24e054-1ac3-4cc7-abd4-b3efceefdf61/file/id/776212/file_version/name/small" /><graphic xml:id="F016627" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d1c049c1-a590-4275-a901-9d2a38e7e992/file/id/776211/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 2: m&#246;glicherweise auch al(ae) Fla(viae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1268.</bibl><bibl>L. Flutsch, JSGU 73, 1990, 204-205. - AE 1992.</bibl><bibl>S. Oelschig, Kaleidoskop der Epigraphik. Katalog und Rekonstruktion der r&#246;mischen Steininschriften von Avenches/Aventicum (Avenches 2009) Nr. 7184; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">X</c>
+		<c xml:id="L1C2"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">L</c>
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">F</c>
+		<c xml:id="L2C5">l</c>
+		<c xml:id="L2C6">a</c>
+	</line>
+	<line break="no" n="3">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L3C1">v</c>
+			<c xml:id="L3C2">i</c>
+			<c xml:id="L3C3">u</c>
+			<c xml:id="L3C4">s</c>
+		</supplied>
+		<supplied reason="lost">
+			<c xml:id="L3C5">v</c>
+			<c xml:id="L3C6">i</c>
+			<c xml:id="L3C7">u</c>
+			<c xml:id="L3C8">s</c>
+		</supplied>
+		<c xml:id="L3C9">a</c>
+		<c xml:id="L3C10">r</c>
+		<c xml:id="L3C11">p</c>
+		<c xml:id="L3C12">u</c>
+		<c xml:id="L3C13">s</c>
+		<c xml:id="L3C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C15">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C16">a</c>
+				<c xml:id="L3C17">c</c>
+				<c xml:id="L3C18">i</c>
+				<c xml:id="L3C19">e</c>
+				<c xml:id="L3C20">n</c>
+				<c xml:id="L3C21">d</c>
+				<c xml:id="L3C22">u</c>
+				<c xml:id="L3C23">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C25">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C26">u</c>
+				<c xml:id="L3C27">r</c>
+				<c xml:id="L3C28">a</c>
+				<c xml:id="L3C29">v</c>
+				<c xml:id="L3C30">i</c>
+				<c xml:id="L3C31">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,151 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027442</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027442</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Schlossmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, wei&#223;</material><dimensions unit="cm"><height>(53)</height><width>41</width><depth>(24)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1911"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot">Panoramaberg, {Grabungsstelle 2 M. Abrami&#263; 1911}</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027442_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-26" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Abrami&#263;; AE 1920: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1920, 0062. (B)</bibl><bibl>M. Abrami&#263;, J&#338;AI (Beibl.) 17, 1914, 110-112; Abb. 85. (B) - AE 1920.</bibl><bibl>AIJ 346; Foto.</bibl><bibl>CIGPannon 047.</bibl><bibl>CIGPannon (2. Aufl.) 058; Foto.</bibl><bibl>CIGPannon (3. Aufl.) 058; Foto.</bibl><bibl>B. Jevremov, Vodnik po lapidariju 1 (Ptuj 1988) 102, Nr. 110.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">&#931;</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">&#7952;</c>
+		</supplied>
+		<c xml:id="L2C2">&#960;</c>
+		<c xml:id="L2C3">&#8055;</c>
+		<c xml:id="L2C4">&#964;</c>
+		<c xml:id="L2C5">&#961;</c>
+		<c xml:id="L2C6">&#959;</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">&#960;</c>
+		<c xml:id="L3C2">&#959;</c>
+		<c xml:id="L3C3">&#962;</c>
+		<c xml:id="L3C4"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">&#931;</c>
+		<c xml:id="L4C2">&#949;</c>
+		<c xml:id="L4C3">&#946;</c>
+		<c xml:id="L4C4">(</c>
+		<c xml:id="L4C5">&#945;</c>
+		<c xml:id="L4C6">&#963;</c>
+		<c xml:id="L4C7">&#964;</c>
+		<c xml:id="L4C8">&#959;</c>
+		<c xml:id="L4C9">&#8166;</c>
+		<c xml:id="L4C10">)</c>
+		<c xml:id="L4C11"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">p</c>
+			<c xml:id="L5C2">r</c>
+		</supplied>
+		<c xml:id="L5C3">o</c>
+		<c xml:id="L5C4"> </c>
+		<c xml:id="L5C5">s</c>
+		<c xml:id="L5C6">a</c>
+		<c xml:id="L5C7">l</c>
+		<c xml:id="L5C8">u</c>
+		<c xml:id="L5C9">t</c>
+		<c xml:id="L5C10">e</c>
+		<c xml:id="L5C11"> </c>
+		<c xml:id="L5C12">s</c>
+		<c xml:id="L5C13">u</c>
+		<c xml:id="L5C14">a</c>
+		<c xml:id="L5C15"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<c xml:id="L6C1">f</c>
+			<c xml:id="L6C2">i</c>
+			<c xml:id="L6C3">l</c>
+		</supplied>
+		<c xml:id="L6C4">i</c>
+		<c xml:id="L6C5">a</c>
+		<c xml:id="L6C6">e</c>
+		<c xml:id="L6C7">q</c>
+		<c xml:id="L6C8">u</c>
+		<c xml:id="L6C9">e</c>
+		<c xml:id="L6C10"> </c>
+		<c xml:id="L6C11">e</c>
+		<c xml:id="L6C12">t</c>
+		<c xml:id="L6C13"> </c>
+	</line>
+	<line n="7">
+		<supplied reason="lost">
+			<c xml:id="L7C1">c</c>
+		</supplied>
+		<c xml:id="L7C2">o</c>
+		<c xml:id="L7C3">n</c>
+		<c xml:id="L7C4">i</c>
+		<c xml:id="L7C5">u</c>
+		<c xml:id="L7C6">g</c>
+		<c xml:id="L7C7">i</c>
+		<c xml:id="L7C8">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

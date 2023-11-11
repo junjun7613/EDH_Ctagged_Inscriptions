@@ -1,0 +1,257 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lauriacum &amp;ndash; Enns (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035501</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035501</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Enns, Mus. Lauriacum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>64</height><width>81</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118802">Lauriacum</placeName></origPlace><origDate><origDate when-custom="0158" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">158 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780048">Enns</placeName><placeName type="findspot">Stadlgasse, {sogenanntes Plochbergergut}</placeName><placeName type="region">Ober&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035501_1" sex="M"><persName><name type="cognomen">Verinus</name></persName></person><person xml:id="HD035501_2" sex="M"><persName><name type="cognomen">Verio</name></persName></person><person xml:id="HD035501_3" sex="M"><persName><name type="nomen">Usenius</name><name type="cognomen">Secundus*</name></persName></person><person xml:id="HD035501_4" sex="W"><persName><name type="cognomen">Dubitata</name></persName></person><person xml:id="HD035501_5" sex="M"><persName><name type="cognomen">Cupitus</name></persName></person><person xml:id="HD035501_6" sex="M"><persName><name type="nomen">Carminius</name><name type="cognomen">Restitutus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-28" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025532" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da6725e0-781f-42f2-b5b4-b41dddd0cb91/file/id/786284/file_version/name/small" /><graphic xml:id="F025533" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef3ce6bd-7e13-453d-9ca8-49ed3ebd78a4/file/id/786285/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: nach Traxler sogenannter Ennser Sandstein/Konglomerat. Z. 2: Abk&#252;rzung f&#252;r beneficiarius in Form eines B mit Querhaste in der Mitte. Z. 4 (Ende) u. Z. 5 (Ende): Ligaturen TA und IB stehen auf dem Rahmen. Z. 5: unsicher, ob E oder ET-Ligatur. Z. 6 wohl nachtr&#228;glich in kleineren Buchstaben hinzugef&#252;gt. (B): CIL III 11826; ILLPRON: Z. 5: Cupit(i); ILLPRON; Weber, in: Ubl (Hrsg.), Museum Lauriacum; Traxler: Z. 5: sibi. Datierung: um 158 n. Chr. (Amtszeit des Usenius bzw. Usienius Secundus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11826. (B)</bibl><bibl>CIL 03, 11826 add. p. 2328, 200.</bibl><bibl>ILLPRON 0934. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 155, Nr. I 152.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preu&#223; - E. Wittkopf, Der r&#246;mische Weihebezirk von Osterburken 1 (Stuttgart 1990) 217-218, Nr. 251*; Foto.</bibl><bibl>E. Weber, in: H. Ubl (Hrsg.), Museum Lauriacum. Katalog zur Schausammlung "R&#246;merzeit" des Museums Lauriacum-Enns 2 (Enns - Wien 1997) 39-40, Nr. I/34; Zeichnung.</bibl><bibl>S. Traxler, Die r&#246;mischen Grabdenkm&#228;ler von Lauriacum und Lentia.</bibl><bibl>Stein - Relief - Inschrift (Linz 2009) 88-89, Nr. ENNS G34; Fotos u. Zeichnung. (B)</bibl><bibl>PIR V 689.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">V</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">n</c>
+		<c xml:id="L1C7">o</c>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">V</c>
+		<c xml:id="L1C10">e</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">r</c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">o</c>
+		<c xml:id="L2C4">n</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">s</c>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C9">i</c>
+				<c xml:id="L2C10">l</c>
+				<c xml:id="L2C11">i</c>
+				<c xml:id="L2C12">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C14">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C15">e</c>
+				<c xml:id="L2C16">n</c>
+				<c xml:id="L2C17">e</c>
+				<c xml:id="L2C18">f</c>
+				<c xml:id="L2C19">i</c>
+				<c xml:id="L2C20">c</c>
+				<c xml:id="L2C21">i</c>
+				<c xml:id="L2C22">a</c>
+				<c xml:id="L2C23">r</c>
+				<c xml:id="L2C24">i</c>
+				<c xml:id="L2C25">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C26"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">U</c>
+		<c xml:id="L3C2">s</c>
+		<c xml:id="L3C3">e</c>
+		<c xml:id="L3C4">n</c>
+		<c xml:id="L3C5">i</c>
+		<c xml:id="L3C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C7">S</c>
+				<c xml:id="L3C8">e</c>
+				<c xml:id="L3C9">c</c>
+				<c xml:id="L3C10">u</c>
+				<c xml:id="L3C11">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C12">d</c>
+				<c xml:id="L3C13">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">a</c>
+				<c xml:id="L4C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C3">n</c>
+				<c xml:id="L4C4">o</c>
+				<c xml:id="L4C5">r</c>
+				<c xml:id="L4C6">u</c>
+				<c xml:id="L4C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">X</c>
+		<c xml:id="L4C10">L</c>
+		<c xml:id="L4C11"> </c>
+		<c xml:id="L4C12">D</c>
+		<c xml:id="L4C13">u</c>
+		<c xml:id="L4C14">b</c>
+		<c xml:id="L4C15">i</c>
+		<c xml:id="L4C16">t</c>
+		<c xml:id="L4C17">a</c>
+		<c xml:id="L4C18">t</c>
+		<c xml:id="L4C19">a</c>
+		<c xml:id="L4C20"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">C</c>
+		<c xml:id="L5C2">u</c>
+		<c xml:id="L5C3">p</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5">t</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C9">i</c>
+				<c xml:id="L5C10">l</c>
+				<c xml:id="L5C11">i</c>
+				<c xml:id="L5C12">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C14">m</c>
+				<c xml:id="L5C15">a</c>
+				<c xml:id="L5C16">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C17">i</c>
+				<c xml:id="L5C18">t</c>
+				<c xml:id="L5C19">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C21">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C22">e</c>
+				<c xml:id="L5C23">c</c>
+				<c xml:id="L5C24">i</c>
+				<c xml:id="L5C25">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C27">e</c>
+				<c xml:id="L5C28">t</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L5C29"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C30">s</c>
+				<c xml:id="L5C31">i</c>
+				<c xml:id="L5C32">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C33">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C34"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">e</c>
+		<c xml:id="L6C2">t</c>
+		<c xml:id="L6C3"> </c>
+		<c xml:id="L6C4">C</c>
+		<c xml:id="L6C5">a</c>
+		<c xml:id="L6C6">r</c>
+		<c xml:id="L6C7">m</c>
+		<c xml:id="L6C8">i</c>
+		<c xml:id="L6C9">n</c>
+		<c xml:id="L6C10">i</c>
+		<c xml:id="L6C11">o</c>
+		<c xml:id="L6C12"> </c>
+		<c xml:id="L6C13">R</c>
+		<c xml:id="L6C14">e</c>
+		<c xml:id="L6C15">s</c>
+		<c xml:id="L6C16">t</c>
+		<c xml:id="L6C17">i</c>
+		<c xml:id="L6C18">t</c>
+		<c xml:id="L6C19">u</c>
+		<c xml:id="L6C20">t</c>
+		<c xml:id="L6C21">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

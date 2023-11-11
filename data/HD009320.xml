@@ -1,0 +1,231 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Virt (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD009320</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD009320</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Virt, Brunnen, vermauert; Kom&#225;rno, Festung, Bastion 6, Lapidarium (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>53</height><width>141</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1778"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3056757">Virt</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD009320_1" sex="M"><persName><name type="nomen">Plotius*</name><name type="cognomen">Higinus* (= Hyginus*)</name></persName></person><person xml:id="HD009320_2" sex="M"><persName><name type="nomen">Plotius*</name><name type="cognomen">Polideucus (= Polydeucus)</name></persName></person><person xml:id="HD009320_3" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Flavus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Erhalten ist der Sarkophagkasten; zu Seiten des Inschriftfeldes je eine Nische mit einer m&#228;nnlichen Figur. (B): CIL 03, 04350: zahlreiche Leseabweichungen; CIL 03, 11075: Z. 1: TIOTIGINO; RIU 0737; Alf&#246;ldy: Z. 1: Plot(iis); Harl - L&#337;rincz: Z. 1: &amp;lt;Pl=TI&amp;gt;ot(iis).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04350. (B)</bibl><bibl>CIL 03, 11075. (B)</bibl><bibl>RIU 0737; Abb. 737 (Foto u. Zeichnung). (B)</bibl><bibl>F. Harl - B. L&#337;rincz, F&#252;hrer zum r&#246;mischen Lapidarium in Bastion VI der Festung Kom&#225;rno (Kom&#225;rno &#8211; Wien 2002) 53-54, Nr. 61; Foto. (B)</bibl><bibl>G. Alf&#246;ldy, BJ 168, 1968, 548. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">P</c>
+		<c xml:id="L1C3">&amp;</c>
+		<c xml:id="L1C4">l</c>
+		<c xml:id="L1C5">t</c>
+		<c xml:id="L1C6">;</c>
+		<c xml:id="L1C7">l</c>
+		<c xml:id="L1C8">=</c>
+		<c xml:id="L1C9">I</c>
+		<c xml:id="L1C10">&amp;</c>
+		<c xml:id="L1C11">g</c>
+		<c xml:id="L1C12">t</c>
+		<c xml:id="L1C13">;</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">o</c>
+				<c xml:id="L1C15">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C16">i</c>
+				<c xml:id="L1C17">i</c>
+				<c xml:id="L1C18">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C19"> </c>
+		<expan>
+			<ex>
+				<c xml:id="L1C20">H</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C21">i</c>
+				<c xml:id="L1C22">g</c>
+				<c xml:id="L1C23">i</c>
+				<c xml:id="L1C24">n</c>
+				<c xml:id="L1C25">o</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C26"> </c>
+		<note>sic</note>
+		<c xml:id="L1C27"> </c>
+		<c xml:id="L1C28">e</c>
+		<c xml:id="L1C29">t</c>
+		<c xml:id="L1C30"> </c>
+		<c xml:id="L1C31">P</c>
+		<c xml:id="L1C32">o</c>
+		<c xml:id="L1C33">l</c>
+		<c xml:id="L1C34">i</c>
+		<c xml:id="L1C35">d</c>
+		<c xml:id="L1C36">e</c>
+		<c xml:id="L1C37">u</c>
+		<c xml:id="L1C38">c</c>
+		<c xml:id="L1C39">o</c>
+		<c xml:id="L1C40"> </c>
+		<note>sic</note>
+		<c xml:id="L1C41"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">e</c>
+		<c xml:id="L2C2">q</c>
+		<c xml:id="L2C3">u</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">t</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">b</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">s</c>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">R</c>
+		<c xml:id="L2C12">o</c>
+		<c xml:id="L2C13">m</c>
+		<c xml:id="L2C14">a</c>
+		<c xml:id="L2C15">n</c>
+		<c xml:id="L2C16">i</c>
+		<c xml:id="L2C17">s</c>
+		<c xml:id="L2C18"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">A</c>
+				<c xml:id="L3C2">u</c>
+				<c xml:id="L3C3">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">e</c>
+				<c xml:id="L3C5">l</c>
+				<c xml:id="L3C6">i</c>
+				<c xml:id="L3C7">u</c>
+				<c xml:id="L3C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">F</c>
+		<c xml:id="L3C11">l</c>
+		<c xml:id="L3C12">a</c>
+		<expan>
+			<ex>
+				<c xml:id="L3C13">v</c>
+			</ex>
+			<abbr>
+				<c xml:id="L3C14">u</c>
+				<c xml:id="L3C15">s</c>
+			</abbr>
+		</expan>
+		<c xml:id="L3C16"> </c>
+		<c xml:id="L3C17">c</c>
+		<c xml:id="L3C18">o</c>
+		<c xml:id="L3C19">n</c>
+		<c xml:id="L3C20">s</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">o</c>
+		<c xml:id="L4C2">b</c>
+		<c xml:id="L4C3">r</c>
+		<c xml:id="L4C4">i</c>
+		<c xml:id="L4C5">n</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">s</c>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">c</c>
+		<c xml:id="L4C10">a</c>
+		<c xml:id="L4C11">r</c>
+		<c xml:id="L4C12">i</c>
+		<c xml:id="L4C13">s</c>
+		<c xml:id="L4C14">s</c>
+		<c xml:id="L4C15">i</c>
+		<c xml:id="L4C16">m</c>
+		<c xml:id="L4C17">i</c>
+		<c xml:id="L4C18">s</c>
+		<c xml:id="L4C19"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">a</c>
+				<c xml:id="L5C3">c</c>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">e</c>
+				<c xml:id="L5C6">n</c>
+				<c xml:id="L5C7">d</c>
+				<c xml:id="L5C8">u</c>
+				<c xml:id="L5C9">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C11">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C12">u</c>
+				<c xml:id="L5C13">r</c>
+				<c xml:id="L5C14">a</c>
+				<c xml:id="L5C15">v</c>
+				<c xml:id="L5C16">i</c>
+				<c xml:id="L5C17">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C18"> </c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

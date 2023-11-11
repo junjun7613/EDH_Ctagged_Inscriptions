@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032935</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032935</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">architectural member?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>78</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Pet Mostova}, bei</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025217" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7b2af64e-72f2-4b14-8535-09212e12c224/file/id/785969/file_version/name/small" /><graphic xml:id="F025218" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/db771c57-2dfe-415a-8700-8b280e49b18b/file/id/785970/file_version/name/small" /><graphic xml:id="F033809" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1328aa5f-a4c9-4b54-ad82-2f310e2fb5de/file/id/794617/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>S&#228;ulenschaft oder zylinderf&#246;rmige Basis; zusammen mit ILJug 122 gefunden. Inschrift gerahmt; Reste von roter Farbe in einigen Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0121.</bibl><bibl>M. Abrami&#263;, BAHD 52, 1935-1949, 281. 329; sl. 2.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">F</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">l</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">x</c>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">S</c>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">l</c>
+				<c xml:id="L2C4">o</c>
+				<c xml:id="L2C5">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">a</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

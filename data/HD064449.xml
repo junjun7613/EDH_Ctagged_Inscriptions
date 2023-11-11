@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064449</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064449</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material>Gesteine</material><dimensions unit="cm"><height>(53)</height><width>(44)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0371" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">371 AD - 430 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" /><placeName type="findspot" /><placeName type="region">Splitsko-dalmatinska &#382;upanija?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-10-26" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment vom oberen Rand der Vorderseite eines Sarkophagkastens. Z. 2: statt S auch C oder G m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1201.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 973-974, Nr. 604; Foto. - AE 2010.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line">
+			<certainty match=".." locus="name" />
+		</gap>
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">P</c>
+		<c xml:id="L1C2">O</c>
+		<c xml:id="L1C3">S</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C4"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">S</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L2C2">I</c>
+			<c xml:id="L2C3">M</c>
+			<c xml:id="L2C4">O</c>
+		</expan>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C5"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">c</c>
+		<c xml:id="L3C2">o</c>
+		<c xml:id="L3C3">r</c>
+		<c xml:id="L3C4">p</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6">r</c>
+		<supplied reason="lost">
+			<c xml:id="L3C7">a</c>
+			<c xml:id="L3C8"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			 ecclesiae
+		</supplied>
+		<c xml:id="L3C9"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">c</c>
+		<c xml:id="L4C2">a</c>
+		<c xml:id="L4C3">t</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C4">h</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C5">o</c>
+				<c xml:id="L4C6">l</c>
+				<c xml:id="L4C7">i</c>
+				<c xml:id="L4C8">c</c>
+			</abbr>
+		</expan>
+		<supplied reason="lost">
+			<c xml:id="L4C9">a</c>
+			<c xml:id="L4C10">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

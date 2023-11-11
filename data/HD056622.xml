@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Talarn (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056622</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056622</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Talarn, Rathaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><dimensions unit="cm"><height>(44)</height><width>(18)</width><depth>(17)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" /></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3108383">Talarn</placeName><placeName type="findspot">Riera de les Guixeres, partida de la Colomina</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056622_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-08" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrifttr&#228;ger: zwei Fragmente des unteren Teils eines &amp;quot;&amp;quot;Blocks&amp;quot;&amp;quot; oder einer Stele. Ma&#223;e und Buchstabenh&#246;he beziehen sich auf das erste Fragment. Zweites Fragment: -51 cmx-17.5 cmx-19 cm, Buchstabenh&#246;he: 9.5 cm. Unklar ist, wie die beiden Fragmente zusammengeh&#246;ren: entweder es handelt sich bei den Texten um Teile zweier unterschiedlicher Zeilen, oder Text zwei schlie&#223;t sich direkt an Text eins an; dann w&#252;rde es sich beim V(?) beider Texte um jeweils denselben Buchstaben handeln. In diesem Fall m&#252;&#223;te Text eins in entgegengesetzter Richtung gelesen werden: O(?)V(?)III. Text 1: vom V(?) ist die linke Haste erhalten; statt V auch M m&#246;glich. Vom O(?) ist die rechte H&#228;lfte erhalten. Text 2: vom V(?) ist die rechte Haste erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 2, 057; pl. 31, 57.</bibl><bibl>HEp 01, 1989, 0455.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<expan>
+				<abbr>
+					<c xml:id="L0C2">V</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L0C3">O</c>
+			</expan>
+			<certainty match="preceding-sibling::node()" locus="value" />
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C4"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1"> </c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<expan>
+				<abbr>
+					<c xml:id="L0C2">V</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L0C3">I</c>
+				<c xml:id="L0C4">I</c>
+				<c xml:id="L0C5">I</c>
+			</expan>
+			<gap reason="lost" quantity="1" unit="line" />
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

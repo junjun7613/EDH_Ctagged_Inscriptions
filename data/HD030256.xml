@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elogium? from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030256</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030256</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Cav. di Rodi</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(19)</height><width>(21)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="-0012" notAfter-custom="-0002" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12 BC - 2 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Augustusforum</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/70">elogium?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030256_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011189" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/34040b88-972f-4aac-873c-13aaeedac8e4/file/id/770712/file_version/name/small" /><graphic xml:id="F011114" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fedfb27c-b180-4dde-94ef-3c25e82de3ac/file/id/770637/file_version/name/small" /><graphic xml:id="F042598" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81f6f1b5-e930-4ac1-8ee8-3e0ecb9428ab/file/id/803704/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41008; fig. &#945; u. &#946;.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C1">N</c>
+			<c xml:id="L1C2">E</c>
+			<c xml:id="L1C3">M</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C4"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1"> </c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L1C1">O</c>
+					<c xml:id="L1C2">T</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L1C3">I</c>
+			</expan>
+			<certainty match="preceding-sibling::node()" locus="value" />
+			<gap reason="lost" extent="unknown" unit="character" />
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

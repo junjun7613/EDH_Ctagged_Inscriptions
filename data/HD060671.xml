@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060671</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060671</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>6</height><width>36</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Marusinac, {Basilika, s&#252;dlich}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033820" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4fadaa7a-5594-45bb-b5e4-2d36a5d9ebd6/file/id/794629/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>An Textanfang und -ende jeweils ein lateinisches Kreuz eingemei&#223;elt. Textwiedergabe nach Egger. (B): CIL: &#7941;&#947;&#953;&#959;&#966;. Sekund&#228;r verwendet als Verschlu&#223;platte einer Bodenfossa, die vermutlich Reliquien des Hl. Menas enthielt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14896; Zeichnung. (B)</bibl><bibl>R. Egger, in: E. Dyggve - R. Egger, Der altchristliche Friedhof Marusinac, Forschungen in Salona 3 (Wien 1939) 155-156, Nr. 34; Zeichnung.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 1117-1118, Nr. 743; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">&#8001;</c>
+		<c xml:id="L1C3"> </c>
+		<c xml:id="L1C4">&#7941;</c>
+		<c xml:id="L1C5">&#947;</c>
+		<c xml:id="L1C6">&#953;</c>
+		<c xml:id="L1C7">&#959;</c>
+		<c xml:id="L1C8">&#962;</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">&#924;</c>
+		<c xml:id="L1C11">&#951;</c>
+		<c xml:id="L1C12">&#957;</c>
+		<c xml:id="L1C13">&#8118;</c>
+		<c xml:id="L1C14">&#962;</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

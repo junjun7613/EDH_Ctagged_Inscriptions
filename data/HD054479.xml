@@ -1,0 +1,178 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium, bei &amp;ndash; Carros (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054479</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054479</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Carros, Centre International d'Art Contemporain</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>40</height><width>121</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3028513">Carros</placeName><placeName type="findspot" /><placeName type="region">Provence-Alpes-C&#244;te d&#8217;Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE 1991; Vismara: frg. a: [--- m]iliti coho(rtis) pr(aetoriae ?) I r[---]. (B): AE 2005; Arnaud - Gayet: i frammenti vengono integrati con altri due che, secondo Morabito, non possono essere pertinenti. Eingemei&#223;elt. Le dimensioni del frg. b sono: 41 x 97 x 43 cm. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1183. (B)</bibl><bibl>AE 1996, 0964.</bibl><bibl>AE 2005, 0959. (B)</bibl><bibl>CIL 12, 00016.</bibl><bibl>CIL 12, 00016 add. p. 803.</bibl><bibl>C. Vismara, Gallia 48, 1991, 281-283, Nr. 17; Foto. - AE 1991 (B)</bibl><bibl>P. Arnaud - F. Gayet, R&#201;MA 2, 2005, 133-151; Foto. - AE 2005 (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 225-226, Nr. 119; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<supplied reason="lost">
+				<c xml:id="L1C1">m</c>
+			</supplied>
+			<c xml:id="L1C2">i</c>
+			<c xml:id="L1C3">l</c>
+			<c xml:id="L1C4">i</c>
+			<c xml:id="L1C5">t</c>
+			<c xml:id="L1C6">i</c>
+			<c xml:id="L1C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C8">c</c>
+					<c xml:id="L1C9">o</c>
+					<c xml:id="L1C10">h</c>
+					<c xml:id="L1C11">o</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C12">r</c>
+					<c xml:id="L1C13">t</c>
+					<c xml:id="L1C14">i</c>
+					<c xml:id="L1C15">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C16"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C17">P</c>
+					<c xml:id="L1C18">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C19">a</c>
+					<c xml:id="L1C20">e</c>
+					<c xml:id="L1C21">t</c>
+					<c xml:id="L1C22">o</c>
+					<c xml:id="L1C23">r</c>
+					<c xml:id="L1C24">i</c>
+					<c xml:id="L1C25">a</c>
+					<c xml:id="L1C26">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C27"> </c>
+			<c xml:id="L1C28">I</c>
+			<c xml:id="L1C29"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<supplied reason="lost">
+				<gap reason="lost" extent="unknown" unit="character" />
+				<c xml:id="L1C2">a</c>
+				<c xml:id="L1C3"> </c>
+				<c xml:id="L1C4">q</c>
+				<c xml:id="L1C5">u</c>
+				<c xml:id="L1C6">a</c>
+				<c xml:id="L1C7">e</c>
+				<c xml:id="L1C8">s</c>
+				<c xml:id="L1C9">t</c>
+				<c xml:id="L1C10">i</c>
+				<c xml:id="L1C11">o</c>
+				<c xml:id="L1C12">n</c>
+			</supplied>
+			<c xml:id="L1C13">i</c>
+			<c xml:id="L1C14">b</c>
+			<c xml:id="L1C15">u</c>
+			<c xml:id="L1C16">s</c>
+			<c xml:id="L1C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C18">p</c>
+					<c xml:id="L1C19">r</c>
+					<c xml:id="L1C20">a</c>
+					<c xml:id="L1C21">e</c>
+					<c xml:id="L1C22">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C23">e</c>
+					<c xml:id="L1C24">c</c>
+					<c xml:id="L1C25">t</c>
+					<c xml:id="L1C26">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C27"> </c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L1C28">p</c>
+						<c xml:id="L1C29">r</c>
+					</abbr>
+					<ex>
+						<c xml:id="L1C30">a</c>
+						<c xml:id="L1C31">e</c>
+						<c xml:id="L1C32">t</c>
+						<c xml:id="L1C33">o</c>
+						<c xml:id="L1C34">r</c>
+						<c xml:id="L1C35">i</c>
+						<c xml:id="L1C36">o</c>
+					</ex>
+				</expan>
+			</supplied>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

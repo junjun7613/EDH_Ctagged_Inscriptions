@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Salonae, bei &amp;ndash; Vrlika (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057792</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057792</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Knin, Muz. Kninske krajine</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(20)</height><width>(44)</width><depth>(64)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern">Vrlika</placeName><placeName type="findspot">Koljane</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057792_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">Madocus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-24" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13200.</bibl><bibl>C. Patsch, WMBH 7, 1900, 143, Nr. 28.</bibl><bibl>C. Patsch, WMBH 5, 1897, 210, Nr. 72; Fig. 72 (Zeichnung).</bibl><bibl>CIL 03, 13200 add. p. 2328, 10.</bibl><bibl>AE 2009, 1027.</bibl><bibl>M. Mili&#263;evi&#263; Brada&#269;, OpuscArchZagreb 33, 2009, 60-62; sl. 16 (Zeichnung). - AE 2009.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">M</c>
+		<c xml:id="L0C4">a</c>
+		<c xml:id="L0C5">d</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L0C6">o</c>
+			<c xml:id="L0C7">c</c>
+			<c xml:id="L0C8">u</c>
+			<c xml:id="L0C9">s</c>
+		</supplied>
+		<c xml:id="L0C10"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">D</c>
+		<c xml:id="L1C2">i</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">n</c>
+		<supplied reason="lost">
+			<c xml:id="L1C5">a</c>
+			<c xml:id="L1C6">e</c>
+			<c xml:id="L1C7"> </c>
+			<expan>
+				<abbr>v</abbr>
+				<ex>otum</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>s</abbr>
+				<ex>olvit</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>l</abbr>
+				<ex>ibens</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>m</abbr>
+				<ex>erito</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

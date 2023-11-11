@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carquere (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004376</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004376</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2741450">Carquere</placeName><placeName type="findspot" /><placeName type="region">Viseu</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004376_1"><persName><name type="cognomen">Rufus+</name></persName></person><person xml:id="HD004376_2"><persName><name type="cognomen">Ruf[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-23" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Alves Dias: Erg&#228;nzungen unsicher; Name des Vaters entweder Rufus oder Rufinus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0288.</bibl><bibl>M.M. Alves Dias, AP 4, 1986, 195-197, Nr. 5; fig. 5. (B) - AE 1986.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">R</c>
+		<c xml:id="L1C3">u</c>
+		<c xml:id="L1C4">f</c>
+		<c xml:id="L1C5">u</c>
+		<supplied reason="lost">
+			<c xml:id="L1C6">s</c>
+		</supplied>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">R</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">f</c>
+		<c xml:id="L2C4">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C5"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">a</c>
+				<c xml:id="L3C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C3">n</c>
+				<c xml:id="L3C4">o</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">u</c>
+				<c xml:id="L3C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">X</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">h</c>
+		<c xml:id="L4C2">i</c>
+		<c xml:id="L4C3">c</c>
+		<c xml:id="L4C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">i</c>
+				<c xml:id="L4C7">t</c>
+				<c xml:id="L4C8">u</c>
+				<c xml:id="L4C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C10"> </c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L4C11">e</c>
+			<c xml:id="L4C12">s</c>
+			<c xml:id="L4C13">t</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

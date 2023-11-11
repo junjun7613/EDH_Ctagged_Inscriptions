@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Thessalonica? &amp;ndash; Thessalon&#237;ki? (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000919</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000919</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mus. Thessalon&#237;ki</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(21)</height><width>(11)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/491741">Thessalonica?</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Thessalon&#237;ki?</placeName><placeName type="findspot" /><placeName type="region">Kentrik&#237; Makedon&#237;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000919_1" sex="W"><persName><name type="cognomen">[---]tycha+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-17" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>M&#246;gliche Erg&#228;nzungen: [Agathe]tycha, [Auxi]tycha, [Chaire]tycha.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0894.</bibl><bibl>D. Feissel, Recueil des inscriptions chr&#233;tiennes de Mac&#233;doine du IIIe au VIe si&#232;cle, BCH (Suppl.) 8, (Paris 1983) 174, Nr. 206; Zeichung. - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">M</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">m</c>
+		<c xml:id="L1C5">o</c>
+		<c xml:id="L1C6">r</c>
+		<supplied reason="lost">
+			<c xml:id="L1C7">i</c>
+			<c xml:id="L1C8">a</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">t</c>
+		<c xml:id="L2C2">y</c>
+		<c xml:id="L2C3">c</c>
+		<c xml:id="L2C4">h</c>
+		<c xml:id="L2C5">a</c>
+		<supplied reason="lost">
+			<c xml:id="L2C6">e</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 depo
+		</supplied>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">s</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4">a</c>
+		<c xml:id="L3C5"> </c>
+		<c xml:id="L3C6">i</c>
+		<supplied reason="lost">
+			<c xml:id="L3C7">n</c>
+			<c xml:id="L3C8"> </c>
+			<c xml:id="L3C9">p</c>
+			<c xml:id="L3C10">a</c>
+			<c xml:id="L3C11">c</c>
+			<c xml:id="L3C12">e</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L3C13"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">c</c>
+		<c xml:id="L4C2">o</c>
+		<c xml:id="L4C3">r</c>
+		<c xml:id="L4C4">p</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

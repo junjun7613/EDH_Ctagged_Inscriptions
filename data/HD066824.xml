@@ -1,0 +1,83 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Hallstatt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066824</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066824</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hallstatt, Mus. Hallstatt</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>9</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1983"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2773148">Hallstatt</placeName><placeName type="findspot">Lahn, {Parzelle Nr. 200/3}, Nekropole, Grab 3</placeName><placeName type="region">Ober&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066824_1" sex="M"><persName><name type="cognomen">Vibius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-18" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Becher; Inschrift eingeritzt. Hinter VIBI zwei V-&#228;hnliche Zeichen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2009, 0986.</bibl><bibl>H. Zabehlicky, SpNov 7, 1991, 271-272, Nr. 2; Abb. 2 (Zeichnung). - AE 2009.</bibl><bibl>H. Zabehlicky - S. Zabehlicky-Scheffenegger, in: S. Papagyi (Hrsg.), Noricum-Pannoniai Haloms&#233;rok. Norisch-Pannonische H&#252;gelgr&#228;ber, V&#225;rpalota 1988 (Veszpr&#233;m 1990) 136-138; Abb. 6 u. 8 (Zeichnungen). - AE 2009.</bibl><bibl>M. Holzner - I. Weber-Hiden, Tyche 25, 2010, 198-199, Nr. 38; Zeichnung. - AE 2009.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">V</c>
+		<c xml:id="L1C3">i</c>
+		<c xml:id="L1C4">b</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C7">V</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C8">V</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

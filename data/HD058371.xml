@@ -1,0 +1,792 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Curia &amp;ndash; Chur (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058371</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058371</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen?; Chur, S. Mari&#228; Himmelfahrt, Kathedrale</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, ge&#228;dert / farbig</material><dimensions unit="cm"><height>(21)</height><width>(18)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187357">Curia</placeName></origPlace><origDate><origDate when-custom="0548" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">548 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1572"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661169">Chur</placeName><placeName type="findspot">{S. Luzi, Kirche}, Krypta, sekund&#228;r verwendet</placeName><placeName type="region">Kanton Graub&#252;nden</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058371_1" sex="M"><persName><name type="cognomen">Valentianus+</name></persName></person><person xml:id="HD058371_2" sex="M"><persName><name type="cognomen">Basilius*</name></persName></person><person xml:id="HD058371_3" sex="M"><persName><name type="cognomen">Paulinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-12" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fundortangaben und Fundjahr beziehen sich auf die bei der Auffindung vollst&#228;ndig erhaltene Tafel, von der heute der gr&#246;&#223;te Teil offenbar verschollen ist. Das noch erhaltene Fragment wurde 1863 oder 1864 bei der Burg Gunz bei Mols wiedergefunden (heute in der Kathedrale in Chur). Material: grauer Marmor. Erhaltener Teil verglichen an Foto. AE 1997: keine Wiedergabe der Inschrift. (B): Kleinere Abweichungen in Lesung/Erg&#228;nzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1198.</bibl><bibl>CIL 13, 05251. (B)</bibl><bibl>ILCV 1079. (B)</bibl><bibl>CLE 1378. (B)</bibl><bibl>IBR 070. (B)</bibl><bibl>CIMAH 5, 06; tav. 2, 10. (B) - AE 1997.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">S</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">a</c>
+					<c xml:id="L1C4">n</c>
+				</ex>
+				<abbr>
+					<c xml:id="L1C5">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C6">t</c>
+					<c xml:id="L1C7">a</c>
+				</ex>
+				<c xml:id="L1C8">e</c>
+			</expan>
+			<c xml:id="L1C9"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C10">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C11">e</c>
+					<c xml:id="L1C12">m</c>
+					<c xml:id="L1C13">o</c>
+					<c xml:id="L1C14">r</c>
+					<c xml:id="L1C15">i</c>
+					<c xml:id="L1C16">a</c>
+					<c xml:id="L1C17">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C18"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C19">e</c>
+					<c xml:id="L1C20">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C21">i</c>
+					<c xml:id="L1C22">s</c>
+				</ex>
+				<abbr>
+					<c xml:id="L1C23">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C24">o</c>
+					<c xml:id="L1C25">p</c>
+					<c xml:id="L1C26">u</c>
+				</ex>
+				<c xml:id="L1C27">s</c>
+			</expan>
+		</supplied>
+		<c xml:id="L1C28"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">h</c>
+			<c xml:id="L2C2">o</c>
+			<c xml:id="L2C3">c</c>
+			<c xml:id="L2C4"> </c>
+			<c xml:id="L2C5">i</c>
+			<c xml:id="L2C6">a</c>
+			<c xml:id="L2C7">c</c>
+			<c xml:id="L2C8">i</c>
+			<c xml:id="L2C9">t</c>
+			<c xml:id="L2C10"> </c>
+			<c xml:id="L2C11">i</c>
+			<c xml:id="L2C12">n</c>
+			<c xml:id="L2C13"> </c>
+			<c xml:id="L2C14">t</c>
+			<c xml:id="L2C15">o</c>
+			<c xml:id="L2C16">m</c>
+			<c xml:id="L2C17">o</c>
+			<c xml:id="L2C18">l</c>
+			<c xml:id="L2C19">o</c>
+			<c xml:id="L2C20">!</c>
+			<c xml:id="L2C21"> </c>
+			<c xml:id="L2C22">q</c>
+			<c xml:id="L2C23">u</c>
+			<c xml:id="L2C24">e</c>
+			<c xml:id="L2C25">m</c>
+			<c xml:id="L2C26"> </c>
+			<c xml:id="L2C27">d</c>
+			<c xml:id="L2C28">e</c>
+			<c xml:id="L2C29">f</c>
+			<c xml:id="L2C30">l</c>
+			<c xml:id="L2C31">e</c>
+			<c xml:id="L2C32">v</c>
+			<c xml:id="L2C33">i</c>
+			<c xml:id="L2C34">t</c>
+		</supplied>
+		<c xml:id="L2C35"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C1">R</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C2">a</c>
+				</ex>
+				<c xml:id="L3C3">e</c>
+				<c xml:id="L3C4">t</c>
+				<c xml:id="L3C5">i</c>
+				<c xml:id="L3C6">c</c>
+				<c xml:id="L3C7">a</c>
+			</expan>
+			<c xml:id="L3C8"> </c>
+			<c xml:id="L3C9">t</c>
+			<c xml:id="L3C10">e</c>
+			<c xml:id="L3C11">l</c>
+			<c xml:id="L3C12">l</c>
+			<c xml:id="L3C13">u</c>
+			<c xml:id="L3C14">s</c>
+		</supplied>
+		<c xml:id="L3C15"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">m</c>
+			<c xml:id="L4C2">a</c>
+			<c xml:id="L4C3">x</c>
+			<c xml:id="L4C4">i</c>
+			<c xml:id="L4C5">m</c>
+			<c xml:id="L4C6">a</c>
+			<c xml:id="L4C7"> </c>
+			<c xml:id="L4C8">s</c>
+			<c xml:id="L4C9">u</c>
+			<c xml:id="L4C10">m</c>
+			<c xml:id="L4C11">m</c>
+			<c xml:id="L4C12">o</c>
+			<c xml:id="L4C13">r</c>
+			<c xml:id="L4C14">u</c>
+			<c xml:id="L4C15">m</c>
+			<c xml:id="L4C16"> </c>
+			<c xml:id="L4C17">g</c>
+			<c xml:id="L4C18">l</c>
+			<c xml:id="L4C19">o</c>
+			<c xml:id="L4C20">r</c>
+			<c xml:id="L4C21">i</c>
+			<c xml:id="L4C22">a</c>
+			<c xml:id="L4C23"> </c>
+			<c xml:id="L4C24">p</c>
+			<c xml:id="L4C25">o</c>
+			<c xml:id="L4C26">n</c>
+		</supplied>
+	</line>
+	<line break="no" n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">t</c>
+			<c xml:id="L5C2">i</c>
+			<c xml:id="L5C3">f</c>
+			<c xml:id="L5C4">e</c>
+			<c xml:id="L5C5">c</c>
+			<c xml:id="L5C6">u</c>
+			<c xml:id="L5C7">m</c>
+			<c xml:id="L5C8">!</c>
+		</supplied>
+		<c xml:id="L5C9"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<c xml:id="L6C1">a</c>
+			<c xml:id="L6C2">b</c>
+			<c xml:id="L6C3">i</c>
+			<c xml:id="L6C4">e</c>
+			<c xml:id="L6C5">c</c>
+			<c xml:id="L6C6">t</c>
+			<c xml:id="L6C7">i</c>
+			<c xml:id="L6C8">s</c>
+			<c xml:id="L6C9"> </c>
+			<c xml:id="L6C10">q</c>
+			<c xml:id="L6C11">u</c>
+			<c xml:id="L6C12">i</c>
+			<c xml:id="L6C13"> </c>
+			<c xml:id="L6C14">f</c>
+			<c xml:id="L6C15">u</c>
+			<c xml:id="L6C16">d</c>
+			<c xml:id="L6C17">i</c>
+			<c xml:id="L6C18">t</c>
+			<c xml:id="L6C19"> </c>
+			<c xml:id="L6C20">o</c>
+			<c xml:id="L6C21">p</c>
+			<c xml:id="L6C22">e</c>
+			<c xml:id="L6C23">s</c>
+			<c xml:id="L6C24"> </c>
+			<c xml:id="L6C25">n</c>
+			<c xml:id="L6C26">u</c>
+			<c xml:id="L6C27">d</c>
+			<c xml:id="L6C28">a</c>
+		</supplied>
+	</line>
+	<line break="no" n="7">
+		<supplied reason="lost">
+			<c xml:id="L7C1">t</c>
+			<c xml:id="L7C2">a</c>
+			<c xml:id="L7C3">q</c>
+			<c xml:id="L7C4">u</c>
+			<c xml:id="L7C5">e</c>
+			<c xml:id="L7C6"> </c>
+			<c xml:id="L7C7">t</c>
+			<c xml:id="L7C8">e</c>
+			<c xml:id="L7C9">x</c>
+			<c xml:id="L7C10">i</c>
+			<c xml:id="L7C11">t</c>
+		</supplied>
+		<c xml:id="L7C12"> </c>
+	</line>
+	<line n="8">
+		<supplied reason="lost">
+			<c xml:id="L8C1">a</c>
+			<c xml:id="L8C2">g</c>
+			<c xml:id="L8C3">m</c>
+			<c xml:id="L8C4">i</c>
+			<c xml:id="L8C5">n</c>
+			<c xml:id="L8C6">a</c>
+			<c xml:id="L8C7"> </c>
+			<c xml:id="L8C8">c</c>
+			<c xml:id="L8C9">a</c>
+			<c xml:id="L8C10">p</c>
+			<c xml:id="L8C11">t</c>
+			<c xml:id="L8C12">i</c>
+			<c xml:id="L8C13">v</c>
+			<c xml:id="L8C14">i</c>
+			<c xml:id="L8C15">s</c>
+			<c xml:id="L8C16"> </c>
+			<c xml:id="L8C17">p</c>
+			<c xml:id="L8C18">r</c>
+			<c xml:id="L8C19">a</c>
+			<c xml:id="L8C20">e</c>
+			<c xml:id="L8C21">m</c>
+			<c xml:id="L8C22">i</c>
+			<c xml:id="L8C23">a</c>
+			<c xml:id="L8C24"> </c>
+			<c xml:id="L8C25">l</c>
+			<c xml:id="L8C26">a</c>
+			<c xml:id="L8C27">r</c>
+			<c xml:id="L8C28">g</c>
+			<c xml:id="L8C29">a</c>
+		</supplied>
+		<c xml:id="L8C30"> </c>
+	</line>
+	<line n="9">
+		<supplied reason="lost">
+			<c xml:id="L9C1">f</c>
+			<c xml:id="L9C2">e</c>
+			<c xml:id="L9C3">r</c>
+			<c xml:id="L9C4">e</c>
+			<c xml:id="L9C5">n</c>
+			<c xml:id="L9C6">s</c>
+		</supplied>
+		<c xml:id="L9C7"> </c>
+	</line>
+	<line n="10">
+		<supplied reason="lost">
+			<c xml:id="L10C1">e</c>
+			<c xml:id="L10C2">s</c>
+			<c xml:id="L10C3">t</c>
+			<c xml:id="L10C4"> </c>
+			<c xml:id="L10C5">p</c>
+			<c xml:id="L10C6">i</c>
+			<c xml:id="L10C7">e</c>
+			<c xml:id="L10C8">t</c>
+			<c xml:id="L10C9">a</c>
+			<c xml:id="L10C10">s</c>
+			<c xml:id="L10C11"> </c>
+			<c xml:id="L10C12">v</c>
+			<c xml:id="L10C13">i</c>
+			<c xml:id="L10C14">c</c>
+			<c xml:id="L10C15">i</c>
+			<c xml:id="L10C16">n</c>
+			<c xml:id="L10C17">a</c>
+			<c xml:id="L10C18"> </c>
+			<c xml:id="L10C19">p</c>
+			<c xml:id="L10C20">o</c>
+			<c xml:id="L10C21">l</c>
+			<c xml:id="L10C22">o</c>
+			<c xml:id="L10C23"> </c>
+			<c xml:id="L10C24">n</c>
+			<c xml:id="L10C25">e</c>
+			<c xml:id="L10C26">c</c>
+			<c xml:id="L10C27"> </c>
+			<c xml:id="L10C28">f</c>
+			<c xml:id="L10C29">u</c>
+		</supplied>
+	</line>
+	<line break="no" n="11">
+		<supplied reason="lost">
+			<c xml:id="L11C1">n</c>
+			<c xml:id="L11C2">e</c>
+			<c xml:id="L11C3">r</c>
+			<c xml:id="L11C4">i</c>
+			<c xml:id="L11C5">s</c>
+			<c xml:id="L11C6"> </c>
+			<c xml:id="L11C7">i</c>
+			<c xml:id="L11C8">c</c>
+			<c xml:id="L11C9">t</c>
+			<c xml:id="L11C10">u</c>
+			<c xml:id="L11C11">m</c>
+		</supplied>
+		<c xml:id="L11C12"> </c>
+	</line>
+	<line n="12">
+		<supplied reason="lost">
+			<c xml:id="L12C1">s</c>
+			<c xml:id="L12C2">e</c>
+			<c xml:id="L12C3">n</c>
+			<c xml:id="L12C4">t</c>
+			<c xml:id="L12C5">i</c>
+			<c xml:id="L12C6">t</c>
+			<c xml:id="L12C7"> </c>
+			<c xml:id="L12C8">o</c>
+			<c xml:id="L12C9">v</c>
+			<c xml:id="L12C10">a</c>
+			<c xml:id="L12C11">n</c>
+			<c xml:id="L12C12">s</c>
+			<c xml:id="L12C13"> </c>
+			<c xml:id="L12C14">f</c>
+			<c xml:id="L12C15">a</c>
+			<c xml:id="L12C16">c</c>
+			<c xml:id="L12C17">t</c>
+			<c xml:id="L12C18">i</c>
+			<c xml:id="L12C19">s</c>
+			<c xml:id="L12C20"> </c>
+			<c xml:id="L12C21">q</c>
+			<c xml:id="L12C22">u</c>
+			<c xml:id="L12C23">i</c>
+			<c xml:id="L12C24"> </c>
+			<c xml:id="L12C25">p</c>
+			<c xml:id="L12C26">e</c>
+			<c xml:id="L12C27">t</c>
+			<c xml:id="L12C28">i</c>
+			<c xml:id="L12C29">t</c>
+		</supplied>
+		<c xml:id="L12C30"> </c>
+	</line>
+	<line n="13">
+		<supplied reason="lost">
+			<c xml:id="L13C1">a</c>
+			<c xml:id="L13C2">s</c>
+			<c xml:id="L13C3">t</c>
+			<c xml:id="L13C4">r</c>
+			<c xml:id="L13C5">a</c>
+			<c xml:id="L13C6"> </c>
+			<c xml:id="L13C7">b</c>
+			<c xml:id="L13C8">o</c>
+			<c xml:id="L13C9">n</c>
+			<c xml:id="L13C10">i</c>
+			<c xml:id="L13C11">s</c>
+		</supplied>
+		<c xml:id="L13C12"> </c>
+	</line>
+	<line n="14">
+		<supplied reason="lost">
+			<c xml:id="L14C1">h</c>
+			<c xml:id="L14C2">i</c>
+			<c xml:id="L14C3">s</c>
+			<c xml:id="L14C4"> </c>
+			<c xml:id="L14C5">p</c>
+			<c xml:id="L14C6">o</c>
+			<c xml:id="L14C7">l</c>
+			<c xml:id="L14C8">l</c>
+			<c xml:id="L14C9">e</c>
+			<c xml:id="L14C10">n</c>
+			<c xml:id="L14C11">s</c>
+			<c xml:id="L14C12"> </c>
+			<c xml:id="L14C13">t</c>
+			<c xml:id="L14C14">i</c>
+			<c xml:id="L14C15">t</c>
+			<c xml:id="L14C16">u</c>
+			<c xml:id="L14C17">l</c>
+			<c xml:id="L14C18">i</c>
+			<c xml:id="L14C19">s</c>
+			<c xml:id="L14C20"> </c>
+			<c xml:id="L14C21">V</c>
+			<c xml:id="L14C22">a</c>
+			<c xml:id="L14C23">l</c>
+			<c xml:id="L14C24">e</c>
+			<c xml:id="L14C25">n</c>
+			<c xml:id="L14C26">t</c>
+			<c xml:id="L14C27">i</c>
+			<c xml:id="L14C28">a</c>
+		</supplied>
+	</line>
+	<line break="no" n="15">
+		<supplied reason="lost">
+			<c xml:id="L15C1">n</c>
+			<c xml:id="L15C2">e</c>
+			<c xml:id="L15C3"> </c>
+			<c xml:id="L15C4">s</c>
+			<c xml:id="L15C5">a</c>
+			<c xml:id="L15C6">c</c>
+			<c xml:id="L15C7">e</c>
+			<c xml:id="L15C8">r</c>
+			<c xml:id="L15C9">d</c>
+			<c xml:id="L15C10">u</c>
+			<c xml:id="L15C11">s</c>
+			<c xml:id="L15C12">!</c>
+		</supplied>
+		<c xml:id="L15C13"> </c>
+	</line>
+	<line n="16">
+		<supplied reason="lost">
+			<c xml:id="L16C1">c</c>
+			<c xml:id="L16C2">r</c>
+			<c xml:id="L16C3">e</c>
+			<c xml:id="L16C4">d</c>
+			<c xml:id="L16C5">e</c>
+			<c xml:id="L16C6">r</c>
+			<c xml:id="L16C7">i</c>
+			<c xml:id="L16C8">s</c>
+			<c xml:id="L16C9"> </c>
+			<c xml:id="L16C10">a</c>
+			<c xml:id="L16C11"> </c>
+			<c xml:id="L16C12">c</c>
+			<c xml:id="L16C13">u</c>
+			<c xml:id="L16C14">n</c>
+			<c xml:id="L16C15">c</c>
+			<c xml:id="L16C16">t</c>
+			<c xml:id="L16C17">i</c>
+			<c xml:id="L16C18">s</c>
+			<c xml:id="L16C19"> </c>
+			<c xml:id="L16C20">n</c>
+			<c xml:id="L16C21">o</c>
+			<c xml:id="L16C22">n</c>
+			<c xml:id="L16C23"> </c>
+			<c xml:id="L16C24">p</c>
+			<c xml:id="L16C25">o</c>
+			<c xml:id="L16C26">t</c>
+			<c xml:id="L16C27">u</c>
+		</supplied>
+	</line>
+	<line break="no" n="17">
+		<supplied reason="lost">
+			<c xml:id="L17C1">i</c>
+			<c xml:id="L17C2">s</c>
+			<c xml:id="L17C3">s</c>
+			<c xml:id="L17C4">e</c>
+			<c xml:id="L17C5"> </c>
+			<c xml:id="L17C6">m</c>
+			<c xml:id="L17C7">o</c>
+			<c xml:id="L17C8">r</c>
+			<c xml:id="L17C9">i</c>
+			<c xml:id="L17C10"> </c>
+			<c xml:id="L17C11">q</c>
+			<c xml:id="L17C12">u</c>
+			<c xml:id="L17C13">i</c>
+			<c xml:id="L17C14"> </c>
+			<c xml:id="L17C15">v</c>
+			<c xml:id="L17C16">i</c>
+			<c xml:id="L17C17">x</c>
+			<c xml:id="L17C18">i</c>
+			<c xml:id="L17C19">t</c>
+			<c xml:id="L17C20"> </c>
+			<c xml:id="L17C21">i</c>
+			<c xml:id="L17C22">n</c>
+			<c xml:id="L17C23"> </c>
+			<c xml:id="L17C24">h</c>
+			<c xml:id="L17C25">o</c>
+			<c xml:id="L17C26">c</c>
+			<c xml:id="L17C27"> </c>
+			<c xml:id="L17C28">s</c>
+			<c xml:id="L17C29">a</c>
+			<c xml:id="L17C30">e</c>
+		</supplied>
+	</line>
+	<line break="no" n="18">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L18C1">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L18C2">u</c>
+					<c xml:id="L18C3">l</c>
+					<c xml:id="L18C4">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L18C5"> </c>
+			<c xml:id="L18C6">a</c>
+			<c xml:id="L18C7">n</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L18C8">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L18C9">o</c>
+				<c xml:id="L18C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L18C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L18C12">p</c>
+				<c xml:id="L18C13">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L18C14">u</c>
+				<c xml:id="L18C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L18C16"> </c>
+		<c xml:id="L18C17">m</c>
+		<expan>
+			<ex>
+				<c xml:id="L18C18">i</c>
+			</ex>
+			<abbr>
+				<c xml:id="L18C19">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L18C20">u</c>
+				<c xml:id="L18C21">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L18C22"> </c>
+		<supplied reason="lost">
+			<c xml:id="L18C23">L</c>
+			<c xml:id="L18C24">X</c>
+			<c xml:id="L18C25">X</c>
+			<c xml:id="L18C26"> </c>
+			<expan>
+				<abbr>d</abbr>
+				<ex>e</ex>
+				<abbr>p</abbr>
+				<ex>ositus</ex>
+			</expan>
+			 sub 
+			<expan>
+				<abbr>d</abbr>
+				<ex>ie</ex>
+			</expan>
+			 VII 
+			<expan>
+				<abbr>Id</abbr>
+				<ex>us</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>Ian</abbr>
+				<ex>uarias</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L18C27"> </c>
+	</line>
+	<line n="19">
+		<expan>
+			<abbr>
+				<c xml:id="L19C1">s</c>
+				<c xml:id="L19C2">e</c>
+				<c xml:id="L19C3">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L19C4">t</c>
+				<c xml:id="L19C5">i</c>
+				<c xml:id="L19C6">e</c>
+				<c xml:id="L19C7">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L19C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L19C9">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L19C10">o</c>
+				<c xml:id="L19C11">s</c>
+				<c xml:id="L19C12">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L19C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L19C14">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L19C15">o</c>
+				<c xml:id="L19C16">n</c>
+				<c xml:id="L19C17">s</c>
+				<c xml:id="L19C18">u</c>
+				<c xml:id="L19C19">l</c>
+				<c xml:id="L19C20">a</c>
+				<c xml:id="L19C21">t</c>
+				<c xml:id="L19C22">u</c>
+				<c xml:id="L19C23">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L19C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L19C25">B</c>
+				<c xml:id="L19C26">a</c>
+				<c xml:id="L19C27">s</c>
+				<c xml:id="L19C28">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L19C29">l</c>
+				<c xml:id="L19C30">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L19C31"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L19C32">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L19C33">i</c>
+				<c xml:id="L19C34">r</c>
+				<c xml:id="L19C35">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L19C36"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L19C37">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L19C38">l</c>
+				<c xml:id="L19C39">a</c>
+				<c xml:id="L19C40">r</c>
+				<c xml:id="L19C41">i</c>
+				<c xml:id="L19C42">s</c>
+				<c xml:id="L19C43">s</c>
+				<c xml:id="L19C44">i</c>
+				<c xml:id="L19C45">m</c>
+				<c xml:id="L19C46">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L19C47"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L19C48">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L19C49">o</c>
+					<c xml:id="L19C50">n</c>
+					<c xml:id="L19C51">s</c>
+					<c xml:id="L19C52">u</c>
+					<c xml:id="L19C53">l</c>
+					<c xml:id="L19C54">i</c>
+				</ex>
+				<c xml:id="L19C55">s</c>
+			</expan>
+			<c xml:id="L19C56"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L19C57">i</c>
+					<c xml:id="L19C58">n</c>
+					<c xml:id="L19C59">d</c>
+				</abbr>
+				<ex>
+					<c xml:id="L19C60">i</c>
+					<c xml:id="L19C61">c</c>
+					<c xml:id="L19C62">t</c>
+					<c xml:id="L19C63">i</c>
+					<c xml:id="L19C64">o</c>
+					<c xml:id="L19C65">n</c>
+					<c xml:id="L19C66">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L19C67"> </c>
+			<c xml:id="L19C68">X</c>
+			<c xml:id="L19C69">I</c>
+			<c xml:id="L19C70"> </c>
+			<c xml:id="L19C71">P</c>
+			<c xml:id="L19C72">a</c>
+			<c xml:id="L19C73">u</c>
+			<c xml:id="L19C74">l</c>
+			<c xml:id="L19C75">i</c>
+			<c xml:id="L19C76">n</c>
+			<c xml:id="L19C77">u</c>
+			<c xml:id="L19C78">s</c>
+			<c xml:id="L19C79"> </c>
+			<c xml:id="L19C80">n</c>
+			<c xml:id="L19C81">e</c>
+		</supplied>
+	</line>
+	<line break="no" n="20">
+		<c xml:id="L20C1">p</c>
+		<c xml:id="L20C2">o</c>
+		<c xml:id="L20C3">s</c>
+		<c xml:id="L20C4"> </c>
+		<c xml:id="L20C5">i</c>
+		<c xml:id="L20C6">p</c>
+		<c xml:id="L20C7">s</c>
+		<c xml:id="L20C8">i</c>
+		<c xml:id="L20C9">u</c>
+		<c xml:id="L20C10">s</c>
+		<c xml:id="L20C11"> </c>
+		<c xml:id="L20C12">h</c>
+		<expan>
+			<ex>
+				<c xml:id="L20C13">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L20C14">e</c>
+				<c xml:id="L20C15">c</c>
+			</abbr>
+		</expan>
+		<c xml:id="L20C16"> </c>
+		<c xml:id="L20C17">f</c>
+		<supplied reason="lost">
+			<c xml:id="L20C18">i</c>
+			<c xml:id="L20C19">e</c>
+			<c xml:id="L20C20">r</c>
+			<c xml:id="L20C21">i</c>
+			<c xml:id="L20C22"> </c>
+			<c xml:id="L20C23">o</c>
+			<c xml:id="L20C24">r</c>
+			<c xml:id="L20C25">d</c>
+			<c xml:id="L20C26">i</c>
+			<c xml:id="L20C27">n</c>
+			<c xml:id="L20C28">a</c>
+			<c xml:id="L20C29">v</c>
+			<c xml:id="L20C30">i</c>
+			<c xml:id="L20C31">t</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

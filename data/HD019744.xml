@@ -1,0 +1,138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Stony Stratford (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019744</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019744</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Brit. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/115">Silber</material><dimensions unit="cm"><height>5</height><width>4</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/164195342" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1789"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2636795">Stony Stratford</placeName><placeName type="findspot">{Windmill Field}</placeName><placeName type="region">Northamptonshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-26" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 10 /TO SAR [---] EST statt /to soluto p(ecuniam) d(edi).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00080. (B)</bibl><bibl>AE 1958, 0091.</bibl><bibl>R.P. Wright, JRS 47, 1957, 226, Nr. 2. - AE 1958.</bibl><bibl>RIB 0215; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">p</c>
+		<c xml:id="L0C4">r</c>
+		<c xml:id="L0C5">o</c>
+		<c xml:id="L0C6">m</c>
+		<c xml:id="L0C7">i</c>
+		<c xml:id="L0C8">s</c>
+		<c xml:id="L0C9">i</c>
+		<c xml:id="L0C10"> </c>
+		<c xml:id="L0C11">d</c>
+		<c xml:id="L0C12">e</c>
+		<c xml:id="L0C13">n</c>
+		<c xml:id="L0C14">a</c>
+	</line>
+	<line break="no" n="1">
+		<c xml:id="L1C1">r</c>
+		<c xml:id="L1C2">i</c>
+		<c xml:id="L1C3">o</c>
+		<c xml:id="L1C4">s</c>
+		<c xml:id="L1C5"> </c>
+		<c xml:id="L1C6">s</c>
+		<c xml:id="L1C7">e</c>
+		<c xml:id="L1C8">x</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">p</c>
+		<c xml:id="L1C11">r</c>
+		<c xml:id="L1C12">o</c>
+		<c xml:id="L1C13"> </c>
+		<c xml:id="L1C14">v</c>
+		<c xml:id="L1C15">o</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">t</c>
+		<c xml:id="L2C2">o</c>
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">s</c>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6">l</c>
+		<c xml:id="L2C7">u</c>
+		<c xml:id="L2C8">t</c>
+		<c xml:id="L2C9">o</c>
+		<c xml:id="L2C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C11">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C12">e</c>
+				<c xml:id="L2C13">c</c>
+				<c xml:id="L2C14">u</c>
+				<c xml:id="L2C15">n</c>
+				<c xml:id="L2C16">i</c>
+				<c xml:id="L2C17">a</c>
+				<c xml:id="L2C18">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C20">d</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C21">e</c>
+				<c xml:id="L2C22">d</c>
+				<c xml:id="L2C23">i</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,193 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Konjic (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054653</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054653</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>140</height><width>65</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3344680">Konjic</placeName><placeName type="findspot">{Lisi&#269;i&#263;i}, Bahnhof, bei, "Crkvina"</placeName><placeName type="region">Hercegova&#269;ko-neretvanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054653_1" sex="W"><persName><name type="cognomen">Posaulio</name></persName></person><person xml:id="HD054653_2" sex="M"><persName><name type="cognomen">Iacus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-26" who="Gr&#228;f">checked through squeeze</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Giebel mit Rosette; in den Zwickeln dar&#252;ber je ein Delphin. Z. 3: Der Buchstabe vor O und A &#228;hnelt einem Y und gibt nach Patsch wohl einen einheimischen Laut wieder. (B): Patsch, AEM; CIL III 12774: Z. 5: piissimae (AE-Ligatur).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12774. (B)</bibl><bibl>CIL 03, 13866.</bibl><bibl>K. Patsch, AEM 16, 1893, 83, Nr. 5. (B)</bibl><bibl>C. Patsch, WMBH 4 1896, 267, Nr. 1; Fig. 36 (Zeichnung).</bibl><bibl>G. Alf&#246;ldy, Die Personennamen in der r&#246;mischen Provinz Dalmatia (Heidelberg 1969) 269.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">P</c>
+		<c xml:id="L2C2">o</c>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">u</c>
+		<c xml:id="L2C6">l</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">i</c>
+		<c xml:id="L3C2">o</c>
+		<c xml:id="L3C3">n</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">s</c>
+		<c xml:id="L3C6"> </c>
+		<c xml:id="L3C7">I</c>
+		<c xml:id="L3C8">a</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">c</c>
+		<c xml:id="L4C2">i</c>
+		<c xml:id="L4C3"> </c>
+		<c xml:id="L4C4">f</c>
+		<c xml:id="L4C5">i</c>
+		<c xml:id="L4C6">l</c>
+		<c xml:id="L4C7">i</c>
+		<c xml:id="L4C8">a</c>
+		<c xml:id="L4C9">e</c>
+		<c xml:id="L4C10"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">p</c>
+		<c xml:id="L5C2">i</c>
+		<c xml:id="L5C3">i</c>
+		<c xml:id="L5C4">s</c>
+		<c xml:id="L5C5">s</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7">m</c>
+		<expan>
+			<ex>
+				<c xml:id="L5C8">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L5C9">e</c>
+			</abbr>
+		</expan>
+		<c xml:id="L5C10"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">d</c>
+				<c xml:id="L6C2">e</c>
+				<c xml:id="L6C3">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C4">u</c>
+				<c xml:id="L6C5">n</c>
+				<c xml:id="L6C6">c</c>
+				<c xml:id="L6C7">t</c>
+				<c xml:id="L6C8">a</c>
+				<c xml:id="L6C9">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C11">a</c>
+				<c xml:id="L6C12">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C13">n</c>
+				<c xml:id="L6C14">o</c>
+				<c xml:id="L6C15">r</c>
+				<c xml:id="L6C16">u</c>
+				<c xml:id="L6C17">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C18"> </c>
+		<c xml:id="L6C19">X</c>
+		<c xml:id="L6C20">X</c>
+		<c xml:id="L6C21"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C2">a</c>
+				<c xml:id="L7C3">r</c>
+				<c xml:id="L7C4">e</c>
+				<c xml:id="L7C5">n</c>
+				<c xml:id="L7C6">t</c>
+				<c xml:id="L7C7">e</c>
+				<c xml:id="L7C8">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

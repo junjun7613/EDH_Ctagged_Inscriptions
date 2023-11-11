@@ -1,0 +1,184 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kobern-Gondorf (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023106</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023106</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(83)</height><width>(69)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108906" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1889"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2919118">Kobern-Gondorf</placeName><placeName type="findspot">Gondorf, {Gr&#228;berfeld Gondorf I}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023106_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Olitius</name><name type="cognomen">Gaipor+</name></persName></person><person xml:id="HD023106_2" sex="W"><persName><name type="nomen">Primia</name><name type="cognomen">Secunda+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-07-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017419" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b25dc24d-b7e4-4d4f-833a-f7a425ff10a7/file/id/777028/file_version/name/small" /><graphic xml:id="F017420" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/574a0e91-998a-4fb6-8098-dd4aca62c228/file/id/777030/file_version/name/small" /><graphic xml:id="F017418" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1ee214dd-1e22-4155-bfa9-aded988f68b1/file/id/777027/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: statt einem Praenomen auch ein Gentiliz [-]olitius denkbar. (B): Oelmann; AE 1937: z. 2/3: Gaipo/[ri]; Z. 5: [ux]sori.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1937, 0016. (B)</bibl><bibl>F. Oelmann, BJ 140/141, 1936, 450; Taf. 13, 3. (B) - AE 1937.</bibl><bibl>K. Matijevi&#263;, R&#246;mische und fr&#252;hchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und &#246;stlicher Eifel (Rahden (Westf.) 2010) 352-355, Nr. 91; Abb. 23; Abb. 24 u. 25 (Zeichnungen).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">O</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">t</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">o</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">G</c>
+		<c xml:id="L2C10">a</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">p</c>
+		<c xml:id="L2C13">o</c>
+	</line>
+	<line break="no" n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">r</c>
+		</supplied>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">e</c>
+		<c xml:id="L3C5">t</c>
+		<c xml:id="L3C6"> </c>
+		<c xml:id="L3C7">P</c>
+		<c xml:id="L3C8">r</c>
+		<c xml:id="L3C9">i</c>
+		<c xml:id="L3C10">m</c>
+		<c xml:id="L3C11">i</c>
+		<c xml:id="L3C12">a</c>
+		<c xml:id="L3C13">e</c>
+		<c xml:id="L3C14"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">S</c>
+			<c xml:id="L4C2">e</c>
+		</supplied>
+		<c xml:id="L4C3">c</c>
+		<c xml:id="L4C4">u</c>
+		<supplied reason="lost">
+			<c xml:id="L4C5">n</c>
+		</supplied>
+		<c xml:id="L4C6">d</c>
+		<c xml:id="L4C7">a</c>
+		<c xml:id="L4C8">e</c>
+		<c xml:id="L4C9"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">u</c>
+		</supplied>
+		<c xml:id="L5C2">x</c>
+		<c xml:id="L5C3">s</c>
+		<c xml:id="L5C4">o</c>
+		<c xml:id="L5C5">r</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7"> </c>
+		<note>sic</note>
+		<c xml:id="L5C8"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<c xml:id="L6C1">h</c>
+			<c xml:id="L6C2">e</c>
+		</supplied>
+		<c xml:id="L6C3">r</c>
+		<c xml:id="L6C4">e</c>
+		<c xml:id="L6C5">d</c>
+		<c xml:id="L6C6">e</c>
+		<c xml:id="L6C7">s</c>
+		<c xml:id="L6C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C9">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C10">e</c>
+				<c xml:id="L6C11">c</c>
+				<c xml:id="L6C12">e</c>
+				<c xml:id="L6C13">r</c>
+				<c xml:id="L6C14">u</c>
+				<c xml:id="L6C15">n</c>
+				<c xml:id="L6C16">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,196 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Statio Enensis &amp;ndash; Prutting (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042354</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042354</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(40)</height><width>(69)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.0-3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187516">Statio Enensis</placeName></origPlace><origDate><origDate when-custom="0258" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">258 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2851801">Prutting</placeName><placeName type="findspot">M&#252;hltal, {Mithraeum}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042354_1" sex="M"><persName><name type="cognomen">Albinus</name></persName></person><person xml:id="HD042354_2" sex="M"><persName><name type="nomen">Mummius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterer Teil ds Inschriftfeldes eines Weihaltars; aus 20 Fragmenten zusammengesetzt. Textwiedergabe nach Hameter mit Erg&#228;nzungsvorschlag von E. Weber. (B): AE 2008: Z. 1: [---]B[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 41-42, Nr. 28; Foto.</bibl><bibl>J. Garbsch - H.J. Kellner, BVBl 50, 1985, 396-397, Nr. 22; tab. 40. - AE 2008 PIR (2. Aufl.) M 702.</bibl><bibl>AE 2008, 1021. (B)</bibl><bibl>PIR (2. Aufl.) A 1345.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">E</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C1">p</c>
+			<c xml:id="L2C2">r</c>
+			<c xml:id="L2C3">o</c>
+		</supplied>
+		<supplied reason="lost">
+			<c xml:id="L2C4">p</c>
+			<c xml:id="L2C5">r</c>
+			<c xml:id="L2C6">o</c>
+		</supplied>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">s</c>
+		<c xml:id="L2C9">u</c>
+		<c xml:id="L2C10">i</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C11">s</c>
+			<c xml:id="L2C12">q</c>
+			<c xml:id="L2C13">u</c>
+			<c xml:id="L2C14">e</c>
+		</supplied>
+		<supplied reason="lost">
+			<c xml:id="L2C15">s</c>
+			<c xml:id="L2C16">q</c>
+			<c xml:id="L2C17">u</c>
+			<c xml:id="L2C18">e</c>
+		</supplied>
+	</line>
+	<line break="no" n="3">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L3C1">b</c>
+		</supplied>
+		<c xml:id="L3C2">u</c>
+		<c xml:id="L3C3">s</c>
+		<c xml:id="L3C4"> </c>
+		<c xml:id="L3C5">v</c>
+		<c xml:id="L3C6">o</c>
+		<c xml:id="L3C7">t</c>
+		<supplied reason="lost">
+			<c xml:id="L3C8">u</c>
+			<c xml:id="L3C9">m</c>
+			<c xml:id="L3C10"> </c>
+			<c xml:id="L3C11">s</c>
+			<c xml:id="L3C12">o</c>
+			<c xml:id="L3C13">l</c>
+			<c xml:id="L3C14">v</c>
+			<c xml:id="L3C15">i</c>
+			<c xml:id="L3C16">t</c>
+		</supplied>
+		<c xml:id="L3C17"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">I</c>
+			<c xml:id="L4C2">d</c>
+			<c xml:id="L4C3">i</c>
+			<c xml:id="L4C4">b</c>
+		</supplied>
+		<c xml:id="L4C5">u</c>
+		<c xml:id="L4C6">s</c>
+		<c xml:id="L4C7"> </c>
+		<c xml:id="L4C8">O</c>
+		<c xml:id="L4C9">c</c>
+		<c xml:id="L4C10">t</c>
+		<c xml:id="L4C11">o</c>
+		<c xml:id="L4C12">b</c>
+		<c xml:id="L4C13">r</c>
+		<supplied reason="lost">
+			<c xml:id="L4C14">i</c>
+			<c xml:id="L4C15">b</c>
+			<c xml:id="L4C16">u</c>
+		</supplied>
+		<c xml:id="L4C17">s</c>
+		<c xml:id="L4C18"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">A</c>
+		<c xml:id="L5C2">l</c>
+		<c xml:id="L5C3">b</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5">n</c>
+		<c xml:id="L5C6">o</c>
+		<c xml:id="L5C7"> </c>
+		<c xml:id="L5C8">e</c>
+		<c xml:id="L5C9">t</c>
+		<c xml:id="L5C10"> </c>
+		<c xml:id="L5C11">M</c>
+		<c xml:id="L5C12">u</c>
+		<c xml:id="L5C13">m</c>
+		<expan>
+			<ex>
+				<c xml:id="L5C14">m</c>
+			</ex>
+			<abbr>
+				<c xml:id="L5C15">i</c>
+				<c xml:id="L5C16">o</c>
+			</abbr>
+		</expan>
+		<c xml:id="L5C17"> </c>
+		<c xml:id="L5C18">c</c>
+		<c xml:id="L5C19">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L5C20">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L5C21">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C22">u</c>
+				<c xml:id="L5C23">l</c>
+				<c xml:id="L5C24">i</c>
+				<c xml:id="L5C25">b</c>
+				<c xml:id="L5C26">u</c>
+				<c xml:id="L5C27">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

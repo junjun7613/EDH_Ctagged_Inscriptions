@@ -1,0 +1,138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from &#206;le de Planier (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004377</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004377</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0047" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 47 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">&#206;le de Planier</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004377_1"><persName><name type="praenomen">M.</name><name type="nomen">Tuccius</name><name type="cognomen">Galeo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-09-02" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Amphore mit Stempel. A. Tchernia identifiziert M. Tuccius Galeo mit dem in Cic., Att. 11, 12, 4 bezeugten M. Tuccius, dessen Erbschaft Cicero 47 v. Chr. annahm; vgl. zu ihm auch Cic., fam. 8, 8, 1. Y: 47 v. Chr.: Tod des M. Tuccius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0398.</bibl><bibl>A. Tchernia, &#201;tudes d'arch&#233;ologie proven&#231;ale (Ophrys 1971) 60-62; fig. 10; fig. 9 (Zeichnung). - AE 1979.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">r</c>
+				<c xml:id="L1C5">c</c>
+				<c xml:id="L1C6">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">T</c>
+		<c xml:id="L1C9">u</c>
+		<c xml:id="L1C10">c</c>
+		<c xml:id="L1C11">c</c>
+		<c xml:id="L1C12">i</c>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">u</c>
+				<c xml:id="L1C16">c</c>
+				<c xml:id="L1C17">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C19">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C20">i</c>
+				<c xml:id="L1C21">l</c>
+				<c xml:id="L1C22">i</c>
+				<c xml:id="L1C23">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C25">T</c>
+				<c xml:id="L1C26">r</c>
+				<c xml:id="L1C27">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C28">m</c>
+				<c xml:id="L1C29">e</c>
+				<c xml:id="L1C30">n</c>
+				<c xml:id="L1C31">t</c>
+				<c xml:id="L1C32">i</c>
+				<c xml:id="L1C33">n</c>
+				<c xml:id="L1C34">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C35"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">G</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">e</c>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6">n</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

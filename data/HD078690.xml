@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Bonna &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078690</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078690</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(22)</height><width>(19)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1858"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="findspot">{Adenauerallee} (ehemals Koblenzer Stra&#223;e, Steuerempfangshaus, bei), Mithr&#228;um</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017549" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4d93adfa-28ee-43f4-b8fd-08596842e190/file/id/777158/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08034; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 104-105, Nr. 222; Zeichnung.</bibl><bibl>E. Schwertheim, Die Denkm&#228;ler orientalischer Gottheiten im r&#246;mischen Deutschland (Leiden 1974) 32-33, Nr. 35 a; Taf. 6, 35 a.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C3">C</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L0C4">a</c>
+				<c xml:id="L0C5">u</c>
+				<c xml:id="L0C6">t</c>
+				<c xml:id="L0C7">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C8"> </c>
+		<abbr>
+			<c xml:id="L0C9">F</c>
+		</abbr>
+		<c xml:id="L0C10"> </c>
+		<abbr>
+			<c xml:id="L0C11">A</c>
+		</abbr>
+		<c xml:id="L0C12"> </c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

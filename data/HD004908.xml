@@ -1,0 +1,131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Montecastello (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004908</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004908</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(6)</height><width>(31)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Montecastello</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004908_1"><persName><name type="praenomen">C.</name><name type="nomen">Caesius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-05-10" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Erster Buchstabe: statt I auch L m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1981, 0380.</bibl><bibl>G. Susini, ASPR 29/30, 1978/79, 25-28. - AE 1981.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">-</c>
+		<c xml:id="L1C3">-</c>
+		<c xml:id="L1C4">-</c>
+		<c xml:id="L1C5">-</c>
+		<c xml:id="L1C6">-</c>
+		<c xml:id="L1C7">-</c>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">e</c>
+		<c xml:id="L1C10">t</c>
+		<c xml:id="L1C11"> </c>
+		<c xml:id="L1C12">s</c>
+		<c xml:id="L1C13">i</c>
+		<c xml:id="L1C14">b</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C15">]</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C16">i</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C18">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C19">e</c>
+				<c xml:id="L1C20">c</c>
+				<c xml:id="L1C21">i</c>
+				<c xml:id="L1C22">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C23"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C24">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C25">a</c>
+				<c xml:id="L1C26">i</c>
+				<c xml:id="L1C27">u</c>
+				<c xml:id="L1C28">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C29"> </c>
+		<c xml:id="L1C30">C</c>
+		<c xml:id="L1C31">a</c>
+		<c xml:id="L1C32">e</c>
+		<c xml:id="L1C33">s</c>
+		<c xml:id="L1C34">i</c>
+		<c xml:id="L1C35">u</c>
+		<c xml:id="L1C36">[</c>
+		<c xml:id="L1C37">s</c>
+		<c xml:id="L1C38"> </c>
+		<c xml:id="L1C39">-</c>
+		<c xml:id="L1C40">-</c>
+		<c xml:id="L1C41">-</c>
+		<c xml:id="L1C42">-</c>
+		<c xml:id="L1C43">-</c>
+		<c xml:id="L1C44">-</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

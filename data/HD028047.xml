@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Bela Crkva (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028047</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028047</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vr&#353;ac, Muz. Nar.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/792952">Bela Crkva</placeName><placeName type="findspot">{Banatska Palanka}</placeName><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-08-07" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrift gestempelt; Inschriftfeld: 3 x (10) cm, in Form einer tabula ansata. (B): T&#233;gl&#225;s; AE 1911: Cret(um) mit ET-Ligatur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1912, 0078. (B)</bibl><bibl>IDR 3, 1, 006; fig. 5 (Zeichnung).</bibl><bibl>G. T&#233;gl&#225;s, Klio 11, 1911, 507, Nr. 1. (B) - AE 1912.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+				<c xml:id="L1C3">o</c>
+				<c xml:id="L1C4">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C5">o</c>
+				<c xml:id="L1C6">r</c>
+				<c xml:id="L1C7">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">I</c>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">C</c>
+				<c xml:id="L1C12">r</c>
+				<c xml:id="L1C13">e</c>
+				<c xml:id="L1C14">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">u</c>
+				<c xml:id="L1C16">m</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

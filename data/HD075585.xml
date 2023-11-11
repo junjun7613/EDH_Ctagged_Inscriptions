@@ -1,0 +1,316 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075585</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075585</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(114)</height><width>59</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate notBefore-custom="0039" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">39 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot">{Mainzer Stra&#223;e 20/21}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075585_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Fabius</name><name type="cognomen">Fabius</name></persName></person><person xml:id="HD075585_2" sex="M"><persName><name type="nomen">Anicius</name><name type="cognomen">Modestus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-15" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012792" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8598137f-6fea-4a15-ad52-e38cb46d6d8c/file/id/772317/file_version/name/small" /><graphic xml:id="F016055" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ee274684-f759-4a7d-a4ef-d9b15b91bac0/file/id/775633/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 u. 2: Buchstabe F ohne mittlere Querhaste. (B): Selzer: Z. 7: h(eres) f(aciendum) c(uravit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07506.</bibl><bibl>W. Selzer, R&#246;mische Steindenkm&#228;ler. Mainz in r&#246;mischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 116, Nr. 6; Foto. (B)</bibl><bibl>W. Boppert, R&#246;mische Steindenkm&#228;ler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 65, Nr. 23; Tafel 14, 23.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">c</c>
+				<c xml:id="L1C5">i</c>
+				<c xml:id="L1C6">u</c>
+				<c xml:id="L1C7">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">F</c>
+		<c xml:id="L1C10">a</c>
+		<c xml:id="L1C11">b</c>
+		<c xml:id="L1C12">i</c>
+		<c xml:id="L1C13">u</c>
+		<c xml:id="L1C14">s</c>
+		<c xml:id="L1C15"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">u</c>
+				<c xml:id="L2C3">c</c>
+				<c xml:id="L2C4">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C6">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C7">i</c>
+				<c xml:id="L2C8">l</c>
+				<c xml:id="L2C9">i</c>
+				<c xml:id="L2C10">u</c>
+				<c xml:id="L2C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C13">G</c>
+				<c xml:id="L2C14">a</c>
+				<c xml:id="L2C15">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C16">e</c>
+				<c xml:id="L2C17">r</c>
+				<c xml:id="L2C18">i</c>
+				<c xml:id="L2C19">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C20"> </c>
+		<c xml:id="L2C21">F</c>
+		<c xml:id="L2C22">a</c>
+		<c xml:id="L2C23">b</c>
+		<c xml:id="L2C24">i</c>
+		<c xml:id="L2C25">u</c>
+		<c xml:id="L2C26">s</c>
+		<c xml:id="L2C27"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">N</c>
+				<c xml:id="L3C2">e</c>
+				<c xml:id="L3C3">r</c>
+				<c xml:id="L3C4">t</c>
+				<c xml:id="L3C5">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C6">b</c>
+				<c xml:id="L3C7">r</c>
+				<c xml:id="L3C8">i</c>
+				<c xml:id="L3C9">g</c>
+				<c xml:id="L3C10">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C12">m</c>
+				<c xml:id="L3C13">i</c>
+				<c xml:id="L3C14">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C15">e</c>
+				<c xml:id="L3C16">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C17"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">l</c>
+				<c xml:id="L4C2">e</c>
+				<c xml:id="L4C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C4">i</c>
+				<c xml:id="L4C5">o</c>
+				<c xml:id="L4C6">n</c>
+				<c xml:id="L4C7">i</c>
+				<c xml:id="L4C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">I</c>
+		<c xml:id="L4C11">I</c>
+		<c xml:id="L4C12">I</c>
+		<c xml:id="L4C13">I</c>
+		<c xml:id="L4C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C15">M</c>
+				<c xml:id="L4C16">a</c>
+				<c xml:id="L4C17">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C18">e</c>
+				<c xml:id="L4C19">d</c>
+				<c xml:id="L4C20">o</c>
+				<c xml:id="L4C21">n</c>
+				<c xml:id="L4C22">i</c>
+				<c xml:id="L4C23">c</c>
+				<c xml:id="L4C24">a</c>
+				<c xml:id="L4C25">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C26"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">a</c>
+				<c xml:id="L5C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C3">n</c>
+				<c xml:id="L5C4">o</c>
+				<c xml:id="L5C5">r</c>
+				<c xml:id="L5C6">u</c>
+				<c xml:id="L5C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C8"> </c>
+		<c xml:id="L5C9">X</c>
+		<c xml:id="L5C10">L</c>
+		<c xml:id="L5C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C12">s</c>
+				<c xml:id="L5C13">t</c>
+				<c xml:id="L5C14">i</c>
+				<c xml:id="L5C15">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C16">e</c>
+				<c xml:id="L5C17">n</c>
+				<c xml:id="L5C18">d</c>
+				<c xml:id="L5C19">i</c>
+				<c xml:id="L5C20">o</c>
+				<c xml:id="L5C21">r</c>
+				<c xml:id="L5C22">u</c>
+				<c xml:id="L5C23">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C24"> </c>
+		<c xml:id="L5C25">X</c>
+		<c xml:id="L5C26">X</c>
+		<c xml:id="L5C27">I</c>
+		<c xml:id="L5C28"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">A</c>
+		<c xml:id="L6C2">n</c>
+		<c xml:id="L6C3">i</c>
+		<c xml:id="L6C4">c</c>
+		<c xml:id="L6C5">i</c>
+		<c xml:id="L6C6">u</c>
+		<c xml:id="L6C7">s</c>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">M</c>
+		<c xml:id="L6C10">o</c>
+		<c xml:id="L6C11">d</c>
+	</line>
+	<line break="no" n="7">
+		<c xml:id="L7C1">e</c>
+		<c xml:id="L7C2">s</c>
+		<c xml:id="L7C3">t</c>
+		<c xml:id="L7C4">u</c>
+		<c xml:id="L7C5">s</c>
+		<c xml:id="L7C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C7">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C8">e</c>
+				<c xml:id="L7C9">r</c>
+				<c xml:id="L7C10">e</c>
+				<c xml:id="L7C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C12"> </c>
+		<abbr>
+			<c xml:id="L7C13">c</c>
+		</abbr>
+		<c xml:id="L7C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C15">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C16">a</c>
+				<c xml:id="L7C17">c</c>
+				<c xml:id="L7C18">i</c>
+				<c xml:id="L7C19">e</c>
+				<c xml:id="L7C20">n</c>
+				<c xml:id="L7C21">d</c>
+				<c xml:id="L7C22">u</c>
+				<c xml:id="L7C23">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C25">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C26">u</c>
+				<c xml:id="L7C27">r</c>
+				<c xml:id="L7C28">a</c>
+				<c xml:id="L7C29">v</c>
+				<c xml:id="L7C30">i</c>
+				<c xml:id="L7C31">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

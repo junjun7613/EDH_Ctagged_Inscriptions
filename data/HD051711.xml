@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Teurnia &amp;ndash; Lendorf (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051711</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051711</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lendorf, S. Peter in Holz, R&#246;mermus. Teurnia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, wei&#223;</material><dimensions unit="cm"><height>(41)</height><width>(26)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.4-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1994"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766434">Lendorf</placeName><placeName type="findspot">S. Peter in Holz, {Pfarrhof}, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD051711_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">R(---)</name><name type="cognomen">B(---)</name></persName></person><person xml:id="HD051711_2" sex="M"><persName><name type="cognomen">Ursinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-11" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022807" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fe2a8351-e45b-4929-8fd2-27d81e988d98/file/id/782973/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Altar oder Basis; auf der Oberseite ein D&#252;belloch. Auf der linken Nebenseite eine patera, auf der rechten ein urceus. (B): Glaser: Z. 3: Ursinu[s].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1332.</bibl><bibl>F. Glaser, Die Skulpturen des Stadtgebietes von Teurnia, CSIR &#214;sterreich 2, 6 (Wien 1979) 92-93, Nr. 109; Taf. 55, 109. (B)</bibl><bibl>F. Glaser, FuBer&#214; 33, 1994, 551; Abb. 594 (Zeichnung). - AE 1994.</bibl><bibl>F. Glaser, Arch&#214;st 5, 1, 1994, 24-25; Abb. 2 (Zeichnung). - AE 1994.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">G</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">n</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">o</c>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">u</c>
+				<c xml:id="L2C3">c</c>
+				<c xml:id="L2C4">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C5"> </c>
+		<abbr>
+			<c xml:id="L2C6">R</c>
+		</abbr>
+		<c xml:id="L2C7"> </c>
+		<abbr>
+			<c xml:id="L2C8">B</c>
+		</abbr>
+		<c xml:id="L2C9"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">U</c>
+		<c xml:id="L3C2">r</c>
+		<c xml:id="L3C3">s</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">u</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">s</c>
+		<c xml:id="L4C2">e</c>
+		<c xml:id="L4C3">r</c>
+		<c xml:id="L4C4">v</c>
+		<supplied reason="lost">
+			<c xml:id="L4C5">u</c>
+			<c xml:id="L4C6">s</c>
+		</supplied>
+		<c xml:id="L4C7"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">o</c>
+				<c xml:id="L5C3">t</c>
+				<c xml:id="L5C4">u</c>
+				<c xml:id="L5C5">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C7">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C8">o</c>
+				<c xml:id="L5C9">l</c>
+				<c xml:id="L5C10">v</c>
+				<c xml:id="L5C11">i</c>
+				<c xml:id="L5C12">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C14">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C15">i</c>
+				<c xml:id="L5C16">b</c>
+				<c xml:id="L5C17">e</c>
+				<c xml:id="L5C18">n</c>
+				<c xml:id="L5C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C20"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L5C21">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C22">a</c>
+					<c xml:id="L5C23">e</c>
+					<c xml:id="L5C24">t</c>
+					<c xml:id="L5C25">u</c>
+					<c xml:id="L5C26">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C27"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C28">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C29">e</c>
+					<c xml:id="L5C30">r</c>
+					<c xml:id="L5C31">i</c>
+					<c xml:id="L5C32">t</c>
+					<c xml:id="L5C33">o</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

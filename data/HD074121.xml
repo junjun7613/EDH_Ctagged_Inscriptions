@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074121</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074121</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(14)</height><width>(28)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Zivilstadt, {Schaffelhof}, ehemaliges Haus Nr. 133 (alte Konskriptionsnummer), vermauert</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-30" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019713" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/af42872a-d42d-43bd-8a78-91bc2bad3676/file/id/779785/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberfl&#228;che stark verrieben, Inschrift kaum noch lesbar. Nach Hild in dem Haus &amp;apos;Nr. 133&amp;apos; (Konskriptionsnummer?) vermauert gewesen. (B): Kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 223, Nr. 343. (B)</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 60, Nr. 252. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<expan>
+			<abbr>
+				<c xml:id="L0C2">S</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L0C3"> </c>
+		<c xml:id="L0C4">V</c>
+		<c xml:id="L0C5">L</c>
+		<c xml:id="L0C6">I</c>
+		<c xml:id="L0C7">V</c>
+		<c xml:id="L0C8">S</c>
+		<c xml:id="L0C9">T</c>
+		<c xml:id="L0C10">I</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C11"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">R</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">O</c>
+		<c xml:id="L1C4">S</c>
+		<c xml:id="L1C5">C</c>
+		<c xml:id="L1C6">A</c>
+		<c xml:id="L1C7">S</c>
+		<c xml:id="L1C8">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">I</c>
+		<c xml:id="L2C2">I</c>
+		<c xml:id="L2C3">I</c>
+		<c xml:id="L2C4">N</c>
+		<c xml:id="L2C5">A</c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

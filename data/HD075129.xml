@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Gro&#223;krotzenburg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075129</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075129</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gro&#223;krotzenburg, Heimatmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(8)</height><width>(32)</width><depth>(14)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118710" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 260 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2915372">Gro&#223;krotzenburg</placeName><placeName type="findspot">{Hanauer Landstra&#223;e 22}, sekund&#228;r verwendet</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-09" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030664" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d5aea009-3698-458c-a8fc-e6213cfa3157/file/id/791421/file_version/name/small" /><graphic xml:id="F030665" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/da2f6770-7dfa-44be-9cc0-8f520f8ee959/file/id/791422/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Erkennbar sind noch die &#252;berkreuzten F&#252;&#223;e eines Dendrophoren; der erhaltene Inschriftrest befindet sich auf der rechten Schmalseite.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Mattern, R&#246;mische Steindenkm&#228;ler vom Taunus- und Wetteraulimes mit Hinterland zwischen Heftrich und Gro&#223;krotzenburg, CSIR Deutschland 2, 12 (Mainz 2001) 131-132, Nr. 287; Tafel 106, 287.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">l</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">b</c>
+					<c xml:id="L1C5">e</c>
+					<c xml:id="L1C6">n</c>
+					<c xml:id="L1C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C8"> </c>
+			<supplied reason="lost" cert="low">
+				<c xml:id="L1C9">l</c>
+				<c xml:id="L1C10">(</c>
+				<c xml:id="L1C11">a</c>
+				<c xml:id="L1C12">e</c>
+				<c xml:id="L1C13">t</c>
+				<c xml:id="L1C14">u</c>
+				<c xml:id="L1C15">s</c>
+				<c xml:id="L1C16">)</c>
+				<c xml:id="L1C17">?</c>
+				<c xml:id="L1C18"> </c>
+				<c xml:id="L1C19">m</c>
+				<c xml:id="L1C20">(</c>
+				<c xml:id="L1C21">e</c>
+				<c xml:id="L1C22">r</c>
+				<c xml:id="L1C23">i</c>
+				<c xml:id="L1C24">t</c>
+				<c xml:id="L1C25">o</c>
+				<c xml:id="L1C26">)</c>
+			</supplied>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,187 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Segusio &amp;ndash; Susa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066043</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066043</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Susa, Seminario</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(42)</height><width>(45)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/912936">Segusio</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 151 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3166018">Susa</placeName><placeName type="findspot" /><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066043_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD066043_2" sex="M"><persName><name type="cognomen">Attalus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027456" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4e62b5b6-5727-4610-83e5-f4bda55deba7/file/id/788213/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Marmor wei&#223;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07330.</bibl><bibl>A. Ferrua, Segusium 4, 1967, 52.</bibl><bibl>B. R&#233;my, Segusium 31, 1994, 97, Nr. 27.</bibl><bibl>L. Mercando - G. Paci, MonAL 57 (Roma 1998) 158, Nr. 87; tav. 95.</bibl><bibl>E. Cimarosti, Le iscrizioni di et&#224; romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 341, Nr. 148; Foto Nr. 124.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2">i</c>
+		<c xml:id="L0C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C4">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C5">i</c>
+				<c xml:id="L0C6">b</c>
+				<c xml:id="L0C7">e</c>
+				<c xml:id="L0C8">r</c>
+				<c xml:id="L0C9">t</c>
+				<c xml:id="L0C10">a</c>
+				<c xml:id="L0C11">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C12"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L1C1">s</c>
+				</supplied>
+				<c xml:id="L1C2">o</c>
+				<c xml:id="L1C3">r</c>
+				<c xml:id="L1C4">o</c>
+				<c xml:id="L1C5">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C6">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">p</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">t</c>
+			<c xml:id="L2C4">r</c>
+		</supplied>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6">n</c>
+		<c xml:id="L2C7">o</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">e</c>
+		<c xml:id="L2C10">t</c>
+		<c xml:id="L2C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C12">m</c>
+				<c xml:id="L2C13">a</c>
+				<c xml:id="L2C14">t</c>
+				<c xml:id="L2C15">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C16">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C17"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">A</c>
+		</supplied>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4">a</c>
+		<c xml:id="L3C5">l</c>
+		<c xml:id="L3C6">u</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C9">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C10">i</c>
+				<c xml:id="L3C11">b</c>
+				<c xml:id="L3C12">e</c>
+				<c xml:id="L3C13">r</c>
+				<c xml:id="L3C14">t</c>
+				<c xml:id="L3C15">u</c>
+				<c xml:id="L3C16">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C17"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C2">i</c>
+					<c xml:id="L4C3">v</c>
+					<c xml:id="L4C4">u</c>
+					<c xml:id="L4C5">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L4C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C7">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C8">e</c>
+				<c xml:id="L4C9">c</c>
+				<c xml:id="L4C10">i</c>
+				<c xml:id="L4C11">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

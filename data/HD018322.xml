@@ -1,0 +1,293 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018322</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018322</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(46)</height><width>(53)</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.2-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Bauerngasse / L&#246;hrstra&#223;e, Ecke}, r&#246;mische Stadtmauer, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018322_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-15" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017144" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cd0d9d2a-9c64-4e16-ac4b-907dd3085d2a/file/id/776750/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterer Teil eines Altars oder einer Basis / Statuenbasis. Z. 2: vor IB noch ein Rest der schr&#228;g abfallenden Haste des R erkennbar. (B): von Pfeffer; AE 1965; Schillinger-H&#228;fele: geringf&#252;gige Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0244. (B)</bibl><bibl>W. von Pfeffer, MZ 59, 1964, 58, Nr. 6; Foto. (B) - AE 1965.</bibl><bibl>U. Schillinger-H&#228;fele, BRGK 58, 1977, 496, Nr. 76. (B)</bibl><bibl>G. Alf&#246;ldy, Die Legionslegaten der r&#246;mischen Rheinarmeen (K&#246;ln 1967) 64, Nr. 79.</bibl><bibl>K. Wachtel, Historia 15, 1966, 242.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">I</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C2">A</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L2C1">t</c>
+					<c xml:id="L2C2">r</c>
+				</supplied>
+				<c xml:id="L2C3">i</c>
+				<c xml:id="L2C4">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">n</c>
+				<c xml:id="L2C7">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C9">p</c>
+				<c xml:id="L2C10">l</c>
+				<c xml:id="L2C11">e</c>
+				<c xml:id="L2C12">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C13">i</c>
+				<c xml:id="L2C14">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">c</c>
+		<c xml:id="L2C17">a</c>
+		<c xml:id="L2C18">n</c>
+		<c xml:id="L2C19">d</c>
+		<c xml:id="L2C20">i</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">d</c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4">u</c>
+		<c xml:id="L3C5">s</c>
+		<c xml:id="L3C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C7">p</c>
+				<c xml:id="L3C8">r</c>
+				<c xml:id="L3C9">a</c>
+				<c xml:id="L3C10">e</c>
+				<c xml:id="L3C11">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C12">o</c>
+				<c xml:id="L3C13">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<c xml:id="L3C15">u</c>
+		<c xml:id="L3C16">r</c>
+		<c xml:id="L3C17">b</c>
+		<c xml:id="L3C18">a</c>
+		<c xml:id="L3C19">n</c>
+		<c xml:id="L3C20">u</c>
+		<c xml:id="L3C21">s</c>
+		<c xml:id="L3C22"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">c</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3">r</c>
+		<c xml:id="L4C4">a</c>
+		<c xml:id="L4C5">t</c>
+		<c xml:id="L4C6">o</c>
+		<c xml:id="L4C7">r</c>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">r</c>
+		<c xml:id="L4C10">e</c>
+		<c xml:id="L4C11">i</c>
+		<c xml:id="L4C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C13">p</c>
+				<c xml:id="L4C14">u</c>
+				<c xml:id="L4C15">b</c>
+				<c xml:id="L4C16">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C17">i</c>
+				<c xml:id="L4C18">c</c>
+				<c xml:id="L4C19">a</c>
+				<c xml:id="L4C20">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C21"> </c>
+		<c xml:id="L4C22">c</c>
+		<c xml:id="L4C23">o</c>
+		<c xml:id="L4C24">l</c>
+		<c xml:id="L4C25">o</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">n</c>
+		<c xml:id="L5C2">i</c>
+		<c xml:id="L5C3">a</c>
+		<c xml:id="L5C4">e</c>
+		<c xml:id="L5C5"> </c>
+		<c xml:id="L5C6">L</c>
+		<c xml:id="L5C7">u</c>
+		<c xml:id="L5C8">g</c>
+		<c xml:id="L5C9">e</c>
+		<c xml:id="L5C10">n</c>
+		<c xml:id="L5C11">s</c>
+		<c xml:id="L5C12">i</c>
+		<c xml:id="L5C13">u</c>
+		<c xml:id="L5C14">m</c>
+		<c xml:id="L5C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C16">l</c>
+				<c xml:id="L5C17">e</c>
+				<c xml:id="L5C18">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C19">a</c>
+				<c xml:id="L5C20">t</c>
+				<c xml:id="L5C21">u</c>
+				<c xml:id="L5C22">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C23"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">A</c>
+				<c xml:id="L6C2">u</c>
+				<c xml:id="L6C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C4">u</c>
+				<c xml:id="L6C5">s</c>
+				<c xml:id="L6C6">t</c>
+				<c xml:id="L6C7">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C9">l</c>
+				<c xml:id="L6C10">e</c>
+				<c xml:id="L6C11">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C12">i</c>
+				<c xml:id="L6C13">o</c>
+				<c xml:id="L6C14">n</c>
+				<c xml:id="L6C15">i</c>
+				<c xml:id="L6C16">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C17"> </c>
+		<c xml:id="L6C18">X</c>
+		<c xml:id="L6C19">X</c>
+		<c xml:id="L6C20">I</c>
+		<c xml:id="L6C21">I</c>
+		<c xml:id="L6C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C23">P</c>
+				<c xml:id="L6C24">r</c>
+				<c xml:id="L6C25">i</c>
+				<c xml:id="L6C26">m</c>
+				<c xml:id="L6C27">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C28">g</c>
+				<c xml:id="L6C29">e</c>
+				<c xml:id="L6C30">n</c>
+				<c xml:id="L6C31">i</c>
+				<c xml:id="L6C32">a</c>
+				<c xml:id="L6C33">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C34"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C35">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C36">i</c>
+				<c xml:id="L6C37">a</c>
+				<c xml:id="L6C38">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C39"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C40">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C41">i</c>
+				<c xml:id="L6C42">d</c>
+				<c xml:id="L6C43">e</c>
+				<c xml:id="L6C44">l</c>
+				<c xml:id="L6C45">i</c>
+				<c xml:id="L6C46">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

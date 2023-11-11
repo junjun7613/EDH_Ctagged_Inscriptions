@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Asturis? &amp;ndash; Klosterneuburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074338</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074338</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577">Asturis?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2773913">Klosterneuburg</placeName><placeName type="findspot">{Kardinal-Piffl-Platz 8}, r&#246;mischer Keller (Verf&#228;rbung 8b)</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074338_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Veratius</name><name type="cognomen">Prospectus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-09" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Terra-Sigillata-Schale; die Inschrift befindet sich auf der Unterseite und l&#228;uft dort um den Schalenfu&#223; herum. Schreibtechnik: eingeritzt (nach dem Brand). Fundjahr: 1995/96.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>I. Bauer, in: J.-W. Neugebauer u. a., Von der Herren Hof von Passau. Vom r&#246;mischen Lagerdorf zum mittelalterlichen Lesehof (Klosterneuburg 1998) 37; Abb. 14, 7 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">n</c>
+				<c xml:id="L1C6">t</c>
+				<c xml:id="L1C7">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">V</c>
+		<c xml:id="L1C10">e</c>
+		<c xml:id="L1C11">r</c>
+		<c xml:id="L1C12">a</c>
+		<c xml:id="L1C13">t</c>
+		<c xml:id="L1C14">i</c>
+		<c xml:id="L1C15"> </c>
+		<c xml:id="L1C16">P</c>
+		<c xml:id="L1C17">r</c>
+		<c xml:id="L1C18">o</c>
+		<c xml:id="L1C19">s</c>
+		<c xml:id="L1C20">p</c>
+		<c xml:id="L1C21">e</c>
+		<c xml:id="L1C22">c</c>
+		<c xml:id="L1C23">t</c>
+		<c xml:id="L1C24">i</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

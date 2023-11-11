@@ -1,0 +1,207 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Athenae &amp;ndash; Ath&#237;nai (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019448</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019448</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(34)</height><width>(28)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/579885">Athenae</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1934"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Ath&#237;nai</placeName><placeName type="findspot">Agora</placeName><placeName type="region">Attik&#237;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019448_1" sex="M"><persName><name type="praenomen">Cn.</name><name type="cognomen">Ar[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-05" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus zwei Fragmenten. Die Ma&#223;e des kleineren Fragments sind: H&#246;he: -18; Breite: -24; Tiefe: 10.5.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1947, 0074.</bibl><bibl>J.H. Oliver, Hesperia 10, 1941, 237-238, Nr. 38; Foto 38. - AE 1947.</bibl><bibl>M. &#352;a&#353;el Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 60, Nr. 138.</bibl><bibl>M.C.J. Miller, Inscriptiones Atticae. Supplementum inscriptionum Atticarum 6 (Chicago 1992) 88, Nr. 68.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+				<c xml:id="L1C3">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">a</c>
+				<c xml:id="L1C5">e</c>
+				<c xml:id="L1C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C9">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C10">i</c>
+				<c xml:id="L1C11">l</c>
+				<c xml:id="L1C12">i</c>
+				<c xml:id="L1C13">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C14"> </c>
+		<c xml:id="L1C15">A</c>
+		<c xml:id="L1C16">r</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C17"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L2C1">p</c>
+					<c xml:id="L2C2">r</c>
+					<c xml:id="L2C3">o</c>
+				</supplied>
+				<c xml:id="L2C4">c</c>
+				<c xml:id="L2C5">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">n</c>
+			</ex>
+		</expan>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C7">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C8">u</c>
+					<c xml:id="L2C9">l</c>
+					<c xml:id="L2C10">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C11"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C12">p</c>
+					<c xml:id="L2C13">r</c>
+					<c xml:id="L2C14">o</c>
+					<c xml:id="L2C15">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C16">i</c>
+					<c xml:id="L2C17">n</c>
+					<c xml:id="L2C18">c</c>
+					<c xml:id="L2C19">i</c>
+					<c xml:id="L2C20">a</c>
+					<c xml:id="L2C21">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C22"> </c>
+			<c xml:id="L2C23">A</c>
+			<c xml:id="L2C24">f</c>
+			<c xml:id="L2C25">r</c>
+		</supplied>
+		<c xml:id="L2C26">i</c>
+		<c xml:id="L2C27">c</c>
+		<c xml:id="L2C28">a</c>
+		<c xml:id="L2C29">e</c>
+		<c xml:id="L2C30"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C31"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L3C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C2">p</c>
+					<c xml:id="L3C3">r</c>
+					<c xml:id="L3C4">o</c>
+					<c xml:id="L3C5">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C6">i</c>
+					<c xml:id="L3C7">n</c>
+					<c xml:id="L3C8">c</c>
+					<c xml:id="L3C9">i</c>
+					<c xml:id="L3C10">a</c>
+					<c xml:id="L3C11">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C12"> </c>
+			<c xml:id="L3C13">C</c>
+			<c xml:id="L3C14">r</c>
+			<c xml:id="L3C15">e</c>
+			<c xml:id="L3C16">t</c>
+			<c xml:id="L3C17">a</c>
+			<c xml:id="L3C18">e</c>
+			<c xml:id="L3C19"> </c>
+			<c xml:id="L3C20">e</c>
+			<c xml:id="L3C21">t</c>
+			<c xml:id="L3C22"> </c>
+			<c xml:id="L3C23">C</c>
+		</supplied>
+		<c xml:id="L3C24">y</c>
+		<c xml:id="L3C25">r</c>
+		<c xml:id="L3C26">e</c>
+		<c xml:id="L3C27">n</c>
+		<c xml:id="L3C28">a</c>
+		<c xml:id="L3C29">r</c>
+		<c xml:id="L3C30">[</c>
+		<c xml:id="L3C31">u</c>
+		<c xml:id="L3C32">m</c>
+		<c xml:id="L3C33"> </c>
+		<c xml:id="L3C34">-</c>
+		<c xml:id="L3C35">-</c>
+		<c xml:id="L3C36">-</c>
+		<c xml:id="L3C37">-</c>
+		<c xml:id="L3C38">-</c>
+		<c xml:id="L3C39">-</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

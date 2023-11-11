@@ -1,0 +1,306 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Hispalis &amp;ndash; Sevilla (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000903</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000903</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Coria del R&#237;o, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>31</height><width>(51)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256210">Hispalis</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2510911">Sevilla</placeName><placeName type="findspot" /><placeName type="region">Sevilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000903_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Annius</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD000903_2" sex="W"><persName><name type="nomen">Annia</name><name type="cognomen">Grata</name></persName></person><person xml:id="HD000903_3" sex="W"><persName><name type="nomen">Annia</name><name type="cognomen">Polla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z.4: h(ic) s(ita) [e(st)]. (C): Datierung Anfang 3. Jh. Der Stein ist aus 4 aneinanderpassenden Fragmenten zusammengesetzt. Fundumst&#228;nde unbekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0514. (C)</bibl><bibl>J. Gonz&#225;lez, MDAI(M) 23, 1982, 354-355, Nr. 2; Taf. 58b. (BC) - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">u</c>
+				<c xml:id="L1C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">A</c>
+		<c xml:id="L1C9">n</c>
+		<c xml:id="L1C10">n</c>
+		<c xml:id="L1C11">i</c>
+		<c xml:id="L1C12">u</c>
+		<c xml:id="L1C13">s</c>
+		<c xml:id="L1C14"> </c>
+		<c xml:id="L1C15">F</c>
+		<c xml:id="L1C16">e</c>
+		<c xml:id="L1C17">l</c>
+		<c xml:id="L1C18">i</c>
+		<c xml:id="L1C19">x</c>
+		<c xml:id="L1C20"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C21">a</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C22">n</c>
+					<c xml:id="L1C23">n</c>
+					<c xml:id="L1C24">o</c>
+					<c xml:id="L1C25">r</c>
+					<c xml:id="L1C26">u</c>
+					<c xml:id="L1C27">m</c>
+				</ex>
+			</expan>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C28"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">n</c>
+		<c xml:id="L2C3">n</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">a</c>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">G</c>
+		<c xml:id="L2C8">r</c>
+		<c xml:id="L2C9">a</c>
+		<c xml:id="L2C10">t</c>
+		<c xml:id="L2C11">a</c>
+		<c xml:id="L2C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C13">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C14">n</c>
+				<c xml:id="L2C15">n</c>
+				<c xml:id="L2C16">o</c>
+				<c xml:id="L2C17">r</c>
+				<c xml:id="L2C18">u</c>
+				<c xml:id="L2C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C20"> </c>
+		<c xml:id="L2C21">L</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C22"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">A</c>
+		<c xml:id="L3C2">n</c>
+		<c xml:id="L3C3">n</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">a</c>
+		<c xml:id="L3C6"> </c>
+		<c xml:id="L3C7">P</c>
+		<c xml:id="L3C8">o</c>
+		<c xml:id="L3C9">l</c>
+		<c xml:id="L3C10">l</c>
+		<c xml:id="L3C11">a</c>
+		<c xml:id="L3C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C13">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C14">n</c>
+				<c xml:id="L3C15">n</c>
+				<c xml:id="L3C16">o</c>
+				<c xml:id="L3C17">r</c>
+				<c xml:id="L3C18">u</c>
+				<c xml:id="L3C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C20"> </c>
+		<c xml:id="L3C21">X</c>
+		<c xml:id="L3C22">X</c>
+		<c xml:id="L3C23">X</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C24"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C4">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C5">o</c>
+				<c xml:id="L4C6">g</c>
+				<c xml:id="L4C7">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C9">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C10">r</c>
+				<c xml:id="L4C11">a</c>
+				<c xml:id="L4C12">e</c>
+				<c xml:id="L4C13">t</c>
+				<c xml:id="L4C14">e</c>
+				<c xml:id="L4C15">r</c>
+				<c xml:id="L4C16">i</c>
+				<c xml:id="L4C17">e</c>
+				<c xml:id="L4C18">n</c>
+				<c xml:id="L4C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C21">d</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C22">i</c>
+				<c xml:id="L4C23">c</c>
+				<c xml:id="L4C24">a</c>
+				<c xml:id="L4C25">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C27">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C28">i</c>
+				<c xml:id="L4C29">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C30"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C31">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C32">i</c>
+				<c xml:id="L4C33">b</c>
+				<c xml:id="L4C34">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C35"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C36">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C37">e</c>
+				<c xml:id="L4C38">r</c>
+				<c xml:id="L4C39">r</c>
+				<c xml:id="L4C40">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C41"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C42">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C43">e</c>
+				<c xml:id="L4C44">v</c>
+				<c xml:id="L4C45">i</c>
+				<c xml:id="L4C46">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C47"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C48">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C49">i</c>
+				<c xml:id="L4C50">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C51"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C52">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C53">i</c>
+				<c xml:id="L4C54">t</c>
+				<c xml:id="L4C55">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C56"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C57">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C58">u</c>
+					<c xml:id="L4C59">n</c>
+					<c xml:id="L4C60">t</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

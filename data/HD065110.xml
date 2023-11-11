@@ -1,0 +1,134 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Thessalonica &amp;ndash; Thessalon&#237;ki (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065110</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065110</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Thessalon&#237;ki, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>24</height><width>33</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/491741">Thessalonica</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1970"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Thessalon&#237;ki</placeName><placeName type="findspot" /><placeName type="region">Kentrik&#237; Makedon&#237;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065110_1" sex="W"><persName><name type="nomen">&#8172;&#959;&#965;&#946;&#946;&#8055;&#945;</name><name type="cognomen">&#924;&#945;&#954;&#949;&#948;&#959;&#957;&#8055;&#945;</name></persName></person><person xml:id="HD065110_2" sex="M"><persName><name type="cognomen">&#925;&#949;&#953;&#954;&#8051;&#961;&#969;&#962;</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-17" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Verwechselung zwischen Omega und Omikron in Z. 4 deutet m&#246;glicherwiese auf eine sp&#228;tere Datierung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1298.</bibl><bibl>P.M. Nigdelis, Epigraphika Thessalonikeia. Symboli stin politiki kai koinoniki historia tis archaias Thessalonikis (Thessaloniki 2006) 287-289, Nr. 6; ar. 59. - AE 2006.</bibl><bibl>SEG 56, 0759.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">&#8172;</c>
+		<c xml:id="L1C3">&#959;</c>
+		<c xml:id="L1C4">&#965;</c>
+		<c xml:id="L1C5">&#946;</c>
+		<c xml:id="L1C6">&#946;</c>
+		<c xml:id="L1C7">&#8055;</c>
+		<c xml:id="L1C8">&#945;</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">&#924;</c>
+		<c xml:id="L1C11">&#945;</c>
+		<c xml:id="L1C12">&#954;</c>
+		<c xml:id="L1C13">&#949;</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">&#948;</c>
+		<c xml:id="L2C2">&#959;</c>
+		<c xml:id="L2C3">&#957;</c>
+		<c xml:id="L2C4">&#8055;</c>
+		<c xml:id="L2C5">&#945;</c>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">&#925;</c>
+		<c xml:id="L2C8">&#949;</c>
+		<c xml:id="L2C9">&#953;</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">&#954;</c>
+		<c xml:id="L3C2">&#8051;</c>
+		<c xml:id="L3C3">&#961;</c>
+		<c xml:id="L3C4">&#959;</c>
+		<c xml:id="L3C5">&#964;</c>
+		<c xml:id="L3C6">&#953;</c>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">&#964;</c>
+		<c xml:id="L3C9">&amp;</c>
+		<c xml:id="L3C10">l</c>
+		<c xml:id="L3C11">t</c>
+		<c xml:id="L3C12">;</c>
+		<c xml:id="L3C13">&#8183;</c>
+		<c xml:id="L3C14">=</c>
+		<c xml:id="L3C15">&#927;</c>
+		<c xml:id="L3C16">&amp;</c>
+		<c xml:id="L3C17">g</c>
+		<c xml:id="L3C18">t</c>
+		<c xml:id="L3C19">;</c>
+		<c xml:id="L3C20"> </c>
+		<c xml:id="L3C21">&#960;</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">&#945;</c>
+		<c xml:id="L4C2">&#964;</c>
+		<c xml:id="L4C3">&#961;</c>
+		<c xml:id="L4C4">&#8054;</c>
+		<c xml:id="L4C5"> </c>
+		<c xml:id="L4C6">&#964;</c>
+		<c xml:id="L4C7">&#8056;</c>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">&#956;</c>
+		<c xml:id="L4C10">&#957;</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">&#8134;</c>
+		<c xml:id="L5C2">&#956;</c>
+		<c xml:id="L5C3">&#945;</c>
+		<c xml:id="L5C4"> </c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

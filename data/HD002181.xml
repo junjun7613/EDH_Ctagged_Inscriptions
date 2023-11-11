@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002181</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002181</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Colosseum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>85</height><width>170</width><depth>85</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13-16</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0371" notAfter-custom="0530" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">371 AD - 530 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Colosseum, Pilasterplinthe einer Arkade</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002181_1" sex="M"><persName><name type="cognomen">Gerontius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unklar, ob in prim&#228;rer oder sekund&#228;rer Verwendung (urspr&#252;nglich vielleicht Sitzinschrift?). (B): Fortini, AE 1990: abweichende Interpretation: Gerontius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0045,8.</bibl><bibl>S. Priuli, in: Atti del Colloquio Internazionale AIEGL su Epigrafia e ordine senatorio 1, Roma 1981, Tituli 4 (Roma 1982) 583-584, Nr. 8; tav. 10,6 u. 10,7. - AE 1985.</bibl><bibl>AE 1990, 0029. (B)</bibl><bibl>P. Fortini, Epigraphica 52, 1990, 134-135, Nr. 1; fig. 1. (B) - AE 1990.</bibl><bibl>AE 1995, 0125.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">G</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">o</c>
+		<c xml:id="L1C6">n</c>
+		<c xml:id="L1C7">t</c>
+		<c xml:id="L1C8">i</c>
+		<c xml:id="L1C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C10">v</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C11">i</c>
+				<c xml:id="L1C12">r</c>
+				<c xml:id="L1C13">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C15">s</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C16">p</c>
+				<c xml:id="L1C17">e</c>
+				<c xml:id="L1C18">c</c>
+				<c xml:id="L1C19">t</c>
+				<c xml:id="L1C20">a</c>
+				<c xml:id="L1C21">b</c>
+				<c xml:id="L1C22">i</c>
+				<c xml:id="L1C23">l</c>
+				<c xml:id="L1C24">i</c>
+				<c xml:id="L1C25">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

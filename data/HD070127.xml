@@ -1,0 +1,408 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Derventio &amp;ndash; Papcastle (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070127</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070127</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petworth House</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(76)</height><width>(50)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89165">Derventio</placeName></origPlace><origDate><origDate when-custom="0242" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">242 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1866"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Papcastle</placeName><placeName type="findspot">{Cockermouth Castle}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070127_1" sex="M"><persName><name type="nomen">Nonius+</name><name type="cognomen">Philippus+</name></persName></person><person xml:id="HD070127_2" sex="M"><persName><name type="cognomen">Gordianus*</name></persName></person><person xml:id="HD070127_3" sex="M"><persName><name type="cognomen">Pompeianus*</name></persName></person><person xml:id="HD070127_4" sex="M"><persName><name type="cognomen">Atticus</name></persName></person><person xml:id="HD070127_5" sex="M"><persName><name type="cognomen">Praetextatus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-17" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Es fehlt die Z. 1 [3 a Noni]o Ph[ilippo?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00415. (B)</bibl><bibl>ILS 2635. (B)</bibl><bibl>RIB 0883; Zeichnungen. (B)</bibl><bibl>PIR (2. Aufl.) N 149.</bibl><bibl>PIR (2. Aufl.) A 1230.</bibl><bibl>PIR (2. Aufl.) V 472.</bibl><bibl>PIR (2. Aufl.) C 1177.</bibl><bibl>A.R. Birley, The Roman Government of Britain (Oxford 2005) 359.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C2"> </c>
+			<c xml:id="L1C3">a</c>
+			<c xml:id="L1C4"> </c>
+			<c xml:id="L1C5">N</c>
+			<c xml:id="L1C6">o</c>
+			<c xml:id="L1C7">n</c>
+			<c xml:id="L1C8">i</c>
+		</supplied>
+		<c xml:id="L1C9">o</c>
+		<c xml:id="L1C10"> </c>
+		<c xml:id="L1C11">P</c>
+		<c xml:id="L1C12">h</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C13">i</c>
+			<c xml:id="L1C14">l</c>
+			<c xml:id="L1C15">i</c>
+			<c xml:id="L1C16">p</c>
+			<c xml:id="L1C17">p</c>
+			<c xml:id="L1C18">o</c>
+		</supplied>
+		<c xml:id="L1C19"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L2C1">l</c>
+				</supplied>
+				<c xml:id="L2C2">e</c>
+				<c xml:id="L2C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">a</c>
+				<c xml:id="L2C5">t</c>
+				<c xml:id="L2C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">A</c>
+				<c xml:id="L2C9">u</c>
+				<c xml:id="L2C10">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C11">u</c>
+				<c xml:id="L2C12">s</c>
+				<c xml:id="L2C13">t</c>
+				<c xml:id="L2C14">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">i</c>
+		<c xml:id="L2C17">n</c>
+		<c xml:id="L2C18"> </c>
+		<c xml:id="L2C19">c</c>
+		<supplied reason="lost">
+			<c xml:id="L2C20">u</c>
+		</supplied>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">n</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">u</c>
+		<c xml:id="L3C4">m</c>
+		<c xml:id="L3C5"> </c>
+		<c xml:id="L3C6">F</c>
+		<c xml:id="L3C7">r</c>
+		<c xml:id="L3C8">i</c>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11">o</c>
+		<c xml:id="L3C12">n</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">u</c>
+		<c xml:id="L4C2">m</c>
+		<c xml:id="L4C3"> </c>
+		<c xml:id="L4C4">A</c>
+		<c xml:id="L4C5">b</c>
+		<c xml:id="L4C6">a</c>
+		<c xml:id="L4C7">l</c>
+		<c xml:id="L4C8">l</c>
+		<c xml:id="L4C9">a</c>
+		<c xml:id="L4C10">v</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">e</c>
+		<c xml:id="L5C2">n</c>
+		<c xml:id="L5C3">s</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5">u</c>
+		<c xml:id="L5C6">m</c>
+		<c xml:id="L5C7"> </c>
+		<del rend="erasure">
+			<c xml:id="L5C8">P</c>
+			<c xml:id="L5C9">h</c>
+			<c xml:id="L5C10">i</c>
+			<c xml:id="L5C11">l</c>
+			<c xml:id="L5C12">i</c>
+			<c xml:id="L5C13">p</c>
+		</del>
+	</line>
+	<line break="no" n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C2">i</c>
+				<c xml:id="L6C3">a</c>
+				<c xml:id="L6C4">n</c>
+				<c xml:id="L6C5">o</c>
+				<c xml:id="L6C6">r</c>
+				<c xml:id="L6C7">u</c>
+				<c xml:id="L6C8">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C9"> </c>
+		<c xml:id="L6C10">X</c>
+		<c xml:id="L6C11">I</c>
+		<c xml:id="L6C12">I</c>
+		<c xml:id="L6C13">I</c>
+		<c xml:id="L6C14">I</c>
+		<c xml:id="L6C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C16">K</c>
+				<c xml:id="L6C17">a</c>
+				<c xml:id="L6C18">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C19">e</c>
+				<c xml:id="L6C20">n</c>
+				<c xml:id="L6C21">d</c>
+				<c xml:id="L6C22">a</c>
+				<c xml:id="L6C23">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C24"> </c>
+		<c xml:id="L6C25">e</c>
+		<c xml:id="L6C26">t</c>
+		<c xml:id="L6C27"> </c>
+		<c xml:id="L6C28">X</c>
+		<c xml:id="L6C29">I</c>
+		<c xml:id="L6C30">I</c>
+		<c xml:id="L6C31">I</c>
+		<c xml:id="L6C32"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C33">K</c>
+				<c xml:id="L6C34">a</c>
+				<c xml:id="L6C35">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C36">e</c>
+				<c xml:id="L6C37">n</c>
+				<c xml:id="L6C38">d</c>
+				<c xml:id="L6C39">a</c>
+				<c xml:id="L6C40">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C41"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">N</c>
+				<c xml:id="L7C2">o</c>
+				<c xml:id="L7C3">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C4">e</c>
+				<c xml:id="L7C5">m</c>
+				<c xml:id="L7C6">b</c>
+				<c xml:id="L7C7">r</c>
+				<c xml:id="L7C8">e</c>
+				<c xml:id="L7C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C11">G</c>
+				<c xml:id="L7C12">o</c>
+				<c xml:id="L7C13">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C14">d</c>
+				<c xml:id="L7C15">i</c>
+				<c xml:id="L7C16">a</c>
+				<c xml:id="L7C17">n</c>
+				<c xml:id="L7C18">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C19"> </c>
+		<c xml:id="L7C20">I</c>
+		<c xml:id="L7C21">I</c>
+		<c xml:id="L7C22"> </c>
+		<c xml:id="L7C23">e</c>
+		<c xml:id="L7C24">t</c>
+		<c xml:id="L7C25"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C26">P</c>
+				<c xml:id="L7C27">o</c>
+				<c xml:id="L7C28">m</c>
+				<c xml:id="L7C29">p</c>
+				<c xml:id="L7C30">e</c>
+				<c xml:id="L7C31">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C32">a</c>
+				<c xml:id="L7C33">n</c>
+				<c xml:id="L7C34">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C35"> </c>
+	</line>
+	<line n="8">
+		<c xml:id="L8C1">c</c>
+		<c xml:id="L8C2">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L8C3">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L8C4">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C5">u</c>
+				<c xml:id="L8C6">l</c>
+				<c xml:id="L8C7">i</c>
+				<c xml:id="L8C8">b</c>
+				<c xml:id="L8C9">u</c>
+				<c xml:id="L8C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C11"> </c>
+		<c xml:id="L8C12">e</c>
+		<c xml:id="L8C13">t</c>
+		<c xml:id="L8C14"> </c>
+		<c xml:id="L8C15">A</c>
+		<c xml:id="L8C16">t</c>
+		<c xml:id="L8C17">t</c>
+		<c xml:id="L8C18">i</c>
+		<c xml:id="L8C19">c</c>
+		<c xml:id="L8C20">o</c>
+		<c xml:id="L8C21"> </c>
+		<c xml:id="L8C22">e</c>
+		<c xml:id="L8C23">t</c>
+		<c xml:id="L8C24"> </c>
+		<c xml:id="L8C25">P</c>
+		<c xml:id="L8C26">r</c>
+		<c xml:id="L8C27">e</c>
+		<supplied reason="lost">
+			<c xml:id="L8C28">t</c>
+			<c xml:id="L8C29">e</c>
+		</supplied>
+	</line>
+	<line break="no" n="9">
+		<c xml:id="L9C1">x</c>
+		<c xml:id="L9C2">t</c>
+		<c xml:id="L9C3">a</c>
+		<c xml:id="L9C4">t</c>
+		<c xml:id="L9C5">o</c>
+		<c xml:id="L9C6"> </c>
+		<c xml:id="L9C7">c</c>
+		<c xml:id="L9C8">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L9C9">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L9C10">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C11">u</c>
+				<c xml:id="L9C12">l</c>
+				<c xml:id="L9C13">i</c>
+				<c xml:id="L9C14">b</c>
+				<c xml:id="L9C15">u</c>
+				<c xml:id="L9C16">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C18">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C19">o</c>
+				<c xml:id="L9C20">t</c>
+				<c xml:id="L9C21">u</c>
+				<c xml:id="L9C22">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C23"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C24">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C25">o</c>
+				<c xml:id="L9C26">l</c>
+				<c xml:id="L9C27">v</c>
+				<c xml:id="L9C28">i</c>
+				<c xml:id="L9C29">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C30"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C31">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C32">i</c>
+				<c xml:id="L9C33">b</c>
+				<c xml:id="L9C34">e</c>
+				<c xml:id="L9C35">n</c>
+				<c xml:id="L9C36">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C37"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C38">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C39">e</c>
+				<c xml:id="L9C40">r</c>
+				<c xml:id="L9C41">i</c>
+				<c xml:id="L9C42">t</c>
+				<c xml:id="L9C43">o</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,141 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acclamation from Curia &amp;ndash; Chur (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047100</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047100</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/128">Putz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187357">Curia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661169">Chur</placeName><placeName type="findspot">Welschd&#246;rfli, {Areal Ackermann}, Geb&#228;ude 2</placeName><placeName type="region">Kanton Graub&#252;nden</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/73">acclamation</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-13" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Inschrift befindet sich auf Wandmalerei, in der linken unteren Ecke eines Panneaus. Darunter ein aufgemaltes rotes Tier. Schreibtechnik: geritzt. Kursive Schrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1556.</bibl><bibl>A. Defuns - J.R. Kengler, ArchS 2, 1979, 105-106; Abb. 5 Zeichnung). - AE 2001.</bibl><bibl>A. Hochuli-Gysel - A. Siegfried-Weiss, in: U. Jecklin (Hrsg.), Churer Stadtgeschichte. Von den Anf&#228;ngen bis zur Mitte des 17. Jahrhunderts (Chur 1993) 140; Abb. 4 (Zeichnung). - AE 2001.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">P</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">b</c>
+				<c xml:id="L1C5">l</c>
+				<c xml:id="L1C6">i</c>
+				<c xml:id="L1C7">u</c>
+				<c xml:id="L1C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">S</c>
+		<c xml:id="L1C11">t</c>
+		<c xml:id="L1C12">a</c>
+		<c xml:id="L1C13">t</c>
+		<c xml:id="L1C14">i</c>
+		<c xml:id="L1C15">n</c>
+		<c xml:id="L1C16">i</c>
+		<expan>
+			<ex>
+				<c xml:id="L1C17">u</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C18">s</c>
+			</abbr>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C19"> </c>
+		<expan>
+			<ex>
+				<c xml:id="L1C20">f</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C21">e</c>
+				<c xml:id="L1C22">l</c>
+				<c xml:id="L1C23">i</c>
+				<c xml:id="L1C24">c</c>
+				<c xml:id="L1C25">i</c>
+				<c xml:id="L1C26">t</c>
+				<c xml:id="L1C27">e</c>
+				<c xml:id="L1C28">r</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C29"> </c>
+		<surplus>
+			<c xml:id="L1C30">M</c>
+		</surplus>
+		<c xml:id="L1C31"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">m</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">s</c>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">a</c>
+		<c xml:id="L2C9">n</c>
+		<c xml:id="L2C10">n</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">s</c>
+		<c xml:id="L2C13"> </c>
+		<c xml:id="L2C14">v</c>
+		<c xml:id="L2C15">i</c>
+		<c xml:id="L2C16">v</c>
+		<c xml:id="L2C17">a</c>
+		<c xml:id="L2C18">m</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

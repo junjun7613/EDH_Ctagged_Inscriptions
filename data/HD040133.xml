@@ -1,0 +1,189 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corinium &amp;ndash; Benkovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040133</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040133</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197225">Corinium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3201465">Benkovac</placeName><placeName type="findspot">{Donji Karin}</placeName><placeName type="region">Zadarska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040133_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD040133_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]a</name></persName></person><person xml:id="HD040133_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Rusi[---]?</name></persName></person><person xml:id="HD040133_4" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]ina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-12" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrifttr&#228;ger: sogenannter Liburnischer Cippus (Fragment vom Zylinder). Z. 3: m&#246;glicherweise Rufi[nus]. (B): Fadi&#263;: Z. 3 fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1270.</bibl><bibl>I. Fadi&#263;, Diadora 12, 1990, 270, Nr. 39; t. 12, 4. (B) - AE 1993.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">I</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C2">L</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">n</c>
+				<c xml:id="L2C5">o</c>
+				<c xml:id="L2C6">r</c>
+				<c xml:id="L2C7">u</c>
+				<c xml:id="L2C8">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">X</c>
+		<c xml:id="L2C11">I</c>
+		<c xml:id="L2C12">I</c>
+		<c xml:id="L2C13">I</c>
+		<c xml:id="L2C14"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">A</c>
+		<c xml:id="L3C2">E</c>
+		<c xml:id="L3C3">T</c>
+		<c xml:id="L3C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C5">F</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L3C6"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">a</c>
+		<c xml:id="L4C2">e</c>
+		<c xml:id="L4C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C4">a</c>
+				<c xml:id="L4C5">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">n</c>
+				<c xml:id="L4C7">o</c>
+				<c xml:id="L4C8">r</c>
+				<c xml:id="L4C9">u</c>
+				<c xml:id="L4C10">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C11"> </c>
+		<c xml:id="L4C12">V</c>
+		<c xml:id="L4C13"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1">u</c>
+		<c xml:id="L5C2">s</c>
+		<c xml:id="L5C3"> </c>
+		<c xml:id="L5C4">R</c>
+		<c xml:id="L5C5">u</c>
+		<c xml:id="L5C6">s</c>
+		<c xml:id="L5C7">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L5C8"> </c>
+	</line>
+	<line n="6">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C1">F</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L6C2">I</c>
+		<c xml:id="L6C3">A</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L6C4">E</c>
+		<c xml:id="L6C5">P</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L6C6">O</c>
+		<c xml:id="L6C7"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C1">i</c>
+		<c xml:id="L7C2">n</c>
+		<c xml:id="L7C3">a</c>
+		<c xml:id="L7C4"> </c>
+		<c xml:id="L7C5">p</c>
+		<c xml:id="L7C6">a</c>
+		<c xml:id="L7C7">r</c>
+		<c xml:id="L7C8">e</c>
+		<c xml:id="L7C9">n</c>
+		<c xml:id="L7C10">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

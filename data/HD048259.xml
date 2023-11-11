@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Sto. Aleixo (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048259</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048259</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(21)</height><width>33</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern">Sto. Aleixo</placeName><placeName type="findspot">Monte das Brancas, r&#246;mische villa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-04-14" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 0855.</bibl><bibl>HEp 09, 1999, 0755.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">I</c>
+		<c xml:id="L1C4">u</c>
+		<c xml:id="L1C5">l</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">u</c>
+		<c xml:id="L1C8">s</c>
+		<c xml:id="L1C9"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">F</c>
+		<c xml:id="L2C3">u</c>
+		<c xml:id="L2C4">s</c>
+		<c xml:id="L2C5">c</c>
+		<c xml:id="L2C6">u</c>
+		<c xml:id="L2C7">[</c>
+		<c xml:id="L2C8">s</c>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">-</c>
+		<c xml:id="L2C11">-</c>
+		<c xml:id="L2C12">-</c>
+		<c xml:id="L2C13">-</c>
+		<c xml:id="L2C14">-</c>
+		<c xml:id="L2C15">-</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

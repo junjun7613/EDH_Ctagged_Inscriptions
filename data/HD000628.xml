@@ -1,0 +1,236 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000628</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000628</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1970"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Domitilla, Catacombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000628_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000628_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Pudes</name></persName></person><person xml:id="HD000628_3" sex="M"><persName><name type="nomen">Flavius</name><name type="cognomen">Crispus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-01-04" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ferrua: Identifizierung des C. Iulius Pudes mit dem aus Rom bekannten miles cohortis praetoriae C. Iulius C.f. Cor. Pudes aus Thessaloniki (CIL VI 2646); Clauss: Gleichsetzung mit einem frumentarius legionis I Italicae (ILS 9473). AE 1975: Zugeh&#246;rigkeit zum praetorium statt zum numerus der frumentarii legionis in Rom.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0029.</bibl><bibl>M. Clauss, Epigraphica 42, 1980, 131-134. - AE 1983.</bibl><bibl>AE 1975, 0060.</bibl><bibl>A. Ferrua, BCAR 82, 1970/71, 95, Nr. 64. - AE 1975.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">O</c>
+		<c xml:id="L1C2">M</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">f</c>
+		<c xml:id="L2C3">r</c>
+		<c xml:id="L2C4">u</c>
+		<c xml:id="L2C5">m</c>
+		<c xml:id="L2C6">e</c>
+		<c xml:id="L2C7">n</c>
+		<c xml:id="L2C8">t</c>
+		<c xml:id="L2C9">a</c>
+		<c xml:id="L2C10">r</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">o</c>
+		<c xml:id="L2C13"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">A</c>
+				<c xml:id="L3C2">u</c>
+				<c xml:id="L3C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">u</c>
+				<c xml:id="L3C5">s</c>
+				<c xml:id="L3C6">t</c>
+				<c xml:id="L3C7">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">v</c>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11">x</c>
+		<c xml:id="L3C12">i</c>
+		<c xml:id="L3C13">t</c>
+		<c xml:id="L3C14"> </c>
+		<c xml:id="L3C15">a</c>
+		<c xml:id="L3C16">n</c>
+		<c xml:id="L3C17">n</c>
+		<c xml:id="L3C18">i</c>
+		<c xml:id="L3C19">s</c>
+		<c xml:id="L3C20"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">X</c>
+		<c xml:id="L4C2">X</c>
+		<c xml:id="L4C3">X</c>
+		<c xml:id="L4C4">V</c>
+		<c xml:id="L4C5">I</c>
+		<c xml:id="L4C6">I</c>
+		<c xml:id="L4C7">I</c>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">m</c>
+		<c xml:id="L4C10">i</c>
+		<c xml:id="L4C11">l</c>
+		<c xml:id="L4C12">i</c>
+		<c xml:id="L4C13">t</c>
+		<c xml:id="L4C14">a</c>
+		<c xml:id="L4C15">v</c>
+		<c xml:id="L4C16">i</c>
+		<c xml:id="L4C17">t</c>
+		<c xml:id="L4C18"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">a</c>
+		<c xml:id="L5C2">n</c>
+		<c xml:id="L5C3">n</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5">s</c>
+		<c xml:id="L5C6"> </c>
+		<c xml:id="L5C7">X</c>
+		<c xml:id="L5C8">X</c>
+		<c xml:id="L5C9"> </c>
+		<c xml:id="L5C10">h</c>
+		<c xml:id="L5C11">e</c>
+		<c xml:id="L5C12">r</c>
+		<c xml:id="L5C13">e</c>
+		<c xml:id="L5C14">d</c>
+		<c xml:id="L5C15">e</c>
+		<c xml:id="L5C16">s</c>
+		<c xml:id="L5C17"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C2">a</c>
+				<c xml:id="L6C3">i</c>
+				<c xml:id="L6C4">u</c>
+				<c xml:id="L6C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C6"> </c>
+		<c xml:id="L6C7">I</c>
+		<c xml:id="L6C8">u</c>
+		<c xml:id="L6C9">l</c>
+		<c xml:id="L6C10">i</c>
+		<c xml:id="L6C11">u</c>
+		<c xml:id="L6C12">s</c>
+		<c xml:id="L6C13"> </c>
+		<c xml:id="L6C14">P</c>
+		<c xml:id="L6C15">u</c>
+		<c xml:id="L6C16">d</c>
+		<c xml:id="L6C17">e</c>
+		<c xml:id="L6C18">s</c>
+		<c xml:id="L6C19"> </c>
+		<c xml:id="L6C20">F</c>
+		<c xml:id="L6C21">l</c>
+		<c xml:id="L6C22">a</c>
+		<c xml:id="L6C23">v</c>
+		<c xml:id="L6C24">i</c>
+	</line>
+	<line break="no" n="7">
+		<c xml:id="L7C1">u</c>
+		<c xml:id="L7C2">s</c>
+		<c xml:id="L7C3"> </c>
+		<c xml:id="L7C4">C</c>
+		<c xml:id="L7C5">r</c>
+		<c xml:id="L7C6">i</c>
+		<c xml:id="L7C7">s</c>
+		<c xml:id="L7C8">p</c>
+		<c xml:id="L7C9">u</c>
+		<c xml:id="L7C10">s</c>
+		<c xml:id="L7C11"> </c>
+		<c xml:id="L7C12">f</c>
+		<c xml:id="L7C13">e</c>
+		<c xml:id="L7C14">c</c>
+		<c xml:id="L7C15">e</c>
+		<c xml:id="L7C16">r</c>
+		<c xml:id="L7C17">u</c>
+		<c xml:id="L7C18">n</c>
+		<c xml:id="L7C19">t</c>
+		<c xml:id="L7C20"> </c>
+	</line>
+	<line n="8">
+		<c xml:id="L8C1">a</c>
+		<c xml:id="L8C2">m</c>
+		<c xml:id="L8C3">i</c>
+		<c xml:id="L8C4">c</c>
+		<c xml:id="L8C5">o</c>
+		<c xml:id="L8C6"> </c>
+		<c xml:id="L8C7">b</c>
+		<c xml:id="L8C8">e</c>
+		<c xml:id="L8C9">n</c>
+		<c xml:id="L8C10">e</c>
+		<c xml:id="L8C11"> </c>
+		<c xml:id="L8C12">m</c>
+		<c xml:id="L8C13">e</c>
+		<c xml:id="L8C14">r</c>
+		<c xml:id="L8C15">e</c>
+		<c xml:id="L8C16">n</c>
+		<c xml:id="L8C17">t</c>
+		<c xml:id="L8C18">i</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

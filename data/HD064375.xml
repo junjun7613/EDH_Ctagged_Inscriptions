@@ -1,0 +1,152 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mal&#235;si e Madhe (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064375</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064375</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3185489">Mal&#235;si e Madhe</placeName><placeName type="findspot">Kastrat, Gradec, {Marshej}</placeName><placeName type="region">Qarku i Shkodr&#235;s</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064375_1"><persName><name type="nomen">V[---]</name><name type="cognomen">T[---]</name></persName></person><person xml:id="HD064375_2"><persName><name type="nomen">V[---]</name><name type="cognomen">O[---]</name></persName></person><person xml:id="HD064375_3"><persName><name type="nomen">A[---]</name><name type="cognomen">P[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-12-07" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Hedera am Ende von Z. 2.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Anamali - H. Ceka - &#201;. Deniaux, Corpus des inscriptions latines d'Albanie (Rome 2009) 32, Nr. 15.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 39-40, Nr. 10; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3">T</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C4"> </c>
+		<c xml:id="L1C5">e</c>
+		<c xml:id="L1C6">t</c>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C9">O</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C10"> </c>
+		<c xml:id="L1C11">e</c>
+		<c xml:id="L1C12">t</c>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C2">P</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C4">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L2C5">i</c>
+				<c xml:id="L2C6">l</c>
+				<c xml:id="L2C7">i</c>
+				<c xml:id="L2C8">u</c>
+				<c xml:id="L2C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">s</c>
+		<c xml:id="L2C12">i</c>
+		<c xml:id="L2C13">b</c>
+		<c xml:id="L2C14">i</c>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">e</c>
+		<c xml:id="L2C17">t</c>
+		<c xml:id="L2C18"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">u</c>
+				<c xml:id="L3C3">i</c>
+				<c xml:id="L3C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C6">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C7">i</c>
+				<c xml:id="L3C8">v</c>
+				<c xml:id="L3C9">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C11">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C12">e</c>
+				<c xml:id="L3C13">c</c>
+				<c xml:id="L3C14">e</c>
+				<c xml:id="L3C15">r</c>
+				<c xml:id="L3C16">u</c>
+				<c xml:id="L3C17">n</c>
+				<c xml:id="L3C18">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

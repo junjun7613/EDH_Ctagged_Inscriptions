@@ -1,0 +1,202 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006268</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006268</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>30</height><width>36</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.9-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot" /><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006268_1" sex="M"><persName><name type="cognomen">Alexander</name></persName></person><person xml:id="HD006268_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Laelius</name><name type="cognomen">Pollianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 5 (Ende): Bedeutung/Aufl&#246;sung der Abk&#252;rzung TR (&#252;berstrichen) ligiiert mit einem kleiner dimensionierten B unklar. Nach einem Vorschlag von Mariano Malavolta (email v. 04.03.2012) erscheint eine Aufl&#246;sung in tribunus als unwahrscheinlich, w&#228;hrend eine Aufl&#246;sung in tribulis, vorliegend konkret tr(i)b(uli), zu bevorzugen w&#228;re. Problematisch nach Ansicht der Berab. jedoch, da&#223; tribulis auf Inschriften in der Regel gar nicht oder in trib. bzw. tribul. abgek&#252;rzt wurde, nicht jedoch in trb. Material: grauer Marmor. (B): Z. 5 (Ende): Bianchi, AE 1986, Buonopane: tr(i)b(unus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0088. (B)</bibl><bibl>A. Bianchi, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 331-332, Nr. 246; tav. 184. (B) - AE 1986.</bibl><bibl>A. Buonopane, Manuale di epigrafia latina (Roma 2009) 155-156; Fig. 6.13. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">l</c>
+		<c xml:id="L2C3">e</c>
+		<c xml:id="L2C4">x</c>
+		<c xml:id="L2C5">a</c>
+		<c xml:id="L2C6">n</c>
+		<c xml:id="L2C7">d</c>
+		<c xml:id="L2C8">r</c>
+		<c xml:id="L2C9">o</c>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">l</c>
+				<c xml:id="L3C2">i</c>
+				<c xml:id="L3C3">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">e</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">t</c>
+				<c xml:id="L3C7">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">o</c>
+		<c xml:id="L3C10">p</c>
+		<c xml:id="L3C11">t</c>
+		<c xml:id="L3C12">i</c>
+		<c xml:id="L3C13">m</c>
+		<c xml:id="L3C14">o</c>
+		<c xml:id="L3C15"> </c>
+		<c xml:id="L3C16">e</c>
+		<c xml:id="L3C17">t</c>
+		<c xml:id="L3C18"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">f</c>
+		<c xml:id="L4C2">i</c>
+		<c xml:id="L4C3">d</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">l</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">s</c>
+		<c xml:id="L4C8">s</c>
+		<c xml:id="L4C9">i</c>
+		<c xml:id="L4C10">m</c>
+		<c xml:id="L4C11">o</c>
+		<c xml:id="L4C12"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">u</c>
+				<c xml:id="L5C3">c</c>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">u</c>
+				<c xml:id="L5C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C7"> </c>
+		<c xml:id="L5C8">L</c>
+		<c xml:id="L5C9">a</c>
+		<c xml:id="L5C10">e</c>
+		<c xml:id="L5C11">l</c>
+		<c xml:id="L5C12">i</c>
+		<c xml:id="L5C13">u</c>
+		<c xml:id="L5C14">s</c>
+		<c xml:id="L5C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C16">P</c>
+				<c xml:id="L5C17">o</c>
+				<c xml:id="L5C18">l</c>
+				<c xml:id="L5C19">l</c>
+				<c xml:id="L5C20">i</c>
+				<c xml:id="L5C21">a</c>
+				<c xml:id="L5C22">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C23">u</c>
+				<c xml:id="L5C24">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C25"> </c>
+		<c xml:id="L5C26">t</c>
+		<c xml:id="L5C27">r</c>
+		<expan>
+			<ex>
+				<c xml:id="L5C28">i</c>
+			</ex>
+			<abbr>
+				<c xml:id="L5C29">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C30">u</c>
+				<c xml:id="L5C31">n</c>
+				<c xml:id="L5C32">u</c>
+				<c xml:id="L5C33">s</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

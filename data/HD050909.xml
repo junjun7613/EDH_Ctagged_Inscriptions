@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Rigomagus &amp;ndash; Remagen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050909</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050909</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Remagen, R&#246;m. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(22)</height><width>(28)</width><depth>(6)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109281">Rigomagus</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1927"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2848335">Remagen</placeName><placeName type="findspot">Rhein, Fluss</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050909_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">Ma[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschriftengattung: Grab- under Weihinschrift (Wiegels).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1111.</bibl><bibl>R. Wiegels, in: F.E. K&#246;nig - S. Rebetez (Hrsg.), Arculiana. Ioanni Boegli anno sexagesimo quinto feliciter peracto amici discipuli collegae socii dona dederunt A.D. XIIII Kalendas Decembris MDCCCCLXXXXV (Avenches 1995) 539-540; Abb. 7. - AE 1995.</bibl><bibl>R. Wiegels, in: K. Matijevi&#263; - W. Spickermann (Hrsg.), Kleine Schriften zur Epigraphik und Milit&#228;rgeschichte der germanischen Provinzen (Stuttgart 2010) 312-314; Abb. 7.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C3">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L0C4">i</c>
+				<c xml:id="L0C5">l</c>
+				<c xml:id="L0C6">i</c>
+				<c xml:id="L0C7">u</c>
+				<c xml:id="L0C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C9"> </c>
+		<c xml:id="L0C10">M</c>
+		<c xml:id="L0C11">a</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C12"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C1">-</c>
+			<c xml:id="L1C2">-</c>
+			<c xml:id="L1C3">-</c>
+			<c xml:id="L1C4"> </c>
+			<c xml:id="L1C5">m</c>
+			<c xml:id="L1C6">i</c>
+			<c xml:id="L1C7">l</c>
+			<c xml:id="L1C8">(</c>
+			<c xml:id="L1C9">e</c>
+			<c xml:id="L1C10">s</c>
+			<c xml:id="L1C11">)</c>
+			<c xml:id="L1C12">?</c>
+			<c xml:id="L1C13"> </c>
+			<c xml:id="L1C14">e</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C15">x</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C17">c</c>
+				<c xml:id="L1C18">o</c>
+				<c xml:id="L1C19">h</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C20">o</c>
+				<c xml:id="L1C21">r</c>
+				<c xml:id="L1C22">t</c>
+				<c xml:id="L1C23">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C24"> </c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

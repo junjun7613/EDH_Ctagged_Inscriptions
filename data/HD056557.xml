@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Ljubu&#353;ki (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056557</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056557</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubu&#353;ki, Humac, Franziskanerkloster</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material>Gesteine</material><dimensions unit="cm"><height>(75)</height><width>33</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197167" /></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3213105">Ljubu&#353;ki</placeName><placeName type="findspot">Hra&#353;ljani, Vitaljina, {&#381;abari}</placeName><placeName type="region">Zapadnohercegova&#269;ki kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056557_1" sex="M"><persName><name type="nomen">Flavius+* Valerius</name><name type="cognomen">Constantius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-02-08" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterer Teil eines Meilensteins; hinten senkrecht abges&#228;gt und ausgeh&#246;hlt. (B): Atanackovi&#263;-Sal&#269;i&#263;; &#352;kegro: Z. 2: C[a]esari.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. &#352;kegro, OpuscArchZagreb 21, 1997, 105, Nr. 144. (B)</bibl><bibl>V. Atanackovi&#263;-Sal&#269;i&#263;, Na&#353;e starine 14/15, 1981, 278-279, Nr. 24; sl. 23; crte&#382; 15 (Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">n</c>
+		<c xml:id="L1C2">o</c>
+		<c xml:id="L1C3">b</c>
+		<c xml:id="L1C4">i</c>
+		<c xml:id="L1C5">l</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">s</c>
+		<c xml:id="L1C8">s</c>
+		<supplied reason="lost">
+			<c xml:id="L1C9">i</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">m</c>
+		<c xml:id="L2C2">o</c>
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">C</c>
+		<expan>
+			<ex>
+				<c xml:id="L2C5">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L2C6">e</c>
+				<c xml:id="L2C7">s</c>
+				<c xml:id="L2C8">a</c>
+				<c xml:id="L2C9">r</c>
+			</abbr>
+		</expan>
+		<supplied reason="lost">
+			<c xml:id="L2C10">i</c>
+		</supplied>
+		<c xml:id="L2C11"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L3C1">F</c>
+				</supplied>
+				<c xml:id="L3C2">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C3">a</c>
+				<c xml:id="L3C4">v</c>
+				<c xml:id="L3C5">i</c>
+				<c xml:id="L3C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">V</c>
+		<c xml:id="L3C9">a</c>
+		<c xml:id="L3C10">l</c>
+		<c xml:id="L3C11">e</c>
+		<c xml:id="L3C12">r</c>
+		<c xml:id="L3C13">i</c>
+		<c xml:id="L3C14">o</c>
+		<c xml:id="L3C15"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">C</c>
+		<c xml:id="L4C2">o</c>
+		<c xml:id="L4C3">n</c>
+		<c xml:id="L4C4">s</c>
+		<c xml:id="L4C5">t</c>
+		<c xml:id="L4C6">a</c>
+		<c xml:id="L4C7">n</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">t</c>
+		<c xml:id="L5C2">i</c>
+		<c xml:id="L5C3">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

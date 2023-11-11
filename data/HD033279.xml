@@ -1,0 +1,182 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium &amp;ndash; K&#246;ln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033279</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033279</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>K&#246;ln, R&#246;m.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(44)</height><width>(29)</width><depth>(11)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">K&#246;ln</placeName><placeName type="findspot">{Bonner Stra&#223;e / Bonner Wall, Ecke}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033279_1" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Taca</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005931" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/07fb4939-e726-423f-b4fe-8ea6b6eb98ea/file/id/766706/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 2: AE 1904: mat[ri]; Schwertheim: Mat[r]i; AE 1904: Z. 4: C(?)aca.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1904, 0105. (B)</bibl><bibl>B. Galsterer - H. Galsterer, Die r&#246;mischen Steininschriften aus K&#246;ln, IK&#246;ln (2.</bibl><bibl>Aufl.) (Mainz 2010) 183, Nr. 204; Foto.</bibl><bibl>J. Poppelreuter, KWDZ 23, 1904, 73, Nr. 4. - AE 1904.</bibl><bibl>E. Schwertheim, Die Denkm&#228;ler orientalischer Gottheiten im r&#246;mischen Deutschland (Leiden 1974) 28, Nr. 28; Taf. 71, 28.</bibl><bibl>CIL 13, 08249; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">D</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">a</c>
+		<c xml:id="L1C5">e</c>
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">T</c>
+		<c xml:id="L1C8">e</c>
+		<c xml:id="L1C9">r</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">r</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">e</c>
+		<c xml:id="L2C4"> </c>
+		<c xml:id="L2C5">M</c>
+		<c xml:id="L2C6">a</c>
+		<c xml:id="L2C7">t</c>
+		<c xml:id="L2C8">r</c>
+		<supplied reason="lost">
+			<c xml:id="L2C9">i</c>
+		</supplied>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">V</c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">l</c>
+		<c xml:id="L3C4">e</c>
+		<c xml:id="L3C5">r</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7">a</c>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">T</c>
+		<c xml:id="L4C2">a</c>
+		<c xml:id="L4C3">c</c>
+		<c xml:id="L4C4">a</c>
+		<c xml:id="L4C5"> </c>
+		<c xml:id="L4C6">e</c>
+		<c xml:id="L4C7">x</c>
+		<c xml:id="L4C8"> </c>
+		<supplied reason="lost">
+			<c xml:id="L4C9">i</c>
+		</supplied>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">u</c>
+		<c xml:id="L5C2">s</c>
+		<c xml:id="L5C3">s</c>
+		<c xml:id="L5C4">u</c>
+		<c xml:id="L5C5"> </c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7">p</c>
+		<c xml:id="L5C8">s</c>
+		<c xml:id="L5C9">e</c>
+		<c xml:id="L5C10">i</c>
+		<c xml:id="L5C11"> </c>
+		<note>sic</note>
+		<c xml:id="L5C12"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C2">o</c>
+				<c xml:id="L6C3">t</c>
+				<c xml:id="L6C4">u</c>
+				<c xml:id="L6C5">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C7">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C8">o</c>
+				<c xml:id="L6C9">s</c>
+				<c xml:id="L6C10">u</c>
+				<c xml:id="L6C11">i</c>
+				<c xml:id="L6C12">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C14">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C15">i</c>
+				<c xml:id="L6C16">b</c>
+				<c xml:id="L6C17">e</c>
+				<c xml:id="L6C18">n</c>
+				<c xml:id="L6C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C21">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C22">e</c>
+				<c xml:id="L6C23">r</c>
+				<c xml:id="L6C24">i</c>
+				<c xml:id="L6C25">t</c>
+				<c xml:id="L6C26">o</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

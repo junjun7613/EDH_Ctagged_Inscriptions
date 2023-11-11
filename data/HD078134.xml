@@ -1,0 +1,161 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Mogontiacum? &amp;ndash; Mainz? (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078134</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078134</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/241">statue</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>(8)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum?</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz?</placeName><placeName type="findspot" /><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078134_1" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Manlianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-22" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterer Teil eines kleinen Reliefs; erkennbar ist noch der untere Teil einer auf einem Schemel stehenden Figur. Z. 1: Weihinschrift; auf der Vorderseite zwischen den Schemelbeinen; m&#246;glicherweise auch Do(---). Z. 2: Herstellerinschrift; auf der R&#252;ckseite; doppelt aufeinandergeschrieben. Schreibtechnik: geritzt / Graffito (vor dem Brand).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 10015, 99.</bibl><bibl>K. K&#246;rber, ZRheinGeschMainz 4, 1893-1905, 270-271, Nr. 200; Fotos.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<c xml:id="L1C3"> </c>
+			<abbr>
+				<c xml:id="L1C4">O</c>
+			</abbr>
+			<c xml:id="L1C5"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">A</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4">l</c>
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">u</c>
+			<c xml:id="L1C7">s</c>
+			<c xml:id="L1C8"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C9">A</c>
+					<c xml:id="L1C10">e</c>
+					<c xml:id="L1C11">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C12">i</c>
+					<c xml:id="L1C13">u</c>
+					<c xml:id="L1C14">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C15"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">M</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">n</c>
+			<c xml:id="L2C4">l</c>
+			<c xml:id="L2C5">i</c>
+			<c xml:id="L2C6">a</c>
+			<c xml:id="L2C7">n</c>
+			<c xml:id="L2C8">u</c>
+			<supplied reason="lost">
+				<c xml:id="L2C9">s</c>
+			</supplied>
+			<c xml:id="L2C10"> </c>
+		</line>
+		<line n="3">
+			<supplied reason="lost">
+				<gap reason="lost" quantity="1" unit="character" />
+				<gap reason="lost" quantity="1" unit="character" />
+			</supplied>
+			<c xml:id="L3C1"> </c>
+			<c xml:id="L3C2">a</c>
+			<c xml:id="L3C3">d</c>
+			<c xml:id="L3C4"> </c>
+			<c xml:id="L3C5">c</c>
+			<c xml:id="L3C6">a</c>
+			<c xml:id="L3C7">n</c>
+			<supplied reason="lost">
+				<c xml:id="L3C8">t</c>
+			</supplied>
+		</line>
+		<line break="no" n="4">
+			<supplied reason="lost">
+				<c xml:id="L4C1">u</c>
+				<c xml:id="L4C2">n</c>
+			</supplied>
+			<c xml:id="L4C3">a</c>
+			<c xml:id="L4C4">s</c>
+			<c xml:id="L4C5"> </c>
+			<c xml:id="L4C6">n</c>
+			<c xml:id="L4C7">o</c>
+			<supplied reason="lost">
+				<c xml:id="L4C8">v</c>
+				<c xml:id="L4C9">a</c>
+				<c xml:id="L4C10">s</c>
+			</supplied>
+			<c xml:id="L4C11"> </c>
+		</line>
+		<line n="5">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L5C1"> </c>
+			<c xml:id="L5C2">f</c>
+			<c xml:id="L5C3">e</c>
+			<c xml:id="L5C4">c</c>
+			<c xml:id="L5C5">i</c>
+			<c xml:id="L5C6">t</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

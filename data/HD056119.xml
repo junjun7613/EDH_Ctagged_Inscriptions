@@ -1,0 +1,175 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Augusta Aroe Patrae &amp;ndash; P&#225;trai (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056119</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056119</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>P&#225;trai, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(23)</height><width>(34)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.7-4.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="#">Colonia Augusta Aroe Patrae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">P&#225;trai</placeName><placeName type="findspot" /><placeName type="region">Pelop&#243;nissos</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-04-07" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Abweichende Textgestaltungen. Die anhand einer von Rizakis durchgef&#252;hrten &#220;berpr&#252;fung des Steins hergestellte Textversion wird hier pr&#228;sentiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00529. (B)</bibl><bibl>M. &#352;a&#353;el Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 35, Nr. 52. (B)</bibl><bibl>A.D. Rizakis, Acha&#239;e II. La cit&#233; de Patras: &#233;pigraphie et histoire (Ath&#232;nes 1998) 222-223, Nr. 178; pl. 37, 178. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">O</c>
+		<c xml:id="L1C3">L</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C4"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L2C1">p</c>
+			<c xml:id="L2C2">o</c>
+		</supplied>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5">e</c>
+		<c xml:id="L2C6">r</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8">o</c>
+		<c xml:id="L2C9">r</c>
+		<c xml:id="L2C10">e</c>
+		<c xml:id="L2C11">s</c>
+		<c xml:id="L2C12"> </c>
+		<c xml:id="L2C13">e</c>
+		<c xml:id="L2C14">t</c>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">i</c>
+		<c xml:id="L2C17">n</c>
+		<c xml:id="L2C18"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C19"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L3C1">a</c>
+					<c xml:id="L3C2">e</c>
+					<c xml:id="L3C3">d</c>
+					<c xml:id="L3C4">i</c>
+				</supplied>
+				<c xml:id="L3C5">f</c>
+				<c xml:id="L3C6">i</c>
+				<c xml:id="L3C7">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C8">i</c>
+				<c xml:id="L3C9">i</c>
+				<c xml:id="L3C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C11"> </c>
+		<c xml:id="L3C12">I</c>
+		<c xml:id="L3C13">I</c>
+		<c xml:id="L3C14">I</c>
+		<c xml:id="L3C15"> </c>
+		<c xml:id="L3C16">p</c>
+		<c xml:id="L3C17">r</c>
+		<c xml:id="L3C18">o</c>
+		<c xml:id="L3C19"> </c>
+		<c xml:id="L3C20">p</c>
+		<c xml:id="L3C21">a</c>
+		<c xml:id="L3C22">r</c>
+		<c xml:id="L3C23">t</c>
+		<c xml:id="L3C24">e</c>
+		<c xml:id="L3C25"> </c>
+		<c xml:id="L3C26">d</c>
+		<c xml:id="L3C27">i</c>
+		<c xml:id="L3C28">m</c>
+		<supplied reason="lost">
+			<c xml:id="L3C29">i</c>
+			<c xml:id="L3C30">d</c>
+			<c xml:id="L3C31">i</c>
+			<c xml:id="L3C32">a</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C33"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">e</c>
+			<c xml:id="L4C2">t</c>
+			<c xml:id="L4C3"> </c>
+			<c xml:id="L4C4">p</c>
+			<c xml:id="L4C5">o</c>
+			<c xml:id="L4C6">e</c>
+			<c xml:id="L4C7">n</c>
+			<c xml:id="L4C8">a</c>
+			<c xml:id="L4C9">m</c>
+			<c xml:id="L4C10"> </c>
+			<c xml:id="L4C11">m</c>
+		</supplied>
+		<c xml:id="L4C12">u</c>
+		<c xml:id="L4C13">l</c>
+		<c xml:id="L4C14">t</c>
+		<c xml:id="L4C15">a</c>
+		<c xml:id="L4C16"> </c>
+		<c xml:id="L4C17">L</c>
+		<c xml:id="L4C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C19">H</c>
+				<c xml:id="L4C20">S</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

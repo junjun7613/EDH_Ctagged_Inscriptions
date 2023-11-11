@@ -1,0 +1,135 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Volterrae &amp;ndash; Volterra (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002703</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002703</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Volterra, Mus. Etr. Guarnacci</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>30</height><width>21</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="#">Volterrae</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Volterra</placeName><placeName type="findspot">Vallebuona</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002703_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Arminius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002703_2" sex="M"><persName><name type="nomen">Caecina+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002703_3" sex="W"><persName><name type="nomen">Caecinia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD002703_4" sex="M"><persName><name type="cognomen">Paetus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-18" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016024" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c9ea2841-998e-4ebf-8ce0-5caa84cc4cfc/file/id/775602/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bacci: Caecina Paetus m&#246;glicherweise identisch mit Ehemann jener Arria, die unter Claudius Selbstmord beging (Pin., Ep. 3,16). Erg&#228;nzungsvorschlag Torelli: C. Arminio [- f. Gallo] / Caecin[ae Paeto] / Caecinia Ar[mini Galli f.?] / Paetus [et Gallus? fil. fec.?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0352.</bibl><bibl>M. Torelli, DArch 3, 1969, 324-325. - AE 1982.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">A</c>
+		<c xml:id="L1C8">r</c>
+		<c xml:id="L1C9">m</c>
+		<c xml:id="L1C10">i</c>
+		<c xml:id="L1C11">n</c>
+		<c xml:id="L1C12">i</c>
+		<c xml:id="L1C13">o</c>
+		<c xml:id="L1C14"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C15"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">C</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">e</c>
+		<c xml:id="L2C4">c</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">n</c>
+		<supplied reason="lost">
+			<c xml:id="L2C7">a</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C8"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">C</c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">e</c>
+		<c xml:id="L3C4">c</c>
+		<c xml:id="L3C5">i</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">i</c>
+		<c xml:id="L3C8">a</c>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">A</c>
+		<c xml:id="L3C11">r</c>
+		<supplied reason="lost">
+			<c xml:id="L3C12">m</c>
+			<c xml:id="L3C13">i</c>
+			<c xml:id="L3C14">n</c>
+			<c xml:id="L3C15">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C16"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">P</c>
+		<c xml:id="L4C2">a</c>
+		<c xml:id="L4C3">e</c>
+		<c xml:id="L4C4">t</c>
+		<c xml:id="L4C5">u</c>
+		<c xml:id="L4C6">s</c>
+		<c xml:id="L4C7"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

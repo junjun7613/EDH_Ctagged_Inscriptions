@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum, bei &amp;ndash; Sevnica (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068457</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068457</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sevnica, Laze pri Bo&#353;tanju, Haus Nr. 9, bei, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(25)</height><width>(45)</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/8989597">Sevnica</placeName><placeName type="findspot">Laze pri Bo&#353;tanju, {Haus Nr. 9}, bei, sekund&#228;r verwendet</placeName><placeName type="region">Posavska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068457_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012721" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/20ab02fc-e371-471f-a7aa-5adac522566d/file/id/772246/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Links des Inschriftfeldes noch Reste von zwei tordierten Halbs&#228;ulen. Buchstabe A ohne Querhaste. Z. 1: statt O auch Q m&#246;glich; am Ende am ehesten M oder N. (B): ILJug 0333: [---]/o Viscla[---] / qui vix[it ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0333. (B)</bibl><bibl>ILSl 1, 094; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">O</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C2">V</c>
+			<c xml:id="L1C3">I</c>
+			<c xml:id="L1C4">S</c>
+			<c xml:id="L1C5">C</c>
+			<c xml:id="L1C6">A</c>
+			<c xml:id="L1C7">M</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C8"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">Q</c>
+		<c xml:id="L2C2">V</c>
+		<c xml:id="L2C3">I</c>
+		<c xml:id="L2C4"> </c>
+		<c xml:id="L2C5">V</c>
+		<c xml:id="L2C6">I</c>
+		<c xml:id="L2C7">S</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

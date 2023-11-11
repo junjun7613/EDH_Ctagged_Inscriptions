@@ -1,0 +1,140 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021611</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021611</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Privatbesitz?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>36</height><width>44</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2008"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766498">Maria Saal</placeName><placeName type="findspot">{S. Michael/Zollfeld}</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021611_1" sex="M"><persName><name type="cognomen">Icuinus+?</name></persName></person><person xml:id="HD021611_2" sex="W"><persName><name type="nomen">Claudia+</name><name type="cognomen">Restuta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-06-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: Marmor aus Kraig. Hedera am Ende der letzten Textzeile.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Dolenz, Anodos 8, 2008, 131-132, Nr.1; Abb. 1 (Foto u. Zeichnung). - AE 2010.</bibl><bibl>E. Weber - I. Weber-Hiden, Tyche 26, 2011, 278-279, Nr. 61. - AE 2010.</bibl><bibl>E. Weber - I. Weber-Hiden, R&#338; 34/35, 2011/12, 246, Nr. 61. - AE 2010.</bibl><bibl>H. Dolenz, Carinthia I 200, 2010, 59-60; Abb. 8a; Abb. 8b (Zeichnung). - AE 2010.</bibl><bibl>H. Dolenz, Carinthia 200 I, 2010, 61-62, Nr. 6; Abb. 9 (Foto u. Zeichnung). - AE 2010.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">I</c>
+		<c xml:id="L1C3">c</c>
+		<c xml:id="L1C4">u</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">n</c>
+			<c xml:id="L1C7">u</c>
+			<c xml:id="L1C8">s</c>
+		</supplied>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">e</c>
+		<c xml:id="L2C2">t</c>
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">C</c>
+		<c xml:id="L2C5">l</c>
+		<c xml:id="L2C6">a</c>
+		<c xml:id="L2C7">u</c>
+		<supplied reason="lost">
+			<c xml:id="L2C8">d</c>
+			<c xml:id="L2C9">i</c>
+			<c xml:id="L2C10">a</c>
+		</supplied>
+		<c xml:id="L2C11"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">R</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">s</c>
+		<c xml:id="L3C4">t</c>
+		<c xml:id="L3C5">u</c>
+		<c xml:id="L3C6">t</c>
+		<c xml:id="L3C7">a</c>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">p</c>
+		<c xml:id="L3C10">a</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">r</c>
+		<c xml:id="L4C2">e</c>
+		<c xml:id="L4C3">n</c>
+		<c xml:id="L4C4">t</c>
+		<c xml:id="L4C5">i</c>
+		<c xml:id="L4C6">b</c>
+		<c xml:id="L4C7">u</c>
+		<c xml:id="L4C8">s</c>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">f</c>
+		<c xml:id="L4C11">i</c>
+		<c xml:id="L4C12">l</c>
+	</line>
+	<line break="no" n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C3"> </c>
+		<c xml:id="L5C4">f</c>
+		<c xml:id="L5C5">e</c>
+		<c xml:id="L5C6">c</c>
+		<c xml:id="L5C7">e</c>
+		<c xml:id="L5C8">r</c>
+		<c xml:id="L5C9">u</c>
+		<c xml:id="L5C10">n</c>
+		<c xml:id="L5C11">t</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,293 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lipkovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002296</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002296</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>T&#252;rkischer Friedhof</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(200)</height><width>96</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1957"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/788516">Lipkovo</placeName><placeName type="findspot">{Lojane}, Garten des Bajram Nazir Ibraim, sp&#228;tantikes Grab, sekund&#228;r verwendet</placeName><placeName type="region">Severoisto&#269;en region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002296_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14024"><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD002296_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14025"><name type="nomen">Cocceia*</name><name type="cognomen">Sabina</name></persName></person><person xml:id="HD002296_3" sex="W"><persName ref="http://romans1by1.com/rpeople/14026"><name type="cognomen">Maximina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-11" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung f&#252;r ein sp&#228;tantikes Grab. (B): AE 1984: Z. 2: Aelius; Sokolovska, ILJug: Z. 2: Ae(lius); AE 1984: Z. 2/3: Maximia/nus; Z. 3/4: vixit an(n)is; Sokolovska: Z. 4: an(ni)s; ILJug: Z. 4: An(nis); Sokolovska, ILJug: Z. 6: XXXXII; AE 1984: Z. 6: m(ater); Sokolovska, ILJug: Z. 7: Maximilla; AE 1984: Z. 7/8: Zeilenfall nicht angegeben; Sokolovska, ILJug: Z. 8 (Ende): p.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0791. (B)</bibl><bibl>V. Sokolovska, ZborMuzSkopje 4/5, 1961-1966, 102-103, Nr. 2; sl. 5. (B) - AE 1984.</bibl><bibl>IMS 6, 242; Foto. (B)</bibl><bibl>ILJug 0560. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">P</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">u</c>
+				<c xml:id="L2C3">b</c>
+				<c xml:id="L2C4">l</c>
+				<c xml:id="L2C5">i</c>
+				<c xml:id="L2C6">u</c>
+				<c xml:id="L2C7">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C9">A</c>
+				<c xml:id="L2C10">e</c>
+				<c xml:id="L2C11">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C12">i</c>
+				<c xml:id="L2C13">u</c>
+				<c xml:id="L2C14">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">M</c>
+		<c xml:id="L2C17">a</c>
+		<c xml:id="L2C18">x</c>
+		<c xml:id="L2C19">i</c>
+		<c xml:id="L2C20">m</c>
+		<c xml:id="L2C21">i</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">a</c>
+		<c xml:id="L3C2">n</c>
+		<c xml:id="L3C3">u</c>
+		<c xml:id="L3C4">s</c>
+		<c xml:id="L3C5"> </c>
+		<c xml:id="L3C6">v</c>
+		<c xml:id="L3C7">i</c>
+		<c xml:id="L3C8">x</c>
+		<c xml:id="L3C9">i</c>
+		<c xml:id="L3C10">t</c>
+		<c xml:id="L3C11"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">a</c>
+		<c xml:id="L4C2">n</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C3">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C4">i</c>
+				<c xml:id="L4C5">s</c>
+			</abbr>
+		</expan>
+		<c xml:id="L4C6"> </c>
+		<c xml:id="L4C7">L</c>
+		<c xml:id="L4C8">X</c>
+		<c xml:id="L4C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C10">C</c>
+				<c xml:id="L4C11">o</c>
+				<c xml:id="L4C12">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C13">c</c>
+				<c xml:id="L4C14">e</c>
+				<c xml:id="L4C15">i</c>
+				<c xml:id="L4C16">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C17"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">S</c>
+		<c xml:id="L5C2">a</c>
+		<c xml:id="L5C3">b</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5">n</c>
+		<c xml:id="L5C6">a</c>
+		<c xml:id="L5C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C8">v</c>
+				<c xml:id="L5C9">i</c>
+				<c xml:id="L5C10">x</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C11">i</c>
+				<c xml:id="L5C12">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C13"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">a</c>
+		<c xml:id="L6C2">n</c>
+		<expan>
+			<ex>
+				<c xml:id="L6C3">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L6C4">i</c>
+				<c xml:id="L6C5">s</c>
+			</abbr>
+		</expan>
+		<c xml:id="L6C6"> </c>
+		<c xml:id="L6C7">X</c>
+		<c xml:id="L6C8">X</c>
+		<c xml:id="L6C9">X</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C10"> </c>
+		<c xml:id="L6C11">m</c>
+		<c xml:id="L6C12">a</c>
+	</line>
+	<line break="no" n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C2">e</c>
+				<c xml:id="L7C3">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C4"> </c>
+		<c xml:id="L7C5">M</c>
+		<c xml:id="L7C6">a</c>
+		<c xml:id="L7C7">x</c>
+		<c xml:id="L7C8">i</c>
+		<c xml:id="L7C9">m</c>
+		<c xml:id="L7C10">i</c>
+		<c xml:id="L7C11">n</c>
+		<c xml:id="L7C12">a</c>
+		<c xml:id="L7C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C14">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C15">i</c>
+				<c xml:id="L7C16">i</c>
+				<c xml:id="L7C17">s</c>
+				<c xml:id="L7C18">s</c>
+				<c xml:id="L7C19">i</c>
+				<c xml:id="L7C20">m</c>
+				<c xml:id="L7C21">i</c>
+				<c xml:id="L7C22">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C23"> </c>
+	</line>
+	<line n="8">
+		<expan>
+			<abbr>
+				<c xml:id="L8C1">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C2">e</c>
+				<c xml:id="L8C3">n</c>
+				<c xml:id="L8C4">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C6">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C7">e</c>
+				<c xml:id="L8C8">r</c>
+				<c xml:id="L8C9">e</c>
+				<c xml:id="L8C10">n</c>
+				<c xml:id="L8C11">t</c>
+				<c xml:id="L8C12">i</c>
+				<c xml:id="L8C13">b</c>
+				<c xml:id="L8C14">u</c>
+				<c xml:id="L8C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C17">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C18">e</c>
+				<c xml:id="L8C19">c</c>
+				<c xml:id="L8C20">i</c>
+				<c xml:id="L8C21">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

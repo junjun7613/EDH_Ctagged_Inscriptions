@@ -1,0 +1,231 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from B&#237;&#328;a (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074858</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074858</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bratislava, Slov. N&#225;r. M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(45)</height><width>(60)</width><depth>45</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0205" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD - 208 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1982"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3061071">B&#237;&#328;a</placeName><placeName type="findspot">Kloster, vermauert</placeName><placeName type="region">Nitriansky kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074858_1" sex="M"><persName><name type="cognomen">Antoninus*</name></persName></person><person xml:id="HD074858_2" sex="M"><persName><name type="cognomen">Geta+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-07" who="Osnabr&#252;gge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Reste von roter Farbe in den Buchstaben. Unterer Teil eines Altars. Ho&#353;ek, dessen Lesung und Interpretation von Matyasowszky &#252;bernommen wurde, liest in Z. 4 das erste E als ET-Ligatur und erg&#228;nzt daher den eradierten Namen zu &amp;apos;T. [[[Fl(avio) Novio Ru]]]/ [[[fo]]]&amp;apos;, der Konsul des Jahres 219 gewesen sei. Eponymer Konsul 219 war Tineius Sacerdos (PIR (2. Aufl.) T 229); zu erg&#228;nzen w&#228;re bei einer Datierung ins Jahr 219 etwa T[[[ineio Sacerdote]]], eine damnatio memoriae ist bei diesem jedoch nicht bekannt. Datierung: 205 (Antonino Augusto II et Getae) oder 208 (Antonino Augusto III et Getae II). Datierung nach Ho&#353;ek: 219.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Ho&#353;ek, Tituli Latini Pannoniae superioris annis 1967-1982 in Slovacia reperti (Praha 1985) 91-92, Abb. 55 (Zeichnung). (B)</bibl><bibl>F.&#381;. Matyasowszky, Antick&#233; n&#225;pisn&#233; pamiatky na &#250;zem&#237; Slovenska (Nitra 2003) 83, Nr. 1; Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C1">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C2">o</c>
+					<c xml:id="L1C3">t</c>
+					<c xml:id="L1C4">u</c>
+					<c xml:id="L1C5">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C6"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C7">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C8">o</c>
+					<c xml:id="L1C9">l</c>
+					<c xml:id="L1C10">v</c>
+					<c xml:id="L1C11">i</c>
+					<c xml:id="L1C12">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">i</c>
+				<c xml:id="L1C16">b</c>
+				<c xml:id="L1C17">e</c>
+				<c xml:id="L1C18">n</c>
+				<c xml:id="L1C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C21">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C22">a</c>
+				<c xml:id="L1C23">e</c>
+				<c xml:id="L1C24">t</c>
+				<c xml:id="L1C25">u</c>
+				<c xml:id="L1C26">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C27"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C28">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C29">e</c>
+					<c xml:id="L1C30">r</c>
+					<c xml:id="L1C31">i</c>
+					<c xml:id="L1C32">t</c>
+					<c xml:id="L1C33">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C34"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C35">I</c>
+					<c xml:id="L1C36">m</c>
+					<c xml:id="L1C37">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C38">e</c>
+					<c xml:id="L1C39">r</c>
+					<c xml:id="L1C40">a</c>
+					<c xml:id="L1C41">t</c>
+					<c xml:id="L1C42">o</c>
+					<c xml:id="L1C43">r</c>
+					<c xml:id="L1C44">e</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C45"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">A</c>
+				<c xml:id="L2C2">n</c>
+				<c xml:id="L2C3">t</c>
+				<c xml:id="L2C4">o</c>
+				<c xml:id="L2C5">n</c>
+				<c xml:id="L2C6">i</c>
+				<c xml:id="L2C7">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C8">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">A</c>
+		<c xml:id="L2C11">u</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C12">g</c>
+			<c xml:id="L2C13">u</c>
+			<c xml:id="L2C14">(</c>
+			<c xml:id="L2C15">s</c>
+			<c xml:id="L2C16">t</c>
+			<c xml:id="L2C17">o</c>
+			<c xml:id="L2C18">)</c>
+			<c xml:id="L2C19"> </c>
+			<c xml:id="L2C20">I</c>
+			<c xml:id="L2C21">I</c>
+		</supplied>
+		<c xml:id="L2C22"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">e</c>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3"> </c>
+		<del rend="erasure">
+			<c xml:id="L3C4">[</c>
+			<c xml:id="L3C5">G</c>
+			<c xml:id="L3C6">e</c>
+			<c xml:id="L3C7">t</c>
+			<c xml:id="L3C8">a</c>
+			<c xml:id="L3C9">e</c>
+			<c xml:id="L3C10"> </c>
+			<expan>
+				<abbr>Caes</abbr>
+				<ex>aris</ex>
+			</expan>
+		</del>
+		<c xml:id="L3C11">]</c>
+		<c xml:id="L3C12"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">c</c>
+		<c xml:id="L4C2">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C3">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C4">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C5">u</c>
+				<c xml:id="L4C6">l</c>
+				<c xml:id="L4C7">i</c>
+				<c xml:id="L4C8">b</c>
+				<c xml:id="L4C9">u</c>
+				<c xml:id="L4C10">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

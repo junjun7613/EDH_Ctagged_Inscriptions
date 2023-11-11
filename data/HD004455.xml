@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Valentia &amp;ndash; Valencia (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004455</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004455</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>74</height><width>(109)</width><depth>78</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13-14</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Valencia</placeName><placeName type="findspot">plaza de la Reina / calle del Micalet, Einm&#252;ndung</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-02-23" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006539" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7e027313-92be-49e3-9915-f1dc41cd9dca/file/id/767313/file_version/name/small" /><graphic xml:id="F028001" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eaf8d96c-cb8c-42af-b534-fb132a72b4d5/file/id/788758/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Aufgrund der Fundstelle nahe beim Forum vielleicht vom Augustustempel stammend. Nach Vorschlag von G. Alf&#246;ldy bezieht sich die Inschrift vielleicht auf die Zerst&#246;rung der Stadt im bellum Sertorianum und ihren Wiederaufbau unter Augustus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0367.</bibl><bibl>G. Pereira Menaut, Inscripciones romanas de Valencia (Valencia 1979) 29-31, Nr. 9; l&#225;m. 9. - AE 1979.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00011.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C2">A</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C5">u</c>
+				<c xml:id="L1C6">s</c>
+				<c xml:id="L1C7">t</c>
+				<c xml:id="L1C8">-</c>
+				<c xml:id="L1C9">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">e</c>
+		<c xml:id="L2C2"> </c>
+		<c xml:id="L2C3">c</c>
+		<c xml:id="L2C4">l</c>
+		<c xml:id="L2C5">a</c>
+		<c xml:id="L2C6">d</c>
+		<c xml:id="L2C7">e</c>
+		<c xml:id="L2C8">m</c>
+		<c xml:id="L2C9"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

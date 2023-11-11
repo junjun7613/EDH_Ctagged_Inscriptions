@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035891</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035891</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/128">Putz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1870"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">&#211;buda, {Haj&#243;gy&#225;ri sziget}, r&#246;misches Bad</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-10-12" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Wandputz mit eingeritzter Inschrift (Graffito). (B): bietet &#918;&#927;+++ +&#918;++&#953;&#954;&#959;&#8150;&#962;. Das Iota Sigma am Ende scheint mir etwas gewagt. M&#246;glich w&#228;re ein Pi, wobei die senkrechte Haste ungew&#246;hnlich geschwungen nach links verlaufen. Ein solches Gebilde sehen wir in den zwei Buchstaben nach &#918;&#927; am Anfang. Ansonsten sind die Zeichen zu unklar, als da&#223; sie sicher zu identifizieren sind.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10716.</bibl><bibl>CIGPannon 084.</bibl><bibl>CIGPannon (2. Aufl.) 097; Zeichnung.</bibl><bibl>CIGPannon (3. Aufl.) 097; Zeichnung.</bibl><bibl>TitAq 1371 a; Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">&#918;</c>
+		<c xml:id="L1C3">&#927;</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C4">&#918;</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C5">&#921;</c>
+		<c xml:id="L1C6">&#922;</c>
+		<c xml:id="L1C7">&#927;</c>
+		<c xml:id="L1C8">-</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

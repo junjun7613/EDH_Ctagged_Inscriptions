@@ -1,0 +1,199 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Kraljevica (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055435</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055435</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>138</height><width>36</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0306" notAfter-custom="0307" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">306 AD - 307 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1851"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3204610">Kraljevica</placeName><placeName type="findspot">{Bakarac}, bei</placeName><placeName type="region">Primorsko-goranska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055435_1" sex="M"><persName><name type="nomen">Galerius* Valerius*</name><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD055435_2" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Severus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL III 3212, III 14333; Brun&#353;mid: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03212. (B)</bibl><bibl>CIL 03, 14333, 11. (B)</bibl><bibl>J. Brun&#353;mid, VHAD 9, 1906/07, 147-148, Nr. 285; Zeichnung. (B)</bibl><bibl>CIL 17, 04, 00231; Fig. &#945;; Fig. &#946; (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+				<c xml:id="L1C3">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">o</c>
+				<c xml:id="L1C5">m</c>
+				<c xml:id="L1C6">i</c>
+				<c xml:id="L1C7">n</c>
+				<c xml:id="L1C8">i</c>
+				<c xml:id="L1C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L1C12">o</c>
+				<c xml:id="L1C13">s</c>
+				<c xml:id="L1C14">t</c>
+				<c xml:id="L1C15">r</c>
+				<c xml:id="L1C16">i</c>
+				<c xml:id="L1C17">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C19">G</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C20">a</c>
+				<c xml:id="L1C21">l</c>
+				<c xml:id="L1C22">e</c>
+				<c xml:id="L1C23">r</c>
+				<c xml:id="L1C24">i</c>
+				<c xml:id="L1C25">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C27">V</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C28">a</c>
+				<c xml:id="L1C29">l</c>
+				<c xml:id="L1C30">e</c>
+				<c xml:id="L1C31">r</c>
+				<c xml:id="L1C32">i</c>
+				<c xml:id="L1C33">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C34"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">x</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">m</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">a</c>
+		<c xml:id="L2C8">n</c>
+		<c xml:id="L2C9">o</c>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">e</c>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C4">F</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C5">l</c>
+				<c xml:id="L3C6">a</c>
+				<c xml:id="L3C7">v</c>
+				<c xml:id="L3C8">i</c>
+				<c xml:id="L3C9">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C10"> </c>
+		<c xml:id="L3C11">S</c>
+		<c xml:id="L3C12">e</c>
+		<c xml:id="L3C13">v</c>
+		<c xml:id="L3C14">e</c>
+		<c xml:id="L3C15">r</c>
+		<c xml:id="L3C16">o</c>
+		<c xml:id="L3C17"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">i</c>
+			<c xml:id="L4C2">n</c>
+		</supplied>
+		<c xml:id="L4C3">v</c>
+		<supplied reason="lost">
+			<c xml:id="L4C4">i</c>
+			<c xml:id="L4C5">c</c>
+		</supplied>
+		<c xml:id="L4C6">t</c>
+		<supplied reason="lost">
+			<c xml:id="L4C7">i</c>
+		</supplied>
+		<c xml:id="L4C8">s</c>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">A</c>
+		<c xml:id="L4C11">u</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C12">g</c>
+					<c xml:id="L4C13">g</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C14">u</c>
+					<c xml:id="L4C15">s</c>
+					<c xml:id="L4C16">t</c>
+					<c xml:id="L4C17">i</c>
+					<c xml:id="L4C18">s</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

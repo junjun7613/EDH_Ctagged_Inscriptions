@@ -1,0 +1,171 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Klis (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058457</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058457</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trogir, Muz. grad. Trog.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198062">Klis</placeName><placeName type="findspot" /><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058457_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Tullius*</name><name type="cognomen">Crescens*</name></persName></person><person xml:id="HD058457_2" sex="W"><persName><name type="cognomen">Liberalis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-12-08" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL III 2690: Z. 1: Iulius; Z. 5: an(norum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02690. (B)</bibl><bibl>CIL 03, 09703.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">n</c>
+				<c xml:id="L1C6">t</c>
+				<c xml:id="L1C7">u</c>
+				<c xml:id="L1C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">T</c>
+		<c xml:id="L1C11">u</c>
+		<c xml:id="L1C12">l</c>
+		<expan>
+			<ex>
+				<c xml:id="L1C13">l</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C14">i</c>
+				<c xml:id="L1C15">u</c>
+				<c xml:id="L1C16">s</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C17"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">C</c>
+		<c xml:id="L2C2">r</c>
+		<c xml:id="L2C3">e</c>
+		<c xml:id="L2C4">s</c>
+		<c xml:id="L2C5">c</c>
+		<c xml:id="L2C6">e</c>
+		<expan>
+			<ex>
+				<c xml:id="L2C7">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L2C8">s</c>
+			</abbr>
+		</expan>
+		<c xml:id="L2C9"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">L</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">b</c>
+		<c xml:id="L3C4">e</c>
+		<c xml:id="L3C5">r</c>
+		<c xml:id="L3C6">a</c>
+		<c xml:id="L3C7">l</c>
+		<c xml:id="L3C8">i</c>
+		<c xml:id="L3C9"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">n</c>
+		<c xml:id="L4C2">e</c>
+		<c xml:id="L4C3">p</c>
+		<c xml:id="L4C4">o</c>
+		<c xml:id="L4C5">t</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">a</c>
+		<c xml:id="L4C8">e</c>
+		<c xml:id="L4C9"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">d</c>
+				<c xml:id="L5C2">e</c>
+				<c xml:id="L5C3">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C4">u</c>
+				<c xml:id="L5C5">n</c>
+				<c xml:id="L5C6">c</c>
+				<c xml:id="L5C7">t</c>
+				<c xml:id="L5C8">a</c>
+				<c xml:id="L5C9">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C11">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L5C12">o</c>
+				<c xml:id="L5C13">r</c>
+				<c xml:id="L5C14">u</c>
+				<c xml:id="L5C15">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C16"> </c>
+		<c xml:id="L5C17">X</c>
+		<c xml:id="L5C18">X</c>
+		<c xml:id="L5C19">V</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

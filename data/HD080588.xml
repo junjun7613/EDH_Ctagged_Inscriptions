@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from (Civitas Sequanorum) &amp;ndash; Villards-d'H&#233;ria (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080588</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080588</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Moirans?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177659">(Civitas Sequanorum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1802"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2968964">Villards-d'H&#233;ria</placeName><placeName type="findspot">{Lac d'Antre}, bei</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080588_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius+</name><name type="cognomen">Martialis+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-05" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ma&#223;angabe nach CAG: &amp;quot;&amp;quot;long. pierre 2 pieds&amp;quot;&amp;quot;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05347.</bibl><bibl>(o. Autor), in: M.-P. Roth&#233;, Le Jura, Carte arch&#233;ologique de la Gaule 39 (Paris 2001) 725.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">T</c>
+				<c xml:id="L1C3">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">b</c>
+				<c xml:id="L1C5">e</c>
+				<c xml:id="L1C6">r</c>
+				<c xml:id="L1C7">i</c>
+				<c xml:id="L1C8">u</c>
+				<c xml:id="L1C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+		<c xml:id="L1C11">C</c>
+		<c xml:id="L1C12">l</c>
+		<c xml:id="L1C13">a</c>
+		<supplied reason="lost">
+			<c xml:id="L1C14">u</c>
+			<c xml:id="L1C15">d</c>
+			<c xml:id="L1C16">i</c>
+			<c xml:id="L1C17">u</c>
+			<c xml:id="L1C18">s</c>
+		</supplied>
+		<c xml:id="L1C19"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">r</c>
+		<c xml:id="L2C4">t</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C5">i</c>
+			<c xml:id="L2C6">a</c>
+			<c xml:id="L2C7">l</c>
+			<c xml:id="L2C8">i</c>
+			<c xml:id="L2C9">s</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

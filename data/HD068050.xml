@@ -1,0 +1,280 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum &amp;ndash; Kr&#353;ko (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068050</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068050</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubljana, Nar. Muz. Slov.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(93)</height><width>52</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3203475">Kr&#353;ko</placeName><placeName type="findspot">{Brege}, bei, &#246;stliche Nekropole</placeName><placeName type="region">Posavska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068050_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18825"><name type="praenomen">C.</name><name type="nomen">Marcius</name><name type="cognomen">Celer</name></persName></person><person xml:id="HD068050_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18826"><name type="nomen">Pompeia</name><name type="cognomen">Respecta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-01" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009571" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/11a86794-7de0-416d-9c85-63bbe56e17e8/file/id/769291/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bei der Auffindung war noch rote Farbe in den Buchstaben erkennbar. Im Giebel oberhalb des Inschriftfeldes und in den Zwickeln dar&#252;ber je ein Diskus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10805.</bibl><bibl>AIJ 249; Foto.</bibl><bibl>ILSl 1, 035; Foto.</bibl><bibl>M. &#352;a&#353;el Kos, The Roman inscriptions in the National Museum of Slovenia (Ljubljana 1997) 371-373, Nr. 129; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">u</c>
+				<c xml:id="L1C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">M</c>
+		<c xml:id="L1C9">a</c>
+		<c xml:id="L1C10">r</c>
+		<c xml:id="L1C11">c</c>
+		<c xml:id="L1C12">i</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">u</c>
+		<c xml:id="L2C2">s</c>
+		<c xml:id="L2C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C4">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C5">a</c>
+				<c xml:id="L2C6">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C9">i</c>
+				<c xml:id="L2C10">l</c>
+				<c xml:id="L2C11">i</c>
+				<c xml:id="L2C12">u</c>
+				<c xml:id="L2C13">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">C</c>
+		<c xml:id="L3C2">e</c>
+		<surplus>
+			<c xml:id="L3C3">i</c>
+		</surplus>
+		<c xml:id="L3C4">l</c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">r</c>
+		<c xml:id="L3C7"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">p</c>
+				<c xml:id="L4C2">r</c>
+				<c xml:id="L4C3">a</c>
+				<c xml:id="L4C4">e</c>
+				<c xml:id="L4C5">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">e</c>
+				<c xml:id="L4C7">p</c>
+				<c xml:id="L4C8">t</c>
+				<c xml:id="L4C9">o</c>
+				<c xml:id="L4C10">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C11"> </c>
+		<abbr>
+			<c xml:id="L4C12">g</c>
+			<c xml:id="L4C13">r</c>
+		</abbr>
+		<c xml:id="L4C14"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">a</c>
+				<c xml:id="L5C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C3">n</c>
+				<c xml:id="L5C4">o</c>
+				<c xml:id="L5C5">r</c>
+				<c xml:id="L5C6">u</c>
+				<c xml:id="L5C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C8"> </c>
+		<c xml:id="L5C9">L</c>
+		<c xml:id="L5C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C11">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C12">i</c>
+				<c xml:id="L5C13">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C15">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C16">i</c>
+				<c xml:id="L5C17">t</c>
+				<c xml:id="L5C18">u</c>
+				<c xml:id="L5C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C20"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">P</c>
+		<c xml:id="L6C2">o</c>
+		<c xml:id="L6C3">m</c>
+		<c xml:id="L6C4">p</c>
+		<c xml:id="L6C5">e</c>
+		<c xml:id="L6C6">i</c>
+		<c xml:id="L6C7">a</c>
+		<c xml:id="L6C8"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C2">u</c>
+				<c xml:id="L7C3">i</c>
+				<c xml:id="L7C4">n</c>
+				<c xml:id="L7C5">t</c>
+				<c xml:id="L7C6">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C9">i</c>
+				<c xml:id="L7C10">l</c>
+				<c xml:id="L7C11">i</c>
+				<c xml:id="L7C12">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C13"> </c>
+		<c xml:id="L7C14">R</c>
+		<c xml:id="L7C15">e</c>
+		<c xml:id="L7C16">s</c>
+		<c xml:id="L7C17">p</c>
+		<c xml:id="L7C18">e</c>
+		<c xml:id="L7C19">c</c>
+	</line>
+	<line break="no" n="8">
+		<c xml:id="L8C1">t</c>
+		<c xml:id="L8C2">a</c>
+		<c xml:id="L8C3"> </c>
+		<c xml:id="L8C4">s</c>
+		<c xml:id="L8C5">i</c>
+		<c xml:id="L8C6">b</c>
+		<c xml:id="L8C7">i</c>
+		<c xml:id="L8C8"> </c>
+		<c xml:id="L8C9">e</c>
+		<c xml:id="L8C10">t</c>
+		<c xml:id="L8C11"> </c>
+		<c xml:id="L8C12">c</c>
+		<c xml:id="L8C13">o</c>
+		<c xml:id="L8C14">n</c>
+	</line>
+	<line break="no" n="9">
+		<supplied reason="lost">
+			<c xml:id="L9C1">i</c>
+		</supplied>
+		<c xml:id="L9C2">u</c>
+		<c xml:id="L9C3">g</c>
+		<c xml:id="L9C4">i</c>
+		<c xml:id="L9C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C6">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C7">i</c>
+				<c xml:id="L9C8">v</c>
+				<c xml:id="L9C9">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C11">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C12">e</c>
+				<c xml:id="L9C13">c</c>
+				<c xml:id="L9C14">i</c>
+				<c xml:id="L9C15">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

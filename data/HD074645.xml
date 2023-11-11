@@ -1,0 +1,252 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Ebreichsdorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074645</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074645</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780501">Ebreichsdorf</placeName><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074645_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Merasius</name><name type="cognomen">Vitalis+</name></persName></person><person xml:id="HD074645_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Novella+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-23" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Kranz mit Halbmond; in drei Teile gebrochen. Z. 5: nach der Zeichnung bei Kubitschek war noch eine senkrechte Haste zwischen E und A erkennbar. (B): CIL 03, 04593. Z. 5: Nove[ll]ae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04593. (B)</bibl><bibl>CIL 03, 04593 add. p. 1045.</bibl><bibl>W. Kubitschek, JbAltertumskunde 6, 1912, 134-135; Abb. 17 Zeichnung)</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">M</c>
+		<c xml:id="L1C4">e</c>
+		<c xml:id="L1C5">r</c>
+		<c xml:id="L1C6">a</c>
+		<c xml:id="L1C7">s</c>
+		<c xml:id="L1C8">i</c>
+		<c xml:id="L1C9">u</c>
+		<c xml:id="L1C10">s</c>
+		<c xml:id="L1C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C12">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C13">u</c>
+				<c xml:id="L1C14">c</c>
+				<c xml:id="L1C15">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C17">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C18">i</c>
+				<c xml:id="L1C19">l</c>
+				<c xml:id="L1C20">i</c>
+				<c xml:id="L1C21">u</c>
+				<c xml:id="L1C22">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C23"> </c>
+		<c xml:id="L1C24">d</c>
+	</line>
+	<line break="no" n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">o</c>
+			<c xml:id="L2C2">m</c>
+			<c xml:id="L2C3">o</c>
+		</supplied>
+		<c xml:id="L2C4"> </c>
+		<c xml:id="L2C5">T</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">c</c>
+		<c xml:id="L2C8">i</c>
+		<c xml:id="L2C9">n</c>
+		<c xml:id="L2C10">o</c>
+		<c xml:id="L2C11"> </c>
+		<c xml:id="L2C12">V</c>
+		<c xml:id="L2C13">i</c>
+		<c xml:id="L2C14">t</c>
+		<c xml:id="L2C15">a</c>
+		<supplied reason="lost">
+			<c xml:id="L2C16">l</c>
+			<c xml:id="L2C17">i</c>
+			<c xml:id="L2C18">s</c>
+		</supplied>
+		<c xml:id="L2C19"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" quantity="1" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L3C1">l</c>
+					<c xml:id="L3C2">e</c>
+				</supplied>
+				<c xml:id="L3C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">i</c>
+				<c xml:id="L3C5">o</c>
+				<c xml:id="L3C6">n</c>
+				<c xml:id="L3C7">i</c>
+				<c xml:id="L3C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">I</c>
+		<c xml:id="L3C11">I</c>
+		<c xml:id="L3C12">I</c>
+		<c xml:id="L3C13">I</c>
+		<c xml:id="L3C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C15">F</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C16">l</c>
+				<c xml:id="L3C17">a</c>
+				<c xml:id="L3C18">v</c>
+				<c xml:id="L3C19">i</c>
+				<c xml:id="L3C20">a</c>
+				<c xml:id="L3C21">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C23">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C24">e</c>
+				<c xml:id="L3C25">l</c>
+				<c xml:id="L3C26">i</c>
+				<c xml:id="L3C27">c</c>
+				<c xml:id="L3C28">i</c>
+				<c xml:id="L3C29">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C30"> </c>
+		<c xml:id="L3C31">d</c>
+		<c xml:id="L3C32">e</c>
+	</line>
+	<line break="no" n="4">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">f</c>
+					<c xml:id="L4C2">u</c>
+					<c xml:id="L4C3">n</c>
+					<c xml:id="L4C4">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C5">t</c>
+					<c xml:id="L4C6">u</c>
+					<c xml:id="L4C7">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L4C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C9">a</c>
+				<c xml:id="L4C10">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C11">n</c>
+				<c xml:id="L4C12">o</c>
+				<c xml:id="L4C13">r</c>
+				<c xml:id="L4C14">u</c>
+				<c xml:id="L4C15">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C16"> </c>
+		<c xml:id="L4C17">L</c>
+		<c xml:id="L4C18">X</c>
+		<c xml:id="L4C19">X</c>
+		<c xml:id="L4C20">V</c>
+		<c xml:id="L4C21"> </c>
+		<c xml:id="L4C22">e</c>
+		<c xml:id="L4C23">t</c>
+		<c xml:id="L4C24"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1"> </c>
+		<c xml:id="L5C2">N</c>
+		<c xml:id="L5C3">o</c>
+		<c xml:id="L5C4">v</c>
+		<c xml:id="L5C5">e</c>
+		<c xml:id="L5C6">l</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L5C7">l</c>
+		</supplied>
+		<c xml:id="L5C8">a</c>
+		<c xml:id="L5C9">e</c>
+		<c xml:id="L5C10"> </c>
+	</line>
+	<line n="6">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C1"> </c>
+		<c xml:id="L6C2">P</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

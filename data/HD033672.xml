@@ -1,0 +1,191 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sirmium &amp;ndash; Sremska Mitrovica (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033672</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033672</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sremska Mitrovica, Muz. Srema</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(180)</height><width>52</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207447">Sirmium</placeName></origPlace><origDate><origDate notBefore-custom="0261" notAfter-custom="0285" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">261 AD - 285 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/3190103">Sremska Mitrovica</placeName><placeName type="findspot">{Novi &#352;or 19}</placeName><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033672_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Sammonius+?</name><name type="cognomen">Samminus</name></persName></person><person xml:id="HD033672_2" sex="W"><persName><name type="cognomen">Verina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente erhalten. Oberhalb der Inschrift aedicula mit Darstellung eines Soldaten mit Standarte. Ma&#223;e nach www.ubi-erat-lupa.org Nr. 4337. (B): ILJug; Dautova-Ru&#353;evljan; Cubaynes: Leseabweichungen. Datierung nach Wieland.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0274. (B)</bibl><bibl>V. Dautova-Ru&#353;evljan, Rimska kamena plastika u jugoslovenskom delu provincije Donje Panonije (Novi Sad 1983) 13, Nr. 4; Tab. 2, 6. (B)</bibl><bibl>H. Ubl, Waffen und Uniform des r&#246;mischen Heeres der Prinzipatsepoche nach den Grabreliefs Noricums und Pannoniens (Wien 2013) XXXI, Nr. 35.</bibl><bibl>M. Mirkovi&#263;, in: V. Popovi&#263; (Hrsg.), Archaeological investigations in Syrmian Pannonia. To the memory of Miodrag Grbi&#263;, Sirmium (Beograd 1971) 71, Nr. 35; pl. 5, 2.</bibl><bibl>AE 2010, 1067.</bibl><bibl>M. Wieland, in: B. Schnitzler - G. Kuhnle (Hrsg.), Strasbourg-Argentorate. Un camp l&#233;gionnaire sur le Rhin (Ier au IVe si&#232;cle apre J.-C.) (Strasbourg 2010) 137; Foto.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe l&#233;gion Auguste (Autun 2018) 451-453, Nr. 124; Fotos. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">S</c>
+		<c xml:id="L1C2">a</c>
+		<c xml:id="L1C3">m</c>
+		<c xml:id="L1C4">m</c>
+		<supplied reason="lost">
+			<c xml:id="L1C5">o</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">n</c>
+				<c xml:id="L2C2">i</c>
+				<c xml:id="L2C3">u</c>
+				<c xml:id="L2C4">s</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L2C5"> </c>
+		<c xml:id="L2C6">S</c>
+		<c xml:id="L2C7">a</c>
+		<c xml:id="L2C8">m</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">m</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">n</c>
+		<c xml:id="L3C4">u</c>
+		<c xml:id="L3C5">s</c>
+		<c xml:id="L3C6"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">i</c>
+		<c xml:id="L4C2">m</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C3">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C4">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C5">i</c>
+				<c xml:id="L4C6">n</c>
+				<c xml:id="L4C7">i</c>
+				<c xml:id="L4C8">f</c>
+				<c xml:id="L4C9">e</c>
+				<c xml:id="L4C10">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C12">l</c>
+				<c xml:id="L4C13">e</c>
+				<c xml:id="L4C14">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C15">i</c>
+				<c xml:id="L4C16">o</c>
+				<c xml:id="L4C17">n</c>
+				<c xml:id="L4C18">i</c>
+				<c xml:id="L4C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C20"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">V</c>
+		<c xml:id="L5C2">I</c>
+		<c xml:id="L5C3">I</c>
+		<c xml:id="L5C4">I</c>
+		<c xml:id="L5C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C6">A</c>
+				<c xml:id="L5C7">u</c>
+				<c xml:id="L5C8">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C9">u</c>
+				<c xml:id="L5C10">s</c>
+				<c xml:id="L5C11">t</c>
+				<c xml:id="L5C12">a</c>
+				<c xml:id="L5C13">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C14"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">f</c>
+		<c xml:id="L6C2">e</c>
+		<c xml:id="L6C3">c</c>
+		<c xml:id="L6C4">i</c>
+		<c xml:id="L6C5">t</c>
+		<c xml:id="L6C6"> </c>
+		<c xml:id="L6C7">V</c>
+		<c xml:id="L6C8">e</c>
+		<c xml:id="L6C9">r</c>
+		<c xml:id="L6C10">i</c>
+	</line>
+	<line break="no" n="7">
+		<c xml:id="L7C1">n</c>
+		<c xml:id="L7C2">a</c>
+		<c xml:id="L7C3"> </c>
+		<c xml:id="L7C4">c</c>
+		<c xml:id="L7C5">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L7C6">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L7C7">i</c>
+				<c xml:id="L7C8">u</c>
+				<c xml:id="L7C9">x</c>
+			</abbr>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

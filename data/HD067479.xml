@@ -1,0 +1,94 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Nida (Civitas Taunensium) &amp;ndash; Frankfurt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067479</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067479</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Frankfurt/Main, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>11</height><width>23</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109205">Nida (Civitas Taunensium)</placeName></origPlace><origDate><origDate notBefore-custom="0103" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">103 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2908403">Frankfurt/Main</placeName><placeName type="findspot">Heddernheim, {sogenannter Hallenbau}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Halbdeckel eines Gie&#223;beckens (Typ Eggers 90).. Schreibtechnik: gepunzt. Material: Kohlert-N&#233;meth: Reste eines &#220;berzugs aus Wei&#223;metall erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1086.</bibl><bibl>A. Ries, Nida-Heddernheim im 3. Jahrhundert n. Chr. Studien zum Ende der Siedlung (Frankfurt/Main 2010) 102, Nr. 4; Taf. 57, 4 (Zeichnung). - AE 2010.</bibl><bibl>M. Kohlert-N&#233;meth, R&#246;mische Bronzen II aus Nida-Heddernheim. Fundsachen aus dem Hausrat. Auswahlkatalog (Frankfurt/Main 1990) 72-73; Foto; Abb. 25 (Zeichnung). - AE 2010.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">e</c>
+				<c xml:id="L1C4">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+				<c xml:id="L1C7">e</c>
+				<c xml:id="L1C8">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C9">c</c>
+				<c xml:id="L1C10">u</c>
+				<c xml:id="L1C11">r</c>
+				<c xml:id="L1C12">i</c>
+				<c xml:id="L1C13">o</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

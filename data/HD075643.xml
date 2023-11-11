@@ -1,0 +1,201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Wolfstein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075643</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075643</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>53</height><width>(62)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1855"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/6557921">Wolfstein</placeName><placeName type="findspot">{Reckweilerhof}, Felsenwald</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075643_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]a?</name></persName></person><person xml:id="HD075643_2"><persName><name type="nomen">Caran[---]?</name><name type="cognomen">Caran[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039558" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a1318a61-1095-49de-ad68-9dbb074783af/file/id/800437/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Links und rechts abgebrochener Block, wegen der Breite wohl Teil eines monumentalen Grabbaus. Zu Beginn von Z. 1 noch senkrechte Haste erkennbar. Z. 1 vielleicht [---]ainonis [f(ilius). In Z. 3 gro&#223;er Buchstabenabstand, [C]ometius, [D]ometius vel sim.? (B): CIL; Hildenbrand; Ditsch: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06176 a. (B)</bibl><bibl>F.J. Hildenbrand, Der r&#246;mische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 23-24, Nr. 12. (B)</bibl><bibl>S. Ditsch, Dis Manibus. Die r&#246;mischen Grabdenkm&#228;ler aus der Pfalz (Neustadt/Weinstra&#223;e 2011) 238, Nr. Wolfstein 05; Taf. 92, 3 u. 4 (Foto u. Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">I</c>
+		<c xml:id="L1C3">A</c>
+		<c xml:id="L1C4">I</c>
+		<c xml:id="L1C5">N</c>
+		<c xml:id="L1C6">O</c>
+		<c xml:id="L1C7">N</c>
+		<c xml:id="L1C8">I</c>
+		<c xml:id="L1C9">S</c>
+		<c xml:id="L1C10"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C11"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">a</c>
+		<c xml:id="L2C2"> </c>
+		<c xml:id="L2C3">e</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5"> </c>
+		<c xml:id="L2C6">C</c>
+		<c xml:id="L2C7">a</c>
+		<c xml:id="L2C8">r</c>
+		<c xml:id="L2C9">a</c>
+		<c xml:id="L2C10">n</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+	<line break="no" n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">O</c>
+		<c xml:id="L3C2">M</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">E</c>
+		<c xml:id="L3C5"> </c>
+		<c xml:id="L3C6">T</c>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">I</c>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">V</c>
+		<c xml:id="L3C11"> </c>
+		<c xml:id="L3C12">S</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C13"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L4C1">&#160;</c>
+			<c xml:id="L4C2">s</c>
+		</supplied>
+		<c xml:id="L4C3">i</c>
+		<c xml:id="L4C4">b</c>
+		<c xml:id="L4C5">i</c>
+		<c xml:id="L4C6"> </c>
+		<surplus>
+			<c xml:id="L4C7">I</c>
+		</surplus>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">v</c>
+		<c xml:id="L4C10">i</c>
+		<c xml:id="L4C11">v</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C12">u</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C13">s</c>
+			</abbr>
+		</expan>
+		<c xml:id="L4C14"> </c>
+		<c xml:id="L4C15">e</c>
+		<c xml:id="L4C16">t</c>
+		<c xml:id="L4C17"> </c>
+		<c xml:id="L4C18">c</c>
+		<supplied reason="lost">
+			<c xml:id="L4C19">o</c>
+			<c xml:id="L4C20">n</c>
+			<c xml:id="L4C21">i</c>
+			<c xml:id="L4C22">u</c>
+			<c xml:id="L4C23">g</c>
+			<c xml:id="L4C24">i</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L4C25"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L5C1">-</c>
+			<c xml:id="L5C2">-</c>
+			<c xml:id="L5C3">-</c>
+			<c xml:id="L5C4"> </c>
+			<c xml:id="L5C5">h</c>
+			<c xml:id="L5C6">(</c>
+			<c xml:id="L5C7">e</c>
+			<c xml:id="L5C8">r</c>
+			<c xml:id="L5C9">e</c>
+			<c xml:id="L5C10">s</c>
+			<c xml:id="L5C11">)</c>
+		</supplied>
+		<c xml:id="L5C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C13">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C14">a</c>
+				<c xml:id="L5C15">c</c>
+				<c xml:id="L5C16">i</c>
+				<c xml:id="L5C17">e</c>
+				<c xml:id="L5C18">n</c>
+				<c xml:id="L5C19">d</c>
+				<c xml:id="L5C20">u</c>
+				<c xml:id="L5C21">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C23">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C24">u</c>
+				<c xml:id="L5C25">r</c>
+				<c xml:id="L5C26">a</c>
+				<c xml:id="L5C27">v</c>
+				<c xml:id="L5C28">i</c>
+				<c xml:id="L5C29">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Duna&#250;jv&#225;ros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037398</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037398</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(70)</height><width>(80)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-14.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Duna&#250;jv&#225;ros</placeName><placeName type="findspot">Weingarten des Ferenc Kincses, Steingrab, sekund&#228;r verwendet</placeName><placeName type="region">Fej&#233;r megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037398_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD037398_2" sex="M"><persName><name type="cognomen">Optatus+</name></persName></person><person xml:id="HD037398_3" sex="W"><persName><name type="cognomen">Germaniu+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung f&#252;r ein Grab.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1250; Abb. 1250 (Foto u. Zeichnung).</bibl><bibl>G. Erd&#233;lyi - F. F&#252;lep, in: L. Bark&#243;czi u. a., Intercisa I. (Dunapentele - Szt&#225;linv&#225;ros). Geschichte der Stadt in der R&#246;merzeit (Budapest 1954) 285, Nr. 44; Taf. 30, 2.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">c</c>
+		<c xml:id="L1C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C3">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C7">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C8">i</c>
+				<c xml:id="L1C9">t</c>
+				<c xml:id="L1C10">u</c>
+				<c xml:id="L1C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C13">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C14">s</c>
+				<c xml:id="L1C15">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C16"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">O</c>
+			<c xml:id="L2C2">p</c>
+		</supplied>
+		<c xml:id="L2C3">t</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">t</c>
+		<c xml:id="L2C6">u</c>
+		<c xml:id="L2C7">s</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">h</c>
+		<c xml:id="L2C10">e</c>
+		<c xml:id="L2C11">r</c>
+		<c xml:id="L2C12">e</c>
+		<c xml:id="L2C13">s</c>
+		<c xml:id="L2C14"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">f</c>
+				<c xml:id="L3C2">i</c>
+				<c xml:id="L3C3">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">i</c>
+				<c xml:id="L3C5">u</c>
+				<c xml:id="L3C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">e</c>
+		<c xml:id="L3C9">t</c>
+		<c xml:id="L3C10"> </c>
+		<c xml:id="L3C11">G</c>
+		<c xml:id="L3C12">e</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L3C13">r</c>
+		</supplied>
+		<c xml:id="L3C14">m</c>
+		<c xml:id="L3C15">a</c>
+		<c xml:id="L3C16">n</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">i</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3"> </c>
+		<c xml:id="L4C4">c</c>
+		<c xml:id="L4C5">o</c>
+		<c xml:id="L4C6">n</c>
+		<c xml:id="L4C7">i</c>
+		<c xml:id="L4C8">u</c>
+		<c xml:id="L4C9">x</c>
+		<c xml:id="L4C10"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">i</c>
+				<c xml:id="L5C3">t</c>
+				<c xml:id="L5C4">u</c>
+				<c xml:id="L5C5">l</c>
+				<c xml:id="L5C6">u</c>
+				<c xml:id="L5C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C9">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C10">e</c>
+				<c xml:id="L5C11">m</c>
+				<c xml:id="L5C12">o</c>
+				<c xml:id="L5C13">r</c>
+				<c xml:id="L5C14">i</c>
+				<c xml:id="L5C15">a</c>
+				<c xml:id="L5C16">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C18">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C19">o</c>
+				<c xml:id="L5C20">s</c>
+				<c xml:id="L5C21">u</c>
+				<c xml:id="L5C22">e</c>
+				<c xml:id="L5C23">r</c>
+				<c xml:id="L5C24">u</c>
+				<c xml:id="L5C25">n</c>
+				<c xml:id="L5C26">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

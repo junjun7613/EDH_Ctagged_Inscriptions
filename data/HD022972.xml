@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022972</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022972</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>(5)</height><width>14</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0030" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1942"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot" /><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/402">letter</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022972_1" sex="M"><persName><name type="praenomen">D.</name><name type="nomen">Frontinus</name></persName></person><person xml:id="HD022972_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Obere H&#228;lfte der Aussentafel eines Briefes. Schreibtechnik: geritzt. Kursive Schrift. (B): Speidel: Z. 1: D(ecimo)</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1946, 0262.</bibl><bibl>CEL 032.</bibl><bibl>CEL 032 add. p. 65.</bibl><bibl>R. Laur-Belart, Pro Vindonissa 1942-43, 34, Nr. 1; Abb. 20 (Zeichnung). - AE 1946.</bibl><bibl>M.A. Speidel, Die r&#246;mischen Schreibtafeln von Vindonissa (Brugg 1996) 130-131, Nr. 17; Foto u. Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">b</c>
+				<c xml:id="L1C5">i</c>
+				<c xml:id="L1C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">F</c>
+		<c xml:id="L1C9">r</c>
+		<c xml:id="L1C10">o</c>
+		<c xml:id="L1C11">n</c>
+		<c xml:id="L1C12">t</c>
+		<c xml:id="L1C13">i</c>
+		<c xml:id="L1C14">n</c>
+		<c xml:id="L1C15">o</c>
+		<c xml:id="L1C16"> </c>
+		<expan>
+			<abbr>
+				<am>
+					<g type="centuria" />
+				</am>
+			</abbr>
+			<ex>
+				<c xml:id="L1C17">c</c>
+				<c xml:id="L1C18">e</c>
+				<c xml:id="L1C19">n</c>
+				<c xml:id="L1C20">t</c>
+				<c xml:id="L1C21">u</c>
+				<c xml:id="L1C22">r</c>
+				<c xml:id="L1C23">i</c>
+				<c xml:id="L1C24">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C25"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C4"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

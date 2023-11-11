@@ -1,0 +1,167 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Anazarbus, bei &amp;ndash; Dilekkaya, bei (Cilicia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059972</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059972</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tekeli, Garten des A. Ay&#231;i&#231;ek</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(216)</height><width>69</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Cilicia</placeName><placeName type="ancient" ref="#">Anazarbus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0217" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">217 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Dilekkaya, bei</placeName><placeName type="findspot">Tekeli</placeName><placeName type="region">Adana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059972_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">[---]</name><name type="cognomen">Sev[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-15" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Datierung: Macrinus bis Severus Alexander. &#220;berpr&#252;fung der Lesung anhand der Fotografie nicht m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IK 56, 0016; Taf. 15.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L1C1">I</c>
+				</supplied>
+				<c xml:id="L1C2">m</c>
+				<c xml:id="L1C3">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">e</c>
+				<c xml:id="L1C5">r</c>
+				<c xml:id="L1C6">a</c>
+				<c xml:id="L1C7">t</c>
+				<c xml:id="L1C8">o</c>
+				<c xml:id="L1C9">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C12">a</c>
+				<c xml:id="L1C13">e</c>
+				<c xml:id="L1C14">s</c>
+				<c xml:id="L1C15">a</c>
+				<c xml:id="L1C16">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C18">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C19">a</c>
+				<c xml:id="L1C20">r</c>
+				<c xml:id="L1C21">c</c>
+				<c xml:id="L1C22">u</c>
+				<c xml:id="L1C23">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C24"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">S</c>
+		<c xml:id="L2C3">e</c>
+		<c xml:id="L2C4">v</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C5">O</c>
+		<c xml:id="L2C6"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">I</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L3C2">I</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L3C3">F</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C4">B</c>
+		<c xml:id="L3C5">M</c>
+		<c xml:id="L3C6"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">C</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L4C2">P</c>
+		<c xml:id="L4C3">P</c>
+		<c xml:id="L4C4"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L5C1">E</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L5C2">T</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

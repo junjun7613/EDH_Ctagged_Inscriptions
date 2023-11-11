@@ -1,0 +1,177 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Vindobona &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064360</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064360</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(13)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona</placeName></origPlace><origDate><origDate notBefore-custom="0068" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">68 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">{Am Hof 4}</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064360_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1414"><name type="cognomen">Galba</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-06" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1080.</bibl><bibl>(o. Autor), in: F. Humer (Hrsg.), Legionsadler und Druidenstab. Vom Legionsadler zur Donaumetropole. Katalogband (St. P&#246;lten 2006) 140, Nr. 459; Abb. 202. - AE 2006.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 271-272, Nr. 428.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">A</c>
+		<c xml:id="L1C2">R</c>
+		<c xml:id="L1C3"> </c>
+		<c xml:id="L1C4">G</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C5"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">n</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5">u</c>
+		<c xml:id="L2C6">l</c>
+		<supplied reason="lost">
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C9"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1"> </c>
+		<c xml:id="L3C2">m</c>
+		<c xml:id="L3C3">u</c>
+		<c xml:id="L3C4">n</c>
+		<c xml:id="L3C5">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C6"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">n</c>
+		<c xml:id="L4C2">i</c>
+		<c xml:id="L4C3">b</c>
+		<c xml:id="L4C4">u</c>
+		<c xml:id="L4C5">s</c>
+		<c xml:id="L4C6"> </c>
+		<c xml:id="L4C7">D</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C8"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1">s</c>
+		<c xml:id="L5C2">i</c>
+		<c xml:id="L5C3">t</c>
+		<c xml:id="L5C4">o</c>
+		<c xml:id="L5C5"> </c>
+		<c xml:id="L5C6">u</c>
+		<c xml:id="L5C7">t</c>
+		<c xml:id="L5C8">i</c>
+		<c xml:id="L5C9"> </c>
+		<c xml:id="L5C10">E</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C11"> </c>
+	</line>
+	<line n="6">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C1">A</c>
+		<c xml:id="L6C2"> </c>
+		<c xml:id="L6C3">e</c>
+		<c xml:id="L6C4">d</c>
+		<c xml:id="L6C5">i</c>
+		<c xml:id="L6C6">c</c>
+		<c xml:id="L6C7">t</c>
+		<c xml:id="L6C8">a</c>
+		<c xml:id="L6C9"> </c>
+		<c xml:id="L6C10">D</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C11"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L7C1">I</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L7C2">m</c>
+				<c xml:id="L7C3">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C4">e</c>
+				<c xml:id="L7C5">r</c>
+				<c xml:id="L7C6">a</c>
+				<c xml:id="L7C7">t</c>
+				<c xml:id="L7C8">o</c>
+				<c xml:id="L7C9">r</c>
+				<c xml:id="L7C10">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C11"> </c>
+		<c xml:id="L7C12">G</c>
+		<c xml:id="L7C13">a</c>
+		<c xml:id="L7C14">l</c>
+		<c xml:id="L7C15">b</c>
+		<c xml:id="L7C16">a</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

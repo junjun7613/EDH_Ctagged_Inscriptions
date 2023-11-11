@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gelduba &amp;ndash; Krefeld (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080264</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080264</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, R&#246;m.-Germ. Zentralmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>22</height><width>6</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109002">Gelduba</placeName></origPlace><origDate><origDate notBefore-custom="0330" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">330 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2921502">Krefeld</placeName><placeName type="findspot">{Gellep-Stratum}, fr&#228;nkisches F&#252;rstengrab</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080264_1" sex="M"><persName><name type="cognomen">Arpvar?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-02" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrift auf dem Bauch einer Bronzekanne eingeritzt (Graffito).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>U. Schillinger-H&#228;fele, BRGK 58, 1977, 551, Nr. 203.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">A</c>
+				<c xml:id="L1C3">r</c>
+				<c xml:id="L1C4">p</c>
+				<c xml:id="L1C5">v</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C6">a</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C7">r</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">e</c>
+		<c xml:id="L1C10">r</c>
+		<c xml:id="L1C11">a</c>
+		<c xml:id="L1C12">t</c>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<ex>
+				<c xml:id="L1C14">f</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C15">e</c>
+				<c xml:id="L1C16">l</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C17">&amp;</c>
+		<c xml:id="L1C18">l</c>
+		<c xml:id="L1C19">t</c>
+		<c xml:id="L1C20">;</c>
+		<c xml:id="L1C21">i</c>
+		<c xml:id="L1C22">=</c>
+		<c xml:id="L1C23">E</c>
+		<c xml:id="L1C24">&amp;</c>
+		<c xml:id="L1C25">g</c>
+		<c xml:id="L1C26">t</c>
+		<c xml:id="L1C27">;</c>
+		<c xml:id="L1C28">x</c>
+		<c xml:id="L1C29"> </c>
+		<c xml:id="L1C30">u</c>
+		<c xml:id="L1C31">n</c>
+		<c xml:id="L1C32">d</c>
+		<c xml:id="L1C33">i</c>
+		<c xml:id="L1C34">q</c>
+		<c xml:id="L1C35">u</c>
+		<c xml:id="L1C36">e</c>
+		<c xml:id="L1C37"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C38">p</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C39">a</c>
+				<c xml:id="L1C40">c</c>
+				<c xml:id="L1C41">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C42"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C43">r</c>
+				<c xml:id="L1C44">e</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C45">c</c>
+				<c xml:id="L1C46">e</c>
+				<c xml:id="L1C47">s</c>
+				<c xml:id="L1C48">s</c>
+				<c xml:id="L1C49">i</c>
+				<c xml:id="L1C50">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C51"> </c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

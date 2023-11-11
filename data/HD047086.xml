@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047086</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047086</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/141">instrumentum militare</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><width>(3)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Legionslager, westliche Praetentura, Via principalis, n&#246;rdlich}, Schacht 3</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047086_1" sex="M"><persName><name type="nomen">Ia[---]?</name><name type="cognomen">Ia[---]?</name></persName></person><person xml:id="HD047086_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-13" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment einer kreisrunden Besitzermarke; rekonstruierter Durchmesser: 4,5 cm. Schreibtechnik: gepunzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1523.</bibl><bibl>C. Meyer-Freuler, Vindonissa Feuerwehrmagazin. Die Untersuchunen im mittleren Bereich des Legionslagers (Brugg 1998) 103-104. 298, Nr. 1114; Abb. 78; Tafel 65, 1114 (Zeichnung). - AE 2001.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<am>
+					<g type="centuria" />
+				</am>
+			</abbr>
+			<ex>
+				<c xml:id="L1C2">c</c>
+				<c xml:id="L1C3">e</c>
+				<c xml:id="L1C4">n</c>
+				<c xml:id="L1C5">t</c>
+				<c xml:id="L1C6">u</c>
+				<c xml:id="L1C7">r</c>
+				<c xml:id="L1C8">i</c>
+				<c xml:id="L1C9">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">I</c>
+				<c xml:id="L2C2">A</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">S</c>
+		<c xml:id="L2C5">e</c>
+		<c xml:id="L2C6">v</c>
+		<c xml:id="L2C7">e</c>
+		<c xml:id="L2C8">r</c>
+		<c xml:id="L2C9">i</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

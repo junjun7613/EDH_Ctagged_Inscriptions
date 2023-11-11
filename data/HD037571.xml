@@ -1,0 +1,224 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private legal inscription? from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037571</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037571</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate when-custom="0133" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">133 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">iglesia de Santa Lucia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>private legal inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037571_1"><persName><name type="praenomen">[-]</name><name type="nomen">Iunius+</name><name type="cognomen">Homullus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-07-15" who="Garcia">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrift verschollen und nur durch eine Zeichnung &#252;berliefert; Z. 2 u. 3: Buchstabe Q als O &#252;berliefert. Erg&#228;nzungsvorschlag nach Alf&#246;ldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palaz&#243;n - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentaci&#243;n epigr&#225;fica (Murcia 1997) 185-186, Nr. 46; l&#225;m. 52 (Zeichnung).</bibl><bibl>CIL 02, 03415.</bibl><bibl>G. Alf&#246;ldy, Fasti Hispanienses. Senatorische Reichsbeamte und Offiziere in den spanischen Provinzen des r&#246;mischen Reiches von Augustus bis Diokletian (Wiesbaden 1969) 26-28, Nr. 82.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C1">c</c>
+			<c xml:id="L1C2">l</c>
+		</supplied>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">u</c>
+		<c xml:id="L1C5">s</c>
+		<c xml:id="L1C6">u</c>
+		<c xml:id="L1C7">l</c>
+		<c xml:id="L1C8">a</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">a</c>
+		<c xml:id="L2C2"> </c>
+		<abbr>
+			<c xml:id="L2C3">q</c>
+		</abbr>
+		<c xml:id="L2C4"> </c>
+		<abbr>
+			<c xml:id="L2C5">s</c>
+		</abbr>
+		<c xml:id="L2C6"> </c>
+		<abbr>
+			<c xml:id="L2C7">s</c>
+		</abbr>
+		<c xml:id="L2C8"> </c>
+		<abbr>
+			<c xml:id="L2C9">p</c>
+		</abbr>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">u</c>
+		<c xml:id="L3C2">s</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">q</c>
+		<c xml:id="L3C5">u</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7">b</c>
+		<c xml:id="L3C8">u</c>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">V</c>
+		<c xml:id="L4C2"> </c>
+		<c xml:id="L4C3">r</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">d</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">t</c>
+		<c xml:id="L4C8">u</c>
+		<c xml:id="L4C9">m</c>
+		<c xml:id="L4C10"> </c>
+		<c xml:id="L4C11">a</c>
+		<c xml:id="L4C12"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L5C1"> </c>
+			<c xml:id="L5C2">I</c>
+			<c xml:id="L5C3">u</c>
+			<c xml:id="L5C4">n</c>
+			<c xml:id="L5C5">i</c>
+			<c xml:id="L5C6"> </c>
+			<c xml:id="L5C7">H</c>
+			<c xml:id="L5C8">o</c>
+		</supplied>
+		<c xml:id="L5C9">m</c>
+		<c xml:id="L5C10">u</c>
+		<c xml:id="L5C11">l</c>
+		<c xml:id="L5C12">l</c>
+		<c xml:id="L5C13">i</c>
+		<c xml:id="L5C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C15">l</c>
+				<c xml:id="L5C16">e</c>
+				<c xml:id="L5C17">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C18">a</c>
+				<c xml:id="L5C19">t</c>
+				<c xml:id="L5C20">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C21"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C22">A</c>
+				<c xml:id="L5C23">u</c>
+				<c xml:id="L5C24">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C25">u</c>
+				<c xml:id="L5C26">s</c>
+				<c xml:id="L5C27">t</c>
+				<c xml:id="L5C28">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C29"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L6C1">p</c>
+					<c xml:id="L6C2">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C3">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C4"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C5">p</c>
+					<c xml:id="L6C6">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C7">a</c>
+					<c xml:id="L6C8">e</c>
+					<c xml:id="L6C9">t</c>
+					<c xml:id="L6C10">o</c>
+					<c xml:id="L6C11">r</c>
+					<c xml:id="L6C12">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C13"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L6C14"> </c>
+		<c xml:id="L6C15">s</c>
+		<c xml:id="L6C16">e</c>
+		<c xml:id="L6C17"> </c>
+		<c xml:id="L6C18">p</c>
+		<c xml:id="L6C19">r</c>
+		<c xml:id="L6C20">a</c>
+		<c xml:id="L6C21">e</c>
+		<c xml:id="L6C22">s</c>
+		<c xml:id="L6C23">t</c>
+		<c xml:id="L6C24">a</c>
+		<c xml:id="L6C25">r</c>
+		<c xml:id="L6C26">e</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

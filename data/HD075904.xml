@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Auderiensium) &amp;ndash; M&#246;mlingen (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075904</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075904</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aschaffenburg, Stiftsmus. (Leihgabe aus M&#246;mlingen, katholisches Pfarramt)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>138</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Auderiensium)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2869934">M&#246;mlingen</placeName><placeName type="findspot">{S. Martin, Kirche}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Relief mit stehendem Silvanus mit Locken und Vollbart in geg&#252;rteter &#228;rmelloser tunica. In der Linken gekr&#252;mmtes Wurfholz. Lesevariante: [Deo Sanct]o [S]il(vano).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Mattern, R&#246;mische Steindenkm&#228;ler aus Hessen s&#252;dlich des Mains sowie vom bayerischen Teil des Mainlimes, CSIR Deutschland 2, 13 (Mainz 2005) 194, Nr. 381; Taf. 129, 381.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<c xml:id="L1C2">S</c>
+			<c xml:id="L1C3">i</c>
+			<c xml:id="L1C4">l</c>
+			<c xml:id="L1C5">v</c>
+			<c xml:id="L1C6">a</c>
+			<c xml:id="L1C7">n</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C8">o</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<supplied reason="lost">
+			<c xml:id="L1C10">s</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">i</c>
+				<c xml:id="L1C12">l</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C13">v</c>
+				<c xml:id="L1C14">e</c>
+				<c xml:id="L1C15">s</c>
+				<c xml:id="L1C16">t</c>
+				<c xml:id="L1C17">r</c>
+				<c xml:id="L1C18">i</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Duna&#250;jv&#225;ros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020482</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020482</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Duna&#250;jv&#225;ros, Intercisa M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">sarcophagus?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(43)</height><width>(185)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Duna&#250;jv&#225;ros</placeName><placeName type="findspot">{Baracsi &#250;t 18}</placeName><placeName type="region">Fej&#233;r megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020482_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">Castor+</name></persName></person><person xml:id="HD020482_2" sex="M"><persName><name type="praenomen">P.</name><name type="cognomen">Falades</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 4: AE 1977: Phaladi. Vier aneinander passende Fragmente erhalten, m&#246;glicherweise von der Frontseite eines Sarkophagkastens.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0639. (B)</bibl><bibl>AE 1975, 0702.</bibl><bibl>B. L&#337;rincz, Alba Regia 15, 1976, 199, Nr. 475; Foto u. Zeichnung. - AE 1977.</bibl><bibl>B. L&#337;rincz, Vezet&#246; a Duna&#250;jv&#225;rosi M&#250;zeum romai K&#246;t&#225;r&#225;hoz (Duna&#250;jv&#225;ros 1975) Nr. 27. - AE 1975.</bibl><bibl>RIU 1212; Abb. 1212 (Foto u. Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">C</c>
+		<c xml:id="L0C4">V</c>
+		<c xml:id="L0C5">I</c>
+		<c xml:id="L0C6"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">I</c>
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">A</c>
+		<c xml:id="L1C4">N</c>
+		<c xml:id="L1C5">I</c>
+		<c xml:id="L1C6">C</c>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L2C1">C</c>
+		</supplied>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6">r</c>
+		<c xml:id="L2C7"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">P</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">u</c>
+				<c xml:id="L3C3">b</c>
+				<c xml:id="L3C4">l</c>
+				<c xml:id="L3C5">i</c>
+				<c xml:id="L3C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">F</c>
+		<c xml:id="L3C9">a</c>
+		<c xml:id="L3C10">l</c>
+		<c xml:id="L3C11">a</c>
+		<c xml:id="L3C12">d</c>
+		<c xml:id="L3C13">i</c>
+		<c xml:id="L3C14"> </c>
+		<c xml:id="L3C15">a</c>
+		<c xml:id="L3C16">m</c>
+		<c xml:id="L3C17">i</c>
+		<c xml:id="L3C18">c</c>
+		<c xml:id="L3C19">o</c>
+		<c xml:id="L3C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C21">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C22">o</c>
+				<c xml:id="L3C23">s</c>
+				<c xml:id="L3C24">u</c>
+				<c xml:id="L3C25">i</c>
+				<c xml:id="L3C26">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

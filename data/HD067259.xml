@@ -1,0 +1,247 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum &amp;ndash; Salzburg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067259</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067259</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766824">Salzburg</placeName><placeName type="findspot">{S. Peter, Stiftskirche}, sekund&#228;r verwendet</placeName><placeName type="region">Salzburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067259_1" sex="M"><persName><name type="cognomen">Statutus</name></persName></person><person xml:id="HD067259_2" sex="M"><persName><name type="nomen">Albius*</name><name type="cognomen">Leonas</name></persName></person><person xml:id="HD067259_3" sex="W"><persName><name type="cognomen">Statuta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-29" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 4 hat CIL Albi(us).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05554. (B)</bibl><bibl>CIL 03, 05554 add. p. 1048.</bibl><bibl>CIL 03, 05554 add. p. 1050.</bibl><bibl>ILLPRON 1121.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">S</c>
+		<c xml:id="L1C3">t</c>
+		<c xml:id="L1C4">a</c>
+		<c xml:id="L1C5">t</c>
+		<c xml:id="L1C6">u</c>
+		<c xml:id="L1C7">t</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">f</c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C7">d</c>
+				<c xml:id="L2C8">u</c>
+				<c xml:id="L2C9">l</c>
+				<c xml:id="L2C10">c</c>
+				<c xml:id="L2C11">i</c>
+				<c xml:id="L2C12">s</c>
+				<c xml:id="L2C13">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C14">i</c>
+				<c xml:id="L2C15">m</c>
+				<c xml:id="L2C16">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C17"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">b</c>
+				<c xml:id="L3C3">i</c>
+				<c xml:id="L3C4">t</c>
+				<c xml:id="L3C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C7">a</c>
+				<c xml:id="L3C8">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C9">n</c>
+				<c xml:id="L3C10">o</c>
+				<c xml:id="L3C11">r</c>
+				<c xml:id="L3C12">u</c>
+				<c xml:id="L3C13">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<c xml:id="L3C15">X</c>
+		<c xml:id="L3C16">X</c>
+		<c xml:id="L3C17">X</c>
+		<c xml:id="L3C18">I</c>
+		<c xml:id="L3C19"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">A</c>
+				<c xml:id="L4C2">l</c>
+				<c xml:id="L4C3">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C4">i</c>
+				<c xml:id="L4C5">u</c>
+				<c xml:id="L4C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C7"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">L</c>
+		<c xml:id="L5C2">e</c>
+		<c xml:id="L5C3">o</c>
+		<c xml:id="L5C4">n</c>
+		<c xml:id="L5C5">a</c>
+		<c xml:id="L5C6">s</c>
+		<c xml:id="L5C7"> </c>
+		<c xml:id="L5C8">e</c>
+		<c xml:id="L5C9">t</c>
+		<c xml:id="L5C10"> </c>
+		<c xml:id="L5C11">S</c>
+		<c xml:id="L5C12">t</c>
+		<c xml:id="L5C13">a</c>
+		<c xml:id="L5C14">t</c>
+		<c xml:id="L5C15">u</c>
+		<c xml:id="L5C16">t</c>
+		<c xml:id="L5C17">a</c>
+		<c xml:id="L5C18"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">c</c>
+				<c xml:id="L6C2">o</c>
+				<c xml:id="L6C3">n</c>
+				<c xml:id="L6C4">i</c>
+				<c xml:id="L6C5">u</c>
+				<c xml:id="L6C6">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C7">e</c>
+				<c xml:id="L6C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C10">c</c>
+				<c xml:id="L6C11">a</c>
+				<c xml:id="L6C12">r</c>
+				<c xml:id="L6C13">i</c>
+				<c xml:id="L6C14">s</c>
+				<c xml:id="L6C15">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C16">i</c>
+				<c xml:id="L6C17">m</c>
+				<c xml:id="L6C18">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C19"> </c>
+	</line>
+	<line n="7">
+		<c xml:id="L7C1">e</c>
+		<c xml:id="L7C2">t</c>
+		<c xml:id="L7C3"> </c>
+		<c xml:id="L7C4">s</c>
+		<c xml:id="L7C5">i</c>
+		<c xml:id="L7C6">b</c>
+		<c xml:id="L7C7">i</c>
+		<c xml:id="L7C8"> </c>
+		<c xml:id="L7C9">p</c>
+		<c xml:id="L7C10">o</c>
+		<c xml:id="L7C11">s</c>
+		<c xml:id="L7C12">t</c>
+		<c xml:id="L7C13">e</c>
+		<c xml:id="L7C14">r</c>
+		<c xml:id="L7C15">i</c>
+		<c xml:id="L7C16">s</c>
+	</line>
+	<line break="no" n="8">
+		<expan>
+			<abbr>
+				<c xml:id="L8C1">q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C2">u</c>
+				<c xml:id="L8C3">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C4"> </c>
+		<c xml:id="L8C5">s</c>
+		<c xml:id="L8C6">u</c>
+		<c xml:id="L8C7">i</c>
+		<c xml:id="L8C8">s</c>
+		<c xml:id="L8C9"> </c>
+		<c xml:id="L8C10">f</c>
+		<c xml:id="L8C11">e</c>
+		<c xml:id="L8C12">c</c>
+		<c xml:id="L8C13">e</c>
+		<c xml:id="L8C14">r</c>
+		<c xml:id="L8C15">u</c>
+		<c xml:id="L8C16">n</c>
+		<c xml:id="L8C17">t</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

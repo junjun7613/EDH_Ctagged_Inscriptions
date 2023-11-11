@@ -1,0 +1,192 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Orolaunum &amp;ndash; Arlon (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD007794</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD007794</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Arlon, Mus. Luxembourgeois</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>125</height><width>91</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109232">Orolaunum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2802361">Belgium</placeName><placeName type="modern" ref="http://www.geonames.org/2803073">Arlon</placeName><placeName type="findspot">Rue du March&#233;-au-Beurre 5</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD007794_1"><persName><name type="nomen">Secundius</name><name type="cognomen">Attianus</name></persName></person><person xml:id="HD007794_2"><persName><name type="cognomen">Censorinia</name></persName></person><person xml:id="HD007794_3"><persName><name type="cognomen">Trausus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-04-04" who="Garcia">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023680" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5b54a2a5-2e24-43f8-bd66-7e9ab7b26941/file/id/784340/file_version/name/small" /><graphic xml:id="F023681" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c927f335-7e6a-4b62-a2ae-8f39b2a66749/file/id/784341/file_version/name/small" /><graphic xml:id="F023682" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e8655c4-9022-4ab7-89bb-a582cc8bfaab/file/id/784342/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Reliefdarstelllung von drei Figuren in einer Nische.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0497.</bibl><bibl>ILB (2. Aufl.) 102; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">S</c>
+		<c xml:id="L2C2">e</c>
+		<c xml:id="L2C3">c</c>
+		<c xml:id="L2C4">u</c>
+		<c xml:id="L2C5">n</c>
+		<c xml:id="L2C6">d</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">s</c>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">A</c>
+		<c xml:id="L2C12">t</c>
+		<c xml:id="L2C13">t</c>
+		<c xml:id="L2C14">i</c>
+		<c xml:id="L2C15">a</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">n</c>
+		<c xml:id="L3C2">u</c>
+		<c xml:id="L3C3">s</c>
+		<c xml:id="L3C4"> </c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">t</c>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">C</c>
+		<c xml:id="L3C9">e</c>
+		<c xml:id="L3C10">n</c>
+		<c xml:id="L3C11">s</c>
+		<c xml:id="L3C12">o</c>
+		<c xml:id="L3C13">r</c>
+		<c xml:id="L3C14">i</c>
+		<c xml:id="L3C15">n</c>
+		<c xml:id="L3C16">i</c>
+		<c xml:id="L3C17">a</c>
+		<c xml:id="L3C18"> </c>
+		<c xml:id="L3C19">M</c>
+		<c xml:id="L3C20">a</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">t</c>
+		<c xml:id="L4C2">r</c>
+		<c xml:id="L4C3">a</c>
+		<c xml:id="L4C4">u</c>
+		<c xml:id="L4C5">s</c>
+		<c xml:id="L4C6">u</c>
+		<c xml:id="L4C7">s</c>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">c</c>
+		<c xml:id="L4C10">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C11">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C12">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C13">u</c>
+				<c xml:id="L4C14">g</c>
+				<c xml:id="L4C15">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C16"> </c>
+		<c xml:id="L4C17">e</c>
+		<c xml:id="L4C18">t</c>
+		<c xml:id="L4C19">)</c>
+		<c xml:id="L4C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C21">f</c>
+				<c xml:id="L4C22">i</c>
+				<c xml:id="L4C23">l</c>
+				<c xml:id="L4C24">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C25">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C27">d</c>
+				<c xml:id="L4C28">e</c>
+				<c xml:id="L4C29">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C30">u</c>
+				<c xml:id="L4C31">n</c>
+				<c xml:id="L4C32">c</c>
+				<c xml:id="L4C33">t</c>
+				<c xml:id="L4C34">i</c>
+				<c xml:id="L4C35">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

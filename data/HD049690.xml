@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Argentomagus &amp;ndash; S.-Marcel (Aquitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049690</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049690</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saint-Marcel, Mus. d'Argentomagus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><dimensions unit="cm"><height>21</height><width>81</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aquitania</placeName><placeName type="ancient" ref="#">Argentomagus</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1993"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">S.-Marcel</placeName><placeName type="findspot">Kirche, bei, sekund&#228;r verwendet</placeName><placeName type="region">Centre-Val de Loire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-01" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020213" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/50c09726-ef0d-48d1-a64c-b5fb2c98be24/file/id/780286/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1128.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">A</c>
+		<c xml:id="L1C4">e</c>
+		<c xml:id="L1C5">l</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">o</c>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">C</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">D</c>
+		<c xml:id="L2C3">i</c>
+		<c xml:id="L2C4">p</c>
+		<c xml:id="L2C5">h</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">l</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">s</c>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">F</c>
+		<c xml:id="L2C12">r</c>
+		<c xml:id="L2C13">o</c>
+		<supplied reason="lost">
+			<c xml:id="L2C14">n</c>
+			<c xml:id="L2C15">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,313 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lindum &amp;ndash; Lincoln (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069553</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069553</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Brit. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(91)</height><width>(43)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79395">Lindum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1859"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2644487">Lincoln</placeName><placeName type="findspot">{64 Monson Street}</placeName><placeName type="region">Lincolnshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069553_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Maxsumus+</name></persName></person><person xml:id="HD069553_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Maxsumus+</name></persName></person><person xml:id="HD069553_3" sex="M"><persName><name type="nomen">[---]sius*</name><name type="cognomen">[---]lenius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-23" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00187.</bibl><bibl>RIB 0249; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">a</c>
+					<c xml:id="L1C4">r</c>
+					<c xml:id="L1C5">c</c>
+					<c xml:id="L1C6">u</c>
+					<c xml:id="L1C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C8"> </c>
+			<c xml:id="L1C9">A</c>
+			<c xml:id="L1C10">u</c>
+		</supplied>
+		<c xml:id="L1C11">r</c>
+		<c xml:id="L1C12">e</c>
+		<c xml:id="L1C13">l</c>
+		<c xml:id="L1C14">i</c>
+		<c xml:id="L1C15">u</c>
+		<c xml:id="L1C16">s</c>
+		<c xml:id="L1C17"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">u</c>
+		<c xml:id="L2C2">s</c>
+		<c xml:id="L2C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C4">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C5">a</c>
+				<c xml:id="L2C6">r</c>
+				<c xml:id="L2C7">c</c>
+				<c xml:id="L2C8">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">A</c>
+		<c xml:id="L2C11">u</c>
+		<c xml:id="L2C12">r</c>
+		<c xml:id="L2C13">e</c>
+	</line>
+	<line break="no" n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">l</c>
+			<c xml:id="L3C2">i</c>
+			<c xml:id="L3C3"> </c>
+			<c xml:id="L3C4">M</c>
+			<c xml:id="L3C5">a</c>
+			<c xml:id="L3C6">x</c>
+		</supplied>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8">u</c>
+		<c xml:id="L3C9">m</c>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C12">l</c>
+				<c xml:id="L3C13">i</c>
+				<c xml:id="L3C14">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C15">e</c>
+				<c xml:id="L3C16">r</c>
+				<c xml:id="L3C17">t</c>
+				<c xml:id="L3C18">u</c>
+				<c xml:id="L3C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C20"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">c</c>
+		<c xml:id="L4C2">i</c>
+		<c xml:id="L4C3">n</c>
+		<c xml:id="L4C4">o</c>
+		<c xml:id="L4C5"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L5C1">a</c>
+					<c xml:id="L5C2">n</c>
+					<c xml:id="L5C3">n</c>
+					<c xml:id="L5C4">o</c>
+					<c xml:id="L5C5">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C6">u</c>
+					<c xml:id="L5C7">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C8"> </c>
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L5C9">X</c>
+		<c xml:id="L5C10">X</c>
+		<c xml:id="L5C11">X</c>
+		<c xml:id="L5C12">V</c>
+		<c xml:id="L5C13"> </c>
+	</line>
+	<line n="6">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">s</c>
+				<c xml:id="L6C2">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C3">u</c>
+				<c xml:id="L6C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C5"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C1">l</c>
+		<c xml:id="L7C2">e</c>
+		<c xml:id="L7C3">n</c>
+		<c xml:id="L7C4">i</c>
+		<c xml:id="L7C5">u</c>
+		<c xml:id="L7C6">s</c>
+		<c xml:id="L7C7"> </c>
+		<c xml:id="L7C8">v</c>
+		<c xml:id="L7C9">e</c>
+	</line>
+	<line break="no" n="8">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L8C1">t</c>
+					<c xml:id="L8C2">e</c>
+					<c xml:id="L8C3">r</c>
+					<c xml:id="L8C4">a</c>
+					<c xml:id="L8C5">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C6">u</c>
+					<c xml:id="L8C7">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L8C8"> </c>
+		<c xml:id="L8C9">e</c>
+		<c xml:id="L8C10">x</c>
+		<c xml:id="L8C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C12">l</c>
+				<c xml:id="L8C13">e</c>
+				<c xml:id="L8C14">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C15">i</c>
+				<c xml:id="L8C16">o</c>
+				<c xml:id="L8C17">n</c>
+				<c xml:id="L8C18">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C19"> </c>
+		<c xml:id="L8C20">X</c>
+		<c xml:id="L8C21">I</c>
+		<c xml:id="L8C22">I</c>
+		<c xml:id="L8C23">I</c>
+		<c xml:id="L8C24">I</c>
+		<c xml:id="L8C25"> </c>
+	</line>
+	<line n="9">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L9C1">G</c>
+					<c xml:id="L9C2">e</c>
+					<c xml:id="L9C3">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C4">i</c>
+					<c xml:id="L9C5">n</c>
+					<c xml:id="L9C6">a</c>
+					<c xml:id="L9C7">e</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L9C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C9">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C10">e</c>
+				<c xml:id="L9C11">r</c>
+				<c xml:id="L9C12">e</c>
+				<c xml:id="L9C13">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C15">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C16">x</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C18">t</c>
+				<c xml:id="L9C19">e</c>
+				<c xml:id="L9C20">s</c>
+				<c xml:id="L9C21">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C22">a</c>
+				<c xml:id="L9C23">m</c>
+				<c xml:id="L9C24">e</c>
+				<c xml:id="L9C25">n</c>
+				<c xml:id="L9C26">t</c>
+				<c xml:id="L9C27">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C28"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C29">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C30">o</c>
+				<c xml:id="L9C31">s</c>
+				<c xml:id="L9C32">u</c>
+				<c xml:id="L9C33">i</c>
+				<c xml:id="L9C34">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

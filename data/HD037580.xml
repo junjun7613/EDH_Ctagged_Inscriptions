@@ -1,0 +1,232 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037580</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037580</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Madrid, Mus. Arq. Nac.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(55)</height><width>(56)</width><depth>(23)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="-0020" notAfter-custom="0010" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">20 BC - 10 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">Castillo de la Concepci&#243;n, sekund&#228;r verwendet</placeName><placeName type="region">Murcia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037580_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037580_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037580_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-07" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Abascal Palaz&#243;n - Ramallo Asensio: Rekonstruktionsvorschlag: Z. 1: L. Bennio praef. Imp. Caesaris; Z. 2: Q. Vario Hibero IIviro design.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palaz&#243;n - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentaci&#243;n epigr&#225;fica (Murcia 1997) 197-200, Nr. 52; l&#225;m. 58.</bibl><bibl>CIL 02, 05931.</bibl><bibl>EphEp 3, p. 45 n. 34.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">p</c>
+					<c xml:id="L1C3">r</c>
+					<c xml:id="L1C4">a</c>
+					<c xml:id="L1C5">e</c>
+					<c xml:id="L1C6">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">e</c>
+					<c xml:id="L1C8">c</c>
+					<c xml:id="L1C9">t</c>
+					<c xml:id="L1C10">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C11"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C12">I</c>
+					<c xml:id="L1C13">m</c>
+					<c xml:id="L1C14">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C15">e</c>
+					<c xml:id="L1C16">r</c>
+					<c xml:id="L1C17">a</c>
+					<c xml:id="L1C18">t</c>
+					<c xml:id="L1C19">o</c>
+					<c xml:id="L1C20">r</c>
+					<c xml:id="L1C21">i</c>
+					<c xml:id="L1C22">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C23"> </c>
+		<c xml:id="L1C24">C</c>
+		<c xml:id="L1C25">a</c>
+		<c xml:id="L1C26">e</c>
+		<c xml:id="L1C27">s</c>
+		<c xml:id="L1C28">a</c>
+		<c xml:id="L1C29">r</c>
+		<c xml:id="L1C30">i</c>
+		<c xml:id="L1C31">s</c>
+		<c xml:id="L1C32"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L2C1">I</c>
+			<c xml:id="L2C2">I</c>
+			<c xml:id="L2C3">v</c>
+			<c xml:id="L2C4">i</c>
+			<c xml:id="L2C5">r</c>
+		</supplied>
+		<c xml:id="L2C6">o</c>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">d</c>
+				<c xml:id="L2C9">e</c>
+				<c xml:id="L2C10">s</c>
+				<c xml:id="L2C11">i</c>
+				<c xml:id="L2C12">g</c>
+				<c xml:id="L2C13">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C14">a</c>
+				<c xml:id="L2C15">t</c>
+				<c xml:id="L2C16">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C17"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1"> </c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">c</c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8">u</c>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L4C1">e</c>
+		</supplied>
+		<c xml:id="L4C2">t</c>
+		<c xml:id="L4C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C4">p</c>
+				<c xml:id="L4C5">a</c>
+				<c xml:id="L4C6">v</c>
+				<c xml:id="L4C7">i</c>
+				<c xml:id="L4C8">m</c>
+				<c xml:id="L4C9">e</c>
+				<c xml:id="L4C10">n</c>
+				<c xml:id="L4C11">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C12">u</c>
+				<c xml:id="L4C13">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">d</c>
+			<c xml:id="L5C2">e</c>
+			<c xml:id="L5C3"> </c>
+			<c xml:id="L5C4">s</c>
+			<c xml:id="L5C5">u</c>
+			<c xml:id="L5C6">a</c>
+			<c xml:id="L5C7"> </c>
+			<expan>
+				<abbr>pecun</abbr>
+				<ex>ia</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L5C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C9">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C10">a</c>
+				<c xml:id="L5C11">c</c>
+				<c xml:id="L5C12">i</c>
+				<c xml:id="L5C13">e</c>
+				<c xml:id="L5C14">n</c>
+				<c xml:id="L5C15">d</c>
+				<c xml:id="L5C16">u</c>
+				<c xml:id="L5C17">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C19">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C20">u</c>
+				<c xml:id="L5C21">r</c>
+				<c xml:id="L5C22">a</c>
+				<c xml:id="L5C23">v</c>
+				<c xml:id="L5C24">i</c>
+				<c xml:id="L5C25">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

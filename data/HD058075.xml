@@ -1,0 +1,139 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Augusta Vindelicorum &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058075</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058075</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Fronhofmauer</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(38)</height><width>(98)</width><depth>(18)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">14.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1602"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="findspot">{S. Ulrich und Afra, Kirche}, bei</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058075_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-05" who="Osnabr&#252;gge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment mit dem unteren Rand des Monuments. Zun&#228;chst verschollen, jedoch 1944 in der Peutingerstr. 5 vermauert wieder aufgefunden. Zu Beginn noch der untere Ansatz einer Haste mit Serife. Nach Nuber k&#246;nnten die folgenden Inschriften mit der Vorliegenden zu einer Gesamtinschrift zu verbinden sein: http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058505; http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058646; http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058658.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 140.</bibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 226, Nr. 36.</bibl><bibl>CIL 03, 05829.</bibl><bibl>L. Ohlenroth - F. Wagner, BVBl 18/19, 1951/52, 280, Abb. 31 (Zeichnung).</bibl><bibl>H.U. Nuber, in: J. Werner (Hrsg.), Die Ausgrabungen in St. Ulrich und Afra in Augsburg 1961-1968 (M&#252;nchen 1977) 241.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<c xml:id="L1C1">o</c>
+			<c xml:id="L1C2">m</c>
+			<c xml:id="L1C3">n</c>
+			<c xml:id="L1C4">i</c>
+			<c xml:id="L1C5">b</c>
+			<c xml:id="L1C6">u</c>
+			<c xml:id="L1C7">s</c>
+			<c xml:id="L1C8"> </c>
+			<c xml:id="L1C9">h</c>
+			<c xml:id="L1C10">o</c>
+			<c xml:id="L1C11">n</c>
+			<c xml:id="L1C12">o</c>
+			<c xml:id="L1C13">r</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">i</c>
+				<c xml:id="L1C15">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C16">u</c>
+				<c xml:id="L1C17">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C18"> </c>
+		<c xml:id="L1C19">i</c>
+		<c xml:id="L1C20">n</c>
+		<c xml:id="L1C21"> </c>
+		<c xml:id="L1C22">r</c>
+		<c xml:id="L1C23">e</c>
+		<c xml:id="L1C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C25">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C26">u</c>
+				<c xml:id="L1C27">c</c>
+				<c xml:id="L1C28">l</c>
+				<c xml:id="L1C29">i</c>
+				<c xml:id="L1C30">c</c>
+				<c xml:id="L1C31">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C32"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C33">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C34">u</c>
+				<c xml:id="L1C35">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C36"> </c>
+		<supplied reason="lost">
+			<c xml:id="L1C37">f</c>
+			<c xml:id="L1C38">u</c>
+			<c xml:id="L1C39">n</c>
+			<c xml:id="L1C40">c</c>
+			<c xml:id="L1C41">t</c>
+			<c xml:id="L1C42">o</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

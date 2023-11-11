@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Aphaka, bei &amp;ndash; Afqa, bei (Syria)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052265</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052265</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Syria</placeName><placeName type="ancient" ref="#">Aphaka, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/163843">Syrian Arab Republic</placeName><placeName type="modern">Afqa, bei</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-23" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: &amp;quot;&amp;quot;Buchstabe&amp;quot;&amp;quot; N m&#246;glicherweise ist nur eine Besch&#228;digung auf dem Stein. Z. 3: statt T auch I m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1576.</bibl><bibl>J.-B. Yon, BAAL 8, 2004, 203-204; fig. 58. - AE 2004.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">I</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">t</c>
+		<c xml:id="L1C7">h</c>
+		<c xml:id="L1C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C9">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C10">u</c>
+				<c xml:id="L1C11">m</c>
+				<c xml:id="L1C12">e</c>
+				<c xml:id="L1C13">r</c>
+				<c xml:id="L1C14">u</c>
+				<c xml:id="L1C15">s</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C16"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C17"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">m</c>
+				<c xml:id="L2C2">o</c>
+				<c xml:id="L2C3">n</c>
+				<c xml:id="L2C4">t</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L2C5">e</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">c</c>
+				<c xml:id="L3C2">o</c>
+				<c xml:id="L3C3">n</c>
+				<c xml:id="L3C4">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C5">i</c>
+				<c xml:id="L3C6">n</c>
+				<c xml:id="L3C7">g</c>
+				<c xml:id="L3C8">u</c>
+				<c xml:id="L3C9">n</c>
+				<c xml:id="L3C10">t</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

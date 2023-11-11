@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Volcei, bei &amp;ndash; Caggiano (Bruttium et Lucania (Regio III))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003427</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003427</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bruttium et Lucania (Regio III)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442855">Volcei, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Caggiano</placeName><placeName type="findspot">Contrada S. Stasio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003427_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">0?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1997-08-17" who="Niquet">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Y: Il contesto fa attribuire l&amp;apos;area sepolcrale all&amp;apos;et&#224; augustea (Bracco). (A): falsches Photo beigegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>V. Bracco, SupplIt 3 (Roma 1987) 78-79, Nr. 7. (A)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C3">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">u</c>
+				<c xml:id="L1C5">i</c>
+				<c xml:id="L1C6">n</c>
+				<c xml:id="L1C7">t</c>
+				<c xml:id="L1C8">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C10">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C11">i</c>
+				<c xml:id="L1C12">l</c>
+				<c xml:id="L1C13">i</c>
+				<c xml:id="L1C14">-</c>
+				<c xml:id="L1C15">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C16"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L3C1">I</c>
+			<c xml:id="L3C2">I</c>
+			<c xml:id="L3C3">I</c>
+		</supplied>
+		<c xml:id="L3C4">I</c>
+		<c xml:id="L3C5">v</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7">r</c>
+		<c xml:id="L3C8">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

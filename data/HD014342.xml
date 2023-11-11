@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Grannum (Civitas Lingonum)? &amp;ndash; Grand (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014342</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014342</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>(66)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109016">Grannum (Civitas Lingonum)?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3015368">Grand</placeName><placeName type="findspot">{Amphitheater}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-15" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030731" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b8d8a963-5649-44c3-9b35-e2d62784f2d2/file/id/791488/file_version/name/small" /><graphic xml:id="F030728" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4e81e083-1c12-4fca-acbc-418ea52302e8/file/id/791485/file_version/name/small" /><graphic xml:id="F030730" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/73c3db0a-eea4-449c-b379-da9df2e74f4b/file/id/791487/file_version/name/small" /><graphic xml:id="F030729" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/18211eee-88b1-46c3-a1be-bd4b0c15e190/file/id/791486/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0317.</bibl><bibl>AE 2006, 0855.</bibl><bibl>R. Billoret, Gallia 26, 1968, 397-398, Nr. 7; fig. 34. - AE 1968; AE 2006.</bibl><bibl>A. Daguet-Gagey, in: J.-M. Demarolle (Hrsg.), La mosa&#239;que de Grand (Metz 2006) 59-60; Nr. b. - AE 2006.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1"> </c>
+		<c xml:id="L1C2">I</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">A</c>
+				<c xml:id="L2C2">C</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C3"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">R</c>
+		<c xml:id="L3C2">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C3"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">O</c>
+				<c xml:id="L4C2">N</c>
+				<c xml:id="L4C3">I</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

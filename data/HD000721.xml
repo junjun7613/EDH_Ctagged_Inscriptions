@@ -1,0 +1,5255 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private legal inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000721</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000721</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, DAI</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(225)</height><width>(29)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-1.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0108" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">108 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1976"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Callisto, Katakombe; Via Appia (Vigna Amendola)</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>private legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000721_1" sex="W"><persName><name type="nomen">Dasumia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_10" sex="W"><persName><name type="nomen">Fabia</name><name type="cognomen">Balbina+</name></persName></person><person xml:id="HD000721_11" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD000721_12" sex="M"><persName><name type="nomen">Cornelius</name><name type="cognomen">Pusio</name></persName></person><person xml:id="HD000721_13" sex="M"><persName><name type="nomen">Atilius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_14" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Auspicatus+</name></persName></person><person xml:id="HD000721_15" sex="M"><persName><name type="nomen">Aemilius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_16" sex="M"><persName><name type="nomen">Minicius+</name><name type="cognomen">Iustus</name></persName></person><person xml:id="HD000721_17" sex="W"><persName><name type="cognomen">Fabulla+</name></persName></person><person xml:id="HD000721_18" sex="M"><persName><name type="cognomen">Asiaticus</name></persName></person><person xml:id="HD000721_19" sex="M"><persName><name type="nomen">Tettienus+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_20" sex="M"><persName><name type="nomen">Iunius+</name><name type="cognomen">Avitus</name></persName></person><person xml:id="HD000721_21" sex="M"><persName><name type="nomen">Pontius+</name><name type="cognomen">Laelianus</name></persName></person><person xml:id="HD000721_22" sex="M"><persName><name type="nomen">Petronius+</name><name type="cognomen">Crescens+</name></persName></person><person xml:id="HD000721_23" sex="M"><persName><name type="nomen">Ianuarius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_24" sex="M"><persName><name type="nomen">[---]us</name><name type="cognomen">Nepos</name></persName></person><person xml:id="HD000721_25" sex="M"><persName><name type="nomen">Tullius</name><name type="cognomen">Varro+</name></persName></person><person xml:id="HD000721_26"><persName><name type="nomen">Sat[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_27" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]nnianus</name></persName></person><person xml:id="HD000721_28" sex="M"><persName><name type="nomen">Appuleius</name><name type="cognomen">Nepos</name></persName></person><person xml:id="HD000721_29"><persName><name type="nomen">Re[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_3" sex="M"><persName><name type="cognomen">Servianus</name></persName></person><person xml:id="HD000721_30" sex="M"><persName><name type="nomen">[---]ustius</name><name type="cognomen">Acanthus</name></persName></person><person xml:id="HD000721_31" sex="M"><persName><name type="nomen">Fabius</name><name type="cognomen">Rusticus</name></persName></person><person xml:id="HD000721_32" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]cus</name></persName></person><person xml:id="HD000721_33" sex="M"><persName><name type="nomen">Agrius</name><name type="cognomen">Phoebus</name></persName></person><person xml:id="HD000721_34" sex="M"><persName><name type="nomen">Agrius</name><name type="cognomen">Servatus</name></persName></person><person xml:id="HD000721_35" sex="M"><persName><name type="nomen">Valerius+</name><name type="cognomen">Hermes</name></persName></person><person xml:id="HD000721_36" sex="M"><persName><name type="nomen">Otacilius</name><name type="cognomen">Or[---]</name></persName></person><person xml:id="HD000721_37" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Proculus+?</name></persName></person><person xml:id="HD000721_38" sex="M"><persName><name type="nomen">Atlius</name><name type="cognomen">M[---]</name></persName></person><person xml:id="HD000721_39" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD000721_4" sex="W"><persName><name type="nomen">Domitia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_40" sex="M"><persName><name type="nomen">Cornelius</name><name type="cognomen">Senex</name></persName></person><person xml:id="HD000721_41" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Threptus</name></persName></person><person xml:id="HD000721_42" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_43" sex="W"><persName><name type="nomen">Dasumia</name><name type="cognomen">Tyche</name></persName></person><person xml:id="HD000721_44" sex="M"><persName><name type="cognomen">Venugus</name></persName></person><person xml:id="HD000721_45" sex="M"><persName><name type="cognomen">Arrus</name></persName></person><person xml:id="HD000721_46"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_47" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD000721_48"><persName><name type="nomen">My[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_49" sex="M"><persName><name type="cognomen">Grammicus</name></persName></person><person xml:id="HD000721_5" sex="W"><persName><name type="nomen">Dasumia</name><name type="cognomen">Polla</name></persName></person><person xml:id="HD000721_50" sex="M"><persName><name type="cognomen">Diadumenus</name></persName></person><person xml:id="HD000721_51"><persName><name type="nomen">Iu[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_52"><persName><name type="nomen">Tu[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_53" sex="W"><persName><name type="nomen">Dasumia</name><name type="cognomen">Sy[---]</name></persName></person><person xml:id="HD000721_54" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]olonus</name></persName></person><person xml:id="HD000721_55"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_56" sex="M"><persName><name type="cognomen">Heliopaes</name></persName></person><person xml:id="HD000721_57"><persName><name type="cognomen">Ca[---]</name></persName></person><person xml:id="HD000721_58"><persName><name type="cognomen">Eurotas</name></persName></person><person xml:id="HD000721_59" sex="M"><persName><name type="cognomen">Eros</name></persName></person><person xml:id="HD000721_6" sex="M"><persName><name type="cognomen">Syneros</name></persName></person><person xml:id="HD000721_60"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD000721_61"><persName><name type="cognomen">Pho[---]</name></persName></person><person xml:id="HD000721_62" sex="M"><persName><name type="cognomen">Thallus+</name></persName></person><person xml:id="HD000721_63" sex="M"><persName><name type="cognomen">Thaumastus+</name></persName></person><person xml:id="HD000721_64" sex="M"><persName><name type="cognomen">Anatello</name></persName></person><person xml:id="HD000721_65" sex="M"><persName><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD000721_66" sex="M"><persName><name type="cognomen">Terpnus</name></persName></person><person xml:id="HD000721_67" sex="M"><persName><name type="cognomen">Achilleus</name></persName></person><person xml:id="HD000721_68" sex="M"><persName><name type="cognomen">Stephanus</name></persName></person><person xml:id="HD000721_69" sex="M"><persName><name type="cognomen">Faustus</name></persName></person><person xml:id="HD000721_7" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Paulina</name></persName></person><person xml:id="HD000721_70" sex="M"><persName><name type="cognomen">Epaphroditus+</name></persName></person><person xml:id="HD000721_71" sex="M"><persName><name type="cognomen">[---]tus</name></persName></person><person xml:id="HD000721_72" sex="M"><persName><name type="cognomen">Philocyrius</name></persName></person><person xml:id="HD000721_73" sex="M"><persName><name type="cognomen">Eutyches</name></persName></person><person xml:id="HD000721_74" sex="W"><persName><name type="cognomen">Septuma</name></persName></person><person xml:id="HD000721_75" sex="M"><persName><name type="cognomen">Secundinus+</name></persName></person><person xml:id="HD000721_76" sex="M"><persName><name type="cognomen">Menecrates</name></persName></person><person xml:id="HD000721_77" sex="M"><persName><name type="cognomen">Paederotes+</name></persName></person><person xml:id="HD000721_78" sex="M"><persName><name type="cognomen">Encolpius</name></persName></person><person xml:id="HD000721_79" sex="M"><persName><name type="cognomen">Hymnus</name></persName></person><person xml:id="HD000721_8" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD000721_80" sex="M"><persName><name type="cognomen">Ursus</name></persName></person><person xml:id="HD000721_81" sex="M"><persName><name type="cognomen">Servianus</name></persName></person><person xml:id="HD000721_82" sex="M"><persName><name type="nomen">[---]ntidius+</name><name type="cognomen">Campanus+</name></persName></person><person xml:id="HD000721_83" sex="M"><persName><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus+</name></persName></person><person xml:id="HD000721_84" sex="M"><persName><name type="nomen">Trebatius</name><name type="cognomen">Priscus+</name></persName></person><person xml:id="HD000721_85" sex="M"><persName><name type="cognomen">Traianus+</name></persName></person><person xml:id="HD000721_86" sex="M"><persName><name type="nomen">Sosius+?</name><name type="cognomen">Senex</name></persName></person><person xml:id="HD000721_87" sex="M"><persName><name type="nomen">Otacilius</name><name type="cognomen">Or[---]</name></persName></person><person xml:id="HD000721_9" sex="M"><persName><name type="nomen">Volusius</name><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-01-04" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>AE: unvollst&#228;ndige Textwiedergabe. Lesung nach M.G. Granino Cecere. Testament.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0094.</bibl><bibl>C. Castillo Garc&#237;a, in: Actas del I Congreso de Estudios Cl&#225;sicos 1981 (Ja&#233;n 1982) 159-163. - AE 1983.</bibl><bibl>AE 1978, 0016.</bibl><bibl>W. Eck, ZPE 30, 1978, 277-295; Taf. 15. - AE 1978.</bibl><bibl>AE 1976, 0077.</bibl><bibl>A. Ferrua, RAC 52, 1976, 211-212; fig. 9. - AE 1976.</bibl><bibl>CIL 06, 10229.</bibl><bibl>M.G. Granino Cecere, in: R. Neudecker - M.G. Granino Cecere, Antike Skulpturen und Inschriften im Institutum Archaeologicum Germanicum (Wiesbaden 1997) 152-159, Nr. 87; Abb. 169-172.</bibl><bibl>AE 1996, 0093.</bibl><bibl>AE 1991, 0076.</bibl><bibl>PIR (2. Aufl.) I 631.</bibl><bibl>PIR V 405.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C2">t</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4">s</c>
+			<c xml:id="L1C5">t</c>
+		</supplied>
+		<c xml:id="L1C6">a</c>
+		<c xml:id="L1C7">m</c>
+		<c xml:id="L1C8">e</c>
+		<c xml:id="L1C9">n</c>
+		<c xml:id="L1C10">t</c>
+		<c xml:id="L1C11">u</c>
+		<c xml:id="L1C12">m</c>
+		<c xml:id="L1C13"> </c>
+		<c xml:id="L1C14">f</c>
+		<c xml:id="L1C15">e</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C16">c</c>
+			<c xml:id="L1C17">i</c>
+			<c xml:id="L1C18">t</c>
+			<c xml:id="L1C19"> </c>
+			<c xml:id="L1C20">-</c>
+			<c xml:id="L1C21">-</c>
+			<c xml:id="L1C22">-</c>
+		</supplied>
+		<c xml:id="L1C23"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L2C1">a</c>
+			<c xml:id="L2C2">f</c>
+		</supplied>
+		<c xml:id="L2C3">f</c>
+		<c xml:id="L2C4">e</c>
+		<c xml:id="L2C5">c</c>
+		<c xml:id="L2C6">t</c>
+		<c xml:id="L2C7">u</c>
+		<c xml:id="L2C8">m</c>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">p</c>
+		<c xml:id="L2C11">r</c>
+		<c xml:id="L2C12">a</c>
+		<c xml:id="L2C13">e</c>
+		<c xml:id="L2C14">s</c>
+		<c xml:id="L2C15">t</c>
+		<c xml:id="L2C16">i</c>
+		<c xml:id="L2C17">t</c>
+		<c xml:id="L2C18">i</c>
+		<c xml:id="L2C19">t</c>
+		<c xml:id="L2C20"> </c>
+		<c xml:id="L2C21">e</c>
+		<c xml:id="L2C22">t</c>
+		<c xml:id="L2C23"> </c>
+		<c xml:id="L2C24">m</c>
+		<c xml:id="L2C25">e</c>
+		<c xml:id="L2C26">i</c>
+		<c xml:id="L2C27"> </c>
+		<c xml:id="L2C28">m</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C29"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1"> </c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">m</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">c</c>
+		<c xml:id="L3C6">u</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">r</c>
+		<c xml:id="L3C10">a</c>
+		<c xml:id="L3C11">r</c>
+		<c xml:id="L3C12">i</c>
+		<c xml:id="L3C13">s</c>
+		<c xml:id="L3C14">s</c>
+		<c xml:id="L3C15">i</c>
+		<c xml:id="L3C16">m</c>
+		<c xml:id="L3C17">u</c>
+		<c xml:id="L3C18">s</c>
+		<c xml:id="L3C19"> </c>
+		<c xml:id="L3C20">s</c>
+		<c xml:id="L3C21">i</c>
+		<c xml:id="L3C22"> </c>
+		<c xml:id="L3C23">i</c>
+		<c xml:id="L3C24">n</c>
+		<c xml:id="L3C25">t</c>
+		<c xml:id="L3C26">r</c>
+		<c xml:id="L3C27">a</c>
+		<c xml:id="L3C28"> </c>
+		<c xml:id="L3C29">t</c>
+		<supplied reason="lost">
+			<c xml:id="L3C30">r</c>
+			<c xml:id="L3C31">i</c>
+			<c xml:id="L3C32">g</c>
+			<c xml:id="L3C33">i</c>
+			<c xml:id="L3C34">n</c>
+			<c xml:id="L3C35">t</c>
+			<c xml:id="L3C36">a</c>
+			<c xml:id="L3C37"> </c>
+			<c xml:id="L3C38">d</c>
+			<c xml:id="L3C39">i</c>
+			<c xml:id="L3C40">e</c>
+			<c xml:id="L3C41">s</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L3C42"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L4C1">n</c>
+			<c xml:id="L4C2">o</c>
+			<c xml:id="L4C3">m</c>
+			<c xml:id="L4C4">e</c>
+		</supplied>
+		<c xml:id="L4C5">n</c>
+		<c xml:id="L4C6"> </c>
+		<c xml:id="L4C7">m</c>
+		<c xml:id="L4C8">e</c>
+		<c xml:id="L4C9">u</c>
+		<c xml:id="L4C10">m</c>
+		<c xml:id="L4C11"> </c>
+		<c xml:id="L4C12">l</c>
+		<c xml:id="L4C13">a</c>
+		<c xml:id="L4C14">t</c>
+		<c xml:id="L4C15">u</c>
+		<c xml:id="L4C16">r</c>
+		<c xml:id="L4C17">u</c>
+		<c xml:id="L4C18">m</c>
+		<c xml:id="L4C19"> </c>
+		<c xml:id="L4C20">p</c>
+		<c xml:id="L4C21">o</c>
+		<c xml:id="L4C22">s</c>
+		<c xml:id="L4C23">t</c>
+		<c xml:id="L4C24">e</c>
+		<c xml:id="L4C25">r</c>
+		<c xml:id="L4C26">o</c>
+		<c xml:id="L4C27">s</c>
+		<c xml:id="L4C28">q</c>
+		<c xml:id="L4C29">u</c>
+		<c xml:id="L4C30">e</c>
+		<c xml:id="L4C31"> </c>
+		<supplied reason="lost">
+			<c xml:id="L4C32">s</c>
+			<c xml:id="L4C33">u</c>
+			<c xml:id="L4C34">o</c>
+			<c xml:id="L4C35">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C36"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1">n</c>
+		<c xml:id="L5C2">a</c>
+		<c xml:id="L5C3">r</c>
+		<c xml:id="L5C4">u</c>
+		<c xml:id="L5C5">m</c>
+		<c xml:id="L5C6"> </c>
+		<c xml:id="L5C7">e</c>
+		<c xml:id="L5C8">x</c>
+		<c xml:id="L5C9"> </c>
+		<c xml:id="L5C10">u</c>
+		<c xml:id="L5C11">n</c>
+		<c xml:id="L5C12">c</c>
+		<c xml:id="L5C13">i</c>
+		<c xml:id="L5C14">a</c>
+		<c xml:id="L5C15"> </c>
+		<c xml:id="L5C16">D</c>
+		<c xml:id="L5C17">a</c>
+		<c xml:id="L5C18">s</c>
+		<c xml:id="L5C19">u</c>
+		<c xml:id="L5C20">m</c>
+		<c xml:id="L5C21">i</c>
+		<c xml:id="L5C22">a</c>
+		<c xml:id="L5C23"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C24"> </c>
+	</line>
+	<line n="6">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C1">x</c>
+		<c xml:id="L6C2">i</c>
+		<c xml:id="L6C3">m</c>
+		<c xml:id="L6C4">i</c>
+		<c xml:id="L6C5">s</c>
+		<c xml:id="L6C6"> </c>
+		<c xml:id="L6C7">q</c>
+		<c xml:id="L6C8">u</c>
+		<c xml:id="L6C9">i</c>
+		<c xml:id="L6C10">b</c>
+		<c xml:id="L6C11">u</c>
+		<c xml:id="L6C12">s</c>
+		<c xml:id="L6C13"> </c>
+		<c xml:id="L6C14">s</c>
+		<c xml:id="L6C15">c</c>
+		<c xml:id="L6C16">i</c>
+		<c xml:id="L6C17">e</c>
+		<c xml:id="L6C18">n</c>
+		<c xml:id="L6C19">t</c>
+		<c xml:id="L6C20"> </c>
+		<c xml:id="L6C21">p</c>
+		<c xml:id="L6C22">o</c>
+		<c xml:id="L6C23">t</c>
+		<c xml:id="L6C24">e</c>
+		<c xml:id="L6C25">r</c>
+		<c xml:id="L6C26">i</c>
+		<c xml:id="L6C27">n</c>
+		<c xml:id="L6C28">t</c>
+		<supplied reason="lost">
+			<c xml:id="L6C29">q</c>
+			<c xml:id="L6C30">u</c>
+			<c xml:id="L6C31">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C32"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L7C1">p</c>
+		</supplied>
+		<c xml:id="L7C2">i</c>
+		<c xml:id="L7C3">e</c>
+		<c xml:id="L7C4">n</c>
+		<c xml:id="L7C5">t</c>
+		<c xml:id="L7C6">i</c>
+		<c xml:id="L7C7">s</c>
+		<c xml:id="L7C8">s</c>
+		<c xml:id="L7C9">i</c>
+		<c xml:id="L7C10">m</c>
+		<c xml:id="L7C11">a</c>
+		<c xml:id="L7C12"> </c>
+		<c xml:id="L7C13">m</c>
+		<c xml:id="L7C14">i</c>
+		<c xml:id="L7C15">h</c>
+		<c xml:id="L7C16">i</c>
+		<c xml:id="L7C17"> </c>
+		<c xml:id="L7C18">h</c>
+		<c xml:id="L7C19">e</c>
+		<c xml:id="L7C20">r</c>
+		<c xml:id="L7C21">e</c>
+		<c xml:id="L7C22">s</c>
+		<c xml:id="L7C23"> </c>
+		<c xml:id="L7C24">n</c>
+		<c xml:id="L7C25">o</c>
+		<c xml:id="L7C26">n</c>
+		<c xml:id="L7C27"> </c>
+		<supplied reason="lost">
+			<c xml:id="L7C28">e</c>
+			<c xml:id="L7C29">r</c>
+			<c xml:id="L7C30">i</c>
+			<c xml:id="L7C31">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C32"> </c>
+	</line>
+	<line n="8">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L8C1">l</c>
+		<c xml:id="L8C2">i</c>
+		<c xml:id="L8C3">a</c>
+		<c xml:id="L8C4"> </c>
+		<c xml:id="L8C5">S</c>
+		<c xml:id="L8C6">e</c>
+		<c xml:id="L8C7">r</c>
+		<c xml:id="L8C8">v</c>
+		<c xml:id="L8C9">i</c>
+		<c xml:id="L8C10">a</c>
+		<c xml:id="L8C11">n</c>
+		<c xml:id="L8C12">i</c>
+		<c xml:id="L8C13"> </c>
+		<c xml:id="L8C14">e</c>
+		<c xml:id="L8C15">x</c>
+		<c xml:id="L8C16"> </c>
+		<c xml:id="L8C17">s</c>
+		<c xml:id="L8C18">e</c>
+		<c xml:id="L8C19">s</c>
+		<c xml:id="L8C20">c</c>
+		<c xml:id="L8C21">u</c>
+		<c xml:id="L8C22">n</c>
+		<c xml:id="L8C23">c</c>
+		<c xml:id="L8C24">i</c>
+		<c xml:id="L8C25">a</c>
+		<c xml:id="L8C26"> </c>
+		<c xml:id="L8C27">D</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L8C28"> </c>
+	</line>
+	<line n="9">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L9C1">u</c>
+		<c xml:id="L9C2">s</c>
+		<c xml:id="L9C3"> </c>
+		<c xml:id="L9C4">m</c>
+		<c xml:id="L9C5">e</c>
+		<c xml:id="L9C6">u</c>
+		<c xml:id="L9C7">s</c>
+		<c xml:id="L9C8"> </c>
+		<c xml:id="L9C9">m</c>
+		<c xml:id="L9C10">i</c>
+		<c xml:id="L9C11">h</c>
+		<c xml:id="L9C12">i</c>
+		<c xml:id="L9C13"> </c>
+		<c xml:id="L9C14">h</c>
+		<c xml:id="L9C15">e</c>
+		<c xml:id="L9C16">r</c>
+		<c xml:id="L9C17">e</c>
+		<c xml:id="L9C18">s</c>
+		<c xml:id="L9C19"> </c>
+		<c xml:id="L9C20">n</c>
+		<c xml:id="L9C21">o</c>
+		<c xml:id="L9C22">n</c>
+		<c xml:id="L9C23"> </c>
+		<c xml:id="L9C24">e</c>
+		<c xml:id="L9C25">r</c>
+		<c xml:id="L9C26">i</c>
+		<c xml:id="L9C27">t</c>
+		<c xml:id="L9C28"> </c>
+		<c xml:id="L9C29">I</c>
+		<c xml:id="L9C30">u</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L9C31"> </c>
+	</line>
+	<line n="10">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L10C1">m</c>
+		</supplied>
+		<c xml:id="L10C2">i</c>
+		<c xml:id="L10C3">h</c>
+		<c xml:id="L10C4">i</c>
+		<c xml:id="L10C5"> </c>
+		<c xml:id="L10C6">h</c>
+		<c xml:id="L10C7">e</c>
+		<c xml:id="L10C8">r</c>
+		<c xml:id="L10C9">e</c>
+		<c xml:id="L10C10">d</c>
+		<c xml:id="L10C11">e</c>
+		<c xml:id="L10C12">s</c>
+		<c xml:id="L10C13"> </c>
+		<c xml:id="L10C14">s</c>
+		<c xml:id="L10C15">u</c>
+		<c xml:id="L10C16">n</c>
+		<c xml:id="L10C17">t</c>
+		<c xml:id="L10C18">o</c>
+		<c xml:id="L10C19"> </c>
+		<c xml:id="L10C20">s</c>
+		<c xml:id="L10C21">i</c>
+		<c xml:id="L10C22"> </c>
+		<c xml:id="L10C23">D</c>
+		<c xml:id="L10C24">o</c>
+		<c xml:id="L10C25">m</c>
+		<c xml:id="L10C26">i</c>
+		<c xml:id="L10C27">t</c>
+		<c xml:id="L10C28">i</c>
+		<c xml:id="L10C29">a</c>
+		<c xml:id="L10C30"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L10C31"> </c>
+	</line>
+	<line n="11">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L11C1">m</c>
+		</supplied>
+		<c xml:id="L11C2">i</c>
+		<c xml:id="L11C3">h</c>
+		<c xml:id="L11C4">i</c>
+		<c xml:id="L11C5"> </c>
+		<c xml:id="L11C6">h</c>
+		<c xml:id="L11C7">e</c>
+		<c xml:id="L11C8">r</c>
+		<c xml:id="L11C9">e</c>
+		<c xml:id="L11C10">s</c>
+		<c xml:id="L11C11"> </c>
+		<c xml:id="L11C12">e</c>
+		<c xml:id="L11C13">s</c>
+		<c xml:id="L11C14">t</c>
+		<c xml:id="L11C15">o</c>
+		<c xml:id="L11C16"> </c>
+		<c xml:id="L11C17">s</c>
+		<c xml:id="L11C18">i</c>
+		<c xml:id="L11C19"> </c>
+		<c xml:id="L11C20">D</c>
+		<c xml:id="L11C21">a</c>
+		<c xml:id="L11C22">s</c>
+		<c xml:id="L11C23">u</c>
+		<c xml:id="L11C24">m</c>
+		<c xml:id="L11C25">i</c>
+		<c xml:id="L11C26">a</c>
+		<c xml:id="L11C27"> </c>
+		<c xml:id="L11C28">P</c>
+		<c xml:id="L11C29">o</c>
+		<c xml:id="L11C30">l</c>
+		<c xml:id="L11C31">l</c>
+		<c xml:id="L11C32">a</c>
+		<c xml:id="L11C33"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L11C34"> </c>
+	</line>
+	<line n="12">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L12C1"> </c>
+			<c xml:id="L12C2">m</c>
+			<c xml:id="L12C3">i</c>
+			<c xml:id="L12C4">h</c>
+			<c xml:id="L12C5">i</c>
+			<c xml:id="L12C6"> </c>
+			<c xml:id="L12C7">h</c>
+			<c xml:id="L12C8">e</c>
+			<c xml:id="L12C9">r</c>
+			<c xml:id="L12C10">e</c>
+			<c xml:id="L12C11">s</c>
+			<c xml:id="L12C12"> </c>
+			<c xml:id="L12C13">e</c>
+		</supplied>
+		<c xml:id="L12C14">s</c>
+		<c xml:id="L12C15">t</c>
+		<c xml:id="L12C16">o</c>
+		<c xml:id="L12C17"> </c>
+		<c xml:id="L12C18">i</c>
+		<c xml:id="L12C19">i</c>
+		<c xml:id="L12C20">q</c>
+		<c xml:id="L12C21">u</c>
+		<c xml:id="L12C22">e</c>
+		<c xml:id="L12C23"> </c>
+		<c xml:id="L12C24">c</c>
+		<c xml:id="L12C25">e</c>
+		<c xml:id="L12C26">r</c>
+		<c xml:id="L12C27">n</c>
+		<c xml:id="L12C28">u</c>
+		<c xml:id="L12C29">n</c>
+		<c xml:id="L12C30">t</c>
+		<c xml:id="L12C31">o</c>
+		<c xml:id="L12C32"> </c>
+		<c xml:id="L12C33">i</c>
+		<c xml:id="L12C34">n</c>
+		<c xml:id="L12C35"> </c>
+		<c xml:id="L12C36">d</c>
+		<c xml:id="L12C37">i</c>
+		<c xml:id="L12C38">e</c>
+		<c xml:id="L12C39">b</c>
+		<c xml:id="L12C40">u</c>
+		<c xml:id="L12C41">s</c>
+		<c xml:id="L12C42"> </c>
+		<c xml:id="L12C43">L</c>
+		<c xml:id="L12C44">X</c>
+		<c xml:id="L12C45"> </c>
+		<c xml:id="L12C46">p</c>
+		<supplied reason="lost">
+			<c xml:id="L12C47">r</c>
+			<c xml:id="L12C48">o</c>
+			<c xml:id="L12C49">x</c>
+			<c xml:id="L12C50">i</c>
+			<c xml:id="L12C51">m</c>
+			<c xml:id="L12C52">i</c>
+			<c xml:id="L12C53">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L12C54"> </c>
+	</line>
+	<line n="13">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L13C1">c</c>
+		<c xml:id="L13C2">r</c>
+		<c xml:id="L13C3">e</c>
+		<c xml:id="L13C4">v</c>
+		<c xml:id="L13C5">e</c>
+		<c xml:id="L13C6">r</c>
+		<c xml:id="L13C7">i</c>
+		<c xml:id="L13C8">t</c>
+		<c xml:id="L13C9"> </c>
+		<c xml:id="L13C10">t</c>
+		<c xml:id="L13C11">u</c>
+		<c xml:id="L13C12">n</c>
+		<c xml:id="L13C13">c</c>
+		<c xml:id="L13C14"> </c>
+		<c xml:id="L13C15">S</c>
+		<c xml:id="L13C16">y</c>
+		<c xml:id="L13C17">n</c>
+		<c xml:id="L13C18">e</c>
+		<c xml:id="L13C19">r</c>
+		<c xml:id="L13C20">o</c>
+		<c xml:id="L13C21">s</c>
+		<c xml:id="L13C22"> </c>
+		<c xml:id="L13C23">s</c>
+		<c xml:id="L13C24">e</c>
+		<c xml:id="L13C25">r</c>
+		<c xml:id="L13C26">v</c>
+		<c xml:id="L13C27">o</c>
+		<c xml:id="L13C28">s</c>
+		<c xml:id="L13C29"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L13C30"> </c>
+	</line>
+	<line n="14">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L14C1"> </c>
+		<c xml:id="L14C2">i</c>
+		<c xml:id="L14C3">n</c>
+		<c xml:id="L14C4">f</c>
+		<c xml:id="L14C5">r</c>
+		<c xml:id="L14C6">a</c>
+		<c xml:id="L14C7"> </c>
+		<c xml:id="L14C8">s</c>
+		<c xml:id="L14C9">c</c>
+		<c xml:id="L14C10">r</c>
+		<c xml:id="L14C11">i</c>
+		<c xml:id="L14C12">p</c>
+		<c xml:id="L14C13">t</c>
+		<c xml:id="L14C14">i</c>
+		<c xml:id="L14C15">s</c>
+		<c xml:id="L14C16"> </c>
+		<c xml:id="L14C17">q</c>
+		<c xml:id="L14C18">u</c>
+		<c xml:id="L14C19">o</c>
+		<c xml:id="L14C20">d</c>
+		<c xml:id="L14C21"> </c>
+		<c xml:id="L14C22">c</c>
+		<c xml:id="L14C23">u</c>
+		<c xml:id="L14C24">i</c>
+		<c xml:id="L14C25">q</c>
+		<c xml:id="L14C26">u</c>
+		<c xml:id="L14C27">e</c>
+		<c xml:id="L14C28"> </c>
+		<c xml:id="L14C29">h</c>
+		<c xml:id="L14C30">o</c>
+		<c xml:id="L14C31">c</c>
+		<c xml:id="L14C32"> </c>
+		<supplied reason="lost">
+			<c xml:id="L14C33">t</c>
+			<c xml:id="L14C34">e</c>
+			<c xml:id="L14C35">s</c>
+			<c xml:id="L14C36">t</c>
+			<c xml:id="L14C37">a</c>
+			<c xml:id="L14C38">m</c>
+			<c xml:id="L14C39">e</c>
+			<c xml:id="L14C40">n</c>
+			<c xml:id="L14C41">t</c>
+			<c xml:id="L14C42">o</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L14C43"> </c>
+	</line>
+	<line n="15">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L15C1">i</c>
+		<c xml:id="L15C2">s</c>
+		<c xml:id="L15C3"> </c>
+		<c xml:id="L15C4">a</c>
+		<c xml:id="L15C5">u</c>
+		<c xml:id="L15C6">r</c>
+		<c xml:id="L15C7">i</c>
+		<c xml:id="L15C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L15C9">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L15C10">o</c>
+				<c xml:id="L15C11">n</c>
+				<c xml:id="L15C12">d</c>
+				<c xml:id="L15C13">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L15C14"> </c>
+		<c xml:id="L15C15">l</c>
+		<c xml:id="L15C16">i</c>
+		<c xml:id="L15C17">b</c>
+		<c xml:id="L15C18">r</c>
+		<c xml:id="L15C19">a</c>
+		<c xml:id="L15C20">s</c>
+		<c xml:id="L15C21"> </c>
+		<c xml:id="L15C22">I</c>
+		<c xml:id="L15C23">u</c>
+		<c xml:id="L15C24">l</c>
+		<c xml:id="L15C25">i</c>
+		<c xml:id="L15C26">a</c>
+		<c xml:id="L15C27">e</c>
+		<c xml:id="L15C28"> </c>
+		<c xml:id="L15C29">P</c>
+		<c xml:id="L15C30">a</c>
+		<c xml:id="L15C31">u</c>
+		<c xml:id="L15C32">l</c>
+		<c xml:id="L15C33">i</c>
+		<c xml:id="L15C34">n</c>
+		<c xml:id="L15C35">a</c>
+		<c xml:id="L15C36">e</c>
+		<c xml:id="L15C37"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L15C38"> </c>
+	</line>
+	<line n="16">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L16C1">n</c>
+		<c xml:id="L16C2">o</c>
+		<c xml:id="L16C3"> </c>
+		<c xml:id="L16C4">V</c>
+		<c xml:id="L16C5">o</c>
+		<c xml:id="L16C6">l</c>
+		<c xml:id="L16C7">u</c>
+		<c xml:id="L16C8">s</c>
+		<c xml:id="L16C9">i</c>
+		<c xml:id="L16C10">o</c>
+		<c xml:id="L16C11"> </c>
+		<c xml:id="L16C12">I</c>
+		<c xml:id="L16C13">u</c>
+		<c xml:id="L16C14">l</c>
+		<c xml:id="L16C15">i</c>
+		<c xml:id="L16C16">a</c>
+		<c xml:id="L16C17">n</c>
+		<c xml:id="L16C18">o</c>
+		<c xml:id="L16C19"> </c>
+		<c xml:id="L16C20">F</c>
+		<c xml:id="L16C21">a</c>
+		<c xml:id="L16C22">b</c>
+		<c xml:id="L16C23">i</c>
+		<c xml:id="L16C24">a</c>
+		<c xml:id="L16C25">e</c>
+		<c xml:id="L16C26"> </c>
+		<c xml:id="L16C27">B</c>
+		<c xml:id="L16C28">a</c>
+		<c xml:id="L16C29">l</c>
+		<c xml:id="L16C30">b</c>
+		<c xml:id="L16C31">i</c>
+		<c xml:id="L16C32">n</c>
+		<supplied reason="lost">
+			<c xml:id="L16C33">a</c>
+			<c xml:id="L16C34">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L16C35"> </c>
+	</line>
+	<line n="17">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L17C1"> </c>
+		<c xml:id="L17C2">S</c>
+		<c xml:id="L17C3">e</c>
+		<c xml:id="L17C4">c</c>
+		<c xml:id="L17C5">u</c>
+		<c xml:id="L17C6">n</c>
+		<c xml:id="L17C7">d</c>
+		<c xml:id="L17C8">o</c>
+		<c xml:id="L17C9"> </c>
+		<c xml:id="L17C10">C</c>
+		<c xml:id="L17C11">o</c>
+		<c xml:id="L17C12">r</c>
+		<c xml:id="L17C13">n</c>
+		<c xml:id="L17C14">e</c>
+		<c xml:id="L17C15">l</c>
+		<c xml:id="L17C16">i</c>
+		<c xml:id="L17C17">o</c>
+		<c xml:id="L17C18"> </c>
+		<c xml:id="L17C19">P</c>
+		<c xml:id="L17C20">u</c>
+		<c xml:id="L17C21">s</c>
+		<c xml:id="L17C22">i</c>
+		<c xml:id="L17C23">o</c>
+		<c xml:id="L17C24">n</c>
+		<c xml:id="L17C25">i</c>
+		<c xml:id="L17C26"> </c>
+		<c xml:id="L17C27">A</c>
+		<c xml:id="L17C28">t</c>
+		<c xml:id="L17C29">i</c>
+		<c xml:id="L17C30">l</c>
+		<c xml:id="L17C31">i</c>
+		<c xml:id="L17C32"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L17C33"> </c>
+	</line>
+	<line n="18">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L18C1">A</c>
+		</supplied>
+		<c xml:id="L18C2">u</c>
+		<c xml:id="L18C3">s</c>
+		<c xml:id="L18C4">p</c>
+		<c xml:id="L18C5">i</c>
+		<c xml:id="L18C6">c</c>
+		<c xml:id="L18C7">a</c>
+		<c xml:id="L18C8">t</c>
+		<c xml:id="L18C9">o</c>
+		<c xml:id="L18C10"> </c>
+		<c xml:id="L18C11">s</c>
+		<c xml:id="L18C12">i</c>
+		<c xml:id="L18C13">n</c>
+		<c xml:id="L18C14">g</c>
+		<c xml:id="L18C15">u</c>
+		<c xml:id="L18C16">l</c>
+		<c xml:id="L18C17">i</c>
+		<c xml:id="L18C18">s</c>
+		<c xml:id="L18C19"> </c>
+		<c xml:id="L18C20">a</c>
+		<c xml:id="L18C21">u</c>
+		<c xml:id="L18C22">r</c>
+		<c xml:id="L18C23">i</c>
+		<c xml:id="L18C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L18C25">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L18C26">o</c>
+				<c xml:id="L18C27">n</c>
+				<c xml:id="L18C28">d</c>
+				<c xml:id="L18C29">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L18C30"> </c>
+		<c xml:id="L18C31">I</c>
+		<c xml:id="L18C32">I</c>
+		<c xml:id="L18C33"> </c>
+		<c xml:id="L18C34">A</c>
+		<c xml:id="L18C35">e</c>
+		<c xml:id="L18C36">m</c>
+		<supplied reason="lost">
+			<c xml:id="L18C37">i</c>
+			<c xml:id="L18C38">l</c>
+			<c xml:id="L18C39">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L18C40"> </c>
+	</line>
+	<line n="19">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L19C1">M</c>
+			<c xml:id="L19C2">i</c>
+		</supplied>
+		<c xml:id="L19C3">n</c>
+		<c xml:id="L19C4">i</c>
+		<c xml:id="L19C5">c</c>
+		<c xml:id="L19C6">i</c>
+		<c xml:id="L19C7">o</c>
+		<c xml:id="L19C8"> </c>
+		<c xml:id="L19C9">I</c>
+		<c xml:id="L19C10">u</c>
+		<c xml:id="L19C11">s</c>
+		<c xml:id="L19C12">t</c>
+		<c xml:id="L19C13">o</c>
+		<c xml:id="L19C14"> </c>
+		<c xml:id="L19C15">F</c>
+		<c xml:id="L19C16">a</c>
+		<c xml:id="L19C17">b</c>
+		<c xml:id="L19C18">u</c>
+		<c xml:id="L19C19">l</c>
+		<supplied reason="lost">
+			<c xml:id="L19C20">l</c>
+		</supplied>
+		<c xml:id="L19C21">a</c>
+		<c xml:id="L19C22">e</c>
+		<c xml:id="L19C23"> </c>
+		<c xml:id="L19C24">A</c>
+		<c xml:id="L19C25">s</c>
+		<c xml:id="L19C26">i</c>
+		<c xml:id="L19C27">a</c>
+		<c xml:id="L19C28">t</c>
+		<c xml:id="L19C29">i</c>
+		<c xml:id="L19C30">c</c>
+		<c xml:id="L19C31">i</c>
+		<c xml:id="L19C32"> </c>
+		<c xml:id="L19C33">T</c>
+		<c xml:id="L19C34">e</c>
+		<supplied reason="lost">
+			<c xml:id="L19C35">t</c>
+			<c xml:id="L19C36">t</c>
+			<c xml:id="L19C37">i</c>
+			<c xml:id="L19C38">e</c>
+			<c xml:id="L19C39">n</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L19C40"> </c>
+	</line>
+	<line n="20">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L20C1">I</c>
+		</supplied>
+		<c xml:id="L20C2">u</c>
+		<c xml:id="L20C3">n</c>
+		<c xml:id="L20C4">i</c>
+		<c xml:id="L20C5">o</c>
+		<c xml:id="L20C6"> </c>
+		<c xml:id="L20C7">A</c>
+		<c xml:id="L20C8">v</c>
+		<c xml:id="L20C9">i</c>
+		<c xml:id="L20C10">t</c>
+		<c xml:id="L20C11">o</c>
+		<c xml:id="L20C12"> </c>
+		<c xml:id="L20C13">P</c>
+		<c xml:id="L20C14">o</c>
+		<c xml:id="L20C15">n</c>
+		<c xml:id="L20C16">t</c>
+		<supplied reason="lost">
+			<c xml:id="L20C17">i</c>
+			<c xml:id="L20C18">o</c>
+		</supplied>
+		<c xml:id="L20C19"> </c>
+		<c xml:id="L20C20">L</c>
+		<c xml:id="L20C21">a</c>
+		<c xml:id="L20C22">e</c>
+		<c xml:id="L20C23">l</c>
+		<c xml:id="L20C24">i</c>
+		<c xml:id="L20C25">a</c>
+		<c xml:id="L20C26">n</c>
+		<c xml:id="L20C27">o</c>
+		<c xml:id="L20C28"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L20C29"> </c>
+	</line>
+	<line n="21">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L21C1">P</c>
+		</supplied>
+		<c xml:id="L21C2">e</c>
+		<c xml:id="L21C3">t</c>
+		<c xml:id="L21C4">r</c>
+		<c xml:id="L21C5">o</c>
+		<c xml:id="L21C6">n</c>
+		<c xml:id="L21C7">i</c>
+		<c xml:id="L21C8">o</c>
+		<c xml:id="L21C9"> </c>
+		<c xml:id="L21C10">C</c>
+		<c xml:id="L21C11">r</c>
+		<c xml:id="L21C12">e</c>
+		<c xml:id="L21C13">s</c>
+		<c xml:id="L21C14">c</c>
+		<c xml:id="L21C15">e</c>
+		<supplied reason="lost">
+			<c xml:id="L21C16">n</c>
+		</supplied>
+		<c xml:id="L21C17">t</c>
+		<c xml:id="L21C18">i</c>
+		<c xml:id="L21C19"> </c>
+		<c xml:id="L21C20">I</c>
+		<c xml:id="L21C21">a</c>
+		<c xml:id="L21C22">n</c>
+		<c xml:id="L21C23">u</c>
+		<c xml:id="L21C24">a</c>
+		<c xml:id="L21C25">r</c>
+		<c xml:id="L21C26">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L21C27"> </c>
+	</line>
+	<line n="22">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L22C1">o</c>
+		<c xml:id="L22C2"> </c>
+		<c xml:id="L22C3">N</c>
+		<c xml:id="L22C4">e</c>
+		<c xml:id="L22C5">p</c>
+		<c xml:id="L22C6">o</c>
+		<c xml:id="L22C7">t</c>
+		<c xml:id="L22C8">i</c>
+		<c xml:id="L22C9"> </c>
+		<c xml:id="L22C10">T</c>
+		<c xml:id="L22C11">u</c>
+		<c xml:id="L22C12">l</c>
+		<c xml:id="L22C13">l</c>
+		<c xml:id="L22C14">i</c>
+		<c xml:id="L22C15">o</c>
+		<c xml:id="L22C16"> </c>
+		<supplied reason="lost">
+			<c xml:id="L22C17">V</c>
+		</supplied>
+		<c xml:id="L22C18">a</c>
+		<c xml:id="L22C19">r</c>
+		<c xml:id="L22C20">r</c>
+		<c xml:id="L22C21">o</c>
+		<c xml:id="L22C22">n</c>
+		<c xml:id="L22C23">i</c>
+		<c xml:id="L22C24"> </c>
+		<c xml:id="L22C25">S</c>
+		<c xml:id="L22C26">a</c>
+		<c xml:id="L22C27">t</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L22C28"> </c>
+	</line>
+	<line n="23">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L23C1">n</c>
+		<c xml:id="L23C2">n</c>
+		<c xml:id="L23C3">i</c>
+		<c xml:id="L23C4">a</c>
+		<c xml:id="L23C5">n</c>
+		<c xml:id="L23C6">o</c>
+		<c xml:id="L23C7"> </c>
+		<c xml:id="L23C8">A</c>
+		<c xml:id="L23C9">p</c>
+		<c xml:id="L23C10">p</c>
+		<c xml:id="L23C11">u</c>
+		<c xml:id="L23C12">l</c>
+		<c xml:id="L23C13">e</c>
+		<c xml:id="L23C14">i</c>
+		<c xml:id="L23C15">o</c>
+		<c xml:id="L23C16"> </c>
+		<c xml:id="L23C17">N</c>
+		<c xml:id="L23C18">e</c>
+		<c xml:id="L23C19">p</c>
+		<c xml:id="L23C20">o</c>
+		<c xml:id="L23C21">t</c>
+		<c xml:id="L23C22">i</c>
+		<c xml:id="L23C23"> </c>
+		<c xml:id="L23C24">R</c>
+		<c xml:id="L23C25">e</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L23C26"> </c>
+	</line>
+	<line n="24">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L24C1">u</c>
+		<c xml:id="L24C2">s</c>
+		<c xml:id="L24C3">t</c>
+		<c xml:id="L24C4">i</c>
+		<c xml:id="L24C5">o</c>
+		<c xml:id="L24C6"> </c>
+		<c xml:id="L24C7">A</c>
+		<c xml:id="L24C8">c</c>
+		<c xml:id="L24C9">a</c>
+		<c xml:id="L24C10">n</c>
+		<c xml:id="L24C11">t</c>
+		<c xml:id="L24C12">h</c>
+		<c xml:id="L24C13">o</c>
+		<c xml:id="L24C14"> </c>
+		<c xml:id="L24C15">F</c>
+		<c xml:id="L24C16">a</c>
+		<c xml:id="L24C17">b</c>
+		<c xml:id="L24C18">i</c>
+		<c xml:id="L24C19">o</c>
+		<c xml:id="L24C20"> </c>
+		<c xml:id="L24C21">R</c>
+		<c xml:id="L24C22">u</c>
+		<c xml:id="L24C23">s</c>
+		<c xml:id="L24C24">t</c>
+		<c xml:id="L24C25">i</c>
+		<c xml:id="L24C26">c</c>
+		<c xml:id="L24C27">o</c>
+		<c xml:id="L24C28"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L24C29"> </c>
+	</line>
+	<line n="25">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L25C1">c</c>
+		<c xml:id="L25C2">o</c>
+		<c xml:id="L25C3"> </c>
+		<c xml:id="L25C4">A</c>
+		<c xml:id="L25C5">g</c>
+		<c xml:id="L25C6">r</c>
+		<c xml:id="L25C7">i</c>
+		<c xml:id="L25C8">s</c>
+		<c xml:id="L25C9"> </c>
+		<c xml:id="L25C10">P</c>
+		<c xml:id="L25C11">h</c>
+		<c xml:id="L25C12">o</c>
+		<c xml:id="L25C13">e</c>
+		<c xml:id="L25C14">b</c>
+		<c xml:id="L25C15">o</c>
+		<c xml:id="L25C16"> </c>
+		<c xml:id="L25C17">e</c>
+		<c xml:id="L25C18">t</c>
+		<c xml:id="L25C19"> </c>
+		<c xml:id="L25C20">S</c>
+		<c xml:id="L25C21">e</c>
+		<c xml:id="L25C22">r</c>
+		<c xml:id="L25C23">v</c>
+		<c xml:id="L25C24">a</c>
+		<c xml:id="L25C25">t</c>
+		<c xml:id="L25C26">o</c>
+		<c xml:id="L25C27"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L25C28"> </c>
+	</line>
+	<line n="26">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L26C1">V</c>
+			<c xml:id="L26C2">a</c>
+		</supplied>
+		<c xml:id="L26C3">l</c>
+		<c xml:id="L26C4">e</c>
+		<c xml:id="L26C5">r</c>
+		<c xml:id="L26C6">i</c>
+		<c xml:id="L26C7">o</c>
+		<c xml:id="L26C8"> </c>
+		<c xml:id="L26C9">H</c>
+		<c xml:id="L26C10">e</c>
+		<c xml:id="L26C11">r</c>
+		<c xml:id="L26C12">m</c>
+		<c xml:id="L26C13">e</c>
+		<c xml:id="L26C14">t</c>
+		<c xml:id="L26C15">i</c>
+		<c xml:id="L26C16"> </c>
+		<c xml:id="L26C17">O</c>
+		<c xml:id="L26C18">t</c>
+		<c xml:id="L26C19">a</c>
+		<c xml:id="L26C20">c</c>
+		<c xml:id="L26C21">i</c>
+		<c xml:id="L26C22">l</c>
+		<c xml:id="L26C23">i</c>
+		<c xml:id="L26C24">o</c>
+		<c xml:id="L26C25"> </c>
+		<c xml:id="L26C26">O</c>
+		<c xml:id="L26C27">r</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L26C28"> </c>
+	</line>
+	<line n="27">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost" cert="low">
+			<c xml:id="L27C1"> </c>
+			<c xml:id="L27C2">P</c>
+			<c xml:id="L27C3">r</c>
+			<c xml:id="L27C4">o</c>
+		</supplied>
+		<c xml:id="L27C5">c</c>
+		<c xml:id="L27C6">u</c>
+		<c xml:id="L27C7">l</c>
+		<c xml:id="L27C8">o</c>
+		<c xml:id="L27C9"> </c>
+		<c xml:id="L27C10">i</c>
+		<c xml:id="L27C11">u</c>
+		<c xml:id="L27C12">r</c>
+		<c xml:id="L27C13">i</c>
+		<c xml:id="L27C14">s</c>
+		<c xml:id="L27C15">c</c>
+		<c xml:id="L27C16">o</c>
+		<c xml:id="L27C17">n</c>
+		<c xml:id="L27C18">s</c>
+		<c xml:id="L27C19">u</c>
+		<c xml:id="L27C20">l</c>
+		<c xml:id="L27C21">t</c>
+		<c xml:id="L27C22">o</c>
+		<c xml:id="L27C23"> </c>
+		<c xml:id="L27C24">A</c>
+		<c xml:id="L27C25">t</c>
+		<c xml:id="L27C26">e</c>
+		<c xml:id="L27C27">i</c>
+		<c xml:id="L27C28">o</c>
+		<c xml:id="L27C29"> </c>
+		<c xml:id="L27C30">M</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L27C31"> </c>
+	</line>
+	<line n="28">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L28C1">n</c>
+		<c xml:id="L28C2">o</c>
+		<c xml:id="L28C3"> </c>
+		<c xml:id="L28C4">C</c>
+		<c xml:id="L28C5">o</c>
+		<c xml:id="L28C6">r</c>
+		<c xml:id="L28C7">n</c>
+		<c xml:id="L28C8">e</c>
+		<c xml:id="L28C9">l</c>
+		<c xml:id="L28C10">i</c>
+		<c xml:id="L28C11">o</c>
+		<c xml:id="L28C12"> </c>
+		<c xml:id="L28C13">S</c>
+		<c xml:id="L28C14">e</c>
+		<c xml:id="L28C15">n</c>
+		<c xml:id="L28C16">i</c>
+		<c xml:id="L28C17"> </c>
+		<c xml:id="L28C18">I</c>
+		<c xml:id="L28C19">u</c>
+		<c xml:id="L28C20">l</c>
+		<c xml:id="L28C21">i</c>
+		<c xml:id="L28C22">s</c>
+		<c xml:id="L28C23"> </c>
+		<c xml:id="L28C24">T</c>
+		<c xml:id="L28C25">h</c>
+		<c xml:id="L28C26">r</c>
+		<c xml:id="L28C27">e</c>
+		<c xml:id="L28C28">p</c>
+		<supplied reason="lost">
+			<c xml:id="L28C29">t</c>
+			<c xml:id="L28C30">o</c>
+			<c xml:id="L28C31"> </c>
+			<c xml:id="L28C32">e</c>
+			<c xml:id="L28C33">t</c>
+			<c xml:id="L28C34"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L28C35"> </c>
+	</line>
+	<line n="29">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L29C1">o</c>
+		<c xml:id="L29C2">r</c>
+		<c xml:id="L29C3">o</c>
+		<c xml:id="L29C4"> </c>
+		<c xml:id="L29C5">a</c>
+		<c xml:id="L29C6">d</c>
+		<c xml:id="L29C7">f</c>
+		<c xml:id="L29C8">i</c>
+		<c xml:id="L29C9">n</c>
+		<c xml:id="L29C10">i</c>
+		<c xml:id="L29C11"> </c>
+		<c xml:id="L29C12">m</c>
+		<c xml:id="L29C13">e</c>
+		<c xml:id="L29C14">o</c>
+		<c xml:id="L29C15"> </c>
+		<c xml:id="L29C16">|</c>
+		<c xml:id="L29C17">(</c>
+		<c xml:id="L29C18">d</c>
+		<c xml:id="L29C19">e</c>
+		<c xml:id="L29C20">n</c>
+		<c xml:id="L29C21">a</c>
+		<c xml:id="L29C22">r</c>
+		<c xml:id="L29C23">i</c>
+		<c xml:id="L29C24">o</c>
+		<c xml:id="L29C25">r</c>
+		<c xml:id="L29C26">u</c>
+		<c xml:id="L29C27">m</c>
+		<c xml:id="L29C28">)</c>
+		<c xml:id="L29C29"> </c>
+		<c xml:id="L29C30">C</c>
+		<c xml:id="L29C31">X</c>
+		<c xml:id="L29C32">X</c>
+		<c xml:id="L29C33">V</c>
+		<c xml:id="L29C34"> </c>
+		<c xml:id="L29C35">(</c>
+		<c xml:id="L29C36">c</c>
+		<c xml:id="L29C37">e</c>
+		<c xml:id="L29C38">n</c>
+		<c xml:id="L29C39">t</c>
+		<c xml:id="L29C40">u</c>
+		<c xml:id="L29C41">m</c>
+		<c xml:id="L29C42"> </c>
+		<c xml:id="L29C43">v</c>
+		<c xml:id="L29C44">i</c>
+		<c xml:id="L29C45">g</c>
+		<c xml:id="L29C46">i</c>
+		<c xml:id="L29C47">n</c>
+		<c xml:id="L29C48">t</c>
+		<c xml:id="L29C49">i</c>
+		<c xml:id="L29C50"> </c>
+		<c xml:id="L29C51">q</c>
+		<c xml:id="L29C52">u</c>
+		<c xml:id="L29C53">i</c>
+		<c xml:id="L29C54">n</c>
+		<c xml:id="L29C55">q</c>
+		<c xml:id="L29C56">u</c>
+		<c xml:id="L29C57">e</c>
+		<c xml:id="L29C58"> </c>
+		<c xml:id="L29C59">m</c>
+		<c xml:id="L29C60">i</c>
+		<c xml:id="L29C61">l</c>
+		<c xml:id="L29C62">i</c>
+		<c xml:id="L29C63">a</c>
+		<c xml:id="L29C64">)</c>
+		<c xml:id="L29C65"> </c>
+		<c xml:id="L29C66">c</c>
+		<c xml:id="L29C67">o</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L29C68"> </c>
+	</line>
+	<line n="30">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L30C1">f</c>
+			<c xml:id="L30C2">i</c>
+			<c xml:id="L30C3">d</c>
+			<c xml:id="L30C4">e</c>
+			<c xml:id="L30C5">i</c>
+			<c xml:id="L30C6">q</c>
+		</supplied>
+		<c xml:id="L30C7">u</c>
+		<c xml:id="L30C8">e</c>
+		<c xml:id="L30C9"> </c>
+		<c xml:id="L30C10">e</c>
+		<c xml:id="L30C11">i</c>
+		<c xml:id="L30C12">u</c>
+		<c xml:id="L30C13">s</c>
+		<c xml:id="L30C14"> </c>
+		<c xml:id="L30C15">e</c>
+		<c xml:id="L30C16">o</c>
+		<c xml:id="L30C17">r</c>
+		<c xml:id="L30C18">u</c>
+		<c xml:id="L30C19">m</c>
+		<c xml:id="L30C20">q</c>
+		<c xml:id="L30C21">u</c>
+		<c xml:id="L30C22">e</c>
+		<c xml:id="L30C23"> </c>
+		<c xml:id="L30C24">c</c>
+		<c xml:id="L30C25">o</c>
+		<c xml:id="L30C26">m</c>
+		<c xml:id="L30C27">i</c>
+		<c xml:id="L30C28">t</c>
+		<c xml:id="L30C29">t</c>
+		<c xml:id="L30C30">o</c>
+		<c xml:id="L30C31"> </c>
+		<c xml:id="L30C32">u</c>
+		<supplied reason="lost">
+			<c xml:id="L30C33">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L30C34"> </c>
+	</line>
+	<line n="31">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L31C1"> </c>
+			<c xml:id="L31C2">n</c>
+			<c xml:id="L31C3">o</c>
+			<c xml:id="L31C4">m</c>
+			<c xml:id="L31C5">i</c>
+			<c xml:id="L31C6">n</c>
+			<c xml:id="L31C7">i</c>
+			<c xml:id="L31C8">s</c>
+			<c xml:id="L31C9"> </c>
+			<c xml:id="L31C10">m</c>
+		</supplied>
+		<c xml:id="L31C11">e</c>
+		<c xml:id="L31C12">i</c>
+		<c xml:id="L31C13"> </c>
+		<c xml:id="L31C14">c</c>
+		<c xml:id="L31C15">o</c>
+		<c xml:id="L31C16">n</c>
+		<c xml:id="L31C17">s</c>
+		<c xml:id="L31C18">e</c>
+		<c xml:id="L31C19">c</c>
+		<c xml:id="L31C20">r</c>
+		<c xml:id="L31C21">e</c>
+		<c xml:id="L31C22">n</c>
+		<c xml:id="L31C23">t</c>
+		<c xml:id="L31C24"> </c>
+		<c xml:id="L31C25">C</c>
+		<c xml:id="L31C26">o</c>
+		<c xml:id="L31C27">r</c>
+		<c xml:id="L31C28">d</c>
+		<c xml:id="L31C29">u</c>
+		<c xml:id="L31C30">b</c>
+		<c xml:id="L31C31">a</c>
+		<c xml:id="L31C32">e</c>
+		<c xml:id="L31C33"> </c>
+		<c xml:id="L31C34">i</c>
+		<c xml:id="L31C35">t</c>
+		<supplied reason="lost">
+			<c xml:id="L31C36">e</c>
+			<c xml:id="L31C37">m</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L31C38"> </c>
+	</line>
+	<line n="32">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L32C1"> </c>
+			<c xml:id="L32C2">s</c>
+			<c xml:id="L32C3">u</c>
+			<c xml:id="L32C4">b</c>
+			<c xml:id="L32C5"> </c>
+			<c xml:id="L32C6">i</c>
+			<c xml:id="L32C7">n</c>
+			<c xml:id="L32C8">s</c>
+			<c xml:id="L32C9">c</c>
+			<c xml:id="L32C10">r</c>
+			<c xml:id="L32C11">i</c>
+			<c xml:id="L32C12">p</c>
+		</supplied>
+		<c xml:id="L32C13">t</c>
+		<c xml:id="L32C14">i</c>
+		<c xml:id="L32C15">o</c>
+		<c xml:id="L32C16">n</c>
+		<c xml:id="L32C17">e</c>
+		<c xml:id="L32C18"> </c>
+		<c xml:id="L32C19">n</c>
+		<c xml:id="L32C20">o</c>
+		<c xml:id="L32C21">m</c>
+		<c xml:id="L32C22">i</c>
+		<c xml:id="L32C23">n</c>
+		<c xml:id="L32C24">i</c>
+		<c xml:id="L32C25">s</c>
+		<c xml:id="L32C26"> </c>
+		<c xml:id="L32C27">m</c>
+		<c xml:id="L32C28">e</c>
+		<c xml:id="L32C29">i</c>
+		<c xml:id="L32C30"> </c>
+		<c xml:id="L32C31">c</c>
+		<c xml:id="L32C32">o</c>
+		<c xml:id="L32C33">n</c>
+		<c xml:id="L32C34">s</c>
+		<c xml:id="L32C35">e</c>
+		<c xml:id="L32C36">c</c>
+		<supplied reason="lost">
+			<c xml:id="L32C37">r</c>
+			<c xml:id="L32C38">e</c>
+			<c xml:id="L32C39">n</c>
+			<c xml:id="L32C40">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L32C41"> </c>
+	</line>
+	<line n="33">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L33C1"> </c>
+		<c xml:id="L33C2">o</c>
+		<c xml:id="L33C3">p</c>
+		<c xml:id="L33C4">e</c>
+		<c xml:id="L33C5">r</c>
+		<c xml:id="L33C6">a</c>
+		<c xml:id="L33C7"> </c>
+		<c xml:id="L33C8">s</c>
+		<c xml:id="L33C9">u</c>
+		<c xml:id="L33C10">p</c>
+		<c xml:id="L33C11">r</c>
+		<c xml:id="L33C12">a</c>
+		<c xml:id="L33C13"> </c>
+		<c xml:id="L33C14">s</c>
+		<c xml:id="L33C15">c</c>
+		<c xml:id="L33C16">r</c>
+		<c xml:id="L33C17">i</c>
+		<c xml:id="L33C18">p</c>
+		<c xml:id="L33C19">t</c>
+		<c xml:id="L33C20">a</c>
+		<c xml:id="L33C21"> </c>
+		<c xml:id="L33C22">f</c>
+		<c xml:id="L33C23">i</c>
+		<c xml:id="L33C24">a</c>
+		<c xml:id="L33C25">n</c>
+		<c xml:id="L33C26">t</c>
+		<c xml:id="L33C27"> </c>
+		<c xml:id="L33C28">e</c>
+		<c xml:id="L33C29">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L33C30"> </c>
+	</line>
+	<line n="34">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L34C1">f</c>
+			<c xml:id="L34C2">i</c>
+			<c xml:id="L34C3">d</c>
+			<c xml:id="L34C4">e</c>
+			<c xml:id="L34C5">i</c>
+		</supplied>
+		<c xml:id="L34C6">q</c>
+		<c xml:id="L34C7">u</c>
+		<c xml:id="L34C8">e</c>
+		<c xml:id="L34C9"> </c>
+		<c xml:id="L34C10">e</c>
+		<c xml:id="L34C11">i</c>
+		<c xml:id="L34C12">u</c>
+		<c xml:id="L34C13">s</c>
+		<c xml:id="L34C14"> </c>
+		<c xml:id="L34C15">e</c>
+		<c xml:id="L34C16">o</c>
+		<c xml:id="L34C17">r</c>
+		<c xml:id="L34C18">u</c>
+		<c xml:id="L34C19">m</c>
+		<c xml:id="L34C20">q</c>
+		<c xml:id="L34C21">u</c>
+		<c xml:id="L34C22">e</c>
+		<c xml:id="L34C23"> </c>
+		<c xml:id="L34C24">c</c>
+		<c xml:id="L34C25">o</c>
+		<c xml:id="L34C26">m</c>
+		<c xml:id="L34C27">m</c>
+		<c xml:id="L34C28">i</c>
+		<c xml:id="L34C29">t</c>
+		<supplied reason="lost">
+			<c xml:id="L34C30">t</c>
+			<c xml:id="L34C31">o</c>
+			<c xml:id="L34C32"> </c>
+			<c xml:id="L34C33">u</c>
+			<c xml:id="L34C34">t</c>
+			<c xml:id="L34C35"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L34C36"> </c>
+	</line>
+	<line n="35">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L35C1"> </c>
+		<c xml:id="L35C2">e</c>
+		<c xml:id="L35C3">s</c>
+		<c xml:id="L35C4">t</c>
+		<c xml:id="L35C5"> </c>
+		<c xml:id="L35C6">D</c>
+		<c xml:id="L35C7">a</c>
+		<c xml:id="L35C8">m</c>
+		<c xml:id="L35C9">u</c>
+		<c xml:id="L35C10">s</c>
+		<c xml:id="L35C11">i</c>
+		<c xml:id="L35C12">a</c>
+		<c xml:id="L35C13">e</c>
+		<c xml:id="L35C14"> </c>
+		<c xml:id="L35C15">T</c>
+		<c xml:id="L35C16">y</c>
+		<c xml:id="L35C17">c</c>
+		<c xml:id="L35C18">h</c>
+		<c xml:id="L35C19">e</c>
+		<c xml:id="L35C20"> </c>
+		<c xml:id="L35C21">n</c>
+		<c xml:id="L35C22">u</c>
+		<c xml:id="L35C23">t</c>
+		<c xml:id="L35C24">r</c>
+		<c xml:id="L35C25">i</c>
+		<c xml:id="L35C26">c</c>
+		<supplied reason="lost">
+			<c xml:id="L35C27">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L35C28"> </c>
+	</line>
+	<line n="36">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L36C1"> </c>
+		<c xml:id="L36C2">V</c>
+		<c xml:id="L36C3">e</c>
+		<c xml:id="L36C4">n</c>
+		<c xml:id="L36C5">u</c>
+		<c xml:id="L36C6">g</c>
+		<c xml:id="L36C7">u</c>
+		<c xml:id="L36C8">m</c>
+		<c xml:id="L36C9"> </c>
+		<c xml:id="L36C10">A</c>
+		<c xml:id="L36C11">r</c>
+		<c xml:id="L36C12">r</c>
+		<c xml:id="L36C13">u</c>
+		<c xml:id="L36C14">m</c>
+		<c xml:id="L36C15"> </c>
+		<c xml:id="L36C16">p</c>
+		<c xml:id="L36C17">i</c>
+		<c xml:id="L36C18">s</c>
+		<c xml:id="L36C19">c</c>
+		<c xml:id="L36C20">a</c>
+		<c xml:id="L36C21">t</c>
+		<c xml:id="L36C22">o</c>
+		<c xml:id="L36C23">r</c>
+		<supplied reason="lost">
+			<c xml:id="L36C24">e</c>
+			<c xml:id="L36C25">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L36C26"> </c>
+	</line>
+	<line n="37">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L37C1"> </c>
+		<c xml:id="L37C2">e</c>
+		<c xml:id="L37C3">l</c>
+		<c xml:id="L37C4">e</c>
+		<c xml:id="L37C5">g</c>
+		<c xml:id="L37C6">e</c>
+		<c xml:id="L37C7">r</c>
+		<c xml:id="L37C8">i</c>
+		<c xml:id="L37C9">t</c>
+		<c xml:id="L37C10"> </c>
+		<c xml:id="L37C11">p</c>
+		<c xml:id="L37C12">r</c>
+		<c xml:id="L37C13">a</c>
+		<c xml:id="L37C14">e</c>
+		<c xml:id="L37C15">t</c>
+		<c xml:id="L37C16">e</c>
+		<c xml:id="L37C17">r</c>
+		<c xml:id="L37C18">q</c>
+		<c xml:id="L37C19">u</c>
+		<c xml:id="L37C20">a</c>
+		<c xml:id="L37C21">m</c>
+		<c xml:id="L37C22"> </c>
+		<c xml:id="L37C23">|</c>
+		<c xml:id="L37C24">(</c>
+		<c xml:id="L37C25">d</c>
+		<c xml:id="L37C26">e</c>
+		<c xml:id="L37C27">n</c>
+		<c xml:id="L37C28">a</c>
+		<c xml:id="L37C29">r</c>
+		<c xml:id="L37C30">i</c>
+		<c xml:id="L37C31">o</c>
+		<c xml:id="L37C32">r</c>
+		<c xml:id="L37C33">u</c>
+		<c xml:id="L37C34">m</c>
+		<c xml:id="L37C35">)</c>
+		<c xml:id="L37C36"> </c>
+		<c xml:id="L37C37">C</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L37C38"> </c>
+	</line>
+	<line n="38">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L38C1"> </c>
+			<c xml:id="L38C2">a</c>
+			<c xml:id="L38C3">r</c>
+			<c xml:id="L38C4">g</c>
+			<c xml:id="L38C5">e</c>
+			<c xml:id="L38C6">n</c>
+			<c xml:id="L38C7">t</c>
+			<c xml:id="L38C8">i</c>
+			<c xml:id="L38C9"> </c>
+			<c xml:id="L38C10">e</c>
+			<c xml:id="L38C11">s</c>
+		</supplied>
+		<c xml:id="L38C12">c</c>
+		<c xml:id="L38C13">a</c>
+		<c xml:id="L38C14">r</c>
+		<c xml:id="L38C15">i</c>
+		<c xml:id="L38C16"> </c>
+		<c xml:id="L38C17">e</c>
+		<c xml:id="L38C18">t</c>
+		<c xml:id="L38C19"> </c>
+		<c xml:id="L38C20">p</c>
+		<c xml:id="L38C21">o</c>
+		<c xml:id="L38C22">t</c>
+		<c xml:id="L38C23">o</c>
+		<c xml:id="L38C24">r</c>
+		<supplied reason="lost">
+			<c xml:id="L38C25">i</c>
+		</supplied>
+		<c xml:id="L38C26"> </c>
+		<c xml:id="L38C27">e</c>
+		<c xml:id="L38C28">x</c>
+		<c xml:id="L38C29"> </c>
+		<c xml:id="L38C30">m</c>
+		<c xml:id="L38C31">e</c>
+		<c xml:id="L38C32">o</c>
+		<c xml:id="L38C33"> </c>
+		<c xml:id="L38C34">q</c>
+		<c xml:id="L38C35">u</c>
+		<c xml:id="L38C36">o</c>
+		<c xml:id="L38C37">d</c>
+		<c xml:id="L38C38"> </c>
+		<c xml:id="L38C39">e</c>
+		<supplied reason="lost">
+			<c xml:id="L38C40">l</c>
+			<c xml:id="L38C41">e</c>
+			<c xml:id="L38C42">g</c>
+			<c xml:id="L38C43">e</c>
+			<c xml:id="L38C44">r</c>
+			<c xml:id="L38C45">i</c>
+			<c xml:id="L38C46">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L38C47"> </c>
+	</line>
+	<line n="39">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L39C1">c</c>
+			<c xml:id="L39C2">h</c>
+			<c xml:id="L39C3">a</c>
+			<c xml:id="L39C4">r</c>
+			<c xml:id="L39C5">t</c>
+			<c xml:id="L39C6">a</c>
+			<c xml:id="L39C7">m</c>
+		</supplied>
+		<c xml:id="L39C8">v</c>
+		<c xml:id="L39C9">e</c>
+		<c xml:id="L39C10"> </c>
+		<c xml:id="L39C11">p</c>
+		<c xml:id="L39C12">h</c>
+		<c xml:id="L39C13">i</c>
+		<c xml:id="L39C14">l</c>
+		<c xml:id="L39C15">u</c>
+		<c xml:id="L39C16">r</c>
+		<c xml:id="L39C17">a</c>
+		<c xml:id="L39C18">m</c>
+		<c xml:id="L39C19"> </c>
+		<c xml:id="L39C20">c</c>
+		<c xml:id="L39C21">a</c>
+		<c xml:id="L39C22">l</c>
+		<c xml:id="L39C23">c</c>
+		<c xml:id="L39C24">u</c>
+		<c xml:id="L39C25">l</c>
+		<c xml:id="L39C26">a</c>
+		<c xml:id="L39C27">t</c>
+		<c xml:id="L39C28">o</c>
+		<c xml:id="L39C29">r</c>
+		<c xml:id="L39C30">i</c>
+		<c xml:id="L39C31">a</c>
+		<c xml:id="L39C32">m</c>
+		<c xml:id="L39C33"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L39C34"> </c>
+	</line>
+	<line n="40">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L40C1">e</c>
+		</supplied>
+		<c xml:id="L40C2">t</c>
+		<c xml:id="L40C3"> </c>
+		<c xml:id="L40C4">S</c>
+		<c xml:id="L40C5">a</c>
+		<c xml:id="L40C6">b</c>
+		<c xml:id="L40C7">i</c>
+		<c xml:id="L40C8">n</c>
+		<c xml:id="L40C9">u</c>
+		<c xml:id="L40C10">m</c>
+		<c xml:id="L40C11"> </c>
+		<c xml:id="L40C12">n</c>
+		<c xml:id="L40C13">o</c>
+		<c xml:id="L40C14">t</c>
+		<c xml:id="L40C15">a</c>
+		<c xml:id="L40C16">r</c>
+		<c xml:id="L40C17">i</c>
+		<c xml:id="L40C18">u</c>
+		<c xml:id="L40C19">m</c>
+		<c xml:id="L40C20"> </c>
+		<c xml:id="L40C21">e</c>
+		<c xml:id="L40C22">t</c>
+		<c xml:id="L40C23"> </c>
+		<c xml:id="L40C24">M</c>
+		<c xml:id="L40C25">y</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L40C26"> </c>
+	</line>
+	<line n="41">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L41C1">r</c>
+			<c xml:id="L41C2">a</c>
+			<c xml:id="L41C3">t</c>
+		</supplied>
+		<c xml:id="L41C4">i</c>
+		<c xml:id="L41C5">o</c>
+		<c xml:id="L41C6">n</c>
+		<c xml:id="L41C7">i</c>
+		<c xml:id="L41C8">b</c>
+		<c xml:id="L41C9">u</c>
+		<c xml:id="L41C10">s</c>
+		<c xml:id="L41C11"> </c>
+		<c xml:id="L41C12">r</c>
+		<c xml:id="L41C13">e</c>
+		<c xml:id="L41C14">d</c>
+		<c xml:id="L41C15">d</c>
+		<c xml:id="L41C16">i</c>
+		<c xml:id="L41C17">t</c>
+		<c xml:id="L41C18">i</c>
+		<c xml:id="L41C19">s</c>
+		<c xml:id="L41C20"> </c>
+		<c xml:id="L41C21">c</c>
+		<c xml:id="L41C22">u</c>
+		<c xml:id="L41C23">m</c>
+		<c xml:id="L41C24"> </c>
+		<c xml:id="L41C25">c</c>
+		<c xml:id="L41C26">o</c>
+		<c xml:id="L41C27">n</c>
+		<c xml:id="L41C28">t</c>
+		<supplied reason="lost">
+			<c xml:id="L41C29">u</c>
+			<c xml:id="L41C30">b</c>
+			<c xml:id="L41C31">e</c>
+			<c xml:id="L41C32">r</c>
+			<c xml:id="L41C33">n</c>
+			<c xml:id="L41C34">a</c>
+			<c xml:id="L41C35">l</c>
+			<c xml:id="L41C36">i</c>
+			<c xml:id="L41C37">b</c>
+			<c xml:id="L41C38">u</c>
+			<c xml:id="L41C39">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L41C40"> </c>
+	</line>
+	<line n="42">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L42C1">m</c>
+		<c xml:id="L42C2"> </c>
+		<c xml:id="L42C3">c</c>
+		<c xml:id="L42C4">o</c>
+		<c xml:id="L42C5">c</c>
+		<c xml:id="L42C6">u</c>
+		<c xml:id="L42C7">m</c>
+		<c xml:id="L42C8"> </c>
+		<c xml:id="L42C9">e</c>
+		<c xml:id="L42C10">t</c>
+		<c xml:id="L42C11"> </c>
+		<c xml:id="L42C12">G</c>
+		<c xml:id="L42C13">r</c>
+		<c xml:id="L42C14">a</c>
+		<c xml:id="L42C15">m</c>
+		<c xml:id="L42C16">m</c>
+		<c xml:id="L42C17">i</c>
+		<c xml:id="L42C18">c</c>
+		<c xml:id="L42C19">u</c>
+		<c xml:id="L42C20">m</c>
+		<c xml:id="L42C21"> </c>
+		<c xml:id="L42C22">c</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L42C23"> </c>
+	</line>
+	<line n="43">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L43C1"> </c>
+		<c xml:id="L43C2">e</c>
+		<c xml:id="L43C3">t</c>
+		<c xml:id="L43C4"> </c>
+		<c xml:id="L43C5">D</c>
+		<c xml:id="L43C6">i</c>
+		<c xml:id="L43C7">a</c>
+		<c xml:id="L43C8">d</c>
+		<c xml:id="L43C9">u</c>
+		<c xml:id="L43C10">m</c>
+		<c xml:id="L43C11">e</c>
+		<c xml:id="L43C12">n</c>
+		<c xml:id="L43C13">u</c>
+		<c xml:id="L43C14">m</c>
+		<c xml:id="L43C15"> </c>
+		<c xml:id="L43C16">n</c>
+		<c xml:id="L43C17">o</c>
+		<c xml:id="L43C18">t</c>
+		<c xml:id="L43C19">a</c>
+		<c xml:id="L43C20">r</c>
+		<c xml:id="L43C21">i</c>
+		<c xml:id="L43C22">u</c>
+		<c xml:id="L43C23">m</c>
+		<c xml:id="L43C24"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L43C25"> </c>
+	</line>
+	<line n="44">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L44C1">o</c>
+		<c xml:id="L44C2">n</c>
+		<c xml:id="L44C3">e</c>
+		<c xml:id="L44C4">m</c>
+		<c xml:id="L44C5"> </c>
+		<c xml:id="L44C6">s</c>
+		<c xml:id="L44C7">u</c>
+		<c xml:id="L44C8">m</c>
+		<c xml:id="L44C9">p</c>
+		<c xml:id="L44C10">t</c>
+		<c xml:id="L44C11">u</c>
+		<c xml:id="L44C12">a</c>
+		<c xml:id="L44C13">r</c>
+		<c xml:id="L44C14">i</c>
+		<c xml:id="L44C15">u</c>
+		<c xml:id="L44C16">m</c>
+		<c xml:id="L44C17"> </c>
+		<c xml:id="L44C18">r</c>
+		<c xml:id="L44C19">a</c>
+		<c xml:id="L44C20">t</c>
+		<c xml:id="L44C21">i</c>
+		<c xml:id="L44C22">o</c>
+		<c xml:id="L44C23">n</c>
+		<supplied reason="lost">
+			<c xml:id="L44C24">i</c>
+			<c xml:id="L44C25">b</c>
+			<c xml:id="L44C26">u</c>
+			<c xml:id="L44C27">s</c>
+			<c xml:id="L44C28"> </c>
+			<c xml:id="L44C29">r</c>
+			<c xml:id="L44C30">e</c>
+			<c xml:id="L44C31">d</c>
+			<c xml:id="L44C32">d</c>
+			<c xml:id="L44C33">i</c>
+			<c xml:id="L44C34">t</c>
+			<c xml:id="L44C35">i</c>
+			<c xml:id="L44C36">s</c>
+			<c xml:id="L44C37"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L44C38"> </c>
+	</line>
+	<line n="45">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L45C1"> </c>
+			<c xml:id="L45C2">i</c>
+			<c xml:id="L45C3">n</c>
+			<c xml:id="L45C4"> </c>
+			<c xml:id="L45C5">m</c>
+		</supplied>
+		<c xml:id="L45C6">a</c>
+		<c xml:id="L45C7">t</c>
+		<c xml:id="L45C8">r</c>
+		<c xml:id="L45C9">i</c>
+		<c xml:id="L45C10">m</c>
+		<c xml:id="L45C11">o</c>
+		<c xml:id="L45C12">n</c>
+		<c xml:id="L45C13">i</c>
+		<c xml:id="L45C14">o</c>
+		<c xml:id="L45C15"> </c>
+		<c xml:id="L45C16">h</c>
+		<c xml:id="L45C17">a</c>
+		<c xml:id="L45C18">b</c>
+		<c xml:id="L45C19">e</c>
+		<c xml:id="L45C20">a</c>
+		<c xml:id="L45C21">t</c>
+		<c xml:id="L45C22"> </c>
+		<c xml:id="L45C23">f</c>
+		<c xml:id="L45C24">i</c>
+		<c xml:id="L45C25">d</c>
+		<c xml:id="L45C26">e</c>
+		<c xml:id="L45C27">l</c>
+		<c xml:id="L45C28">e</c>
+		<c xml:id="L45C29"> </c>
+		<c xml:id="L45C30">I</c>
+		<c xml:id="L45C31">u</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L45C32"> </c>
+	</line>
+	<line n="46">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L46C1"> </c>
+			<c xml:id="L46C2">i</c>
+			<c xml:id="L46C3">n</c>
+			<c xml:id="L46C4"> </c>
+			<c xml:id="L46C5">a</c>
+		</supplied>
+		<c xml:id="L46C6">r</c>
+		<c xml:id="L46C7">c</c>
+		<c xml:id="L46C8">u</c>
+		<c xml:id="L46C9">l</c>
+		<c xml:id="L46C10">i</c>
+		<c xml:id="L46C11">s</c>
+		<c xml:id="L46C12"> </c>
+		<c xml:id="L46C13">p</c>
+		<c xml:id="L46C14">u</c>
+		<c xml:id="L46C15">s</c>
+		<c xml:id="L46C16">i</c>
+		<c xml:id="L46C17">l</c>
+		<c xml:id="L46C18">l</c>
+		<c xml:id="L46C19">i</c>
+		<c xml:id="L46C20">s</c>
+		<c xml:id="L46C21"> </c>
+		<c xml:id="L46C22">c</c>
+		<c xml:id="L46C23">o</c>
+		<c xml:id="L46C24">m</c>
+		<c xml:id="L46C25">p</c>
+		<c xml:id="L46C26">o</c>
+		<c xml:id="L46C27">n</c>
+		<c xml:id="L46C28">i</c>
+		<c xml:id="L46C29"> </c>
+		<c xml:id="L46C30">T</c>
+		<c xml:id="L46C31">u</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L46C32"> </c>
+	</line>
+	<line n="47">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L47C1">o</c>
+		<c xml:id="L47C2">l</c>
+		<c xml:id="L47C3">o</c>
+		<c xml:id="L47C4">n</c>
+		<c xml:id="L47C5">o</c>
+		<c xml:id="L47C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L47C7">l</c>
+				<c xml:id="L47C8">i</c>
+				<c xml:id="L47C9">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L47C10">e</c>
+				<c xml:id="L47C11">r</c>
+				<c xml:id="L47C12">t</c>
+				<c xml:id="L47C13">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L47C14"> </c>
+		<c xml:id="L47C15">|</c>
+		<c xml:id="L47C16">(</c>
+		<c xml:id="L47C17">d</c>
+		<c xml:id="L47C18">e</c>
+		<c xml:id="L47C19">n</c>
+		<c xml:id="L47C20">a</c>
+		<c xml:id="L47C21">r</c>
+		<c xml:id="L47C22">i</c>
+		<c xml:id="L47C23">o</c>
+		<c xml:id="L47C24">r</c>
+		<c xml:id="L47C25">u</c>
+		<c xml:id="L47C26">m</c>
+		<c xml:id="L47C27"> </c>
+		<c xml:id="L47C28">m</c>
+		<c xml:id="L47C29">i</c>
+		<c xml:id="L47C30">l</c>
+		<c xml:id="L47C31">l</c>
+		<c xml:id="L47C32">e</c>
+		<c xml:id="L47C33">)</c>
+		<c xml:id="L47C34"> </c>
+		<c xml:id="L47C35">D</c>
+		<c xml:id="L47C36">a</c>
+		<c xml:id="L47C37">s</c>
+		<c xml:id="L47C38">u</c>
+		<c xml:id="L47C39">m</c>
+		<c xml:id="L47C40">i</c>
+		<c xml:id="L47C41">a</c>
+		<c xml:id="L47C42">e</c>
+		<c xml:id="L47C43"> </c>
+		<c xml:id="L47C44">S</c>
+		<c xml:id="L47C45">y</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L47C46"> </c>
+	</line>
+	<line n="48">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L48C1">l</c>
+					<c xml:id="L48C2">i</c>
+				</supplied>
+				<c xml:id="L48C3">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L48C4">e</c>
+				<c xml:id="L48C5">r</c>
+				<c xml:id="L48C6">t</c>
+				<c xml:id="L48C7">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L48C8"> </c>
+		<c xml:id="L48C9">|</c>
+		<c xml:id="L48C10">(</c>
+		<c xml:id="L48C11">d</c>
+		<c xml:id="L48C12">e</c>
+		<c xml:id="L48C13">n</c>
+		<c xml:id="L48C14">a</c>
+		<c xml:id="L48C15">r</c>
+		<c xml:id="L48C16">i</c>
+		<c xml:id="L48C17">o</c>
+		<c xml:id="L48C18">r</c>
+		<c xml:id="L48C19">u</c>
+		<c xml:id="L48C20">m</c>
+		<c xml:id="L48C21"> </c>
+		<c xml:id="L48C22">m</c>
+		<c xml:id="L48C23">i</c>
+		<c xml:id="L48C24">l</c>
+		<c xml:id="L48C25">l</c>
+		<c xml:id="L48C26">e</c>
+		<c xml:id="L48C27">)</c>
+		<c xml:id="L48C28"> </c>
+		<c xml:id="L48C29">H</c>
+		<c xml:id="L48C30">e</c>
+		<c xml:id="L48C31">l</c>
+		<c xml:id="L48C32">i</c>
+		<c xml:id="L48C33">o</c>
+		<c xml:id="L48C34">p</c>
+		<c xml:id="L48C35">a</c>
+		<c xml:id="L48C36">e</c>
+		<c xml:id="L48C37">d</c>
+		<c xml:id="L48C38">i</c>
+		<c xml:id="L48C39"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L48C40">l</c>
+				<c xml:id="L48C41">i</c>
+				<c xml:id="L48C42">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L48C43">e</c>
+				<c xml:id="L48C44">r</c>
+				<c xml:id="L48C45">t</c>
+				<c xml:id="L48C46">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L48C47"> </c>
+		<c xml:id="L48C48">|</c>
+		<c xml:id="L48C49">(</c>
+		<c xml:id="L48C50">d</c>
+		<c xml:id="L48C51">e</c>
+		<c xml:id="L48C52">n</c>
+		<c xml:id="L48C53">a</c>
+		<c xml:id="L48C54">r</c>
+		<c xml:id="L48C55">i</c>
+		<c xml:id="L48C56">o</c>
+		<c xml:id="L48C57">r</c>
+		<c xml:id="L48C58">u</c>
+		<c xml:id="L48C59">m</c>
+		<c xml:id="L48C60">)</c>
+		<c xml:id="L48C61"> </c>
+		<c xml:id="L48C62">m</c>
+		<c xml:id="L48C63">i</c>
+		<c xml:id="L48C64">l</c>
+		<c xml:id="L48C65">l</c>
+		<c xml:id="L48C66">e</c>
+		<c xml:id="L48C67"> </c>
+		<c xml:id="L48C68">C</c>
+		<c xml:id="L48C69">a</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L48C70"> </c>
+	</line>
+	<line n="49">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L49C1"> </c>
+		<c xml:id="L49C2">s</c>
+		<c xml:id="L49C3">i</c>
+		<c xml:id="L49C4">n</c>
+		<c xml:id="L49C5">g</c>
+		<c xml:id="L49C6">u</c>
+		<c xml:id="L49C7">l</c>
+		<c xml:id="L49C8">i</c>
+		<c xml:id="L49C9">s</c>
+		<c xml:id="L49C10"> </c>
+		<c xml:id="L49C11">|</c>
+		<c xml:id="L49C12">(</c>
+		<c xml:id="L49C13">d</c>
+		<c xml:id="L49C14">e</c>
+		<c xml:id="L49C15">n</c>
+		<c xml:id="L49C16">a</c>
+		<c xml:id="L49C17">r</c>
+		<c xml:id="L49C18">i</c>
+		<c xml:id="L49C19">o</c>
+		<c xml:id="L49C20">r</c>
+		<c xml:id="L49C21">u</c>
+		<c xml:id="L49C22">m</c>
+		<c xml:id="L49C23"> </c>
+		<c xml:id="L49C24">m</c>
+		<c xml:id="L49C25">i</c>
+		<c xml:id="L49C26">l</c>
+		<c xml:id="L49C27">l</c>
+		<c xml:id="L49C28">e</c>
+		<c xml:id="L49C29">)</c>
+		<c xml:id="L49C30"> </c>
+		<c xml:id="L49C31">E</c>
+		<c xml:id="L49C32">u</c>
+		<c xml:id="L49C33">r</c>
+		<c xml:id="L49C34">o</c>
+		<c xml:id="L49C35">t</c>
+		<c xml:id="L49C36">a</c>
+		<c xml:id="L49C37">e</c>
+		<c xml:id="L49C38"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L49C39">l</c>
+				<c xml:id="L49C40">i</c>
+				<c xml:id="L49C41">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L49C42">e</c>
+				<c xml:id="L49C43">r</c>
+				<c xml:id="L49C44">t</c>
+				<c xml:id="L49C45">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L49C46"> </c>
+		<c xml:id="L49C47">|</c>
+		<c xml:id="L49C48">(</c>
+		<c xml:id="L49C49">d</c>
+		<c xml:id="L49C50">e</c>
+		<c xml:id="L49C51">n</c>
+		<c xml:id="L49C52">a</c>
+		<c xml:id="L49C53">r</c>
+		<c xml:id="L49C54">i</c>
+		<c xml:id="L49C55">o</c>
+		<c xml:id="L49C56">r</c>
+		<c xml:id="L49C57">u</c>
+		<c xml:id="L49C58">m</c>
+		<c xml:id="L49C59">)</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L49C60"> </c>
+	</line>
+	<line n="50">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L50C1">i</c>
+		<c xml:id="L50C2"> </c>
+		<c xml:id="L50C3">E</c>
+		<c xml:id="L50C4">r</c>
+		<c xml:id="L50C5">o</c>
+		<c xml:id="L50C6">s</c>
+		<c xml:id="L50C7"> </c>
+		<c xml:id="L50C8">v</c>
+		<c xml:id="L50C9">e</c>
+		<c xml:id="L50C10">s</c>
+		<c xml:id="L50C11">t</c>
+		<c xml:id="L50C12">i</c>
+		<c xml:id="L50C13">a</c>
+		<c xml:id="L50C14">r</c>
+		<c xml:id="L50C15">i</c>
+		<c xml:id="L50C16">u</c>
+		<c xml:id="L50C17">s</c>
+		<c xml:id="L50C18"> </c>
+		<c xml:id="L50C19">r</c>
+		<c xml:id="L50C20">a</c>
+		<c xml:id="L50C21">t</c>
+		<c xml:id="L50C22">i</c>
+		<c xml:id="L50C23">o</c>
+		<c xml:id="L50C24">n</c>
+		<c xml:id="L50C25">e</c>
+		<c xml:id="L50C26"> </c>
+		<c xml:id="L50C27">u</c>
+		<supplied reason="lost">
+			<c xml:id="L50C28">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L50C29"> </c>
+	</line>
+	<line n="51">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L51C1">p</c>
+			<c xml:id="L51C2">a</c>
+			<c xml:id="L51C3">e</c>
+			<c xml:id="L51C4">d</c>
+			<c xml:id="L51C5">a</c>
+		</supplied>
+		<c xml:id="L51C6">g</c>
+		<c xml:id="L51C7">o</c>
+		<c xml:id="L51C8">g</c>
+		<c xml:id="L51C9">u</c>
+		<c xml:id="L51C10">s</c>
+		<c xml:id="L51C11"> </c>
+		<c xml:id="L51C12">r</c>
+		<c xml:id="L51C13">a</c>
+		<c xml:id="L51C14">t</c>
+		<c xml:id="L51C15">i</c>
+		<c xml:id="L51C16">o</c>
+		<c xml:id="L51C17">n</c>
+		<c xml:id="L51C18">e</c>
+		<c xml:id="L51C19"> </c>
+		<c xml:id="L51C20">r</c>
+		<c xml:id="L51C21">e</c>
+		<c xml:id="L51C22">d</c>
+		<c xml:id="L51C23">d</c>
+		<c xml:id="L51C24">i</c>
+		<c xml:id="L51C25">t</c>
+		<c xml:id="L51C26">a</c>
+		<c xml:id="L51C27"> </c>
+		<c xml:id="L51C28">P</c>
+		<c xml:id="L51C29">h</c>
+		<c xml:id="L51C30">o</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L51C31"> </c>
+	</line>
+	<line n="52">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L52C1">m</c>
+		<c xml:id="L52C2"> </c>
+		<c xml:id="L52C3">e</c>
+		<c xml:id="L52C4">x</c>
+		<c xml:id="L52C5"> </c>
+		<c xml:id="L52C6">h</c>
+		<c xml:id="L52C7">i</c>
+		<c xml:id="L52C8">s</c>
+		<c xml:id="L52C9"> </c>
+		<c xml:id="L52C10">a</c>
+		<c xml:id="L52C11">l</c>
+		<c xml:id="L52C12">i</c>
+		<c xml:id="L52C13">o</c>
+		<c xml:id="L52C14"> </c>
+		<c xml:id="L52C15">s</c>
+		<c xml:id="L52C16">c</c>
+		<c xml:id="L52C17">r</c>
+		<c xml:id="L52C18">i</c>
+		<c xml:id="L52C19">p</c>
+		<c xml:id="L52C20">t</c>
+		<c xml:id="L52C21">o</c>
+		<c xml:id="L52C22"> </c>
+		<c xml:id="L52C23">l</c>
+		<c xml:id="L52C24">i</c>
+		<c xml:id="L52C25">b</c>
+		<c xml:id="L52C26">e</c>
+		<c xml:id="L52C27">r</c>
+		<c xml:id="L52C28">u</c>
+		<supplied reason="lost">
+			<c xml:id="L52C29">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L52C30"> </c>
+	</line>
+	<line n="53">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L53C1">q</c>
+		<c xml:id="L53C2">u</c>
+		<c xml:id="L53C3">e</c>
+		<c xml:id="L53C4"> </c>
+		<c xml:id="L53C5">v</c>
+		<c xml:id="L53C6">i</c>
+		<c xml:id="L53C7">c</c>
+		<c xml:id="L53C8">e</c>
+		<c xml:id="L53C9">n</c>
+		<c xml:id="L53C10">s</c>
+		<supplied reason="lost">
+			<c xml:id="L53C11">i</c>
+		</supplied>
+		<c xml:id="L53C12">m</c>
+		<c xml:id="L53C13">a</c>
+		<c xml:id="L53C14">e</c>
+		<c xml:id="L53C15"> </c>
+		<c xml:id="L53C16">n</c>
+		<c xml:id="L53C17">o</c>
+		<c xml:id="L53C18">m</c>
+		<c xml:id="L53C19">i</c>
+		<c xml:id="L53C20">n</c>
+		<c xml:id="L53C21">e</c>
+		<c xml:id="L53C22"> </c>
+		<c xml:id="L53C23">e</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L53C24"> </c>
+	</line>
+	<line n="54">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L54C1">e</c>
+		<c xml:id="L54C2">s</c>
+		<c xml:id="L54C3"> </c>
+		<c xml:id="L54C4">q</c>
+		<c xml:id="L54C5">u</c>
+		<c xml:id="L54C6">o</c>
+		<c xml:id="L54C7">s</c>
+		<c xml:id="L54C8"> </c>
+		<c xml:id="L54C9">l</c>
+		<c xml:id="L54C10">i</c>
+		<c xml:id="L54C11">b</c>
+		<c xml:id="L54C12">e</c>
+		<c xml:id="L54C13">r</c>
+		<c xml:id="L54C14">o</c>
+		<c xml:id="L54C15">s</c>
+		<c xml:id="L54C16"> </c>
+		<c xml:id="L54C17">e</c>
+		<c xml:id="L54C18">s</c>
+		<c xml:id="L54C19">s</c>
+		<c xml:id="L54C20">e</c>
+		<c xml:id="L54C21"> </c>
+		<c xml:id="L54C22">i</c>
+		<c xml:id="L54C23">u</c>
+		<c xml:id="L54C24">s</c>
+		<c xml:id="L54C25">s</c>
+		<c xml:id="L54C26">i</c>
+		<c xml:id="L54C27"> </c>
+		<c xml:id="L54C28">e</c>
+		<c xml:id="L54C29">o</c>
+		<c xml:id="L54C30"> </c>
+		<c xml:id="L54C31">s</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L54C32"> </c>
+	</line>
+	<line n="55">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L55C1">e</c>
+		<c xml:id="L55C2">m</c>
+		<c xml:id="L55C3"> </c>
+		<c xml:id="L55C4">e</c>
+		<c xml:id="L55C5">o</c>
+		<c xml:id="L55C6">r</c>
+		<c xml:id="L55C7">u</c>
+		<c xml:id="L55C8">m</c>
+		<c xml:id="L55C9"> </c>
+		<c xml:id="L55C10">c</c>
+		<c xml:id="L55C11">o</c>
+		<c xml:id="L55C12">m</c>
+		<c xml:id="L55C13">m</c>
+		<c xml:id="L55C14">i</c>
+		<c xml:id="L55C15">t</c>
+		<c xml:id="L55C16">t</c>
+		<c xml:id="L55C17">o</c>
+		<c xml:id="L55C18"> </c>
+		<c xml:id="L55C19">q</c>
+		<c xml:id="L55C20">u</c>
+		<c xml:id="L55C21">i</c>
+		<c xml:id="L55C22">s</c>
+		<supplied reason="lost">
+			<c xml:id="L55C23">q</c>
+			<c xml:id="L55C24">u</c>
+			<c xml:id="L55C25">i</c>
+			<c xml:id="L55C26">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L55C27"> </c>
+	</line>
+	<line n="56">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L56C1">t</c>
+			<c xml:id="L56C2">r</c>
+			<c xml:id="L56C3">i</c>
+		</supplied>
+		<c xml:id="L56C4">b</c>
+		<c xml:id="L56C5">u</c>
+		<c xml:id="L56C6">a</c>
+		<c xml:id="L56C7">n</c>
+		<c xml:id="L56C8">t</c>
+		<c xml:id="L56C9"> </c>
+		<c xml:id="L56C10">c</c>
+		<c xml:id="L56C11">o</c>
+		<c xml:id="L56C12">n</c>
+		<supplied reason="lost">
+			<c xml:id="L56C13">c</c>
+		</supplied>
+		<c xml:id="L56C14">e</c>
+		<c xml:id="L56C15">d</c>
+		<c xml:id="L56C16">a</c>
+		<c xml:id="L56C17">n</c>
+		<c xml:id="L56C18">t</c>
+		<c xml:id="L56C19"> </c>
+		<c xml:id="L56C20">s</c>
+		<c xml:id="L56C21">i</c>
+		<c xml:id="L56C22">n</c>
+		<c xml:id="L56C23">e</c>
+		<c xml:id="L56C24"> </c>
+		<c xml:id="L56C25">u</c>
+		<c xml:id="L56C26">l</c>
+		<c xml:id="L56C27">l</c>
+		<supplied reason="lost">
+			<c xml:id="L56C28">o</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L56C29"> </c>
+	</line>
+	<line n="57">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L57C1">h</c>
+			<c xml:id="L57C2">o</c>
+		</supplied>
+		<c xml:id="L57C3">c</c>
+		<c xml:id="L57C4"> </c>
+		<c xml:id="L57C5">a</c>
+		<c xml:id="L57C6">m</c>
+		<c xml:id="L57C7">p</c>
+		<c xml:id="L57C8">l</c>
+		<c xml:id="L57C9">i</c>
+		<c xml:id="L57C10">u</c>
+		<c xml:id="L57C11">s</c>
+		<c xml:id="L57C12"> </c>
+		<c xml:id="L57C13">|</c>
+		<c xml:id="L57C14">(</c>
+		<c xml:id="L57C15">d</c>
+		<c xml:id="L57C16">e</c>
+		<c xml:id="L57C17">n</c>
+		<c xml:id="L57C18">a</c>
+		<c xml:id="L57C19">r</c>
+		<c xml:id="L57C20">i</c>
+		<c xml:id="L57C21">o</c>
+		<c xml:id="L57C22">r</c>
+		<c xml:id="L57C23">u</c>
+		<c xml:id="L57C24">m</c>
+		<c xml:id="L57C25">)</c>
+		<c xml:id="L57C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L57C27">V</c>
+			</abbr>
+			<ex>
+				<c xml:id="L57C28">q</c>
+				<c xml:id="L57C29">u</c>
+				<c xml:id="L57C30">i</c>
+				<c xml:id="L57C31">n</c>
+				<c xml:id="L57C32">q</c>
+				<c xml:id="L57C33">u</c>
+				<c xml:id="L57C34">e</c>
+				<c xml:id="L57C35"> </c>
+				<c xml:id="L57C36">m</c>
+				<c xml:id="L57C37">i</c>
+				<c xml:id="L57C38">l</c>
+				<c xml:id="L57C39">i</c>
+				<c xml:id="L57C40">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L57C41"> </c>
+		<c xml:id="L57C42">e</c>
+		<c xml:id="L57C43">t</c>
+		<c xml:id="L57C44"> </c>
+		<c xml:id="L57C45">h</c>
+		<c xml:id="L57C46">o</c>
+		<c xml:id="L57C47">c</c>
+		<c xml:id="L57C48"> </c>
+		<c xml:id="L57C49">a</c>
+		<c xml:id="L57C50">m</c>
+		<c xml:id="L57C51">p</c>
+		<c xml:id="L57C52">l</c>
+		<c xml:id="L57C53">i</c>
+		<supplied reason="lost">
+			<c xml:id="L57C54">u</c>
+			<c xml:id="L57C55">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L57C56"> </c>
+	</line>
+	<line n="58">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L58C1">c</c>
+		<c xml:id="L58C2">u</c>
+		<c xml:id="L58C3">m</c>
+		<c xml:id="L58C4"> </c>
+		<c xml:id="L58C5">p</c>
+		<c xml:id="L58C6">r</c>
+		<c xml:id="L58C7">i</c>
+		<c xml:id="L58C8">m</c>
+		<c xml:id="L58C9">u</c>
+		<c xml:id="L58C10">m</c>
+		<c xml:id="L58C11"> </c>
+		<c xml:id="L58C12">m</c>
+		<c xml:id="L58C13">a</c>
+		<c xml:id="L58C14">n</c>
+		<c xml:id="L58C15">u</c>
+		<c xml:id="L58C16">m</c>
+		<c xml:id="L58C17">i</c>
+		<c xml:id="L58C18">s</c>
+		<c xml:id="L58C19">s</c>
+		<c xml:id="L58C20">a</c>
+		<c xml:id="L58C21"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L58C22"> </c>
+	</line>
+	<line n="59">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L59C1">a</c>
+		</supplied>
+		<c xml:id="L59C2">r</c>
+		<c xml:id="L59C3">c</c>
+		<c xml:id="L59C4">u</c>
+		<c xml:id="L59C5">l</c>
+		<c xml:id="L59C6">a</c>
+		<c xml:id="L59C7">m</c>
+		<c xml:id="L59C8"> </c>
+		<c xml:id="L59C9">T</c>
+		<c xml:id="L59C10">h</c>
+		<c xml:id="L59C11">a</c>
+		<supplied reason="lost">
+			<c xml:id="L59C12">l</c>
+			<c xml:id="L59C13">l</c>
+		</supplied>
+		<c xml:id="L59C14">u</c>
+		<c xml:id="L59C15">m</c>
+		<c xml:id="L59C16"> </c>
+		<c xml:id="L59C17">o</c>
+		<c xml:id="L59C18">r</c>
+		<c xml:id="L59C19">n</c>
+		<c xml:id="L59C20">a</c>
+		<c xml:id="L59C21">t</c>
+		<c xml:id="L59C22">o</c>
+		<supplied reason="lost">
+			<c xml:id="L59C23">r</c>
+			<c xml:id="L59C24">e</c>
+			<c xml:id="L59C25">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L59C26"> </c>
+	</line>
+	<line n="60">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L60C1"> </c>
+			<c xml:id="L60C2">s</c>
+			<c xml:id="L60C3">u</c>
+			<c xml:id="L60C4">p</c>
+			<c xml:id="L60C5">r</c>
+			<c xml:id="L60C6">a</c>
+			<c xml:id="L60C7"> </c>
+			<c xml:id="L60C8">n</c>
+			<c xml:id="L60C9">o</c>
+			<c xml:id="L60C10">m</c>
+			<c xml:id="L60C11">i</c>
+			<c xml:id="L60C12">n</c>
+		</supplied>
+		<c xml:id="L60C13">a</c>
+		<c xml:id="L60C14">t</c>
+		<c xml:id="L60C15">i</c>
+		<c xml:id="L60C16"> </c>
+		<c xml:id="L60C17">d</c>
+		<c xml:id="L60C18">e</c>
+		<c xml:id="L60C19">n</c>
+		<c xml:id="L60C20">t</c>
+		<c xml:id="L60C21"> </c>
+		<c xml:id="L60C22">t</c>
+		<c xml:id="L60C23">r</c>
+		<c xml:id="L60C24">i</c>
+		<c xml:id="L60C25">b</c>
+		<c xml:id="L60C26">u</c>
+		<c xml:id="L60C27">a</c>
+		<c xml:id="L60C28">n</c>
+		<c xml:id="L60C29">t</c>
+		<c xml:id="L60C30"> </c>
+		<c xml:id="L60C31">c</c>
+		<c xml:id="L60C32">o</c>
+		<c xml:id="L60C33">n</c>
+		<c xml:id="L60C34">c</c>
+		<c xml:id="L60C35">e</c>
+		<c xml:id="L60C36">d</c>
+		<c xml:id="L60C37">a</c>
+		<c xml:id="L60C38">n</c>
+		<supplied reason="lost">
+			<c xml:id="L60C39">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L60C40"> </c>
+	</line>
+	<line n="61">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L61C1">T</c>
+			<c xml:id="L61C2">h</c>
+			<c xml:id="L61C3">a</c>
+			<c xml:id="L61C4">u</c>
+		</supplied>
+		<c xml:id="L61C5">m</c>
+		<c xml:id="L61C6">a</c>
+		<c xml:id="L61C7">s</c>
+		<c xml:id="L61C8">t</c>
+		<c xml:id="L61C9">o</c>
+		<c xml:id="L61C10"> </c>
+		<c xml:id="L61C11">A</c>
+		<c xml:id="L61C12">n</c>
+		<c xml:id="L61C13">a</c>
+		<c xml:id="L61C14">t</c>
+		<c xml:id="L61C15">e</c>
+		<c xml:id="L61C16">l</c>
+		<c xml:id="L61C17">l</c>
+		<c xml:id="L61C18">o</c>
+		<c xml:id="L61C19">n</c>
+		<c xml:id="L61C20">t</c>
+		<c xml:id="L61C21">i</c>
+		<c xml:id="L61C22"> </c>
+		<c xml:id="L61C23">l</c>
+		<c xml:id="L61C24">i</c>
+		<c xml:id="L61C25">b</c>
+		<c xml:id="L61C26">e</c>
+		<c xml:id="L61C27">r</c>
+		<c xml:id="L61C28">t</c>
+		<c xml:id="L61C29">i</c>
+		<supplied reason="lost">
+			<c xml:id="L61C30">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L61C31"> </c>
+	</line>
+	<line n="62">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L62C1">n</c>
+		<c xml:id="L62C2">i</c>
+		<c xml:id="L62C3"> </c>
+		<c xml:id="L62C4">v</c>
+		<c xml:id="L62C5">e</c>
+		<c xml:id="L62C6">s</c>
+		<c xml:id="L62C7">t</c>
+		<c xml:id="L62C8">i</c>
+		<c xml:id="L62C9">a</c>
+		<c xml:id="L62C10">r</c>
+		<c xml:id="L62C11">i</c>
+		<c xml:id="L62C12"> </c>
+		<c xml:id="L62C13">n</c>
+		<c xml:id="L62C14">o</c>
+		<c xml:id="L62C15">m</c>
+		<c xml:id="L62C16">i</c>
+		<c xml:id="L62C17">n</c>
+		<c xml:id="L62C18">e</c>
+		<c xml:id="L62C19"> </c>
+		<c xml:id="L62C20">s</c>
+		<c xml:id="L62C21">i</c>
+		<c xml:id="L62C22">n</c>
+		<c xml:id="L62C23">g</c>
+		<c xml:id="L62C24">u</c>
+		<supplied reason="lost">
+			<c xml:id="L62C25">l</c>
+			<c xml:id="L62C26">i</c>
+			<c xml:id="L62C27">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L62C28"> </c>
+	</line>
+	<line n="63">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L63C1">T</c>
+			<c xml:id="L63C2">e</c>
+		</supplied>
+		<c xml:id="L63C3">r</c>
+		<c xml:id="L63C4">p</c>
+		<c xml:id="L63C5">n</c>
+		<c xml:id="L63C6">o</c>
+		<c xml:id="L63C7"> </c>
+		<c xml:id="L63C8">A</c>
+		<c xml:id="L63C9">c</c>
+		<c xml:id="L63C10">h</c>
+		<c xml:id="L63C11">i</c>
+		<c xml:id="L63C12">l</c>
+		<c xml:id="L63C13">l</c>
+		<c xml:id="L63C14">i</c>
+		<c xml:id="L63C15"> </c>
+		<c xml:id="L63C16">H</c>
+		<c xml:id="L63C17">e</c>
+		<c xml:id="L63C18">l</c>
+		<c xml:id="L63C19">i</c>
+		<c xml:id="L63C20">o</c>
+		<c xml:id="L63C21">p</c>
+		<c xml:id="L63C22">a</c>
+		<c xml:id="L63C23">e</c>
+		<c xml:id="L63C24">d</c>
+		<c xml:id="L63C25">i</c>
+		<c xml:id="L63C26"> </c>
+		<c xml:id="L63C27">l</c>
+		<c xml:id="L63C28">i</c>
+		<c xml:id="L63C29">b</c>
+		<supplied reason="lost">
+			<c xml:id="L63C30">e</c>
+			<c xml:id="L63C31">r</c>
+			<c xml:id="L63C32">t</c>
+			<c xml:id="L63C33">i</c>
+			<c xml:id="L63C34">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L63C35"> </c>
+	</line>
+	<line n="64">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L64C1"> </c>
+			<c xml:id="L64C2">i</c>
+			<c xml:id="L64C3">n</c>
+			<c xml:id="L64C4"> </c>
+			<c xml:id="L64C5">s</c>
+			<c xml:id="L64C6">i</c>
+			<c xml:id="L64C7">n</c>
+			<c xml:id="L64C8">g</c>
+		</supplied>
+		<c xml:id="L64C9">u</c>
+		<c xml:id="L64C10">l</c>
+		<c xml:id="L64C11">o</c>
+		<c xml:id="L64C12">s</c>
+		<c xml:id="L64C13"> </c>
+		<c xml:id="L64C14">a</c>
+		<c xml:id="L64C15">n</c>
+		<c xml:id="L64C16">n</c>
+		<c xml:id="L64C17">o</c>
+		<c xml:id="L64C18">s</c>
+		<c xml:id="L64C19"> </c>
+		<c xml:id="L64C20">q</c>
+		<c xml:id="L64C21">u</c>
+		<c xml:id="L64C22">a</c>
+		<c xml:id="L64C23">n</c>
+		<c xml:id="L64C24">d</c>
+		<c xml:id="L64C25">i</c>
+		<c xml:id="L64C26">u</c>
+		<c xml:id="L64C27"> </c>
+		<c xml:id="L64C28">q</c>
+		<c xml:id="L64C29">u</c>
+		<c xml:id="L64C30">i</c>
+		<c xml:id="L64C31">s</c>
+		<c xml:id="L64C32"> </c>
+		<c xml:id="L64C33">e</c>
+		<c xml:id="L64C34">o</c>
+		<supplied reason="lost">
+			<c xml:id="L64C35">r</c>
+			<c xml:id="L64C36">u</c>
+			<c xml:id="L64C37">m</c>
+			<c xml:id="L64C38"> </c>
+			<c xml:id="L64C39">v</c>
+			<c xml:id="L64C40">i</c>
+			<c xml:id="L64C41">v</c>
+			<c xml:id="L64C42">e</c>
+			<c xml:id="L64C43">t</c>
+			<c xml:id="L64C44"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L64C45"> </c>
+	</line>
+	<line n="65">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L65C1">q</c>
+			<c xml:id="L65C2">u</c>
+			<c xml:id="L65C3">a</c>
+			<c xml:id="L65C4">m</c>
+			<c xml:id="L65C5">d</c>
+			<c xml:id="L65C6">i</c>
+		</supplied>
+		<c xml:id="L65C7">u</c>
+		<c xml:id="L65C8"> </c>
+		<c xml:id="L65C9">q</c>
+		<c xml:id="L65C10">u</c>
+		<c xml:id="L65C11">i</c>
+		<c xml:id="L65C12">s</c>
+		<c xml:id="L65C13"> </c>
+		<c xml:id="L65C14">e</c>
+		<c xml:id="L65C15">o</c>
+		<c xml:id="L65C16">r</c>
+		<c xml:id="L65C17">u</c>
+		<c xml:id="L65C18">m</c>
+		<c xml:id="L65C19"> </c>
+		<c xml:id="L65C20">v</c>
+		<c xml:id="L65C21">i</c>
+		<c xml:id="L65C22">v</c>
+		<c xml:id="L65C23">e</c>
+		<c xml:id="L65C24">t</c>
+		<c xml:id="L65C25"> </c>
+		<c xml:id="L65C26">i</c>
+		<c xml:id="L65C27">n</c>
+		<c xml:id="L65C28">i</c>
+		<c xml:id="L65C29">t</c>
+		<c xml:id="L65C30">i</c>
+		<c xml:id="L65C31">o</c>
+		<c xml:id="L65C32"> </c>
+		<c xml:id="L65C33">c</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L65C34"> </c>
+	</line>
+	<line n="66">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L66C1">n</c>
+		<c xml:id="L66C2">t</c>
+		<c xml:id="L66C3">o</c>
+		<c xml:id="L66C4">v</c>
+		<c xml:id="L66C5">e</c>
+		<c xml:id="L66C6"> </c>
+		<c xml:id="L66C7">d</c>
+		<c xml:id="L66C8">a</c>
+		<c xml:id="L66C9">r</c>
+		<c xml:id="L66C10">e</c>
+		<c xml:id="L66C11"> </c>
+		<c xml:id="L66C12">i</c>
+		<c xml:id="L66C13">n</c>
+		<c xml:id="L66C14">f</c>
+		<c xml:id="L66C15">r</c>
+		<c xml:id="L66C16">a</c>
+		<c xml:id="L66C17"> </c>
+		<c xml:id="L66C18">s</c>
+		<c xml:id="L66C19">c</c>
+		<c xml:id="L66C20">r</c>
+		<c xml:id="L66C21">i</c>
+		<c xml:id="L66C22">p</c>
+		<c xml:id="L66C23">t</c>
+		<c xml:id="L66C24">i</c>
+		<c xml:id="L66C25">s</c>
+		<c xml:id="L66C26"> </c>
+		<c xml:id="L66C27">c</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L66C28"> </c>
+	</line>
+	<line n="67">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L67C1">m</c>
+		<c xml:id="L67C2"> </c>
+		<c xml:id="L67C3">a</c>
+		<c xml:id="L67C4">u</c>
+		<c xml:id="L67C5">r</c>
+		<c xml:id="L67C6">e</c>
+		<c xml:id="L67C7">a</c>
+		<c xml:id="L67C8">m</c>
+		<c xml:id="L67C9"> </c>
+		<c xml:id="L67C10">m</c>
+		<c xml:id="L67C11">e</c>
+		<c xml:id="L67C12">a</c>
+		<c xml:id="L67C13">m</c>
+		<c xml:id="L67C14"> </c>
+		<c xml:id="L67C15">m</c>
+		<c xml:id="L67C16">a</c>
+		<c xml:id="L67C17">x</c>
+		<c xml:id="L67C18">i</c>
+		<c xml:id="L67C19">m</c>
+		<c xml:id="L67C20">a</c>
+		<supplied reason="lost">
+			<c xml:id="L67C21">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L67C22"> </c>
+	</line>
+	<line n="68">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L68C1">e</c>
+		</supplied>
+		<c xml:id="L68C2">s</c>
+		<c xml:id="L68C3">t</c>
+		<c xml:id="L68C4"> </c>
+		<c xml:id="L68C5">e</c>
+		<c xml:id="L68C6">t</c>
+		<c xml:id="L68C7"> </c>
+		<c xml:id="L68C8">D</c>
+		<c xml:id="L68C9">i</c>
+		<c xml:id="L68C10">a</c>
+		<c xml:id="L68C11">d</c>
+		<c xml:id="L68C12">u</c>
+		<c xml:id="L68C13">m</c>
+		<c xml:id="L68C14">e</c>
+		<c xml:id="L68C15">n</c>
+		<c xml:id="L68C16">u</c>
+		<c xml:id="L68C17">m</c>
+		<c xml:id="L68C18"> </c>
+		<c xml:id="L68C19">c</c>
+		<c xml:id="L68C20">u</c>
+		<c xml:id="L68C21">b</c>
+		<c xml:id="L68C22">i</c>
+		<c xml:id="L68C23">c</c>
+		<c xml:id="L68C24">u</c>
+		<c xml:id="L68C25">l</c>
+		<supplied reason="lost">
+			<c xml:id="L68C26">a</c>
+			<c xml:id="L68C27">r</c>
+			<c xml:id="L68C28">i</c>
+			<c xml:id="L68C29">u</c>
+			<c xml:id="L68C30">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L68C31"> </c>
+	</line>
+	<line n="69">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L69C1">e</c>
+		</supplied>
+		<c xml:id="L69C2">t</c>
+		<c xml:id="L69C3"> </c>
+		<c xml:id="L69C4">S</c>
+		<c xml:id="L69C5">t</c>
+		<c xml:id="L69C6">e</c>
+		<c xml:id="L69C7">p</c>
+		<c xml:id="L69C8">h</c>
+		<c xml:id="L69C9">a</c>
+		<c xml:id="L69C10">n</c>
+		<c xml:id="L69C11">u</c>
+		<c xml:id="L69C12">m</c>
+		<c xml:id="L69C13"> </c>
+		<c xml:id="L69C14">d</c>
+		<c xml:id="L69C15">r</c>
+		<c xml:id="L69C16">o</c>
+		<c xml:id="L69C17">p</c>
+		<c xml:id="L69C18">a</c>
+		<c xml:id="L69C19">c</c>
+		<c xml:id="L69C20">a</c>
+		<c xml:id="L69C21">t</c>
+		<c xml:id="L69C22">o</c>
+		<c xml:id="L69C23">r</c>
+		<c xml:id="L69C24">e</c>
+		<c xml:id="L69C25">m</c>
+		<c xml:id="L69C26"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L69C27"> </c>
+	</line>
+	<line n="70">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L70C1">o</c>
+		<c xml:id="L70C2">r</c>
+		<c xml:id="L70C3">e</c>
+		<c xml:id="L70C4">m</c>
+		<c xml:id="L70C5"> </c>
+		<c xml:id="L70C6">e</c>
+		<c xml:id="L70C7">t</c>
+		<c xml:id="L70C8"> </c>
+		<c xml:id="L70C9">F</c>
+		<c xml:id="L70C10">a</c>
+		<c xml:id="L70C11">u</c>
+		<c xml:id="L70C12">s</c>
+		<c xml:id="L70C13">t</c>
+		<c xml:id="L70C14">u</c>
+		<c xml:id="L70C15">m</c>
+		<c xml:id="L70C16"> </c>
+		<c xml:id="L70C17">s</c>
+		<c xml:id="L70C18">u</c>
+		<c xml:id="L70C19">t</c>
+		<c xml:id="L70C20">o</c>
+		<c xml:id="L70C21">r</c>
+		<c xml:id="L70C22">e</c>
+		<c xml:id="L70C23">m</c>
+		<c xml:id="L70C24"> </c>
+		<c xml:id="L70C25">e</c>
+		<supplied reason="lost">
+			<c xml:id="L70C26">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L70C27"> </c>
+	</line>
+	<line n="71">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost" cert="low">
+			<c xml:id="L71C1"> </c>
+			<c xml:id="L71C2">f</c>
+			<c xml:id="L71C3">a</c>
+		</supplied>
+		<c xml:id="L71C4">m</c>
+		<c xml:id="L71C5">u</c>
+		<c xml:id="L71C6">l</c>
+		<c xml:id="L71C7">a</c>
+		<c xml:id="L71C8">r</c>
+		<c xml:id="L71C9">u</c>
+		<c xml:id="L71C10">m</c>
+		<c xml:id="L71C11"> </c>
+		<c xml:id="L71C12">q</c>
+		<c xml:id="L71C13">u</c>
+		<c xml:id="L71C14">a</c>
+		<c xml:id="L71C15">e</c>
+		<c xml:id="L71C16"> </c>
+		<c xml:id="L71C17">e</c>
+		<c xml:id="L71C18">l</c>
+		<c xml:id="L71C19">e</c>
+		<c xml:id="L71C20">g</c>
+		<c xml:id="L71C21">e</c>
+		<c xml:id="L71C22">r</c>
+		<c xml:id="L71C23">i</c>
+		<c xml:id="L71C24">t</c>
+		<c xml:id="L71C25"> </c>
+		<c xml:id="L71C26">c</c>
+		<c xml:id="L71C27">u</c>
+		<c xml:id="L71C28">m</c>
+		<c xml:id="L71C29"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L71C30"> </c>
+	</line>
+	<line n="72">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L72C1">p</c>
+			<c xml:id="L72C2">i</c>
+			<c xml:id="L72C3">e</c>
+			<c xml:id="L72C4">n</c>
+			<c xml:id="L72C5">t</c>
+			<c xml:id="L72C6">i</c>
+		</supplied>
+		<c xml:id="L72C7">s</c>
+		<c xml:id="L72C8">s</c>
+		<c xml:id="L72C9">i</c>
+		<c xml:id="L72C10">m</c>
+		<c xml:id="L72C11">a</c>
+		<c xml:id="L72C12">e</c>
+		<c xml:id="L72C13"> </c>
+		<c xml:id="L72C14">h</c>
+		<c xml:id="L72C15">o</c>
+		<c xml:id="L72C16">c</c>
+		<c xml:id="L72C17"> </c>
+		<c xml:id="L72C18">a</c>
+		<c xml:id="L72C19">m</c>
+		<c xml:id="L72C20">p</c>
+		<c xml:id="L72C21">l</c>
+		<c xml:id="L72C22">i</c>
+		<c xml:id="L72C23">u</c>
+		<c xml:id="L72C24">s</c>
+		<c xml:id="L72C25"> </c>
+		<c xml:id="L72C26">E</c>
+		<c xml:id="L72C27">p</c>
+		<c xml:id="L72C28">a</c>
+		<c xml:id="L72C29">p</c>
+		<c xml:id="L72C30">h</c>
+		<c xml:id="L72C31">r</c>
+		<c xml:id="L72C32">o</c>
+		<supplied reason="lost">
+			<c xml:id="L72C33">d</c>
+			<c xml:id="L72C34">i</c>
+			<c xml:id="L72C35">t</c>
+			<c xml:id="L72C36">u</c>
+			<c xml:id="L72C37">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L72C38"> </c>
+	</line>
+	<line n="73">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L73C1">t</c>
+		<c xml:id="L73C2">u</c>
+		<c xml:id="L73C3">m</c>
+		<c xml:id="L73C4"> </c>
+		<c xml:id="L73C5">m</c>
+		<c xml:id="L73C6">e</c>
+		<c xml:id="L73C7">d</c>
+		<c xml:id="L73C8">i</c>
+		<c xml:id="L73C9">c</c>
+		<c xml:id="L73C10">u</c>
+		<c xml:id="L73C11">m</c>
+		<c xml:id="L73C12"> </c>
+		<c xml:id="L73C13">P</c>
+		<c xml:id="L73C14">h</c>
+		<c xml:id="L73C15">i</c>
+		<c xml:id="L73C16">l</c>
+		<c xml:id="L73C17">o</c>
+		<c xml:id="L73C18">c</c>
+		<c xml:id="L73C19">y</c>
+		<c xml:id="L73C20">r</c>
+		<c xml:id="L73C21">i</c>
+		<c xml:id="L73C22">u</c>
+		<c xml:id="L73C23">m</c>
+		<c xml:id="L73C24"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L73C25"> </c>
+	</line>
+	<line n="74">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L74C1">a</c>
+			<c xml:id="L74C2">u</c>
+			<c xml:id="L74C3">r</c>
+			<c xml:id="L74C4">e</c>
+		</supplied>
+		<c xml:id="L74C5">a</c>
+		<c xml:id="L74C6"> </c>
+		<c xml:id="L74C7">e</c>
+		<c xml:id="L74C8">t</c>
+		<c xml:id="L74C9"> </c>
+		<c xml:id="L74C10">a</c>
+		<c xml:id="L74C11">r</c>
+		<c xml:id="L74C12">g</c>
+		<c xml:id="L74C13">e</c>
+		<c xml:id="L74C14">n</c>
+		<c xml:id="L74C15">t</c>
+		<c xml:id="L74C16">e</c>
+		<c xml:id="L74C17">a</c>
+		<c xml:id="L74C18"> </c>
+		<c xml:id="L74C19">o</c>
+		<c xml:id="L74C20">m</c>
+		<c xml:id="L74C21">n</c>
+		<c xml:id="L74C22">i</c>
+		<c xml:id="L74C23">a</c>
+		<c xml:id="L74C24"> </c>
+		<c xml:id="L74C25">e</c>
+		<c xml:id="L74C26">t</c>
+		<c xml:id="L74C27"> </c>
+		<c xml:id="L74C28">i</c>
+		<c xml:id="L74C29">m</c>
+		<c xml:id="L74C30">a</c>
+		<supplied reason="lost">
+			<c xml:id="L74C31">g</c>
+			<c xml:id="L74C32">i</c>
+			<c xml:id="L74C33">n</c>
+			<c xml:id="L74C34">e</c>
+			<c xml:id="L74C35">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L74C36"> </c>
+	</line>
+	<line n="75">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost" cert="low">
+			<c xml:id="L75C1"> </c>
+			<c xml:id="L75C2">p</c>
+			<c xml:id="L75C3">i</c>
+			<c xml:id="L75C4">e</c>
+		</supplied>
+		<c xml:id="L75C5">t</c>
+		<c xml:id="L75C6">a</c>
+		<c xml:id="L75C7">t</c>
+		<c xml:id="L75C8">e</c>
+		<c xml:id="L75C9">m</c>
+		<c xml:id="L75C10"> </c>
+		<c xml:id="L75C11">t</c>
+		<c xml:id="L75C12">u</c>
+		<c xml:id="L75C13">a</c>
+		<c xml:id="L75C14">m</c>
+		<c xml:id="L75C15"> </c>
+		<c xml:id="L75C16">u</c>
+		<c xml:id="L75C17">t</c>
+		<c xml:id="L75C18"> </c>
+		<c xml:id="L75C19">c</c>
+		<c xml:id="L75C20">u</c>
+		<c xml:id="L75C21">r</c>
+		<c xml:id="L75C22">e</c>
+		<c xml:id="L75C23">s</c>
+		<c xml:id="L75C24"> </c>
+		<c xml:id="L75C25">i</c>
+		<c xml:id="L75C26">n</c>
+		<c xml:id="L75C27"> </c>
+		<c xml:id="L75C28">p</c>
+		<c xml:id="L75C29">u</c>
+		<c xml:id="L75C30">b</c>
+		<supplied reason="lost">
+			<c xml:id="L75C31">l</c>
+			<c xml:id="L75C32">i</c>
+			<c xml:id="L75C33">c</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L75C34"> </c>
+	</line>
+	<line n="76">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L76C1"> </c>
+		<c xml:id="L76C2">q</c>
+		<c xml:id="L76C3">u</c>
+		<c xml:id="L76C4">a</c>
+		<c xml:id="L76C5">e</c>
+		<c xml:id="L76C6"> </c>
+		<c xml:id="L76C7">u</c>
+		<c xml:id="L76C8">b</c>
+		<c xml:id="L76C9">i</c>
+		<c xml:id="L76C10">q</c>
+		<c xml:id="L76C11">u</c>
+		<c xml:id="L76C12">e</c>
+		<c xml:id="L76C13"> </c>
+		<c xml:id="L76C14">h</c>
+		<c xml:id="L76C15">a</c>
+		<c xml:id="L76C16">b</c>
+		<c xml:id="L76C17">e</c>
+		<c xml:id="L76C18">o</c>
+		<c xml:id="L76C19"> </c>
+		<c xml:id="L76C20">i</c>
+		<c xml:id="L76C21">n</c>
+		<c xml:id="L76C22"> </c>
+		<c xml:id="L76C23">a</c>
+		<c xml:id="L76C24">m</c>
+		<c xml:id="L76C25">p</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L76C26"> </c>
+	</line>
+	<line n="77">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L77C1">d</c>
+		</supplied>
+		<c xml:id="L77C2">i</c>
+		<c xml:id="L77C3">s</c>
+		<c xml:id="L77C4">p</c>
+		<c xml:id="L77C5">e</c>
+		<c xml:id="L77C6">n</c>
+		<c xml:id="L77C7">s</c>
+		<c xml:id="L77C8">a</c>
+		<c xml:id="L77C9">t</c>
+		<c xml:id="L77C10">o</c>
+		<c xml:id="L77C11">r</c>
+		<c xml:id="L77C12">e</c>
+		<c xml:id="L77C13">m</c>
+		<c xml:id="L77C14"> </c>
+		<c xml:id="L77C15">r</c>
+		<c xml:id="L77C16">a</c>
+		<c xml:id="L77C17">t</c>
+		<c xml:id="L77C18">i</c>
+		<c xml:id="L77C19">o</c>
+		<c xml:id="L77C20">n</c>
+		<c xml:id="L77C21">i</c>
+		<c xml:id="L77C22">b</c>
+		<c xml:id="L77C23">u</c>
+		<c xml:id="L77C24">s</c>
+		<c xml:id="L77C25"> </c>
+		<supplied reason="lost">
+			<c xml:id="L77C26">r</c>
+			<c xml:id="L77C27">e</c>
+			<c xml:id="L77C28">d</c>
+			<c xml:id="L77C29">d</c>
+			<c xml:id="L77C30">i</c>
+			<c xml:id="L77C31">t</c>
+			<c xml:id="L77C32">i</c>
+			<c xml:id="L77C33">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L77C34"> </c>
+	</line>
+	<line n="78">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L78C1">e</c>
+		<c xml:id="L78C2">m</c>
+		<c xml:id="L78C3"> </c>
+		<c xml:id="L78C4">e</c>
+		<c xml:id="L78C5">t</c>
+		<c xml:id="L78C6"> </c>
+		<c xml:id="L78C7">E</c>
+		<c xml:id="L78C8">u</c>
+		<c xml:id="L78C9">t</c>
+		<c xml:id="L78C10">y</c>
+		<c xml:id="L78C11">c</c>
+		<c xml:id="L78C12">h</c>
+		<c xml:id="L78C13">e</c>
+		<c xml:id="L78C14">n</c>
+		<c xml:id="L78C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L78C16">c</c>
+				<c xml:id="L78C17">u</c>
+				<c xml:id="L78C18">b</c>
+				<c xml:id="L78C19">i</c>
+				<c xml:id="L78C20">c</c>
+				<c xml:id="L78C21">u</c>
+				<c xml:id="L78C22">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L78C23">a</c>
+				<c xml:id="L78C24">r</c>
+				<c xml:id="L78C25">i</c>
+				<c xml:id="L78C26">u</c>
+				<c xml:id="L78C27">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L78C28"> </c>
+		<c xml:id="L78C29">m</c>
+		<c xml:id="L78C30">a</c>
+		<c xml:id="L78C31">i</c>
+		<c xml:id="L78C32">o</c>
+		<supplied reason="lost">
+			<c xml:id="L78C33">r</c>
+			<c xml:id="L78C34">e</c>
+			<c xml:id="L78C35">m</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L78C36"> </c>
+	</line>
+	<line n="79">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L79C1">m</c>
+			<c xml:id="L79C2">a</c>
+			<c xml:id="L79C3">t</c>
+		</supplied>
+		<c xml:id="L79C4">e</c>
+		<c xml:id="L79C5">r</c>
+		<c xml:id="L79C6">t</c>
+		<c xml:id="L79C7">e</c>
+		<c xml:id="L79C8">r</c>
+		<c xml:id="L79C9">a</c>
+		<c xml:id="L79C10">e</c>
+		<c xml:id="L79C11"> </c>
+		<c xml:id="L79C12">S</c>
+		<c xml:id="L79C13">e</c>
+		<c xml:id="L79C14">p</c>
+		<c xml:id="L79C15">t</c>
+		<c xml:id="L79C16">u</c>
+		<c xml:id="L79C17">m</c>
+		<c xml:id="L79C18">a</c>
+		<c xml:id="L79C19">e</c>
+		<c xml:id="L79C20"> </c>
+		<c xml:id="L79C21">S</c>
+		<c xml:id="L79C22">e</c>
+		<c xml:id="L79C23">c</c>
+		<c xml:id="L79C24">u</c>
+		<c xml:id="L79C25">n</c>
+		<c xml:id="L79C26">d</c>
+		<c xml:id="L79C27">i</c>
+		<c xml:id="L79C28">n</c>
+		<supplied reason="lost">
+			<c xml:id="L79C29">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L79C30"> </c>
+	</line>
+	<line n="80">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L80C1"> </c>
+			<c xml:id="L80C2">M</c>
+			<c xml:id="L80C3">e</c>
+			<c xml:id="L80C4">n</c>
+			<c xml:id="L80C5">e</c>
+			<c xml:id="L80C6">c</c>
+			<c xml:id="L80C7">r</c>
+			<c xml:id="L80C8">a</c>
+			<c xml:id="L80C9">t</c>
+			<c xml:id="L80C10">e</c>
+			<c xml:id="L80C11">m</c>
+			<c xml:id="L80C12"> </c>
+			<c xml:id="L80C13">e</c>
+			<c xml:id="L80C14">t</c>
+			<c xml:id="L80C15"> </c>
+			<c xml:id="L80C16">P</c>
+			<c xml:id="L80C17">a</c>
+			<c xml:id="L80C18">e</c>
+			<c xml:id="L80C19">d</c>
+			<c xml:id="L80C20">e</c>
+		</supplied>
+		<c xml:id="L80C21">r</c>
+		<c xml:id="L80C22">o</c>
+		<c xml:id="L80C23">t</c>
+		<c xml:id="L80C24">e</c>
+		<c xml:id="L80C25">m</c>
+		<c xml:id="L80C26"> </c>
+		<c xml:id="L80C27">M</c>
+		<c xml:id="L80C28">e</c>
+		<c xml:id="L80C29">n</c>
+		<c xml:id="L80C30">e</c>
+		<c xml:id="L80C31">c</c>
+		<c xml:id="L80C32">r</c>
+		<c xml:id="L80C33">a</c>
+		<c xml:id="L80C34">t</c>
+		<c xml:id="L80C35">e</c>
+		<c xml:id="L80C36">n</c>
+		<c xml:id="L80C37"> </c>
+		<c xml:id="L80C38">e</c>
+		<c xml:id="L80C39">t</c>
+		<c xml:id="L80C40"> </c>
+		<c xml:id="L80C41">P</c>
+		<c xml:id="L80C42">a</c>
+		<c xml:id="L80C43">e</c>
+		<c xml:id="L80C44">d</c>
+		<c xml:id="L80C45">e</c>
+		<c xml:id="L80C46">r</c>
+		<c xml:id="L80C47">o</c>
+		<supplied reason="lost">
+			<c xml:id="L80C48">t</c>
+			<c xml:id="L80C49">e</c>
+			<c xml:id="L80C50">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L80C51"> </c>
+	</line>
+	<line n="81">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L81C1">o</c>
+		</supplied>
+		<c xml:id="L81C2">p</c>
+		<c xml:id="L81C3">e</c>
+		<c xml:id="L81C4">r</c>
+		<c xml:id="L81C5">e</c>
+		<c xml:id="L81C6"> </c>
+		<c xml:id="L81C7">i</c>
+		<c xml:id="L81C8">l</c>
+		<c xml:id="L81C9">l</c>
+		<c xml:id="L81C10">o</c>
+		<c xml:id="L81C11">s</c>
+		<c xml:id="L81C12"> </c>
+		<c xml:id="L81C13">h</c>
+		<c xml:id="L81C14">a</c>
+		<c xml:id="L81C15">b</c>
+		<c xml:id="L81C16">e</c>
+		<c xml:id="L81C17">a</c>
+		<c xml:id="L81C18">s</c>
+		<c xml:id="L81C19"> </c>
+		<c xml:id="L81C20">d</c>
+		<c xml:id="L81C21">o</c>
+		<c xml:id="L81C22">n</c>
+		<c xml:id="L81C23">e</c>
+		<c xml:id="L81C24">c</c>
+		<c xml:id="L81C25"> </c>
+		<c xml:id="L81C26">v</c>
+		<c xml:id="L81C27">i</c>
+		<c xml:id="L81C28">v</c>
+		<supplied reason="lost">
+			<c xml:id="L81C29">e</c>
+			<c xml:id="L81C30">n</c>
+			<c xml:id="L81C31">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L81C32"> </c>
+	</line>
+	<line n="82">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L82C1"> </c>
+		<c xml:id="L82C2">n</c>
+		<c xml:id="L82C3">u</c>
+		<c xml:id="L82C4">l</c>
+		<c xml:id="L82C5">l</c>
+		<c xml:id="L82C6">o</c>
+		<c xml:id="L82C7"> </c>
+		<c xml:id="L82C8">m</c>
+		<c xml:id="L82C9">e</c>
+		<c xml:id="L82C10">r</c>
+		<c xml:id="L82C11">i</c>
+		<c xml:id="L82C12">t</c>
+		<c xml:id="L82C13">o</c>
+		<c xml:id="L82C14"> </c>
+		<c xml:id="L82C15">m</c>
+		<c xml:id="L82C16">e</c>
+		<c xml:id="L82C17">o</c>
+		<c xml:id="L82C18"> </c>
+		<c xml:id="L82C19">t</c>
+		<c xml:id="L82C20">a</c>
+		<c xml:id="L82C21">m</c>
+		<c xml:id="L82C22"> </c>
+		<c xml:id="L82C23">v</c>
+		<c xml:id="L82C24">a</c>
+		<c xml:id="L82C25">l</c>
+		<c xml:id="L82C26">d</c>
+		<c xml:id="L82C27">e</c>
+		<c xml:id="L82C28"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L82C29"> </c>
+	</line>
+	<line n="83">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L83C1">q</c>
+		<c xml:id="L83C2">u</c>
+		<c xml:id="L83C3">a</c>
+		<c xml:id="L83C4"> </c>
+		<c xml:id="L83C5">S</c>
+		<c xml:id="L83C6">e</c>
+		<c xml:id="L83C7">p</c>
+		<c xml:id="L83C8">t</c>
+		<c xml:id="L83C9">u</c>
+		<c xml:id="L83C10">m</c>
+		<c xml:id="L83C11">a</c>
+		<c xml:id="L83C12">e</c>
+		<c xml:id="L83C13"> </c>
+		<c xml:id="L83C14">m</c>
+		<c xml:id="L83C15">a</c>
+		<c xml:id="L83C16">t</c>
+		<c xml:id="L83C17">e</c>
+		<c xml:id="L83C18">r</c>
+		<c xml:id="L83C19">t</c>
+		<c xml:id="L83C20">e</c>
+		<c xml:id="L83C21">r</c>
+		<c xml:id="L83C22">a</c>
+		<c xml:id="L83C23">e</c>
+		<c xml:id="L83C24"> </c>
+		<c xml:id="L83C25">m</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L83C26"> </c>
+	</line>
+	<line n="84">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L84C1">u</c>
+		<c xml:id="L84C2">s</c>
+		<c xml:id="L84C3"> </c>
+		<c xml:id="L84C4">m</c>
+		<c xml:id="L84C5">e</c>
+		<c xml:id="L84C6">i</c>
+		<c xml:id="L84C7">s</c>
+		<c xml:id="L84C8"> </c>
+		<c xml:id="L84C9">h</c>
+		<c xml:id="L84C10">a</c>
+		<c xml:id="L84C11">b</c>
+		<c xml:id="L84C12">u</c>
+		<c xml:id="L84C13">i</c>
+		<c xml:id="L84C14">t</c>
+		<c xml:id="L84C15"> </c>
+		<c xml:id="L84C16">f</c>
+		<c xml:id="L84C17">i</c>
+		<c xml:id="L84C18">d</c>
+		<c xml:id="L84C19">e</c>
+		<c xml:id="L84C20">i</c>
+		<c xml:id="L84C21">q</c>
+		<c xml:id="L84C22">u</c>
+		<c xml:id="L84C23">e</c>
+		<c xml:id="L84C24"> </c>
+		<c xml:id="L84C25">e</c>
+		<c xml:id="L84C26">i</c>
+		<c xml:id="L84C27">u</c>
+		<c xml:id="L84C28">s</c>
+		<c xml:id="L84C29"> </c>
+		<c xml:id="L84C30">n</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L84C31"> </c>
+	</line>
+	<line n="85">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L85C1">a</c>
+		</supplied>
+		<c xml:id="L85C2">m</c>
+		<c xml:id="L85C3">p</c>
+		<c xml:id="L85C4">l</c>
+		<c xml:id="L85C5">i</c>
+		<c xml:id="L85C6">u</c>
+		<c xml:id="L85C7">s</c>
+		<c xml:id="L85C8"> </c>
+		<c xml:id="L85C9">S</c>
+		<c xml:id="L85C10">e</c>
+		<c xml:id="L85C11">p</c>
+		<c xml:id="L85C12">t</c>
+		<c xml:id="L85C13">u</c>
+		<c xml:id="L85C14">m</c>
+		<c xml:id="L85C15">a</c>
+		<c xml:id="L85C16">e</c>
+		<c xml:id="L85C17"> </c>
+		<c xml:id="L85C18">m</c>
+		<c xml:id="L85C19">a</c>
+		<c xml:id="L85C20">t</c>
+		<c xml:id="L85C21">e</c>
+		<c xml:id="L85C22">r</c>
+		<c xml:id="L85C23">t</c>
+		<c xml:id="L85C24">e</c>
+		<c xml:id="L85C25">r</c>
+		<c xml:id="L85C26">a</c>
+		<supplied reason="lost">
+			<c xml:id="L85C27">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L85C28"> </c>
+	</line>
+	<line n="86">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L86C1">c</c>
+			<c xml:id="L86C2">u</c>
+		</supplied>
+		<c xml:id="L86C3">r</c>
+		<c xml:id="L86C4">s</c>
+		<c xml:id="L86C5">o</c>
+		<c xml:id="L86C6">r</c>
+		<c xml:id="L86C7">e</c>
+		<c xml:id="L86C8">m</c>
+		<c xml:id="L86C9"> </c>
+		<c xml:id="L86C10">E</c>
+		<c xml:id="L86C11">n</c>
+		<c xml:id="L86C12">c</c>
+		<c xml:id="L86C13">o</c>
+		<c xml:id="L86C14">l</c>
+		<c xml:id="L86C15">p</c>
+		<c xml:id="L86C16">i</c>
+		<c xml:id="L86C17">u</c>
+		<c xml:id="L86C18">m</c>
+		<c xml:id="L86C19"> </c>
+		<c xml:id="L86C20">a</c>
+		<c xml:id="L86C21">c</c>
+		<c xml:id="L86C22">t</c>
+		<c xml:id="L86C23">o</c>
+		<c xml:id="L86C24">r</c>
+		<c xml:id="L86C25">e</c>
+		<c xml:id="L86C26">m</c>
+		<c xml:id="L86C27"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L86C28"> </c>
+	</line>
+	<line n="87">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L87C1">m</c>
+		<c xml:id="L87C2"> </c>
+		<c xml:id="L87C3">s</c>
+		<c xml:id="L87C4">e</c>
+		<c xml:id="L87C5">x</c>
+		<c xml:id="L87C6">a</c>
+		<c xml:id="L87C7">g</c>
+		<c xml:id="L87C8">i</c>
+		<c xml:id="L87C9">e</c>
+		<c xml:id="L87C10">s</c>
+		<c xml:id="L87C11"> </c>
+		<c xml:id="L87C12">q</c>
+		<c xml:id="L87C13">u</c>
+		<c xml:id="L87C14">o</c>
+		<c xml:id="L87C15">d</c>
+		<c xml:id="L87C16"> </c>
+		<c xml:id="L87C17">b</c>
+		<c xml:id="L87C18">e</c>
+		<c xml:id="L87C19">n</c>
+		<c xml:id="L87C20">e</c>
+		<c xml:id="L87C21">f</c>
+		<c xml:id="L87C22">i</c>
+		<c xml:id="L87C23">c</c>
+		<c xml:id="L87C24">i</c>
+		<c xml:id="L87C25">o</c>
+		<c xml:id="L87C26"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L87C27"> </c>
+	</line>
+	<line n="88">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L88C1"> </c>
+		<c xml:id="L88C2">i</c>
+		<c xml:id="L88C3">n</c>
+		<c xml:id="L88C4">t</c>
+		<c xml:id="L88C5">r</c>
+		<c xml:id="L88C6">a</c>
+		<c xml:id="L88C7"> </c>
+		<c xml:id="L88C8">b</c>
+		<c xml:id="L88C9">i</c>
+		<c xml:id="L88C10">e</c>
+		<c xml:id="L88C11">n</c>
+		<c xml:id="L88C12">n</c>
+		<c xml:id="L88C13">i</c>
+		<c xml:id="L88C14">u</c>
+		<c xml:id="L88C15">m</c>
+		<c xml:id="L88C16"> </c>
+		<c xml:id="L88C17">q</c>
+		<c xml:id="L88C18">u</c>
+		<c xml:id="L88C19">a</c>
+		<c xml:id="L88C20">m</c>
+		<c xml:id="L88C21"> </c>
+		<c xml:id="L88C22">m</c>
+		<c xml:id="L88C23">o</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L88C24"> </c>
+	</line>
+	<line n="89">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L89C1"> </c>
+			<c xml:id="L89C2">f</c>
+			<c xml:id="L89C3">i</c>
+			<c xml:id="L89C4">d</c>
+			<c xml:id="L89C5">e</c>
+			<c xml:id="L89C6">i</c>
+			<c xml:id="L89C7"> </c>
+			<c xml:id="L89C8">c</c>
+			<c xml:id="L89C9">o</c>
+			<c xml:id="L89C10">m</c>
+		</supplied>
+		<c xml:id="L89C11">m</c>
+		<c xml:id="L89C12">i</c>
+		<c xml:id="L89C13">t</c>
+		<c xml:id="L89C14">t</c>
+		<c xml:id="L89C15">o</c>
+		<c xml:id="L89C16"> </c>
+		<c xml:id="L89C17">u</c>
+		<c xml:id="L89C18">t</c>
+		<c xml:id="L89C19">i</c>
+		<c xml:id="L89C20"> </c>
+		<c xml:id="L89C21">p</c>
+		<c xml:id="L89C22">r</c>
+		<c xml:id="L89C23">a</c>
+		<c xml:id="L89C24">e</c>
+		<c xml:id="L89C25">d</c>
+		<c xml:id="L89C26">i</c>
+		<c xml:id="L89C27">u</c>
+		<c xml:id="L89C28">m</c>
+		<c xml:id="L89C29"> </c>
+		<c xml:id="L89C30">i</c>
+		<c xml:id="L89C31">n</c>
+		<c xml:id="L89C32"> </c>
+		<c xml:id="L89C33">q</c>
+		<c xml:id="L89C34">u</c>
+		<c xml:id="L89C35">o</c>
+		<supplied reason="lost">
+			<c xml:id="L89C36">d</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L89C37"> </c>
+	</line>
+	<line n="90">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L90C1">u</c>
+		<c xml:id="L90C2">s</c>
+		<c xml:id="L90C3"> </c>
+		<c xml:id="L90C4">r</c>
+		<c xml:id="L90C5">e</c>
+		<c xml:id="L90C6">l</c>
+		<c xml:id="L90C7">i</c>
+		<supplied reason="lost">
+			<c xml:id="L90C8">q</c>
+			<c xml:id="L90C9">u</c>
+			<c xml:id="L90C10">i</c>
+			<c xml:id="L90C11">a</c>
+			<c xml:id="L90C12">s</c>
+		</supplied>
+		<c xml:id="L90C13"> </c>
+		<c xml:id="L90C14">m</c>
+		<c xml:id="L90C15">e</c>
+		<c xml:id="L90C16">a</c>
+		<c xml:id="L90C17">s</c>
+		<c xml:id="L90C18"> </c>
+		<c xml:id="L90C19">c</c>
+		<c xml:id="L90C20">o</c>
+		<c xml:id="L90C21">n</c>
+		<c xml:id="L90C22">d</c>
+		<supplied reason="lost">
+			<c xml:id="L90C23">e</c>
+			<c xml:id="L90C24">r</c>
+			<c xml:id="L90C25">e</c>
+			<c xml:id="L90C26">n</c>
+			<c xml:id="L90C27">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L90C28"> </c>
+	</line>
+	<line n="91">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L91C1"> </c>
+		<c xml:id="L91C2">m</c>
+		<c xml:id="L91C3">e</c>
+		<c xml:id="L91C4">a</c>
+		<c xml:id="L91C5">e</c>
+		<c xml:id="L91C6"> </c>
+		<c xml:id="L91C7">i</c>
+		<c xml:id="L91C8">n</c>
+		<c xml:id="L91C9">l</c>
+		<c xml:id="L91C10">a</c>
+		<c xml:id="L91C11">t</c>
+		<c xml:id="L91C12">a</c>
+		<c xml:id="L91C13">e</c>
+		<c xml:id="L91C14"> </c>
+		<c xml:id="L91C15">f</c>
+		<c xml:id="L91C16">u</c>
+		<c xml:id="L91C17">e</c>
+		<c xml:id="L91C18">r</c>
+		<c xml:id="L91C19">i</c>
+		<c xml:id="L91C20">n</c>
+		<c xml:id="L91C21">t</c>
+		<c xml:id="L91C22"> </c>
+		<c xml:id="L91C23">c</c>
+		<c xml:id="L91C24">u</c>
+		<c xml:id="L91C25">i</c>
+		<c xml:id="L91C26"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L91C27"> </c>
+	</line>
+	<line n="92">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L92C1">r</c>
+		<c xml:id="L92C2">o</c>
+		<c xml:id="L92C3"> </c>
+		<c xml:id="L92C4">p</c>
+		<c xml:id="L92C5">r</c>
+		<c xml:id="L92C6">a</c>
+		<c xml:id="L92C7">e</c>
+		<supplied reason="lost">
+			<c xml:id="L92C8">t</c>
+		</supplied>
+		<c xml:id="L92C9">e</c>
+		<c xml:id="L92C10">r</c>
+		<c xml:id="L92C11">q</c>
+		<c xml:id="L92C12">u</c>
+		<c xml:id="L92C13">a</c>
+		<c xml:id="L92C14">m</c>
+		<c xml:id="L92C15"> </c>
+		<c xml:id="L92C16">H</c>
+		<c xml:id="L92C17">y</c>
+		<c xml:id="L92C18">m</c>
+		<c xml:id="L92C19">n</c>
+		<c xml:id="L92C20">o</c>
+		<c xml:id="L92C21"> </c>
+		<c xml:id="L92C22">p</c>
+		<c xml:id="L92C23">e</c>
+		<c xml:id="L92C24">s</c>
+		<c xml:id="L92C25">s</c>
+		<supplied reason="lost">
+			<c xml:id="L92C26">i</c>
+			<c xml:id="L92C27">m</c>
+			<c xml:id="L92C28">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L92C29"> </c>
+	</line>
+	<line n="93">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L93C1">t</c>
+		<c xml:id="L93C2">i</c>
+		<c xml:id="L93C3">b</c>
+		<c xml:id="L93C4">u</c>
+		<c xml:id="L93C5">s</c>
+		<c xml:id="L93C6"> </c>
+		<c xml:id="L93C7">s</c>
+		<c xml:id="L93C8">i</c>
+		<c xml:id="L93C9">l</c>
+		<c xml:id="L93C10">v</c>
+		<c xml:id="L93C11">i</c>
+		<c xml:id="L93C12">s</c>
+		<c xml:id="L93C13"> </c>
+		<c xml:id="L93C14">i</c>
+		<c xml:id="L93C15">n</c>
+		<c xml:id="L93C16">s</c>
+		<c xml:id="L93C17">t</c>
+		<c xml:id="L93C18">r</c>
+		<c xml:id="L93C19">u</c>
+		<c xml:id="L93C20">c</c>
+		<c xml:id="L93C21">t</c>
+		<c xml:id="L93C22">u</c>
+		<c xml:id="L93C23">m</c>
+		<c xml:id="L93C24"> </c>
+		<c xml:id="L93C25">m</c>
+		<c xml:id="L93C26">a</c>
+		<supplied reason="lost">
+			<c xml:id="L93C27">n</c>
+			<c xml:id="L93C28">c</c>
+			<c xml:id="L93C29">i</c>
+			<c xml:id="L93C30">p</c>
+			<c xml:id="L93C31">i</c>
+			<c xml:id="L93C32">o</c>
+			<c xml:id="L93C33"> </c>
+			<c xml:id="L93C34">d</c>
+			<c xml:id="L93C35">e</c>
+			<c xml:id="L93C36">n</c>
+			<c xml:id="L93C37">t</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L93C38"> </c>
+	</line>
+	<line n="94">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L94C1">p</c>
+			<c xml:id="L94C2">i</c>
+			<c xml:id="L94C3">g</c>
+		</supplied>
+		<c xml:id="L94C4">n</c>
+		<c xml:id="L94C5">o</c>
+		<c xml:id="L94C6">r</c>
+		<c xml:id="L94C7">e</c>
+		<c xml:id="L94C8"> </c>
+		<c xml:id="L94C9">d</c>
+		<c xml:id="L94C10">e</c>
+		<c xml:id="L94C11">n</c>
+		<c xml:id="L94C12">t</c>
+		<c xml:id="L94C13"> </c>
+		<c xml:id="L94C14">c</c>
+		<c xml:id="L94C15">e</c>
+		<c xml:id="L94C16">d</c>
+		<c xml:id="L94C17">a</c>
+		<c xml:id="L94C18">n</c>
+		<c xml:id="L94C19">t</c>
+		<c xml:id="L94C20"> </c>
+		<c xml:id="L94C21">c</c>
+		<c xml:id="L94C22">o</c>
+		<c xml:id="L94C23">n</c>
+		<c xml:id="L94C24">d</c>
+		<c xml:id="L94C25">o</c>
+		<c xml:id="L94C26">n</c>
+		<c xml:id="L94C27">e</c>
+		<c xml:id="L94C28">r</c>
+		<c xml:id="L94C29">e</c>
+		<c xml:id="L94C30">n</c>
+		<supplied reason="lost">
+			<c xml:id="L94C31">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L94C32"> </c>
+	</line>
+	<line n="95">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L95C1">c</c>
+		<c xml:id="L95C2"> </c>
+		<c xml:id="L95C3">i</c>
+		<c xml:id="L95C4">n</c>
+		<c xml:id="L95C5"> </c>
+		<c xml:id="L95C6">r</c>
+		<c xml:id="L95C7">e</c>
+		<c xml:id="L95C8">r</c>
+		<c xml:id="L95C9">u</c>
+		<c xml:id="L95C10">m</c>
+		<c xml:id="L95C11"> </c>
+		<c xml:id="L95C12">n</c>
+		<c xml:id="L95C13">a</c>
+		<c xml:id="L95C14">t</c>
+		<c xml:id="L95C15">u</c>
+		<c xml:id="L95C16">r</c>
+		<c xml:id="L95C17">a</c>
+		<c xml:id="L95C18"> </c>
+		<c xml:id="L95C19">e</c>
+		<c xml:id="L95C20">s</c>
+		<c xml:id="L95C21">s</c>
+		<c xml:id="L95C22">e</c>
+		<c xml:id="L95C23">t</c>
+		<c xml:id="L95C24"> </c>
+		<c xml:id="L95C25">u</c>
+		<c xml:id="L95C26">n</c>
+		<supplied reason="lost">
+			<c xml:id="L95C27">u</c>
+			<c xml:id="L95C28">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L95C29"> </c>
+	</line>
+	<line n="96">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L96C1">s</c>
+		<c xml:id="L96C2">i</c>
+		<c xml:id="L96C3">e</c>
+		<c xml:id="L96C4">r</c>
+		<c xml:id="L96C5">i</c>
+		<c xml:id="L96C6">n</c>
+		<supplied reason="lost">
+			<c xml:id="L96C7">t</c>
+			<c xml:id="L96C8"> </c>
+			<c xml:id="L96C9">t</c>
+		</supplied>
+		<c xml:id="L96C10">u</c>
+		<c xml:id="L96C11">n</c>
+		<c xml:id="L96C12">c</c>
+		<c xml:id="L96C13"> </c>
+		<c xml:id="L96C14">a</c>
+		<c xml:id="L96C15">d</c>
+		<c xml:id="L96C16"> </c>
+		<c xml:id="L96C17">l</c>
+		<c xml:id="L96C18">i</c>
+		<c xml:id="L96C19">b</c>
+		<c xml:id="L96C20">e</c>
+		<c xml:id="L96C21">r</c>
+		<c xml:id="L96C22">t</c>
+		<c xml:id="L96C23">o</c>
+		<c xml:id="L96C24">r</c>
+		<c xml:id="L96C25">u</c>
+		<c xml:id="L96C26">m</c>
+		<c xml:id="L96C27"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L96C28"> </c>
+	</line>
+	<line n="97">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L97C1">n</c>
+		<c xml:id="L97C2">e</c>
+		<c xml:id="L97C3">r</c>
+		<c xml:id="L97C4">e</c>
+		<c xml:id="L97C5"> </c>
+		<c xml:id="L97C6">q</c>
+		<supplied reason="lost">
+			<c xml:id="L97C7">u</c>
+		</supplied>
+		<c xml:id="L97C8">o</c>
+		<c xml:id="L97C9">d</c>
+		<c xml:id="L97C10"> </c>
+		<c xml:id="L97C11">s</c>
+		<c xml:id="L97C12">i</c>
+		<c xml:id="L97C13"> </c>
+		<c xml:id="L97C14">e</c>
+		<c xml:id="L97C15">s</c>
+		<c xml:id="L97C16">s</c>
+		<c xml:id="L97C17">e</c>
+		<c xml:id="L97C18"> </c>
+		<c xml:id="L97C19">d</c>
+		<c xml:id="L97C20">e</c>
+		<c xml:id="L97C21">s</c>
+		<c xml:id="L97C22">i</c>
+		<c xml:id="L97C23">e</c>
+		<c xml:id="L97C24">r</c>
+		<c xml:id="L97C25">i</c>
+		<c xml:id="L97C26">t</c>
+		<c xml:id="L97C27"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L97C28"> </c>
+	</line>
+	<line n="98">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L98C1">a</c>
+		</supplied>
+		<c xml:id="L98C2">u</c>
+		<c xml:id="L98C3">t</c>
+		<c xml:id="L98C4">e</c>
+		<c xml:id="L98C5">m</c>
+		<c xml:id="L98C6"> </c>
+		<c xml:id="L98C7">i</c>
+		<c xml:id="L98C8">n</c>
+		<c xml:id="L98C9"> </c>
+		<c xml:id="L98C10">t</c>
+		<c xml:id="L98C11">a</c>
+		<c xml:id="L98C12">m</c>
+		<c xml:id="L98C13"> </c>
+		<c xml:id="L98C14">m</c>
+		<c xml:id="L98C15">u</c>
+		<c xml:id="L98C16">l</c>
+		<c xml:id="L98C17">t</c>
+		<c xml:id="L98C18">a</c>
+		<c xml:id="L98C19">s</c>
+		<c xml:id="L98C20"> </c>
+		<c xml:id="L98C21">p</c>
+		<c xml:id="L98C22">a</c>
+		<c xml:id="L98C23">r</c>
+		<c xml:id="L98C24">t</c>
+		<c xml:id="L98C25">e</c>
+		<supplied reason="lost">
+			<c xml:id="L98C26">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L98C27"> </c>
+	</line>
+	<line n="99">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L99C1">o</c>
+			<c xml:id="L99C2">m</c>
+		</supplied>
+		<c xml:id="L99C3">n</c>
+		<c xml:id="L99C4">e</c>
+		<c xml:id="L99C5">s</c>
+		<c xml:id="L99C6"> </c>
+		<c xml:id="L99C7">u</c>
+		<c xml:id="L99C8">n</c>
+		<supplied reason="lost">
+			<c xml:id="L99C9">i</c>
+		</supplied>
+		<c xml:id="L99C10">v</c>
+		<c xml:id="L99C11">e</c>
+		<c xml:id="L99C12">r</c>
+		<c xml:id="L99C13">s</c>
+		<c xml:id="L99C14">a</c>
+		<c xml:id="L99C15"> </c>
+		<c xml:id="L99C16">p</c>
+		<c xml:id="L99C17">o</c>
+		<c xml:id="L99C18">s</c>
+		<c xml:id="L99C19">s</c>
+		<c xml:id="L99C20">i</c>
+		<c xml:id="L99C21">d</c>
+		<c xml:id="L99C22">e</c>
+		<c xml:id="L99C23">r</c>
+		<c xml:id="L99C24">e</c>
+		<c xml:id="L99C25"> </c>
+		<c xml:id="L99C26">r</c>
+		<c xml:id="L99C27">e</c>
+		<c xml:id="L99C28">l</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L99C29"> </c>
+	</line>
+	<line n="100">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L100C1">A</c>
+		</supplied>
+		<c xml:id="L100C2">c</c>
+		<c xml:id="L100C3">h</c>
+		<c xml:id="L100C4">i</c>
+		<c xml:id="L100C5">l</c>
+		<c xml:id="L100C6">l</c>
+		<c xml:id="L100C7">e</c>
+		<c xml:id="L100C8">n</c>
+		<c xml:id="L100C9"> </c>
+		<c xml:id="L100C10">H</c>
+		<c xml:id="L100C11">e</c>
+		<c xml:id="L100C12">l</c>
+		<c xml:id="L100C13">i</c>
+		<c xml:id="L100C14">o</c>
+		<c xml:id="L100C15">p</c>
+		<c xml:id="L100C16">a</c>
+		<c xml:id="L100C17">e</c>
+		<c xml:id="L100C18">d</c>
+		<c xml:id="L100C19">e</c>
+		<c xml:id="L100C20">n</c>
+		<c xml:id="L100C21"> </c>
+		<c xml:id="L100C22">C</c>
+		<c xml:id="L100C23">y</c>
+		<c xml:id="L100C24">m</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L100C25"> </c>
+	</line>
+	<line n="101">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L101C1">c</c>
+			<c xml:id="L101C2">u</c>
+			<c xml:id="L101C3">r</c>
+		</supplied>
+		<c xml:id="L101C4">a</c>
+		<c xml:id="L101C5">t</c>
+		<c xml:id="L101C6">o</c>
+		<c xml:id="L101C7">r</c>
+		<c xml:id="L101C8">e</c>
+		<c xml:id="L101C9">m</c>
+		<c xml:id="L101C10"> </c>
+		<c xml:id="L101C11">s</c>
+		<c xml:id="L101C12">u</c>
+		<c xml:id="L101C13">b</c>
+		<c xml:id="L101C14">s</c>
+		<c xml:id="L101C15">t</c>
+		<c xml:id="L101C16">i</c>
+		<c xml:id="L101C17">t</c>
+		<c xml:id="L101C18">u</c>
+		<c xml:id="L101C19">i</c>
+		<c xml:id="L101C20"> </c>
+		<c xml:id="L101C21">c</c>
+		<c xml:id="L101C22">u</c>
+		<c xml:id="L101C23">r</c>
+		<c xml:id="L101C24">a</c>
+		<c xml:id="L101C25">t</c>
+		<c xml:id="L101C26">o</c>
+		<c xml:id="L101C27">r</c>
+		<c xml:id="L101C28">i</c>
+		<c xml:id="L101C29"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L101C30"> </c>
+	</line>
+	<line n="102">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L102C1"> </c>
+		<c xml:id="L102C2">a</c>
+		<c xml:id="L102C3">l</c>
+		<c xml:id="L102C4">i</c>
+		<c xml:id="L102C5">m</c>
+		<c xml:id="L102C6">e</c>
+		<c xml:id="L102C7">n</c>
+		<c xml:id="L102C8">t</c>
+		<c xml:id="L102C9">a</c>
+		<c xml:id="L102C10"> </c>
+		<c xml:id="L102C11">o</c>
+		<c xml:id="L102C12">m</c>
+		<c xml:id="L102C13">n</c>
+		<c xml:id="L102C14">i</c>
+		<c xml:id="L102C15">a</c>
+		<c xml:id="L102C16"> </c>
+		<c xml:id="L102C17">c</c>
+		<c xml:id="L102C18">o</c>
+		<c xml:id="L102C19">m</c>
+		<c xml:id="L102C20">p</c>
+		<c xml:id="L102C21">u</c>
+		<c xml:id="L102C22">t</c>
+		<c xml:id="L102C23">a</c>
+		<supplied reason="lost">
+			<c xml:id="L102C24">r</c>
+			<c xml:id="L102C25">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L102C26"> </c>
+	</line>
+	<line n="103">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L103C1">i</c>
+		<c xml:id="L103C2">m</c>
+		<c xml:id="L103C3">o</c>
+		<c xml:id="L103C4"> </c>
+		<c xml:id="L103C5">u</c>
+		<c xml:id="L103C6">t</c>
+		<c xml:id="L103C7"> </c>
+		<c xml:id="L103C8">a</c>
+		<c xml:id="L103C9">b</c>
+		<c xml:id="L103C10"> </c>
+		<c xml:id="L103C11">u</c>
+		<c xml:id="L103C12">n</c>
+		<c xml:id="L103C13">o</c>
+		<c xml:id="L103C14"> </c>
+		<c xml:id="L103C15">o</c>
+		<c xml:id="L103C16">m</c>
+		<c xml:id="L103C17">n</c>
+		<c xml:id="L103C18">i</c>
+		<c xml:id="L103C19">a</c>
+		<c xml:id="L103C20"> </c>
+		<c xml:id="L103C21">p</c>
+		<c xml:id="L103C22">e</c>
+		<c xml:id="L103C23">r</c>
+		<c xml:id="L103C24">c</c>
+		<c xml:id="L103C25">i</c>
+		<c xml:id="L103C26">p</c>
+		<supplied reason="lost">
+			<c xml:id="L103C27">i</c>
+			<c xml:id="L103C28">a</c>
+			<c xml:id="L103C29">n</c>
+			<c xml:id="L103C30">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L103C31"> </c>
+	</line>
+	<line n="104">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L104C1">h</c>
+			<c xml:id="L104C2">e</c>
+			<c xml:id="L104C3">r</c>
+		</supplied>
+		<c xml:id="L104C4">e</c>
+		<c xml:id="L104C5">d</c>
+		<c xml:id="L104C6">u</c>
+		<c xml:id="L104C7">m</c>
+		<c xml:id="L104C8"> </c>
+		<c xml:id="L104C9">m</c>
+		<c xml:id="L104C10">e</c>
+		<c xml:id="L104C11">o</c>
+		<c xml:id="L104C12">r</c>
+		<c xml:id="L104C13">u</c>
+		<c xml:id="L104C14">m</c>
+		<c xml:id="L104C15"> </c>
+		<c xml:id="L104C16">c</c>
+		<c xml:id="L104C17">o</c>
+		<c xml:id="L104C18">m</c>
+		<c xml:id="L104C19">m</c>
+		<c xml:id="L104C20">i</c>
+		<c xml:id="L104C21">t</c>
+		<c xml:id="L104C22">t</c>
+		<c xml:id="L104C23">o</c>
+		<c xml:id="L104C24"> </c>
+		<c xml:id="L104C25">t</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L104C26"> </c>
+	</line>
+	<line n="105">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L105C1">a</c>
+		<c xml:id="L105C2">r</c>
+		<c xml:id="L105C3">i</c>
+		<c xml:id="L105C4">s</c>
+		<c xml:id="L105C5"> </c>
+		<c xml:id="L105C6">p</c>
+		<c xml:id="L105C7">o</c>
+		<c xml:id="L105C8">s</c>
+		<c xml:id="L105C9">t</c>
+		<c xml:id="L105C10"> </c>
+		<c xml:id="L105C11">m</c>
+		<c xml:id="L105C12">e</c>
+		<c xml:id="L105C13"> </c>
+		<c xml:id="L105C14">q</c>
+		<c xml:id="L105C15">u</c>
+		<c xml:id="L105C16">e</c>
+		<c xml:id="L105C17">m</c>
+		<c xml:id="L105C18">q</c>
+		<c xml:id="L105C19">u</c>
+		<c xml:id="L105C20">a</c>
+		<c xml:id="L105C21">m</c>
+		<c xml:id="L105C22"> </c>
+		<c xml:id="L105C23">i</c>
+		<c xml:id="L105C24">l</c>
+		<c xml:id="L105C25">l</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L105C26"> </c>
+	</line>
+	<line n="106">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L106C1">p</c>
+			<c xml:id="L106C2">o</c>
+			<c xml:id="L106C3">s</c>
+			<c xml:id="L106C4">t</c>
+		</supplied>
+		<c xml:id="L106C5">e</c>
+		<c xml:id="L106C6">r</c>
+		<c xml:id="L106C7">u</c>
+		<c xml:id="L106C8">m</c>
+		<c xml:id="L106C9"> </c>
+		<c xml:id="L106C10">l</c>
+		<c xml:id="L106C11">i</c>
+		<c xml:id="L106C12">b</c>
+		<c xml:id="L106C13">e</c>
+		<c xml:id="L106C14">r</c>
+		<c xml:id="L106C15">t</c>
+		<c xml:id="L106C16">o</c>
+		<c xml:id="L106C17">r</c>
+		<c xml:id="L106C18">u</c>
+		<c xml:id="L106C19">m</c>
+		<c xml:id="L106C20"> </c>
+		<c xml:id="L106C21">t</c>
+		<c xml:id="L106C22">u</c>
+		<c xml:id="L106C23">o</c>
+		<c xml:id="L106C24">r</c>
+		<c xml:id="L106C25">u</c>
+		<c xml:id="L106C26">m</c>
+		<c xml:id="L106C27"> </c>
+		<c xml:id="L106C28">P</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L106C29"> </c>
+	</line>
+	<line n="107">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L107C1">p</c>
+			<c xml:id="L107C2">r</c>
+			<c xml:id="L107C3">a</c>
+			<c xml:id="L107C4">e</c>
+			<c xml:id="L107C5">c</c>
+			<c xml:id="L107C6">i</c>
+		</supplied>
+		<c xml:id="L107C7">p</c>
+		<c xml:id="L107C8">u</c>
+		<c xml:id="L107C9">e</c>
+		<c xml:id="L107C10"> </c>
+		<c xml:id="L107C11">T</c>
+		<c xml:id="L107C12">h</c>
+		<c xml:id="L107C13">a</c>
+		<c xml:id="L107C14">u</c>
+		<c xml:id="L107C15">m</c>
+		<c xml:id="L107C16">a</c>
+		<c xml:id="L107C17">s</c>
+		<c xml:id="L107C18">t</c>
+		<c xml:id="L107C19">u</c>
+		<c xml:id="L107C20">m</c>
+		<c xml:id="L107C21"> </c>
+		<c xml:id="L107C22">e</c>
+		<c xml:id="L107C23">t</c>
+		<c xml:id="L107C24"> </c>
+		<c xml:id="L107C25">A</c>
+		<c xml:id="L107C26">n</c>
+		<c xml:id="L107C27">a</c>
+		<c xml:id="L107C28">t</c>
+		<supplied reason="lost">
+			<c xml:id="L107C29">e</c>
+			<c xml:id="L107C30">l</c>
+			<c xml:id="L107C31">l</c>
+			<c xml:id="L107C32">o</c>
+			<c xml:id="L107C33">n</c>
+			<c xml:id="L107C34">t</c>
+			<c xml:id="L107C35">e</c>
+			<c xml:id="L107C36">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L107C37"> </c>
+	</line>
+	<line n="108">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L108C1">e</c>
+		<c xml:id="L108C2">s</c>
+		<c xml:id="L108C3"> </c>
+		<c xml:id="L108C4">q</c>
+		<c xml:id="L108C5">u</c>
+		<c xml:id="L108C6">o</c>
+		<c xml:id="L108C7">s</c>
+		<c xml:id="L108C8"> </c>
+		<c xml:id="L108C9">s</c>
+		<supplied reason="lost">
+			<c xml:id="L108C10">i</c>
+		</supplied>
+		<c xml:id="L108C11">v</c>
+		<c xml:id="L108C12">e</c>
+		<c xml:id="L108C13"> </c>
+		<c xml:id="L108C14">a</c>
+		<c xml:id="L108C15">n</c>
+		<c xml:id="L108C16">t</c>
+		<c xml:id="L108C17">e</c>
+		<c xml:id="L108C18"> </c>
+		<c xml:id="L108C19">t</c>
+		<c xml:id="L108C20">e</c>
+		<c xml:id="L108C21">s</c>
+		<c xml:id="L108C22">t</c>
+		<c xml:id="L108C23">a</c>
+		<c xml:id="L108C24">m</c>
+		<c xml:id="L108C25">e</c>
+		<c xml:id="L108C26">n</c>
+		<supplied reason="lost">
+			<c xml:id="L108C27">t</c>
+			<c xml:id="L108C28">u</c>
+			<c xml:id="L108C29">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L108C30"> </c>
+	</line>
+	<line n="109">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L109C1">p</c>
+		<c xml:id="L109C2">l</c>
+		<c xml:id="L109C3">u</c>
+		<c xml:id="L109C4">r</c>
+		<c xml:id="L109C5">i</c>
+		<c xml:id="L109C6">m</c>
+		<c xml:id="L109C7">u</c>
+		<c xml:id="L109C8">m</c>
+		<c xml:id="L109C9"> </c>
+		<c xml:id="L109C10">t</c>
+		<c xml:id="L109C11">i</c>
+		<c xml:id="L109C12">b</c>
+		<c xml:id="L109C13">i</c>
+		<c xml:id="L109C14"> </c>
+		<c xml:id="L109C15">p</c>
+		<c xml:id="L109C16">r</c>
+		<c xml:id="L109C17">a</c>
+		<c xml:id="L109C18">e</c>
+		<c xml:id="L109C19">s</c>
+		<c xml:id="L109C20">t</c>
+		<c xml:id="L109C21">i</c>
+		<c xml:id="L109C22">t</c>
+		<c xml:id="L109C23">i</c>
+		<c xml:id="L109C24">s</c>
+		<c xml:id="L109C25">s</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L109C26"> </c>
+	</line>
+	<line n="110">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L110C1">e</c>
+		<c xml:id="L110C2"> </c>
+		<c xml:id="L110C3">a</c>
+		<c xml:id="L110C4"> </c>
+		<c xml:id="L110C5">t</c>
+		<c xml:id="L110C6">e</c>
+		<c xml:id="L110C7"> </c>
+		<c xml:id="L110C8">p</c>
+		<c xml:id="L110C9">a</c>
+		<c xml:id="L110C10">s</c>
+		<c xml:id="L110C11">s</c>
+		<c xml:id="L110C12">u</c>
+		<c xml:id="L110C13">s</c>
+		<c xml:id="L110C14"> </c>
+		<c xml:id="L110C15">s</c>
+		<c xml:id="L110C16">i</c>
+		<c xml:id="L110C17">m</c>
+		<c xml:id="L110C18"> </c>
+		<c xml:id="L110C19">a</c>
+		<c xml:id="L110C20">u</c>
+		<c xml:id="L110C21">t</c>
+		<c xml:id="L110C22"> </c>
+		<c xml:id="L110C23">t</c>
+		<c xml:id="L110C24">i</c>
+		<c xml:id="L110C25">m</c>
+		<c xml:id="L110C26">u</c>
+		<c xml:id="L110C27">e</c>
+		<c xml:id="L110C28">r</c>
+		<supplied reason="lost">
+			<c xml:id="L110C29">i</c>
+			<c xml:id="L110C30">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L110C31"> </c>
+	</line>
+	<line n="111">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L111C1"> </c>
+		<c xml:id="L111C2">U</c>
+		<c xml:id="L111C3">r</c>
+		<c xml:id="L111C4">s</c>
+		<c xml:id="L111C5">i</c>
+		<c xml:id="L111C6"> </c>
+		<c xml:id="L111C7">S</c>
+		<c xml:id="L111C8">e</c>
+		<c xml:id="L111C9">r</c>
+		<c xml:id="L111C10">v</c>
+		<c xml:id="L111C11">i</c>
+		<c xml:id="L111C12">a</c>
+		<c xml:id="L111C13">n</c>
+		<c xml:id="L111C14">i</c>
+		<c xml:id="L111C15"> </c>
+		<c xml:id="L111C16">d</c>
+		<c xml:id="L111C17">o</c>
+		<c xml:id="L111C18">m</c>
+		<c xml:id="L111C19">i</c>
+		<c xml:id="L111C20">n</c>
+		<c xml:id="L111C21">i</c>
+		<c xml:id="L111C22"> </c>
+		<c xml:id="L111C23">m</c>
+		<c xml:id="L111C24">e</c>
+		<c xml:id="L111C25">i</c>
+		<c xml:id="L111C26"> </c>
+		<c xml:id="L111C27">e</c>
+		<c xml:id="L111C28">t</c>
+		<c xml:id="L111C29"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L111C30"> </c>
+	</line>
+	<line n="112">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L112C1">m</c>
+		<c xml:id="L112C2"> </c>
+		<c xml:id="L112C3">f</c>
+		<c xml:id="L112C4">e</c>
+		<c xml:id="L112C5">r</c>
+		<c xml:id="L112C6">r</c>
+		<c xml:id="L112C7">i</c>
+		<c xml:id="L112C8"> </c>
+		<c xml:id="L112C9">v</c>
+		<c xml:id="L112C10">o</c>
+		<c xml:id="L112C11">l</c>
+		<c xml:id="L112C12">o</c>
+		<c xml:id="L112C13"> </c>
+		<c xml:id="L112C14">p</c>
+		<c xml:id="L112C15">e</c>
+		<c xml:id="L112C16">r</c>
+		<c xml:id="L112C17"> </c>
+		<c xml:id="L112C18">S</c>
+		<c xml:id="L112C19">e</c>
+		<c xml:id="L112C20">r</c>
+		<c xml:id="L112C21">v</c>
+		<c xml:id="L112C22">i</c>
+		<c xml:id="L112C23">a</c>
+		<c xml:id="L112C24">n</c>
+		<c xml:id="L112C25">i</c>
+		<c xml:id="L112C26"> </c>
+		<c xml:id="L112C27">m</c>
+		<c xml:id="L112C28">e</c>
+		<c xml:id="L112C29">i</c>
+		<c xml:id="L112C30"> </c>
+		<c xml:id="L112C31">l</c>
+		<c xml:id="L112C32">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L112C33"> </c>
+	</line>
+	<line n="113">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L113C1">d</c>
+			<c xml:id="L113C2">e</c>
+			<c xml:id="L113C3">f</c>
+			<c xml:id="L113C4">u</c>
+		</supplied>
+		<c xml:id="L113C5">n</c>
+		<c xml:id="L113C6">c</c>
+		<c xml:id="L113C7">t</c>
+		<c xml:id="L113C8">u</c>
+		<c xml:id="L113C9">s</c>
+		<c xml:id="L113C10"> </c>
+		<c xml:id="L113C11">e</c>
+		<c xml:id="L113C12">r</c>
+		<c xml:id="L113C13">o</c>
+		<c xml:id="L113C14"> </c>
+		<c xml:id="L113C15">c</c>
+		<c xml:id="L113C16">o</c>
+		<c xml:id="L113C17">n</c>
+		<c xml:id="L113C18">s</c>
+		<c xml:id="L113C19">u</c>
+		<c xml:id="L113C20">m</c>
+		<c xml:id="L113C21">m</c>
+		<c xml:id="L113C22">a</c>
+		<c xml:id="L113C23">r</c>
+		<c xml:id="L113C24">i</c>
+		<c xml:id="L113C25"> </c>
+		<c xml:id="L113C26">i</c>
+		<c xml:id="L113C27">n</c>
+		<c xml:id="L113C28"> </c>
+		<c xml:id="L113C29">q</c>
+		<supplied reason="lost">
+			<c xml:id="L113C30">u</c>
+			<c xml:id="L113C31">o</c>
+			<c xml:id="L113C32">d</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L113C33"> </c>
+	</line>
+	<line n="114">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L114C1">m</c>
+		<c xml:id="L114C2"> </c>
+		<c xml:id="L114C3">r</c>
+		<c xml:id="L114C4">e</c>
+		<c xml:id="L114C5">d</c>
+		<c xml:id="L114C6">d</c>
+		<c xml:id="L114C7">e</c>
+		<c xml:id="L114C8">r</c>
+		<c xml:id="L114C9">e</c>
+		<c xml:id="L114C10"> </c>
+		<c xml:id="L114C11">v</c>
+		<c xml:id="L114C12">o</c>
+		<c xml:id="L114C13">l</c>
+		<c xml:id="L114C14">o</c>
+		<c xml:id="L114C15"> </c>
+		<c xml:id="L114C16">S</c>
+		<c xml:id="L114C17">e</c>
+		<c xml:id="L114C18">r</c>
+		<c xml:id="L114C19">v</c>
+		<c xml:id="L114C20">i</c>
+		<c xml:id="L114C21">a</c>
+		<c xml:id="L114C22">n</c>
+		<c xml:id="L114C23">o</c>
+		<c xml:id="L114C24"> </c>
+		<c xml:id="L114C25">m</c>
+		<c xml:id="L114C26">e</c>
+		<supplied reason="lost">
+			<c xml:id="L114C27">o</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L114C28"> </c>
+	</line>
+	<line n="115">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L115C1">e</c>
+			<c xml:id="L115C2">x</c>
+			<c xml:id="L115C3">e</c>
+			<c xml:id="L115C4">m</c>
+			<c xml:id="L115C5">p</c>
+			<c xml:id="L115C6">l</c>
+			<c xml:id="L115C7">u</c>
+		</supplied>
+		<c xml:id="L115C8">m</c>
+		<c xml:id="L115C9"> </c>
+		<c xml:id="L115C10">e</c>
+		<c xml:id="L115C11">t</c>
+		<c xml:id="L115C12"> </c>
+		<c xml:id="L115C13">p</c>
+		<c xml:id="L115C14">o</c>
+		<c xml:id="L115C15">n</c>
+		<c xml:id="L115C16">i</c>
+		<c xml:id="L115C17"> </c>
+		<c xml:id="L115C18">a</c>
+		<c xml:id="L115C19">d</c>
+		<c xml:id="L115C20"> </c>
+		<c xml:id="L115C21">l</c>
+		<c xml:id="L115C22">a</c>
+		<c xml:id="L115C23">t</c>
+		<c xml:id="L115C24">u</c>
+		<c xml:id="L115C25">s</c>
+		<c xml:id="L115C26"> </c>
+		<c xml:id="L115C27">m</c>
+		<c xml:id="L115C28">o</c>
+		<c xml:id="L115C29">n</c>
+		<c xml:id="L115C30">i</c>
+		<c xml:id="L115C31">m</c>
+		<c xml:id="L115C32">e</c>
+		<c xml:id="L115C33">n</c>
+		<supplied reason="lost">
+			<c xml:id="L115C34">t</c>
+			<c xml:id="L115C35">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L115C36"> </c>
+	</line>
+	<line n="116">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L116C1">e</c>
+		</supplied>
+		<c xml:id="L116C2">u</c>
+		<c xml:id="L116C3">m</c>
+		<c xml:id="L116C4"> </c>
+		<c xml:id="L116C5">e</c>
+		<c xml:id="L116C6">o</c>
+		<c xml:id="L116C7">s</c>
+		<c xml:id="L116C8">q</c>
+		<c xml:id="L116C9">u</c>
+		<c xml:id="L116C10">e</c>
+		<c xml:id="L116C11"> </c>
+		<c xml:id="L116C12">r</c>
+		<c xml:id="L116C13">o</c>
+		<c xml:id="L116C14">g</c>
+		<c xml:id="L116C15">o</c>
+		<c xml:id="L116C16"> </c>
+		<c xml:id="L116C17">f</c>
+		<c xml:id="L116C18">i</c>
+		<c xml:id="L116C19">d</c>
+		<c xml:id="L116C20">e</c>
+		<c xml:id="L116C21">i</c>
+		<c xml:id="L116C22">q</c>
+		<c xml:id="L116C23">u</c>
+		<c xml:id="L116C24">e</c>
+		<c xml:id="L116C25"> </c>
+		<c xml:id="L116C26">e</c>
+		<c xml:id="L116C27">i</c>
+		<c xml:id="L116C28">u</c>
+		<supplied reason="lost">
+			<c xml:id="L116C29">s</c>
+			<c xml:id="L116C30"> </c>
+			<c xml:id="L116C31">c</c>
+			<c xml:id="L116C32">o</c>
+			<c xml:id="L116C33">m</c>
+			<c xml:id="L116C34">m</c>
+			<c xml:id="L116C35">i</c>
+			<c xml:id="L116C36">t</c>
+			<c xml:id="L116C37">t</c>
+			<c xml:id="L116C38">o</c>
+			<c xml:id="L116C39"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L116C40"> </c>
+	</line>
+	<line n="117">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L117C1"> </c>
+			<c xml:id="L117C2">d</c>
+			<c xml:id="L117C3">e</c>
+			<c xml:id="L117C4">d</c>
+			<c xml:id="L117C5">i</c>
+			<c xml:id="L117C6"> </c>
+			<c xml:id="L117C7">l</c>
+		</supplied>
+		<c xml:id="L117C8">e</c>
+		<c xml:id="L117C9">g</c>
+		<c xml:id="L117C10">a</c>
+		<c xml:id="L117C11">v</c>
+		<c xml:id="L117C12">i</c>
+		<c xml:id="L117C13"> </c>
+		<c xml:id="L117C14">e</c>
+		<c xml:id="L117C15">a</c>
+		<c xml:id="L117C16"> </c>
+		<c xml:id="L117C17">v</c>
+		<c xml:id="L117C18">i</c>
+		<c xml:id="L117C19">c</c>
+		<c xml:id="L117C20">e</c>
+		<c xml:id="L117C21">n</c>
+		<c xml:id="L117C22">s</c>
+		<c xml:id="L117C23">i</c>
+		<c xml:id="L117C24">m</c>
+		<c xml:id="L117C25">i</c>
+		<c xml:id="L117C26">s</c>
+		<c xml:id="L117C27"> </c>
+		<c xml:id="L117C28">o</c>
+		<c xml:id="L117C29">m</c>
+		<c xml:id="L117C30">n</c>
+		<c xml:id="L117C31">i</c>
+		<c xml:id="L117C32">b</c>
+		<supplied reason="lost">
+			<c xml:id="L117C33">u</c>
+			<c xml:id="L117C34">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L117C35"> </c>
+	</line>
+	<line n="118">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L118C1"> </c>
+		<c xml:id="L118C2">n</c>
+		<c xml:id="L118C3">o</c>
+		<c xml:id="L118C4">m</c>
+		<c xml:id="L118C5">i</c>
+		<c xml:id="L118C6">n</c>
+		<c xml:id="L118C7">e</c>
+		<c xml:id="L118C8"> </c>
+		<c xml:id="L118C9">a</c>
+		<c xml:id="L118C10">u</c>
+		<c xml:id="L118C11">t</c>
+		<c xml:id="L118C12"> </c>
+		<c xml:id="L118C13">v</c>
+		<c xml:id="L118C14">i</c>
+		<c xml:id="L118C15">c</c>
+		<c xml:id="L118C16">e</c>
+		<c xml:id="L118C17">n</c>
+		<c xml:id="L118C18">s</c>
+		<c xml:id="L118C19">i</c>
+		<c xml:id="L118C20">m</c>
+		<c xml:id="L118C21">a</c>
+		<c xml:id="L118C22">e</c>
+		<c xml:id="L118C23"> </c>
+		<c xml:id="L118C24">n</c>
+		<supplied reason="lost">
+			<c xml:id="L118C25">o</c>
+			<c xml:id="L118C26">m</c>
+			<c xml:id="L118C27">i</c>
+			<c xml:id="L118C28">n</c>
+			<c xml:id="L118C29">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L118C30"> </c>
+	</line>
+	<line n="119">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L119C1">c</c>
+		<c xml:id="L119C2">a</c>
+		<c xml:id="L119C3">n</c>
+		<c xml:id="L119C4">t</c>
+		<c xml:id="L119C5">u</c>
+		<c xml:id="L119C6">r</c>
+		<c xml:id="L119C7"> </c>
+		<c xml:id="L119C8">a</c>
+		<c xml:id="L119C9">u</c>
+		<c xml:id="L119C10">t</c>
+		<c xml:id="L119C11"> </c>
+		<c xml:id="L119C12">d</c>
+		<c xml:id="L119C13">e</c>
+		<c xml:id="L119C14">c</c>
+		<c xml:id="L119C15">i</c>
+		<c xml:id="L119C16">d</c>
+		<c xml:id="L119C17">a</c>
+		<c xml:id="L119C18">n</c>
+		<c xml:id="L119C19">t</c>
+		<c xml:id="L119C20"> </c>
+		<c xml:id="L119C21">a</c>
+		<c xml:id="L119C22">u</c>
+		<c xml:id="L119C23">t</c>
+		<c xml:id="L119C24"> </c>
+		<c xml:id="L119C25">i</c>
+		<c xml:id="L119C26">n</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L119C27"> </c>
+	</line>
+	<line n="120">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L120C1">a</c>
+			<c xml:id="L120C2">l</c>
+			<c xml:id="L120C3">i</c>
+			<c xml:id="L120C4">o</c>
+		</supplied>
+		<c xml:id="L120C5">v</c>
+		<c xml:id="L120C6">e</c>
+		<c xml:id="L120C7"> </c>
+		<c xml:id="L120C8">q</c>
+		<c xml:id="L120C9">u</c>
+		<c xml:id="L120C10">o</c>
+		<c xml:id="L120C11"> </c>
+		<c xml:id="L120C12">g</c>
+		<c xml:id="L120C13">e</c>
+		<supplied reason="lost">
+			<c xml:id="L120C14">n</c>
+			<c xml:id="L120C15">e</c>
+			<c xml:id="L120C16">r</c>
+		</supplied>
+		<c xml:id="L120C17">e</c>
+		<c xml:id="L120C18"> </c>
+		<c xml:id="L120C19">s</c>
+		<c xml:id="L120C20">c</c>
+		<c xml:id="L120C21">r</c>
+		<c xml:id="L120C22">i</c>
+		<c xml:id="L120C23">p</c>
+		<c xml:id="L120C24">t</c>
+		<c xml:id="L120C25">u</c>
+		<c xml:id="L120C26">m</c>
+		<c xml:id="L120C27"> </c>
+		<c xml:id="L120C28">s</c>
+		<c xml:id="L120C29">i</c>
+		<c xml:id="L120C30">g</c>
+		<supplied reason="lost">
+			<c xml:id="L120C31">n</c>
+			<c xml:id="L120C32">a</c>
+			<c xml:id="L120C33">t</c>
+			<c xml:id="L120C34">u</c>
+			<c xml:id="L120C35">m</c>
+			<c xml:id="L120C36">q</c>
+			<c xml:id="L120C37">u</c>
+			<c xml:id="L120C38">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L120C39"> </c>
+	</line>
+	<line n="121">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost" cert="low">
+			<c xml:id="L121C1"> </c>
+			<c xml:id="L121C2">s</c>
+			<c xml:id="L121C3">i</c>
+			<c xml:id="L121C4">g</c>
+			<c xml:id="L121C5">n</c>
+			<c xml:id="L121C6">a</c>
+			<c xml:id="L121C7">t</c>
+			<c xml:id="L121C8">u</c>
+		</supplied>
+		<c xml:id="L121C9">m</c>
+		<c xml:id="L121C10">q</c>
+		<c xml:id="L121C11">u</c>
+		<c xml:id="L121C12">e</c>
+		<c xml:id="L121C13"> </c>
+		<c xml:id="L121C14">r</c>
+		<c xml:id="L121C15">e</c>
+		<c xml:id="L121C16">l</c>
+		<c xml:id="L121C17">i</c>
+		<supplied reason="lost">
+			<c xml:id="L121C18">q</c>
+			<c xml:id="L121C19">u</c>
+			<c xml:id="L121C20">i</c>
+			<c xml:id="L121C21">s</c>
+			<c xml:id="L121C22">s</c>
+			<c xml:id="L121C23">e</c>
+		</supplied>
+		<c xml:id="L121C24">m</c>
+		<c xml:id="L121C25"> </c>
+		<c xml:id="L121C26">l</c>
+		<c xml:id="L121C27">i</c>
+		<c xml:id="L121C28">t</c>
+		<c xml:id="L121C29">u</c>
+		<c xml:id="L121C30">r</c>
+		<c xml:id="L121C31">a</c>
+		<c xml:id="L121C32">e</c>
+		<c xml:id="L121C33"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L121C34"> </c>
+	</line>
+	<line n="122">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L122C1">a</c>
+		<c xml:id="L122C2">m</c>
+		<c xml:id="L122C3"> </c>
+		<c xml:id="L122C4">t</c>
+		<c xml:id="L122C5">e</c>
+		<c xml:id="L122C6">s</c>
+		<c xml:id="L122C7">t</c>
+		<c xml:id="L122C8">a</c>
+		<c xml:id="L122C9">m</c>
+		<supplied reason="lost">
+			<c xml:id="L122C10">e</c>
+			<c xml:id="L122C11">n</c>
+		</supplied>
+		<c xml:id="L122C12">t</c>
+		<c xml:id="L122C13">i</c>
+		<c xml:id="L122C14"> </c>
+		<c xml:id="L122C15">f</c>
+		<c xml:id="L122C16">a</c>
+		<c xml:id="L122C17">c</c>
+		<c xml:id="L122C18">i</c>
+		<c xml:id="L122C19">u</c>
+		<c xml:id="L122C20">n</c>
+		<c xml:id="L122C21">d</c>
+		<c xml:id="L122C22">i</c>
+		<c xml:id="L122C23"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L122C24"> </c>
+	</line>
+	<line n="123">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L123C1">n</c>
+		<c xml:id="L123C2">t</c>
+		<c xml:id="L123C3">i</c>
+		<c xml:id="L123C4">d</c>
+		<c xml:id="L123C5">i</c>
+		<c xml:id="L123C6">u</c>
+		<supplied reason="lost">
+			<c xml:id="L123C7">m</c>
+			<c xml:id="L123C8"> </c>
+			<c xml:id="L123C9">C</c>
+		</supplied>
+		<c xml:id="L123C10">a</c>
+		<c xml:id="L123C11">m</c>
+		<c xml:id="L123C12">p</c>
+		<c xml:id="L123C13">a</c>
+		<c xml:id="L123C14">n</c>
+		<c xml:id="L123C15">u</c>
+		<c xml:id="L123C16">m</c>
+		<c xml:id="L123C17"> </c>
+		<c xml:id="L123C18">t</c>
+		<c xml:id="L123C19">e</c>
+		<c xml:id="L123C20">s</c>
+		<c xml:id="L123C21">t</c>
+		<c xml:id="L123C22">a</c>
+		<supplied reason="lost">
+			<c xml:id="L123C23">m</c>
+			<c xml:id="L123C24">e</c>
+			<c xml:id="L123C25">n</c>
+			<c xml:id="L123C26">t</c>
+			<c xml:id="L123C27">u</c>
+			<c xml:id="L123C28">m</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L123C29"> </c>
+	</line>
+	<line n="124">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L124C1">A</c>
+			<c xml:id="L124C2">e</c>
+			<c xml:id="L124C3">l</c>
+		</supplied>
+		<c xml:id="L124C4">i</c>
+		<c xml:id="L124C5">o</c>
+		<c xml:id="L124C6"> </c>
+		<c xml:id="L124C7">H</c>
+		<supplied reason="lost">
+			<c xml:id="L124C8">a</c>
+			<c xml:id="L124C9">d</c>
+			<c xml:id="L124C10">r</c>
+			<c xml:id="L124C11">i</c>
+			<c xml:id="L124C12">a</c>
+		</supplied>
+		<c xml:id="L124C13">n</c>
+		<c xml:id="L124C14">o</c>
+		<c xml:id="L124C15"> </c>
+		<c xml:id="L124C16">e</c>
+		<c xml:id="L124C17">t</c>
+		<c xml:id="L124C18"> </c>
+		<c xml:id="L124C19">T</c>
+		<c xml:id="L124C20">r</c>
+		<c xml:id="L124C21">e</c>
+		<c xml:id="L124C22">b</c>
+		<c xml:id="L124C23">a</c>
+		<c xml:id="L124C24">t</c>
+		<c xml:id="L124C25">i</c>
+		<c xml:id="L124C26">o</c>
+		<c xml:id="L124C27"> </c>
+		<c xml:id="L124C28">P</c>
+		<c xml:id="L124C29">r</c>
+		<supplied reason="lost">
+			<c xml:id="L124C30">i</c>
+			<c xml:id="L124C31">s</c>
+			<c xml:id="L124C32">c</c>
+			<c xml:id="L124C33">o</c>
+			<c xml:id="L124C34"> </c>
+			<expan>
+				<abbr>co</abbr>
+				<ex>n</ex>
+				<abbr>s</abbr>
+				<ex>ulibus</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L124C35"> </c>
+	</line>
+	<line n="125">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L125C1">t</c>
+		<c xml:id="L125C2"> </c>
+		<c xml:id="L125C3">d</c>
+		<c xml:id="L125C4">o</c>
+		<c xml:id="L125C5"> </c>
+		<c xml:id="L125C6">l</c>
+		<c xml:id="L125C7">e</c>
+		<c xml:id="L125C8">g</c>
+		<c xml:id="L125C9">o</c>
+		<c xml:id="L125C10"> </c>
+		<c xml:id="L125C11">d</c>
+		<c xml:id="L125C12">a</c>
+		<c xml:id="L125C13">m</c>
+		<c xml:id="L125C14">n</c>
+		<c xml:id="L125C15">a</c>
+		<c xml:id="L125C16">s</c>
+		<c xml:id="L125C17">q</c>
+		<supplied reason="lost">
+			<c xml:id="L125C18">u</c>
+			<c xml:id="L125C19">e</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L125C20"> </c>
+	</line>
+	<line n="126">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L126C1">I</c>
+					<c xml:id="L126C2">m</c>
+					<c xml:id="L126C3">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L126C4">e</c>
+					<c xml:id="L126C5">r</c>
+					<c xml:id="L126C6">a</c>
+					<c xml:id="L126C7">t</c>
+					<c xml:id="L126C8">o</c>
+					<c xml:id="L126C9">r</c>
+					<c xml:id="L126C10">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L126C11"> </c>
+			<c xml:id="L126C12">C</c>
+			<c xml:id="L126C13">a</c>
+			<c xml:id="L126C14">e</c>
+			<c xml:id="L126C15">s</c>
+			<c xml:id="L126C16">a</c>
+			<c xml:id="L126C17">r</c>
+			<c xml:id="L126C18">i</c>
+			<c xml:id="L126C19"> </c>
+			<c xml:id="L126C20">T</c>
+			<c xml:id="L126C21">r</c>
+			<c xml:id="L126C22">a</c>
+			<c xml:id="L126C23">i</c>
+			<c xml:id="L126C24">a</c>
+		</supplied>
+		<c xml:id="L126C25">n</c>
+		<c xml:id="L126C26">o</c>
+		<c xml:id="L126C27"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L126C28">A</c>
+				<c xml:id="L126C29">u</c>
+				<c xml:id="L126C30">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L126C31">u</c>
+				<c xml:id="L126C32">s</c>
+				<c xml:id="L126C33">t</c>
+				<c xml:id="L126C34">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L126C35"> </c>
+		<c xml:id="L126C36">G</c>
+		<c xml:id="L126C37">e</c>
+		<c xml:id="L126C38">r</c>
+		<c xml:id="L126C39">m</c>
+		<c xml:id="L126C40">a</c>
+		<c xml:id="L126C41">n</c>
+		<c xml:id="L126C42">i</c>
+		<c xml:id="L126C43">c</c>
+		<supplied reason="lost">
+			<c xml:id="L126C44">o</c>
+			<c xml:id="L126C45"> </c>
+			<c xml:id="L126C46">D</c>
+			<c xml:id="L126C47">a</c>
+			<c xml:id="L126C48">c</c>
+			<c xml:id="L126C49">i</c>
+			<c xml:id="L126C50">c</c>
+			<c xml:id="L126C51">o</c>
+		</supplied>
+		<c xml:id="L126C52"> </c>
+	</line>
+	<line n="127">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost" cert="low">
+			<c xml:id="L127C1"> </c>
+			<c xml:id="L127C2">S</c>
+			<c xml:id="L127C3">o</c>
+			<c xml:id="L127C4">s</c>
+		</supplied>
+		<c xml:id="L127C5">i</c>
+		<c xml:id="L127C6">o</c>
+		<c xml:id="L127C7"> </c>
+		<c xml:id="L127C8">S</c>
+		<c xml:id="L127C9">e</c>
+		<c xml:id="L127C10">n</c>
+		<c xml:id="L127C11">e</c>
+		<c xml:id="L127C12">c</c>
+		<c xml:id="L127C13">i</c>
+		<c xml:id="L127C14">o</c>
+		<c xml:id="L127C15">n</c>
+		<c xml:id="L127C16">i</c>
+		<c xml:id="L127C17"> </c>
+		<c xml:id="L127C18">s</c>
+		<c xml:id="L127C19">i</c>
+		<c xml:id="L127C20">n</c>
+		<c xml:id="L127C21">g</c>
+		<c xml:id="L127C22">u</c>
+		<supplied reason="lost">
+			<c xml:id="L127C23">l</c>
+			<c xml:id="L127C24">i</c>
+			<c xml:id="L127C25">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L127C26"> </c>
+	</line>
+	<line n="128">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L128C1">a</c>
+			<c xml:id="L128C2">r</c>
+			<c xml:id="L128C3">g</c>
+			<c xml:id="L128C4">e</c>
+		</supplied>
+		<c xml:id="L128C5">n</c>
+		<c xml:id="L128C6">t</c>
+		<c xml:id="L128C7">i</c>
+		<c xml:id="L128C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L128C9">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L128C10">o</c>
+				<c xml:id="L128C11">n</c>
+				<c xml:id="L128C12">d</c>
+				<c xml:id="L128C13">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L128C14"> </c>
+		<c xml:id="L128C15">V</c>
+		<c xml:id="L128C16"> </c>
+		<c xml:id="L128C17">O</c>
+		<c xml:id="L128C18">t</c>
+		<c xml:id="L128C19">a</c>
+		<c xml:id="L128C20">c</c>
+		<c xml:id="L128C21">i</c>
+		<c xml:id="L128C22">l</c>
+		<c xml:id="L128C23">i</c>
+		<c xml:id="L128C24">o</c>
+		<c xml:id="L128C25"> </c>
+		<c xml:id="L128C26">O</c>
+		<c xml:id="L128C27">r</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L128C28"> </c>
+	</line>
+	<line n="129">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L129C1"> </c>
+		<c xml:id="L129C2">m</c>
+		<c xml:id="L129C3">e</c>
+		<c xml:id="L129C4">d</c>
+		<c xml:id="L129C5">i</c>
+		<c xml:id="L129C6">c</c>
+		<c xml:id="L129C7">o</c>
+		<c xml:id="L129C8"> </c>
+		<c xml:id="L129C9">H</c>
+		<c xml:id="L129C10">S</c>
+		<c xml:id="L129C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L129C12">X</c>
+			</abbr>
+			<ex>
+				<c xml:id="L129C13">d</c>
+				<c xml:id="L129C14">e</c>
+				<c xml:id="L129C15">c</c>
+				<c xml:id="L129C16">e</c>
+				<c xml:id="L129C17">m</c>
+				<c xml:id="L129C18"> </c>
+				<c xml:id="L129C19">m</c>
+				<c xml:id="L129C20">i</c>
+				<c xml:id="L129C21">l</c>
+				<c xml:id="L129C22">i</c>
+				<c xml:id="L129C23">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L129C24"> </c>
+		<c xml:id="L129C25">i</c>
+		<supplied reason="lost">
+			<c xml:id="L129C26">t</c>
+			<c xml:id="L129C27">e</c>
+			<c xml:id="L129C28">m</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L129C29"> </c>
+	</line>
+	<line n="130">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L130C1">s</c>
+		<c xml:id="L130C2"> </c>
+		<c xml:id="L130C3">H</c>
+		<c xml:id="L130C4">S</c>
+		<c xml:id="L130C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L130C6">C</c>
+				<c xml:id="L130C7">C</c>
+				<c xml:id="L130C8">C</c>
+				<c xml:id="L130C9">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L130C10">q</c>
+				<c xml:id="L130C11">u</c>
+				<c xml:id="L130C12">a</c>
+				<c xml:id="L130C13">d</c>
+				<c xml:id="L130C14">r</c>
+				<c xml:id="L130C15">i</c>
+				<c xml:id="L130C16">n</c>
+				<c xml:id="L130C17">g</c>
+				<c xml:id="L130C18">i</c>
+				<c xml:id="L130C19">n</c>
+				<c xml:id="L130C20">t</c>
+				<c xml:id="L130C21">a</c>
+				<c xml:id="L130C22"> </c>
+				<c xml:id="L130C23">m</c>
+				<c xml:id="L130C24">i</c>
+				<c xml:id="L130C25">l</c>
+				<c xml:id="L130C26">i</c>
+				<c xml:id="L130C27">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L130C28"> </c>
+		<c xml:id="L130C29">e</c>
+		<c xml:id="L130C30">x</c>
+		<c xml:id="L130C31"> </c>
+		<c xml:id="L130C32">q</c>
+		<c xml:id="L130C33">u</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L130C34"> </c>
+	</line>
+	<line n="131">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L131C1"> </c>
+		<c xml:id="L131C2">E</c>
+		<c xml:id="L131C3">u</c>
+		<c xml:id="L131C4">r</c>
+		<c xml:id="L131C5">o</c>
+		<c xml:id="L131C6">t</c>
+		<c xml:id="L131C7">a</c>
+		<c xml:id="L131C8"> </c>
+		<c xml:id="L131C9">l</c>
+		<c xml:id="L131C10">i</c>
+		<c xml:id="L131C11">b</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L131C12"> </c>
+	</line>
+	<line n="132">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L132C1">a</c>
+		<c xml:id="L132C2">t</c>
+		<c xml:id="L132C3">i</c>
+		<c xml:id="L132C4">o</c>
+		<c xml:id="L132C5">n</c>
+		<c xml:id="L132C6">e</c>
+		<c xml:id="L132C7"> </c>
+		<c xml:id="L132C8">d</c>
+		<c xml:id="L132C9">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L132C10"> </c>
+	</line>
+	<line n="133">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L133C1">c</c>
+		<c xml:id="L133C2"> </c>
+		<c xml:id="L133C3">e</c>
+		<c xml:id="L133C4">x</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

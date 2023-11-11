@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Iuenna &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067347</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067347</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Globasnitz, Arch. Pilgermus. Hemmaberg-Juenna</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0530" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 530 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778467">Globasnitz</placeName><placeName type="findspot">Hemmaberg, {Gemeindekirche, Solea}</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067347_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022904" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c57298b2-6bc9-422e-9e0d-9cd5623b726e/file/id/783070/file_version/name/small" /><graphic xml:id="F022903" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1267595f-e455-468e-a217-049189fd3876/file/id/783069/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fu&#223;bodenmosaik. Schwarze Buchstaben auf wei&#223;em Grund; rote Trennlinien zwischen den Zeilen. Inschriftfeld durch ein M&#228;andermuster eingerahmt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Glaser, AustrRom 30, 1980, 22.</bibl><bibl>(o. Autor), R&#338; 9/10, 1981/82, 285, Nr. 54.</bibl><bibl>J.-P. Caillet, L&#8217;&#233;verg&#233;tisme monumental chr&#233;tien en Italie et &#224; ses marges d&#8217;apr&#232;s l&#8217;&#233;pigraphie des pavements de mosa&#239;que (IVe-VIIe s.) (Rome 1993) 359-360; fig. 269.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">F</c>
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">O</c>
+		<c xml:id="L2C2"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">N</c>
+		<c xml:id="L3C2"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C2">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C3">e</c>
+				<c xml:id="L4C4">c</c>
+				<c xml:id="L4C5">-</c>
+				<c xml:id="L4C6">-</c>
+				<c xml:id="L4C7">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">p</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C10">e</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C11">d</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C12">e</c>
+				<c xml:id="L4C13">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+		<c xml:id="L4C15">C</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

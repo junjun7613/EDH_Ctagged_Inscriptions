@@ -1,0 +1,238 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Geistthal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038891</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038891</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Geistthal, S. Jakob, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>29</height><width>69</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778718">Geistthal</placeName><placeName type="findspot">{S. Jakob, Pfarrkirche}, sekund&#228;r verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038891_1" sex="M"><persName><name type="cognomen">Gemellus</name></persName></person><person xml:id="HD038891_2" sex="M"><persName><name type="cognomen">Marco</name></persName></person><person xml:id="HD038891_3" sex="W"><persName><name type="cognomen">Adnama</name></persName></person><person xml:id="HD038891_4" sex="M"><persName><name type="cognomen">Marcellinus</name></persName></person><person xml:id="HD038891_5" sex="W"><persName><name type="cognomen">Vitellia</name></persName></person><person xml:id="HD038891_6" sex="W"><persName><name type="cognomen">Ursacina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-19" who="B&#246;hm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1 u. Z. 3: bei LL steht jeweils das zweite klein und im Winkel des ersten. Z. 2: das O in co(niux) steht klein im C, Z. 4: das P in op(tima) klein im P. Ligaturen: Z. 1 MA, Z. 2 ET und MA, Z. 4 ET und TE.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 355, Nr. 298.</bibl><bibl>CIL 03, 05420.</bibl><bibl>ILLPRON 1193.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">G</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">m</c>
+		<c xml:id="L1C5">e</c>
+		<c xml:id="L1C6">l</c>
+		<c xml:id="L1C7">l</c>
+		<c xml:id="L1C8">u</c>
+		<c xml:id="L1C9">s</c>
+		<c xml:id="L1C10"> </c>
+		<c xml:id="L1C11">M</c>
+		<c xml:id="L1C12">a</c>
+		<c xml:id="L1C13">r</c>
+		<c xml:id="L1C14">c</c>
+		<c xml:id="L1C15">o</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">n</c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C5">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">i</c>
+				<c xml:id="L2C7">l</c>
+				<c xml:id="L2C8">i</c>
+				<c xml:id="L2C9">u</c>
+				<c xml:id="L2C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C11"> </c>
+		<c xml:id="L2C12">e</c>
+		<c xml:id="L2C13">t</c>
+		<c xml:id="L2C14"> </c>
+		<c xml:id="L2C15">A</c>
+		<c xml:id="L2C16">d</c>
+		<c xml:id="L2C17">n</c>
+		<c xml:id="L2C18">a</c>
+		<c xml:id="L2C19">m</c>
+		<c xml:id="L2C20">a</c>
+		<c xml:id="L2C21"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C22">c</c>
+				<c xml:id="L2C23">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C24">n</c>
+				<c xml:id="L2C25">i</c>
+				<c xml:id="L2C26">u</c>
+				<c xml:id="L2C27">x</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C28"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">e</c>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">M</c>
+		<c xml:id="L3C5">a</c>
+		<c xml:id="L3C6">r</c>
+		<c xml:id="L3C7">c</c>
+		<c xml:id="L3C8">e</c>
+		<c xml:id="L3C9">l</c>
+		<c xml:id="L3C10">l</c>
+		<c xml:id="L3C11">i</c>
+		<c xml:id="L3C12">n</c>
+		<c xml:id="L3C13">u</c>
+		<c xml:id="L3C14">s</c>
+		<c xml:id="L3C15"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">i</c>
+				<c xml:id="L4C3">l</c>
+				<c xml:id="L4C4">i</c>
+				<c xml:id="L4C5">u</c>
+				<c xml:id="L4C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C7"> </c>
+		<c xml:id="L4C8">e</c>
+		<c xml:id="L4C9">t</c>
+		<c xml:id="L4C10"> </c>
+		<c xml:id="L4C11">V</c>
+		<c xml:id="L4C12">i</c>
+		<c xml:id="L4C13">t</c>
+		<c xml:id="L4C14">e</c>
+		<c xml:id="L4C15">l</c>
+		<c xml:id="L4C16">l</c>
+		<c xml:id="L4C17">i</c>
+		<c xml:id="L4C18">a</c>
+		<c xml:id="L4C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C20">c</c>
+				<c xml:id="L4C21">o</c>
+				<c xml:id="L4C22">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C23">i</c>
+				<c xml:id="L4C24">u</c>
+				<c xml:id="L4C25">x</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C27">o</c>
+				<c xml:id="L4C28">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C29">t</c>
+				<c xml:id="L4C30">i</c>
+				<c xml:id="L4C31">m</c>
+				<c xml:id="L4C32">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C33"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">v</c>
+		<c xml:id="L5C2">i</c>
+		<c xml:id="L5C3">v</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C6">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C7">e</c>
+				<c xml:id="L5C8">c</c>
+				<c xml:id="L5C9">e</c>
+				<c xml:id="L5C10">r</c>
+				<c xml:id="L5C11">u</c>
+				<c xml:id="L5C12">n</c>
+				<c xml:id="L5C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C14"> </c>
+		<c xml:id="L5C15">s</c>
+		<c xml:id="L5C16">i</c>
+		<c xml:id="L5C17">b</c>
+		<c xml:id="L5C18">i</c>
+		<c xml:id="L5C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C20">U</c>
+				<c xml:id="L5C21">r</c>
+				<c xml:id="L5C22">s</c>
+				<c xml:id="L5C23">a</c>
+				<c xml:id="L5C24">c</c>
+				<c xml:id="L5C25">i</c>
+				<c xml:id="L5C26">n</c>
+				<c xml:id="L5C27">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C28">e</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,210 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035118</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035118</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen (Fragment a u. b); Split, Arh. Muz. (Fragment c)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">sarcophagus?</objectType><dimensions unit="cm"><height>(40)</height><width>(32)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0385" notAfter-custom="0386" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">385 AD - 386 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Marusinac, n&#246;rdliches Heiligtum, {Grabh&#228;uschen d}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035118_1"><persName><name type="cognomen">Agip[---]</name></persName></person><person xml:id="HD035118_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q159369"><name type="cognomen">Arcadius+</name></persName></person><person xml:id="HD035118_3" sex="M"><persName><name type="cognomen">Bauto+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Drei Fragmente wohl eines Sarkophagkastens, davon zwei (a u. b = Z. 1-4) aneinanderpassend und inzwischen verschollen. Fundjahr und Ma&#223;e beziehen sich auf Fragment c; Fundjahr Fragment a u. b: 1892. Z. 7: m&#246;glicherweise auch vv(irorum)(!) c[c(larissimorum)](!). Datierung: 385 n. Chr. oder 386 n. Chr. (falls das Postkonsulatsjahr angegeben war. (B): Egger; ILJug: Z. 7: V V.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2687. (B)</bibl><bibl>CIL 03, 13121.</bibl><bibl>CIL 03, 13121 add. p. 2326.</bibl><bibl>R. Egger, in: E. Dyggve - R. Egger, Der altchristliche Friedhof Marusinac, Forschungen in Salona 3 (Wien 1939) 151, Nr. 14. (B)</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 414-415, Nr. 165; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">d</c>
+		<c xml:id="L1C4">e</c>
+		<c xml:id="L1C5">p</c>
+		<c xml:id="L1C6">o</c>
+		<c xml:id="L1C7">s</c>
+		<supplied reason="lost">
+			<c xml:id="L1C8">i</c>
+			<c xml:id="L1C9">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">g</c>
+		<c xml:id="L2C3">i</c>
+		<c xml:id="L2C4">p</c>
+		<gap reason="lost" extent="unknown" unit="character">
+			<certainty match=".." locus="name" />
+		</gap>
+		<c xml:id="L2C5"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L3C1">S</c>
+		<c xml:id="L3C2">I</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C3"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L4C1"> </c>
+		<c xml:id="L4C2">D</c>
+		<c xml:id="L4C3">e</c>
+		<c xml:id="L4C4">c</c>
+		<c xml:id="L4C5">e</c>
+		<supplied reason="lost">
+			<c xml:id="L4C6">m</c>
+			<c xml:id="L4C7">b</c>
+			<c xml:id="L4C8">r</c>
+			<c xml:id="L4C9">e</c>
+			<c xml:id="L4C10">s</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L4C11"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L5C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C2">c</c>
+				<c xml:id="L5C3">o</c>
+				<c xml:id="L5C4">n</c>
+				<c xml:id="L5C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C6">u</c>
+				<c xml:id="L5C7">l</c>
+				<c xml:id="L5C8">a</c>
+				<c xml:id="L5C9">t</c>
+				<c xml:id="L5C10">u</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C11"> </c>
+		<supplied reason="lost">
+			<c xml:id="L5C12">A</c>
+			<c xml:id="L5C13">r</c>
+			<c xml:id="L5C14">c</c>
+			<c xml:id="L5C15">a</c>
+			<c xml:id="L5C16">d</c>
+			<c xml:id="L5C17">i</c>
+		</supplied>
+		<c xml:id="L5C18"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L6C1">A</c>
+					<c xml:id="L6C2">u</c>
+					<c xml:id="L6C3">g</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C4">u</c>
+					<c xml:id="L6C5">s</c>
+					<c xml:id="L6C6">t</c>
+					<c xml:id="L6C7">i</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">e</c>
+		<c xml:id="L6C10">t</c>
+		<c xml:id="L6C11"> </c>
+		<c xml:id="L6C12">B</c>
+		<c xml:id="L6C13">a</c>
+		<c xml:id="L6C14">u</c>
+		<supplied reason="lost">
+			<c xml:id="L6C15">t</c>
+			<c xml:id="L6C16">o</c>
+			<c xml:id="L6C17">n</c>
+			<c xml:id="L6C18">i</c>
+			<c xml:id="L6C19">s</c>
+		</supplied>
+		<c xml:id="L6C20"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">v</c>
+				<c xml:id="L7C2">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C3">r</c>
+				<c xml:id="L7C4">i</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L7C5"> </c>
+		<c xml:id="L7C6">c</c>
+		<supplied reason="lost">
+			<c xml:id="L7C7">l</c>
+			<c xml:id="L7C8">a</c>
+			<c xml:id="L7C9">r</c>
+			<c xml:id="L7C10">i</c>
+			<c xml:id="L7C11">s</c>
+			<c xml:id="L7C12">s</c>
+			<c xml:id="L7C13">i</c>
+			<c xml:id="L7C14">m</c>
+			<c xml:id="L7C15">i</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Vindolanda &amp;ndash; Chesterholm (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054461</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054461</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89313">Vindolanda</placeName></origPlace><origDate><origDate when-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2003"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/6942442">Chesterholm</placeName><placeName type="findspot">{Vicus}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054461_1" sex="M"><persName><name type="praenomen">M.(?)</name><name type="nomen">H(---)(?)</name><name type="cognomen">N(---)(?)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-02" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vielleicht griechische Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 0938.</bibl><bibl>R.S.O. Tomlin - M.W.C. Hassall, Britannia 36, 2005, 494, Nr. 56. - AE 2005.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">M</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">r</c>
+				<c xml:id="L1C5">c</c>
+				<c xml:id="L1C6">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C8">H</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C9">-</c>
+				<c xml:id="L1C10">-</c>
+				<c xml:id="L1C11">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C13">N</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C14">-</c>
+				<c xml:id="L1C15">-</c>
+				<c xml:id="L1C16">-</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

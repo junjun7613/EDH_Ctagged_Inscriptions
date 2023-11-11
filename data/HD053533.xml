@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Murviel-l&#232;s-Montpellier (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053533</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053533</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Murviel-l&#232;s-Montpellier, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>45</height><width>60</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.3-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/148138" /></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1991"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2991118">Murviel-l&#232;s-Montpellier</placeName><placeName type="findspot">Castellas de Murviel-l&#232;s-Montpellier, oppidum</placeName><placeName type="region">Occitanie</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-01-12" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1222.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">M</c>
+		<c xml:id="L1C8">e</c>
+		<c xml:id="L1C9">s</c>
+		<c xml:id="L1C10">s</c>
+		<c xml:id="L1C11">i</c>
+		<c xml:id="L1C12">o</c>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">B</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">b</c>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">e</c>
+		<c xml:id="L3C2">x</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">t</c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">s</c>
+		<c xml:id="L3C7">t</c>
+		<c xml:id="L3C8">a</c>
+		<c xml:id="L3C9">m</c>
+		<c xml:id="L3C10">e</c>
+		<c xml:id="L3C11">n</c>
+		<c xml:id="L3C12">t</c>
+		<c xml:id="L3C13">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

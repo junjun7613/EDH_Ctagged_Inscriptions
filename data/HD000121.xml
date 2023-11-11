@@ -1,0 +1,208 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sabora, bei &amp;ndash; Ca&#241;ete la Real (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000121</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000121</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ca&#241;ete la Real, Calle Iglesia Baja 11</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(81)</height><width>53</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256408">Sabora, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520266">Ca&#241;ete la Real</placeName><placeName type="findspot">calle Iglesia Baja 11, sekund&#228;r verwendet</placeName><placeName type="region">M&#225;laga</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000121_1" sex="W"><persName><name type="nomen">Numeria+</name><name type="cognomen">Optata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Rodr&#237;guez Oliva - Atencia Pa&#233;z, AE 1983: Z. 1: Nu[me]ria; Z. 2: [---]XX[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0526. (B)</bibl><bibl>P. Rodr&#237;guez Oliva - R. Atencia P&#225;ez, BSEAA 49, 1983, 155-156, Nr. 5; l&#225;m. 3,1; l&#225;m. 5, 2 (Zeichnung). - AE 1983.</bibl><bibl>CIL 02 (2. Aufl.) 05, 00884.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">N</c>
+		<c xml:id="L1C3">u</c>
+		<c xml:id="L1C4">m</c>
+		<supplied reason="lost">
+			<c xml:id="L1C5">e</c>
+		</supplied>
+		<c xml:id="L1C6">r</c>
+		<c xml:id="L1C7">i</c>
+		<c xml:id="L1C8">a</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">O</c>
+		<c xml:id="L1C11">p</c>
+		<c xml:id="L1C12">t</c>
+		<c xml:id="L1C13">a</c>
+		<c xml:id="L1C14">t</c>
+		<c xml:id="L1C15">a</c>
+		<c xml:id="L1C16"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">o</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">u</c>
+				<c xml:id="L2C5">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C6"> </c>
+		<supplied reason="lost">
+			<c xml:id="L2C7">X</c>
+		</supplied>
+		<c xml:id="L2C8">X</c>
+		<c xml:id="L2C9">X</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C11">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C12">i</c>
+				<c xml:id="L2C13">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+		<c xml:id="L2C15">i</c>
+		<c xml:id="L2C16">n</c>
+		<c xml:id="L2C17"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">s</c>
+		<c xml:id="L3C2">u</c>
+		<supplied reason="lost">
+			<c xml:id="L3C3">i</c>
+			<c xml:id="L3C4">s</c>
+		</supplied>
+		<c xml:id="L3C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C6">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C7">i</c>
+				<c xml:id="L3C8">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C10">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C11">i</c>
+				<c xml:id="L3C12">t</c>
+				<c xml:id="L3C13">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C15">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C16">s</c>
+				<c xml:id="L3C17">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C19">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C20">i</c>
+				<c xml:id="L3C21">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C23">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C24">i</c>
+				<c xml:id="L3C25">b</c>
+				<c xml:id="L3C26">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C27"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C28">t</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C29">e</c>
+					<c xml:id="L3C30">r</c>
+					<c xml:id="L3C31">r</c>
+					<c xml:id="L3C32">a</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L3C33"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C34">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C35">e</c>
+				<c xml:id="L3C36">v</c>
+				<c xml:id="L3C37">i</c>
+				<c xml:id="L3C38">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from (Civitas Alisinensium) &amp;ndash; Osterburken (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078420</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078420</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Bad. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(10)</height><width>(15)</width><depth>(6)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118898">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 260 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1986"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2856637">Osterburken</placeName><placeName type="findspot">{Benefiziarierweihebezirk}</placeName><placeName type="region">Baden-W&#252;rttemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-11" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment mit der oberen linken Ecke vom Aufsatz eines Altars oder einer Basis. Die Inschrift befindet sich auf dem Gesims.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Schallmayer - G. Preu&#223;, Der r&#246;mische Weihebezirk von Osterburken 2 (Stuttgart 1994) 55, Nr. 52; Taf. 7, 52.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">I</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L1C3">o</c>
+					<c xml:id="L1C4">v</c>
+					<c xml:id="L1C5">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C6"> </c>
+			<supplied reason="lost" cert="low">
+				<c xml:id="L1C7">O</c>
+				<c xml:id="L1C8">(</c>
+				<c xml:id="L1C9">p</c>
+				<c xml:id="L1C10">t</c>
+				<c xml:id="L1C11">i</c>
+				<c xml:id="L1C12">m</c>
+				<c xml:id="L1C13">o</c>
+				<c xml:id="L1C14">)</c>
+				<c xml:id="L1C15">?</c>
+				<c xml:id="L1C16"> </c>
+				<c xml:id="L1C17">M</c>
+				<c xml:id="L1C18">(</c>
+				<c xml:id="L1C19">a</c>
+				<c xml:id="L1C20">x</c>
+				<c xml:id="L1C21">i</c>
+				<c xml:id="L1C22">m</c>
+				<c xml:id="L1C23">o</c>
+				<c xml:id="L1C24">)</c>
+			</supplied>
+			<c xml:id="L1C25"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1"> </c>
+			<gap reason="lost" quantity="1" unit="line" />
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

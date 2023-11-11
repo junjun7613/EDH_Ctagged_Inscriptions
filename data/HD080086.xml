@@ -1,0 +1,229 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Versoix (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080086</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080086</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gen&#232;ve, Mus. Art. Hist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><dimensions unit="cm"><height>(91)</height><width>(94)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177528" /></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2660646">Versoix</placeName><placeName type="findspot" /><placeName type="region">R&#233;publique et Canton de Gen&#232;ve</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080086_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD080086_2" sex="M"><persName><name type="praenomen">D.+</name><name type="nomen">Iulius+*</name><name type="cognomen">Ripanus Capito+ Bassianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040126" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5f6b0e8e-07ea-4e01-b3c1-3e2e7cf43904/file/id/801008/file_version/name/small" /><graphic xml:id="F040128" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a161838c-44bc-44fc-acf4-215f9d49ef6c/file/id/801010/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Bruchst&#252;ck vom oberen Teil eines aediculaf&#246;rmigen Grabmals, Stele oder Grabbau. Zur Erg&#228;nzung des Namens vgl. https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD080085.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05008.</bibl><bibl>J.-L. Maier, Genavae Augustae. Les inscriptions romaines de Gen&#232;ve (Gen&#232;ve 1983) 133, Nr. 100.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C2">a</c>
+			<c xml:id="L1C3">n</c>
+			<c xml:id="L1C4">n</c>
+			<c xml:id="L1C5">o</c>
+		</supplied>
+		<c xml:id="L1C6">r</c>
+		<c xml:id="L1C7">u</c>
+		<c xml:id="L1C8">m</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">X</c>
+		<c xml:id="L1C11">X</c>
+		<c xml:id="L1C12">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C2">e</c>
+					<c xml:id="L2C3">c</c>
+					<c xml:id="L2C4">i</c>
+					<c xml:id="L2C5">m</c>
+					<c xml:id="L2C6">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C8">I</c>
+					<c xml:id="L2C9">u</c>
+					<c xml:id="L2C10">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C11">i</c>
+					<c xml:id="L2C12">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C13"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C14">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C15">u</c>
+					<c xml:id="L2C16">c</c>
+					<c xml:id="L2C17">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C18"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C19">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C20">i</c>
+					<c xml:id="L2C21">l</c>
+					<c xml:id="L2C22">i</c>
+					<c xml:id="L2C23">o</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L2C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C25">V</c>
+				<c xml:id="L2C26">o</c>
+				<c xml:id="L2C27">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C28">t</c>
+				<c xml:id="L2C29">i</c>
+				<c xml:id="L2C30">n</c>
+				<c xml:id="L2C31">i</c>
+				<c xml:id="L2C32">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C33"> </c>
+		<c xml:id="L2C34">R</c>
+		<c xml:id="L2C35">i</c>
+		<c xml:id="L2C36">p</c>
+		<c xml:id="L2C37">a</c>
+		<c xml:id="L2C38">n</c>
+		<c xml:id="L2C39">o</c>
+		<c xml:id="L2C40"> </c>
+		<c xml:id="L2C41">C</c>
+		<c xml:id="L2C42">a</c>
+		<supplied reason="lost">
+			<c xml:id="L2C43">p</c>
+			<c xml:id="L2C44">i</c>
+			<c xml:id="L2C45">t</c>
+			<c xml:id="L2C46">o</c>
+			<c xml:id="L2C47">n</c>
+			<c xml:id="L2C48">i</c>
+			<c xml:id="L2C49"> </c>
+			<c xml:id="L2C50">B</c>
+			<c xml:id="L2C51">a</c>
+			<c xml:id="L2C52">s</c>
+			<c xml:id="L2C53">s</c>
+			<c xml:id="L2C54">i</c>
+			<c xml:id="L2C55">a</c>
+			<c xml:id="L2C56">n</c>
+			<c xml:id="L2C57">o</c>
+		</supplied>
+		<c xml:id="L2C58"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">h</c>
+			<c xml:id="L3C2">o</c>
+			<c xml:id="L3C3">n</c>
+			<c xml:id="L3C4">o</c>
+			<c xml:id="L3C5">r</c>
+			<c xml:id="L3C6">a</c>
+			<c xml:id="L3C7">t</c>
+			<c xml:id="L3C8">o</c>
+			<c xml:id="L3C9"> </c>
+			<c xml:id="L3C10">e</c>
+			<c xml:id="L3C11">q</c>
+			<c xml:id="L3C12">u</c>
+			<c xml:id="L3C13">o</c>
+			<c xml:id="L3C14"> </c>
+			<c xml:id="L3C15">p</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L3C16">u</c>
+				<c xml:id="L3C17">b</c>
+				<c xml:id="L3C18">l</c>
+				<c xml:id="L3C19">i</c>
+				<c xml:id="L3C20">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C21">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C22"> </c>
+		<c xml:id="L3C23">e</c>
+		<c xml:id="L3C24">t</c>
+		<c xml:id="L3C25"> </c>
+		<c xml:id="L3C26">i</c>
+		<c xml:id="L3C27">n</c>
+		<supplied reason="lost">
+			<c xml:id="L3C28">t</c>
+			<c xml:id="L3C29">e</c>
+			<c xml:id="L3C30">r</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C31"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">F</c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

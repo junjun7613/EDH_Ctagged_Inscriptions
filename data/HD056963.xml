@@ -1,0 +1,320 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056963</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056963</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. d'Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>48</height><width>75</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.9-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Palau comtal Menor</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056963_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aufidius</name><name type="cognomen">Fructus</name></persName></person><person xml:id="HD056963_2" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Synpherusa</name></persName></person><person xml:id="HD056963_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Flaminius</name><name type="cognomen">Fructinus</name></persName></person><person xml:id="HD056963_4" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Peregrina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-01" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Block geh&#246;rte zu einem Grabmonument Z. 6: d(e) s(uo) f(ecit) wurde offenbar nachtr&#228;glich eingef&#252;gt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 148; pl. 72, 148.</bibl><bibl>CIL 02, 04561.</bibl><bibl>CIL 02, 04561 add. p. 982.</bibl><bibl>ILER 3708.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 130-131, Nr. 133.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">r</c>
+				<c xml:id="L1C5">c</c>
+				<c xml:id="L1C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">A</c>
+		<c xml:id="L1C9">u</c>
+		<c xml:id="L1C10">f</c>
+		<c xml:id="L1C11">i</c>
+		<c xml:id="L1C12">d</c>
+		<c xml:id="L1C13">i</c>
+		<c xml:id="L1C14">o</c>
+		<c xml:id="L1C15"> </c>
+		<c xml:id="L1C16">F</c>
+		<c xml:id="L1C17">r</c>
+		<c xml:id="L1C18">u</c>
+		<c xml:id="L1C19">c</c>
+		<c xml:id="L1C20">t</c>
+		<c xml:id="L1C21">o</c>
+		<c xml:id="L1C22"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">a</c>
+				<c xml:id="L2C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C3">n</c>
+				<c xml:id="L2C4">o</c>
+				<c xml:id="L2C5">r</c>
+				<c xml:id="L2C6">u</c>
+				<c xml:id="L2C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">X</c>
+		<c xml:id="L2C10">X</c>
+		<c xml:id="L2C11">I</c>
+		<c xml:id="L2C12">I</c>
+		<c xml:id="L2C13"> </c>
+		<c xml:id="L2C14">e</c>
+		<c xml:id="L2C15">t</c>
+		<c xml:id="L2C16"> </c>
+		<c xml:id="L2C17">A</c>
+		<c xml:id="L2C18">n</c>
+		<c xml:id="L2C19">t</c>
+		<c xml:id="L2C20">o</c>
+		<c xml:id="L2C21">n</c>
+		<c xml:id="L2C22">i</c>
+		<c xml:id="L2C23">a</c>
+		<c xml:id="L2C24">e</c>
+		<c xml:id="L2C25"> </c>
+		<c xml:id="L2C26">S</c>
+		<c xml:id="L2C27">y</c>
+		<c xml:id="L2C28">n</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">p</c>
+		<c xml:id="L3C2">h</c>
+		<c xml:id="L3C3">e</c>
+		<c xml:id="L3C4">r</c>
+		<c xml:id="L3C5">u</c>
+		<c xml:id="L3C6">s</c>
+		<c xml:id="L3C7">a</c>
+		<c xml:id="L3C8">e</c>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">u</c>
+		<c xml:id="L3C11">x</c>
+		<c xml:id="L3C12">o</c>
+		<c xml:id="L3C13">r</c>
+		<c xml:id="L3C14">i</c>
+		<c xml:id="L3C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C16">a</c>
+				<c xml:id="L3C17">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C18">n</c>
+				<c xml:id="L3C19">o</c>
+				<c xml:id="L3C20">r</c>
+				<c xml:id="L3C21">u</c>
+				<c xml:id="L3C22">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C23"> </c>
+		<c xml:id="L3C24">X</c>
+		<c xml:id="L3C25">X</c>
+		<c xml:id="L3C26">I</c>
+		<c xml:id="L3C27">I</c>
+		<c xml:id="L3C28">I</c>
+		<c xml:id="L3C29"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">a</c>
+				<c xml:id="L4C3">r</c>
+				<c xml:id="L4C4">c</c>
+				<c xml:id="L4C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C6"> </c>
+		<c xml:id="L4C7">F</c>
+		<c xml:id="L4C8">l</c>
+		<c xml:id="L4C9">a</c>
+		<c xml:id="L4C10">m</c>
+		<c xml:id="L4C11">i</c>
+		<c xml:id="L4C12">n</c>
+		<c xml:id="L4C13">i</c>
+		<c xml:id="L4C14">o</c>
+		<c xml:id="L4C15"> </c>
+		<c xml:id="L4C16">F</c>
+		<c xml:id="L4C17">r</c>
+		<c xml:id="L4C18">u</c>
+		<c xml:id="L4C19">c</c>
+		<c xml:id="L4C20">t</c>
+		<c xml:id="L4C21">i</c>
+		<c xml:id="L4C22">n</c>
+		<c xml:id="L4C23">o</c>
+		<c xml:id="L4C24"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">A</c>
+		<c xml:id="L5C2">n</c>
+		<c xml:id="L5C3">t</c>
+		<c xml:id="L5C4">o</c>
+		<c xml:id="L5C5">n</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7">a</c>
+		<c xml:id="L5C8"> </c>
+		<c xml:id="L5C9">P</c>
+		<c xml:id="L5C10">e</c>
+		<c xml:id="L5C11">r</c>
+		<c xml:id="L5C12">e</c>
+		<c xml:id="L5C13">g</c>
+		<c xml:id="L5C14">r</c>
+		<c xml:id="L5C15">i</c>
+		<c xml:id="L5C16">n</c>
+		<c xml:id="L5C17">a</c>
+		<c xml:id="L5C18"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">d</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C2">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C4">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C5">u</c>
+				<c xml:id="L6C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C9">e</c>
+				<c xml:id="L6C10">c</c>
+				<c xml:id="L6C11">i</c>
+				<c xml:id="L6C12">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C14">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C15">o</c>
+				<c xml:id="L6C16">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C18">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C19">o</c>
+				<c xml:id="L6C20">n</c>
+				<c xml:id="L6C21">u</c>
+				<c xml:id="L6C22">m</c>
+				<c xml:id="L6C23">e</c>
+				<c xml:id="L6C24">n</c>
+				<c xml:id="L6C25">t</c>
+				<c xml:id="L6C26">u</c>
+				<c xml:id="L6C27">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C28"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C29">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C30">e</c>
+				<c xml:id="L6C31">r</c>
+				<c xml:id="L6C32">e</c>
+				<c xml:id="L6C33">d</c>
+				<c xml:id="L6C34">e</c>
+				<c xml:id="L6C35">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C36"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C37">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C38">o</c>
+				<c xml:id="L6C39">n</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C40"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C41">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C42">e</c>
+				<c xml:id="L6C43">q</c>
+				<c xml:id="L6C44">u</c>
+				<c xml:id="L6C45">e</c>
+				<c xml:id="L6C46">t</c>
+				<c xml:id="L6C47">u</c>
+				<c xml:id="L6C48">r</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

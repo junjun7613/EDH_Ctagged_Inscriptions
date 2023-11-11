@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Luceria &amp;ndash; Lucera (Apulia et Calabria (Regio II))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001898</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001898</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Fabbrica del castello angioino</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11.4-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Apulia et Calabria (Regio II)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442640">Luceria</placeName></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Lucera</placeName><placeName type="findspot" /><placeName type="region">Foggia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001898_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Maccius</name></persName></person><person xml:id="HD001898_2" sex="W"><persName><name type="nomen">Maccia+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1990-10-26" who="Krempl">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 1: M(arco) Accio; Z. 3: M(arcus) Ac[cius ---]. Ma&#223;e des Steins wegen Vermauerung in Eingangsschwelle nicht feststellbar. Maccius A.f. ist in tribus Pupinia, nicht in Claudia, die tribus von Luceria, eingeschrieben. Zur tribus Pupinia geh&#246;rt Sarsina, die Heimatstadt des Dichters Maccius Plautus. Wegen Absplitterung in Z. 1 nicht genau feststellbar, ob zwischen M und A Interpunktion steht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0251.</bibl><bibl>G. Susini, StudRomagn 25, 1974, 291-293. - AE.</bibl><bibl>CIL 10, 00828. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">M</c>
+		<c xml:id="L0C4">a</c>
+		<c xml:id="L0C5">c</c>
+		<c xml:id="L0C6">c</c>
+		<c xml:id="L0C7">i</c>
+		<c xml:id="L0C8">o</c>
+		<c xml:id="L0C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C10">A</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C11">u</c>
+				<c xml:id="L0C12">l</c>
+				<c xml:id="L0C13">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C15">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C16">i</c>
+				<c xml:id="L0C17">l</c>
+				<c xml:id="L0C18">i</c>
+				<c xml:id="L0C19">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C21">P</c>
+				<c xml:id="L0C22">u</c>
+				<c xml:id="L0C23">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C24">i</c>
+				<c xml:id="L0C25">n</c>
+				<c xml:id="L0C26">i</c>
+				<c xml:id="L0C27">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C28"> </c>
+		<c xml:id="L0C29">p</c>
+		<c xml:id="L0C30">a</c>
+		<c xml:id="L0C31">t</c>
+		<c xml:id="L0C32">r</c>
+		<c xml:id="L0C33">o</c>
+		<c xml:id="L0C34">n</c>
+		<c xml:id="L0C35">o</c>
+		<c xml:id="L0C36"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">s</c>
+		<c xml:id="L1C2">u</c>
+		<c xml:id="L1C3">o</c>
+		<c xml:id="L1C4"> </c>
+		<c xml:id="L1C5">e</c>
+		<c xml:id="L1C6">t</c>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">s</c>
+		<c xml:id="L1C9">i</c>
+		<c xml:id="L1C10">b</c>
+		<c xml:id="L1C11">i</c>
+		<c xml:id="L1C12"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">c</c>
+		<supplied reason="lost">
+			<c xml:id="L2C4">c</c>
+			<c xml:id="L2C5">i</c>
+			<c xml:id="L2C6">a</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

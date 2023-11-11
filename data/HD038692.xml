@@ -1,0 +1,170 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Judenburg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038692</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038692</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2775020">Judenburg</placeName><placeName type="findspot">Magdalenenvorstadt, {Murbr&#252;cke}, bei</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038692_1" sex="M"><persName><name type="cognomen">Muntissius</name></persName></person><person xml:id="HD038692_2" sex="M"><persName><name type="cognomen">Privatus</name></persName></person><person xml:id="HD038692_3" sex="W"><persName><name type="cognomen">Quinta</name></persName></person><person xml:id="HD038692_4" sex="M"><persName><name type="cognomen">Aspro</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-04" who="B&#246;hm">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: Ligatur der Zahl XXXX.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die r&#246;merzeitlichen Inschriften der Steiermark (Graz 1969) 160-161, Nr. 109.</bibl><bibl>CIL 03, 05478.</bibl><bibl>ILLPRON 1226.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">M</c>
+		<c xml:id="L1C3">u</c>
+		<c xml:id="L1C4">n</c>
+		<c xml:id="L1C5">t</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">s</c>
+		<c xml:id="L1C8">s</c>
+		<c xml:id="L1C9">i</c>
+		<c xml:id="L1C10">u</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">s</c>
+		<c xml:id="L2C2"> </c>
+		<c xml:id="L2C3">P</c>
+		<c xml:id="L2C4">r</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">v</c>
+		<c xml:id="L2C7">a</c>
+		<c xml:id="L2C8">t</c>
+		<c xml:id="L2C9">i</c>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">a</c>
+				<c xml:id="L3C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C3">n</c>
+				<c xml:id="L3C4">o</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">u</c>
+				<c xml:id="L3C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">X</c>
+		<c xml:id="L3C10">X</c>
+		<c xml:id="L3C11">X</c>
+		<c xml:id="L3C12">X</c>
+		<c xml:id="L3C13"> </c>
+		<surplus>
+			<c xml:id="L3C14">e</c>
+			<c xml:id="L3C15">t</c>
+		</surplus>
+		<c xml:id="L3C16"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">Q</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3">i</c>
+		<c xml:id="L4C4">n</c>
+		<c xml:id="L4C5">t</c>
+		<c xml:id="L4C6">a</c>
+		<c xml:id="L4C7"> </c>
+		<c xml:id="L4C8">A</c>
+		<c xml:id="L4C9">s</c>
+		<c xml:id="L4C10">p</c>
+		<c xml:id="L4C11">r</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">o</c>
+		<c xml:id="L5C2">n</c>
+		<c xml:id="L5C3">i</c>
+		<c xml:id="L5C4">s</c>
+		<c xml:id="L5C5"> </c>
+		<c xml:id="L5C6">v</c>
+		<c xml:id="L5C7">i</c>
+		<c xml:id="L5C8">v</c>
+		<c xml:id="L5C9">a</c>
+		<c xml:id="L5C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C11">f</c>
+				<c xml:id="L5C12">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C13">c</c>
+				<c xml:id="L5C14">i</c>
+				<c xml:id="L5C15">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C16"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">s</c>
+		<c xml:id="L6C2">i</c>
+		<c xml:id="L6C3">b</c>
+		<c xml:id="L6C4">i</c>
+		<c xml:id="L6C5"> </c>
+		<c xml:id="L6C6">e</c>
+		<c xml:id="L6C7">t</c>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">m</c>
+		<c xml:id="L6C10">a</c>
+		<c xml:id="L6C11">r</c>
+		<c xml:id="L6C12">i</c>
+		<c xml:id="L6C13">t</c>
+		<c xml:id="L6C14">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

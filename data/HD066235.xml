@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ad Martis &amp;ndash; Sauze d'Oulx (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066235</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066235</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Torino, Mus. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/142">instrumentum sacrum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>6</height><width>0</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/416766">Ad Martis</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1933"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3169420">Sauze d'Oulx</placeName><placeName type="findspot">{Richardet}</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066235_1" sex="M"><persName><name type="nomen">C(---)</name><name type="cognomen">Patera</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027761" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/16fe153d-f067-48af-92d5-296458b06087/file/id/788518/file_version/name/small" /><graphic xml:id="F027762" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f164886a-1c68-473c-8cd3-e5115864a4f3/file/id/788519/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Diametro: 17; sei frammenti di parete e orlo di coppa in ceramica simile alla sigillata chiara tipo B, forma affine alla Consapectus 37.4.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C.F. Capello, RII 7, 1941, 124, Nr. 120; Foto.</bibl><bibl>E. Cimarosti, Le iscrizioni di et&#224; romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 464, Nr. 112G; Foto Nr. 76G.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">a</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<abbr>
+			<c xml:id="L2C1">C</c>
+		</abbr>
+		<c xml:id="L2C2"> </c>
+		<c xml:id="L2C3">P</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">t</c>
+		<c xml:id="L2C6">e</c>
+		<c xml:id="L2C7">r</c>
+		<c xml:id="L2C8">a</c>
+		<c xml:id="L2C9"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L2C10">V</c>
+				<c xml:id="L2C11">S</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C13">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C14">o</c>
+				<c xml:id="L2C15">l</c>
+				<c xml:id="L2C16">v</c>
+				<c xml:id="L2C17">i</c>
+				<c xml:id="L2C18">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C19"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C20">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C21">i</c>
+					<c xml:id="L2C22">b</c>
+					<c xml:id="L2C23">e</c>
+					<c xml:id="L2C24">n</c>
+					<c xml:id="L2C25">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C26"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C27">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C28">a</c>
+					<c xml:id="L2C29">e</c>
+					<c xml:id="L2C30">t</c>
+					<c xml:id="L2C31">u</c>
+					<c xml:id="L2C32">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C33"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C34">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C35">e</c>
+					<c xml:id="L2C36">r</c>
+					<c xml:id="L2C37">i</c>
+					<c xml:id="L2C38">t</c>
+					<c xml:id="L2C39">o</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

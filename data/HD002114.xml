@@ -1,0 +1,221 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Turris Libisonis &amp;ndash; Porto Torres (Sardinia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002114</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002114</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(20)</height><width>(22)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.8-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sardinia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/472035">Turris Libisonis</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1947"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Porto Torres</placeName><placeName type="findspot">Ipogeo di Tanca di Borgona, sekund&#228;r verwendet</placeName><placeName type="region">Sardegna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002114_1" sex="W"><persName><name type="nomen">Flavia</name><name type="cognomen">A[---]</name></persName></person><person xml:id="HD002114_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Aelius</name><name type="cognomen">Victor+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ma&#223;e der 3 zueinanderpassenden Fragmente angegeben; 4. Fragment: (8) x (4,5) cm, Buchstabenh&#246;he 1,7 cm. (B): Erg&#228;nzung Z.4/5: ri[pae] / [Turritana]e aufgr. von NSA 1904, 144, Nr. 8. - Y: Antoninus Pius einziger Kaiser aus der gens Aelia, der das praenomen T(itus) tr&#228;gt. Am Rahmen Reste von roter Farbe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0448.</bibl><bibl>AE 1981, 0476. (B)</bibl><bibl>G. Sotgiu, Le iscrizioni dell'ipogeo di Tanca di Borgona (Roma 1981) 18-23, Nr. 1; tav. 5; fig. 4 (Zeichnung). (B) - AE 1981. P. Meloni, ASSard 32, 1982, 81 u. 125. - AE 1983 (unzug&#228;nglich).</bibl><bibl>AE 1988, 0664a.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">F</c>
+		<c xml:id="L2C2">l</c>
+		<c xml:id="L2C3">a</c>
+		<c xml:id="L2C4">v</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">a</c>
+		<c xml:id="L2C7">e</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">A</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">T</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">i</c>
+				<c xml:id="L3C3">t</c>
+				<c xml:id="L3C4">u</c>
+				<c xml:id="L3C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C6"> </c>
+		<c xml:id="L3C7">A</c>
+		<c xml:id="L3C8">e</c>
+		<c xml:id="L3C9">l</c>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11">u</c>
+		<c xml:id="L3C12">s</c>
+		<c xml:id="L3C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C14">A</c>
+				<c xml:id="L3C15">u</c>
+				<c xml:id="L3C16">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C17">u</c>
+				<c xml:id="L3C18">s</c>
+				<c xml:id="L3C19">t</c>
+				<c xml:id="L3C20">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C21"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C22">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C23">i</c>
+					<c xml:id="L3C24">b</c>
+					<c xml:id="L3C25">e</c>
+					<c xml:id="L3C26">r</c>
+					<c xml:id="L3C27">t</c>
+					<c xml:id="L3C28">u</c>
+					<c xml:id="L3C29">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C30"> </c>
+			<c xml:id="L3C31">V</c>
+			<c xml:id="L3C32">i</c>
+			<c xml:id="L3C33">c</c>
+		</supplied>
+		<c xml:id="L3C34">t</c>
+		<c xml:id="L3C35">o</c>
+		<c xml:id="L3C36">r</c>
+		<c xml:id="L3C37"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C38">p</c>
+				<c xml:id="L3C39">r</c>
+				<c xml:id="L3C40">o</c>
+				<c xml:id="L3C41">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C42">u</c>
+				<c xml:id="L3C43">r</c>
+				<c xml:id="L3C44">a</c>
+				<c xml:id="L3C45">t</c>
+				<c xml:id="L3C46">o</c>
+				<c xml:id="L3C47">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C48"> </c>
+		<c xml:id="L3C49">r</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C50">e</c>
+					<c xml:id="L3C51">g</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C52">i</c>
+					<c xml:id="L3C53">o</c>
+					<c xml:id="L3C54">n</c>
+					<c xml:id="L3C55">i</c>
+					<c xml:id="L3C56">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L3C57"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">e</c>
+		<c xml:id="L4C2"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L4C3">f</c>
+					<c xml:id="L4C4">e</c>
+				</supplied>
+				<c xml:id="L4C5">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">i</c>
+				<c xml:id="L4C7">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

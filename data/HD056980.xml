@@ -1,0 +1,208 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuenna &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056980</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056980</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Globasnitz, Hemmaberg, S. Hemma und Dorothea, Kirche, vemauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(63)</height><width>(60)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778467">Globasnitz</placeName><placeName type="findspot">Hemmaberg, {S. Hemma und Dorothea, Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056980_1" sex="M"><persName><name type="nomen">Secundinius+</name><name type="cognomen">Secundus+</name></persName></person><person xml:id="HD056980_2" sex="W"><persName><name type="cognomen">Materna+</name></persName></person><person xml:id="HD056980_3" sex="M"><persName><name type="cognomen">Vibenus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL: Z. 2: [S]ecundinu[s]; Z. 5: ---]CENI. Z. 1: statt C auch O m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0158.</bibl><bibl>CIL 03, 05079. (B)</bibl><bibl>R. Wedenig, Epigraphische Quellen zur st&#228;dtischen Administration in Noricum (Klagenfurt 1997) 109, Nr. C 1.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">C</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C3"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">S</c>
+		</supplied>
+		<c xml:id="L2C2">e</c>
+		<c xml:id="L2C3">c</c>
+		<c xml:id="L2C4">u</c>
+		<c xml:id="L2C5">n</c>
+		<c xml:id="L2C6">d</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8">n</c>
+		<c xml:id="L2C9">i</c>
+		<c xml:id="L2C10">u</c>
+		<supplied reason="lost">
+			<c xml:id="L2C11">s</c>
+		</supplied>
+		<c xml:id="L2C12"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">S</c>
+		</supplied>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">u</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">d</c>
+		<c xml:id="L3C7">u</c>
+		<c xml:id="L3C8">s</c>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">a</c>
+		<c xml:id="L3C11">e</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C12">d</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C13">i</c>
+					<c xml:id="L3C14">l</c>
+					<c xml:id="L3C15">i</c>
+					<c xml:id="L3C16">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C17"> </c>
+			<c xml:id="L3C18">C</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L3C19">e</c>
+				<c xml:id="L3C20">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C21">e</c>
+				<c xml:id="L3C22">i</c>
+				<c xml:id="L3C23">a</c>
+				<c xml:id="L3C24">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C25"> </c>
+		<c xml:id="L3C26">s</c>
+		<c xml:id="L3C27">i</c>
+		<c xml:id="L3C28">b</c>
+		<c xml:id="L3C29">i</c>
+		<c xml:id="L3C30"> </c>
+		<c xml:id="L3C31">e</c>
+		<c xml:id="L3C32">t</c>
+		<c xml:id="L3C33"> </c>
+		<c xml:id="L3C34">M</c>
+		<c xml:id="L3C35">a</c>
+		<c xml:id="L3C36">t</c>
+		<c xml:id="L3C37">e</c>
+		<c xml:id="L3C38">r</c>
+		<c xml:id="L3C39">n</c>
+		<supplied reason="lost">
+			<c xml:id="L3C40">a</c>
+			<c xml:id="L3C41">e</c>
+		</supplied>
+		<c xml:id="L3C42"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">V</c>
+			<c xml:id="L4C2">i</c>
+		</supplied>
+		<c xml:id="L4C3">b</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">n</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C9">i</c>
+				<c xml:id="L4C10">l</c>
+				<c xml:id="L4C11">i</c>
+				<c xml:id="L4C12">a</c>
+				<c xml:id="L4C13">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C15">c</c>
+				<c xml:id="L4C16">o</c>
+				<c xml:id="L4C17">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C18">i</c>
+				<c xml:id="L4C19">u</c>
+				<c xml:id="L4C20">g</c>
+				<c xml:id="L4C21">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C23">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C24">n</c>
+				<c xml:id="L4C25">n</c>
+				<c xml:id="L4C26">o</c>
+				<c xml:id="L4C27">r</c>
+				<c xml:id="L4C28">u</c>
+				<c xml:id="L4C29">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C30"> </c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

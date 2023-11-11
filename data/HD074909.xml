@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Poetovio &amp;ndash; Hajdina (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074909</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074909</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Pokrajinski Muz. Ptuj-Ormo&#382;</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1971"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="findspot">{Spodnja Hajdina}, Nekropole</placeName><placeName type="region">Podravska statisti&#269;na regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074909_1"><persName><name type="praenomen">[-]</name><name type="nomen">Vale[---]?</name><name type="cognomen">Vale[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-29" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment eines nicht n&#228;her identifizierbaren Monuments, aufgrund des Fundortes wohl einer Grabinschrift. Gefunden als Verf&#252;llmaterial in einem Brunnen. In Z. 1 zu Beginn m&#246;glicherweise noch die Schr&#228;ghaste eines V zu erkennen, hinter dem A wohl L, dahinter noch ein Buchstabe, von dem die Vertikalhaste und m&#246;glicherweise eine Horizontalhaste auf der Grundlinie erkennbar ist. In Z. 2 hinter dem V noch der obere Ansatz eines Buchstaben erkennbar, A? Lesung unsicher. (B): &#352;ubic: Z. 1: VALI; Z. 2: ET V.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>Z. &#352;ubic, AArchSlov 28, 1977, 96, Nr. 10 a; tab. 4, 3. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">-</c>
+		<c xml:id="L1C3">-</c>
+		<c xml:id="L1C4">-</c>
+		<c xml:id="L1C5">-</c>
+		<c xml:id="L1C6">-</c>
+		<c xml:id="L1C7">-</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C8">]</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">V</c>
+		<c xml:id="L2C3">a</c>
+		<c xml:id="L2C4">l</c>
+		<c xml:id="L2C5">e</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C6"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1"> </c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C5">V</c>
+				<c xml:id="L3C6">A</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C7"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">V</c>
+		<c xml:id="L4C2">I</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

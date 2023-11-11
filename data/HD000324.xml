@@ -1,0 +1,158 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Portus, bei &amp;ndash; Fiumicino (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000324</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000324</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Ostia, Ostia antica, Mus. Ost.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, wei&#223;</material><dimensions unit="cm"><height>(55)</height><width>(38)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-4.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118912">Portus, bei</placeName></origPlace><origDate><origDate notBefore-custom="0150" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1974"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Fiumicino</placeName><placeName type="findspot">Isola Sacra, Santuario di S. Ippolito</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000324_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Claudius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000324_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">C[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-10" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>3 aneinanderpassende Fragmente einer Tafel. Material: italischer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0100.</bibl><bibl>D. Mazzoleni, I reperti epigrafici (Roma 1983) 33, Nr. 10; tav. 4, 10. - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C1">C</c>
+			<c xml:id="L1C2">l</c>
+		</supplied>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">u</c>
+		<c xml:id="L1C5">d</c>
+		<c xml:id="L1C6">i</c>
+		<supplied reason="lost">
+			<c xml:id="L1C7">u</c>
+			<c xml:id="L1C8">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">i</c>
+		<c xml:id="L2C2">t</c>
+		<c xml:id="L2C3">a</c>
+		<c xml:id="L2C4">e</c>
+		<c xml:id="L2C5"> </c>
+		<c xml:id="L2C6">N</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C7"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">a</c>
+		<c xml:id="L3C2">m</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">C</c>
+		<c xml:id="L3C5">a</c>
+		<c xml:id="L3C6">e</c>
+		<c xml:id="L3C7">l</c>
+		<c xml:id="L3C8">o</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C9"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1"> </c>
+		<c xml:id="L4C2">o</c>
+		<c xml:id="L4C3">v</c>
+		<c xml:id="L4C4">a</c>
+		<c xml:id="L4C5">n</c>
+		<c xml:id="L4C6">s</c>
+		<c xml:id="L4C7"> </c>
+		<c xml:id="L4C8">d</c>
+		<c xml:id="L4C9">o</c>
+		<c xml:id="L4C10">m</c>
+		<supplied reason="lost">
+			<c xml:id="L4C11">u</c>
+			<c xml:id="L4C12">m</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L4C13"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1">I</c>
+		<c xml:id="L5C2">U</c>
+		<c xml:id="L5C3">S</c>
+		<c xml:id="L5C4">T</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C5"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">V</c>
+		<c xml:id="L6C2">E</c>
+		<c xml:id="L6C3">R</c>
+		<c xml:id="L6C4">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C5"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C1">M</c>
+		<c xml:id="L7C2"> </c>
+		<c xml:id="L7C3">C</c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

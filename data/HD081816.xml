@@ -1,0 +1,182 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquae Helveticae &amp;ndash; Baden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081816</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081816</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/142">instrumentum sacrum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><width>10</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177445">Aquae Helveticae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1967"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661646">Baden</placeName><placeName type="findspot">{Thermen, sogenannter gro&#223;er Hei&#223;er Stein}, Quellschacht</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081816_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Cammianius</name><name type="cognomen">Bacchus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-26" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030769" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ca241793-d750-4e26-8939-5c0d1b7f4ecf/file/id/791526/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Griff einer Kasserolle. Schreibtechnik: gepunzt. An derselben Stelle wurde ein weiterer Kassereollengriff mit der gleichen Inschrift gefunden: HD013858. Z. 1 u. 2 verlaufen l&#228;ngs auf der Oberseite des Griffs; Z. 3 steht orthogonal dazu am Griffende.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1969/70, 0418b.</bibl><bibl>H.R. Wiedemer, Pro Vindonissa 1967, 91-92; Abb. 5 (rechts) (Zeichnung). - AE 1969/70.</bibl><bibl>P.-M. Duval, REA 71, 1969, 423, Nr. 30, 13. - AE 1969/70.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<c xml:id="L1C2">M</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4">r</c>
+			<c xml:id="L1C5">c</c>
+			<c xml:id="L1C6">u</c>
+			<c xml:id="L1C7">r</c>
+			<c xml:id="L1C8">i</c>
+			<c xml:id="L1C9">o</c>
+			<c xml:id="L1C10"> </c>
+		</line>
+		<line n="2">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C2">i</c>
+					<c xml:id="L2C3">t</c>
+					<c xml:id="L2C4">u</c>
+					<c xml:id="L2C5">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C6"> </c>
+			<c xml:id="L2C7">C</c>
+			<c xml:id="L2C8">a</c>
+			<c xml:id="L2C9">m</c>
+			<c xml:id="L2C10">m</c>
+			<c xml:id="L2C11">i</c>
+			<c xml:id="L2C12">a</c>
+			<c xml:id="L2C13">n</c>
+			<c xml:id="L2C14">i</c>
+			<c xml:id="L2C15">u</c>
+			<c xml:id="L2C16">s</c>
+			<c xml:id="L2C17"> </c>
+			<c xml:id="L2C18">B</c>
+			<c xml:id="L2C19">a</c>
+			<c xml:id="L2C20">c</c>
+			<c xml:id="L2C21">c</c>
+			<c xml:id="L2C22">h</c>
+			<c xml:id="L2C23">u</c>
+			<c xml:id="L2C24">s</c>
+			<c xml:id="L2C25"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">o</c>
+					<c xml:id="L1C4">t</c>
+					<c xml:id="L1C5">u</c>
+					<c xml:id="L1C6">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C8">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C9">o</c>
+					<c xml:id="L1C10">l</c>
+					<c xml:id="L1C11">v</c>
+					<c xml:id="L1C12">i</c>
+					<c xml:id="L1C13">t</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C14"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C15">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C16">i</c>
+					<c xml:id="L1C17">b</c>
+					<c xml:id="L1C18">e</c>
+					<c xml:id="L1C19">n</c>
+					<c xml:id="L1C20">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C21"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C22">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C23">a</c>
+					<c xml:id="L1C24">e</c>
+					<c xml:id="L1C25">t</c>
+					<c xml:id="L1C26">u</c>
+					<c xml:id="L1C27">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C28"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C29">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C30">e</c>
+					<c xml:id="L1C31">r</c>
+					<c xml:id="L1C32">i</c>
+					<c xml:id="L1C33">t</c>
+					<c xml:id="L1C34">o</c>
+				</ex>
+			</expan>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

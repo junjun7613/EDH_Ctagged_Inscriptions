@@ -1,0 +1,342 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008185</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008185</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Grebenstra&#223;e 8, Priesterseminar, Arnsberger Hof, S. Franziskus, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>209</height><width>(40)</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0080" notAfter-custom="0085" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">80 AD - 85 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1965"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Grebenstra&#223;e 8 (Arnsburger Hof), S. Bernhard, Kapelle}, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008185_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Heius+</name><name type="cognomen">Mansuetus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Gr&#228;f">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017165" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/85d878bb-5503-48af-8043-1ff12120eebc/file/id/776771/file_version/name/small" /><graphic xml:id="F011484" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc905862-30af-4faf-b44e-f4fa3e747f58/file/id/771007/file_version/name/small" /><graphic xml:id="F011617" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fe4ee0a1-59a9-4bd8-a3d2-0bfd325225f7/file/id/771139/file_version/name/small" /><graphic xml:id="F011618" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fee58fb4-be7c-40db-bfb4-e1b181731836/file/id/771140/file_version/name/small" /><graphic xml:id="F040552" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8a8bd4b5-8c69-4061-b9ad-ac2a28b22b51/file/id/801434/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Autopsie Alf&#246;ldy (Mai 2001) unter Mithilfe von H. Hinkel und T. F&#252;chtenkamp. Lesung und Erg&#228;nzung nach Alf&#246;ldy. (B): Herz; Schillinger-H&#228;fele; AE 1979; Wiegels; Forni; Boppert: Abweichungen in Lesung / Erg&#228;nzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1979, 0430.</bibl><bibl>P. Herz, MZ 73/74, 1978/79, 282, Nr. 13; 290 (Addendum); Taf. 52, 13. - AE 1979; AE 2001.</bibl><bibl>U. Schillinger-H&#228;fele, BRGK 58, 1977, 500-501, Nr. 85; Taf. 2, 2. (B) - AE 1979; AE 2001.</bibl><bibl>R. Wiegels, Die Tribusinschriften des r&#246;mischen Hispanien. Ein Katalog (Berlin 1985) 98, Anm. 9. (B)</bibl><bibl>B. St&#252;mpel, MZ 62, 1967, 185.</bibl><bibl>W. Boppert, Milit&#228;rische Grabdenkm&#228;ler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 260-261, Nr. 155; Tafel 108, 155. (B)</bibl><bibl>AE 2001, 1541.</bibl><bibl>G. Forni, Epigraphica 50, 1988, 120-123, Nr. 8. (B) - AE 2001.</bibl><bibl>G. Alf&#246;ldy, ZPE 136, 2001, 239-250; Taf. 2, 1 u. 2; Taf. 2, 3 (Zeichnung). - AE 2001.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">u</c>
+				<c xml:id="L1C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">H</c>
+		<c xml:id="L1C9">e</c>
+		<supplied reason="lost">
+			<c xml:id="L1C10">i</c>
+			<c xml:id="L1C11">u</c>
+			<c xml:id="L1C12">s</c>
+			<c xml:id="L1C13"> </c>
+			<expan>
+				<abbr>C</abbr>
+				<ex>ai</ex>
+			</expan>
+			? 
+			<expan>
+				<abbr>f</abbr>
+				<ex>ilius</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C14"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">Q</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">i</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C4">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C5">i</c>
+					<c xml:id="L2C6">n</c>
+					<c xml:id="L2C7">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C8"> </c>
+			<c xml:id="L2C9">M</c>
+			<c xml:id="L2C10">a</c>
+		</supplied>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">n</c>
+		<c xml:id="L3C2">s</c>
+		<c xml:id="L3C3">u</c>
+		<supplied reason="lost">
+			<c xml:id="L3C4">e</c>
+			<c xml:id="L3C5">t</c>
+			<c xml:id="L3C6">u</c>
+			<c xml:id="L3C7">s</c>
+		</supplied>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">A</c>
+		<c xml:id="L4C2">r</c>
+		<c xml:id="L4C3">c</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C4">o</c>
+					<c xml:id="L4C5">b</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C6">r</c>
+					<c xml:id="L4C7">i</c>
+					<c xml:id="L4C8">g</c>
+					<c xml:id="L4C9">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C10"> </c>
+			<c xml:id="L4C11">m</c>
+			<c xml:id="L4C12">i</c>
+		</supplied>
+	</line>
+	<line break="no" n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">e</c>
+				<c xml:id="L5C3">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C5">l</c>
+				<c xml:id="L5C6">e</c>
+				<c xml:id="L5C7">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C8">i</c>
+				<c xml:id="L5C9">o</c>
+				<c xml:id="L5C10">n</c>
+				<c xml:id="L5C11">i</c>
+				<c xml:id="L5C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C13"> </c>
+		<supplied reason="lost">
+			<c xml:id="L5C14">I</c>
+			<c xml:id="L5C15"> </c>
+			<expan>
+				<abbr>adi</abbr>
+				<ex>utricis</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L5C16"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">a</c>
+				<c xml:id="L6C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C3">n</c>
+				<c xml:id="L6C4">o</c>
+				<c xml:id="L6C5">r</c>
+				<c xml:id="L6C6">u</c>
+				<c xml:id="L6C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">X</c>
+		<supplied reason="lost">
+			<c xml:id="L6C10">X</c>
+			<c xml:id="L6C11">V</c>
+			<c xml:id="L6C12">I</c>
+			<c xml:id="L6C13"> </c>
+			<c xml:id="L6C14">s</c>
+			<c xml:id="L6C15">t</c>
+		</supplied>
+	</line>
+	<line break="no" n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">i</c>
+				<c xml:id="L7C2">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C3">e</c>
+				<c xml:id="L7C4">n</c>
+				<c xml:id="L7C5">d</c>
+				<c xml:id="L7C6">i</c>
+				<c xml:id="L7C7">o</c>
+				<c xml:id="L7C8">r</c>
+				<c xml:id="L7C9">u</c>
+				<c xml:id="L7C10">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C11"> </c>
+		<c xml:id="L7C12">V</c>
+		<c xml:id="L7C13">I</c>
+		<supplied reason="lost">
+			<c xml:id="L7C14">I</c>
+			<c xml:id="L7C15"> </c>
+			<expan>
+				<abbr>h</abbr>
+				<ex>ic</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>s</abbr>
+				<ex>itus</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>e</abbr>
+				<ex>st</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L7C16"> </c>
+	</line>
+	<line n="8">
+		<expan>
+			<abbr>
+				<c xml:id="L8C1">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C2">e</c>
+				<c xml:id="L8C3">s</c>
+				<c xml:id="L8C4">t</c>
+				<c xml:id="L8C5">a</c>
+				<c xml:id="L8C6">m</c>
+				<c xml:id="L8C7">e</c>
+				<c xml:id="L8C8">n</c>
+				<c xml:id="L8C9">t</c>
+				<c xml:id="L8C10">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C12">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C13">i</c>
+				<c xml:id="L8C14">e</c>
+				<c xml:id="L8C15">r</c>
+				<c xml:id="L8C16">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C18">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C19">u</c>
+				<c xml:id="L8C20">s</c>
+				<c xml:id="L8C21">s</c>
+				<c xml:id="L8C22">i</c>
+				<c xml:id="L8C23">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C24"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L8C25">h</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C26">e</c>
+					<c xml:id="L8C27">r</c>
+					<c xml:id="L8C28">e</c>
+					<c xml:id="L8C29">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C30"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C31">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C32">a</c>
+					<c xml:id="L8C33">c</c>
+					<c xml:id="L8C34">i</c>
+					<c xml:id="L8C35">e</c>
+					<c xml:id="L8C36">n</c>
+					<c xml:id="L8C37">d</c>
+					<c xml:id="L8C38">u</c>
+					<c xml:id="L8C39">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C40"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C41">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C42">u</c>
+					<c xml:id="L8C43">r</c>
+					<c xml:id="L8C44">a</c>
+					<c xml:id="L8C45">v</c>
+					<c xml:id="L8C46">i</c>
+					<c xml:id="L8C47">t</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

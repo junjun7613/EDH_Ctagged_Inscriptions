@@ -1,0 +1,126 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Echzell (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060452</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060452</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Darmstadt, Hess. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/16">Basalt</material><dimensions unit="cm"><height>(23)</height><width>(31)</width><depth>(16)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118657" /></origPlace><origDate><origDate when-custom="0197" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2933772">Echzell</placeName><placeName type="findspot">{Biederichsgraben, bei}?</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060452_1" sex="M"><persName><name type="cognomen">Lateranus+</name></persName></person><person xml:id="HD060452_2" sex="M"><persName><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-06" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029558" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/97a0ba0e-a711-424b-aa42-b6599952ec73/file/id/790315/file_version/name/small" /><graphic xml:id="F029559" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ec4dda07-a4e5-48c2-a4d9-c392b2824548/file/id/790316/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>M&#246;glicherweise Fragment vom unteren Teil eines Altars. Z. 2 befindet sich auf der crepido.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07427a.</bibl><bibl>F. Kofler, in: Der obergermanisch-r&#228;tische Limes des R&#246;merreiches B, II, 2, 18 (Lieferung 18) (Heidelberg 1914) 14, Nr. 4; Taf. 3, 3 (Zeichnung).</bibl><bibl>PIR (2. Aufl.) C 1638.</bibl><bibl>PIR (2. Aufl.) S 669.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">L</c>
+			<c xml:id="L1C3">a</c>
+			<c xml:id="L1C4">t</c>
+			<supplied reason="lost">
+				<c xml:id="L1C5">e</c>
+				<c xml:id="L1C6">r</c>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">o</c>
+			</supplied>
+			<c xml:id="L1C10"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">e</c>
+			<c xml:id="L1C3">t</c>
+			<c xml:id="L1C4"> </c>
+			<c xml:id="L1C5">R</c>
+			<c xml:id="L1C6">u</c>
+			<c xml:id="L1C7">f</c>
+			<c xml:id="L1C8">i</c>
+			<c xml:id="L1C9">n</c>
+			<c xml:id="L1C10">o</c>
+			<c xml:id="L1C11"> </c>
+			<c xml:id="L1C12">c</c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L1C13">o</c>
+					</abbr>
+					<ex>
+						<c xml:id="L1C14">n</c>
+					</ex>
+					<abbr>
+						<c xml:id="L1C15">s</c>
+					</abbr>
+					<ex>
+						<c xml:id="L1C16">u</c>
+						<c xml:id="L1C17">l</c>
+						<c xml:id="L1C18">i</c>
+						<c xml:id="L1C19">b</c>
+						<c xml:id="L1C20">u</c>
+						<c xml:id="L1C21">s</c>
+					</ex>
+				</expan>
+			</supplied>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

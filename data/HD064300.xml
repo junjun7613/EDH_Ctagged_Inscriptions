@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064300</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064300</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(24)</height><width>(10)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1899"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Parzelle Nr. 3307 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064300_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-19" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Sarkophagdeckel. Buchstabe V in Form von U.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 631-632, Nr. 323; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4">p</c>
+			<c xml:id="L1C5">o</c>
+			<c xml:id="L1C6">s</c>
+			<c xml:id="L1C7">i</c>
+			<c xml:id="L1C8">t</c>
+			<c xml:id="L1C9">i</c>
+			<c xml:id="L1C10">o</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 bonae mem
+		</supplied>
+		<c xml:id="L1C11">o</c>
+		<c xml:id="L1C12">r</c>
+		<c xml:id="L1C13">i</c>
+		<c xml:id="L1C14">a</c>
+		<c xml:id="L1C15">e</c>
+		<c xml:id="L1C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C17">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C18">i</c>
+				<c xml:id="L1C19">r</c>
+				<c xml:id="L1C20">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C21"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C22">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C23">p</c>
+				<c xml:id="L1C24">e</c>
+				<c xml:id="L1C25">c</c>
+				<c xml:id="L1C26">t</c>
+				<c xml:id="L1C27">a</c>
+				<c xml:id="L1C28">b</c>
+				<c xml:id="L1C29">i</c>
+				<c xml:id="L1C30">l</c>
+				<c xml:id="L1C31">i</c>
+				<c xml:id="L1C32">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C33"> </c>
+		<c xml:id="L1C34">M</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

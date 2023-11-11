@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nursia, bei &amp;ndash; Norcia, bei (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000317</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000317</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>(64)</height><width>(70)</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413229">Nursia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Norcia, bei</placeName><placeName type="findspot">Case Sparse 534, sekund&#228;r verwendet</placeName><placeName type="region">Umbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000317_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Greius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD000317_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Greius</name><name type="cognomen">Lesbius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-10" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Puncta triangularia. Material: wei&#223;er Travertin.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0298.</bibl><bibl>R. Cordella - N. Criniti, Iscrizioni latine di Norcia e dintorni (Spoleto 1982) 76-77, Nr. 1; fig. 48. - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<c xml:id="L1C2">P</c>
+			<c xml:id="L1C3">a</c>
+		</supplied>
+		<c xml:id="L1C4">e</c>
+		<c xml:id="L1C5">d</c>
+		<c xml:id="L1C6">a</c>
+		<c xml:id="L1C7">g</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9">g</c>
+		<c xml:id="L1C10">u</c>
+		<supplied reason="lost">
+			<c xml:id="L1C11">s</c>
+		</supplied>
+		<c xml:id="L1C12"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">u</c>
+				<c xml:id="L2C3">c</c>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">G</c>
+		<c xml:id="L2C9">r</c>
+		<c xml:id="L2C10">e</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">u</c>
+		<c xml:id="L2C13">s</c>
+		<c xml:id="L2C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C15">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C16">u</c>
+				<c xml:id="L2C17">c</c>
+				<c xml:id="L2C18">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C20">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C21">i</c>
+				<c xml:id="L2C22">b</c>
+				<c xml:id="L2C23">e</c>
+				<c xml:id="L2C24">r</c>
+				<c xml:id="L2C25">t</c>
+				<c xml:id="L2C26">u</c>
+				<c xml:id="L2C27">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C28"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">S</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">u</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">d</c>
+		<c xml:id="L3C7">u</c>
+		<c xml:id="L3C8">s</c>
+		<c xml:id="L3C9"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">u</c>
+				<c xml:id="L4C3">c</c>
+				<c xml:id="L4C4">i</c>
+				<c xml:id="L4C5">u</c>
+				<c xml:id="L4C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C7"> </c>
+		<c xml:id="L4C8">G</c>
+		<c xml:id="L4C9">r</c>
+		<c xml:id="L4C10">e</c>
+		<c xml:id="L4C11">i</c>
+		<c xml:id="L4C12">u</c>
+		<c xml:id="L4C13">s</c>
+		<c xml:id="L4C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C15">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C16">u</c>
+				<c xml:id="L4C17">c</c>
+				<c xml:id="L4C18">i</c>
+				<c xml:id="L4C19">o</c>
+				<c xml:id="L4C20">r</c>
+				<c xml:id="L4C21">u</c>
+				<c xml:id="L4C22">m</c>
+				<c xml:id="L4C23"> </c>
+				<c xml:id="L4C24">d</c>
+				<c xml:id="L4C25">u</c>
+				<c xml:id="L4C26">o</c>
+				<c xml:id="L4C27">r</c>
+				<c xml:id="L4C28">u</c>
+				<c xml:id="L4C29">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C30"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C31">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C32">i</c>
+				<c xml:id="L4C33">b</c>
+				<c xml:id="L4C34">e</c>
+				<c xml:id="L4C35">r</c>
+				<c xml:id="L4C36">t</c>
+				<c xml:id="L4C37">u</c>
+				<c xml:id="L4C38">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C39"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">L</c>
+		<c xml:id="L5C2">e</c>
+		<c xml:id="L5C3">s</c>
+		<c xml:id="L5C4">b</c>
+		<c xml:id="L5C5">i</c>
+		<c xml:id="L5C6">u</c>
+		<c xml:id="L5C7">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

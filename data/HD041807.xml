@@ -1,0 +1,173 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saetabis &amp;ndash; X&#224;tiva (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041807</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041807</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Valencia, Mus. Bellas Artes</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(68)</height><width>54</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266019">Saetabis</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2516345">X&#224;tiva</placeName><placeName type="findspot">Stadtmauer, Westseite, sekund&#228;r verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD041807_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Grattius</name><name type="cognomen">Arescon+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-20" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F041859" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0e059857-5208-4da9-8464-fef9ccc21a78/file/id/802962/file_version/name/small" /><graphic xml:id="F041872" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3b25d0fc-3c73-4464-9604-8310ae1d32c4/file/id/802975/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Pulvini und Giebel. Hederae</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Corell, Inscripcions romanes del Pa&#237;s Valenci&#224; 3. Saetabis i el seu territori (Val&#232;ncia 2006) 80-81, Nr. 33; Foto.</bibl><bibl>CIL 02, 05979.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">G</c>
+		<c xml:id="L2C3">r</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">t</c>
+		<c xml:id="L2C6">t</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">s</c>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">A</c>
+	</line>
+	<line break="no" n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">r</c>
+		</supplied>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">s</c>
+		<c xml:id="L3C4">c</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C8">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L3C9">o</c>
+				<c xml:id="L3C10">r</c>
+				<c xml:id="L3C11">u</c>
+				<c xml:id="L3C12">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C13"> </c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L3C14">L</c>
+		</supplied>
+		<c xml:id="L3C15"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">i</c>
+				<c xml:id="L4C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">i</c>
+				<c xml:id="L4C7">t</c>
+				<c xml:id="L4C8">u</c>
+				<c xml:id="L4C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C10"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C11">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C12">s</c>
+					<c xml:id="L4C13">t</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

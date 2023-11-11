@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072923</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072923</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Sch&#252;ttkasten, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(49)</height><width>35</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0150" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1774"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" /><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072923_1" sex="M"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Titianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-27" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Altar oder Basis. Am Ende von Zeile 4 ist noch der obere Ansatz der abfallenden Haste des V zu erkennen. Zweimal TI-Ligatur in Zeile 2.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04422.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 41, Nr. 159.</bibl><bibl>G. Kremer, G&#246;tterdarstellungen, Kult- und Weihedenkm&#228;ler aus Carnuntum, CSIR &#214;sterreich Carnuntum (Suppl.) 1 (Wien 2012) 197, Nr. 387; Taf. 125, 387.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">N</c>
+		<c xml:id="L1C3">y</c>
+		<c xml:id="L1C4">m</c>
+		<c xml:id="L1C5">p</c>
+		<c xml:id="L1C6">h</c>
+		<c xml:id="L1C7">i</c>
+		<c xml:id="L1C8">s</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">U</c>
+				<c xml:id="L2C2">l</c>
+				<c xml:id="L2C3">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">T</c>
+		<c xml:id="L2C9">i</c>
+		<c xml:id="L2C10">t</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">a</c>
+		<c xml:id="L2C13">n</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">u</c>
+		<c xml:id="L3C2">s</c>
+		<c xml:id="L3C3"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">p</c>
+				<c xml:id="L4C2">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C3">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C4"> </c>
+		<c xml:id="L4C5">s</c>
+		<c xml:id="L4C6">e</c>
+		<c xml:id="L4C7"> </c>
+		<c xml:id="L4C8">e</c>
+		<c xml:id="L4C9">t</c>
+		<c xml:id="L4C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C11">s</c>
+				<c xml:id="L4C12">u</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C13">i</c>
+				<c xml:id="L4C14">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

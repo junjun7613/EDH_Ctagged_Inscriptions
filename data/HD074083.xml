@@ -1,0 +1,144 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindobona &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074083</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074083</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>55</height><width>32</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">Wien 10 (Favoriten), {Arsenal}, Katasternummer 70/1, 2, 71/1</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074083_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18941"><name type="cognomen">Marculus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-17" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Inschrift befindet sich auf dem Mittelteil neben einer Darstellung des Silvanus. Buchstabe L kursiv. Z. 2/3: m&#246;glicherweise auch Marc(e)l(l)/us.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11309.</bibl><bibl>A. Neumann, Die Skulpturen des Stadtgebietes von Vindobona, CSIR &#214;sterreich 1, 1 (Wien 1967) 21, Nr. 19; Taf. 19.</bibl><bibl>C. Farka u. a., in: Vindobona - die R&#246;mer im Wiener Raum. 52. Sonderausstellung des Historischen Museums der Stadt Wien, Karlsplatz (Wien 1977) 188, Nr. S 63.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">S</c>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">l</c>
+				<c xml:id="L1C5">v</c>
+				<c xml:id="L1C6">a</c>
+				<c xml:id="L1C7">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C8">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">M</c>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">c</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L2C5">u</c>
+			</ex>
+			<c xml:id="L2C6">l</c>
+		</expan>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">u</c>
+		<c xml:id="L3C2">s</c>
+		<c xml:id="L3C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C4">l</c>
+				<c xml:id="L3C5">e</c>
+				<c xml:id="L3C6">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C7">i</c>
+				<c xml:id="L3C8">o</c>
+				<c xml:id="L3C9">n</c>
+				<c xml:id="L3C10">i</c>
+				<c xml:id="L3C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C12"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">X</c>
+		<c xml:id="L4C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C3">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C4">o</c>
+				<c xml:id="L4C5">t</c>
+				<c xml:id="L4C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C8">d</c>
+				<c xml:id="L4C9">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C10">d</c>
+				<c xml:id="L4C11">i</c>
+				<c xml:id="L4C12">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

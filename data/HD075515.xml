@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Vetoniana &amp;ndash; Walting (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075515</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075515</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/119020">Vetoniana</placeName></origPlace><origDate><origDate notBefore-custom="0090" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">90 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2853923">Walting</placeName><placeName type="findspot">Pf&#252;nz</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075515_1" sex="M"><persName><name type="cognomen">Me&#273;&#273;icus</name></persName></person><person xml:id="HD075515_2" sex="W"><persName><name type="cognomen">Metella*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-06" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gef&#228;&#223;. Text1: Schreibtechnik: gestempelt, erhabene Lettern. Text 2: auf der Au&#223;enseite, Schreibtechnik geritzt. Text 1: vielleicht eher als &amp;apos;Me&#273;&#273;ic(us) f(ecit)&amp;apos; zu lesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14115, 9b.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">M</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">&#273;</c>
+		<c xml:id="L1C5">&#273;</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">c</c>
+		<c xml:id="L1C8">e</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">e</c>
+		<c xml:id="L2C3">t</c>
+		<c xml:id="L2C4">e</c>
+		<c xml:id="L2C5">l</c>
+		<expan>
+			<ex>
+				<c xml:id="L2C6">l</c>
+			</ex>
+			<abbr>
+				<c xml:id="L2C7">a</c>
+			</abbr>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

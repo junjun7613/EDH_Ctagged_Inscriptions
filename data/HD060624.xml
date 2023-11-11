@@ -1,0 +1,356 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Laus Iulia Corinthus &amp;ndash; K&#243;rinthos (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060624</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060624</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(45)</height><width>(40)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.6-1.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="#">Colonia Laus Iulia Corinthus</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1938"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">K&#243;rinthos</placeName><placeName type="findspot">Solomos</placeName><placeName type="region">Pelop&#243;nissos</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060624_1" sex="M"><persName><name type="cognomen">Delm[---] / &#916;&#951;&#955;&#956;[---]</name></persName></person><person xml:id="HD060624_2" sex="W"><persName><name type="cognomen">Theodora+ / &#920;&#949;&#959;&#948;&#8061;&#961;&#945;+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-18" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die ersten zwei Buchstaben in Z. 1 sind nicht mehr auf dem Foto erkennbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.H. Kent, Corinth. Results of excavations conducted by The American School of Classical Studies at Athens 8, 3. The inscriptions 1926-1950 (Princeton 1966) 112, Nr. 276; pl. 25,276.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4">l</c>
+			<c xml:id="L1C5">m</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C6"> </c>
+		</line>
+		<line n="2">
+			<supplied reason="lost">
+				<c xml:id="L2C1">d</c>
+				<c xml:id="L2C2">e</c>
+				<c xml:id="L2C3">c</c>
+				<c xml:id="L2C4">u</c>
+				<c xml:id="L2C5">r</c>
+				<c xml:id="L2C6">i</c>
+			</supplied>
+			<c xml:id="L2C7">o</c>
+			<c xml:id="L2C8">n</c>
+			<c xml:id="L2C9">i</c>
+			<c xml:id="L2C10"> </c>
+			<c xml:id="L2C11">p</c>
+			<c xml:id="L2C12">r</c>
+			<c xml:id="L2C13">a</c>
+			<c xml:id="L2C14">e</c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L2C15">f</c>
+					</abbr>
+					<ex>
+						<c xml:id="L2C16">e</c>
+						<c xml:id="L2C17">s</c>
+						<c xml:id="L2C18">t</c>
+						<c xml:id="L2C19">o</c>
+					</ex>
+				</expan>
+			</supplied>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L2C20"> </c>
+		</line>
+		<line n="3">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<supplied reason="lost">
+				<c xml:id="L3C1">T</c>
+			</supplied>
+			<c xml:id="L3C2">h</c>
+			<c xml:id="L3C3">e</c>
+			<c xml:id="L3C4">o</c>
+			<c xml:id="L3C5">d</c>
+			<c xml:id="L3C6">o</c>
+			<c xml:id="L3C7">r</c>
+			<c xml:id="L3C8">a</c>
+			<c xml:id="L3C9"> </c>
+			<c xml:id="L3C10">u</c>
+			<c xml:id="L3C11">x</c>
+			<c xml:id="L3C12">o</c>
+			<c xml:id="L3C13">r</c>
+			<c xml:id="L3C14"> </c>
+			<c xml:id="L3C15">d</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L3C16"> </c>
+		</line>
+		<line n="4">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L4C1">o</c>
+			<c xml:id="L4C2">m</c>
+			<c xml:id="L4C3"> </c>
+			<c xml:id="L4C4">|</c>
+			<c xml:id="L4C5">(</c>
+			<c xml:id="L4C6">s</c>
+			<c xml:id="L4C7">e</c>
+			<c xml:id="L4C8">s</c>
+			<c xml:id="L4C9">t</c>
+			<c xml:id="L4C10">e</c>
+			<c xml:id="L4C11">r</c>
+			<c xml:id="L4C12">t</c>
+			<c xml:id="L4C13">i</c>
+			<c xml:id="L4C14">u</c>
+			<c xml:id="L4C15">m</c>
+			<c xml:id="L4C16">)</c>
+			<c xml:id="L4C17"> </c>
+			<c xml:id="L4C18">M</c>
+			<c xml:id="L4C19">M</c>
+			<c xml:id="L4C20"> </c>
+			<c xml:id="L4C21">e</c>
+			<c xml:id="L4C22">x</c>
+			<c xml:id="L4C23"> </c>
+			<c xml:id="L4C24">t</c>
+			<c xml:id="L4C25">e</c>
+			<c xml:id="L4C26">s</c>
+			<c xml:id="L4C27">t</c>
+			<c xml:id="L4C28">a</c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L4C29">m</c>
+						<c xml:id="L4C30">e</c>
+						<c xml:id="L4C31">n</c>
+						<c xml:id="L4C32">t</c>
+					</abbr>
+					<ex>
+						<c xml:id="L4C33">o</c>
+					</ex>
+				</expan>
+			</supplied>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L4C34"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C2">&#969;</c>
+			<c xml:id="L1C3">&#953;</c>
+			<c xml:id="L1C4"> </c>
+			<c xml:id="L1C5">&#923;</c>
+			<c xml:id="L1C6">&#949;</c>
+			<c xml:id="L1C7">&#965;</c>
+			<c xml:id="L1C8">&#954;</c>
+			<c xml:id="L1C9">&#8055;</c>
+			<c xml:id="L1C10">&#959;</c>
+			<c xml:id="L1C11">&#965;</c>
+			<c xml:id="L1C12"> </c>
+			<c xml:id="L1C13">&#7936;</c>
+			<c xml:id="L1C14">&#960;</c>
+			<c xml:id="L1C15">&#949;</c>
+			<c xml:id="L1C16">&#955;</c>
+			<supplied reason="lost">
+				<c xml:id="L1C17">&#949;</c>
+				<c xml:id="L1C18">&#965;</c>
+				<c xml:id="L1C19">&#952;</c>
+				<c xml:id="L1C20">&#8051;</c>
+				<c xml:id="L1C21">&#961;</c>
+				<c xml:id="L1C22">&#969;</c>
+				<c xml:id="L1C23">&#953;</c>
+				<c xml:id="L1C24"> </c>
+				<c xml:id="L1C25">&#916;</c>
+				<c xml:id="L1C26">&#951;</c>
+				<c xml:id="L1C27">&#955;</c>
+				<c xml:id="L1C28">&#956;</c>
+				<gap reason="lost" extent="unknown" unit="character" />
+			</supplied>
+			<c xml:id="L1C29"> </c>
+		</line>
+		<line n="2">
+			<supplied reason="lost">
+				<gap reason="lost" extent="unknown" unit="character" />
+				<c xml:id="L2C1"> </c>
+				<c xml:id="L2C2">&#948;</c>
+			</supplied>
+			<c xml:id="L2C3">&#949;</c>
+			<c xml:id="L2C4">&#954;</c>
+			<c xml:id="L2C5">&#959;</c>
+			<c xml:id="L2C6">&amp;</c>
+			<c xml:id="L2C7">l</c>
+			<c xml:id="L2C8">t</c>
+			<c xml:id="L2C9">;</c>
+			<c xml:id="L2C10">&#965;</c>
+			<c xml:id="L2C11">&amp;</c>
+			<c xml:id="L2C12">g</c>
+			<c xml:id="L2C13">t</c>
+			<c xml:id="L2C14">;</c>
+			<c xml:id="L2C15">&#961;</c>
+			<c xml:id="L2C16">&#8055;</c>
+			<c xml:id="L2C17">&#969;</c>
+			<c xml:id="L2C18">&#957;</c>
+			<c xml:id="L2C19">&#953;</c>
+			<c xml:id="L2C20"> </c>
+			<c xml:id="L2C21">&#7952;</c>
+			<c xml:id="L2C22">&#960;</c>
+			<c xml:id="L2C23">&#8049;</c>
+			<c xml:id="L2C24">&#961;</c>
+			<c xml:id="L2C25">&#967;</c>
+			<c xml:id="L2C26">&#969;</c>
+			<supplied reason="lost">
+				<c xml:id="L2C27">&#953;</c>
+				<c xml:id="L2C28"> </c>
+				<gap reason="lost" extent="unknown" unit="character" />
+			</supplied>
+			<c xml:id="L2C29"> </c>
+		</line>
+		<line n="3">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L3C1"> </c>
+			<c xml:id="L3C2">&#7936;</c>
+			<c xml:id="L3C3">&#960;</c>
+			<c xml:id="L3C4">&#949;</c>
+			<c xml:id="L3C5">&#955;</c>
+			<c xml:id="L3C6">&#949;</c>
+			<c xml:id="L3C7">&#965;</c>
+			<c xml:id="L3C8">&#952;</c>
+			<c xml:id="L3C9">&#8051;</c>
+			<c xml:id="L3C10">&#961;</c>
+			<c xml:id="L3C11">&#945;</c>
+			<c xml:id="L3C12"> </c>
+			<c xml:id="L3C13">&#920;</c>
+			<c xml:id="L3C14">&#949;</c>
+			<supplied reason="lost">
+				<c xml:id="L3C15">&#959;</c>
+				<c xml:id="L3C16">&#948;</c>
+				<c xml:id="L3C17">&#8061;</c>
+				<c xml:id="L3C18">&#961;</c>
+				<c xml:id="L3C19">&#945;</c>
+				<c xml:id="L3C20"> </c>
+				<c xml:id="L3C21">&#947;</c>
+				<c xml:id="L3C22">&#965;</c>
+				<c xml:id="L3C23">&#957;</c>
+				<c xml:id="L3C24">&#8052;</c>
+				<c xml:id="L3C25"> </c>
+				<c xml:id="L3C26">&#964;</c>
+				<c xml:id="L3C27">&#959;</c>
+				<c xml:id="L3C28">&#8166;</c>
+				<c xml:id="L3C29"> </c>
+				<c xml:id="L3C30">&#916;</c>
+				<c xml:id="L3C31">&#951;</c>
+				<c xml:id="L3C32">&#955;</c>
+				<c xml:id="L3C33">&#956;</c>
+				<gap reason="lost" extent="unknown" unit="character" />
+			</supplied>
+			<c xml:id="L3C34"> </c>
+		</line>
+		<line n="4">
+			<supplied reason="lost">
+				<c xml:id="L4C1">&#954;</c>
+				<c xml:id="L4C2">&#945;</c>
+				<c xml:id="L4C3">&#964;</c>
+				<c xml:id="L4C4">&#8048;</c>
+				<c xml:id="L4C5"> </c>
+				<c xml:id="L4C6">&#948;</c>
+				<c xml:id="L4C7">&#953;</c>
+				<c xml:id="L4C8">&#945;</c>
+				<c xml:id="L4C9">&#952;</c>
+				<c xml:id="L4C10">&#8053;</c>
+				<c xml:id="L4C11">&#954;</c>
+				<c xml:id="L4C12">&#951;</c>
+				<c xml:id="L4C13">&#957;</c>
+			</supplied>
+			<c xml:id="L4C14"> </c>
+			<c xml:id="L4C15">&#7952;</c>
+			<c xml:id="L4C16">&#960;</c>
+			<c xml:id="L4C17">&#959;</c>
+			<c xml:id="L4C18">&#8055;</c>
+			<c xml:id="L4C19">&#951;</c>
+			<c xml:id="L4C20">&#963;</c>
+			<c xml:id="L4C21">&#949;</c>
+			<c xml:id="L4C22"> </c>
+			<c xml:id="L4C23">&#963;</c>
+			<c xml:id="L4C24">&#965;</c>
+			<c xml:id="L4C25">&#957;</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L4C26"> </c>
+		</line>
+		<line n="5">
+			<supplied reason="lost">
+				<gap reason="lost" extent="unknown" unit="character" />
+				<c xml:id="L5C1"> </c>
+				<c xml:id="L5C2">&#7936;</c>
+				<c xml:id="L5C3">&#960;</c>
+				<c xml:id="L5C4">&#949;</c>
+				<c xml:id="L5C5">&#955;</c>
+				<c xml:id="L5C6">&#949;</c>
+				<c xml:id="L5C7">&#965;</c>
+			</supplied>
+			<c xml:id="L5C8">&#952;</c>
+			<c xml:id="L5C9">&#8051;</c>
+			<c xml:id="L5C10">&#961;</c>
+			<c xml:id="L5C11">&#945;</c>
+			<c xml:id="L5C12"> </c>
+			<c xml:id="L5C13">&#920;</c>
+			<c xml:id="L5C14">&#949;</c>
+			<c xml:id="L5C15">&#959;</c>
+			<c xml:id="L5C16">&#948;</c>
+			<c xml:id="L5C17">&#8061;</c>
+			<c xml:id="L5C18">&#961;</c>
+			<c xml:id="L5C19">&#945;</c>
+			<c xml:id="L5C20"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Campona?, aus &amp;ndash; Szigetszentmikl&#243;s (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038078</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038078</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szigetszentmikl&#243;s, M&#250;zeum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(80)</height><width>(49)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197187">Campona?, aus</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044475">Szigetszentmikl&#243;s</placeName><placeName type="findspot">{reformierte Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038078_1"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">Secund[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-07-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TRHR (Suppl.) 154; Abb. 154 (Foto u. Zeichnung).</bibl><bibl>AE 2002, 1185.</bibl><bibl>P. Kov&#225;cs, SpNov 16, 2000, 74-76, Nr. 3; fig. 3. - AE 2002.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">S</c>
+		<c xml:id="L1C2">e</c>
+		<c xml:id="L1C3">c</c>
+		<c xml:id="L1C4">u</c>
+		<c xml:id="L1C5">n</c>
+		<c xml:id="L1C6">d</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">f</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">c</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">e</c>
+		<c xml:id="L2C6">n</c>
+		<c xml:id="L2C7">d</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C8">u</c>
+			<c xml:id="L2C9">m</c>
+			<c xml:id="L2C10"> </c>
+			<c xml:id="L2C11">c</c>
+			<c xml:id="L2C12">u</c>
+			<c xml:id="L2C13">r</c>
+			<c xml:id="L2C14">a</c>
+			<c xml:id="L2C15">v</c>
+			<c xml:id="L2C16">i</c>
+			<c xml:id="L2C17">t</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

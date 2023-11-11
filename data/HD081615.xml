@@ -1,0 +1,91 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Gilly-l&#232;s-Citeaux (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081615</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081615</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(107)</height><width>80</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1926"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3016039">Gilly-l&#232;s-Citeaux</placeName><placeName type="findspot">{Ferme de la Folie}, bei, r&#246;mische Stra&#223;e, 'Pr&#233;s Vieux', Nekropole</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081615_1" sex="M"><persName><name type="cognomen">Mat[---]</name></persName></person><person xml:id="HD081615_2" sex="W"><persName><name type="cognomen">Faustilla+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Stele mit dreieckigem Giebel, stark besto&#223;en. Im Bildfeld mit rundem oberen Abschluss ganzfiguren eines Mannes und einer Frau in dextrarum iunctio, die Frau legt ihre Linke auf die Schulter des Mannes. Die Inschrift befindet sich auf der oberen Rahmenleiste. Z. 1: MA-Ligatur. Eher M&#228;nnername auf Mat- als mat[er], e.g. Maturix, Maturus, Maternus. (B): Le Bohec; Provost: Mat[er(?) F]austilla&#8204;</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons (Paris 2003) 35, Nr. 5; Abb. 5.</bibl><bibl>M. Provost, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or d'Allerey &#224; Normier, Carte arch&#233;ologique de la Gaule 21, 2 (Paris 2009) 388; fig. 481.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">M</c>
+		<c xml:id="L1C4">a</c>
+		<c xml:id="L1C5">t</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C6">F</c>
+		</supplied>
+		<c xml:id="L1C7">a</c>
+		<c xml:id="L1C8">u</c>
+		<c xml:id="L1C9">s</c>
+		<c xml:id="L1C10">t</c>
+		<c xml:id="L1C11">i</c>
+		<c xml:id="L1C12">l</c>
+		<c xml:id="L1C13">l</c>
+		<c xml:id="L1C14">a</c>
+		<c xml:id="L1C15"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

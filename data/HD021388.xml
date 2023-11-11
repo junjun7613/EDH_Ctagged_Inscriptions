@@ -1,0 +1,100 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021388</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021388</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>26</height><width>(26)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="-264" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">264 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Omobono, Kirche, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021388_1"><persName><name type="praenomen">M.+</name><name type="nomen">Folvios+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-01-02" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039553" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/326390d0-0552-4a36-9446-c46adb70975d/file/id/800432/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das St&#252;ck wurde zusammen mit einer gleichartigen Basis (= CIL VI 40895) gefunden. Degrassi dachte zun&#228;chst an eine Zusammengeh&#246;rigkeit der beiden Inschriften zu einer 3-seitig beschriebenen Basis. Datierung: um 264 v. Chr. (Konsulat des M. Fulvius Flaccus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40896; fig. &#949;.</bibl><bibl>CIL 01 (2. Aufl.) 02, 02836; tab. 4, 5.</bibl><bibl>AE 1966, 0013b.</bibl><bibl>A. Degrassi, BCAR 79, 1966, 91-93. - AE 1966.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">a</c>
+					<c xml:id="L1C4">r</c>
+					<c xml:id="L1C5">c</c>
+					<c xml:id="L1C6">o</c>
+					<c xml:id="L1C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C8"> </c>
+			<c xml:id="L1C9">F</c>
+			<c xml:id="L1C10">o</c>
+			<c xml:id="L1C11">l</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C12">v</c>
+				<c xml:id="L1C13">i</c>
+				<c xml:id="L1C14">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C16"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

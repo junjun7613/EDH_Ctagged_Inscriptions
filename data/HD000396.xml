@@ -1,0 +1,188 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Spoletium, bei &amp;ndash; Spoleto, bei (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000396</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000396</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Castello di Morgnano</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/71">Travertin</material><dimensions unit="cm"><height>150</height><width>59</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413320">Spoletium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Spoleto, bei</placeName><placeName type="findspot">Castello di Morgnano</placeName><placeName type="region">Umbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000396_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[--]olius</name><name type="cognomen">[---]fus</name></persName></person><person xml:id="HD000396_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[--]lius</name><name type="cognomen">Rufius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-11" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Rambaldi erg&#228;nzt: [P]olius Sp.f. [Ru]fus. [Po]lio A.l. Rufio in Anlehnung an CIl 6, 24408.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0354.</bibl><bibl>A. Rambaldi, Spoletium 11, 1962, 5, Nr. 14. - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">o</c>
+		<c xml:id="L1C3">l</c>
+		<c xml:id="L1C4">i</c>
+		<c xml:id="L1C5">u</c>
+		<c xml:id="L1C6">s</c>
+		<c xml:id="L1C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C8">S</c>
+				<c xml:id="L1C9">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C10">u</c>
+				<c xml:id="L1C11">r</c>
+				<c xml:id="L1C12">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">i</c>
+				<c xml:id="L1C16">l</c>
+				<c xml:id="L1C17">i</c>
+				<c xml:id="L1C18">u</c>
+				<c xml:id="L1C19">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C20"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">f</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4"> </c>
+		<c xml:id="L2C5">s</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">b</c>
+		<c xml:id="L2C8">i</c>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">e</c>
+		<c xml:id="L2C11">t</c>
+		<c xml:id="L2C12"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">l</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">o</c>
+		<c xml:id="L3C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C5">A</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C6">u</c>
+				<c xml:id="L3C7">l</c>
+				<c xml:id="L3C8">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C10">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C11">i</c>
+				<c xml:id="L3C12">b</c>
+				<c xml:id="L3C13">e</c>
+				<c xml:id="L3C14">r</c>
+				<c xml:id="L3C15">t</c>
+				<c xml:id="L3C16">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C17"> </c>
+		<c xml:id="L3C18">R</c>
+		<c xml:id="L3C19">u</c>
+		<c xml:id="L3C20">f</c>
+		<c xml:id="L3C21">i</c>
+		<c xml:id="L3C22">o</c>
+		<c xml:id="L3C23"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">i</c>
+		<c xml:id="L4C2">n</c>
+		<c xml:id="L4C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C4">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C5">r</c>
+				<c xml:id="L4C6">o</c>
+				<c xml:id="L4C7">n</c>
+				<c xml:id="L4C8">t</c>
+				<c xml:id="L4C9">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C11">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C12">e</c>
+				<c xml:id="L4C13">d</c>
+				<c xml:id="L4C14">e</c>
+				<c xml:id="L4C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C16"> </c>
+		<c xml:id="L4C17">X</c>
+		<c xml:id="L4C18">V</c>
+		<c xml:id="L4C19">I</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

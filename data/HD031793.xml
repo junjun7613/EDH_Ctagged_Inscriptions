@@ -1,0 +1,248 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Molino de la Torre (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031793</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031793</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>166</height><width>65</width><depth>(36)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Molino de la Torre</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031793_1" sex="W"><persName><name type="nomen">Cornelia+</name><name type="cognomen">[---]niana?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-14" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Inschrift verteilt sich auf 2 &#252;bereinanderliegende Inschriftfelder. Z. 3 (Anfang): statt N auch L m&#246;glich. Z. 7 (Anfang): statt M auch N m&#246;glich. (B): Ord&#243;&#241;ez Agulla - S&#225;ez Fern&#225;ndez; AE 1997: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 05, 01124.</bibl><bibl>AE 1997, 0831. (B)</bibl><bibl>S. Ord&#243;&#241;ez Agulla - P. S&#225;ez Fern&#225;ndez, Habis 27, 1996, 104-106, Nr. 4; Fotos. (B) - AE 1997.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C13"> </c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L1C14">s</c>
+					</abbr>
+					<ex>
+						<c xml:id="L1C15">a</c>
+						<c xml:id="L1C16">c</c>
+						<c xml:id="L1C17">r</c>
+						<c xml:id="L1C18">u</c>
+						<c xml:id="L1C19">m</c>
+					</ex>
+				</expan>
+			</supplied>
+			<c xml:id="L1C20"> </c>
+		</line>
+		<line n="2">
+			<supplied reason="lost">
+				<c xml:id="L2C1">C</c>
+				<c xml:id="L2C2">o</c>
+			</supplied>
+			<c xml:id="L2C3">r</c>
+			<c xml:id="L2C4">n</c>
+			<c xml:id="L2C5">e</c>
+			<c xml:id="L2C6">l</c>
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">a</c>
+			<c xml:id="L2C9"> </c>
+		</line>
+		<line n="3">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L3C1">N</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L3C2">i</c>
+				<c xml:id="L3C3">a</c>
+				<c xml:id="L3C4">n</c>
+			</expan>
+			<supplied reason="lost">
+				<c xml:id="L3C5">a</c>
+			</supplied>
+			<c xml:id="L3C6"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C2">l</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4">r</c>
+			<c xml:id="L1C5">a</c>
+			<c xml:id="L1C6">t</c>
+			<c xml:id="L1C7"> </c>
+			<supplied reason="lost">
+				<gap reason="lost" quantity="1" unit="character" />
+				<gap reason="lost" quantity="1" unit="character" />
+			</supplied>
+			<c xml:id="L1C8"> </c>
+		</line>
+		<line n="2">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<supplied reason="lost" cert="low">
+				<c xml:id="L2C1"> </c>
+				<c xml:id="L2C2">c</c>
+			</supplied>
+			<c xml:id="L2C3">a</c>
+			<c xml:id="L2C4">r</c>
+			<c xml:id="L2C5">i</c>
+			<c xml:id="L2C6">o</c>
+			<c xml:id="L2C7">r</c>
+			<c xml:id="L2C8"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C9">l</c>
+					<c xml:id="L2C10">i</c>
+					<c xml:id="L2C11">b</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L2C12">e</c>
+				</ex>
+				<c xml:id="L2C13">r</c>
+				<c xml:id="L2C14">i</c>
+			</expan>
+			<supplied reason="lost" cert="low">
+				<c xml:id="L2C15">s</c>
+			</supplied>
+			<c xml:id="L2C16"> </c>
+		</line>
+		<line n="3">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L3C1">I</c>
+			<c xml:id="L3C2">E</c>
+			<c xml:id="L3C3">Q</c>
+			<c xml:id="L3C4">V</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L3C5">u</c>
+			<c xml:id="L3C6">i</c>
+			<c xml:id="L3C7">t</c>
+			<c xml:id="L3C8"> </c>
+			<c xml:id="L3C9">m</c>
+			<c xml:id="L3C10">o</c>
+			<c xml:id="L3C11">r</c>
+			<c xml:id="L3C12">u</c>
+			<c xml:id="L3C13">m</c>
+			<c xml:id="L3C14"> </c>
+		</line>
+		<line n="4">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">C</c>
+					<c xml:id="L4C2">O</c>
+					<c xml:id="L4C3">M</c>
+				</abbr>
+				<ex cert="low" />
+			</expan>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L4C4"> </c>
+			<c xml:id="L4C5">s</c>
+			<c xml:id="L4C6">u</c>
+			<c xml:id="L4C7">p</c>
+			<c xml:id="L4C8">e</c>
+			<supplied reason="lost">
+				<c xml:id="L4C9">r</c>
+			</supplied>
+			<expan>
+				<abbr>
+					<c xml:id="L4C10">I</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L4C11">I</c>
+			</expan>
+			<certainty match="preceding-sibling::node()" locus="value" />
+			<expan>
+				<abbr>
+					<c xml:id="L4C12">I</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L4C13">A</c>
+				<c xml:id="L4C14">T</c>
+				<c xml:id="L4C15">A</c>
+			</expan>
+			<c xml:id="L4C16"> </c>
+			<c xml:id="L4C17">s</c>
+			<c xml:id="L4C18">u</c>
+			<c xml:id="L4C19">b</c>
+			<c xml:id="L4C20">i</c>
+			<supplied reason="lost" cert="low">
+				<c xml:id="L4C21">t</c>
+			</supplied>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,142 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gerulata, bei &amp;ndash; Bratislava (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074857</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074857</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bratislava, Slov. N&#225;r. M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(37)</height><width>(16)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128399">Gerulata, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1982"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3057792">Bratislava</placeName><placeName type="findspot">{Burg}, Fundament, vermauert</placeName><placeName type="region">Bratislavsk&#253; kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-07" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment. In Z. 2 am Ende noch eine kurze Vertikalhaste erkennbar. Z. 3: h(eres, -eredes) [p(osuit, -osuerunt)] oder h(eredem) [n(on) s(equitur)]. (B): Ho&#353;ek; Matyasowszky: Z. 1/2: &amp;apos;[e] b(eneficiariis) t(ribuni) V / [an(norum) e. g. pat]er.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Ho&#353;ek, Tituli Latini Pannoniae superioris annis 1967-1982 in Slovacia reperti (Praha 1985) 88-90, Nr. 40; Abb. 54. (B)</bibl><bibl>F.&#381;. Matyasowszky, Antick&#233; n&#225;pisn&#233; pamiatky na &#250;zem&#237; Slovenska (Nitra 2003) 85, Nr. 6. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">e</c>
+		<c xml:id="L0C4">t</c>
+		<c xml:id="L0C5"> </c>
+		<c xml:id="L0C6">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C7"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">E</c>
+		<c xml:id="L1C2">R</c>
+		<c xml:id="L1C3">I</c>
+		<c xml:id="L1C4"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C2">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C3">i</c>
+				<c xml:id="L2C4">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C6">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C7">i</c>
+				<c xml:id="L2C8">t</c>
+				<c xml:id="L2C9">u</c>
+				<c xml:id="L2C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C11"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C12">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C13">s</c>
+					<c xml:id="L2C14">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L2C15"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C2">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C3">e</c>
+				<c xml:id="L3C4">r</c>
+				<c xml:id="L3C5">e</c>
+				<c xml:id="L3C6">-</c>
+				<c xml:id="L3C7">-</c>
+				<c xml:id="L3C8">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

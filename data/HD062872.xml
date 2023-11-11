@@ -1,0 +1,183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062872</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062872</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Treviso, Mus. Civ.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>54</height><width>36</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.8-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot" /><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062872_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Baebius</name><name type="cognomen">Vindemiator*</name></persName></person><person xml:id="HD062872_2" sex="W"><persName><name type="nomen">Baebia</name><name type="cognomen">Secura*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-10-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028572" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c50bb12-c930-408f-8911-d0bc920a06f8/file/id/789329/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Z. 3: CIL 03, 02243; CIL 05, 00125, 1*: Vindemiatori.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02243. (B)</bibl><bibl>CIL 03, 02243 add. p. 1031.</bibl><bibl>CIL 03, 02243 add. p. 1509.</bibl><bibl>CIL 05, 00125, 1*. (B)</bibl><bibl>F. Luciani, Iscrizioni greche e latine dei Musei Civici di Treviso (Treviso 2012) 33, Nr. 30; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">u</c>
+				<c xml:id="L2C3">c</c>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">B</c>
+		<c xml:id="L2C8">a</c>
+		<c xml:id="L2C9">e</c>
+		<c xml:id="L2C10">b</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">o</c>
+		<c xml:id="L2C13"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">V</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">n</c>
+		<c xml:id="L3C4">d</c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">m</c>
+		<c xml:id="L3C7">a</c>
+		<c xml:id="L3C8">t</c>
+		<c xml:id="L3C9">o</c>
+		<c xml:id="L3C10">r</c>
+		<c xml:id="L3C11">i</c>
+		<c xml:id="L3C12"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">B</c>
+		<c xml:id="L4C2">a</c>
+		<c xml:id="L4C3">e</c>
+		<c xml:id="L4C4">b</c>
+		<c xml:id="L4C5">i</c>
+		<c xml:id="L4C6">a</c>
+		<c xml:id="L4C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C8">S</c>
+				<c xml:id="L4C9">e</c>
+				<c xml:id="L4C10">c</c>
+				<c xml:id="L4C11">u</c>
+				<c xml:id="L4C12">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C13">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">p</c>
+		<c xml:id="L5C2">a</c>
+		<c xml:id="L5C3">t</c>
+		<c xml:id="L5C4">r</c>
+		<c xml:id="L5C5">i</c>
+		<c xml:id="L5C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C7">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C8">e</c>
+				<c xml:id="L5C9">n</c>
+				<c xml:id="L5C10">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C12">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C13">e</c>
+				<c xml:id="L5C14">r</c>
+				<c xml:id="L5C15">e</c>
+				<c xml:id="L5C16">n</c>
+				<c xml:id="L5C17">t</c>
+				<c xml:id="L5C18">i</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

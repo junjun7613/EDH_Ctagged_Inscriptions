@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Prozor-Rama (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054747</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054747</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>&#352;tit&#8206;, Pfarrhaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1856"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3191201">Prozor-Rama</placeName><placeName type="findspot">&#8206;{&#352;&#263;it}, alte Kirche</placeName><placeName type="region">Hercegova&#269;ko-neretvanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-01-20" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Nach CIL Fragment einer Inschrift christlichen Inhalts. Datierung unklar; Zuweisung als antike Inschrift umstritten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13870.</bibl><bibl>C. Patsch, WMBH 4, 1896, 247, Nr. 2; Fig. 7 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">-</c>
+		<c xml:id="L1C3">-</c>
+		<c xml:id="L1C4">-</c>
+		<c xml:id="L1C5">-</c>
+		<c xml:id="L1C6">-</c>
+		<c xml:id="L1C7">-</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C8">]</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">q</c>
+		<c xml:id="L1C11">u</c>
+		<c xml:id="L1C12">a</c>
+		<c xml:id="L1C13">m</c>
+		<c xml:id="L1C14">v</c>
+		<c xml:id="L1C15">i</c>
+		<c xml:id="L1C16">s</c>
+		<c xml:id="L1C17"> </c>
+		<c xml:id="L1C18">c</c>
+		<c xml:id="L1C19">o</c>
+		<c xml:id="L1C20">r</c>
+		<c xml:id="L1C21">p</c>
+		<c xml:id="L1C22">o</c>
+		<c xml:id="L1C23">r</c>
+		<c xml:id="L1C24">a</c>
+		<c xml:id="L1C25"> </c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Kingscote (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019741</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019741</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford, Ashmolean Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>26</height><width>38</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1795"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2645476">Kingscote</placeName><placeName type="findspot">{Symonds Hall Hill}</placeName><placeName type="region">Gloucestershire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1958, 0090.</bibl><bibl>R.P. Wright, JRS 47, 1957, 226, Nr. 1. - AE 1958.</bibl><bibl>RIB 0135; Zeichnung.</bibl><bibl>M. Henig, Roman sculpture from the Cotswold region with Devon and Cornwall, CSIR Great Britain 1, 7 (Oxford 1993) 42, Nr. 125; Pl. 32, 125.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">I</c>
+		<c xml:id="L0C4">u</c>
+		<c xml:id="L0C5">l</c>
+		<supplied reason="lost">
+			<c xml:id="L0C6">i</c>
+		</supplied>
+		<c xml:id="L0C7">u</c>
+		<c xml:id="L0C8">s</c>
+		<c xml:id="L0C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C10">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C11">i</c>
+				<c xml:id="L0C12">b</c>
+				<c xml:id="L0C13">e</c>
+				<c xml:id="L0C14">n</c>
+				<c xml:id="L0C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C17">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C18">o</c>
+				<c xml:id="L0C19">l</c>
+				<c xml:id="L0C20">v</c>
+				<c xml:id="L0C21">i</c>
+				<c xml:id="L0C22">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

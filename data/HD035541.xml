@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Label from Carnuntum &amp;ndash; Petronell-Carnuntum? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035541</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035541</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/163">jewellery</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/89">Jaspis</material><dimensions unit="cm"><height>1</height><width>1</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum?</placeName><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/109">label</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-04-22" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Ovale Gemme aus braunrotem Jaspis. Auf der Vorderseite ein Mischwesen mit m&#228;nnlichem Oberk&#246;rper, Hahnenkopf und Schlangen statt Beinen. Es h&#228;lt in der Linken eine Peitsche, in der Rechten einen Schild. Die Inschrift (&#921;&#913;&#937;, f&#252;r Jahve) befindet sich unterhalb des Bildes. R&#252;ckseite: Inschrift laut vierzeilig und unvollst&#228;ndig erhalten, jedoch Br&#252;che und Zeilenf&#228;lle bei Dembski nicht angegeben; keine Abbildung; Wiedergabe daher nach CIGPannon (2. Aufl.) und CIGPannon (3. Aufl.).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1002.</bibl><bibl>G. Dembski, Edle Steine - sch&#246;ne Bilder. R&#246;mische Gemmen und Kameen aus Carnuntum (Wie 2011) 69, Nr. 56; Foto. - AE 2011.</bibl><bibl>CIGPannon (2. Aufl.) 044.</bibl><bibl>CIGPannon (3. Aufl.) 044.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<c xml:id="L1C2">&#7992;</c>
+			<c xml:id="L1C3">&#8049;</c>
+			<c xml:id="L1C4">&#969;</c>
+			<c xml:id="L1C5"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">&#7944;</c>
+		</line>
+		<line break="no" n="2">
+			<c xml:id="L2C1">&#946;</c>
+			<c xml:id="L2C2">&#961;</c>
+			<c xml:id="L2C3">&#945;</c>
+		</line>
+		<line break="no" n="3">
+			<c xml:id="L3C1">&#963;</c>
+			<c xml:id="L3C2">&#8049;</c>
+			<c xml:id="L3C3">&#958;</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

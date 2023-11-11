@@ -1,0 +1,195 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079763</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079763</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(28)</height><width>(23)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2812094">Mainz</placeName><placeName type="findspot">{Weisenau}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079763_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD079763_2" sex="M"><persName><name type="nomen">Varius?</name><name type="cognomen">Priscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-24" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038472" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c806b129-e16f-4da1-b00c-9e590fa1a543/file/id/799344/file_version/name/small" /><graphic xml:id="F017122" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ddd1bd4c-2802-48c0-8689-70c0cb286377/file/id/776728/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente. Fundjahr: 1954-1956. Z. 1: Lesungs- und Erg&#228;nzungsvorschlag nach Nesselhauf - Lieb. Z. 2: als gentilnomen statt Varius auch [---]varius bzw. [---]uarius m&#246;glich. (B): St&#252;mpel: Lesung unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 187, Nr. 171.</bibl><bibl>B. St&#252;mpel, MZ 52, 1957, 113. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L0C3">N</c>
+					<c xml:id="L0C4">e</c>
+					<c xml:id="L0C5">r</c>
+				</supplied>
+				<c xml:id="L0C6">r</c>
+				<c xml:id="L0C7">v</c>
+				<c xml:id="L0C8">i</c>
+				<c xml:id="L0C9">o</c>
+				<c xml:id="L0C10">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C11">u</c>
+				<c xml:id="L0C12">m</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C14">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C15">i</c>
+				<c xml:id="L0C16">v</c>
+				<c xml:id="L0C17">i</c>
+				<c xml:id="L0C18">u</c>
+				<c xml:id="L0C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C21">R</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C22">o</c>
+				<c xml:id="L0C23">m</c>
+				<c xml:id="L0C24">a</c>
+				<c xml:id="L0C25">n</c>
+				<c xml:id="L0C26">o</c>
+				<c xml:id="L0C27">r</c>
+				<c xml:id="L0C28">u</c>
+				<c xml:id="L0C29">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C30"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C1">-</c>
+			<c xml:id="L1C2">-</c>
+			<c xml:id="L1C3">-</c>
+			<c xml:id="L1C4"> </c>
+			<c xml:id="L1C5">|</c>
+			<c xml:id="L1C6">(</c>
+			<c xml:id="L1C7">c</c>
+			<c xml:id="L1C8">e</c>
+			<c xml:id="L1C9">n</c>
+			<c xml:id="L1C10">t</c>
+			<c xml:id="L1C11">u</c>
+			<c xml:id="L1C12">r</c>
+			<c xml:id="L1C13">i</c>
+			<c xml:id="L1C14">a</c>
+			<c xml:id="L1C15">)</c>
+		</supplied>
+		<c xml:id="L1C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C17">V</c>
+				<c xml:id="L1C18">a</c>
+				<c xml:id="L1C19">r</c>
+				<c xml:id="L1C20">i</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C21"> </c>
+		<c xml:id="L1C22">P</c>
+		<c xml:id="L1C23">r</c>
+		<c xml:id="L1C24">i</c>
+		<c xml:id="L1C25">s</c>
+		<c xml:id="L1C26">c</c>
+		<c xml:id="L1C27">i</c>
+		<c xml:id="L1C28"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">I</c>
+		<c xml:id="L2C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C3">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C7">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C8">i</c>
+				<c xml:id="L2C9">t</c>
+				<c xml:id="L2C10">u</c>
+				<c xml:id="L2C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C13">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C14">s</c>
+				<c xml:id="L2C15">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

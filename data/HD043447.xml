@@ -1,0 +1,356 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Split (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043447</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043447</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(110)</height><width>(37)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190261">Split</placeName><placeName type="findspot">{Visoka}</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043447_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Calpurnius+</name><name type="cognomen">Maximus+</name></persName></person><person xml:id="HD043447_2" sex="W"><persName><name type="nomen">Calpurnia+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1890, 0010.</bibl><bibl>E. Hula, AEM 13, 1890, 97-98, Nr. 8; Zeichnung. - AE 1890.</bibl><bibl>CIL 03, 08736; Zeichnung.</bibl><bibl>D. Demicheli, Tusculum 9, 2016, 36-37, Nr. 2; Sl. 2.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">-</c>
+		<c xml:id="L1C3">-</c>
+		<c xml:id="L1C4">-</c>
+		<c xml:id="L1C5">-</c>
+		<c xml:id="L1C6">-</c>
+		<c xml:id="L1C7">-</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C8">]</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L2C1"> </c>
+		<c xml:id="L2C2">C</c>
+		<c xml:id="L2C3">a</c>
+		<supplied reason="lost">
+			<c xml:id="L2C4">l</c>
+		</supplied>
+		<c xml:id="L2C5">p</c>
+		<supplied reason="lost">
+			<c xml:id="L2C6">u</c>
+			<c xml:id="L2C7">r</c>
+			<c xml:id="L2C8">n</c>
+			<c xml:id="L2C9">i</c>
+			<c xml:id="L2C10">o</c>
+		</supplied>
+		<c xml:id="L2C11"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+			<c xml:id="L3C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C2">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C3">i</c>
+					<c xml:id="L3C4">l</c>
+					<c xml:id="L3C5">i</c>
+					<c xml:id="L3C6">o</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L3C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C8">T</c>
+				<c xml:id="L3C9">r</c>
+				<c xml:id="L3C10">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C11">m</c>
+				<c xml:id="L3C12">e</c>
+				<c xml:id="L3C13">n</c>
+				<c xml:id="L3C14">t</c>
+				<c xml:id="L3C15">i</c>
+				<c xml:id="L3C16">n</c>
+				<c xml:id="L3C17">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C18"> </c>
+		<c xml:id="L3C19">M</c>
+		<c xml:id="L3C20">a</c>
+		<supplied reason="lost">
+			<c xml:id="L3C21">x</c>
+			<c xml:id="L3C22">i</c>
+			<c xml:id="L3C23">m</c>
+			<c xml:id="L3C24">o</c>
+		</supplied>
+		<c xml:id="L3C25"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">p</c>
+			<c xml:id="L4C2">r</c>
+		</supplied>
+		<c xml:id="L4C3">a</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">f</c>
+		<supplied reason="lost">
+			<c xml:id="L4C6">e</c>
+		</supplied>
+		<c xml:id="L4C7">c</c>
+		<c xml:id="L4C8">t</c>
+		<c xml:id="L4C9">o</c>
+		<c xml:id="L4C10"> </c>
+		<supplied reason="lost">
+			<c xml:id="L4C11">c</c>
+			<c xml:id="L4C12">o</c>
+			<c xml:id="L4C13">h</c>
+			<c xml:id="L4C14">o</c>
+			<c xml:id="L4C15">r</c>
+		</supplied>
+	</line>
+	<line break="no" n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">t</c>
+			<c xml:id="L5C2">i</c>
+			<c xml:id="L5C3">s</c>
+			<c xml:id="L5C4"> </c>
+			<c xml:id="L5C5">I</c>
+		</supplied>
+		<c xml:id="L5C6"> </c>
+		<c xml:id="L5C7">L</c>
+		<supplied reason="lost">
+			<c xml:id="L5C8">u</c>
+		</supplied>
+		<c xml:id="L5C9">c</c>
+		<c xml:id="L5C10">e</c>
+		<c xml:id="L5C11">n</c>
+		<supplied reason="lost">
+			<c xml:id="L5C12">s</c>
+			<c xml:id="L5C13">i</c>
+			<c xml:id="L5C14">u</c>
+			<c xml:id="L5C15">m</c>
+		</supplied>
+		<c xml:id="L5C16"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<c xml:id="L6C1">p</c>
+			<c xml:id="L6C2">r</c>
+		</supplied>
+		<c xml:id="L6C3">a</c>
+		<c xml:id="L6C4">e</c>
+		<c xml:id="L6C5">f</c>
+		<supplied reason="lost">
+			<c xml:id="L6C6">e</c>
+		</supplied>
+		<c xml:id="L6C7">c</c>
+		<c xml:id="L6C8">t</c>
+		<c xml:id="L6C9">o</c>
+		<c xml:id="L6C10"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C11"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L7C1">c</c>
+			<c xml:id="L7C2">e</c>
+		</supplied>
+		<c xml:id="L7C3">n</c>
+		<c xml:id="L7C4">t</c>
+		<c xml:id="L7C5">u</c>
+		<c xml:id="L7C6">r</c>
+		<c xml:id="L7C7">i</c>
+		<supplied reason="lost">
+			<c xml:id="L7C8">o</c>
+		</supplied>
+		<c xml:id="L7C9">n</c>
+		<c xml:id="L7C10">i</c>
+		<c xml:id="L7C11"> </c>
+		<c xml:id="L7C12">l</c>
+		<c xml:id="L7C13">e</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L7C14">g</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C15">i</c>
+					<c xml:id="L7C16">o</c>
+					<c xml:id="L7C17">n</c>
+					<c xml:id="L7C18">i</c>
+					<c xml:id="L7C19">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C20"> </c>
+	</line>
+	<line n="8">
+		<expan>
+			<abbr>
+				<c xml:id="L8C1">a</c>
+				<c xml:id="L8C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C3">n</c>
+				<c xml:id="L8C4">o</c>
+				<c xml:id="L8C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C6"> </c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L8C7">X</c>
+			<c xml:id="L8C8">X</c>
+			<c xml:id="L8C9">X</c>
+			<c xml:id="L8C10">X</c>
+		</supplied>
+		<c xml:id="L8C11">V</c>
+		<c xml:id="L8C12"> </c>
+		<c xml:id="L8C13">m</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L8C14">e</c>
+					<c xml:id="L8C15">n</c>
+					<c xml:id="L8C16">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C17">e</c>
+					<c xml:id="L8C18">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L8C19"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L8C20"> </c>
+	</line>
+	<line n="9">
+		<c xml:id="L9C1">C</c>
+		<supplied reason="lost">
+			<c xml:id="L9C2">a</c>
+			<c xml:id="L9C3">l</c>
+			<c xml:id="L9C4">p</c>
+			<c xml:id="L9C5">u</c>
+			<c xml:id="L9C6">r</c>
+			<c xml:id="L9C7">n</c>
+		</supplied>
+		<c xml:id="L9C8">i</c>
+		<c xml:id="L9C9">a</c>
+		<c xml:id="L9C10"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L9C11"> </c>
+	</line>
+	<line n="10">
+		<supplied reason="lost">
+			<c xml:id="L10C1">m</c>
+			<c xml:id="L10C2">a</c>
+			<c xml:id="L10C3">r</c>
+			<c xml:id="L10C4">i</c>
+			<c xml:id="L10C5">t</c>
+			<c xml:id="L10C6">o</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 b
+		</supplied>
+		<c xml:id="L10C7">e</c>
+		<c xml:id="L10C8">n</c>
+		<supplied reason="lost">
+			<c xml:id="L10C9">e</c>
+			<c xml:id="L10C10"> </c>
+			<c xml:id="L10C11">m</c>
+			<c xml:id="L10C12">e</c>
+			<c xml:id="L10C13">r</c>
+			<c xml:id="L10C14">e</c>
+			<c xml:id="L10C15">n</c>
+			<c xml:id="L10C16">t</c>
+			<c xml:id="L10C17">i</c>
+		</supplied>
+		<c xml:id="L10C18"> </c>
+	</line>
+	<line n="11">
+		<supplied reason="lost">
+			<c xml:id="L11C1">e</c>
+			<c xml:id="L11C2">t</c>
+			<c xml:id="L11C3"> </c>
+			<c xml:id="L11C4">s</c>
+			<c xml:id="L11C5">i</c>
+		</supplied>
+		<c xml:id="L11C6">b</c>
+		<c xml:id="L11C7">i</c>
+		<c xml:id="L11C8"> </c>
+		<supplied reason="lost">
+			<c xml:id="L11C9">e</c>
+		</supplied>
+		<c xml:id="L11C10">t</c>
+		<c xml:id="L11C11"> </c>
+		<c xml:id="L11C12">f</c>
+		<c xml:id="L11C13">i</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L11C14">l</c>
+			<c xml:id="L11C15">i</c>
+			<c xml:id="L11C16">i</c>
+			<c xml:id="L11C17">s</c>
+		</supplied>
+		<supplied reason="lost">
+			<c xml:id="L11C18">l</c>
+			<c xml:id="L11C19">i</c>
+			<c xml:id="L11C20">i</c>
+			<c xml:id="L11C21">s</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,255 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049778</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049778</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(80)</height><width>57</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0097" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 97 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Sulzgasse 17}, Garten</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049778_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD049778_2" sex="M"><persName><name type="cognomen">Sagrus?</name></persName></person><person xml:id="HD049778_3" sex="M"><persName><name type="nomen">Murcius?</name><name type="cognomen">Murcus?</name></persName></person><person xml:id="HD049778_4" sex="M"><persName><name type="nomen">Gavius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-07" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019396" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/99b2d695-5469-4494-9730-ea25814b67c9/file/id/779468/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeile 1: [---] Sagri f. oder [---]s Agri f. Zeile 6 links unten noch der Rest des Bogens eines C oder G zu erkennen, Gavius ist jedoch aufgrund der Verbreitung wahrscheinlicher. (B): Z. 7: L&#337;rincz: [G]avius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1251.</bibl><bibl>C. Ga&#382;dac, CarnuntumJb 1996, 33-38; Abb. 1 (Foto u. Zeichnung); Abb. 2-6. - AE 1997.</bibl><bibl>E. Weber - F. Beutler-Kr&#228;nzl. R. Selinger - M. Pesditschek, in: H. Tauber (Hrsg.), Akten des 7. &#214;sterreichischen Althistorikertages. Mit einem Anhang: Annona epigraphica Austriaca 1993-1998 (Wien 2001) 81, Nr. 274.</bibl><bibl>B. L&#337;rincz, Die r&#246;mischen Hilfstruppen in Pannonien w&#228;hrend der Prinzipatszeit 1. Die Inschriften (Wien 2001) 303, Nr. 502. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C3">S</c>
+				<c xml:id="L1C4">a</c>
+				<c xml:id="L1C5">g</c>
+				<c xml:id="L1C6">r</c>
+				<c xml:id="L1C7">i</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L1C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C9">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C10">i</c>
+				<c xml:id="L1C11">l</c>
+				<c xml:id="L1C12">i</c>
+				<c xml:id="L1C13">u</c>
+				<c xml:id="L1C14">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C15"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">t</c>
+			<c xml:id="L2C2">u</c>
+			<c xml:id="L2C3">r</c>
+		</supplied>
+		<c xml:id="L2C4">m</c>
+		<c xml:id="L2C5">a</c>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">M</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">r</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">c</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C4">a</c>
+				<c xml:id="L3C5">l</c>
+				<c xml:id="L3C6">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C7">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">P</c>
+		<c xml:id="L3C10">a</c>
+		<c xml:id="L3C11">n</c>
+		<c xml:id="L3C12">n</c>
+	</line>
+	<line break="no" n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">o</c>
+				<c xml:id="L4C2">n</c>
+				<c xml:id="L4C3">i</c>
+				<c xml:id="L4C4">o</c>
+				<c xml:id="L4C5">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">u</c>
+				<c xml:id="L4C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C9">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L4C10">o</c>
+				<c xml:id="L4C11">r</c>
+				<c xml:id="L4C12">u</c>
+				<c xml:id="L4C13">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">X</c>
+		</supplied>
+		<c xml:id="L5C2">X</c>
+		<c xml:id="L5C3">V</c>
+		<c xml:id="L5C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C5">s</c>
+				<c xml:id="L5C6">t</c>
+				<c xml:id="L5C7">i</c>
+				<c xml:id="L5C8">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C9">e</c>
+				<c xml:id="L5C10">n</c>
+				<c xml:id="L5C11">d</c>
+				<c xml:id="L5C12">i</c>
+				<c xml:id="L5C13">o</c>
+				<c xml:id="L5C14">r</c>
+				<c xml:id="L5C15">u</c>
+				<c xml:id="L5C16">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C17"> </c>
+		<c xml:id="L5C18">I</c>
+		<c xml:id="L5C19">I</c>
+		<c xml:id="L5C20">I</c>
+		<c xml:id="L5C21">I</c>
+		<c xml:id="L5C22"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C2">i</c>
+				<c xml:id="L6C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C6">i</c>
+				<c xml:id="L6C7">t</c>
+				<c xml:id="L6C8">u</c>
+				<c xml:id="L6C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C11">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C12">s</c>
+				<c xml:id="L6C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C14"> </c>
+	</line>
+	<line n="7">
+		<c xml:id="L7C1">G</c>
+		<c xml:id="L7C2">a</c>
+		<c xml:id="L7C3">v</c>
+		<c xml:id="L7C4">i</c>
+		<c xml:id="L7C5">u</c>
+		<c xml:id="L7C6">s</c>
+		<c xml:id="L7C7"> </c>
+		<c xml:id="L7C8">h</c>
+		<c xml:id="L7C9">e</c>
+		<c xml:id="L7C10">r</c>
+		<c xml:id="L7C11">e</c>
+		<c xml:id="L7C12">s</c>
+		<c xml:id="L7C13"> </c>
+	</line>
+	<line n="8">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L8C1">p</c>
+					<c xml:id="L8C2">o</c>
+				</supplied>
+				<c xml:id="L8C3">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C4">u</c>
+			</ex>
+			<c xml:id="L8C5">i</c>
+			<c xml:id="L8C6">t</c>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

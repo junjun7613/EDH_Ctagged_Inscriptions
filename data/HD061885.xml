@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Pelva &amp;ndash; Livno (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061885</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061885</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197431">Pelva</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3196429">Livno</placeName><placeName type="findspot">{Li&#353;tani}</placeName><placeName type="region">Hercegbosanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061885_1" sex="M"><persName><name type="nomen">S(---)</name><name type="cognomen">Batun (= Bato?)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-09-14" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): CIL III 2762: ohne Zeilenf&#228;lle.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02762. (B)</bibl><bibl>CIL 03, 09845.</bibl><bibl>G. Alf&#246;ldy, Die Personennamen der r&#246;mischen Provinz Dalmatia (Heidelberg 1969) 164.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<abbr>
+			<c xml:id="L1C2">S</c>
+		</abbr>
+		<c xml:id="L1C3"> </c>
+		<c xml:id="L1C4">B</c>
+		<c xml:id="L1C5">a</c>
+		<c xml:id="L1C6">t</c>
+		<c xml:id="L1C7">u</c>
+		<c xml:id="L1C8">n</c>
+		<c xml:id="L1C9"> </c>
+		<note>sic</note>
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">m</c>
+				<c xml:id="L2C2">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C3">h</c>
+				<c xml:id="L2C4">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C5"> </c>
+		<c xml:id="L2C6">e</c>
+		<c xml:id="L2C7">t</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">m</c>
+		<c xml:id="L2C10">e</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">i</c>
+		<c xml:id="L3C2">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

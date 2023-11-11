@@ -1,0 +1,209 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Segida Augurina, bei &amp;ndash; El Motillo (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032246</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032246</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sevilla</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(12)</height><width>(12)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Segida Augurina, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1994"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">El Motillo</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032246_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-14" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 1: statt S auch B m&#246;glich. (B): Ord&#243;&#241;ez Agulla - S&#225;ez Fern&#225;ndez, AE 1997: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 05, 01316.</bibl><bibl>AE 1997, 0830. (B)</bibl><bibl>S. Ord&#243;&#241;ez Agulla - P. S&#225;ez Fern&#225;ndez, Habis 27, 1996, 103-104, Nr. 3; Foto. (B) - AE 1997.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">-</c>
+		<c xml:id="L1C3">-</c>
+		<c xml:id="L1C4">-</c>
+		<c xml:id="L1C5">-</c>
+		<c xml:id="L1C6">-</c>
+		<c xml:id="L1C7">-</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C8">]</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">S</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C2">-</c>
+			<c xml:id="L2C3">-</c>
+		</supplied>
+		<c xml:id="L2C4"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">O</c>
+		<c xml:id="L3C2">R</c>
+		<c xml:id="L3C3">I</c>
+		<c xml:id="L3C4"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L4C1">a</c>
+				</supplied>
+				<c xml:id="L4C2">n</c>
+				<c xml:id="L4C3">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C4">o</c>
+				<c xml:id="L4C5">r</c>
+				<c xml:id="L4C6">u</c>
+				<c xml:id="L4C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">X</c>
+		<c xml:id="L4C10">X</c>
+		<c xml:id="L4C11">X</c>
+		<c xml:id="L4C12">V</c>
+		<c xml:id="L4C13">I</c>
+		<c xml:id="L4C14">I</c>
+		<c xml:id="L4C15">I</c>
+		<c xml:id="L4C16">I</c>
+		<c xml:id="L4C17"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L5C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C2">h</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C3">i</c>
+					<c xml:id="L5C4">c</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C6">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C7">i</c>
+					<c xml:id="L5C8">t</c>
+					<c xml:id="L5C9">-</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C10"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C11">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C12">s</c>
+					<c xml:id="L5C13">t</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C14"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C15">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C16">i</c>
+					<c xml:id="L5C17">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L5C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C19">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C20">i</c>
+				<c xml:id="L5C21">b</c>
+				<c xml:id="L5C22">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C23"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C24">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C25">e</c>
+				<c xml:id="L5C26">r</c>
+				<c xml:id="L5C27">r</c>
+				<c xml:id="L5C28">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C29"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C30">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C31">e</c>
+				<c xml:id="L5C32">v</c>
+				<c xml:id="L5C33">i</c>
+				<c xml:id="L5C34">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,136 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vesontio (Civitas Sequanorum) &amp;ndash; Besan&#231;on (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080636</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080636</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Besan&#231;on, Mus. des Beaux Arts et d'Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>81</height><width>40</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177657">Vesontio (Civitas Sequanorum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1917"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3033123">Besan&#231;on</placeName><placeName type="findspot">{Bahnhof Besan&#231;on-Viotte}, Nekropole 'la Viotte'</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080636_1" sex="W"><persName><name type="cognomen">Biraca</name></persName></person><person xml:id="HD080636_2" sex="M"><persName><name type="cognomen">Sabinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030733" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6f93f953-1108-48e8-83de-c86446a77dd5/file/id/791490/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Rechteckstele mit eingeschriebenem Dreiecksgiebel. Oberhalb des Giebels Palmettenornamente. Im Giebelfeld Rosette. Material (Walter): pierre de Vergenne.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILTG 402.</bibl><bibl>&#201;. Esp&#233;randieu, Recueil g&#233;n&#233;ral des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 33, Nr. 5279; Foto.</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte arch&#233;ologique de la Gaule 25 et 90 (Paris 2003) 241; fig. 221.</bibl><bibl>H. Walter, La sculpture fun&#233;raire gallo-romaine en Franche-Comt&#233; (Paris 1974) 21-22, Nr. 2; pl. 1,2.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">B</c>
+		<c xml:id="L1C3">i</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">a</c>
+		<c xml:id="L1C6">c</c>
+		<c xml:id="L1C7">a</c>
+		<c xml:id="L1C8"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">S</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">b</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">n</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">f</c>
+		<c xml:id="L2C9">i</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">l</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">a</c>
+		<c xml:id="L3C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C5">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C6">i</c>
+				<c xml:id="L3C7">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C9">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C10">i</c>
+				<c xml:id="L3C11">t</c>
+				<c xml:id="L3C12">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C13"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">n</c>
+				<c xml:id="L4C3">n</c>
+				<c xml:id="L4C4">o</c>
+				<c xml:id="L4C5">r</c>
+				<c xml:id="L4C6">u</c>
+				<c xml:id="L4C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C8"> </c>
+		<c xml:id="L4C9">V</c>
+		<c xml:id="L4C10">I</c>
+		<c xml:id="L4C11">I</c>
+		<c xml:id="L4C12">I</c>
+		<c xml:id="L4C13">I</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

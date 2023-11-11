@@ -1,0 +1,199 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Diluntum &amp;ndash; Stolac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052721</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052721</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(63)</height><width>(21)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197247">Diluntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3189823">Stolac</placeName><placeName type="findspot" /><placeName type="region">Hercegova&#269;ko-neretvanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-01" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Imamovi&#263;: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13874.</bibl><bibl>E. Imamovi&#263;, Anti&#269;ki kultni i votivni spomenici na podru&#269;ju Bosne i Hercegovine (Sarajevo 1977) 472, Nr. 268. (B)</bibl><bibl>F. Fiala - C. Patsch, WMBH 3, 1895, 279; Fig. 104 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">A</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C2">I</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C3">R</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C4">I</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C5">K</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C6">-</c>
+		</supplied>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">N</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L2C2">C</c>
+		</expan>
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">O</c>
+		<c xml:id="L2C5">B</c>
+		<c xml:id="L2C6"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">d</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">a</c>
+		<c xml:id="L3C5">t</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1"> </c>
+		<c xml:id="L4C2">M</c>
+		<c xml:id="L4C3"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L5C1"> </c>
+			<c xml:id="L5C2">[</c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C3">c</c>
+					<c xml:id="L5C4">o</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C5">n</c>
+				</ex>
+				<abbr>
+					<c xml:id="L5C6">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C7">u</c>
+					<c xml:id="L5C8">l</c>
+					<c xml:id="L5C9">i</c>
+					<c xml:id="L5C10">b</c>
+					<c xml:id="L5C11">u</c>
+					<c xml:id="L5C12">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L5C13">]</c>
+		<c xml:id="L5C14"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L6C1">[</c>
+			<c xml:id="L6C2">V</c>
+			<c xml:id="L6C3">N</c>
+		</supplied>
+		<c xml:id="L6C4">]</c>
+		<c xml:id="L6C5"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C2">d</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L7C3">e</c>
+				<c xml:id="L7C4">c</c>
+				<c xml:id="L7C5">r</c>
+				<c xml:id="L7C6">e</c>
+				<c xml:id="L7C7">t</c>
+				<c xml:id="L7C8">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C10">d</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L7C11">e</c>
+				<c xml:id="L7C12">c</c>
+				<c xml:id="L7C13">u</c>
+				<c xml:id="L7C14">r</c>
+				<c xml:id="L7C15">i</c>
+				<c xml:id="L7C16">o</c>
+				<c xml:id="L7C17">n</c>
+				<c xml:id="L7C18">u</c>
+				<c xml:id="L7C19">m</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

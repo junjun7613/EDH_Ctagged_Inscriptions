@@ -1,0 +1,150 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Hildesheim (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081776</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081776</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/115">Silber</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/98981" /></origPlace><origDate><origDate notBefore-custom="-0027" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">27 BC - 14 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1868"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2904789">Hildesheim</placeName><placeName type="findspot">{Galgenberg}, Westhang</placeName><placeName type="region">Niedersachsen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081776_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Manlius*</name><name type="cognomen">Bocchus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-22" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrift auf den Gef&#228;&#223;fu&#223; gepunzt. Gef&#228;&#223; verschollen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 0962b.</bibl><bibl>M. Reuter, in: P. Henrich - C. Miks - J. Obmann - M. Wieland (Hrsg.), Non solum ... sed etiam, Festschrift f&#252;r Thomas Fischer zum 65. Geburtsgag (Rahden/Westf. 2015) 345-348; Abb. 3 (Zeichnung). - AE 2015.</bibl><bibl>K. HItzl - H. von Mangoldt - K. Nehmann - L. Petersen - N. Zwingman, in: M. Boetzkes - H. Stein (Hrsg.), Der Hildesheimer Silberfund. Original und Nachahmung. Vom R&#246;merschatz zum B&#252;rgerstolz (Hildesheim 1997) 61-62; Zeichnung. - AE 2015.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">c</c>
+				<c xml:id="L1C5">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">M</c>
+		<expan>
+			<ex>
+				<c xml:id="L1C8">a</c>
+				<c xml:id="L1C9">n</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C10">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C11">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C12"> </c>
+		<c xml:id="L1C13">B</c>
+		<c xml:id="L1C14">o</c>
+		<c xml:id="L1C15">c</c>
+		<expan>
+			<ex>
+				<c xml:id="L1C16">c</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C17">h</c>
+				<c xml:id="L1C18">i</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C20">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C21">o</c>
+				<c xml:id="L1C22">n</c>
+				<c xml:id="L1C23">d</c>
+				<c xml:id="L1C24">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C25"> </c>
+		<c xml:id="L1C26">I</c>
+		<c xml:id="L1C27"> </c>
+		<c xml:id="L1C28">|</c>
+		<c xml:id="L1C29">|</c>
+		<c xml:id="L1C30">(</c>
+		<c xml:id="L1C31">u</c>
+		<c xml:id="L1C32">n</c>
+		<c xml:id="L1C33">c</c>
+		<c xml:id="L1C34">i</c>
+		<c xml:id="L1C35">a</c>
+		<c xml:id="L1C36">s</c>
+		<c xml:id="L1C37">)</c>
+		<c xml:id="L1C38"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C39">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C40">c</c>
+				<c xml:id="L1C41">r</c>
+				<c xml:id="L1C42">i</c>
+				<c xml:id="L1C43">p</c>
+				<c xml:id="L1C44">u</c>
+				<c xml:id="L1C45">l</c>
+				<c xml:id="L1C46">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C47"> </c>
+		<c xml:id="L1C48">V</c>
+		<c xml:id="L1C49">I</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

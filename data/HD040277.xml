@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iader &amp;ndash; Zadar (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040277</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040277</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>89</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197312">Iader</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186952">Zadar</placeName><placeName type="findspot">Relja, {r&#246;mische Nekropole}</placeName><placeName type="region">Zadarska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040277_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Medulius</name><name type="cognomen">Ursio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-28" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033299" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c3685ff3-ec5d-4bce-974d-74525c6b1edf/file/id/794106/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrifttr&#228;ger: sogenannter Liburnischer Cippus. Hedera unterhalb der letzten Zeile. (B): Fadi&#263;: Z. 1: Medullo.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1388.</bibl><bibl>I. Fadi&#263;, Diadora 13, 1991, 201, Nr. 17; t. 5, 1. (B) - AE 1992.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">n</c>
+				<c xml:id="L1C6">t</c>
+				<c xml:id="L1C7">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C8"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">e</c>
+		<c xml:id="L2C3">d</c>
+		<c xml:id="L2C4">u</c>
+		<c xml:id="L2C5">l</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">o</c>
+		<c xml:id="L2C8"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">U</c>
+		<c xml:id="L3C2">r</c>
+		<c xml:id="L3C3">s</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">i</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

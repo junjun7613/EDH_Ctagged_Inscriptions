@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Seat inscription from Celamantia (= Kelamantia) &amp;ndash; I&#382;a (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020431</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020431</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kom&#225;rno, Festung, Bastion 6, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>53</height><width>63</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197337">Celamantia (= Kelamantia)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3059760">I&#382;a</placeName><placeName type="findspot">Lager, {S&#252;dwestturm}, bei, sekund&#228;r verwendet</placeName><placeName type="region">Nitriansky kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>seat inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020431_1" sex="W"><persName><name type="cognomen">Dionisya (= Dionysia)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die &#228;ltere Inschrift stammt wohl aus einer Erstverwendung im Amphitheater von Brigetio. Nach ihrer Eradierung wurde in der ersten H&#228;lfte des 4. Jh.(?) an ihrer Stelle die Grabinschrift angebracht. Die angegebene Buchstabenh&#246;he betrifft beide Inschriften. (B): RIU 0632; Harl - L&#337;rincz: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0624.</bibl><bibl>AE 1980, 0708.</bibl><bibl>AE 2010, 1255.</bibl><bibl>RIU 0632; Abb. 632 (Foto u. Zeichnung). (B)</bibl><bibl>A. M&#243;csy, AArchSlov 28, 1977, 399-402; Zeichnung. - AE 1977; AE 1980.</bibl><bibl>I. Piso, ACD 46, 2010, 71-77. - AE 2010.</bibl><bibl>F. Harl - B. L&#337;rincz, F&#252;hrer zum r&#246;mischen Lapidarium in Bastion VI der Festung Kom&#225;rno (Kom&#225;rno &#8211; Wien 2002) 42-43; Foto u. Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<del rend="erasure">
+				<c xml:id="L1C2">F</c>
+				<c xml:id="L1C3">o</c>
+				<c xml:id="L1C4">r</c>
+				<c xml:id="L1C5">e</c>
+				<c xml:id="L1C6">n</c>
+			</del>
+		</line>
+		<line break="no" n="2">
+			<del rend="erasure">
+				<c xml:id="L2C1">s</c>
+				<c xml:id="L2C2">i</c>
+				<c xml:id="L2C3">u</c>
+				<c xml:id="L2C4">m</c>
+			</del>
+			<c xml:id="L2C5"> </c>
+		</line>
+		<line n="3">
+			<del rend="erasure">
+				<c xml:id="L3C1">l</c>
+				<supplied reason="lost">o</supplied>
+				<expan>
+					<abbr>c</abbr>
+					<ex>a</ex>
+				</expan>
+				 
+				<expan>
+					<abbr>p</abbr>
+					<ex>edes</ex>
+				</expan>
+				 XV
+			</del>
+			<c xml:id="L3C2"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">i</c>
+			<c xml:id="L1C4">o</c>
+			<c xml:id="L1C5">n</c>
+			<c xml:id="L1C6">i</c>
+			<c xml:id="L1C7">s</c>
+			<c xml:id="L1C8">y</c>
+			<c xml:id="L1C9">a</c>
+			<c xml:id="L1C10"> </c>
+			<note>sic</note>
+			<c xml:id="L1C11"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">v</c>
+			<c xml:id="L2C2">i</c>
+			<c xml:id="L2C3">d</c>
+			<c xml:id="L2C4">u</c>
+			<c xml:id="L2C5">a</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

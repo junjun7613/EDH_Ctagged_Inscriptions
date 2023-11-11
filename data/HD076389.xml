@@ -1,0 +1,218 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Andernach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076389</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076389</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>(35)</height><width>37</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0089" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">89 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2891830">Andernach</placeName><placeName type="findspot">Kell, Bad T&#246;nisstein, {Mineralbrunnen}, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076389_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-05-27" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017489" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0b447693-afe3-422f-84d8-2febf9e7e3dd/file/id/777098/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment eines Altars oder einer Basis / Statuenbasis. Z. 2 (Anfang): Offenbar hatte der Steinmetz P F zun&#228;chst irrt&#252;mlich ausgelassen und den Text hinter R bereits mit ET fortgesetzt; um den Fehler zu korrigieren, machte er aus dem T eine ET-Ligatur; die senkrechte Haste des E davor zog er weiter nach unten aus, so dass heute der Eindruck einer EF-Ligatur entsteht, die aber vermutlich mit Farbe als PF-Ligatur nachgezogen wurde. (B): Klein; AE 1888: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1888, 0074. (B)</bibl><bibl>CIL 13, 07728.</bibl><bibl>J. Klein, BJ 84, 1887, 61-63. (B) - AE 1888.</bibl><bibl>K. Matijevi&#263;, R&#246;mische und fr&#252;hchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und &#246;stlicher Eifel (Rahden (Westf.) 2010) 34-37, Nr. 4; Abb. 7.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 210, Nr. 554.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L1C1"> </c>
+		<c xml:id="L1C2">c</c>
+		<c xml:id="L1C3">l</c>
+		<c xml:id="L1C4">a</c>
+		<c xml:id="L1C5">s</c>
+		<c xml:id="L1C6">s</c>
+		<c xml:id="L1C7">i</c>
+		<supplied reason="lost">
+			<c xml:id="L1C8">s</c>
+			<c xml:id="L1C9"> </c>
+			<c xml:id="L1C10">G</c>
+			<c xml:id="L1C11">e</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">m</c>
+				<c xml:id="L2C3">a</c>
+				<c xml:id="L2C4">n</c>
+				<c xml:id="L2C5">i</c>
+				<c xml:id="L2C6">c</c>
+				<c xml:id="L2C7">a</c>
+				<c xml:id="L2C8">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C9"> </c>
+		<c xml:id="L2C10">&amp;</c>
+		<c xml:id="L2C11">l</c>
+		<c xml:id="L2C12">t</c>
+		<c xml:id="L2C13">;</c>
+		<c xml:id="L2C14">p</c>
+		<c xml:id="L2C15">=</c>
+		<c xml:id="L2C16">F</c>
+		<c xml:id="L2C17">&amp;</c>
+		<c xml:id="L2C18">g</c>
+		<c xml:id="L2C19">t</c>
+		<c xml:id="L2C20">;</c>
+		<c xml:id="L2C21">(</c>
+		<c xml:id="L2C22">i</c>
+		<c xml:id="L2C23">a</c>
+		<c xml:id="L2C24">e</c>
+		<c xml:id="L2C25">)</c>
+		<c xml:id="L2C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C27">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C28">i</c>
+				<c xml:id="L2C29">d</c>
+				<c xml:id="L2C30">e</c>
+				<c xml:id="L2C31">l</c>
+				<c xml:id="L2C32">i</c>
+				<c xml:id="L2C33">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C34"> </c>
+		<c xml:id="L2C35">e</c>
+		<c xml:id="L2C36">t</c>
+		<c xml:id="L2C37"> </c>
+		<c xml:id="L2C38">c</c>
+		<c xml:id="L2C39">o</c>
+		<c xml:id="L2C40">m</c>
+		<c xml:id="L2C41">m</c>
+		<supplied reason="lost">
+			<c xml:id="L2C42">i</c>
+		</supplied>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">l</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4">o</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">e</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">c</c>
+		<c xml:id="L3C10">l</c>
+		<c xml:id="L3C11">a</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">s</c>
+		<c xml:id="L4C2">s</c>
+		<c xml:id="L4C3">i</c>
+		<c xml:id="L4C4">s</c>
+		<c xml:id="L4C5"> </c>
+		<c xml:id="L4C6">e</c>
+		<c xml:id="L4C7">i</c>
+		<c xml:id="L4C8">u</c>
+		<c xml:id="L4C9">s</c>
+		<c xml:id="L4C10">d</c>
+		<c xml:id="L4C11">e</c>
+		<c xml:id="L4C12">m</c>
+		<c xml:id="L4C13"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">i</c>
+				<c xml:id="L5C3">b</c>
+				<c xml:id="L5C4">e</c>
+				<c xml:id="L5C5">n</c>
+				<c xml:id="L5C6">t</c>
+				<c xml:id="L5C7">e</c>
+				<c xml:id="L5C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C10">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C11">a</c>
+				<c xml:id="L5C12">e</c>
+				<c xml:id="L5C13">t</c>
+				<c xml:id="L5C14">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C16">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C17">e</c>
+				<c xml:id="L5C18">r</c>
+				<c xml:id="L5C19">i</c>
+				<c xml:id="L5C20">t</c>
+				<c xml:id="L5C21">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C22"> </c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

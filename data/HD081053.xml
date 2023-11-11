@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Hofheim/Taunus (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081053</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081053</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109047" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2902533">Hofheim/Taunus</placeName><placeName type="findspot">{Keller B}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-06" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Dolium. Schreibtechnik: geritzt / Graffito (vor dem Brand).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Wolff, in: Der obergermanisch-r&#228;tische Limes des R&#246;merreiches B, II, 3, 29 (Lieferung 7) (Heidelberg 1915) 30, Nr. 2; Taf. 6, 48 (Zeichnung).</bibl><bibl>CIL 13, 10003, 16.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">K</c>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C5">e</c>
+				<c xml:id="L1C6">n</c>
+				<c xml:id="L1C7">d</c>
+				<c xml:id="L1C8">i</c>
+				<c xml:id="L1C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">N</c>
+				<c xml:id="L1C12">o</c>
+				<c xml:id="L1C13">v</c>
+				<c xml:id="L1C14">e</c>
+				<c xml:id="L1C15">m</c>
+				<c xml:id="L1C16">b</c>
+				<c xml:id="L1C17">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C18">i</c>
+				<c xml:id="L1C19">b</c>
+				<c xml:id="L1C20">u</c>
+				<c xml:id="L1C21">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C23">B</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

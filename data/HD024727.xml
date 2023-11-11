@@ -1,0 +1,236 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024727</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024727</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>59</height><width>38</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1923"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Zivilstadt, {Amphitheater II}, sekund&#228;r verwendet</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024727_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18712"><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Florentinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019678" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/38dd67b3-29d7-44ec-9de7-7c48275f3380/file/id/779750/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeile 1 befindet sich auf der corona, dort rechts neben dem N noch eine vertikale Haste deutlich zu erkennen, I oder T? Nach Egger m&#246;glicherweise Reste einer Konsuldatierung. (B): AE 1929; Vorbeck: Zeile 1 fehlt. (B): Humer: Z. 1: [Praese]nt(e) [et Rufino co(n)sulibus)?]. (B): Kremer: Z. 1: [Deae?] Ne[mesi?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0226. (B)</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (2. Aufl. Wien 1980) 26-27, Nr. 101. (B)</bibl><bibl>R. Egger, RL&#338; 16, 1926, 125, Nr. 59; Abb. 44. (B) - AE 1929.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 19-20, Nr. 25.</bibl><bibl>F. Humer (Hrsg.), Marc Aurel und Carnuntum (Horn 2004) 166, Nr. 110; Abb. 202. (B)</bibl><bibl>G. Kremer, G&#246;tterdarstellungen, Kult- und Weihedenkm&#228;ler aus Carnuntum, CSIR &#214;sterreich Carnuntum (Suppl.) 1 (Wien 2012) 140-141, Nr. 267; Taf. 73, 267.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C2">N</c>
+			<c xml:id="L1C3">T</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C4"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">F</c>
+					<c xml:id="L1C3">o</c>
+					<c xml:id="L1C4">r</c>
+					<c xml:id="L1C5">t</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C6">u</c>
+					<c xml:id="L1C7">n</c>
+					<c xml:id="L1C8">a</c>
+					<c xml:id="L1C9">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C10"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C11">K</c>
+					<c xml:id="L1C12">a</c>
+					<c xml:id="L1C13">r</c>
+					<c xml:id="L1C14">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C15">u</c>
+					<c xml:id="L1C16">n</c>
+					<c xml:id="L1C17">t</c>
+					<c xml:id="L1C18">i</c>
+					<c xml:id="L1C19">n</c>
+					<c xml:id="L1C20">a</c>
+					<c xml:id="L1C21">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C22"> </c>
+		</line>
+		<line n="2">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C2">a</c>
+					<c xml:id="L2C3">i</c>
+					<c xml:id="L2C4">u</c>
+					<c xml:id="L2C5">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C6"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C7">I</c>
+					<c xml:id="L2C8">u</c>
+					<c xml:id="L2C9">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C10">i</c>
+					<c xml:id="L2C11">u</c>
+					<c xml:id="L2C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C13"> </c>
+			<c xml:id="L2C14">F</c>
+			<c xml:id="L2C15">l</c>
+			<c xml:id="L2C16">o</c>
+		</line>
+		<line break="no" n="3">
+			<expan>
+				<abbr>
+					<c xml:id="L3C1">r</c>
+					<c xml:id="L3C2">e</c>
+					<c xml:id="L3C3">n</c>
+					<c xml:id="L3C4">t</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C5">i</c>
+					<c xml:id="L3C6">n</c>
+					<c xml:id="L3C7">u</c>
+					<c xml:id="L3C8">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C9"> </c>
+			<c xml:id="L3C10">a</c>
+			<c xml:id="L3C11">n</c>
+		</line>
+		<line break="no" n="4">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">t</c>
+					<c xml:id="L4C2">i</c>
+					<c xml:id="L4C3">s</c>
+					<c xml:id="L4C4">t</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C5">e</c>
+					<c xml:id="L4C6">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C7"> </c>
+			<c xml:id="L4C8">d</c>
+			<c xml:id="L4C9">e</c>
+			<c xml:id="L4C10">a</c>
+			<c xml:id="L4C11">e</c>
+			<c xml:id="L4C12"> </c>
+		</line>
+		<line n="5">
+			<expan>
+				<abbr>
+					<c xml:id="L5C1">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C2">o</c>
+					<c xml:id="L5C3">t</c>
+					<c xml:id="L5C4">u</c>
+					<c xml:id="L5C5">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C6"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C7">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C8">o</c>
+					<c xml:id="L5C9">l</c>
+					<c xml:id="L5C10">v</c>
+					<c xml:id="L5C11">i</c>
+					<c xml:id="L5C12">t</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C13"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C14">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C15">a</c>
+					<c xml:id="L5C16">e</c>
+					<c xml:id="L5C17">t</c>
+					<c xml:id="L5C18">u</c>
+					<c xml:id="L5C19">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C21">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C22">i</c>
+					<c xml:id="L5C23">b</c>
+					<c xml:id="L5C24">e</c>
+					<c xml:id="L5C25">n</c>
+					<c xml:id="L5C26">s</c>
+				</ex>
+			</expan>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

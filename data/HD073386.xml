@@ -1,0 +1,224 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073386</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073386</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(30)</height><width>88</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0039" notAfter-custom="0063" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">39 AD - 63 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1850"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Deutsch-Altenburg</placeName><placeName type="findspot">{P&#225;lffy'scher Park}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073386_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD073386_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Mercusenus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019052" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/67a19787-7472-48a4-872c-dc96b0c49d0e/file/id/779124/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unregelm&#228;&#223;ig ausgef&#252;hrte Inschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11228.</bibl><bibl>E. Vorbeck, Milit&#228;rinschriften aus Carnuntum (2. Aufl., Wien 1980) 91, Nr. 243.</bibl><bibl>M. Mosser, Die Steindenkm&#228;ler der legio XV Apollinaris (Wien 2003) 234, Nr. 131; Taf. 22, 131.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">l</c>
+				<c xml:id="L1C2">e</c>
+				<c xml:id="L1C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">o</c>
+				<c xml:id="L1C6">n</c>
+				<c xml:id="L1C7">i</c>
+				<c xml:id="L1C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">X</c>
+		<c xml:id="L1C11">V</c>
+		<c xml:id="L1C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C13">A</c>
+				<c xml:id="L1C14">p</c>
+				<c xml:id="L1C15">o</c>
+				<c xml:id="L1C16">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C17">l</c>
+				<c xml:id="L1C18">i</c>
+				<c xml:id="L1C19">n</c>
+				<c xml:id="L1C20">a</c>
+				<c xml:id="L1C21">r</c>
+				<c xml:id="L1C22">i</c>
+				<c xml:id="L1C23">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C24"> </c>
+		<c xml:id="L1C25">a</c>
+		<c xml:id="L1C26">n</c>
+		<c xml:id="L1C27">n</c>
+		<supplied reason="lost">
+			<c xml:id="L1C28">o</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">r</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">m</c>
+		<c xml:id="L2C4"> </c>
+		<c xml:id="L2C5">X</c>
+		<c xml:id="L2C6">L</c>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">s</c>
+		<c xml:id="L2C9">t</c>
+		<c xml:id="L2C10">i</c>
+		<c xml:id="L2C11">p</c>
+		<c xml:id="L2C12">e</c>
+		<c xml:id="L2C13">n</c>
+		<c xml:id="L2C14">d</c>
+		<c xml:id="L2C15">i</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">o</c>
+		<c xml:id="L3C2">r</c>
+		<c xml:id="L3C3">u</c>
+		<c xml:id="L3C4">m</c>
+		<c xml:id="L3C5"> </c>
+		<c xml:id="L3C6">X</c>
+		<c xml:id="L3C7">I</c>
+		<c xml:id="L3C8">I</c>
+		<c xml:id="L3C9">X</c>
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">i</c>
+				<c xml:id="L4C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">i</c>
+				<c xml:id="L4C7">t</c>
+				<c xml:id="L4C8">u</c>
+				<c xml:id="L4C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C11">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C12">s</c>
+				<c xml:id="L4C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">u</c>
+				<c xml:id="L5C3">c</c>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">u</c>
+				<c xml:id="L5C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C7"> </c>
+		<c xml:id="L5C8">M</c>
+		<c xml:id="L5C9">e</c>
+		<c xml:id="L5C10">r</c>
+		<c xml:id="L5C11">c</c>
+		<c xml:id="L5C12">u</c>
+		<c xml:id="L5C13">s</c>
+		<c xml:id="L5C14">e</c>
+		<c xml:id="L5C15">n</c>
+		<c xml:id="L5C16">u</c>
+		<c xml:id="L5C17">s</c>
+		<c xml:id="L5C18"> </c>
+		<c xml:id="L5C19">f</c>
+		<c xml:id="L5C20">r</c>
+		<c xml:id="L5C21">a</c>
+		<c xml:id="L5C22">t</c>
+		<c xml:id="L5C23">r</c>
+		<c xml:id="L5C24">i</c>
+		<c xml:id="L5C25"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C26">p</c>
+				<c xml:id="L5C27">o</c>
+				<c xml:id="L5C28">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C29">u</c>
+				<c xml:id="L5C30">i</c>
+				<c xml:id="L5C31">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Olympia &amp;ndash; Olympia (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064271</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064271</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>25</height><width>(71)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.6-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/570531">Olympia</placeName></origPlace><origDate><origDate notBefore-custom="-0040" notAfter-custom="-0038" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">40 BC - 38 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1877"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/264637">Olympia</placeName><placeName type="findspot" /><placeName type="region">Stere&#225; Ell&#225;da</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064271_1" sex="M"><persName><name type="praenomen">M.</name><name type="cognomen">Agrippa+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-09" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus sechs aneinander passenden Fragmenten und einem kleinen allein stehenden Fragment, dessen Ma&#223;e, wie folgt, sind: H&#246;he -15; Breite: -19.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>W. Dittenberger - K. Purgold, Inschriften von Olympia (Berlin 1896) 775-776, Nr. 913; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">a</c>
+				<c xml:id="L1C4">r</c>
+				<c xml:id="L1C5">c</c>
+				<c xml:id="L1C6">u</c>
+				<c xml:id="L1C7">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C8"> </c>
+		<supplied reason="lost">
+			<c xml:id="L1C9">A</c>
+			<c xml:id="L1C10">g</c>
+		</supplied>
+		<c xml:id="L1C11">r</c>
+		<c xml:id="L1C12">i</c>
+		<c xml:id="L1C13">p</c>
+		<c xml:id="L1C14">p</c>
+		<c xml:id="L1C15">a</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

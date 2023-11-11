@@ -1,0 +1,206 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004727</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004727</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Callisto, Catac.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(58)</height><width>(37)</width><depth>(17)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Callisto, Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004727_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]cius</name><name type="cognomen">Velox+</name></persName></person><person xml:id="HD004727_2"><persName><name type="cognomen">An[---]</name></persName></person><person xml:id="HD004727_3"><persName><name type="nomen">Licinia Cornelia+ Volusia</name><name type="cognomen">Torquata+</name></persName></person><person xml:id="HD004727_4"><persName><name type="praenomen">L.</name><name type="nomen">Volusius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-27" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010833" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6705ee79-7d68-4b8c-9d7d-2dcaef4eaaa0/file/id/770353/file_version/name/small" /><graphic xml:id="F039728" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/70394401-a132-4a08-adf5-9755c78fc375/file/id/800607/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B):Buonocore: Z. 2: am[ico]; AE 1978: Z. 3: Corn[eliae] M. f.; Ferrua, AE 1978: Z. 4: To[rquatae]; Z. 5 (Ende): Sep[timini].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0017. (B)</bibl><bibl>A. Ferrua, RAC 54, 1978, 224. (B) - AE 1978.</bibl><bibl>M. Buonocore, Schiavi e liberti dei Volusi Saturnini (Roma 1984) 141, Nr. 112; tav. 9, 25.</bibl><bibl>CIL 06, 41079; Foto.</bibl><bibl>PIR (2. Aufl.) L 263.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C2">]</c>
+		<c xml:id="L0C3"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">c</c>
+		<c xml:id="L1C2">i</c>
+		<c xml:id="L1C3">o</c>
+		<c xml:id="L1C4"> </c>
+		<c xml:id="L1C5">V</c>
+		<c xml:id="L1C6">e</c>
+		<c xml:id="L1C7">l</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C8">o</c>
+			<c xml:id="L1C9">c</c>
+			<c xml:id="L1C10">i</c>
+			<c xml:id="L1C11"> </c>
+			<c xml:id="L1C12">f</c>
+			<c xml:id="L1C13">i</c>
+			<c xml:id="L1C14">l</c>
+			<c xml:id="L1C15">(</c>
+			<c xml:id="L1C16">i</c>
+			<c xml:id="L1C17">o</c>
+			<c xml:id="L1C18">)</c>
+		</supplied>
+		<c xml:id="L1C19"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">d</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">c</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">s</c>
+		<c xml:id="L2C7">s</c>
+		<c xml:id="L2C8">i</c>
+		<c xml:id="L2C9">m</c>
+		<c xml:id="L2C10">o</c>
+		<c xml:id="L2C11"> </c>
+		<c xml:id="L2C12">A</c>
+		<c xml:id="L2C13">n</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C14"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">L</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7">a</c>
+		<c xml:id="L3C8">e</c>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">C</c>
+		<c xml:id="L3C11">o</c>
+		<c xml:id="L3C12">r</c>
+		<c xml:id="L3C13">n</c>
+		<supplied reason="lost">
+			<c xml:id="L3C14">e</c>
+			<c xml:id="L3C15">l</c>
+			<c xml:id="L3C16">i</c>
+			<c xml:id="L3C17">a</c>
+			<c xml:id="L3C18">e</c>
+			<c xml:id="L3C19"> </c>
+			<expan>
+				<abbr>M</abbr>
+				<ex>arci</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>f</abbr>
+				<ex>iliae</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L3C20"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">V</c>
+		<c xml:id="L4C2">o</c>
+		<c xml:id="L4C3">l</c>
+		<c xml:id="L4C4">u</c>
+		<c xml:id="L4C5">s</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">a</c>
+		<c xml:id="L4C8">e</c>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">T</c>
+		<c xml:id="L4C11">o</c>
+		<c xml:id="L4C12">r</c>
+		<supplied reason="lost">
+			<c xml:id="L4C13">q</c>
+			<c xml:id="L4C14">u</c>
+			<c xml:id="L4C15">a</c>
+			<c xml:id="L4C16">t</c>
+			<c xml:id="L4C17">a</c>
+			<c xml:id="L4C18">e</c>
+		</supplied>
+		<c xml:id="L4C19"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C2">u</c>
+				<c xml:id="L5C3">c</c>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C6"> </c>
+		<c xml:id="L5C7">V</c>
+		<c xml:id="L5C8">o</c>
+		<c xml:id="L5C9">l</c>
+		<c xml:id="L5C10">u</c>
+		<c xml:id="L5C11">s</c>
+		<c xml:id="L5C12">i</c>
+		<c xml:id="L5C13"> </c>
+		<c xml:id="L5C14">s</c>
+		<c xml:id="L5C15">e</c>
+		<c xml:id="L5C16">r</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L5C17">v</c>
+			<c xml:id="L5C18">a</c>
+			<c xml:id="L5C19"> </c>
+			<c xml:id="L5C20">p</c>
+			<c xml:id="L5C21">o</c>
+			<c xml:id="L5C22">s</c>
+			<c xml:id="L5C23">u</c>
+			<c xml:id="L5C24">i</c>
+			<c xml:id="L5C25">t</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

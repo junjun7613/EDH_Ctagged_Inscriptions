@@ -1,0 +1,142 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Raetinium? &amp;ndash; Biha&#263; (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033274</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033274</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/76">Kalkmergel / Mergel</material><dimensions unit="cm"><height>70</height><width>(40)</width><depth>75</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197466">Raetinium?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1956"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3200429">Biha&#263;</placeName><placeName type="findspot">Golubi&#263;, {katholischer Friedhof}, Crkvina, fr&#252;hchristliche Kirche, sekund&#228;r verwendet</placeName><placeName type="region">Unsko-sanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033274_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]pho[---]?</name><name type="cognomen">[---]pho[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-10" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschriftfeld ehemals von 2 S&#228;ulen gerahmt. (B): ILJug: Z. 3: [--- an]norum XXV.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0223. (B)</bibl><bibl>I. &#268;remo&#353;nik, GlasSarajevo 12, 1957, 163, Nr. 2; sl. 1 (Zeichnung).</bibl><bibl>B. Raunig, Starinar 23, 1972. 39-42. 49-50; t. 5, 15.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">P</c>
+		<c xml:id="L1C3">H</c>
+		<c xml:id="L1C4">O</c>
+	</line>
+	<line break="no" n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">E</c>
+		<c xml:id="L2C3">V</c>
+		<c xml:id="L2C4"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L3C1">a</c>
+			<c xml:id="L3C2">n</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L3C3">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">o</c>
+				<c xml:id="L3C5">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C7">L</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L3C8">X</c>
+			<c xml:id="L3C9">X</c>
+			<c xml:id="L3C10">V</c>
+		</expan>
+		<c xml:id="L3C11"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">h</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C2">i</c>
+					<c xml:id="L4C3">c</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C4"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C5">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C6">i</c>
+					<c xml:id="L4C7">t</c>
+					<c xml:id="L4C8">-</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L4C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C10">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C11">s</c>
+				<c xml:id="L4C12">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

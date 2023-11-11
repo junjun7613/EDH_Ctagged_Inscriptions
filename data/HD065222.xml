@@ -1,0 +1,174 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Philippopolis &amp;ndash; Plovdiv (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065222</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065222</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(136)</height><width>72</width><depth>72</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216927">Philippopolis</placeName></origPlace><origDate><origDate when-custom="0214" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">214 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="findspot">{Theater, orchestra}</placeName><placeName type="region">Plovdiv</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065222_1" sex="M"><persName><name type="cognomen">&#931;&#949;&#946;&#945;&#950;&#953;&#945;&#957;&#8057;&#962;+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Entweder &#931;&#949;&#946;&#945;&#950;[&#953;&#945;|&#957;&#959;&#8166;] oder &#931;&#949;&#946;&#945;&#950;[&#953;&#945;|&#957;&#8056;&#957;] in Z. 1-2.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1383. (B)</bibl><bibl>N. Sharankov, ArchBulg 9, 2, 2005, 63-64, Nr. 3a; Fig. 8. - AE 2005.</bibl><bibl>SEG 55, 0757. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">&#957;</c>
+		<c xml:id="L1C3"> </c>
+		<c xml:id="L1C4">&#931;</c>
+		<c xml:id="L1C5">&#949;</c>
+		<c xml:id="L1C6">&#946;</c>
+		<c xml:id="L1C7">&#945;</c>
+		<c xml:id="L1C8">&#950;</c>
+		<supplied reason="lost">
+			<c xml:id="L1C9">&#953;</c>
+			<c xml:id="L1C10">&#945;</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L2C1"> </c>
+			<c xml:id="L2C2">&#952;</c>
+			<c xml:id="L2C3">&#961;</c>
+			<c xml:id="L2C4">&#8115;</c>
+			<c xml:id="L2C5">&#954;</c>
+			<c xml:id="L2C6">&#8049;</c>
+			<c xml:id="L2C7">&#961;</c>
+		</supplied>
+		<c xml:id="L2C8">&#967;</c>
+		<c xml:id="L2C9">&#951;</c>
+		<c xml:id="L2C10">&#957;</c>
+		<c xml:id="L2C11"> </c>
+		<c xml:id="L2C12">&#954;</c>
+		<c xml:id="L2C13">&#945;</c>
+		<c xml:id="L2C14">&#8054;</c>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">&#7936;</c>
+		<c xml:id="L2C17">&#947;</c>
+		<c xml:id="L2C18">&#969;</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">&#957;</c>
+		<c xml:id="L3C2">&#959;</c>
+		<c xml:id="L3C3">&#952;</c>
+		<c xml:id="L3C4">&#8051;</c>
+		<c xml:id="L3C5">&#964;</c>
+		<c xml:id="L3C6">&#951;</c>
+		<c xml:id="L3C7">&#957;</c>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">&#964;</c>
+		<c xml:id="L3C10">&#959;</c>
+		<c xml:id="L3C11">&#8166;</c>
+		<c xml:id="L3C12"> </c>
+		<c xml:id="L3C13">&#954;</c>
+		<c xml:id="L3C14">&#959;</c>
+		<c xml:id="L3C15">&#953;</c>
+		<c xml:id="L3C16">&#957;</c>
+		<c xml:id="L3C17">&#959;</c>
+		<c xml:id="L3C18">&#8166;</c>
+		<c xml:id="L3C19"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">&#964;</c>
+		</supplied>
+		<c xml:id="L4C2">&#8182;</c>
+		<c xml:id="L4C3">&#803;</c>
+		<c xml:id="L4C4">&#957;</c>
+		<c xml:id="L4C5"> </c>
+		<c xml:id="L4C6">&#920;</c>
+		<c xml:id="L4C7">&#961;</c>
+		<c xml:id="L4C8">&#8115;</c>
+		<c xml:id="L4C9">&#954;</c>
+		<c xml:id="L4C10">&#8182;</c>
+		<c xml:id="L4C11">&#957;</c>
+		<c xml:id="L4C12"> </c>
+		<c xml:id="L4C13">&#960;</c>
+		<c xml:id="L4C14">&#949;</c>
+		<c xml:id="L4C15">&#957;</c>
+		<c xml:id="L4C16">&#964;</c>
+		<c xml:id="L4C17">&#945;</c>
+		<c xml:id="L4C18">&#949;</c>
+		<c xml:id="L4C19">&#964;</c>
+		<c xml:id="L4C20">&#951;</c>
+		<c xml:id="L4C21">&#961;</c>
+		<c xml:id="L4C22">&#953;</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">&#954;</c>
+		<c xml:id="L5C2">&#959;</c>
+		<c xml:id="L5C3">&#8166;</c>
+		<c xml:id="L5C4"> </c>
+		<c xml:id="L5C5">&#7936;</c>
+		<c xml:id="L5C6">&#947;</c>
+		<c xml:id="L5C7">&#8182;</c>
+		<c xml:id="L5C8">&#957;</c>
+		<c xml:id="L5C9">&#959;</c>
+		<c xml:id="L5C10">&#962;</c>
+		<c xml:id="L5C11"> </c>
+		<c xml:id="L5C12">&#7936;</c>
+		<c xml:id="L5C13">&#957;</c>
+		<c xml:id="L5C14">&#8051;</c>
+		<c xml:id="L5C15">&#963;</c>
+		<c xml:id="L5C16">&#964;</c>
+		<c xml:id="L5C17">&#951;</c>
+		<c xml:id="L5C18">&#963;</c>
+		<c xml:id="L5C19">&#949;</c>
+		<c xml:id="L5C20">&#957;</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

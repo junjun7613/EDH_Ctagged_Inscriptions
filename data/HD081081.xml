@@ -1,0 +1,173 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Divio (Civitas Lingonum) &amp;ndash; Dijon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081081</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081081</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1981"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="findspot">{Petites Roches}, bei, ehemalige Tabakfabrik</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081081_1"><persName><name type="nomen">Saci[---]?</name><name type="cognomen">Saci[---]?</name></persName></person><person xml:id="HD081081_2"><persName><name type="nomen">Poll[---]?</name><name type="cognomen">Poll[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeilenfall scheint zu fehlen. (B): Provost - P&#233;richon: m(onumentum) [...]. Fragment einer dreieckigen Bekr&#246;nung, m&#246;glicherweise von einem Grabbau.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Provost - D. P&#233;richon, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or d'Allerey &#224; Normier, Carte arch&#233;ologique de la Gaule 21, 2 (Paris 2009) 249.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">S</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">c</c>
+		<c xml:id="L1C5">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">P</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9">l</c>
+		<c xml:id="L1C10">l</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C12">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C13">i</c>
+				<c xml:id="L1C14">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C15"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C16">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C17">i</c>
+					<c xml:id="L1C18">t</c>
+					<c xml:id="L1C19">u</c>
+					<c xml:id="L1C20">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C21"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C22">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C23">s</c>
+					<c xml:id="L1C24">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C25"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C26">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C27">o</c>
+				<c xml:id="L1C28">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C29"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C30">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C31">o</c>
+				<c xml:id="L1C32">n</c>
+				<c xml:id="L1C33">u</c>
+				<c xml:id="L1C34">m</c>
+				<c xml:id="L1C35">e</c>
+				<c xml:id="L1C36">n</c>
+				<c xml:id="L1C37">t</c>
+				<c xml:id="L1C38">u</c>
+				<c xml:id="L1C39">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C40"> </c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C41">h</c>
+			<c xml:id="L1C42">(</c>
+			<c xml:id="L1C43">e</c>
+			<c xml:id="L1C44">r</c>
+			<c xml:id="L1C45">e</c>
+			<c xml:id="L1C46">d</c>
+			<c xml:id="L1C47">e</c>
+			<c xml:id="L1C48">m</c>
+			<c xml:id="L1C49">)</c>
+			<c xml:id="L1C50">?</c>
+			<c xml:id="L1C51"> </c>
+			<c xml:id="L1C52">n</c>
+			<c xml:id="L1C53">(</c>
+			<c xml:id="L1C54">o</c>
+			<c xml:id="L1C55">n</c>
+			<c xml:id="L1C56">)</c>
+			<c xml:id="L1C57">?</c>
+			<c xml:id="L1C58"> </c>
+			<c xml:id="L1C59">s</c>
+			<c xml:id="L1C60">(</c>
+			<c xml:id="L1C61">e</c>
+			<c xml:id="L1C62">q</c>
+			<c xml:id="L1C63">u</c>
+			<c xml:id="L1C64">e</c>
+			<c xml:id="L1C65">t</c>
+			<c xml:id="L1C66">u</c>
+			<c xml:id="L1C67">r</c>
+			<c xml:id="L1C68">)</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,98 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Lingonum) &amp;ndash; Vals-des-Tilles (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047802</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047802</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vals-des-Tilles, Chalmessin, Privatbesitz (Artaz)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(30)</height><width>33</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1991"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3027496">Vals-des-Tilles</placeName><placeName type="findspot">{Chalmessin}, Champ Dolent</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberer Teil eines Altars mit ornamentierter Bekr&#246;nung. Auf der linken Nebenseite Rundbogennische mit Darstellung der Minerva. Auf Kopfh&#246;he abgebrochen. Z. 1: DE-Ligatur. Z. 2: Nur noch die oberen Ans&#228;tze zweier Buchstaben zu erkennen, links E oder F, rechts aufgrund der starken Kr&#252;mmung eher S als C oder G. (B): AE 2000; F&#233;vrier - Le Bohec: F C; Le Bohec: f(aciendum) c(uravit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1060. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons. Inscriptions sur pierre (Paris 2003) 163, Nr. 265; fig. 119. (B) - AE 2000.</bibl><bibl>S. F&#233;vrier - Y. Le Bohec, BSHLang 22, 1997, 314-319, Nr. 20; Foto. (B) - AE 2000.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">D</c>
+		<c xml:id="L1C3">e</c>
+		<expan>
+			<ex>
+				<c xml:id="L1C4">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C5">e</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">M</c>
+		<c xml:id="L1C8">i</c>
+		<c xml:id="L1C9">n</c>
+		<supplied reason="lost">
+			<c xml:id="L1C10">e</c>
+			<c xml:id="L1C11">r</c>
+			<c xml:id="L1C12">v</c>
+			<c xml:id="L1C13">a</c>
+			<c xml:id="L1C14">e</c>
+		</supplied>
+		<c xml:id="L1C15"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">E</c>
+		<c xml:id="L2C2">S</c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

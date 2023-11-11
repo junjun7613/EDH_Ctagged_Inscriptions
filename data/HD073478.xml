@@ -1,0 +1,186 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; G&#246;ttlesbrunn (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073478</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073478</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>187</height><width>87</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1846"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778238">G&#246;ttlesbrunn</placeName><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073478_1" sex="M"><persName><name type="cognomen">Pollius</name></persName></person><person xml:id="HD073478_2" sex="M"><persName><name type="cognomen">Danovius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-17" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeile 2: AN-Ligatur. Oberhalb der Inschrift Ganzfigur eines sitzenden Mannes in Bogennische; unterhalb der Inschrift Totenopferszene mit Wagen. Zeile 2: f(ili oder filius). Alternative Lesung Kr&#252;ger: p(atri) p(osuerunt).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04544.</bibl><bibl>M.-L. Kr&#252;ger, Die Reliefs des Stadtgebietes von Carnuntum 1. Die fig&#252;rlichen Reliefs, CSIR &#214;sterreich 1, 3 (Wien 1970) 35, Nr. 247; Taf. 39, 247. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">P</c>
+		<c xml:id="L1C3">o</c>
+		<c xml:id="L1C4">l</c>
+		<c xml:id="L1C5">l</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">u</c>
+		<c xml:id="L1C8">s</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">D</c>
+		<c xml:id="L1C11">a</c>
+		<c xml:id="L1C12">n</c>
+		<c xml:id="L1C13">o</c>
+		<c xml:id="L1C14">v</c>
+		<c xml:id="L1C15">i</c>
+		<c xml:id="L1C16"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">i</c>
+				<c xml:id="L2C3">l</c>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">a</c>
+				<c xml:id="L2C9">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C10">n</c>
+				<c xml:id="L2C11">o</c>
+				<c xml:id="L2C12">r</c>
+				<c xml:id="L2C13">u</c>
+				<c xml:id="L2C14">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">L</c>
+		<c xml:id="L2C17">X</c>
+		<c xml:id="L2C18">X</c>
+		<c xml:id="L2C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C20">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C21">i</c>
+				<c xml:id="L2C22">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C23"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C24">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C25">i</c>
+				<c xml:id="L2C26">t</c>
+				<c xml:id="L2C27">u</c>
+				<c xml:id="L2C28">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C29"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C30">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C31">s</c>
+				<c xml:id="L2C32">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C33"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C34">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L2C35">i</c>
+				<c xml:id="L2C36">l</c>
+				<c xml:id="L2C37">i</c>
+				<c xml:id="L2C38">u</c>
+				<c xml:id="L2C39">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C40"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C41">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C42">r</c>
+				<c xml:id="L2C43">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C44"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C45">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C46">i</c>
+				<c xml:id="L2C47">e</c>
+				<c xml:id="L2C48">t</c>
+				<c xml:id="L2C49">a</c>
+				<c xml:id="L2C50">t</c>
+				<c xml:id="L2C51">e</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,288 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; S. Veit/Glan (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057575</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057575</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Veit/Glan, S. Donat, S. Donat, Kirche, S&#252;dseite, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Marmor, ge&#228;dert / farbig</material><dimensions unit="cm"><height>(76)</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.7-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1870"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766735">S. Veit/Glan</placeName><placeName type="findspot">S. Donat, {S. Donat, Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057575_1" sex="M"><persName><name type="nomen">Valerius</name><name type="cognomen">Priscianus</name></persName></person><person xml:id="HD057575_2" sex="W"><persName><name type="nomen">Valeria*</name><name type="cognomen">Surilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Nische mit weiblicher und m&#228;nnlicher B&#252;ste. Material: gelber, grobk&#246;rniger Marmor. Z. 2 (Ende) u. Z. 3 (Anfang): Buchstaben EG und das erste I stehen auf dem Rahmen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0420.</bibl><bibl>CIL 03, 04856.</bibl><bibl>G. Piccottini, Die Rundmedaillons und Nischenportr&#228;ts des Stadtgebietes von Virunum, CSIR &#214;sterreich 2, 2 (Wien 1972) 34-35, Nr. 142; Taf. 23, 142.</bibl><bibl>H. Petrovitsch, Legio II Italica (Linz 2006) 160-161, Nr. Nk29; Foto u. Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<c xml:id="L1C14">V</c>
+		<c xml:id="L1C15">a</c>
+		<c xml:id="L1C16">l</c>
+		<c xml:id="L1C17">e</c>
+		<c xml:id="L1C18">r</c>
+		<c xml:id="L1C19">i</c>
+		<c xml:id="L1C20">u</c>
+		<c xml:id="L1C21">s</c>
+		<c xml:id="L1C22"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">P</c>
+		<c xml:id="L2C2">r</c>
+		<c xml:id="L2C3">i</c>
+		<c xml:id="L2C4">s</c>
+		<c xml:id="L2C5">c</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">a</c>
+		<c xml:id="L2C8">n</c>
+		<c xml:id="L2C9">u</c>
+		<c xml:id="L2C10">s</c>
+		<c xml:id="L2C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C12">m</c>
+				<c xml:id="L2C13">i</c>
+				<c xml:id="L2C14">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C15">e</c>
+				<c xml:id="L2C16">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C18">l</c>
+				<c xml:id="L2C19">e</c>
+				<c xml:id="L2C20">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C21">i</c>
+				<c xml:id="L2C22">o</c>
+				<c xml:id="L2C23">n</c>
+				<c xml:id="L2C24">i</c>
+				<c xml:id="L2C25">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C26"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">I</c>
+		<c xml:id="L3C2">I</c>
+		<c xml:id="L3C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C4">I</c>
+				<c xml:id="L3C5">t</c>
+				<c xml:id="L3C6">a</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C7">l</c>
+				<c xml:id="L3C8">i</c>
+				<c xml:id="L3C9">c</c>
+				<c xml:id="L3C10">a</c>
+				<c xml:id="L3C11">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C13">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C14">i</c>
+				<c xml:id="L3C15">a</c>
+				<c xml:id="L3C16">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C18">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C19">i</c>
+				<c xml:id="L3C20">d</c>
+				<c xml:id="L3C21">e</c>
+				<c xml:id="L3C22">l</c>
+				<c xml:id="L3C23">i</c>
+				<c xml:id="L3C24">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C25"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C26">v</c>
+				<c xml:id="L3C27">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C28">v</c>
+				<c xml:id="L3C29">u</c>
+				<c xml:id="L3C30">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C31"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C32">f</c>
+				<c xml:id="L3C33">e</c>
+				<c xml:id="L3C34">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C35">i</c>
+				<c xml:id="L3C36">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C37"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C38">s</c>
+				<c xml:id="L3C39">i</c>
+				<c xml:id="L3C40">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C41">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C42"> </c>
+		<c xml:id="L3C43">e</c>
+		<c xml:id="L3C44">t</c>
+		<c xml:id="L3C45"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">V</c>
+				<c xml:id="L4C2">a</c>
+				<c xml:id="L4C3">l</c>
+				<c xml:id="L4C4">e</c>
+				<c xml:id="L4C5">r</c>
+				<c xml:id="L4C6">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C7">a</c>
+				<c xml:id="L4C8">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">S</c>
+		<c xml:id="L4C11">u</c>
+		<c xml:id="L4C12">r</c>
+		<c xml:id="L4C13">i</c>
+		<c xml:id="L4C14">l</c>
+		<c xml:id="L4C15">l</c>
+		<c xml:id="L4C16">a</c>
+		<c xml:id="L4C17">e</c>
+		<c xml:id="L4C18"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">c</c>
+				<c xml:id="L5C2">o</c>
+				<c xml:id="L5C3">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">u</c>
+				<c xml:id="L5C6">g</c>
+				<c xml:id="L5C7">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C8"> </c>
+		<c xml:id="L5C9">p</c>
+		<c xml:id="L5C10">i</c>
+		<expan>
+			<ex>
+				<c xml:id="L5C11">e</c>
+			</ex>
+			<abbr>
+				<c xml:id="L5C12">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C13">t</c>
+				<c xml:id="L5C14">i</c>
+				<c xml:id="L5C15">s</c>
+				<c xml:id="L5C16">s</c>
+				<c xml:id="L5C17">i</c>
+				<c xml:id="L5C18">m</c>
+				<c xml:id="L5C19">a</c>
+				<c xml:id="L5C20">e</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

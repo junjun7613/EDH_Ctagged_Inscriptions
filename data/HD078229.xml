@@ -1,0 +1,228 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Rigomagus &amp;ndash; Remagen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078229</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078229</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(72)</height><width>(35)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109281">Rigomagus</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2848335">Remagen</placeName><placeName type="findspot">{S. Peter und Paul, Kirche}, vermauert</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078229_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-16" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017628" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3f4172ee-1564-47c2-9d88-831b5262f6c8/file/id/777239/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07804; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 272-273, Nr. 670; Zeichnung.</bibl><bibl>G. Bauchhen&#223;, Germania inferior. Bonn und Umgebung. Milit&#228;rische Grabdenkm&#228;ler, CSIR Deutschland 3, 1 (Bonn 1978) 55-56, Nr. 43; Taf. 40, 43.</bibl><bibl>G. Alf&#246;ldy, Die Hilfstruppen der r&#246;mischen Provinz Germania Inferior, EpStud 6 (D&#252;sseldorf 1968) 215, Nr. 160.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C1">m</c>
+					<c xml:id="L1C2">i</c>
+					<c xml:id="L1C3">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C4">e</c>
+					<c xml:id="L1C5">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C6">?</c>
+			<c xml:id="L1C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C8">c</c>
+					<c xml:id="L1C9">o</c>
+					<c xml:id="L1C10">h</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L1C11">o</c>
+					<c xml:id="L1C12">r</c>
+					<c xml:id="L1C13">t</c>
+					<c xml:id="L1C14">i</c>
+					<c xml:id="L1C15">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C16"> </c>
+			<c xml:id="L1C17">I</c>
+			<c xml:id="L1C18">I</c>
+		</supplied>
+		<c xml:id="L1C19"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">V</c>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C5">i</c>
+				<c xml:id="L2C6">a</c>
+				<c xml:id="L2C7">n</c>
+				<c xml:id="L2C8">o</c>
+				<c xml:id="L2C9">r</c>
+				<c xml:id="L2C10">u</c>
+				<c xml:id="L2C11">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C13">a</c>
+				<c xml:id="L2C14">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C15">n</c>
+				<c xml:id="L2C16">o</c>
+				<c xml:id="L2C17">r</c>
+				<c xml:id="L2C18">u</c>
+				<c xml:id="L2C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C20"> </c>
+		<c xml:id="L2C21">X</c>
+		<supplied reason="lost">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L2C22"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C23">s</c>
+					<c xml:id="L2C24">t</c>
+					<c xml:id="L2C25">i</c>
+					<c xml:id="L2C26">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C27">e</c>
+					<c xml:id="L2C28">n</c>
+					<c xml:id="L2C29">d</c>
+					<c xml:id="L2C30">i</c>
+					<c xml:id="L2C31">o</c>
+					<c xml:id="L2C32">r</c>
+					<c xml:id="L2C33">u</c>
+					<c xml:id="L2C34">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C35"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L2C36"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">i</c>
+				<c xml:id="L3C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C6">i</c>
+				<c xml:id="L3C7">t</c>
+				<c xml:id="L3C8">u</c>
+				<c xml:id="L3C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C11">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C12">s</c>
+				<c xml:id="L3C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C15">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L3C16">r</c>
+				<c xml:id="L3C17">a</c>
+				<c xml:id="L3C18">t</c>
+				<c xml:id="L3C19">e</c>
+				<c xml:id="L3C20">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C21"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C22">p</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L3C23">o</c>
+					<c xml:id="L3C24">s</c>
+					<c xml:id="L3C25">u</c>
+					<c xml:id="L3C26">i</c>
+					<c xml:id="L3C27">t</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

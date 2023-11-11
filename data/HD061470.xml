@@ -1,0 +1,277 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neuwied (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061470</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061470</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(29)</height><width>(57)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109035" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2908399">Neuwied</placeName><placeName type="findspot">Heddesdorf, {Bahnhof}, bei, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061470_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Fe[---]</name></persName></person><person xml:id="HD061470_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Capito</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-06" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017491" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/217512ee-f74e-45b2-8ff4-dccc239ab5c1/file/id/777100/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. (B): Bodewig: kleinere Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07743.</bibl><bibl>H. Lehner, Die antiken Steindenkm&#228;ler des Provinzialmuseums in Bonn (Bonn 1918) 273-274, Nr. 671.</bibl><bibl>R. Bodewig, in: Der obergermanisch-r&#228;tische Limes des R&#246;merreiches B, I, 1 (Lieferung 19) (Berlin - Leipzig 1937) 14, Nr. 5; Taf. 4, 29 (Zeichnung). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<c xml:id="L1C2">D</c>
+		</supplied>
+		<c xml:id="L1C3">i</c>
+		<c xml:id="L1C4">s</c>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">a</c>
+				<c xml:id="L1C16">i</c>
+				<c xml:id="L1C17">u</c>
+				<c xml:id="L1C18">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C20">I</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C21">u</c>
+				<c xml:id="L1C22">l</c>
+				<c xml:id="L1C23">i</c>
+				<c xml:id="L1C24">u</c>
+				<c xml:id="L1C25">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C26"> </c>
+		<c xml:id="L1C27">F</c>
+		<c xml:id="L1C28">e</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C29"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">o</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">n</c>
+				<c xml:id="L2C5">i</c>
+				<c xml:id="L2C6">c</c>
+				<c xml:id="L2C7">u</c>
+				<c xml:id="L2C8">l</c>
+				<c xml:id="L2C9">a</c>
+				<c xml:id="L2C10">r</c>
+				<c xml:id="L2C11">i</c>
+				<c xml:id="L2C12">u</c>
+				<c xml:id="L2C13">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C15">t</c>
+				<c xml:id="L2C16">r</c>
+				<c xml:id="L2C17">i</c>
+				<c xml:id="L2C18">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C19">u</c>
+				<c xml:id="L2C20">n</c>
+				<c xml:id="L2C21">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C23">m</c>
+				<c xml:id="L2C24">i</c>
+				<c xml:id="L2C25">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C26">i</c>
+				<c xml:id="L2C27">t</c>
+				<c xml:id="L2C28">u</c>
+				<c xml:id="L2C29">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C30"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C31">c</c>
+				<c xml:id="L2C32">o</c>
+				<c xml:id="L2C33">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C34">o</c>
+				<c xml:id="L2C35">r</c>
+				<c xml:id="L2C36">t</c>
+				<c xml:id="L2C37">i</c>
+				<c xml:id="L2C38">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C39"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C40"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L3C1">v</c>
+				</supplied>
+				<c xml:id="L3C2">o</c>
+				<supplied reason="lost">
+					<c xml:id="L3C3">l</c>
+				</supplied>
+			</abbr>
+			<supplied reason="lost">
+				<ex>
+					<c xml:id="L3C4">u</c>
+					<c xml:id="L3C5">n</c>
+					<c xml:id="L3C6">t</c>
+					<c xml:id="L3C7">a</c>
+					<c xml:id="L3C8">r</c>
+					<c xml:id="L3C9">i</c>
+					<c xml:id="L3C10">o</c>
+					<c xml:id="L3C11">r</c>
+					<c xml:id="L3C12">u</c>
+					<c xml:id="L3C13">m</c>
+				</ex>
+			</supplied>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<supplied reason="lost" />
+		<c xml:id="L3C15"> </c>
+		<expan>
+			<abbr>
+				<am>
+					<g type="centuria" />
+				</am>
+			</abbr>
+			<ex>
+				<c xml:id="L3C16">c</c>
+				<c xml:id="L3C17">e</c>
+				<c xml:id="L3C18">n</c>
+				<c xml:id="L3C19">t</c>
+				<c xml:id="L3C20">u</c>
+				<c xml:id="L3C21">r</c>
+				<c xml:id="L3C22">i</c>
+				<c xml:id="L3C23">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C24"> </c>
+		<c xml:id="L3C25">C</c>
+		<c xml:id="L3C26">a</c>
+		<c xml:id="L3C27">p</c>
+		<c xml:id="L3C28">i</c>
+		<c xml:id="L3C29">t</c>
+		<c xml:id="L3C30">o</c>
+		<c xml:id="L3C31">n</c>
+		<c xml:id="L3C32">i</c>
+		<c xml:id="L3C33">s</c>
+		<c xml:id="L3C34"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C35"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">m</c>
+					<c xml:id="L4C2">i</c>
+					<c xml:id="L4C3">l</c>
+					<c xml:id="L4C4">i</c>
+					<c xml:id="L4C5">t</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C6">a</c>
+					<c xml:id="L4C7">v</c>
+					<c xml:id="L4C8">i</c>
+					<c xml:id="L4C9">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L4C10"> </c>
+		<c xml:id="L4C11">a</c>
+		<c xml:id="L4C12">n</c>
+		<c xml:id="L4C13">n</c>
+		<c xml:id="L4C14">i</c>
+		<c xml:id="L4C15">s</c>
+		<c xml:id="L4C16"> </c>
+		<c xml:id="L4C17">X</c>
+		<c xml:id="L4C18">V</c>
+		<c xml:id="L4C19"> </c>
+		<c xml:id="L4C20">C</c>
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

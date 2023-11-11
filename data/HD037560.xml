@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037560</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037560</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Madrid, Mus. Arq. Nac.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>43</height><width>58</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="-0012" notAfter-custom="-0006" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12 BC - 6 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">Castillo de la Concepci&#243;n</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037560_1"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Nero</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-07" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palaz&#243;n - S. F. Ramallo Asensio, La ciudad de Carthago Nova: La documentaci&#243;n epigr&#225;fica (Murcia 1997) 173-175, Nr. 41; l&#225;m. 47.</bibl><bibl>CIL 02, 05930.</bibl><bibl>EphEp 3, p. 45 n. 33.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">T</c>
+				<c xml:id="L1C3">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">b</c>
+				<c xml:id="L1C5">e</c>
+				<c xml:id="L1C6">r</c>
+				<c xml:id="L1C7">i</c>
+				<c xml:id="L1C8">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">C</c>
+		<c xml:id="L1C11">l</c>
+		<c xml:id="L1C12">a</c>
+		<c xml:id="L1C13">u</c>
+		<c xml:id="L1C14">d</c>
+		<c xml:id="L1C15">i</c>
+		<c xml:id="L1C16">o</c>
+		<c xml:id="L1C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C18">T</c>
+				<c xml:id="L1C19">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C20">b</c>
+				<c xml:id="L1C21">e</c>
+				<c xml:id="L1C22">r</c>
+				<c xml:id="L1C23">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C24"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C25">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C26">i</c>
+					<c xml:id="L1C27">l</c>
+					<c xml:id="L1C28">i</c>
+					<c xml:id="L1C29">o</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C30"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">N</c>
+		<c xml:id="L2C2">e</c>
+		<c xml:id="L2C3">r</c>
+		<c xml:id="L2C4">o</c>
+		<c xml:id="L2C5">n</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">p</c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4">r</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">o</c>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">c</c>
+		<c xml:id="L3C10">o</c>
+		<c xml:id="L3C11">l</c>
+		<c xml:id="L3C12">o</c>
+		<c xml:id="L3C13">n</c>
+		<supplied reason="lost">
+			<c xml:id="L3C14">i</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

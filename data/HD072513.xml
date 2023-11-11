@@ -1,0 +1,252 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Doclea, bei &amp;ndash; Podgorica (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072513</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072513</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>80</height><width>55</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481808">Doclea, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3193044">Podgorica</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072513_1" sex="W"><persName><name type="cognomen">Epidia</name></persName></person><person xml:id="HD072513_2" sex="W"><persName><name type="cognomen">Eutichia*? (= Eutychia*?)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 6: m&#246;glicherweise auch Eutic(h)i(s)(!). (B): AE 2011: Z. 5: fehlt; Z. 6: MATER fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0902. (B)</bibl><bibl>J.J. Martinovi&#263;, Anti&#269;ki natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 135, Nr. 116. - AE 2011.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">a</c>
+				<c xml:id="L1C16">c</c>
+				<c xml:id="L1C17">r</c>
+				<c xml:id="L1C18">u</c>
+				<c xml:id="L1C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C20"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">d</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">c</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">s</c>
+		<c xml:id="L2C7">s</c>
+		<c xml:id="L2C8">i</c>
+		<c xml:id="L2C9">m</c>
+		<c xml:id="L2C10">a</c>
+		<c xml:id="L2C11">e</c>
+		<c xml:id="L2C12"> </c>
+		<c xml:id="L2C13">f</c>
+		<c xml:id="L2C14">i</c>
+		<c xml:id="L2C15">l</c>
+		<c xml:id="L2C16">i</c>
+		<c xml:id="L2C17">a</c>
+		<c xml:id="L2C18">e</c>
+		<c xml:id="L2C19"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">E</c>
+		<c xml:id="L3C2">p</c>
+		<c xml:id="L3C3">i</c>
+		<c xml:id="L3C4">d</c>
+		<c xml:id="L3C5">i</c>
+		<c xml:id="L3C6">a</c>
+		<c xml:id="L3C7">e</c>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">q</c>
+		<c xml:id="L3C10">u</c>
+		<c xml:id="L3C11">a</c>
+		<c xml:id="L3C12">e</c>
+		<c xml:id="L3C13"> </c>
+		<c xml:id="L3C14">v</c>
+		<c xml:id="L3C15">i</c>
+		<c xml:id="L3C16">x</c>
+		<c xml:id="L3C17">i</c>
+		<c xml:id="L3C18">t</c>
+		<c xml:id="L3C19"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">a</c>
+				<c xml:id="L4C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C3">n</c>
+				<c xml:id="L4C4">o</c>
+				<c xml:id="L4C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C6"> </c>
+		<c xml:id="L4C7">X</c>
+		<c xml:id="L4C8">X</c>
+		<c xml:id="L4C9">X</c>
+		<c xml:id="L4C10">V</c>
+		<c xml:id="L4C11">I</c>
+		<c xml:id="L4C12">I</c>
+		<c xml:id="L4C13">I</c>
+		<c xml:id="L4C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C15">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C16">e</c>
+				<c xml:id="L4C17">n</c>
+				<c xml:id="L4C18">s</c>
+				<c xml:id="L4C19">e</c>
+				<c xml:id="L4C20">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C21"> </c>
+		<c xml:id="L4C22">I</c>
+		<c xml:id="L4C23">I</c>
+		<c xml:id="L4C24">I</c>
+		<c xml:id="L4C25">I</c>
+		<c xml:id="L4C26"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">i</c>
+		<c xml:id="L5C2">n</c>
+		<c xml:id="L5C3">f</c>
+		<c xml:id="L5C4">e</c>
+		<c xml:id="L5C5">l</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7">c</c>
+		<c xml:id="L5C8">i</c>
+		<c xml:id="L5C9">s</c>
+		<c xml:id="L5C10">s</c>
+		<c xml:id="L5C11">i</c>
+		<c xml:id="L5C12">m</c>
+		<c xml:id="L5C13">a</c>
+		<c xml:id="L5C14"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">m</c>
+		<c xml:id="L6C2">a</c>
+		<c xml:id="L6C3">t</c>
+		<c xml:id="L6C4">e</c>
+		<c xml:id="L6C5">r</c>
+		<c xml:id="L6C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C7">E</c>
+				<c xml:id="L6C8">u</c>
+				<c xml:id="L6C9">t</c>
+				<c xml:id="L6C10">i</c>
+				<c xml:id="L6C11">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C12">h</c>
+			</ex>
+		</expan>
+		<expan>
+			<abbr>
+				<c xml:id="L6C13">i</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L6C14">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C15"> </c>
+		<note>sic</note>
+		<c xml:id="L6C16"> </c>
+		<c xml:id="L6C17">m</c>
+		<c xml:id="L6C18">e</c>
+	</line>
+	<line break="no" n="7">
+		<c xml:id="L7C1">m</c>
+		<c xml:id="L7C2">o</c>
+		<c xml:id="L7C3">r</c>
+		<c xml:id="L7C4">i</c>
+		<c xml:id="L7C5">a</c>
+		<c xml:id="L7C6">m</c>
+		<c xml:id="L7C7"> </c>
+		<c xml:id="L7C8">f</c>
+		<c xml:id="L7C9">e</c>
+		<c xml:id="L7C10">c</c>
+		<c xml:id="L7C11">i</c>
+		<c xml:id="L7C12">t</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from Tripontium &amp;ndash; Caves Inn (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD015959</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD015959</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Warwick, Market Hall Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79722">Tripontium</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1965"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Caves Inn</placeName><placeName type="findspot" /><placeName type="region">Warwickshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-10" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vor dem Brand eingeritztes Graffito. Alphabet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1966, 0234.</bibl><bibl>R.P. Wright, JRS 56, 1966, 223, Nr. 31. - AE 1966.</bibl><bibl>RIB 2491, 135; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">A</c>
+		<c xml:id="L1C3">B</c>
+		<c xml:id="L1C4">C</c>
+		<c xml:id="L1C5">D</c>
+		<c xml:id="L1C6">E</c>
+		<c xml:id="L1C7">F</c>
+		<c xml:id="L1C8">G</c>
+		<c xml:id="L1C9">H</c>
+		<c xml:id="L1C10">I</c>
+		<c xml:id="L1C11">K</c>
+		<c xml:id="L1C12">L</c>
+		<c xml:id="L1C13">M</c>
+		<c xml:id="L1C14">N</c>
+		<c xml:id="L1C15">O</c>
+		<c xml:id="L1C16">P</c>
+		<c xml:id="L1C17">Q</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C18"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">B</c>
+		<c xml:id="L2C3">C</c>
+		<c xml:id="L2C4">D</c>
+		<c xml:id="L2C5">E</c>
+		<c xml:id="L2C6">F</c>
+		<supplied reason="lost">
+			<c xml:id="L2C7">G</c>
+		</supplied>
+		<c xml:id="L2C8">H</c>
+		<c xml:id="L2C9">I</c>
+		<c xml:id="L2C10">K</c>
+		<c xml:id="L2C11">L</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

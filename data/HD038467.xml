@@ -1,0 +1,362 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ulcisia Castra &amp;ndash; Szentendre (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038467</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038467</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti M&#250;z.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>127</height><width>69</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-5.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197564">Ulcisia Castra</placeName></origPlace><origDate><origDate notBefore-custom="0224" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">224 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1808"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044681">Szentendre</placeName><placeName type="findspot" /><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038467_1" sex="W"><persName><name type="nomen">Iulia++</name><name type="cognomen">Mamaea++*</name></persName></person><person xml:id="HD038467_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Severus Alexander++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. Gefunden zusammen mit der Basis RIU 867. Der letzte Buchstabe in Z. 8 und 9 befindet sich teilweise bzw. ganz auf dem Rahmen des Inschriftfeldes. Datierung: wahrscheinlich 229 n. Chr. wie die Basis RIU 867.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0868; Abb. 868 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 03639.</bibl><bibl>M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 147-149, Nr. 165; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<del rend="erasure">
+			<c xml:id="L1C2">I</c>
+			<c xml:id="L1C3">u</c>
+			<c xml:id="L1C4">l</c>
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">a</c>
+			<c xml:id="L1C7">e</c>
+		</del>
+		<c xml:id="L1C8"> </c>
+	</line>
+	<line n="2">
+		<del rend="erasure">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">M</c>
+					<c xml:id="L2C2">a</c>
+					<c xml:id="L2C3">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C4">a</c>
+				</ex>
+				<c xml:id="L2C5">e</c>
+				<c xml:id="L2C6">a</c>
+				<c xml:id="L2C7">e</c>
+			</expan>
+		</del>
+		<c xml:id="L2C8"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">A</c>
+				<c xml:id="L3C2">u</c>
+				<c xml:id="L3C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">u</c>
+				<c xml:id="L3C5">s</c>
+				<c xml:id="L3C6">t</c>
+				<c xml:id="L3C7">a</c>
+				<c xml:id="L3C8">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<del rend="erasure">
+			<c xml:id="L3C10">m</c>
+			<c xml:id="L3C11">a</c>
+			<c xml:id="L3C12">t</c>
+			<c xml:id="L3C13">r</c>
+			<c xml:id="L3C14">i</c>
+		</del>
+		<c xml:id="L3C15"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">d</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">o</c>
+				<c xml:id="L4C3">m</c>
+				<c xml:id="L4C4">i</c>
+				<c xml:id="L4C5">n</c>
+				<c xml:id="L4C6">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C8">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C9">o</c>
+				<c xml:id="L4C10">s</c>
+				<c xml:id="L4C11">t</c>
+				<c xml:id="L4C12">r</c>
+				<c xml:id="L4C13">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C14"> </c>
+		<c xml:id="L4C15">I</c>
+		<c xml:id="L4C16">n</c>
+		<c xml:id="L4C17">v</c>
+		<c xml:id="L4C18">i</c>
+		<c xml:id="L4C19">c</c>
+		<c xml:id="L4C20">t</c>
+		<c xml:id="L4C21">i</c>
+		<c xml:id="L4C22"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">I</c>
+				<c xml:id="L5C2">m</c>
+				<c xml:id="L5C3">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C4">e</c>
+				<c xml:id="L5C5">r</c>
+				<c xml:id="L5C6">a</c>
+				<c xml:id="L5C7">t</c>
+				<c xml:id="L5C8">o</c>
+				<c xml:id="L5C9">r</c>
+				<c xml:id="L5C10">i</c>
+				<c xml:id="L5C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C12"> </c>
+		<c xml:id="L5C13">S</c>
+		<c xml:id="L5C14">e</c>
+		<c xml:id="L5C15">v</c>
+		<c xml:id="L5C16">e</c>
+		<c xml:id="L5C17">r</c>
+		<c xml:id="L5C18">i</c>
+		<c xml:id="L5C19"> </c>
+	</line>
+	<line n="6">
+		<del rend="erasure">
+			<c xml:id="L6C1">A</c>
+			<c xml:id="L6C2">l</c>
+			<c xml:id="L6C3">e</c>
+			<c xml:id="L6C4">x</c>
+			<c xml:id="L6C5">a</c>
+			<c xml:id="L6C6">n</c>
+			<c xml:id="L6C7">d</c>
+			<c xml:id="L6C8">r</c>
+			<c xml:id="L6C9">i</c>
+		</del>
+		<c xml:id="L6C10"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">P</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C2">i</c>
+				<c xml:id="L7C3">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C5">F</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C6">e</c>
+				<c xml:id="L7C7">l</c>
+				<c xml:id="L7C8">i</c>
+				<c xml:id="L7C9">c</c>
+				<c xml:id="L7C10">i</c>
+				<c xml:id="L7C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C12"> </c>
+		<c xml:id="L7C13">A</c>
+		<c xml:id="L7C14">u</c>
+		<c xml:id="L7C15">g</c>
+		<c xml:id="L7C16">u</c>
+		<c xml:id="L7C17">s</c>
+		<c xml:id="L7C18">t</c>
+		<c xml:id="L7C19">i</c>
+		<c xml:id="L7C20"> </c>
+	</line>
+	<line n="8">
+		<c xml:id="L8C1">e</c>
+		<c xml:id="L8C2">t</c>
+		<c xml:id="L8C3"> </c>
+		<c xml:id="L8C4">c</c>
+		<c xml:id="L8C5">a</c>
+		<c xml:id="L8C6">s</c>
+		<c xml:id="L8C7">t</c>
+		<c xml:id="L8C8">r</c>
+		<c xml:id="L8C9">o</c>
+		<c xml:id="L8C10">r</c>
+		<c xml:id="L8C11">u</c>
+		<c xml:id="L8C12">m</c>
+		<c xml:id="L8C13"> </c>
+	</line>
+	<line n="9">
+		<expan>
+			<abbr>
+				<c xml:id="L9C1">c</c>
+				<c xml:id="L9C2">o</c>
+				<c xml:id="L9C3">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C4">o</c>
+				<c xml:id="L9C5">r</c>
+				<c xml:id="L9C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C7"> </c>
+		<c xml:id="L9C8">I</c>
+		<c xml:id="L9C9"> </c>
+		<c xml:id="L9C10">|</c>
+		<c xml:id="L9C11">(</c>
+		<c xml:id="L9C12">m</c>
+		<c xml:id="L9C13">i</c>
+		<c xml:id="L9C14">l</c>
+		<c xml:id="L9C15">l</c>
+		<c xml:id="L9C16">i</c>
+		<c xml:id="L9C17">a</c>
+		<c xml:id="L9C18">r</c>
+		<c xml:id="L9C19">i</c>
+		<c xml:id="L9C20">a</c>
+		<c xml:id="L9C21">)</c>
+		<c xml:id="L9C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C23">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C24">o</c>
+				<c xml:id="L9C25">v</c>
+				<c xml:id="L9C26">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C27"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C28">S</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C29">e</c>
+				<c xml:id="L9C30">v</c>
+				<c xml:id="L9C31">e</c>
+				<c xml:id="L9C32">r</c>
+				<c xml:id="L9C33">i</c>
+				<c xml:id="L9C34">a</c>
+				<c xml:id="L9C35">n</c>
+				<c xml:id="L9C36">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C37"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C38">S</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C39">u</c>
+				<c xml:id="L9C40">r</c>
+				<c xml:id="L9C41">o</c>
+				<c xml:id="L9C42">r</c>
+				<c xml:id="L9C43">u</c>
+				<c xml:id="L9C44">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C45"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L9C46">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C47">a</c>
+				<c xml:id="L9C48">g</c>
+				<c xml:id="L9C49">i</c>
+				<c xml:id="L9C50">t</c>
+				<c xml:id="L9C51">t</c>
+				<c xml:id="L9C52">a</c>
+				<c xml:id="L9C53">r</c>
+				<c xml:id="L9C54">i</c>
+				<c xml:id="L9C55">o</c>
+				<c xml:id="L9C56">r</c>
+				<c xml:id="L9C57">u</c>
+				<c xml:id="L9C58">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C59"> </c>
+	</line>
+	<line n="10">
+		<c xml:id="L10C1">d</c>
+		<c xml:id="L10C2">e</c>
+		<c xml:id="L10C3">v</c>
+		<c xml:id="L10C4">o</c>
+		<c xml:id="L10C5">t</c>
+		<c xml:id="L10C6">a</c>
+		<c xml:id="L10C7"> </c>
+		<c xml:id="L10C8">n</c>
+		<c xml:id="L10C9">u</c>
+	</line>
+	<line break="no" n="11">
+		<c xml:id="L11C1">m</c>
+		<c xml:id="L11C2">i</c>
+		<c xml:id="L11C3">n</c>
+		<c xml:id="L11C4">i</c>
+		<c xml:id="L11C5"> </c>
+		<c xml:id="L11C6">e</c>
+		<c xml:id="L11C7">o</c>
+		<c xml:id="L11C8">r</c>
+		<c xml:id="L11C9">u</c>
+		<c xml:id="L11C10">m</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

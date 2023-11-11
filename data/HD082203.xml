@@ -1,0 +1,133 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Grannum (Civitas Lingonum)? &amp;ndash; Grand, bei (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082203</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082203</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>&#201;pinal, Mus. d&#233;p. art anc. contemp.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material>Marmor, ge&#228;dert / farbig</material><dimensions unit="cm"><height>(17)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109016">Grannum (Civitas Lingonum)?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1861"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3015368">Grand, bei</placeName><placeName type="findspot" /><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082203_1" sex="M"><persName><name type="cognomen">[--&#173;-]nnus</name></persName></person><person xml:id="HD082203_2" sex="M"><persName><name type="cognomen">Aquilinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-30" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030033" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a94bf060-fd17-44da-a73c-dc5ecdfe81aa/file/id/790790/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: Buchstabe am Zeilenende nicht mehr erkennbar. Lingonus oder Lingonum? (B): CIL 13, 05942: Z. 4: P nicht gelesen; CIL 13, 04, 05942 add. p. 77: Z. 3: [Li]ngonu[s]; ILTG: Z. 1: [Gra]nni; Z. 3: [A]quilinus [col(oniae)?]; Z. 4: [l(ibertus)?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1108.</bibl><bibl>CIL 13, 05942. (B)</bibl><bibl>CIL 13, 04, 05942 add. p. 77. (B)</bibl><bibl>ILTG 415. (B)</bibl><bibl>L. Lazzaro, Esclaves et affranchis en Belgique et Germanies romaines d'apr&#232;s les sources &#233;pigraphiques (Paris 1993) 162, Nr. 149. (B) - AE 2013.</bibl><bibl>P. Vipard, in: T. Dechezlepr&#234;tre - K. Gruel - M. Joly (Hrsg.), Agglom&#233;rations et sanctuaires. R&#233;flexions &#224; partir de l'exemple de Grand. Actes du colloque de Grand 2011 (&#201;pinal 2015) 74-77; fig. 5.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">n</c>
+		<c xml:id="L1C3">n</c>
+		<c xml:id="L1C4">i</c>
+		<c xml:id="L1C5"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">A</c>
+		</supplied>
+		<c xml:id="L2C2">q</c>
+		<c xml:id="L2C3">u</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">l</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7">n</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">s</c>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">L</c>
+			<c xml:id="L3C2">i</c>
+		</supplied>
+		<c xml:id="L3C3">n</c>
+		<c xml:id="L3C4">g</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">u</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">l</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L4C2">i</c>
+				<c xml:id="L4C3">b</c>
+				<c xml:id="L4C4">e</c>
+				<c xml:id="L4C5">r</c>
+				<c xml:id="L4C6">t</c>
+				<c xml:id="L4C7">u</c>
+				<c xml:id="L4C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C10">p</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L4C11">o</c>
+				<c xml:id="L4C12">s</c>
+				<c xml:id="L4C13">u</c>
+				<c xml:id="L4C14">i</c>
+				<c xml:id="L4C15">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

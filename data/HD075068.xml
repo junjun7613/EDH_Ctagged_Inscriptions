@@ -1,0 +1,177 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Buthoe &amp;ndash; Budva (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075068</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075068</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budva, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(20)</height><width>(16)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481770">Buthoe</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3203106">Budva</placeName><placeName type="findspot">{Hotel Avala}, bei, Nekropole</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075068_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-30" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 6 befindet sich auf dem unteren Rahmen. Reste von roter Farbe in den Buchstaben. Z. 1: nur die unteren Buchstabenh&#228;lften erhalten. Z. 2 (Anfang): von L(?) nur das rechte untere Ende erhalten. Z. 3: LV-Ligatur? Z. 4: statt I auch T m&#246;glich. Z. 5 (Anfang): von S(?) nur das rechte obere Ende erhalten. (B): Martinovi&#263;: Lesung abweichend / unvollst&#228;ndig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.J. Martinovi&#263;, Anti&#269;ki natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 90-91, Nr. 73; Foto u. Zeichnung. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L1C1">I</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L1C2">I</c>
+			</expan>
+			<certainty match="preceding-sibling::node()" locus="value" />
+			<expan>
+				<abbr>
+					<c xml:id="L1C3">I</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L1C4">I</c>
+			</expan>
+			<certainty match="preceding-sibling::node()" locus="value" />
+			<c xml:id="L1C5"> </c>
+		</line>
+		<line n="2">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">L</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L2C2">e</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">t</c>
+			</expan>
+			<c xml:id="L2C6"> </c>
+		</line>
+		<line n="3">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L3C1">a</c>
+					<c xml:id="L3C2">n</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L3C3">n</c>
+					<c xml:id="L3C4">o</c>
+					<c xml:id="L3C5">-</c>
+					<c xml:id="L3C6">-</c>
+					<c xml:id="L3C7">-</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C8"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C9">L</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L3C10">V</c>
+			</expan>
+			<c xml:id="L3C11"> </c>
+			<c xml:id="L3C12">E</c>
+			<c xml:id="L3C13">L</c>
+		</line>
+		<line break="no" n="4">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">S</c>
+					<c xml:id="L4C2">I</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L4C3">D</c>
+				<c xml:id="L4C4">E</c>
+				<c xml:id="L4C5">V</c>
+				<c xml:id="L4C6">S</c>
+			</expan>
+			<c xml:id="L4C7"> </c>
+		</line>
+		<line n="5">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L5C1">S</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L5C2">t</c>
+				<c xml:id="L5C3">u</c>
+				<c xml:id="L5C4">l</c>
+				<c xml:id="L5C5">i</c>
+			</expan>
+			<c xml:id="L5C6"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">I</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L1C3">T</c>
+			</expan>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

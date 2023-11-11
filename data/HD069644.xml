@@ -1,0 +1,291 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069644</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069644</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newport, Mus. and Art Gall.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material>Gesteine</material><dimensions unit="cm"><height>114</height><width>88</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1909"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">{Cricketplatz, Pil Bach}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069644_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Natalis+</name></persName></person><person xml:id="HD069644_2" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Ingenuinus</name></persName></person><person xml:id="HD069644_3" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Flavinus</name></persName></person><person xml:id="HD069644_4" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Veldicca</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-10" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 528 n. 1019.</bibl><bibl>RIB 0358; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">T</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">i</c>
+				<c xml:id="L2C3">t</c>
+				<c xml:id="L2C4">u</c>
+				<c xml:id="L2C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C7">F</c>
+				<c xml:id="L2C8">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C9">a</c>
+				<c xml:id="L2C10">v</c>
+				<c xml:id="L2C11">i</c>
+				<c xml:id="L2C12">u</c>
+				<c xml:id="L2C13">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+		<c xml:id="L2C15">N</c>
+		<c xml:id="L2C16">a</c>
+		<c xml:id="L2C17">t</c>
+		<c xml:id="L2C18">a</c>
+		<supplied reason="lost">
+			<c xml:id="L2C19">l</c>
+		</supplied>
+		<c xml:id="L2C20">i</c>
+		<c xml:id="L2C21">s</c>
+		<c xml:id="L2C22"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">v</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">t</c>
+		<c xml:id="L3C4">e</c>
+		<c xml:id="L3C5">r</c>
+		<c xml:id="L3C6">a</c>
+		<c xml:id="L3C7">n</c>
+		<supplied reason="lost">
+			<c xml:id="L3C8">u</c>
+		</supplied>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">v</c>
+		<c xml:id="L4C2">i</c>
+		<c xml:id="L4C3">x</c>
+		<c xml:id="L4C4">i</c>
+		<c xml:id="L4C5">t</c>
+		<c xml:id="L4C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C7">a</c>
+				<c xml:id="L4C8">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C9">n</c>
+				<c xml:id="L4C10">o</c>
+				<c xml:id="L4C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C12"> </c>
+		<c xml:id="L4C13">L</c>
+		<c xml:id="L4C14">X</c>
+		<c xml:id="L4C15">V</c>
+		<c xml:id="L4C16"> </c>
+		<c xml:id="L4C17">c</c>
+		<c xml:id="L4C18">u</c>
+		<c xml:id="L4C19">r</c>
+		<c xml:id="L4C20">a</c>
+		<c xml:id="L4C21">t</c>
+		<c xml:id="L4C22">u</c>
+		<c xml:id="L4C23">m</c>
+		<c xml:id="L4C24"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">p</c>
+		<c xml:id="L5C2">e</c>
+		<c xml:id="L5C3">r</c>
+		<c xml:id="L5C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C5">F</c>
+				<c xml:id="L5C6">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C7">a</c>
+				<c xml:id="L5C8">v</c>
+				<c xml:id="L5C9">i</c>
+				<c xml:id="L5C10">u</c>
+				<c xml:id="L5C11">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C12"> </c>
+		<c xml:id="L5C13">I</c>
+		<c xml:id="L5C14">n</c>
+		<c xml:id="L5C15">g</c>
+		<c xml:id="L5C16">e</c>
+		<c xml:id="L5C17">n</c>
+		<c xml:id="L5C18">u</c>
+		<c xml:id="L5C19">i</c>
+		<c xml:id="L5C20">n</c>
+		<c xml:id="L5C21">u</c>
+		<c xml:id="L5C22">m</c>
+		<c xml:id="L5C23"> </c>
+		<c xml:id="L5C24">e</c>
+		<c xml:id="L5C25">t</c>
+		<c xml:id="L5C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C27">F</c>
+				<c xml:id="L5C28">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C29">a</c>
+				<c xml:id="L5C30">v</c>
+				<c xml:id="L5C31">i</c>
+				<c xml:id="L5C32">u</c>
+				<c xml:id="L5C33">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C34"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">F</c>
+		<c xml:id="L6C2">l</c>
+		<c xml:id="L6C3">a</c>
+		<c xml:id="L6C4">v</c>
+		<c xml:id="L6C5">i</c>
+		<c xml:id="L6C6">n</c>
+		<c xml:id="L6C7">u</c>
+		<c xml:id="L6C8">m</c>
+		<c xml:id="L6C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C10">f</c>
+				<c xml:id="L6C11">i</c>
+				<c xml:id="L6C12">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C13">i</c>
+				<c xml:id="L6C14">o</c>
+				<c xml:id="L6C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C16"> </c>
+		<c xml:id="L6C17">e</c>
+		<c xml:id="L6C18">t</c>
+		<c xml:id="L6C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C20">F</c>
+				<c xml:id="L6C21">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C22">a</c>
+				<c xml:id="L6C23">v</c>
+				<c xml:id="L6C24">i</c>
+				<c xml:id="L6C25">a</c>
+				<c xml:id="L6C26">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C27"> </c>
+	</line>
+	<line n="7">
+		<c xml:id="L7C1">V</c>
+		<c xml:id="L7C2">e</c>
+		<c xml:id="L7C3">l</c>
+		<c xml:id="L7C4">d</c>
+		<c xml:id="L7C5">i</c>
+		<c xml:id="L7C6">c</c>
+		<c xml:id="L7C7">c</c>
+		<c xml:id="L7C8">a</c>
+		<c xml:id="L7C9">m</c>
+		<c xml:id="L7C10"> </c>
+		<c xml:id="L7C11">c</c>
+		<c xml:id="L7C12">o</c>
+		<c xml:id="L7C13">n</c>
+		<c xml:id="L7C14">i</c>
+		<c xml:id="L7C15">u</c>
+		<supplied reason="lost">
+			<c xml:id="L7C16">g</c>
+			<c xml:id="L7C17">e</c>
+			<c xml:id="L7C18">m</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,208 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aelium Cetium &amp;ndash; S. P&#246;lten (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065375</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065375</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. P&#246;lten, Hist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>165</height><width>90</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118629">Aelium Cetium</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1892"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766429">S. P&#246;lten</placeName><placeName type="findspot">{Klostergasse / Doktor-Ofner-Gasse, Ecke}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065375_1" sex="M"><persName><name type="cognomen">Candidus</name></persName></person><person xml:id="HD065375_2" sex="M"><persName><name type="cognomen">Tassarnus+</name></persName></person><person xml:id="HD065375_3" sex="W"><persName><name type="cognomen">Novenia</name></persName></person><person xml:id="HD065375_4" sex="M"><persName><name type="cognomen">Camulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-11" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes weibliche und m&#228;nnliche B&#252;ste. (B): Ubl: Z. 4: [N]oven(ae); CIL III 13530 add. p. 2286: Z. 4: Novena[e]; Ubl: Z. 6: [p(arentibus)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13530.</bibl><bibl>CIL 03, 13530 add. p. 2286. (B)</bibl><bibl>ILLPRON 0895.</bibl><bibl>H. Ubl, Die Skulpturen des Stadtgebietes von Aelium Cetium, CSIR &#214;sterreich 1, 6 (Wien 1979) 34, Nr. 17; Taf. 13, 17. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">C</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">n</c>
+		<c xml:id="L1C5">d</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">d</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">T</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4">s</c>
+		<c xml:id="L2C5">a</c>
+		<c xml:id="L2C6">r</c>
+		<c xml:id="L2C7">n</c>
+		<supplied reason="lost">
+			<c xml:id="L2C8">i</c>
+		</supplied>
+		<c xml:id="L2C9"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">i</c>
+				<c xml:id="L3C3">l</c>
+				<c xml:id="L3C4">i</c>
+				<c xml:id="L3C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C7">a</c>
+				<c xml:id="L3C8">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C9">n</c>
+				<c xml:id="L3C10">o</c>
+				<c xml:id="L3C11">r</c>
+				<c xml:id="L3C12">u</c>
+				<c xml:id="L3C13">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<c xml:id="L3C15">L</c>
+		<c xml:id="L3C16">X</c>
+		<c xml:id="L3C17">X</c>
+		<c xml:id="L3C18"> </c>
+		<c xml:id="L3C19">e</c>
+		<supplied reason="lost">
+			<c xml:id="L3C20">t</c>
+		</supplied>
+		<c xml:id="L3C21"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">N</c>
+		<c xml:id="L4C2">o</c>
+		<c xml:id="L4C3">v</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">n</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">a</c>
+		<supplied reason="lost">
+			<c xml:id="L4C8">e</c>
+		</supplied>
+		<c xml:id="L4C9"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">C</c>
+		<c xml:id="L5C2">a</c>
+		<c xml:id="L5C3">m</c>
+		<c xml:id="L5C4">u</c>
+		<c xml:id="L5C5">l</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C9">i</c>
+				<c xml:id="L5C10">l</c>
+				<c xml:id="L5C11">i</c>
+				<c xml:id="L5C12">a</c>
+				<c xml:id="L5C13">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C14"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">p</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L6C2">a</c>
+				<c xml:id="L6C3">r</c>
+				<c xml:id="L6C4">e</c>
+				<c xml:id="L6C5">n</c>
+				<c xml:id="L6C6">t</c>
+				<c xml:id="L6C7">i</c>
+				<c xml:id="L6C8">b</c>
+				<c xml:id="L6C9">u</c>
+				<c xml:id="L6C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C12">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L6C13">i</c>
+				<c xml:id="L6C14">l</c>
+				<c xml:id="L6C15">i</c>
+				<c xml:id="L6C16">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C17"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C18">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L6C19">e</c>
+				<c xml:id="L6C20">c</c>
+				<c xml:id="L6C21">e</c>
+				<c xml:id="L6C22">r</c>
+				<c xml:id="L6C23">u</c>
+				<c xml:id="L6C24">n</c>
+				<c xml:id="L6C25">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

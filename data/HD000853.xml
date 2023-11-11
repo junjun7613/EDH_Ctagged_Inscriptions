@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ulpiana &amp;ndash; Gra&#231;anic&#235; / Gra&#269;anica, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000853</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000853</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(91)</height><width>(68)</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/482027">Ulpiana</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1981"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/790265">Gra&#231;anic&#235; / Gra&#269;anica, bei</placeName><placeName type="findspot">n&#246;rdliches Stadttor, Turm 1, bei</placeName><placeName type="region">Prishtin&#235; / Pri&#353;tina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000853_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD000853_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14451"><name type="nomen">[---]a?</name><name type="cognomen">Ursula</name></persName></person><person xml:id="HD000853_3" sex="M"><persName><name type="cognomen">[---]as</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-10-16" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Auf dem Rahmen des Inschriftfeldes Efeuranke und (unterhalb der Inschrift) Kantharos. (B): AE 1983: Z. 1 (Ende): nicht gelesen; Z. 4: fehlt. Z. 2 Ende: m&#246;glicherweise AE-Ligatur; Z. 3: statt ser(v)us auch cognomen Serus denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0875. (B)</bibl><bibl>M. Parovi&#263;-Pe&#353;ikan, ZAnt 33, 1983, 55-58, Nr. 2; sl. 2 (Foto u. Zeichnung). - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2">I</c>
+		<c xml:id="L0C3"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">a</c>
+		<c xml:id="L1C2"> </c>
+		<c xml:id="L1C3">U</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">s</c>
+		<c xml:id="L1C6">u</c>
+		<c xml:id="L1C7">l</c>
+		<c xml:id="L1C8">a</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">a</c>
+		<c xml:id="L2C2">s</c>
+		<c xml:id="L2C3"> </c>
+		<c xml:id="L2C4">s</c>
+		<c xml:id="L2C5">e</c>
+		<c xml:id="L2C6">r</c>
+		<expan>
+			<ex>
+				<c xml:id="L2C7">v</c>
+			</ex>
+			<abbr>
+				<c xml:id="L2C8">u</c>
+				<c xml:id="L2C9">s</c>
+			</abbr>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">v</c>
+		</supplied>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">v</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">s</c>
+		<c xml:id="L3C6"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">f</c>
+			<c xml:id="L4C2">e</c>
+		</supplied>
+		<c xml:id="L4C3">c</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">r</c>
+		<c xml:id="L4C6">u</c>
+		<c xml:id="L4C7">n</c>
+		<c xml:id="L4C8">t</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

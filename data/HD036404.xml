@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Lopodunum (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Ladenburg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036404</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036404</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Bad. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>33</height><width>(110)</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118813">Lopodunum (Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2881980">Ladenburg</placeName><placeName type="findspot">{ehemaliges Gewann Burg&#228;cker}</placeName><placeName type="region">Baden-W&#252;rttemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036404_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Cassius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-06-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034940" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0c2bca7a-aacb-4404-8a3a-eb38872e94df/file/id/795777/file_version/name/small" /><graphic xml:id="F034941" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e975b8c6-e1b3-45ca-89f1-f44ab5ae11c7/file/id/795778/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Sitzstufe des Theaters.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Wiegels, Lopodunum II. Inschriften und Kulturdenkm&#228;ler aus dem r&#246;mischen Ladenburg am Neckar (Stuttgart 2000) 63-64, Nr. 18; Abb.20.</bibl><bibl>CIL 13, 06421 E.</bibl><bibl>RSOR 077e.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<c xml:id="L1C2">V</c>
+			<c xml:id="L1C3">i</c>
+			<c xml:id="L1C4">c</c>
+			<c xml:id="L1C5">a</c>
+			<c xml:id="L1C6">n</c>
+			<c xml:id="L1C7">i</c>
+			<c xml:id="L1C8">s</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 Lopodunensibu
+		</supplied>
+		<c xml:id="L1C9">s</c>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C12">u</c>
+				<c xml:id="L1C13">i</c>
+				<c xml:id="L1C14">n</c>
+				<c xml:id="L1C15">t</c>
+				<c xml:id="L1C16">u</c>
+				<c xml:id="L1C17">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C18"> </c>
+		<c xml:id="L1C19">C</c>
+		<c xml:id="L1C20">a</c>
+		<c xml:id="L1C21">s</c>
+		<c xml:id="L1C22">s</c>
+		<c xml:id="L1C23">i</c>
+		<c xml:id="L1C24">u</c>
+		<c xml:id="L1C25">s</c>
+		<c xml:id="L1C26"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

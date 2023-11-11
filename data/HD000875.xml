@@ -1,0 +1,258 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (unknown)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000875</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000875</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. di Villa Giulia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>76</height><width>141</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" /><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000875_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Sorilius+</name><name type="cognomen">Bassus</name></persName></person><person xml:id="HD000875_2" sex="W"><persName><name type="nomen">Pacia</name><name type="cognomen">Galla</name></persName></person><person xml:id="HD000875_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sorilius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Kastengrabstein; Material: Carrara-Marmor. Genaue Herkunft unbekannt: wohl von einer Stra&#223;e, die aus Rom kommt. Relief mit 2 M&#228;nnern verschiedenen Alters und einer alten Frau in der Mitte: Sohn - Mutter - Enkel. (B): princ(ipi) statt princ(ipali); Rom(ilia) statt statt Rom(ilia) p(osuit). (C): Datierung: 1. Viertel 1. Jh. n.Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0409. (BC)</bibl><bibl>A.M. Sgubini Moretti, in: Nuove scoperte e acquisizioni nell'Etruria meridionale (Roma 1975) 251-253, Nr. 5; tav. 78, 5. (C) - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" quantity="1" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L1C2">S</c>
+			<c xml:id="L1C3">o</c>
+			<c xml:id="L1C4">r</c>
+		</supplied>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">l</c>
+		<c xml:id="L1C7">i</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C10">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C11">a</c>
+				<c xml:id="L1C12">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">i</c>
+				<c xml:id="L1C16">l</c>
+				<c xml:id="L1C17">i</c>
+				<c xml:id="L1C18">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C20">P</c>
+				<c xml:id="L1C21">u</c>
+				<c xml:id="L1C22">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C23">i</c>
+				<c xml:id="L1C24">n</c>
+				<c xml:id="L1C25">i</c>
+				<c xml:id="L1C26">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C27"> </c>
+		<c xml:id="L1C28">B</c>
+		<c xml:id="L1C29">a</c>
+		<c xml:id="L1C30">s</c>
+		<c xml:id="L1C31">s</c>
+		<c xml:id="L1C32">o</c>
+		<c xml:id="L1C33"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C34">s</c>
+				<c xml:id="L1C35">c</c>
+				<c xml:id="L1C36">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C37">i</c>
+				<c xml:id="L1C38">b</c>
+				<c xml:id="L1C39">a</c>
+				<c xml:id="L1C40">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C41"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C42">p</c>
+				<c xml:id="L1C43">r</c>
+				<c xml:id="L1C44">i</c>
+				<c xml:id="L1C45">n</c>
+				<c xml:id="L1C46">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C47">i</c>
+				<c xml:id="L1C48">p</c>
+				<c xml:id="L1C49">a</c>
+				<c xml:id="L1C50">l</c>
+				<c xml:id="L1C51">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C52"> </c>
+		<c xml:id="L1C53">P</c>
+		<c xml:id="L1C54">a</c>
+		<c xml:id="L1C55">c</c>
+		<c xml:id="L1C56">i</c>
+		<c xml:id="L1C57">a</c>
+		<c xml:id="L1C58"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C59">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C60">a</c>
+				<c xml:id="L1C61">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C62"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C63">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C64">i</c>
+				<c xml:id="L1C65">l</c>
+				<c xml:id="L1C66">i</c>
+				<c xml:id="L1C67">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C68"> </c>
+		<c xml:id="L1C69">G</c>
+		<c xml:id="L1C70">a</c>
+		<c xml:id="L1C71">l</c>
+		<c xml:id="L1C72">l</c>
+		<c xml:id="L1C73">a</c>
+		<c xml:id="L1C74"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C75">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C76">a</c>
+				<c xml:id="L1C77">i</c>
+				<c xml:id="L1C78">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C79"> </c>
+		<c xml:id="L1C80">S</c>
+		<c xml:id="L1C81">o</c>
+		<c xml:id="L1C82">r</c>
+		<c xml:id="L1C83">i</c>
+		<c xml:id="L1C84">l</c>
+		<c xml:id="L1C85">i</c>
+		<c xml:id="L1C86">o</c>
+		<c xml:id="L1C87"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C88">Q</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C89">u</c>
+				<c xml:id="L1C90">i</c>
+				<c xml:id="L1C91">n</c>
+				<c xml:id="L1C92">t</c>
+				<c xml:id="L1C93">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C94"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C95">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C96">i</c>
+				<c xml:id="L1C97">l</c>
+				<c xml:id="L1C98">i</c>
+				<c xml:id="L1C99">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C100"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C101">R</c>
+				<c xml:id="L1C102">o</c>
+				<c xml:id="L1C103">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C104">i</c>
+				<c xml:id="L1C105">l</c>
+				<c xml:id="L1C106">i</c>
+				<c xml:id="L1C107">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C108"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C109">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C110">o</c>
+				<c xml:id="L1C111">s</c>
+				<c xml:id="L1C112">u</c>
+				<c xml:id="L1C113">i</c>
+				<c xml:id="L1C114">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

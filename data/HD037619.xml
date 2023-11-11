@@ -1,0 +1,255 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Szeksz&#225;rd (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037619</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037619</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044760">Szeksz&#225;rd</placeName><placeName type="findspot" /><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037619_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037619_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aciivus?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037619_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]nianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-21" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterhalb von Z. 6 Ornamente.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1028.</bibl><bibl>CIL 03, 03300.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L1C1">c</c>
+				</supplied>
+				<c xml:id="L1C2">o</c>
+				<c xml:id="L1C3">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C4">o</c>
+				<c xml:id="L1C5">r</c>
+				<c xml:id="L1C6">t</c>
+				<c xml:id="L1C7">i</c>
+				<c xml:id="L1C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">I</c>
+		<c xml:id="L1C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C12">N</c>
+				<c xml:id="L1C13">o</c>
+				<c xml:id="L1C14">r</c>
+				<supplied reason="lost">i</supplied>
+				c
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">o</c>
+				<c xml:id="L1C16">r</c>
+				<c xml:id="L1C17">u</c>
+				<c xml:id="L1C18">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C19"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">v</c>
+					<c xml:id="L2C2">i</c>
+					<c xml:id="L2C3">x</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C4">i</c>
+					<c xml:id="L2C5">t</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C6"> </c>
+			<c xml:id="L2C7">a</c>
+			<c xml:id="L2C8">n</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L2C9">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C10">o</c>
+				<c xml:id="L2C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<c xml:id="L2C13">X</c>
+		<c xml:id="L2C14">X</c>
+		<c xml:id="L2C15">X</c>
+		<c xml:id="L2C16">V</c>
+		<c xml:id="L2C17"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C18"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L3C1">e</c>
+		</supplied>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C4">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C5">a</c>
+				<c xml:id="L3C6">r</c>
+				<c xml:id="L3C7">c</c>
+				<c xml:id="L3C8">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C10">A</c>
+				<c xml:id="L3C11">c</c>
+				<c xml:id="L3C12">I</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L3C13">I</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L3C14">v</c>
+		<c xml:id="L3C15">o</c>
+		<c xml:id="L3C16"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1"> </c>
+		<c xml:id="L4C2">v</c>
+		<c xml:id="L4C3">i</c>
+		<c xml:id="L4C4">x</c>
+		<c xml:id="L4C5">i</c>
+		<c xml:id="L4C6">t</c>
+		<c xml:id="L4C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C8">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L4C9">o</c>
+				<c xml:id="L4C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C11"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1">n</c>
+		<c xml:id="L5C2">i</c>
+		<c xml:id="L5C3">a</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L5C4">n</c>
+			<c xml:id="L5C5">u</c>
+			<c xml:id="L5C6">s</c>
+		</supplied>
+		<c xml:id="L5C7"> </c>
+		<supplied reason="lost">
+			<c xml:id="L5C8">v</c>
+		</supplied>
+		<c xml:id="L5C9">i</c>
+		<c xml:id="L5C10">v</c>
+		<c xml:id="L5C11">u</c>
+		<c xml:id="L5C12">s</c>
+		<c xml:id="L5C13"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<c xml:id="L6C1">s</c>
+			<c xml:id="L6C2">i</c>
+			<c xml:id="L6C3">b</c>
+			<c xml:id="L6C4">i</c>
+		</supplied>
+		<c xml:id="L6C5"> </c>
+		<c xml:id="L6C6">e</c>
+		<c xml:id="L6C7">t</c>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">p</c>
+		<c xml:id="L6C10">a</c>
+		<supplied reason="lost">
+			<c xml:id="L6C11">t</c>
+		</supplied>
+		<c xml:id="L6C12">r</c>
+		<c xml:id="L6C13">i</c>
+		<c xml:id="L6C14"> </c>
+		<c xml:id="L6C15">b</c>
+		<c xml:id="L6C16">e</c>
+		<c xml:id="L6C17">n</c>
+		<c xml:id="L6C18">e</c>
+		<c xml:id="L6C19"> </c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L6C20">m</c>
+			<c xml:id="L6C21">(</c>
+			<c xml:id="L6C22">e</c>
+			<c xml:id="L6C23">r</c>
+			<c xml:id="L6C24">e</c>
+			<c xml:id="L6C25">n</c>
+			<c xml:id="L6C26">t</c>
+			<c xml:id="L6C27">i</c>
+			<c xml:id="L6C28">)</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

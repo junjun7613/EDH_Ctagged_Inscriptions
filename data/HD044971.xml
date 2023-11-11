@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Epamanduodurum, bei &amp;ndash; Mathay (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044971</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044971</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Montb&#233;liard, Mus. du ch&#226;teau des ducs de Wurtemberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/163">jewellery</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze, Silber</material><dimensions unit="cm"><width>2</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177576">Epamanduodurum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1990"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2995189">Mathay</placeName><placeName type="findspot">{L'Essart&#233;, Handwerkerviertel}</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044971_1" sex="M"><persName><name type="cognomen">Torna(---9</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-20" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Scheibenfibel; Breitenangabe bezieht sich auf den Scheibendurchmesser. Schreibtechnik: gestempelt. Kreisrunde Scheibe mit der Darstellung eines Reiters nach rechts; die Inschrift verl&#228;uft am unteren Rand. Material: versilberte Bronze.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1259.</bibl><bibl>J.-P. Mazimann, Instrumentum 17, 2003, 26; Fig. 1. - AE 2003.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<abbr>
+			<c xml:id="L1C2">T</c>
+			<c xml:id="L1C3">o</c>
+			<c xml:id="L1C4">r</c>
+			<c xml:id="L1C5">n</c>
+			<c xml:id="L1C6">a</c>
+		</abbr>
+		<c xml:id="L1C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C8">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C9">e</c>
+				<c xml:id="L1C10">c</c>
+				<c xml:id="L1C11">i</c>
+				<c xml:id="L1C12">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

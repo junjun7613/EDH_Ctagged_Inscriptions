@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Vollmersbach, bei (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076180</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076180</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Birkenfeld?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">urn?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>40</height><width>54</width><depth>78</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1887"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2816562">Vollmersbach, bei</placeName><placeName type="findspot" /><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028281" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c95715c7-5de0-47e3-91af-eff2d43266e5/file/id/789038/file_version/name/small" /><graphic xml:id="F028282" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81a2d055-ddb0-4114-b12f-ad6f2cdaf379/file/id/789039/file_version/name/small" /><graphic xml:id="F028283" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8c7b33d9-1318-47d4-8545-697a229413d9/file/id/789040/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Aschenkiste mit Deckel, die Inschrift befindet sich auf dem Kopf stehend an der Schmalseite. Text 2 befindet sich an der Langseite des Deckels. Steinmetzzeichen?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06206.</bibl><bibl>F. Back, KWDZ 6, 1887, 135.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<c xml:id="L1C2">S</c>
+			<c xml:id="L1C3">V</c>
+			<c xml:id="L1C4">S</c>
+			<c xml:id="L1C5"> </c>
+			<c xml:id="L1C6">H</c>
+			<c xml:id="L1C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C8">L</c>
+				</abbr>
+				<ex cert="low" />
+			</expan>
+			<c xml:id="L1C9"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C10">I</c>
+				</abbr>
+				<ex cert="low" />
+			</expan>
+			<c xml:id="L1C11"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">O</c>
+				</abbr>
+				<ex cert="low" />
+				<c xml:id="L1C3">I</c>
+				<c xml:id="L1C4">A</c>
+			</expan>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

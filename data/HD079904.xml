@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae Granni &amp;ndash; Aachen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079904</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079904</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aachen, Stadt Aachen, Stadtarch&#228;ologie</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108749">Aquae Granni</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2015"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2885438">Aachen</placeName><placeName type="findspot" /><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Christogramm am Ende der letzten Zeile.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>W. Schmitz, in: L. Clemens - H. Merten - C. Sch&#228;fer (Hrsg.), Fr&#252;hchristliche Grabinschriften im Westen des R&#246;misches Reiches (Trier 2015) 92; Abb. 4. - AE 2017.</bibl><bibl>A. Schaub, BJ 208, 2008, 165; Abb. 6. - AE 2017.</bibl><bibl>AE 2017, 0992.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C3">f</c>
+				<c xml:id="L0C4">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C5">c</c>
+				<c xml:id="L0C6">i</c>
+				<c xml:id="L0C7">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C8"> </c>
+		<c xml:id="L0C9">t</c>
+		<c xml:id="L0C10">i</c>
+		<c xml:id="L0C11">t</c>
+		<c xml:id="L0C12">&amp;</c>
+		<c xml:id="L0C13">l</c>
+		<c xml:id="L0C14">t</c>
+		<c xml:id="L0C15">;</c>
+		<c xml:id="L0C16">u</c>
+		<c xml:id="L0C17">=</c>
+		<c xml:id="L0C18">O</c>
+		<c xml:id="L0C19">&amp;</c>
+		<c xml:id="L0C20">g</c>
+		<c xml:id="L0C21">t</c>
+		<c xml:id="L0C22">;</c>
+		<c xml:id="L0C23">(</c>
+		<c xml:id="L0C24">l</c>
+		<c xml:id="L0C25">u</c>
+		<c xml:id="L0C26">m</c>
+		<c xml:id="L0C27">)</c>
+		<c xml:id="L0C28"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C29"> </c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

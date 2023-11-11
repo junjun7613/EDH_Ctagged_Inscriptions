@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080931</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080931</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>(5)</height><width>12</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0030" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1952"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">Legionslager, bei, {Schutth&#252;gel}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/402">letter</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080931_1" sex="M"><persName><name type="cognomen">Valens</name></persName></person><person xml:id="HD080931_2" sex="M"><persName><name type="nomen">Romanius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD080931_3" sex="M"><persName><name type="cognomen">Flacilus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-13" who="Osnabr&#252;gge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Untere H&#228;lfte der Aussentafel eines Briefes. Schreibtechnik: geritzt. Kursive Schrift. Text 1: &#228;ltere Inschrift, darunter j&#252;ngere Inschrift Text 2. Text 1: CEL 050; Text 2: CEL 034.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CEL 034.</bibl><bibl>CEL 050.</bibl><bibl>CEL 034 + 050 add. p. 65.</bibl><bibl>R. Laur-Belart, Pro Vindonissa 1952&#173;-1953, 18; Abb. 5 (Zeichnung).</bibl><bibl>M.A. Speidel, Die r&#246;mischen Schreibtafeln von Vindonissa (Brugg 1996) 146-147, Nr. 25; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<c xml:id="L1C1">V</c>
+			<c xml:id="L1C2">a</c>
+			<c xml:id="L1C3">l</c>
+			<c xml:id="L1C4">e</c>
+			<c xml:id="L1C5">n</c>
+			<c xml:id="L1C6">t</c>
+			<c xml:id="L1C7">i</c>
+			<c xml:id="L1C8"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">a</c>
+			<c xml:id="L1C4">b</c>
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">s</c>
+			<c xml:id="L1C7"> </c>
+			<c xml:id="L1C8">R</c>
+			<c xml:id="L1C9">o</c>
+			<c xml:id="L1C10">m</c>
+			<c xml:id="L1C11">a</c>
+			<c xml:id="L1C12">n</c>
+			<c xml:id="L1C13">i</c>
+			<c xml:id="L1C14">o</c>
+			<c xml:id="L1C15"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">S</c>
+			<c xml:id="L2C2">e</c>
+			<c xml:id="L2C3">c</c>
+			<c xml:id="L2C4">u</c>
+			<c xml:id="L2C5">n</c>
+			<c xml:id="L2C6">d</c>
+			<c xml:id="L2C7">o</c>
+			<c xml:id="L2C8"> </c>
+			<c xml:id="L2C9">|</c>
+			<c xml:id="L2C10">(</c>
+			<c xml:id="L2C11">c</c>
+			<c xml:id="L2C12">e</c>
+			<c xml:id="L2C13">n</c>
+			<c xml:id="L2C14">t</c>
+			<c xml:id="L2C15">u</c>
+			<c xml:id="L2C16">r</c>
+			<c xml:id="L2C17">i</c>
+			<c xml:id="L2C18">o</c>
+			<c xml:id="L2C19">)</c>
+			<c xml:id="L2C20"> </c>
+			<c xml:id="L2C21">F</c>
+			<c xml:id="L2C22">l</c>
+			<c xml:id="L2C23">a</c>
+			<c xml:id="L2C24">c</c>
+			<c xml:id="L2C25">i</c>
+			<c xml:id="L2C26">l</c>
+			<c xml:id="L2C27">i</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

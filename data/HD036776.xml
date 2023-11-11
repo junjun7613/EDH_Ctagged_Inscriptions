@@ -1,0 +1,85 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acclamation from Arae Flaviae &amp;ndash; Rottweil (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036776</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036776</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/122">Glas</material><dimensions unit="cm"><height>(6)</height><width>(4)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118572">Arae Flaviae</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1887"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843636">Rottweil</placeName><placeName type="findspot" /><placeName type="region">Baden-W&#252;rttemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/73">acclamation</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036776_1" sex="M"><persName><name type="cognomen">Hierax+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-11-25" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037318" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b6a6f1e6-6a9d-4e22-9c43-ffd47d9537b1/file/id/798184/file_version/name/small" /><graphic xml:id="F037320" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/97759c02-c100-49b0-9bc4-918bc0477bf0/file/id/798186/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment eines Gef&#228;&#223;es aus blaugr&#252;nem Glas; Inschrift unterhalb der Lippe; darunter Darstellung eines Wagenrennens.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Haug - G. Sixt, Die r&#246;mischen Inschriften und Bildwerke W&#252;rttembergs (2. Aufl. Stuttgart 1914) 162, Nr. 85; Foto.</bibl><bibl>CIL 13, 10025, 174.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C2">H</c>
+		</supplied>
+		<c xml:id="L1C3">i</c>
+		<c xml:id="L1C4">e</c>
+		<c xml:id="L1C5">r</c>
+		<c xml:id="L1C6">a</c>
+		<c xml:id="L1C7">x</c>
+		<c xml:id="L1C8"> </c>
+		<c xml:id="L1C9">v</c>
+		<c xml:id="L1C10">a</c>
+		<supplied reason="lost">
+			<c xml:id="L1C11">l</c>
+			<c xml:id="L1C12">e</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

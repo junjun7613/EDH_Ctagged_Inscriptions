@@ -1,0 +1,86 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acclamation from Borbetomagus (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078570</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078570</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesamt f&#252;r Denkmalpflege</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 430 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1993"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot" /><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/73">acclamation</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078570_1" sex="W"><persName><name type="cognomen">Lupiana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-31" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Balkenkopfzier in Form einer m&#228;nnlichen B&#252;ste. Die Inschrift befindet sich auf der Brust unterhalb des Kopfes. Schreibtechnik: graviert. Gefunden in einem um 400 verf&#252;llten Brunnen. Dazu geh&#246;rte ein Anh&#228;nger mit Christogramm. Terrien; Ristow: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Ristow, Fr&#252;hes Christentum im Rheinland. Die Zeugnisse der arch&#228;ologischen und historischen Quellen an Rhein, Maas und Mosel (K&#246;ln 2007) 440, Nr. 552; Taf. 72 c-f.</bibl><bibl>M.-P. Terrien, La christianisation de la r&#233;gion rh&#233;nane du IVe au milieu du VIIIe si&#232;cle. Corpus (Besan&#231;on 2007) 193.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">L</c>
+		<c xml:id="L1C3">u</c>
+		<c xml:id="L1C4">p</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">a</c>
+		<c xml:id="L1C7">n</c>
+		<c xml:id="L1C8">a</c>
+		<c xml:id="L1C9">e</c>
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">v</c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">v</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

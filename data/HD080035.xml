@@ -1,0 +1,307 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription (unknown?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080035</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080035</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Z&#252;rich, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/118">diptych</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/120">Elfenbein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown?</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate when-custom="0506" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">506 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1620"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland?</placeName><placeName type="modern" /><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080035_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Areobindus* Dagalaifus* Areobindus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-26" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Konsulardiptychon. Darstellung des Konsuls, sitzend, der Circusspielen pr&#228;sidiert (Tierk&#228;mpfe: L&#246;wen und B&#228;ren), in der Linken Szepter. Die Inschrift befindet sich im oberen Teil in einem als tabula ansata gestalteten Inschriftfeld. Im unteren Teil des Bildfeldes Monogramm des Areobindus. Provenienz unbekannt, erscheint erstmals im 17. Jh. n. Chr. im Privatbesitz des Z&#252;rcher Historikers Johann Heinrich Hottinger (1620-1667). (B): Kraus: Text 2: magister mititiae (sic).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1747.</bibl><bibl>CIL 13, 05245.</bibl><bibl>CIL 13, 10032, 3a.</bibl><bibl>CIMAH 4, 01; Taf. 1, 1 u. 2.</bibl><bibl>PLRE Areobindus 1.</bibl><bibl>F.X. Kraus, Die christlichen Inschriften der Rheinlande (Freiburg i. B. 1890) 6, Nr. 9. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">F</c>
+					<c xml:id="L1C3">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C4">a</c>
+					<c xml:id="L1C5">v</c>
+					<c xml:id="L1C6">i</c>
+					<c xml:id="L1C7">u</c>
+					<c xml:id="L1C8">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C9"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C10">A</c>
+					<c xml:id="L1C11">r</c>
+					<c xml:id="L1C12">e</c>
+					<c xml:id="L1C13">o</c>
+					<c xml:id="L1C14">b</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C15">i</c>
+					<c xml:id="L1C16">n</c>
+					<c xml:id="L1C17">d</c>
+					<c xml:id="L1C18">u</c>
+					<c xml:id="L1C19">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C21">D</c>
+					<c xml:id="L1C22">a</c>
+					<c xml:id="L1C23">g</c>
+					<c xml:id="L1C24">a</c>
+					<c xml:id="L1C25">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C26">a</c>
+					<c xml:id="L1C27">i</c>
+					<c xml:id="L1C28">f</c>
+					<c xml:id="L1C29">u</c>
+					<c xml:id="L1C30">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C31"> </c>
+			<c xml:id="L1C32">A</c>
+			<c xml:id="L1C33">r</c>
+			<c xml:id="L1C34">e</c>
+			<c xml:id="L1C35">o</c>
+			<c xml:id="L1C36">b</c>
+			<c xml:id="L1C37">i</c>
+			<c xml:id="L1C38">n</c>
+			<c xml:id="L1C39">d</c>
+			<c xml:id="L1C40">u</c>
+			<c xml:id="L1C41">s</c>
+			<c xml:id="L1C42"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C43">v</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C44">i</c>
+					<c xml:id="L1C45">r</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C46"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C47">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C48">l</c>
+					<c xml:id="L1C49">l</c>
+					<c xml:id="L1C50">u</c>
+					<c xml:id="L1C51">s</c>
+					<c xml:id="L1C52">t</c>
+					<c xml:id="L1C53">r</c>
+					<c xml:id="L1C54">i</c>
+					<c xml:id="L1C55">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C56"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">e</c>
+			<c xml:id="L1C3">x</c>
+			<c xml:id="L1C4"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C5">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C6">o</c>
+					<c xml:id="L1C7">m</c>
+					<c xml:id="L1C8">i</c>
+					<c xml:id="L1C9">t</c>
+					<c xml:id="L1C10">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C11"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C12">s</c>
+					<c xml:id="L1C13">a</c>
+					<c xml:id="L1C14">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C15">r</c>
+					<c xml:id="L1C16">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C18">s</c>
+					<c xml:id="L1C19">t</c>
+					<c xml:id="L1C20">a</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C21">b</c>
+					<c xml:id="L1C22">u</c>
+					<c xml:id="L1C23">l</c>
+					<c xml:id="L1C24">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C25"> </c>
+			<c xml:id="L1C26">e</c>
+			<c xml:id="L1C27">t</c>
+			<c xml:id="L1C28"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C29">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C30">a</c>
+					<c xml:id="L1C31">g</c>
+					<c xml:id="L1C32">i</c>
+					<c xml:id="L1C33">s</c>
+					<c xml:id="L1C34">t</c>
+					<c xml:id="L1C35">e</c>
+					<c xml:id="L1C36">r</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C37"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C38">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C39">i</c>
+					<c xml:id="L1C40">l</c>
+					<c xml:id="L1C41">i</c>
+					<c xml:id="L1C42">t</c>
+					<c xml:id="L1C43">u</c>
+					<c xml:id="L1C44">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C45"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C46">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C47">e</c>
+					<c xml:id="L1C48">r</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C49"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C50">O</c>
+					<c xml:id="L1C51">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C52">i</c>
+					<c xml:id="L1C53">e</c>
+					<c xml:id="L1C54">n</c>
+					<c xml:id="L1C55">t</c>
+					<c xml:id="L1C56">e</c>
+					<c xml:id="L1C57">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C58"> </c>
+			<c xml:id="L1C59">e</c>
+			<c xml:id="L1C60">x</c>
+			<c xml:id="L1C61"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C62">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C63">o</c>
+					<c xml:id="L1C64">n</c>
+					<c xml:id="L1C65">s</c>
+					<c xml:id="L1C66">u</c>
+					<c xml:id="L1C67">l</c>
+					<c xml:id="L1C68">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C69"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C70">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C71">o</c>
+					<c xml:id="L1C72">n</c>
+					<c xml:id="L1C73">s</c>
+					<c xml:id="L1C74">u</c>
+					<c xml:id="L1C75">l</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C76"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C77">o</c>
+					<c xml:id="L1C78">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C79">d</c>
+					<c xml:id="L1C80">i</c>
+					<c xml:id="L1C81">n</c>
+					<c xml:id="L1C82">a</c>
+					<c xml:id="L1C83">r</c>
+					<c xml:id="L1C84">i</c>
+					<c xml:id="L1C85">u</c>
+					<c xml:id="L1C86">s</c>
+				</ex>
+			</expan>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

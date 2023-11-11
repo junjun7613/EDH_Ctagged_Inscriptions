@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salodurum &amp;ndash; Solothurn (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080356</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080356</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177624">Salodurum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1550"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658564">Solothurn</placeName><placeName type="findspot">{SS. Urs und Victor, Kathedrale}, Portal, sekund&#228;r verwendet</placeName><placeName type="region">Kanton Solothurn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080356_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Crassicius+</name><name type="cognomen">Avitus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-17" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>1762 zuletzt gesehen. Z. 2: vielleicht auch f(ratri), f[ratri] o.&#228;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05179.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">T</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">t</c>
+				<c xml:id="L1C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<c xml:id="L1C7">C</c>
+		<c xml:id="L1C8">r</c>
+		<c xml:id="L1C9">a</c>
+		<c xml:id="L1C10">s</c>
+		<c xml:id="L1C11">s</c>
+		<c xml:id="L1C12">i</c>
+		<c xml:id="L1C13">c</c>
+		<supplied reason="lost">
+			<c xml:id="L1C14">i</c>
+			<c xml:id="L1C15">o</c>
+		</supplied>
+		<c xml:id="L1C16"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">v</c>
+		<c xml:id="L2C3">i</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5">o</c>
+		<c xml:id="L2C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C7">f</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L2C8">i</c>
+				<c xml:id="L2C9">l</c>
+				<c xml:id="L2C10">i</c>
+				<c xml:id="L2C11">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L2C13"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">a</c>
+				<c xml:id="L3C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C3">n</c>
+				<c xml:id="L3C4">o</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">u</c>
+				<c xml:id="L3C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">X</c>
+		<c xml:id="L3C10">X</c>
+		<c xml:id="L3C11">X</c>
+		<c xml:id="L3C12">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

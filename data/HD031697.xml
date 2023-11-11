@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Urso &amp;ndash; Osuna (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031697</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031697</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(26)</height><width>(25)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256503">Urso</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2513052">Osuna</placeName><placeName type="findspot">S. Francisco, Kloster</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031697_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ili?</name><name type="cognomen">Au[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-03-14" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 05, 01090; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">I</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C2">l</c>
+			<c xml:id="L1C3">i</c>
+		</expan>
+		<c xml:id="L1C4"> </c>
+		<c xml:id="L1C5">A</c>
+		<c xml:id="L1C6">u</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L2C1">a</c>
+					<c xml:id="L2C2">n</c>
+					<c xml:id="L2C3">n</c>
+				</supplied>
+				<c xml:id="L2C4">o</c>
+				<c xml:id="L2C5">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">u</c>
+				<c xml:id="L2C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">L</c>
+		<c xml:id="L2C10">X</c>
+		<c xml:id="L2C11"> </c>
+		<c xml:id="L2C12">p</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C13">i</c>
+			<c xml:id="L2C14">-</c>
+			<c xml:id="L2C15"> </c>
+			<c xml:id="L2C16">i</c>
+			<c xml:id="L2C17">n</c>
+			<c xml:id="L2C18"> </c>
+			<c xml:id="L2C19">s</c>
+			<c xml:id="L2C20">u</c>
+			<c xml:id="L2C21">i</c>
+			<c xml:id="L2C22">s</c>
+		</supplied>
+		<c xml:id="L2C23"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">s</c>
+			<c xml:id="L3C2">i</c>
+			<c xml:id="L3C3">t</c>
+		</supplied>
+		<c xml:id="L3C4"> </c>
+		<c xml:id="L3C5">t</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7">b</c>
+		<supplied reason="lost">
+			<c xml:id="L3C8">i</c>
+			<c xml:id="L3C9"> </c>
+			<c xml:id="L3C10">t</c>
+			<c xml:id="L3C11">e</c>
+			<c xml:id="L3C12">r</c>
+			<c xml:id="L3C13">r</c>
+			<c xml:id="L3C14">a</c>
+			<c xml:id="L3C15"> </c>
+			<c xml:id="L3C16">l</c>
+			<c xml:id="L3C17">e</c>
+			<c xml:id="L3C18">v</c>
+			<c xml:id="L3C19">i</c>
+			<c xml:id="L3C20">s</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

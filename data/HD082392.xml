@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Niederhergheim (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082392</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082392</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>162</height><width>55</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2011"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Niederhergheim</placeName><placeName type="findspot">{Rue d'Oberhergheim}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082392_1" sex="M"><persName><name type="cognomen">Tauricus</name></persName></person><person xml:id="HD082392_2" sex="M"><persName><name type="cognomen">Marcellinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-18" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. Zwei bogenf&#246;riig abschlie&#223;ende Bildfelder; im oberen eine Mondsichel, im unteren zwei Roseten. Z. 1: Die Buchstaben D und M befinden sich in den Zwiickeln zwischen den beiden Bildfeldern. Z. 2 u. 3 befinden sich unterhalb des unteren Bildfeldes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>D. Bonneterre u. a. REA 68, 2019, 178-179, Nr. 2, 6; fig. 20 (Foto u. Zeichnung); fig. 28 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C13"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">T</c>
+			<c xml:id="L1C3">a</c>
+			<c xml:id="L1C4">u</c>
+			<c xml:id="L1C5">r</c>
+			<c xml:id="L1C6">i</c>
+			<c xml:id="L1C7">c</c>
+			<c xml:id="L1C8">u</c>
+			<c xml:id="L1C9">s</c>
+			<c xml:id="L1C10"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">M</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">r</c>
+			<c xml:id="L2C4">c</c>
+			<c xml:id="L2C5">e</c>
+			<c xml:id="L2C6">l</c>
+			<c xml:id="L2C7">l</c>
+			<c xml:id="L2C8">i</c>
+			<c xml:id="L2C9">n</c>
+			<c xml:id="L2C10">i</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

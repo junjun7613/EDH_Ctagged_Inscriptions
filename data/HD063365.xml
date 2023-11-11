@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063365</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063365</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(18)</height><width>(14)</width><depth>1</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1922"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186233">Solin</placeName><placeName type="findspot">Vranjic, bei, &#268;u&#263;ine ku&#263;e, bei, {Crikvine, Nekropole}?</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD063365_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-21" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033885" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b98735a8-b0f7-441e-9706-3c4b80f2f04e/file/id/794694/file_version/name/small" /><graphic xml:id="F033886" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cd1422c5-6698-4820-b045-c4953d70df39/file/id/794695/file_version/name/small" /><graphic xml:id="F033887" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/013e7089-fa6d-4260-8441-9eb0fb52c923/file/id/794696/file_version/name/small" /><graphic xml:id="F033888" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/65ef48b5-7111-4c70-a66e-3e54ad4dc572/file/id/794697/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Inschrifttext verteilt sich oberhalb, links und m&#246;glicherweise ehemals auch rechts eines eingeritzten Frauenportr&#228;ts. Z. 1: statt L auch E, statt O auch C oder G m&#246;glich. (B): Mar&#353;i&#263;: Z. 1 nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1170.</bibl><bibl>AE 2012, 1096.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chr&#233;tienne, IVe-VIIe si&#232;cles (Rome - Split 2010) 348-349, Nr. 127; Foto. - AE 2010.</bibl><bibl>D. Mar&#353;i&#263;, Tusculum 4, 2011, 30, Nr. 5; sl. 4. (B) - AE 2012.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C1">M</c>
+				<c xml:id="L1C2">L</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L1C3">O</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C4"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<c xml:id="L2C1">c</c>
+		</supplied>
+		<c xml:id="L2C2">o</c>
+		<c xml:id="L2C3">n</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">u</c>
+		<c xml:id="L2C6">g</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">I</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C1">D</c>
+		<c xml:id="L3C2"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">O</c>
+		<c xml:id="L4C2">S</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

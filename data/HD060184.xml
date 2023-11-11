@@ -1,0 +1,153 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from (Civitas Auderiensium) &amp;ndash; Stockstadt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060184</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060184</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Homburg/H&#246;he, R&#246;merkastell Saalburg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(20)</height><width>(11)</width><depth>(19)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118976">(Civitas Auderiensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2826670">Stockstadt/Main</placeName><placeName type="findspot">{Beneficiarier-Weihbezirk}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-12-18" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020917" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4c8eb0a5-4ec1-4820-87f8-0731a16b603c/file/id/780991/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Material: wei&#223;er Sandstein. (B): Drexel u. RSOR: lesen in Zeile &#252;ber &amp;quot;&amp;quot;gio&amp;quot;&amp;quot; noch ein &amp;quot;&amp;quot;S&amp;quot;&amp;quot; (Drexel) bzw. &amp;quot;&amp;quot;E&amp;quot;&amp;quot; (RSOR). Aufl&#246;sung der Buchstabenreste zu Schlussformel nicht gesichert. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06641a.</bibl><bibl>RSOR 026. (B)</bibl><bibl>F. Drexel, in: Der obergermanisch-r&#228;tische Limes des R&#246;merreiches B, III, 33 (Lieferung 33) (Heidelberg 1914) 74, Nr. 22m. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">G</c>
+		<c xml:id="L1C2">I</c>
+		<c xml:id="L1C3">O</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C4"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">o</c>
+				<c xml:id="L2C3">t</c>
+				<c xml:id="L2C4">u</c>
+				<c xml:id="L2C5">m</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">[</c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C9">o</c>
+				<c xml:id="L2C10">l</c>
+				<c xml:id="L2C11">v</c>
+				<c xml:id="L2C12">i</c>
+				<c xml:id="L2C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C15">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C16">i</c>
+				<c xml:id="L2C17">b</c>
+				<c xml:id="L2C18">e</c>
+				<c xml:id="L2C19">n</c>
+				<c xml:id="L2C20">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C21"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C22">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C23">a</c>
+				<c xml:id="L2C24">e</c>
+				<c xml:id="L2C25">t</c>
+				<c xml:id="L2C26">u</c>
+				<c xml:id="L2C27">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C28"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C29">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C30">e</c>
+				<c xml:id="L2C31">r</c>
+				<c xml:id="L2C32">i</c>
+				<c xml:id="L2C33">t</c>
+				<c xml:id="L2C34">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C35"> </c>
+		<c xml:id="L2C36">-</c>
+		<c xml:id="L2C37">-</c>
+		<c xml:id="L2C38">-</c>
+		<c xml:id="L2C39">-</c>
+		<c xml:id="L2C40">-</c>
+		<c xml:id="L2C41">-</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

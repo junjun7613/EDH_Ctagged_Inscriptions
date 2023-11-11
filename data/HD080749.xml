@@ -1,0 +1,150 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Luxovium &amp;ndash; Luxeuil-les-Bains (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080749</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080749</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Luxeuil, Mus. de la Tour des &#201;chevins</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(100)</height><width>65</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177568">Luxovium</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1845"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996995">Luxeuil-les-Bains</placeName><placeName type="findspot">{Rue Jean-Jaur&#233;s 9-13}, sp&#228;tantikes Lager, sekund&#228;r verwendet</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080749_1" sex="M"><persName><name type="cognomen">Musinus</name></persName></person><person xml:id="HD080749_2" sex="M"><persName><name type="cognomen">Irenilus?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei Bruchst&#252;cke einer Stele mit ganzfiguriger Darstellung eines Mannes. Das gr&#246;&#223;ere Fragment mit dem gr&#246;&#223;ten Teil der Figur, b&#228;rtiger Mannim Mantel, in der Linken Peitsche oder Gerte. Die Ma&#223;angabe bezieht sich auf dieses Fragment. Das zweite, kleinere Fragment mit den F&#252;&#223;en und der Inschrift unterhalb des Bildfeldes. H&#246;he des kleineren Fragmentes: 40cm. Nach der Auffindung zerbrochen, urspr&#252;ngliche H&#246;he 180 cm. (B): Esp&#233;randieu; CAG; Z. 2: Musin[i] Ire[ni]l(l)i fi(l); Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05440.</bibl><bibl>&#201;. Esp&#233;randieu, Recueil g&#233;n&#233;ral des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 53, Nr. 5321; Foto. (B)</bibl><bibl>H. Walter, La sculpture fun&#233;raire gallo-romaine en Franche-Comt&#233; (Paris 1974) 63-64, Nr. 36; Taf. 12 u. 13.</bibl><bibl>O. Faure-Brac, La Haute-Sa&#244;ne, Carte arch&#233;ologique de la Gaule 70 (Paris 2002) 295; fig. 330. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">s</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">n</c>
+		<c xml:id="L2C6">&amp;</c>
+		<c xml:id="L2C7">l</c>
+		<c xml:id="L2C8">t</c>
+		<c xml:id="L2C9">;</c>
+		<c xml:id="L2C10">i</c>
+		<c xml:id="L2C11">=</c>
+		<c xml:id="L2C12">L</c>
+		<c xml:id="L2C13">&amp;</c>
+		<c xml:id="L2C14">g</c>
+		<c xml:id="L2C15">t</c>
+		<c xml:id="L2C16">;</c>
+		<c xml:id="L2C17"> </c>
+		<c xml:id="L2C18">I</c>
+		<c xml:id="L2C19">r</c>
+		<c xml:id="L2C20">e</c>
+		<c xml:id="L2C21">&amp;</c>
+		<c xml:id="L2C22">l</c>
+		<c xml:id="L2C23">t</c>
+		<c xml:id="L2C24">;</c>
+		<c xml:id="L2C25">n</c>
+		<c xml:id="L2C26">i</c>
+		<c xml:id="L2C27">l</c>
+		<c xml:id="L2C28">=</c>
+		<c xml:id="L2C29">&#923;</c>
+		<c xml:id="L2C30">H</c>
+		<c xml:id="L2C31">&amp;</c>
+		<c xml:id="L2C32">g</c>
+		<c xml:id="L2C33">t</c>
+		<c xml:id="L2C34">;</c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C35">l</c>
+				<c xml:id="L2C36">i</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<c xml:id="L2C37"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C38">f</c>
+				<c xml:id="L2C39">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C40">l</c>
+				<c xml:id="L2C41">i</c>
+				<c xml:id="L2C42">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C43"> </c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

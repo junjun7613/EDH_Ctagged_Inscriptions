@@ -1,0 +1,86 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Basilia (Civitas Rauricorum) &amp;ndash; Basel (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079505</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079505</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Basel, Hist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/124">Knochen</material><dimensions unit="cm"><height>4</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177468">Basilia (Civitas Rauricorum)</placeName></origPlace><origDate><origDate notBefore-custom="-0027" notAfter-custom="0020" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">27 BC - 20 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1974"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661604">Basel</placeName><placeName type="findspot">{M&#252;nster}</placeName><placeName type="region">Kanton Basel-Stadt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079505_1" sex="M"><persName><name type="nomen">Torius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-17" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035880" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7cf1bcb2-d91d-458e-8267-151160c9a26c/file/id/796730/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gep&#228;ckanh&#228;nger, aus Hirschgeweih geschnitzt. Schreibtechnik: geritzt. Erstes T zu T(iti) oder eher T(urma) aufzul&#246;sen. (B): Fellmann; Bartels u. a.: T(iti) Tori.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 0991.</bibl><bibl>A. Hagendorn, ArchS 28, 2, 2915, 30; fig. 4. - AE 2015.</bibl><bibl>A. Furger-Gunti, Die Ausgrabungen im Basler M&#252;nster 1. Die sp&#228;tkeltische und augusteische Zeit (1. Jahrhundert v. Chr.) (Derendingen-Solothurn 1979) 63-64; Abb. 38, 5. - AE 2015.</bibl><bibl>J. Bartels - N. H&#228;chler - M. Aberson - R. Frei-Stolba - A. Kolb, MH 73, 2016, 99 Nr. 16. (B)</bibl><bibl>R. Fellmann, Das r&#246;mische Basel (Basel 1981) 12; Abb. 7. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">T</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">r</c>
+				<c xml:id="L1C5">m</c>
+				<c xml:id="L1C6">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">T</c>
+		<c xml:id="L1C9">o</c>
+		<c xml:id="L1C10">r</c>
+		<c xml:id="L1C11">i</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

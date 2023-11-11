@@ -1,0 +1,117 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Source-Seine (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081689</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081689</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Source-Seine, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1935"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3032257">Source-Seine</placeName><placeName type="findspot">S.-Germain, {Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081689_1" sex="W"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD081689_2" sex="M"><persName><name type="cognomen">Lucius</name></persName></person><person xml:id="HD081689_3" sex="M"><persName><name type="cognomen">Sabellio+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-07" who="Osnabr&#252;gge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Die Inschrift ist vermutlich aus dem nahe gelegenen Quellheiligtum verschleppt worden. Statt m(onumentum) auch m(atri) m&#246;glich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons (Paris 2003) 175, Nr. 292.</bibl><bibl>S. Deyts - M. Provost - M. Mangin, in: M. Provost u. a. (Hrsg.), La C&#244;te-d'Or de Nuits-Saint-Georges &#224; Voulaines-les-Templiers, Carte arch&#233;ologique de la Gaule 21, 3 (Paris 2009) 122.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">L</c>
+		<c xml:id="L0C4">u</c>
+		<c xml:id="L0C5">c</c>
+		<c xml:id="L0C6">i</c>
+		<c xml:id="L0C7"> </c>
+		<c xml:id="L0C8">f</c>
+		<c xml:id="L0C9">i</c>
+		<c xml:id="L0C10">l</c>
+		<c xml:id="L0C11">i</c>
+		<c xml:id="L0C12">a</c>
+		<c xml:id="L0C13">e</c>
+		<c xml:id="L0C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C15">m</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L0C16">o</c>
+				<c xml:id="L0C17">n</c>
+				<c xml:id="L0C18">u</c>
+				<c xml:id="L0C19">m</c>
+				<c xml:id="L0C20">e</c>
+				<c xml:id="L0C21">n</c>
+				<c xml:id="L0C22">t</c>
+				<c xml:id="L0C23">u</c>
+				<c xml:id="L0C24">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C25"> </c>
+		<c xml:id="L0C26">S</c>
+		<c xml:id="L0C27">a</c>
+		<c xml:id="L0C28">b</c>
+		<c xml:id="L0C29">e</c>
+		<c xml:id="L0C30">l</c>
+		<c xml:id="L0C31">l</c>
+		<c xml:id="L0C32">i</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L0C33">o</c>
+			<c xml:id="L0C34">&#160;</c>
+			<c xml:id="L0C35">f</c>
+			<c xml:id="L0C36">e</c>
+			<c xml:id="L0C37">c</c>
+			<c xml:id="L0C38">i</c>
+			<c xml:id="L0C39">t</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

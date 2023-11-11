@@ -1,0 +1,228 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Porolissum &amp;ndash; Creaca (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000991</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000991</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zal&#259;u, Muz. Ist. Art&#259;</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(1)</height><width>(1)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207361">Porolissum</placeName></origPlace><origDate><origDate notBefore-custom="0110" notAfter-custom="0190" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">110 AD - 190 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/675302">Creaca</placeName><placeName type="findspot">Jac, {Lager}</placeName><placeName type="region">S&#259;laj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-30" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Im Lager gefunden. Datierung nach RMD: 110-120 oder 154-190 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0854.</bibl><bibl>N. Gudea, ActaMusPorol 6, 1982, 61, Nr. 5; fig. 6 (Zeichnung). - AE 1983.</bibl><bibl>RMD 127.</bibl><bibl>ILD 050.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C1">d</c>
+					<c xml:id="L1C2">e</c>
+					<c xml:id="L1C3">s</c>
+					<c xml:id="L1C4">c</c>
+					<c xml:id="L1C5">r</c>
+					<c xml:id="L1C6">i</c>
+					<c xml:id="L1C7">p</c>
+					<c xml:id="L1C8">t</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C9">u</c>
+					<c xml:id="L1C10">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C11"> </c>
+			<c xml:id="L1C12">e</c>
+			<c xml:id="L1C13">t</c>
+			<c xml:id="L1C14"> </c>
+			<c xml:id="L1C15">r</c>
+			<c xml:id="L1C16">e</c>
+			<c xml:id="L1C17">c</c>
+			<c xml:id="L1C18">o</c>
+			<c xml:id="L1C19">g</c>
+		</supplied>
+		<expan>
+			<abbr>
+				<c xml:id="L1C20">n</c>
+				<c xml:id="L1C21">i</c>
+				<c xml:id="L1C22">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C23">u</c>
+				<c xml:id="L1C24">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C25"> </c>
+		<supplied reason="lost">
+			<c xml:id="L1C26">e</c>
+			<c xml:id="L1C27">x</c>
+			<c xml:id="L1C28"> </c>
+			<expan>
+				<abbr>tab</abbr>
+				<ex>ula</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L1C29"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">a</c>
+					<c xml:id="L2C2">e</c>
+					<c xml:id="L2C3">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C4">e</c>
+					<c xml:id="L2C5">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C6"> </c>
+			<c xml:id="L2C7">q</c>
+			<c xml:id="L2C8">u</c>
+			<c xml:id="L2C9">a</c>
+			<c xml:id="L2C10">e</c>
+			<c xml:id="L2C11"> </c>
+			<c xml:id="L2C12">f</c>
+			<c xml:id="L2C13">i</c>
+			<c xml:id="L2C14">x</c>
+			<c xml:id="L2C15">a</c>
+			<c xml:id="L2C16"> </c>
+			<c xml:id="L2C17">e</c>
+			<c xml:id="L2C18">s</c>
+			<c xml:id="L2C19">t</c>
+			<c xml:id="L2C20"> </c>
+			<c xml:id="L2C21">R</c>
+		</supplied>
+		<c xml:id="L2C22">o</c>
+		<c xml:id="L2C23">m</c>
+		<supplied reason="lost">
+			<c xml:id="L2C24">a</c>
+			<c xml:id="L2C25">e</c>
+			<c xml:id="L2C26"> </c>
+			<c xml:id="L2C27">i</c>
+			<c xml:id="L2C28">n</c>
+		</supplied>
+		<c xml:id="L2C29"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">[</c>
+		<c xml:id="L3C2">m</c>
+		<c xml:id="L3C3">u</c>
+		<c xml:id="L3C4">r</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6"> </c>
+		<c xml:id="L3C7">p</c>
+		<c xml:id="L3C8">o</c>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10">t</c>
+		<c xml:id="L3C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C12">t</c>
+				<c xml:id="L3C13">e</c>
+				<c xml:id="L3C14">m</c>
+				<c xml:id="L3C15">p</c>
+				<c xml:id="L3C16">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C17">u</c>
+				<c xml:id="L3C18">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C19"> </c>
+		<c xml:id="L3C20">d</c>
+		<c xml:id="L3C21">i</c>
+		<c xml:id="L3C22">v</c>
+		<c xml:id="L3C23">i</c>
+		<c xml:id="L3C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C25">A</c>
+				<c xml:id="L3C26">u</c>
+				<c xml:id="L3C27">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C28">u</c>
+				<c xml:id="L3C29">s</c>
+				<c xml:id="L3C30">t</c>
+				<c xml:id="L3C31">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C32"> </c>
+		<c xml:id="L3C33">a</c>
+		<c xml:id="L3C34">d</c>
+		<c xml:id="L3C35"> </c>
+		<c xml:id="L3C36">M</c>
+		<c xml:id="L3C37">i</c>
+		<c xml:id="L3C38">n</c>
+		<c xml:id="L3C39">e</c>
+		<c xml:id="L3C40">r</c>
+		<c xml:id="L3C41">v</c>
+		<c xml:id="L3C42">a</c>
+		<c xml:id="L3C43">m</c>
+		<c xml:id="L3C44"> </c>
+		<c xml:id="L3C45">-</c>
+		<c xml:id="L3C46">-</c>
+		<c xml:id="L3C47">-</c>
+		<c xml:id="L3C48">-</c>
+		<c xml:id="L3C49">-</c>
+		<c xml:id="L3C50">-</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

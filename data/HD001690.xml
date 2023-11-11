@@ -1,0 +1,171 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Pompeii &amp;ndash; Pompei (Latium et Campania (Regio I))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD001690</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD001690</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deposito dell'Ufficio Scavi Pompei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Latium et Campania (Regio I)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3170336">Pompei</placeName><placeName type="findspot" /><placeName type="region">Napoli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD001690_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sulpicius+</name><name type="cognomen">Faustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-05-27" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Tabula Pompeiana.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1982, 0197.</bibl><bibl>F. Sbordone, RAAN 53, 1978, 255, Nr. 19. - AE 1982.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">v</c>
+		<c xml:id="L1C2">i</c>
+		<c xml:id="L1C3">d</c>
+		<supplied reason="lost">
+			<c xml:id="L1C4">e</c>
+		</supplied>
+		<c xml:id="L1C5">r</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">C</c>
+		<c xml:id="L1C9">E</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">d</c>
+		<c xml:id="L2C2">e</c>
+		<c xml:id="L2C3">b</c>
+		<c xml:id="L2C4">e</c>
+		<c xml:id="L2C5">r</c>
+		<c xml:id="L2C6">e</c>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C9">a</c>
+				<c xml:id="L2C10">i</c>
+				<c xml:id="L2C11">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+		<supplied reason="lost">
+			<c xml:id="L2C13">S</c>
+		</supplied>
+		<c xml:id="L2C14">u</c>
+		<c xml:id="L2C15">l</c>
+		<supplied reason="lost">
+			<c xml:id="L2C16">p</c>
+			<c xml:id="L2C17">i</c>
+		</supplied>
+		<c xml:id="L2C18">c</c>
+		<c xml:id="L2C19">i</c>
+		<supplied reason="lost">
+			<c xml:id="L2C20">o</c>
+		</supplied>
+		<c xml:id="L2C21"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">F</c>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">u</c>
+		<c xml:id="L3C4">s</c>
+		<c xml:id="L3C5">t</c>
+		<c xml:id="L3C6">o</c>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">s</c>
+		<c xml:id="L3C9">e</c>
+		<c xml:id="L3C10">s</c>
+		<c xml:id="L3C11">t</c>
+		<c xml:id="L3C12">e</c>
+		<c xml:id="L3C13">r</c>
+		<c xml:id="L3C14">t</c>
+		<c xml:id="L3C15">i</c>
+		<c xml:id="L3C16">a</c>
+		<c xml:id="L3C17"> </c>
+		<c xml:id="L3C18">q</c>
+		<c xml:id="L3C19">u</c>
+		<c xml:id="L3C20">a</c>
+		<c xml:id="L3C21">t</c>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">t</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3">o</c>
+		<c xml:id="L4C4">r</c>
+		<c xml:id="L4C5"> </c>
+		<c xml:id="L4C6">m</c>
+		<c xml:id="L4C7">i</c>
+		<c xml:id="L4C8">l</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C9">l</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C10">i</c>
+				<c xml:id="L4C11">a</c>
+			</abbr>
+		</expan>
+		<c xml:id="L4C12"> </c>
+		<c xml:id="L4C13">n</c>
+		<c xml:id="L4C14">u</c>
+		<c xml:id="L4C15">m</c>
+		<c xml:id="L4C16">m</c>
+		<c xml:id="L4C17">u</c>
+		<c xml:id="L4C18">m</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

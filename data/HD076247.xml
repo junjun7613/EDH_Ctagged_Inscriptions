@@ -1,0 +1,159 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Waldfischbach-Burgalben (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076247</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076247</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(64)</height><width>60</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2815032">Waldfischbach-Burgalben</placeName><placeName type="findspot">Waldfischbach, {Heidelsburg}, n&#246;rdliche Befestigungsmauer, sekund&#228;r verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076247_1" sex="M"><persName><name type="nomen">Catonius</name><name type="cognomen">Catullinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-04" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039382" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3f0f3e7c-69ad-4fb3-8626-2c1b07e0e8ab/file/id/800261/file_version/name/small" /><graphic xml:id="F039383" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a2ce407a-5fa6-4f4b-a955-17749fc1bebb/file/id/800262/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Aufsatz &#228;hnlich der corona eines Altars. Inschriftfeld in Form einer senkrecht gestellten tabula ansata. Z. 4: m&#246;glicherweise auch p(onendum) [c(uravit)]. (B): Faust: Z. 3: [eius?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 04517.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (K&#246;ln 1998) 184, Nr. 296. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">C</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">t</c>
+		<c xml:id="L1C5">o</c>
+		<c xml:id="L1C6">n</c>
+		<c xml:id="L1C7">i</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">C</c>
+		<c xml:id="L1C11">a</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">t</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">l</c>
+		<c xml:id="L2C5">i</c>
+		<c xml:id="L2C6">n</c>
+		<c xml:id="L2C7">o</c>
+		<c xml:id="L2C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C9">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C10">a</c>
+				<c xml:id="L2C11">r</c>
+				<c xml:id="L2C12">c</c>
+				<c xml:id="L2C13">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C15">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C16">i</c>
+				<c xml:id="L2C17">l</c>
+				<c xml:id="L2C18">i</c>
+				<c xml:id="L2C19">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C20"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">e</c>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">u</c>
+		<c xml:id="L3C5">x</c>
+		<c xml:id="L3C6">s</c>
+		<c xml:id="L3C7">o</c>
+		<c xml:id="L3C8">r</c>
+		<c xml:id="L3C9">i</c>
+		<c xml:id="L3C10"> </c>
+		<c xml:id="L3C11">e</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L3C12">i</c>
+			<c xml:id="L3C13">u</c>
+			<c xml:id="L3C14">s</c>
+		</supplied>
+		<c xml:id="L3C15"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">e</c>
+				<c xml:id="L4C3">r</c>
+				<c xml:id="L4C4">e</c>
+				<c xml:id="L4C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C7">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C8">o</c>
+				<c xml:id="L4C9">s</c>
+				<c xml:id="L4C10">u</c>
+				<c xml:id="L4C11">i</c>
+				<c xml:id="L4C12">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

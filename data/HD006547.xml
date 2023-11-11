@@ -1,0 +1,181 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Leoben (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD006547</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD006547</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Peter Freienstein, S. Maria Freienstein, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>76</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772649">Leoben</placeName><placeName type="findspot">{S. Peter Freienstein}</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD006547_1" sex="M"><persName><name type="cognomen">Privatus</name></persName></person><person xml:id="HD006547_2" sex="M"><persName><name type="cognomen">Turturus</name></persName></person><person xml:id="HD006547_3" sex="W"><persName><name type="cognomen">Secundina*</name></persName></person><person xml:id="HD006547_4" sex="M"><persName><name type="cognomen">Fannio</name></persName></person><person xml:id="HD006547_5" sex="M"><persName><name type="cognomen">Pl[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-01" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 2 u. 4 steht die Filiation (filio) bzw. (filiae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1986, 0542. (B)</bibl><bibl>E. Weber, R&#338; 11/12, 1983/84, 342-345, Nr. 8; Taf. 22, 8. - AE 1986. (B)</bibl><bibl>E. Weber - R. Selinger, R&#338; 19/20, 1991/92, 229, Nr. 321.</bibl><bibl>ILLPRON 1188.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">P</c>
+		<c xml:id="L1C3">r</c>
+		<c xml:id="L1C4">i</c>
+		<c xml:id="L1C5">v</c>
+		<c xml:id="L1C6">a</c>
+		<c xml:id="L1C7">t</c>
+		<c xml:id="L1C8">o</c>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">T</c>
+		<c xml:id="L2C2">u</c>
+		<c xml:id="L2C3">r</c>
+		<c xml:id="L2C4">t</c>
+		<c xml:id="L2C5">u</c>
+		<c xml:id="L2C6">r</c>
+		<c xml:id="L2C7">i</c>
+		<c xml:id="L2C8"> </c>
+		<c xml:id="L2C9">e</c>
+		<supplied reason="lost">
+			<c xml:id="L2C10">t</c>
+		</supplied>
+		<c xml:id="L2C11"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">S</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">u</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">d</c>
+		<c xml:id="L3C7">i</c>
+		<c xml:id="L3C8">n</c>
+		<expan>
+			<ex>
+				<c xml:id="L3C9">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L3C10">e</c>
+			</abbr>
+		</expan>
+		<c xml:id="L3C11"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">F</c>
+		<c xml:id="L4C2">a</c>
+		<c xml:id="L4C3">n</c>
+		<c xml:id="L4C4">n</c>
+		<c xml:id="L4C5">i</c>
+		<c xml:id="L4C6">o</c>
+		<c xml:id="L4C7">n</c>
+		<c xml:id="L4C8">i</c>
+		<c xml:id="L4C9">s</c>
+		<c xml:id="L4C10"> </c>
+		<c xml:id="L4C11">P</c>
+		<c xml:id="L4C12">l</c>
+	</line>
+	<line break="no" n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C1">u</c>
+		<c xml:id="L5C2">s</c>
+		<c xml:id="L5C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C4">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C5">i</c>
+				<c xml:id="L5C6">l</c>
+				<c xml:id="L5C7">i</c>
+				<c xml:id="L5C8">u</c>
+				<c xml:id="L5C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C11">v</c>
+				<c xml:id="L5C12">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C13">v</c>
+				<c xml:id="L5C14">u</c>
+				<c xml:id="L5C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C16"> </c>
+		<c xml:id="L5C17">s</c>
+		<c xml:id="L5C18">i</c>
+		<c xml:id="L5C19">b</c>
+		<c xml:id="L5C20">i</c>
+		<c xml:id="L5C21"> </c>
+		<c xml:id="L5C22">e</c>
+		<c xml:id="L5C23">t</c>
+		<c xml:id="L5C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C25">p</c>
+				<c xml:id="L5C26">a</c>
+				<c xml:id="L5C27">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C28">e</c>
+				<c xml:id="L5C29">n</c>
+				<c xml:id="L5C30">t</c>
+				<c xml:id="L5C31">i</c>
+				<c xml:id="L5C32">b</c>
+				<c xml:id="L5C33">u</c>
+				<c xml:id="L5C34">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

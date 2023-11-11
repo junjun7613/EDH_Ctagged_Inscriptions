@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Buggenum, bei (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047760</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047760</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roermond, Historiehuis</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/141">instrumentum militare</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><width>23</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">17.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1951"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2758161">Buggenum, bei</placeName><placeName type="findspot">Maas, Fluss, Deichvorland</placeName><placeName type="region">Limburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047760_1" sex="M"><persName><name type="praenomen">K.</name><name type="nomen">A(---)</name><name type="cognomen">P(---)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Inschrift in den Nackenschutz gepunzt. Das Pr&#228;nomen K. steht m&#246;glicherweise f&#252;r Kaeso (Bogaers 90).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1021.</bibl><bibl>J.K. Haalebos, in: Y. Le Bohec - C. Wolff (Hrsg.), Les l&#233;gions de Rome sous le Haut-Empire 2. Actes du Congr&#232;s de Lyon, Lyon 1998 (Lyon 2000) 467; Abb. 4 (Zeichnung). - AE 2000.</bibl><bibl>J.E. Bogaers, BROB 9, 1959, 85-93; Abb. 2 u. 3; Abb. 4 (Zeichnung). - AE 2000.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<abbr>
+			<c xml:id="L1C2">K</c>
+		</abbr>
+		<c xml:id="L1C3"> </c>
+		<abbr>
+			<c xml:id="L1C4">A</c>
+		</abbr>
+		<c xml:id="L1C5"> </c>
+		<abbr>
+			<c xml:id="L1C6">P</c>
+		</abbr>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">X</c>
+		<c xml:id="L1C9">I</c>
+		<c xml:id="L1C10">I</c>
+		<c xml:id="L1C11">I</c>
+		<c xml:id="L1C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C13">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C14">e</c>
+				<c xml:id="L1C15">m</c>
+				<c xml:id="L1C16">i</c>
+				<c xml:id="L1C17">n</c>
+				<c xml:id="L1C18">a</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,156 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082076</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082076</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. Art Hist. (Mus. Guy-Baillet)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(23)</height><width>(101)</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1615"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">Stadtmauer, sekund&#228;r verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082076_1" sex="W"><persName><name type="cognomen">[---]ecissa</name></persName></person><person xml:id="HD082076_2" sex="M"><persName><name type="cognomen">Vitalianus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-30" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040428" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c12a14b4-0324-4874-86d6-bba1e505be62/file/id/801310/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Nach CIL Teil eines Architravs, f&#252;r die Sekund&#228;rverwendung abgearbeitet. Z. 1 heute verloren.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05872.</bibl><bibl>M. Joly, Langres. Carte arch&#233;ologique de la Gaule 52, 2 (Paris 2001) 137.</bibl><bibl>Y. Le Bohec, Inscriptions de la cit&#233; des Lingons. Inscriptions sur pierre (Paris 2003) 235, Nr. 413.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2">e</c>
+		<c xml:id="L0C3">c</c>
+		<c xml:id="L0C4">i</c>
+		<c xml:id="L0C5">s</c>
+		<c xml:id="L0C6">s</c>
+		<c xml:id="L0C7">a</c>
+		<c xml:id="L0C8">e</c>
+		<c xml:id="L0C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C10">l</c>
+				<c xml:id="L0C11">i</c>
+				<c xml:id="L0C12">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C13">e</c>
+				<c xml:id="L0C14">r</c>
+				<c xml:id="L0C15">t</c>
+				<c xml:id="L0C16">a</c>
+				<c xml:id="L0C17">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C18"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C19"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1"> </c>
+		<c xml:id="L1C2">u</c>
+		<c xml:id="L1C3">x</c>
+		<c xml:id="L1C4">o</c>
+		<c xml:id="L1C5">r</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">e</c>
+		<c xml:id="L1C9">t</c>
+		<c xml:id="L1C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C11">V</c>
+				<c xml:id="L1C12">i</c>
+				<c xml:id="L1C13">t</c>
+				<c xml:id="L1C14">a</c>
+				<c xml:id="L1C15">l</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C16">i</c>
+				<c xml:id="L1C17">a</c>
+				<c xml:id="L1C18">n</c>
+				<c xml:id="L1C19">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C20"> </c>
+		<c xml:id="L1C21">s</c>
+		<c xml:id="L1C22">e</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C23">r</c>
+			<c xml:id="L1C24">v</c>
+			<c xml:id="L1C25">o</c>
+		</supplied>
+		<c xml:id="L1C26"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">f</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">c</c>
+			<c xml:id="L2C4">i</c>
+		</supplied>
+		<c xml:id="L2C5">e</c>
+		<c xml:id="L2C6">n</c>
+		<c xml:id="L2C7">d</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">m</c>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">c</c>
+		<c xml:id="L2C12">u</c>
+		<c xml:id="L2C13">r</c>
+		<c xml:id="L2C14">a</c>
+		<supplied reason="lost">
+			<c xml:id="L2C15">v</c>
+			<c xml:id="L2C16">i</c>
+			<c xml:id="L2C17">t</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,363 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Sopi&#353;te (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032800</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032800</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(225)</height><width>72</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/791442">Sopi&#353;te</placeName><placeName type="findspot">{Dobri Dol}, sp&#228;tantikes Grab, sekund&#228;r verwendet</placeName><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032800_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13391"><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Posidonianus</name></persName></person><person xml:id="HD032800_2" sex="W"><persName ref="http://romans1by1.com/rpeople/13392"><name type="nomen">Antonia</name><name type="cognomen">Saturnina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-07" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Unterhalb der Inschrift Relief mit Jagdszene. Die Stele wurde im 4. Jh. in der Au&#223;enmauer eines Grabes wiederverwendet. Unterhalb der lateinischen Inschrift dreizeiliger griechischer Text. ILJug: Z. 5: VIIIII.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1253.</bibl><bibl>IMS 6, 081; Foto.</bibl><bibl>ILJug 0033.</bibl><bibl>M. &#352;a&#353;el Kos, in: A. Donati - G. Poma (Hrsg.), L'officina epigraphica romana. In ricordo di Giancarlo Susini (Faenza 2012) 514-516; fig. 4. - AE 2012.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">P</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">b</c>
+				<c xml:id="L1C5">l</c>
+				<c xml:id="L1C6">i</c>
+				<c xml:id="L1C7">u</c>
+				<c xml:id="L1C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">A</c>
+		<c xml:id="L1C11">e</c>
+		<c xml:id="L1C12">l</c>
+		<c xml:id="L1C13">i</c>
+		<c xml:id="L1C14">u</c>
+		<c xml:id="L1C15">s</c>
+		<c xml:id="L1C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C17">P</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C18">u</c>
+				<c xml:id="L1C19">b</c>
+				<c xml:id="L1C20">l</c>
+				<c xml:id="L1C21">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C22"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">f</c>
+				<c xml:id="L2C2">i</c>
+				<c xml:id="L2C3">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">P</c>
+		<c xml:id="L2C9">o</c>
+		<c xml:id="L2C10">s</c>
+		<c xml:id="L2C11">i</c>
+		<c xml:id="L2C12">d</c>
+		<c xml:id="L2C13">o</c>
+	</line>
+	<line break="no" n="3">
+		<c xml:id="L3C1">n</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">a</c>
+		<c xml:id="L3C4">n</c>
+		<c xml:id="L3C5">u</c>
+		<c xml:id="L3C6">s</c>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">v</c>
+	</line>
+	<line break="no" n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">i</c>
+				<c xml:id="L4C2">x</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C3">i</c>
+				<c xml:id="L4C4">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C6">a</c>
+				<c xml:id="L4C7">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C8">n</c>
+				<c xml:id="L4C9">o</c>
+				<c xml:id="L4C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C11"> </c>
+		<c xml:id="L4C12">X</c>
+		<c xml:id="L4C13">V</c>
+		<c xml:id="L4C14">I</c>
+		<c xml:id="L4C15"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">m</c>
+				<c xml:id="L5C2">e</c>
+				<c xml:id="L5C3">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C4">s</c>
+				<c xml:id="L5C5">e</c>
+				<c xml:id="L5C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C7"> </c>
+		<c xml:id="L5C8">V</c>
+		<c xml:id="L5C9">I</c>
+		<c xml:id="L5C10">I</c>
+		<c xml:id="L5C11">I</c>
+		<c xml:id="L5C12">I</c>
+		<c xml:id="L5C13"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">d</c>
+		<c xml:id="L6C2">i</c>
+		<c xml:id="L6C3">e</c>
+		<c xml:id="L6C4">s</c>
+		<c xml:id="L6C5"> </c>
+		<c xml:id="L6C6">V</c>
+		<c xml:id="L6C7">I</c>
+		<c xml:id="L6C8">I</c>
+		<c xml:id="L6C9">I</c>
+		<c xml:id="L6C10">I</c>
+		<c xml:id="L6C11"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C2">i</c>
+				<c xml:id="L7C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C6">i</c>
+				<c xml:id="L7C7">t</c>
+				<c xml:id="L7C8">u</c>
+				<c xml:id="L7C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C11">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C12">s</c>
+				<c xml:id="L7C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C14"> </c>
+	</line>
+	<line n="8">
+		<c xml:id="L8C1">A</c>
+		<c xml:id="L8C2">n</c>
+		<c xml:id="L8C3">t</c>
+		<c xml:id="L8C4">o</c>
+		<c xml:id="L8C5">n</c>
+		<c xml:id="L8C6">i</c>
+		<c xml:id="L8C7">a</c>
+		<c xml:id="L8C8"> </c>
+	</line>
+	<line n="9">
+		<c xml:id="L9C1">S</c>
+		<c xml:id="L9C2">a</c>
+		<c xml:id="L9C3">t</c>
+		<c xml:id="L9C4">u</c>
+		<c xml:id="L9C5">r</c>
+		<c xml:id="L9C6">n</c>
+		<c xml:id="L9C7">i</c>
+		<c xml:id="L9C8">n</c>
+		<c xml:id="L9C9">a</c>
+		<c xml:id="L9C10"> </c>
+	</line>
+	<line n="10">
+		<c xml:id="L10C1">a</c>
+		<c xml:id="L10C2">v</c>
+		<c xml:id="L10C3">i</c>
+		<c xml:id="L10C4">a</c>
+		<c xml:id="L10C5"> </c>
+		<c xml:id="L10C6">m</c>
+		<c xml:id="L10C7">e</c>
+		<c xml:id="L10C8">m</c>
+		<c xml:id="L10C9">o</c>
+		<c xml:id="L10C10">r</c>
+		<c xml:id="L10C11"> </c>
+	</line>
+	<line n="11">
+		<c xml:id="L11C1">b</c>
+		<c xml:id="L11C2">r</c>
+		<c xml:id="L11C3">e</c>
+		<c xml:id="L11C4">v</c>
+		<c xml:id="L11C5">i</c>
+		<c xml:id="L11C6">s</c>
+		<c xml:id="L11C7"> </c>
+		<c xml:id="L11C8">p</c>
+		<c xml:id="L11C9">i</c>
+		<c xml:id="L11C10">e</c>
+		<c xml:id="L11C11">t</c>
+		<c xml:id="L11C12">a</c>
+	</line>
+	<line break="no" n="12">
+		<c xml:id="L12C1">t</c>
+		<c xml:id="L12C2">i</c>
+		<c xml:id="L12C3">s</c>
+		<c xml:id="L12C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L12C5">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L12C6">a</c>
+				<c xml:id="L12C7">c</c>
+				<c xml:id="L12C8">i</c>
+				<c xml:id="L12C9">e</c>
+				<c xml:id="L12C10">n</c>
+				<c xml:id="L12C11">d</c>
+				<c xml:id="L12C12">u</c>
+				<c xml:id="L12C13">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L12C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L12C15">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L12C16">u</c>
+				<c xml:id="L12C17">r</c>
+				<c xml:id="L12C18">a</c>
+				<c xml:id="L12C19">v</c>
+				<c xml:id="L12C20">i</c>
+				<c xml:id="L12C21">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L12C22"> </c>
+	</line>
+	<line n="13">
+		<c xml:id="L13C1">&#8005;</c>
+		<c xml:id="L13C2">&#957;</c>
+		<c xml:id="L13C3"> </c>
+		<c xml:id="L13C4">&#959;</c>
+		<c xml:id="L13C5">&#7985;</c>
+		<c xml:id="L13C6"> </c>
+		<c xml:id="L13C7">&#952;</c>
+		<c xml:id="L13C8">&#949;</c>
+		<c xml:id="L13C9">&#959;</c>
+		<c xml:id="L13C10">&#8054;</c>
+		<c xml:id="L13C11"> </c>
+		<c xml:id="L13C12">&#966;</c>
+		<c xml:id="L13C13">&#953;</c>
+		<c xml:id="L13C14">&#955;</c>
+		<c xml:id="L13C15">&#959;</c>
+		<c xml:id="L13C16">&#8166;</c>
+	</line>
+	<line break="no" n="14">
+		<c xml:id="L14C1">&#963;</c>
+		<c xml:id="L14C2">&#953;</c>
+		<c xml:id="L14C3">&#957;</c>
+		<c xml:id="L14C4"> </c>
+		<c xml:id="L14C5">&#959;</c>
+		<c xml:id="L14C6">&#8023;</c>
+		<c xml:id="L14C7">&#964;</c>
+		<c xml:id="L14C8">&#959;</c>
+		<c xml:id="L14C9">&#962;</c>
+		<c xml:id="L14C10"> </c>
+		<c xml:id="L14C11">&#7936;</c>
+		<c xml:id="L14C12">&#960;</c>
+		<c xml:id="L14C13">&#959;</c>
+		<c xml:id="L14C14">&#952;</c>
+		<c xml:id="L14C15">&#957;</c>
+		<c xml:id="L14C16">&#8053;</c>
+	</line>
+	<line break="no" n="15">
+		<c xml:id="L15C1">&#963;</c>
+		<c xml:id="L15C2">&#954;</c>
+		<c xml:id="L15C3">&#949;</c>
+		<c xml:id="L15C4">&#953;</c>
+		<c xml:id="L15C5"> </c>
+		<c xml:id="L15C6">&#957;</c>
+		<c xml:id="L15C7">&#8051;</c>
+		<c xml:id="L15C8">&#959;</c>
+		<c xml:id="L15C9">&#962;</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

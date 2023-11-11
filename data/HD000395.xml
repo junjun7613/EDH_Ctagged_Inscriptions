@@ -1,0 +1,206 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ausa &amp;ndash; Vic (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000395</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000395</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vic, Kathedrale</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>84</height><width>57</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246212">Ausa</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3106050">Vic</placeName><placeName type="findspot">Kathedrale</placeName><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000395_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Cornelius</name><name type="cognomen">Magnio</name></persName></person><person xml:id="HD000395_2" sex="M"><persName><name type="cognomen">Gratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-10" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Rasur nicht antik. Auf der Basis befinden sich nachantike Graffiti. Hederae. Vorgezeichnete Hilfslinien. Die letzte Zeile stammt offenbar von anderer Hand. Z. 8: statt sed(ilia?) auch sed(em?) oder sed(es?) denkbar. (B): CIL, ILER: Z.1: [[Minervae sacrum]]; AE 1983: [Dianae]; Z.3: ILER: seviratu[s]; AE 1983: seviratu(s).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0623. (B)</bibl><bibl>IRC 1, 031; pl. 12, 31.</bibl><bibl>IRC 5, p. 17.</bibl><bibl>CIL 02, 04618. (B)</bibl><bibl>CIL 02, p. 1054. (B)</bibl><bibl>ILER 0393. (B)</bibl><bibl>G. Fabre - M. Mayer - I. Rod&#224;, Ausa 10, 1982, 294-297, Nr. 1; l&#225;m. 1. - AE 1983.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<del rend="erasure">
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">i</c>
+			<c xml:id="L1C4">a</c>
+			<c xml:id="L1C5">n</c>
+			<c xml:id="L1C6">a</c>
+			<c xml:id="L1C7">e</c>
+		</del>
+		<c xml:id="L1C8"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">o</c>
+		<c xml:id="L2C2">b</c>
+		<c xml:id="L2C3"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C4">h</c>
+				<c xml:id="L2C5">o</c>
+				<c xml:id="L2C6">n</c>
+				<c xml:id="L2C7">o</c>
+				<c xml:id="L2C8">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C9">e</c>
+				<c xml:id="L2C10">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C11"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">s</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">v</c>
+		<c xml:id="L3C4">i</c>
+		<c xml:id="L3C5">r</c>
+		<c xml:id="L3C6">a</c>
+		<c xml:id="L3C7">t</c>
+		<c xml:id="L3C8">u</c>
+		<c xml:id="L3C9">s</c>
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">a</c>
+				<c xml:id="L4C3">i</c>
+				<c xml:id="L4C4">u</c>
+				<c xml:id="L4C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C6"> </c>
+		<c xml:id="L4C7">C</c>
+		<c xml:id="L4C8">o</c>
+		<c xml:id="L4C9">r</c>
+		<c xml:id="L4C10">n</c>
+		<c xml:id="L4C11">e</c>
+		<c xml:id="L4C12">l</c>
+		<c xml:id="L4C13">i</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">u</c>
+		<c xml:id="L5C2">s</c>
+		<c xml:id="L5C3"> </c>
+		<c xml:id="L5C4">G</c>
+		<c xml:id="L5C5">r</c>
+		<c xml:id="L5C6">a</c>
+		<c xml:id="L5C7">t</c>
+		<c xml:id="L5C8">i</c>
+		<c xml:id="L5C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C10">l</c>
+				<c xml:id="L5C11">i</c>
+				<c xml:id="L5C12">b</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C13">e</c>
+				<c xml:id="L5C14">r</c>
+				<c xml:id="L5C15">t</c>
+				<c xml:id="L5C16">u</c>
+				<c xml:id="L5C17">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C18"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">M</c>
+		<c xml:id="L6C2">a</c>
+		<c xml:id="L6C3">g</c>
+		<c xml:id="L6C4">n</c>
+		<c xml:id="L6C5">i</c>
+		<c xml:id="L6C6">o</c>
+		<c xml:id="L6C7"> </c>
+	</line>
+	<line n="7">
+		<c xml:id="L7C1">I</c>
+		<c xml:id="L7C2">I</c>
+		<c xml:id="L7C3">I</c>
+		<c xml:id="L7C4">I</c>
+		<c xml:id="L7C5">I</c>
+		<c xml:id="L7C6">I</c>
+		<c xml:id="L7C7">v</c>
+		<c xml:id="L7C8">i</c>
+		<c xml:id="L7C9">r</c>
+		<c xml:id="L7C10"> </c>
+	</line>
+	<line n="8">
+		<c xml:id="L8C1">i</c>
+		<c xml:id="L8C2">d</c>
+		<c xml:id="L8C3">e</c>
+		<c xml:id="L8C4">m</c>
+		<c xml:id="L8C5"> </c>
+		<c xml:id="L8C6">a</c>
+		<c xml:id="L8C7">r</c>
+		<c xml:id="L8C8">a</c>
+		<c xml:id="L8C9">m</c>
+		<c xml:id="L8C10"> </c>
+		<c xml:id="L8C11">e</c>
+		<c xml:id="L8C12">t</c>
+		<c xml:id="L8C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C14">s</c>
+				<c xml:id="L8C15">e</c>
+				<c xml:id="L8C16">d</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L8C17">i</c>
+				<c xml:id="L8C18">l</c>
+				<c xml:id="L8C19">i</c>
+				<c xml:id="L8C20">a</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

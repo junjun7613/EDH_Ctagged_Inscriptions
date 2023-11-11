@@ -1,0 +1,188 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021391</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021391</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Alto Medio Evo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(20)</height><width>(83)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Piazza di S. Pietro in Vincoli</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021391_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD021391_2" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]scus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011097" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6c9b6bf9-1928-4dc9-b207-61e6a90c7971/file/id/770620/file_version/name/small" /><graphic xml:id="F040522" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f8be370d-4252-4dc4-afae-0be80f931ddb/file/id/801404/file_version/name/small" /><graphic xml:id="F040523" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9a068dc8-17f1-432b-84a0-1d1ea57bd71e/file/id/801405/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Stein wurde sekund&#228;r f&#252;r die christliche Inschrift AE 1951, 196b = CIL VI 41430B verwendet; Angaben beziehen sich auf die fr&#252;here Inschrift AE 1951, 196a = CIL VI 41430A; Buchstabenh&#246;he der sp&#228;teren Inschrift: 3 cm; ihre Datierung: 6. Jh. oder sp&#228;ter. (B): Felletti Maj, AE 1951, 196a: Z. 1: coniug[i].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1951, 0196a. (B)</bibl><bibl>AE 1951, 0196b.</bibl><bibl>CIL 06, 41430; Foto.</bibl><bibl>B.M. Felletti Maj, NSA 73, 1948, 317. (B) - AE 1951.</bibl><bibl>PLRE 1 ...scus.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line" />
+			<c xml:id="L0C2"> </c>
+		</line>
+		<line n="1">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C1">s</c>
+			<c xml:id="L1C2">c</c>
+			<c xml:id="L1C3">u</c>
+			<c xml:id="L1C4">s</c>
+			<c xml:id="L1C5"> </c>
+			<c xml:id="L1C6">&amp;</c>
+			<c xml:id="L1C7">l</c>
+			<c xml:id="L1C8">t</c>
+			<c xml:id="L1C9">;</c>
+			<c xml:id="L1C10">e</c>
+			<c xml:id="L1C11">=</c>
+			<c xml:id="L1C12">I</c>
+			<c xml:id="L1C13">&amp;</c>
+			<c xml:id="L1C14">g</c>
+			<c xml:id="L1C15">t</c>
+			<c xml:id="L1C16">;</c>
+			<c xml:id="L1C17">x</c>
+			<c xml:id="L1C18"> </c>
+			<c xml:id="L1C19">p</c>
+			<expan>
+				<ex>
+					<c xml:id="L1C20">r</c>
+					<c xml:id="L1C21">a</c>
+					<c xml:id="L1C22">e</c>
+				</ex>
+				<abbr>
+					<c xml:id="L1C23">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C24">o</c>
+					<c xml:id="L1C25">s</c>
+					<c xml:id="L1C26">i</c>
+					<c xml:id="L1C27">t</c>
+					<c xml:id="L1C28">o</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C29"> </c>
+			<c xml:id="L1C30">v</c>
+			<c xml:id="L1C31">i</c>
+			<c xml:id="L1C32">r</c>
+			<c xml:id="L1C33"> </c>
+			<c xml:id="L1C34">d</c>
+			<c xml:id="L1C35">u</c>
+			<c xml:id="L1C36">c</c>
+			<c xml:id="L1C37">e</c>
+			<c xml:id="L1C38">n</c>
+			<c xml:id="L1C39">a</c>
+			<c xml:id="L1C40">r</c>
+			<c xml:id="L1C41">i</c>
+			<c xml:id="L1C42">u</c>
+			<c xml:id="L1C43">s</c>
+			<c xml:id="L1C44"> </c>
+			<c xml:id="L1C45">c</c>
+			<c xml:id="L1C46">o</c>
+			<c xml:id="L1C47">n</c>
+			<c xml:id="L1C48">i</c>
+			<c xml:id="L1C49">u</c>
+			<c xml:id="L1C50">g</c>
+			<c xml:id="L1C51">i</c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L1C52"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">e</c>
+			<c xml:id="L1C4"> </c>
+			<c xml:id="L1C5">d</c>
+			<c xml:id="L1C6">o</c>
+			<c xml:id="L1C7">n</c>
+			<c xml:id="L1C8">i</c>
+			<c xml:id="L1C9">s</c>
+			<c xml:id="L1C10"> </c>
+			<c xml:id="L1C11">D</c>
+			<expan>
+				<ex>
+					<c xml:id="L1C12">e</c>
+				</ex>
+				<abbr>
+					<c xml:id="L1C13">i</c>
+				</abbr>
+			</expan>
+			<c xml:id="L1C14"> </c>
+			<c xml:id="L1C15">e</c>
+			<c xml:id="L1C16">t</c>
+			<c xml:id="L1C17"> </c>
+			<c xml:id="L1C18">s</c>
+			<expan>
+				<ex>
+					<c xml:id="L1C19">a</c>
+					<c xml:id="L1C20">n</c>
+				</ex>
+				<abbr>
+					<c xml:id="L1C21">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C22">t</c>
+				</ex>
+				<abbr>
+					<c xml:id="L1C23">i</c>
+				</abbr>
+			</expan>
+			<c xml:id="L1C24"> </c>
+			<c xml:id="L1C25">P</c>
+			<c xml:id="L1C26">e</c>
+			<c xml:id="L1C27">t</c>
+			<c xml:id="L1C28">r</c>
+			<c xml:id="L1C29">i</c>
+			<c xml:id="L1C30"> </c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,280 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077315</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077315</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kassel</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(68)</height><width>(35)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0086" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 86 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1769"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{ehemaliges Kloster Dalheim}, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077315_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]idius</name><name type="cognomen">Clemens+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-26" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037848" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dcd8bcf5-1957-4a4f-8db7-8fc800537992/file/id/798716/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Das Erhaltene ist in mehrere Teile gebrochen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06830.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">i</c>
+		<c xml:id="L1C3">d</c>
+		<c xml:id="L1C4">i</c>
+		<c xml:id="L1C5">u</c>
+		<c xml:id="L1C6">s</c>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C2">T</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">o</c>
+				<c xml:id="L2C5">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">e</c>
+				<c xml:id="L2C7">n</c>
+				<c xml:id="L2C8">t</c>
+				<c xml:id="L2C9">i</c>
+				<c xml:id="L2C10">n</c>
+				<c xml:id="L2C11">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C12"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L3C1">C</c>
+			<c xml:id="L3C2">l</c>
+			<c xml:id="L3C3">e</c>
+		</supplied>
+		<c xml:id="L3C4">m</c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">A</c>
+			<c xml:id="L4C2">e</c>
+		</supplied>
+		<c xml:id="L4C3">q</c>
+		<supplied reason="lost">
+			<c xml:id="L4C4">u</c>
+		</supplied>
+		<c xml:id="L4C5">o</c>
+		<c xml:id="L4C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C7">m</c>
+				<c xml:id="L4C8">i</c>
+				<c xml:id="L4C9">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C10">e</c>
+				<c xml:id="L4C11">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C12"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L5C1">l</c>
+					<c xml:id="L5C2">e</c>
+				</supplied>
+				<c xml:id="L5C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">o</c>
+				<c xml:id="L5C6">n</c>
+				<c xml:id="L5C7">i</c>
+				<c xml:id="L5C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C9"> </c>
+		<c xml:id="L5C10">I</c>
+		<c xml:id="L5C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C12">a</c>
+				<c xml:id="L5C13">d</c>
+				<c xml:id="L5C14">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C15">u</c>
+				<c xml:id="L5C16">t</c>
+				<c xml:id="L5C17">r</c>
+				<c xml:id="L5C18">i</c>
+				<c xml:id="L5C19">c</c>
+				<c xml:id="L5C20">i</c>
+				<c xml:id="L5C21">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C22"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L6C1">a</c>
+					<c xml:id="L6C2">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C3">n</c>
+					<c xml:id="L6C4">o</c>
+					<c xml:id="L6C5">r</c>
+					<c xml:id="L6C6">u</c>
+					<c xml:id="L6C7">m</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">X</c>
+		<c xml:id="L6C10">X</c>
+		<c xml:id="L6C11">X</c>
+		<c xml:id="L6C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L6C13">s</c>
+				<c xml:id="L6C14">t</c>
+				<c xml:id="L6C15">i</c>
+				<c xml:id="L6C16">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C17">e</c>
+				<c xml:id="L6C18">n</c>
+				<c xml:id="L6C19">d</c>
+				<c xml:id="L6C20">i</c>
+				<c xml:id="L6C21">o</c>
+				<c xml:id="L6C22">r</c>
+				<c xml:id="L6C23">u</c>
+				<c xml:id="L6C24">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C25"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L7C1">h</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C2">e</c>
+					<c xml:id="L7C3">r</c>
+					<c xml:id="L7C4">e</c>
+					<c xml:id="L7C5">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L7C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C7">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C8">x</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C9"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C10">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C11">e</c>
+				<c xml:id="L7C12">s</c>
+				<c xml:id="L7C13">t</c>
+				<c xml:id="L7C14">a</c>
+				<c xml:id="L7C15">m</c>
+				<c xml:id="L7C16">e</c>
+				<c xml:id="L7C17">n</c>
+				<c xml:id="L7C18">t</c>
+				<c xml:id="L7C19">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C20"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C21">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C22">i</c>
+				<c xml:id="L7C23">e</c>
+				<c xml:id="L7C24">r</c>
+				<c xml:id="L7C25">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C26"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C27">i</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C28">u</c>
+				<c xml:id="L7C29">s</c>
+				<c xml:id="L7C30">s</c>
+				<c xml:id="L7C31">i</c>
+				<c xml:id="L7C32">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

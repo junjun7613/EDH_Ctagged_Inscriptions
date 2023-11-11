@@ -1,0 +1,254 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Livno (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034052</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034052</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>22</height><width>80</width><depth>102</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1935"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3189570">Livno</placeName><placeName type="findspot">{Suha&#269;a}</placeName><placeName type="region">Hercegbosanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034052_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Titus</name></persName></person><person xml:id="HD034052_2" sex="M"><persName><name type="cognomen">Dasas</name></persName></person><person xml:id="HD034052_3" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Seio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-07" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 3: statt p(osuit) m&#246;glicherweise b(enemerenti). Deckel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1779.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">A</c>
+				<c xml:id="L2C2">e</c>
+				<c xml:id="L2C3">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">T</c>
+		<c xml:id="L2C9">i</c>
+		<c xml:id="L2C10">t</c>
+		<c xml:id="L2C11">u</c>
+		<c xml:id="L2C12">s</c>
+		<c xml:id="L2C13"> </c>
+		<c xml:id="L2C14">D</c>
+		<c xml:id="L2C15">a</c>
+		<c xml:id="L2C16">s</c>
+		<c xml:id="L2C17">a</c>
+		<c xml:id="L2C18">n</c>
+		<c xml:id="L2C19">t</c>
+		<c xml:id="L2C20">i</c>
+		<c xml:id="L2C21">s</c>
+		<c xml:id="L2C22"> </c>
+		<c xml:id="L2C23">s</c>
+		<c xml:id="L2C24">e</c>
+		<c xml:id="L2C25"> </c>
+		<c xml:id="L2C26">v</c>
+		<c xml:id="L2C27">i</c>
+		<c xml:id="L2C28">v</c>
+		<c xml:id="L2C29">o</c>
+		<c xml:id="L2C30"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C31">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C32">o</c>
+				<c xml:id="L2C33">s</c>
+				<c xml:id="L2C34">u</c>
+				<c xml:id="L2C35">i</c>
+				<c xml:id="L2C36">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C37"> </c>
+		<c xml:id="L2C38">e</c>
+		<c xml:id="L2C39">t</c>
+		<c xml:id="L2C40"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C41">A</c>
+				<c xml:id="L2C42">e</c>
+				<c xml:id="L2C43">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C44">i</c>
+				<c xml:id="L2C45">a</c>
+				<c xml:id="L2C46">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C47"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">S</c>
+		<c xml:id="L3C2">e</c>
+		<c xml:id="L3C3">i</c>
+		<c xml:id="L3C4">o</c>
+		<c xml:id="L3C5">n</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">I</c>
+		<c xml:id="L3C9">M</c>
+		<c xml:id="L3C10">P</c>
+		<c xml:id="L3C11">L</c>
+		<c xml:id="L3C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C13">c</c>
+				<c xml:id="L3C14">o</c>
+				<c xml:id="L3C15">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C16">i</c>
+				<c xml:id="L3C17">u</c>
+				<c xml:id="L3C18">g</c>
+				<c xml:id="L3C19">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C20"> </c>
+		<c xml:id="L3C21">p</c>
+		<c xml:id="L3C22">i</c>
+		<expan>
+			<ex>
+				<c xml:id="L3C23">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L3C24">e</c>
+			</abbr>
+		</expan>
+		<c xml:id="L3C25"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C26">d</c>
+				<c xml:id="L3C27">e</c>
+				<c xml:id="L3C28">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C29">u</c>
+				<c xml:id="L3C30">n</c>
+				<c xml:id="L3C31">c</c>
+				<c xml:id="L3C32">t</c>
+				<c xml:id="L3C33">a</c>
+				<c xml:id="L3C34">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C35"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C36">a</c>
+				<c xml:id="L3C37">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C38">n</c>
+				<c xml:id="L3C39">o</c>
+				<c xml:id="L3C40">r</c>
+				<c xml:id="L3C41">u</c>
+				<c xml:id="L3C42">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C43"> </c>
+		<c xml:id="L3C44">L</c>
+		<c xml:id="L3C45">X</c>
+		<c xml:id="L3C46"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C47">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C48">o</c>
+				<c xml:id="L3C49">s</c>
+				<c xml:id="L3C50">u</c>
+				<c xml:id="L3C51">i</c>
+				<c xml:id="L3C52">t</c>
+			</ex>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L3C53"> </c>
+		<c xml:id="L3C54">e</c>
+		<c xml:id="L3C55">t</c>
+		<c xml:id="L3C56"> </c>
+		<c xml:id="L3C57">s</c>
+		<c xml:id="L3C58">u</c>
+		<c xml:id="L3C59">i</c>
+		<c xml:id="L3C60">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

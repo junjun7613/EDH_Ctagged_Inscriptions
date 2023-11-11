@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sulmo, bei &amp;ndash; Sulmona, bei (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD002854</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD002854</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(15)</height><width>(68)</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/438842">Sulmo, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sulmona, bei</placeName><placeName type="findspot">"Ponte dei Facchini", bei</placeName><placeName type="region">L'Aquila</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD002854_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Acca</name></persName></person><person xml:id="HD002854_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Post(---)?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-08-05" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Stein ist als T&#252;rschwelle wiederverwendet, stammt vermutlich aus einem Kammergrab. Es handelt sich um eine p&#228;lignische Grabinschrift. Van Wonterghem denkt daran, da&#223; post. f&#252;r f(ilius) steht, ein Hapax von posteri ist; diese Erkl&#228;rung ist wenig &#252;berzeugend. M&#246;glicherweise folgt auf Accaes Filiation durch mehrere Namensbestandteile und Angabe des Gro&#223;vaters.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1984, 0324.</bibl><bibl>F. van Wonterghem, Superaequum, Corfinium, Sulmo, Forma Italiae, Regio IV 1 (Firenze 1984) 239-240, Nr. 135,3; fig. 324. - AE 1984.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+		<c xml:id="L0C3">A</c>
+		<c xml:id="L0C4">c</c>
+		<c xml:id="L0C5">c</c>
+		<c xml:id="L0C6">a</c>
+		<c xml:id="L0C7">e</c>
+		<c xml:id="L0C8">s</c>
+		<c xml:id="L0C9"> </c>
+		<note>sic</note>
+		<c xml:id="L0C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C11">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L0C12">u</c>
+				<c xml:id="L0C13">c</c>
+				<c xml:id="L0C14">i</c>
+				<c xml:id="L0C15">u</c>
+				<c xml:id="L0C16">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L0C17"> </c>
+		<abbr>
+			<c xml:id="L0C18">P</c>
+			<c xml:id="L0C19">o</c>
+			<c xml:id="L0C20">s</c>
+			<c xml:id="L0C21">t</c>
+		</abbr>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L0C22"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L0C23">L</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L0C24">N</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<gap reason="lost" quantity="1" unit="line" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

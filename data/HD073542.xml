@@ -1,0 +1,238 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Au/Leithaberge (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073542</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073542</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein?</material><dimensions unit="cm"><height>(90)</height><width>(46)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782242">Au/Leithaberge</placeName><placeName type="findspot">{r&#246;misches Gr&#228;berfeld an der Stra&#223;e nach Hof}, sekund&#228;r verwendet</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073542_1"><persName><name type="cognomen">Cobromarus/a+</name></persName></person><person xml:id="HD073542_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD073542_3" sex="W"><persName><name type="cognomen">Amuca+</name></persName></person><person xml:id="HD073542_4"><persName><name type="cognomen">Artem[---]</name></persName></person><person xml:id="HD073542_5" sex="M"><persName><name type="nomen">Flavius?</name><name type="cognomen">Flavis?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-17" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment der linken unteren Ecke des Inschriftfeldes einer Grabstele. Gefunden in Sekund&#228;rverwendung als Teil eines Kistengrabes. In Zeile 6/7 die A kursiv, E in Artem[--- und serv[i mit zwei Vertikalhasten wiedergegeben (sog. &amp;apos;gallisches E&amp;apos;), ebenso das F in Flavis mit einer langen und einer kurzen Vertikalhaste. Flavis steht hier entweder als cognomen oder f&#252;r Flavorum servi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Schober, J&#338;AI 17, 1914, Beiheft, 230-232, Nr. 6; Abb. 194.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Nieder&#246;sterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 101-102, Nr. 156.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<c xml:id="L1C1">C</c>
+		<c xml:id="L1C2">o</c>
+		<c xml:id="L1C3">b</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">o</c>
+		<supplied reason="lost">
+			<c xml:id="L1C6">m</c>
+			<c xml:id="L1C7">a</c>
+			<c xml:id="L1C8">r</c>
+			<gap reason="lost" quantity="1" unit="character" />
+			<gap reason="lost" quantity="1" unit="character" />
+			 
+			<expan>
+				<abbr>an</abbr>
+				<ex>norum</ex>
+			</expan>
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L1C9"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">i</c>
+				<c xml:id="L2C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">i</c>
+				<c xml:id="L2C7">t</c>
+				<c xml:id="L2C8">-</c>
+				<c xml:id="L2C9">-</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C11">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C12">s</c>
+				<c xml:id="L2C13">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C14"> </c>
+		<c xml:id="L2C15">e</c>
+		<supplied reason="lost">
+			<c xml:id="L2C16">t</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C17"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">a</c>
+				<c xml:id="L3C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C3">n</c>
+				<c xml:id="L3C4">o</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">u</c>
+				<c xml:id="L3C7">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C8"> </c>
+		<c xml:id="L3C9">L</c>
+		<c xml:id="L3C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C11">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C12">i</c>
+				<c xml:id="L3C13">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C14"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L3C15">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C16">i</c>
+					<c xml:id="L3C17">t</c>
+					<c xml:id="L3C18">-</c>
+					<c xml:id="L3C19">-</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C21">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C22">s</c>
+					<c xml:id="L3C23">t</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C24"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L3C25"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">e</c>
+		<c xml:id="L4C2">t</c>
+		<c xml:id="L4C3"> </c>
+		<c xml:id="L4C4">p</c>
+		<c xml:id="L4C5">a</c>
+		<c xml:id="L4C6">t</c>
+		<c xml:id="L4C7">r</c>
+		<supplied reason="lost">
+			<c xml:id="L4C8">i</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C9"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">A</c>
+		<c xml:id="L5C2">m</c>
+		<c xml:id="L5C3">u</c>
+		<c xml:id="L5C4">c</c>
+		<supplied reason="lost">
+			<c xml:id="L5C5">a</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L5C6"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">A</c>
+		<c xml:id="L6C2">r</c>
+		<c xml:id="L6C3">t</c>
+		<c xml:id="L6C4">e</c>
+		<c xml:id="L6C5">m</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L6C6"> </c>
+	</line>
+	<line n="7">
+		<c xml:id="L7C1">F</c>
+		<c xml:id="L7C2">l</c>
+		<c xml:id="L7C3">a</c>
+		<c xml:id="L7C4">v</c>
+		<c xml:id="L7C5">i</c>
+		<c xml:id="L7C6">s</c>
+		<c xml:id="L7C7"> </c>
+		<c xml:id="L7C8">s</c>
+		<c xml:id="L7C9">e</c>
+		<c xml:id="L7C10">r</c>
+		<c xml:id="L7C11">v</c>
+		<supplied reason="lost">
+			<c xml:id="L7C12">i</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

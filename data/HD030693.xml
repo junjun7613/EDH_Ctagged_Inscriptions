@@ -1,0 +1,306 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scupi, bei &amp;ndash; Ara&#269;inovo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030693</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030693</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>190</height><width>62</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481987">Scupi, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/793113">Ara&#269;inovo</placeName><placeName type="findspot" /><placeName type="region">Skopski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030693_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13374"><name type="nomen">Ellius+?</name><name type="cognomen">Marus Phoebus+</name></persName></person><person xml:id="HD030693_2" sex="M"><persName><name type="nomen">Ianuarius*</name><name type="cognomen">Surus Nereus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 6, 074; Foto.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">M</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">u</c>
+		<c xml:id="L1C6">s</c>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">E</c>
+		<c xml:id="L2C2">l</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">i</c>
+		<c xml:id="L2C5">u</c>
+		<supplied reason="lost">
+			<c xml:id="L2C6">s</c>
+			<c xml:id="L2C7"> </c>
+			<expan>
+				<abbr>M</abbr>
+				<ex>arci</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>l</abbr>
+				<ex cert="low">ibertus</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L2C8"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">P</c>
+		<c xml:id="L3C2">h</c>
+		<c xml:id="L3C3">o</c>
+		<c xml:id="L3C4">e</c>
+		<supplied reason="lost">
+			<c xml:id="L3C5">b</c>
+			<c xml:id="L3C6">u</c>
+			<c xml:id="L3C7">s</c>
+		</supplied>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">A</c>
+				<c xml:id="L4C2">u</c>
+				<c xml:id="L4C3">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C4">u</c>
+				<c xml:id="L4C5">s</c>
+				<c xml:id="L4C6">t</c>
+				<c xml:id="L4C7">a</c>
+				<c xml:id="L4C8">l</c>
+				<c xml:id="L4C9">i</c>
+				<c xml:id="L4C10">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C12">c</c>
+				<c xml:id="L4C13">o</c>
+				<c xml:id="L4C14">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C15">o</c>
+				<c xml:id="L4C16">n</c>
+				<c xml:id="L4C17">i</c>
+				<c xml:id="L4C18">a</c>
+				<c xml:id="L4C19">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C20"> </c>
+	</line>
+	<line n="5">
+		<expan>
+			<abbr>
+				<c xml:id="L5C1">S</c>
+				<c xml:id="L5C2">c</c>
+				<c xml:id="L5C3">u</c>
+				<c xml:id="L5C4">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C5">i</c>
+				<c xml:id="L5C6">n</c>
+				<c xml:id="L5C7">o</c>
+				<c xml:id="L5C8">r</c>
+				<c xml:id="L5C9">u</c>
+				<c xml:id="L5C10">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C12">v</c>
+				<c xml:id="L5C13">i</c>
+				<c xml:id="L5C14">x</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C15">i</c>
+				<c xml:id="L5C16">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C17"> </c>
+	</line>
+	<line n="6">
+		<expan>
+			<abbr>
+				<c xml:id="L6C1">a</c>
+				<c xml:id="L6C2">n</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C3">n</c>
+				<c xml:id="L6C4">o</c>
+				<c xml:id="L6C5">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C6"> </c>
+		<c xml:id="L6C7">L</c>
+		<c xml:id="L6C8">X</c>
+		<c xml:id="L6C9">X</c>
+		<c xml:id="L6C10">V</c>
+		<c xml:id="L6C11"> </c>
+	</line>
+	<line n="7">
+		<expan>
+			<abbr>
+				<c xml:id="L7C1">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C2">i</c>
+				<c xml:id="L7C3">c</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C6">i</c>
+				<c xml:id="L7C7">t</c>
+				<c xml:id="L7C8">u</c>
+				<c xml:id="L7C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C10"> </c>
+		<c xml:id="L7C11">e</c>
+		<supplied reason="lost">
+			<c xml:id="L7C12">s</c>
+		</supplied>
+		<c xml:id="L7C13">t</c>
+		<c xml:id="L7C14"> </c>
+	</line>
+	<line n="8">
+		<expan>
+			<abbr>
+				<c xml:id="L8C1">h</c>
+				<c xml:id="L8C2">e</c>
+				<c xml:id="L8C3">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C4">e</c>
+				<c xml:id="L8C5">d</c>
+				<c xml:id="L8C6">e</c>
+				<c xml:id="L8C7">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C9">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C10">a</c>
+				<c xml:id="L8C11">c</c>
+				<c xml:id="L8C12">i</c>
+				<c xml:id="L8C13">e</c>
+				<c xml:id="L8C14">n</c>
+				<c xml:id="L8C15">d</c>
+				<c xml:id="L8C16">u</c>
+				<c xml:id="L8C17">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C18"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L8C19">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C20">u</c>
+					<c xml:id="L8C21">r</c>
+					<c xml:id="L8C22">a</c>
+					<c xml:id="L8C23">v</c>
+					<c xml:id="L8C24">e</c>
+					<c xml:id="L8C25">r</c>
+					<c xml:id="L8C26">u</c>
+					<c xml:id="L8C27">n</c>
+					<c xml:id="L8C28">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L8C29"> </c>
+		<c xml:id="L8C30">S</c>
+		<c xml:id="L8C31">u</c>
+		<c xml:id="L8C32">r</c>
+		<c xml:id="L8C33">u</c>
+		<c xml:id="L8C34">s</c>
+		<c xml:id="L8C35"> </c>
+	</line>
+	<line n="9">
+		<expan>
+			<abbr>
+				<c xml:id="L9C1">I</c>
+				<c xml:id="L9C2">a</c>
+				<c xml:id="L9C3">n</c>
+				<c xml:id="L9C4">u</c>
+				<c xml:id="L9C5">a</c>
+				<c xml:id="L9C6">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L9C7">i</c>
+				<c xml:id="L9C8">u</c>
+				<c xml:id="L9C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L9C10"> </c>
+		<c xml:id="L9C11">N</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L9C12">e</c>
+			<c xml:id="L9C13">r</c>
+		</supplied>
+		<c xml:id="L9C14">e</c>
+		<c xml:id="L9C15">u</c>
+		<c xml:id="L9C16">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

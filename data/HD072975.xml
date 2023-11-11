@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072975</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072975</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/68">Muschelkalk</material><dimensions unit="cm"><height>(57)</height><width>45</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1983"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Zivilstadt, {Silvanusheiligtum}</placeName><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072975_1" sex="M"><persName><name type="nomen">[---]rbius*?</name><name type="cognomen">Mar[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-15" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Altar oder Basis. Die Inschrift besteht aus mehreren zueinanderpassenden Fragmenten. Stark verwittert und kaum noch lesbar. (B): AE 2012: [O]rb(iu?)s; Kremer: [O/V]rb(iu?)s / Mar[ius] / Silvan[o]. AE 2008; Holzner; Stiglitz: [Qua]drub(i)s / et / Silvani[s]</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1145.</bibl><bibl>AE 2008, 1104. (B)</bibl><bibl>G. Kremer, G&#246;tterdarstellungen, Kult- und Weihedenkm&#228;ler aus Carnuntum, CSIR &#214;sterreich Carnuntum (Suppl.) 1 (Wien 2012) 206, Nr. 412; Taf. 132, 412. (B)</bibl><bibl>M. Holzner, Tyche 24, 2009, 185, Nr. 74. (B)</bibl><bibl>H. Stiglitz, R&#338; 31, 2008, 166, Nr. 9; Fotos. (B) - AE 2008.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">r</c>
+				<c xml:id="L1C3">b</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C4">i</c>
+				<c xml:id="L1C5">u</c>
+			</ex>
+			<c xml:id="L1C6">s</c>
+		</expan>
+		<c xml:id="L1C7"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">M</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">r</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C4"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">S</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">l</c>
+		<c xml:id="L3C4">v</c>
+		<c xml:id="L3C5">a</c>
+		<c xml:id="L3C6">n</c>
+		<c xml:id="L3C7">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

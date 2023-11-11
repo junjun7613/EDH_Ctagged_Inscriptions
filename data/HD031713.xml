@@ -1,0 +1,307 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Laurento, bei &amp;ndash; Tu&#269;epi (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031713</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031713</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>75</height><width>64</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#">Laurento, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3188675">Tu&#269;epi</placeName><placeName type="findspot">{Staza}, Feld des Kri&#382;an Lali&#263;, Nekropole</placeName><placeName type="region">Splitsko-dalmatinska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031713_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Octavius*</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD031713_2" sex="W"><persName><name type="nomen">Aelia</name><name type="cognomen">Titia</name></persName></person><person xml:id="HD031713_3" sex="M"><persName><name type="nomen">Haemilius+ (= Aemilius+)</name><name type="cognomen">Rufus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-12" who="Gr&#228;f">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033773" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b2038ba9-e66f-44cc-aae2-05c8e1d63ab7/file/id/794581/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Buli&#263;, AE 1902: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0008. (B)</bibl><bibl>CIL 03, 14629, 1.</bibl><bibl>F. Buli&#263;, BAHD 24, 1901, 136-137, Nr. 2967. (B) - AE 1902.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">u</c>
+				<c xml:id="L2C3">c</c>
+				<c xml:id="L2C4">i</c>
+				<c xml:id="L2C5">u</c>
+				<c xml:id="L2C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C7"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C8">O</c>
+				<c xml:id="L2C9">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C10">t</c>
+				<c xml:id="L2C11">a</c>
+				<c xml:id="L2C12">v</c>
+				<c xml:id="L2C13">i</c>
+				<c xml:id="L2C14">u</c>
+				<c xml:id="L2C15">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C16"> </c>
+		<c xml:id="L2C17">S</c>
+		<c xml:id="L2C18">a</c>
+		<c xml:id="L2C19">b</c>
+		<c xml:id="L2C20">i</c>
+		<c xml:id="L2C21">n</c>
+		<c xml:id="L2C22">u</c>
+		<c xml:id="L2C23">s</c>
+		<c xml:id="L2C24"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">v</c>
+				<c xml:id="L3C2">e</c>
+				<c xml:id="L3C3">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">e</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">a</c>
+				<c xml:id="L3C7">n</c>
+				<c xml:id="L3C8">u</c>
+				<c xml:id="L3C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C10"> </c>
+		<c xml:id="L3C11">c</c>
+		<c xml:id="L3C12">o</c>
+		<expan>
+			<ex>
+				<c xml:id="L3C13">h</c>
+			</ex>
+			<abbr>
+				<c xml:id="L3C14">o</c>
+				<c xml:id="L3C15">r</c>
+				<c xml:id="L3C16">t</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C17">i</c>
+				<c xml:id="L3C18">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C19"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C20">o</c>
+				<c xml:id="L3C21">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C22">t</c>
+				<c xml:id="L3C23">a</c>
+				<c xml:id="L3C24">v</c>
+				<c xml:id="L3C25">a</c>
+				<c xml:id="L3C26">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C27"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C28">v</c>
+				<c xml:id="L3C29">o</c>
+				<c xml:id="L3C30">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C31">u</c>
+				<c xml:id="L3C32">n</c>
+				<c xml:id="L3C33">t</c>
+				<c xml:id="L3C34">a</c>
+				<c xml:id="L3C35">r</c>
+				<c xml:id="L3C36">i</c>
+				<c xml:id="L3C37">o</c>
+				<c xml:id="L3C38">r</c>
+				<c xml:id="L3C39">u</c>
+				<c xml:id="L3C40">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C41"> </c>
+	</line>
+	<line n="4">
+		<supplied reason="lost">
+			<c xml:id="L4C1">e</c>
+		</supplied>
+		<c xml:id="L4C2">t</c>
+		<c xml:id="L4C3"> </c>
+		<c xml:id="L4C4">A</c>
+		<c xml:id="L4C5">e</c>
+		<c xml:id="L4C6">l</c>
+		<c xml:id="L4C7">i</c>
+		<c xml:id="L4C8">a</c>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">T</c>
+		<c xml:id="L4C11">i</c>
+		<c xml:id="L4C12">t</c>
+		<c xml:id="L4C13">i</c>
+		<c xml:id="L4C14">a</c>
+		<c xml:id="L4C15"> </c>
+	</line>
+	<line n="5">
+		<supplied reason="lost">
+			<c xml:id="L5C1">v</c>
+			<c xml:id="L5C2">i</c>
+		</supplied>
+		<c xml:id="L5C3">v</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5"> </c>
+		<c xml:id="L5C6">s</c>
+		<c xml:id="L5C7">i</c>
+		<c xml:id="L5C8">b</c>
+		<c xml:id="L5C9">i</c>
+		<c xml:id="L5C10"> </c>
+		<c xml:id="L5C11">f</c>
+		<c xml:id="L5C12">e</c>
+		<c xml:id="L5C13">c</c>
+		<c xml:id="L5C14">e</c>
+	</line>
+	<line break="no" n="6">
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L6C1">r</c>
+				</supplied>
+				<c xml:id="L6C2">u</c>
+			</abbr>
+			<ex>
+				<c xml:id="L6C3">n</c>
+				<c xml:id="L6C4">t</c>
+			</ex>
+		</expan>
+		<c xml:id="L6C5"> </c>
+		<c xml:id="L6C6">e</c>
+		<c xml:id="L6C7">t</c>
+		<c xml:id="L6C8"> </c>
+		<c xml:id="L6C9">H</c>
+		<c xml:id="L6C10">a</c>
+		<c xml:id="L6C11">e</c>
+		<c xml:id="L6C12">m</c>
+		<c xml:id="L6C13">i</c>
+	</line>
+	<line break="no" n="7">
+		<supplied reason="lost">
+			<c xml:id="L7C1">l</c>
+			<c xml:id="L7C2">i</c>
+			<c xml:id="L7C3">o</c>
+			<c xml:id="L7C4">!</c>
+			<c xml:id="L7C5"> </c>
+			<c xml:id="L7C6">R</c>
+		</supplied>
+		<c xml:id="L7C7">u</c>
+		<c xml:id="L7C8">f</c>
+		<c xml:id="L7C9">o</c>
+		<c xml:id="L7C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L7C11">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L7C12">i</c>
+				<c xml:id="L7C13">l</c>
+				<c xml:id="L7C14">i</c>
+				<c xml:id="L7C15">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L7C16"> </c>
+		<c xml:id="L7C17">e</c>
+		<c xml:id="L7C18">t</c>
+		<c xml:id="L7C19"> </c>
+		<c xml:id="L7C20">l</c>
+		<c xml:id="L7C21">i</c>
+	</line>
+	<line break="no" n="8">
+		<supplied reason="lost">
+			<c xml:id="L8C1">b</c>
+			<c xml:id="L8C2">e</c>
+			<c xml:id="L8C3">r</c>
+			<c xml:id="L8C4">t</c>
+			<c xml:id="L8C5">i</c>
+		</supplied>
+		<c xml:id="L8C6">s</c>
+		<c xml:id="L8C7"> </c>
+		<c xml:id="L8C8">s</c>
+		<c xml:id="L8C9">u</c>
+		<c xml:id="L8C10">i</c>
+		<c xml:id="L8C11">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

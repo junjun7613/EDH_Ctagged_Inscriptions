@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuenna, bei &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053653</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053653</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Globasnitz, S. Stefan, S. Stefan, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(37)</height><width>(99)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.6-7.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1985"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766401">Globasnitz</placeName><placeName type="findspot">S. Stefan, {S. Stefan, Kirche}, sekund&#228;r verwendet</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053653_1" sex="M"><persName><name type="nomen">Magius+</name><name type="cognomen">Datus</name></persName></person><person xml:id="HD053653_2" sex="W"><persName><name type="nomen">Aelia+</name><name type="cognomen">Ingenua</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-02" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Vermutlich Block oder Tafel eines gr&#246;&#223;eren Grabdenkmals.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1366.</bibl><bibl>E. Weber - R. Selinger, R&#338; 19/20, 1991/92, 249, Nr. 407. - AE 1992.</bibl><bibl>F. Glaser, AustrRom 36, 1986, 16. - AE 1992.</bibl><bibl>F. Glaser, Carinthia I 176, 1986, 135-138, Nr. 1; Abb. 1; Abb. 2 u. 3 (Zeichnungen). - AE 1992.</bibl><bibl>F. Glaser, FuBer&#214; 24/25, 1985/86, 285. - AE 1992.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<c xml:id="L1C2">M</c>
+		</supplied>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">g</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">o</c>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">D</c>
+		<c xml:id="L1C9">a</c>
+		<c xml:id="L1C10">t</c>
+		<c xml:id="L1C11">o</c>
+		<c xml:id="L1C12"> </c>
+		<c xml:id="L1C13">A</c>
+		<c xml:id="L1C14">e</c>
+	</line>
+	<line break="no" n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">l</c>
+		</supplied>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">a</c>
+		<c xml:id="L2C4">e</c>
+		<c xml:id="L2C5"> </c>
+		<c xml:id="L2C6">I</c>
+		<c xml:id="L2C7">n</c>
+		<c xml:id="L2C8">g</c>
+		<c xml:id="L2C9">e</c>
+		<c xml:id="L2C10">n</c>
+		<c xml:id="L2C11">u</c>
+		<c xml:id="L2C12">a</c>
+		<c xml:id="L2C13">e</c>
+		<c xml:id="L2C14"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C15">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C16">i</c>
+				<c xml:id="L2C17">v</c>
+				<c xml:id="L2C18">i</c>
+				<c xml:id="L2C19">s</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

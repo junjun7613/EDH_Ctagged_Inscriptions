@@ -1,0 +1,135 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corinium Dobunnorum &amp;ndash; Cirencester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014581</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014581</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cirencester, Corinium Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>(25)</height><width>(25)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79549">Corinium Dobunnorum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1966"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652995">Cirencester</placeName><placeName type="findspot">{Abbey Site}</placeName><placeName type="region">Gloucestershire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014581_1" sex="M"><persName><name type="nomen">[---]asseius+</name><name type="cognomen">Saturninus?+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-12" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): In Z. 2 [Sa]turn[in ---] statt [Sa]turn[inus? ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1967, 0250. (B)</bibl><bibl>R.P. Wright, JRS 57, 1967, 203, Nr. 1. - AE 1967. (B)</bibl><bibl>RIB 3064; Foto u. Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2">a</c>
+		<c xml:id="L0C3">s</c>
+		<c xml:id="L0C4">s</c>
+		<c xml:id="L0C5">e</c>
+		<c xml:id="L0C6">i</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C7"> </c>
+	</line>
+	<line n="1">
+		<supplied reason="lost">
+			<c xml:id="L1C1">S</c>
+			<c xml:id="L1C2">a</c>
+		</supplied>
+		<c xml:id="L1C3">t</c>
+		<c xml:id="L1C4">u</c>
+		<c xml:id="L1C5">r</c>
+		<c xml:id="L1C6">n</c>
+		<supplied reason="lost">
+			<c xml:id="L1C7">i</c>
+			<c xml:id="L1C8">n</c>
+			<c xml:id="L1C9">u</c>
+			<c xml:id="L1C10">s</c>
+			<certainty locus="name" match="preceding-sibling::text()" cert="low" />
+			 
+			<gap reason="lost" extent="unknown" unit="character" />
+		</supplied>
+		<c xml:id="L1C11"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">h</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C2">i</c>
+					<c xml:id="L2C3">c</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L2C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C5">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C6">i</c>
+				<c xml:id="L2C7">t</c>
+				<c xml:id="L2C8">u</c>
+				<c xml:id="L2C9">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C10"> </c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C11">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C12">s</c>
+					<c xml:id="L2C13">t</c>
+				</ex>
+			</expan>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

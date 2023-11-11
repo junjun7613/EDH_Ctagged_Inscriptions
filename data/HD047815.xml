@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Brocomagus (Civitas Tribocorum) &amp;ndash; Brumath (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047815</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047815</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brumath, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108828">Brocomagus (Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3029771">Brumath</placeName><placeName type="findspot">{Rue Alexandre Millerand 3}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment, vielleicht einer Tafel. In Z. 1 noch der untere Teil eines M zu erkennen, davor und dahinter noch je der untere Ansatz einer Haste. Z. 2: VTV: die V so ineinander verschoben, dass sich die inneren Schr&#228;ghasten genau auf der Vertikalhaste des hohen T schneiden. PC ineinander verschoben, nicht ligiert. Hinter dem C noch der untere Ansatz einer Haste. (B): AE 2000: [---]++++[---] / [---]SECVTVS PC+[---] / [---]HO P&#233;try, (o. Autor): nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1074a. (B)</bibl><bibl>(o. Autor), in: P. Flott&#233; u. a., Le Bas-Rhin, Carte arch&#233;ologique de la Gaule 67, 1 (Paris 2000) 227; fig. 111. - AE 2000.</bibl><bibl>F. P&#233;try, Gallia 42, 1984, 251. - AE 2000.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<expan>
+			<abbr>
+				<c xml:id="L0C2">I</c>
+			</abbr>
+			<ex cert="low" />
+			<c xml:id="L0C3">M</c>
+			<c xml:id="L0C4">I</c>
+		</expan>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L0C5"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">s</c>
+		<c xml:id="L1C2">e</c>
+		<c xml:id="L1C3">c</c>
+		<c xml:id="L1C4">u</c>
+		<c xml:id="L1C5">t</c>
+		<c xml:id="L1C6">u</c>
+		<c xml:id="L1C7">s</c>
+		<c xml:id="L1C8"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C9">P</c>
+				<c xml:id="L1C10">C</c>
+				<c xml:id="L1C11">I</c>
+			</abbr>
+			<ex cert="low" />
+		</expan>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C12"> </c>
+	</line>
+	<line n="2">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C1">l</c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">o</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

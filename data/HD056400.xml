@@ -1,0 +1,155 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aeso &amp;ndash; Isona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056400</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056400</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Isona, Ermita de la Posa</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>(88)</height><width>(71)</width><depth>51</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246147">Aeso</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3120270">Isona</placeName><placeName type="findspot" /><placeName type="region">Catalu&#241;a</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056400_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">M[---]us+</name><name type="cognomen">[---]ius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-08" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): HEp 11, 2001, 0307: Mercurio / [Com]pitali V[ia]/[l]i M[ari]u[s P]/ius [posu]i[t] / ex vo[to].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 2, 020; pl. 10, 20.</bibl><bibl>IRC 5, p. 65-66.</bibl><bibl>HEp 11, 2001, 0307. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">M</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">c</c>
+		<c xml:id="L1C6">u</c>
+		<c xml:id="L1C7">r</c>
+		<c xml:id="L1C8">i</c>
+		<c xml:id="L1C9">o</c>
+		<c xml:id="L1C10"> </c>
+		<c xml:id="L1C11">C</c>
+		<supplied reason="lost">
+			<c xml:id="L1C12">o</c>
+			<c xml:id="L1C13">m</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">p</c>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">t</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">l</c>
+		<c xml:id="L2C6">i</c>
+		<c xml:id="L2C7"> </c>
+		<c xml:id="L2C8">V</c>
+		<supplied reason="lost">
+			<c xml:id="L2C9">i</c>
+			<c xml:id="L2C10">a</c>
+			<c xml:id="L2C11">l</c>
+			<c xml:id="L2C12">i</c>
+		</supplied>
+		<c xml:id="L2C13"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C2">u</c>
+				<c xml:id="L3C3">c</c>
+				<c xml:id="L3C4">i</c>
+				<c xml:id="L3C5">u</c>
+				<c xml:id="L3C6">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C7"> </c>
+		<c xml:id="L3C8">M</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C9">u</c>
+		<supplied reason="lost">
+			<c xml:id="L3C10">s</c>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">i</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3">s</c>
+		<c xml:id="L4C4"> </c>
+		<c xml:id="L4C5">p</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L4C6">o</c>
+					<c xml:id="L4C7">s</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C8">u</c>
+					<c xml:id="L4C9">i</c>
+					<c xml:id="L4C10">t</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L4C11"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">e</c>
+		<c xml:id="L5C2">x</c>
+		<c xml:id="L5C3"> </c>
+		<c xml:id="L5C4">v</c>
+		<c xml:id="L5C5">o</c>
+		<c xml:id="L5C6">t</c>
+		<supplied reason="lost">
+			<c xml:id="L5C7">o</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

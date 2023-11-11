@@ -1,0 +1,126 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from (Civitas Sequanorum) &amp;ndash; Villards-d'H&#233;ria (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080585</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080585</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Besan&#231;on, Mus. des Beaux Arts et d'Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>101</height><width>35</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177659">(Civitas Sequanorum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1700"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2968964">Villards-d'H&#233;ria</placeName><placeName type="findspot">Lac d'Antre, bei, {Tempel}</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080585_1" sex="W"><persName><name type="nomen">Catilia</name><name type="cognomen">Paula</name></persName></person><person xml:id="HD080585_2" sex="M"><persName><name type="nomen">Catilius</name><name type="cognomen">Paternus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-08" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028933" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/61b92bb3-50bc-4c75-a986-084da7c36a43/file/id/789690/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Name einer Gottheit k&#246;nnte sich auf dem vorn abgeschlagenen Gesims der Bekr&#246;nung befunden haben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05346.</bibl><bibl>(o. Autor), in: M.-P. Roth&#233;, Le Jura, Carte arch&#233;ologique de la Gaule 39 (Paris 2001) 722; fig. 514 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="0">
+			<c xml:id="L0C1">
+</c>
+			<gap reason="lost" quantity="1" unit="line">
+				<certainty match=".." locus="name" />
+			</gap>
+			<c xml:id="L0C2"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">C</c>
+			<c xml:id="L1C3">a</c>
+			<c xml:id="L1C4">t</c>
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">l</c>
+			<c xml:id="L1C7">i</c>
+			<c xml:id="L1C8">a</c>
+			<c xml:id="L1C9"> </c>
+			<c xml:id="L1C10">P</c>
+			<c xml:id="L1C11">a</c>
+			<c xml:id="L1C12">u</c>
+		</line>
+		<line break="no" n="2">
+			<c xml:id="L2C1">l</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3"> </c>
+			<c xml:id="L2C4">C</c>
+			<c xml:id="L2C5">a</c>
+			<c xml:id="L2C6">t</c>
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">l</c>
+			<c xml:id="L2C9">i</c>
+			<c xml:id="L2C10"> </c>
+			<c xml:id="L2C11">P</c>
+			<c xml:id="L2C12">a</c>
+		</line>
+		<line break="no" n="3">
+			<c xml:id="L3C1">t</c>
+			<c xml:id="L3C2">e</c>
+			<c xml:id="L3C3">r</c>
+			<c xml:id="L3C4">n</c>
+			<c xml:id="L3C5">i</c>
+			<c xml:id="L3C6"> </c>
+			<c xml:id="L3C7">f</c>
+			<c xml:id="L3C8">i</c>
+			<c xml:id="L3C9">l</c>
+			<c xml:id="L3C10">i</c>
+			<c xml:id="L3C11">a</c>
+			<c xml:id="L3C12"> </c>
+		</line>
+		<line n="4">
+			<c xml:id="L4C1">a</c>
+			<c xml:id="L4C2">r</c>
+			<c xml:id="L4C3">a</c>
+			<c xml:id="L4C4">m</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

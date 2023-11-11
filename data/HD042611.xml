@@ -1,0 +1,113 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Novae &amp;ndash; Svi&#353;tov (Moesia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042611</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042611</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Svi&#353;tov</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(106)</height><width>45</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/216899">Novae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/732800">Bulgaria</placeName><placeName type="modern" ref="http://www.geonames.org/726534">Svi&#353;tov</placeName><placeName type="findspot">Lager, westlich, {Pr&#228;torium(?)} sekund&#228;r verwendet</placeName><placeName type="region">Veliko T&#226;rnovo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042611_1" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Eutyches</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005218" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d663d084-88fa-4257-8073-b1e4dd69b8a0/file/id/765995/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IGLN 043; pl. 16, 43.</bibl><bibl>ILNovae 024; Abb. 24.</bibl><bibl>L. Bricault, Recueil des inscriptions concernant les cultes Isiaques (RICIS) (Paris 2005) 734-735, Nr. 618/0201; pl. 127, 618/0201.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">S</c>
+		<c xml:id="L1C3">a</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">a</c>
+		<c xml:id="L1C6">p</c>
+		<c xml:id="L1C7">i</c>
+		<c xml:id="L1C8"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">s</c>
+		<c xml:id="L2C2">a</c>
+		<c xml:id="L2C3">n</c>
+		<c xml:id="L2C4">c</c>
+		<c xml:id="L2C5">t</c>
+		<c xml:id="L2C6">o</c>
+		<c xml:id="L2C7"> </c>
+	</line>
+	<line n="3">
+		<expan>
+			<abbr>
+				<c xml:id="L3C1">V</c>
+				<c xml:id="L3C2">a</c>
+				<c xml:id="L3C3">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C4">e</c>
+				<c xml:id="L3C5">r</c>
+				<c xml:id="L3C6">i</c>
+				<c xml:id="L3C7">u</c>
+				<c xml:id="L3C8">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C9"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">E</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3">t</c>
+		<c xml:id="L4C4">y</c>
+		<c xml:id="L4C5">c</c>
+		<c xml:id="L4C6">h</c>
+		<c xml:id="L4C7">e</c>
+		<c xml:id="L4C8">s</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

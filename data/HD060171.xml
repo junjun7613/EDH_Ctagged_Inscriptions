@@ -1,0 +1,265 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060171</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060171</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regensburg, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(53)</height><width>(129)</width><depth>(15)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118929">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1710"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="findspot">{S. Emmeram, Kloster}, S. Georg, Kapelle</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060171_1" sex="W"><persName><name type="nomen">Flavia+</name><name type="cognomen">Florina+</name></persName></person><person xml:id="HD060171_2" sex="M"><persName><name type="nomen">Marcellinius+</name><name type="cognomen">Marcianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-06" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017918" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6854ddd4-902d-42c8-be0c-03f34d932c9f/file/id/777529/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Fragment mit dem unteren Rand des Inschriftfeldes. (B): CIL 03, 05952: Kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 383; tab. 53, 383.</bibl><bibl>CIL 03, 05952. (B)</bibl><bibl>A. Spie&#223;, KJ 21, 1988, 305, Nr. 25; Abb. 55.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C13"> </c>
+			<c xml:id="L1C14">e</c>
+			<c xml:id="L1C15">t</c>
+			<c xml:id="L1C16"> </c>
+			<c xml:id="L1C17">m</c>
+			<c xml:id="L1C18">e</c>
+			<c xml:id="L1C19">m</c>
+			<c xml:id="L1C20">o</c>
+			<c xml:id="L1C21">r</c>
+			<c xml:id="L1C22">i</c>
+			<c xml:id="L1C23">a</c>
+		</supplied>
+		<c xml:id="L1C24">e</c>
+		<c xml:id="L1C25"> </c>
+		<c xml:id="L1C26">d</c>
+		<c xml:id="L1C27">u</c>
+		<c xml:id="L1C28">l</c>
+		<c xml:id="L1C29">c</c>
+		<c xml:id="L1C30">i</c>
+		<supplied reason="lost">
+			<c xml:id="L1C31">s</c>
+			<c xml:id="L1C32">s</c>
+			<c xml:id="L1C33">i</c>
+		</supplied>
+	</line>
+	<line break="no" n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">m</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">e</c>
+			<c xml:id="L2C4"> </c>
+			<c xml:id="L2C5">F</c>
+		</supplied>
+		<c xml:id="L2C6">l</c>
+		<c xml:id="L2C7">a</c>
+		<c xml:id="L2C8">v</c>
+		<c xml:id="L2C9">i</c>
+		<c xml:id="L2C10">a</c>
+		<c xml:id="L2C11">e</c>
+		<c xml:id="L2C12"> </c>
+		<c xml:id="L2C13">F</c>
+		<c xml:id="L2C14">l</c>
+		<c xml:id="L2C15">o</c>
+		<c xml:id="L2C16">r</c>
+		<c xml:id="L2C17">i</c>
+		<c xml:id="L2C18">n</c>
+		<supplied reason="lost">
+			<c xml:id="L2C19">a</c>
+			<c xml:id="L2C20">e</c>
+		</supplied>
+		<c xml:id="L2C21"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">M</c>
+		</supplied>
+		<c xml:id="L3C2">a</c>
+		<c xml:id="L3C3">r</c>
+		<c xml:id="L3C4">c</c>
+		<c xml:id="L3C5">e</c>
+		<c xml:id="L3C6">l</c>
+		<c xml:id="L3C7">l</c>
+		<c xml:id="L3C8">i</c>
+		<c xml:id="L3C9">n</c>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11">u</c>
+		<c xml:id="L3C12">s</c>
+		<c xml:id="L3C13"> </c>
+		<c xml:id="L3C14">M</c>
+		<c xml:id="L3C15">a</c>
+		<c xml:id="L3C16">r</c>
+		<c xml:id="L3C17">c</c>
+		<c xml:id="L3C18">i</c>
+		<supplied reason="lost">
+			<c xml:id="L3C19">a</c>
+		</supplied>
+	</line>
+	<line break="no" n="4">
+		<c xml:id="L4C1">n</c>
+		<c xml:id="L4C2">u</c>
+		<c xml:id="L4C3">s</c>
+		<c xml:id="L4C4"> </c>
+		<c xml:id="L4C5">s</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">g</c>
+		<expan>
+			<ex>
+				<c xml:id="L4C8">n</c>
+				<c xml:id="L4C9">i</c>
+			</ex>
+			<abbr>
+				<c xml:id="L4C10">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C11">e</c>
+				<c xml:id="L4C12">r</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C14">l</c>
+				<c xml:id="L4C15">e</c>
+				<c xml:id="L4C16">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C17">i</c>
+				<c xml:id="L4C18">o</c>
+				<c xml:id="L4C19">n</c>
+				<c xml:id="L4C20">i</c>
+				<c xml:id="L4C21">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C22"> </c>
+		<c xml:id="L4C23">c</c>
+		<c xml:id="L4C24">o</c>
+		<c xml:id="L4C25">n</c>
+		<c xml:id="L4C26">i</c>
+		<c xml:id="L4C27">u</c>
+		<c xml:id="L4C28">g</c>
+		<supplied reason="lost">
+			<c xml:id="L4C29">i</c>
+		</supplied>
+		<c xml:id="L4C30"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">i</c>
+		<c xml:id="L5C2">n</c>
+		<c xml:id="L5C3">c</c>
+		<c xml:id="L5C4">o</c>
+		<c xml:id="L5C5">n</c>
+		<c xml:id="L5C6">p</c>
+		<c xml:id="L5C7">a</c>
+		<c xml:id="L5C8">r</c>
+		<c xml:id="L5C9">a</c>
+		<c xml:id="L5C10">b</c>
+		<c xml:id="L5C11">i</c>
+		<c xml:id="L5C12">l</c>
+		<c xml:id="L5C13">i</c>
+		<c xml:id="L5C14"> </c>
+		<note>sic</note>
+		<c xml:id="L5C15"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C16">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C17">a</c>
+				<c xml:id="L5C18">c</c>
+				<c xml:id="L5C19">i</c>
+				<c xml:id="L5C20">e</c>
+				<c xml:id="L5C21">n</c>
+				<c xml:id="L5C22">d</c>
+				<c xml:id="L5C23">u</c>
+				<c xml:id="L5C24">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C25"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C26">c</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C27">u</c>
+				<c xml:id="L5C28">r</c>
+				<c xml:id="L5C29">a</c>
+				<c xml:id="L5C30">v</c>
+				<c xml:id="L5C31">i</c>
+				<c xml:id="L5C32">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

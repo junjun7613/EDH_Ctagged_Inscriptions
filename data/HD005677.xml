@@ -1,0 +1,234 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Narona &amp;ndash; Metkovi&#263; (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005677</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005677</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Metkovi&#263;, Vid, Arch&#228;ologische Sammlung</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>64</height><width>51</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197400">Narona</placeName></origPlace><origDate><origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD - 238 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187815">Metkovi&#263;</placeName><placeName type="findspot">{Vid}, Lu&#269;ica, Nordwesttor, bei</placeName><placeName type="region">Dubrova&#269;ko-neretvanska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005677_1" sex="M"><persName><name type="praenomen">C.++</name><name type="nomen">Iulius+++</name><name type="cognomen">Verus++ Maximinus++</name></persName></person><person xml:id="HD005677_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q518890"><name type="praenomen">C.</name><name type="nomen">Iulius++</name><name type="cognomen">Verus++ Maximus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-13" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente erhalten. Gefunden beim nordwestlichen Stadttor von Narona. (B): Bojanovski; AE 1980: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0678. (B)</bibl><bibl>I. Bojanovski, AArchSlov 28, 1977, 188-195; tab. 1, 1. (B) - AE 1980.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">P</c>
+		<del rend="erasure">
+			<c xml:id="L1C3">r</c>
+			<c xml:id="L1C4">o</c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>sal</abbr>
+					<ex>ute</ex>
+				</expan>
+			</supplied>
+			 
+			<expan>
+				<abbr>dd</abbr>
+				<ex>ominorum</ex>
+			</expan>
+			 [
+			<expan>
+				<abbr>nn</abbr>
+				<ex>ostrorum</ex>
+			</expan>
+			 
+			<expan>
+				<abbr>Imp</abbr>
+				<ex>eratoris</ex>
+			</expan>
+		</del>
+		<c xml:id="L1C5">]</c>
+		<c xml:id="L1C6"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">C</c>
+		<del rend="erasure">
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">e</c>
+			<c xml:id="L2C4">s</c>
+			<c xml:id="L2C5">a</c>
+			<c xml:id="L2C6">r</c>
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">s</c>
+			<c xml:id="L2C9"> </c>
+			<expan>
+				<abbr>G</abbr>
+				<ex>ai</ex>
+			</expan>
+			 
+			<supplied reason="lost">I</supplied>
+			uli Veri
+		</del>
+		<c xml:id="L2C10"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">M</c>
+		<del rend="erasure">
+			<c xml:id="L3C2">a</c>
+			<c xml:id="L3C3">x</c>
+			<c xml:id="L3C4">i</c>
+			<c xml:id="L3C5">m</c>
+			<c xml:id="L3C6">i</c>
+			<c xml:id="L3C7">n</c>
+			<c xml:id="L3C8">i</c>
+			<c xml:id="L3C9"> </c>
+			<expan>
+				<abbr>Aug</abbr>
+				<ex>usti</ex>
+			</expan>
+			 et
+		</del>
+		<c xml:id="L3C10"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">G</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C2">a</c>
+				<c xml:id="L4C3">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C4"> </c>
+		<del rend="erasure">
+			<c xml:id="L4C5">I</c>
+			<c xml:id="L4C6">u</c>
+			<c xml:id="L4C7">l</c>
+			<c xml:id="L4C8">i</c>
+			<c xml:id="L4C9"> </c>
+			<c xml:id="L4C10">V</c>
+			<c xml:id="L4C11">e</c>
+			<c xml:id="L4C12">r</c>
+			<c xml:id="L4C13">i</c>
+			<c xml:id="L4C14"> </c>
+			<c xml:id="L4C15">M</c>
+			<c xml:id="L4C16">[</c>
+			<c xml:id="L4C17">a</c>
+			<c xml:id="L4C18">x</c>
+			<c xml:id="L4C19">i</c>
+			<c xml:id="L4C20">m</c>
+			<c xml:id="L4C21">i</c>
+		</del>
+		<c xml:id="L4C22">]</c>
+		<c xml:id="L4C23"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">n</c>
+		<c xml:id="L5C2">o</c>
+		<c xml:id="L5C3">b</c>
+		<c xml:id="L5C4">i</c>
+		<c xml:id="L5C5">l</c>
+		<c xml:id="L5C6">i</c>
+		<c xml:id="L5C7">s</c>
+		<expan>
+			<ex>
+				<c xml:id="L5C8">s</c>
+			</ex>
+			<abbr>
+				<c xml:id="L5C9">i</c>
+				<c xml:id="L5C10">m</c>
+				<c xml:id="L5C11">i</c>
+			</abbr>
+		</expan>
+		<c xml:id="L5C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C13">C</c>
+				<c xml:id="L5C14">a</c>
+				<c xml:id="L5C15">e</c>
+				<c xml:id="L5C16">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C17">a</c>
+				<c xml:id="L5C18">r</c>
+				<c xml:id="L5C19">i</c>
+				<c xml:id="L5C20">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C21"> </c>
+		<supplied reason="lost">
+			<c xml:id="L5C22">r</c>
+			<c xml:id="L5C23">e</c>
+			<c xml:id="L5C24">s</c>
+			<c xml:id="L5C25"> </c>
+			<expan>
+				<abbr>p</abbr>
+				<ex>ublica</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L5C26"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">N</c>
+		<c xml:id="L6C2">a</c>
+		<c xml:id="L6C3">r</c>
+		<c xml:id="L6C4">o</c>
+		<c xml:id="L6C5">n</c>
+		<c xml:id="L6C6">i</c>
+		<c xml:id="L6C7">t</c>
+		<c xml:id="L6C8">a</c>
+		<c xml:id="L6C9">n</c>
+		<c xml:id="L6C10">o</c>
+		<supplied reason="lost">
+			<c xml:id="L6C11">r</c>
+			<c xml:id="L6C12">u</c>
+			<c xml:id="L6C13">m</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

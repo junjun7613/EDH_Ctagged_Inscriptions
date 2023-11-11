@@ -1,0 +1,250 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Favaios, Alij&#243; (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD000497</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD000497</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Jorge, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>180</height><width>55</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern">Favaios, Alij&#243;</placeName><placeName type="findspot">Quinta de S. Jorge, Nordmauer der Kapelle, verbaut</placeName><placeName type="region">Vila Real</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD000497_1" sex="W"><persName><name type="cognomen">Faccilla (= Flaccilla)</name></persName></person><person xml:id="HD000497_2" sex="W"><persName><name type="cognomen">Faccina (= Flaccina)</name></persName></person><person xml:id="HD000497_3" sex="W"><persName><name type="cognomen">Materna</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): AE, Z.2: F(l)acilla; AE, Brochado de Almeida, Z.10: p(ropria) p(ecunia) p(osuerunt). Die Verstorbenen (Mutter, Vater, 18-j&#228;hriger Bruder) sind in der Inschrift nicht namentlich genannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1983, 0584. (B)</bibl><bibl>C.A. Brochado de Almeida - M. Alves Pl&#225;cido, Archeologia 7, 1983, 48-51; fig. 1 (Zeichnung). (B) - AE.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">a</c>
+				<c xml:id="L1C16">c</c>
+				<c xml:id="L1C17">r</c>
+				<c xml:id="L1C18">u</c>
+				<c xml:id="L1C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C20"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">F</c>
+		<expan>
+			<ex>
+				<c xml:id="L2C2">l</c>
+			</ex>
+			<abbr>
+				<c xml:id="L2C3">a</c>
+				<c xml:id="L2C4">c</c>
+				<c xml:id="L2C5">c</c>
+				<c xml:id="L2C6">i</c>
+				<c xml:id="L2C7">l</c>
+				<c xml:id="L2C8">l</c>
+				<c xml:id="L2C9">a</c>
+			</abbr>
+		</expan>
+		<c xml:id="L2C10"> </c>
+		<c xml:id="L2C11">e</c>
+		<c xml:id="L2C12">t</c>
+		<c xml:id="L2C13"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">F</c>
+		<expan>
+			<ex>
+				<c xml:id="L3C2">l</c>
+			</ex>
+			<abbr>
+				<c xml:id="L3C3">a</c>
+				<c xml:id="L3C4">c</c>
+				<c xml:id="L3C5">c</c>
+				<c xml:id="L3C6">i</c>
+				<c xml:id="L3C7">n</c>
+				<c xml:id="L3C8">a</c>
+			</abbr>
+		</expan>
+		<c xml:id="L3C9"> </c>
+		<c xml:id="L3C10">e</c>
+		<c xml:id="L3C11">t</c>
+		<c xml:id="L3C12"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">M</c>
+		<c xml:id="L4C2">a</c>
+		<c xml:id="L4C3">t</c>
+		<c xml:id="L4C4">e</c>
+		<c xml:id="L4C5">r</c>
+		<c xml:id="L4C6">n</c>
+		<c xml:id="L4C7">a</c>
+		<c xml:id="L4C8"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">m</c>
+		<c xml:id="L5C2">a</c>
+		<c xml:id="L5C3">t</c>
+		<c xml:id="L5C4">r</c>
+		<c xml:id="L5C5">i</c>
+		<c xml:id="L5C6"> </c>
+		<c xml:id="L5C7">e</c>
+		<c xml:id="L5C8">t</c>
+		<c xml:id="L5C9"> </c>
+	</line>
+	<line n="6">
+		<c xml:id="L6C1">p</c>
+		<c xml:id="L6C2">a</c>
+		<c xml:id="L6C3">t</c>
+		<c xml:id="L6C4">r</c>
+		<c xml:id="L6C5">i</c>
+		<c xml:id="L6C6"> </c>
+		<c xml:id="L6C7">e</c>
+		<c xml:id="L6C8">t</c>
+		<c xml:id="L6C9"> </c>
+	</line>
+	<line n="7">
+		<c xml:id="L7C1">f</c>
+		<c xml:id="L7C2">r</c>
+		<c xml:id="L7C3">a</c>
+		<c xml:id="L7C4">t</c>
+		<c xml:id="L7C5">r</c>
+		<c xml:id="L7C6">i</c>
+		<c xml:id="L7C7"> </c>
+	</line>
+	<line n="8">
+		<expan>
+			<abbr>
+				<c xml:id="L8C1">n</c>
+				<am>n</am>
+			</abbr>
+			<ex>
+				<c xml:id="L8C2">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C3"> </c>
+	</line>
+	<line n="9">
+		<c xml:id="L9C1">X</c>
+		<c xml:id="L9C2">V</c>
+		<c xml:id="L9C3">I</c>
+		<c xml:id="L9C4">I</c>
+		<c xml:id="L9C5">I</c>
+		<c xml:id="L9C6"> </c>
+	</line>
+	<line n="10">
+		<expan>
+			<abbr>
+				<c xml:id="L10C1">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L10C2">r</c>
+				<c xml:id="L10C3">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L10C4"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L10C5">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L10C6">i</c>
+				<c xml:id="L10C7">e</c>
+				<c xml:id="L10C8">t</c>
+				<c xml:id="L10C9">a</c>
+				<c xml:id="L10C10">t</c>
+				<c xml:id="L10C11">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L10C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L10C13">p</c>
+			</abbr>
+			<ex>
+				<c xml:id="L10C14">o</c>
+				<c xml:id="L10C15">s</c>
+				<c xml:id="L10C16">u</c>
+				<c xml:id="L10C17">e</c>
+				<c xml:id="L10C18">r</c>
+				<c xml:id="L10C19">u</c>
+				<c xml:id="L10C20">n</c>
+				<c xml:id="L10C21">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

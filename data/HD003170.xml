@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Alc&#225;cer do Sal (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD003170</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD003170</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2272212">Alc&#225;cer do Sal</placeName><placeName type="findspot">Castelo de Alc&#225;cer bei Kloster Araceli</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD003170_1"><persName><name type="praenomen">L.</name><name type="nomen">Cornelius+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-01-14" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Wegen fragmentarischen Erhaltungszustandes nicht zu entscheiden, ob Name der Person im Nominativ oder Dativ stand. Vielleicht handelt es sich um Cornelius Bocchus, vom dem weitere Inschriften aus dieser Stadt bekannt sind; m&#246;glicherweise identisch mit L. Co[rnelius? ---] aus AE 1985, 499.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1985, 0500.</bibl><bibl>J.C. L&#225;zaro Faria, FichEpigr 9, 1984, 15-16, Nr. 41; Foto 41. - AE 1985.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">L</c>
+			</abbr>
+			<ex cert="low">
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">c</c>
+				<c xml:id="L1C5">i</c>
+				<c xml:id="L1C6">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C7"> </c>
+		<c xml:id="L1C8">C</c>
+		<c xml:id="L1C9">o</c>
+		<c xml:id="L1C10">[</c>
+		<c xml:id="L1C11">r</c>
+		<c xml:id="L1C12">n</c>
+		<c xml:id="L1C13">e</c>
+		<c xml:id="L1C14">l</c>
+		<c xml:id="L1C15">i</c>
+		<c xml:id="L1C16">o</c>
+		<certainty match="preceding-sibling::node()" locus="value" />
+		<c xml:id="L1C17"> </c>
+		<c xml:id="L1C18">-</c>
+		<c xml:id="L1C19">-</c>
+		<c xml:id="L1C20">-</c>
+		<c xml:id="L1C21">-</c>
+		<c xml:id="L1C22">-</c>
+		<c xml:id="L1C23">-</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

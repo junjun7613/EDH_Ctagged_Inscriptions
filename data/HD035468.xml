@@ -1,0 +1,135 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035468</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035468</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/115">Silber</material><dimensions unit="cm"><height>17</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot" /><placeName type="region">Nieder&#246;sterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035468_1" sex="M"><persName><name type="nomen">&#922;&#969;&#957;&#963;&#964;&#8049;&#957;&#964;&#953;&#959;&#962;*</name><name type="cognomen">&#922;&#8061;&#957;&#963;&#964;&#945;&#957;&#962;</name></persName></person><person xml:id="HD035468_2" sex="M"><persName><name type="nomen">T(---)</name><name type="cognomen">Romanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Silberl&#246;ffel. (B): Das Alpha befindet sich nahe am Ansatz des Griffes und hat mit den Namen nichts zu tun. Hinter beiden Namen ist ein Schn&#246;rkel angebracht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIGPannon 021.</bibl><bibl>CIGPannon (2. Aufl.) 018; Zeichnung. (B)</bibl><bibl>CIGPannon (3. Aufl.) 018.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">T</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">t</c>
+					<c xml:id="L1C5">u</c>
+					<c xml:id="L1C6">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C7"> </c>
+			<c xml:id="L1C8">R</c>
+			<c xml:id="L1C9">o</c>
+			<c xml:id="L1C10">m</c>
+			<c xml:id="L1C11">a</c>
+			<c xml:id="L1C12">n</c>
+			<c xml:id="L1C13">u</c>
+			<c xml:id="L1C14">s</c>
+			<c xml:id="L1C15"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">&#922;</c>
+			<c xml:id="L1C3">&#969;</c>
+			<c xml:id="L1C4">(</c>
+			<c xml:id="L1C5">&#957;</c>
+			<c xml:id="L1C6">)</c>
+			<c xml:id="L1C7">&#963;</c>
+			<c xml:id="L1C8">&#964;</c>
+			<c xml:id="L1C9">&#8049;</c>
+			<c xml:id="L1C10">&#957;</c>
+			<c xml:id="L1C11">&#964;</c>
+			<c xml:id="L1C12">&#953;</c>
+			<c xml:id="L1C13"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">&#945;</c>
+			<c xml:id="L2C2"> </c>
+			<c xml:id="L2C3">&#922;</c>
+			<c xml:id="L2C4">&#969;</c>
+			<c xml:id="L2C5">&amp;</c>
+			<c xml:id="L2C6">l</c>
+			<c xml:id="L2C7">t</c>
+			<c xml:id="L2C8">;</c>
+			<c xml:id="L2C9">&#957;</c>
+			<c xml:id="L2C10">&#963;</c>
+			<c xml:id="L2C11">=</c>
+			<c xml:id="L2C12">&#931;</c>
+			<c xml:id="L2C13">&#925;</c>
+			<c xml:id="L2C14">&amp;</c>
+			<c xml:id="L2C15">g</c>
+			<c xml:id="L2C16">t</c>
+			<c xml:id="L2C17">;</c>
+			<c xml:id="L2C18">&#964;</c>
+			<c xml:id="L2C19">&#8049;</c>
+			<c xml:id="L2C20">&#957;</c>
+			<c xml:id="L2C21">&#964;</c>
+			<c xml:id="L2C22">&#953;</c>
+			<c xml:id="L2C23">&#962;</c>
+			<c xml:id="L2C24"> </c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

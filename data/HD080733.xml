@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Luxovium &amp;ndash; Luxeuil-les-Bains (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080733</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080733</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Luxeuil, Thermen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(60)</height><width>87</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177568">Luxovium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1845"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996995">Luxeuil-les-Bains</placeName><placeName type="findspot">{Rue Jean-Jaur&#233;s 9-13}, sp&#228;tantikes Lager, sekund&#228;r verwendet</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080733_1" sex="M"><persName><name type="cognomen">Divicus</name></persName></person><person xml:id="HD080733_2" sex="W"><persName><name type="cognomen">Samilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-18" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Bruchst&#252;cke mit dem oberen und unteren Ende einer Stele mit dreieckigem Giebel. In Rundbogennische zwei stehende Ganzfiguren eines Mannes und einer Frau, von denen noch die K&#246;pfe und F&#252;&#223;e erhalten sind. Die Inschrift befindet sich unterhalb des Bildfeldes. D M steht links und rechts der ersten Zeile. Die Ma&#223;angabe bezieht sich auf das obere Bruchst&#252;ck, die Ma&#223;e des unteren sind unbekannt. Rekonstruierte H&#246;he nach CAG: 125 cm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05434.</bibl><bibl>&#201;. Esp&#233;randieu, Recueil g&#233;n&#233;ral des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 54-55, Nr. 5324; Foto.</bibl><bibl>H. Walter, La sculpture fun&#233;raire gallo-romaine en Franche-Comt&#233; (Paris 1974) 58-59, Nr. 33.</bibl><bibl>O. Faure-Brac, La Haute-Sa&#244;ne, Carte arch&#233;ologique de la Gaule 70 (Paris 2002) 295; fig. 329 (Zeichnung).</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C13"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">D</c>
+			<c xml:id="L1C3">i</c>
+			<c xml:id="L1C4">v</c>
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">c</c>
+			<c xml:id="L1C7">u</c>
+			<c xml:id="L1C8">s</c>
+			<c xml:id="L1C9"> </c>
+			<c xml:id="L1C10">e</c>
+			<c xml:id="L1C11">t</c>
+			<c xml:id="L1C12"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">S</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">m</c>
+			<c xml:id="L2C4">i</c>
+			<c xml:id="L2C5">l</c>
+			<c xml:id="L2C6">l</c>
+			<c xml:id="L2C7">a</c>
+			<c xml:id="L2C8"> </c>
+			<c xml:id="L2C9">m</c>
+			<c xml:id="L2C10">a</c>
+			<c xml:id="L2C11">t</c>
+			<c xml:id="L2C12">e</c>
+			<c xml:id="L2C13">r</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

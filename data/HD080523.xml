@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Rauricorum) &amp;ndash; Horbourg-Wihr, bei (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080523</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080523</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Colmar, Mus. d'Unterlinden</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(205)</height><width>60</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109053">(Civitas Rauricorum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3013155">Horbourg-Wihr, bei</placeName><placeName type="findspot">{Canal de Colmar}, r&#246;mische Stra&#223;e(?)</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080523_1" sex="W"><persName><name type="cognomen">Codomara</name></persName></person><person xml:id="HD080523_2" sex="M"><persName><name type="cognomen">[--]cco</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-22" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037007" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9122d072-4afe-4bae-ae73-2709cef90b0f/file/id/797872/file_version/name/small" /><graphic xml:id="F037006" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/17665525-f7f7-4247-ae6e-bbe0f2c137d0/file/id/797871/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Giebelstele mit Dreiecksgiebel, oben abgebrochen, im Giebelfeld corona oder Kranz. Z. 1 befindet sich auf der oberen Rahmenleiste des Inschriftfeldes. Das Inschriftfeld ist vertikal durch eine flache Leiste in zwei Felder geteilt, Text 1 befindet sich in dem linken, Text 2 in dem rechten Feld. Die bisherigen Lesungen ignorieren diese Zweiteilung. (B): Text 2/3; Z. 2/3: CIL 13, 05319: [------] / Codom[--]acc[-]o / ARA[----]NIS; Brambach: D[---]I[---] / CODOM[---]CO / ARA[---]NFS; Zehner: [---]I[---] / CODOM[..]+CC.O / ARA[---]NIS.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05319. (B)</bibl><bibl>W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeldae 1867) 342, Nr. 1911. (B)</bibl><bibl>M. Zehner, Le Haut-Rhin, Carte arch&#233;ologique de la Gaule 68 (Paris 1998) 192. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">i</c>
+					<c xml:id="L1C4">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C6">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C7">a</c>
+					<c xml:id="L1C8">n</c>
+					<c xml:id="L1C9">i</c>
+					<c xml:id="L1C10">b</c>
+					<c xml:id="L1C11">u</c>
+					<c xml:id="L1C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C13"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">C</c>
+			<c xml:id="L1C3">o</c>
+			<c xml:id="L1C4">d</c>
+			<c xml:id="L1C5">o</c>
+			<c xml:id="L1C6">m</c>
+		</line>
+		<line break="no" n="2">
+			<c xml:id="L2C1">a</c>
+			<c xml:id="L2C2">r</c>
+			<c xml:id="L2C3">a</c>
+			<c xml:id="L2C4"> </c>
+		</line>
+	</div>
+	<div n="3" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<supplied reason="lost">
+				<gap reason="lost" quantity="1" unit="character" />
+				<gap reason="lost" quantity="1" unit="character" />
+			</supplied>
+			<c xml:id="L1C2">c</c>
+			<c xml:id="L1C3">c</c>
+			<c xml:id="L1C4">o</c>
+		</line>
+		<line break="no" n="2">
+			<c xml:id="L2C1">n</c>
+			<c xml:id="L2C2">i</c>
+			<c xml:id="L2C3">s</c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

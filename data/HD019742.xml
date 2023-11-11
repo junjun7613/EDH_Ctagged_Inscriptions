@@ -1,0 +1,5438 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019742</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019742</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>29</height><width>52</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="-089" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">89 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot" /><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019742_1"><persName><name type="praenomen">Cn.+</name><name type="nomen">Pompeius</name></persName></person><person xml:id="HD019742_10"><persName><name type="praenomen">Cn.</name><name type="nomen">Cornelius*</name></persName></person><person xml:id="HD019742_100"><persName><name type="cognomen">Umarbeles</name></persName></person><person xml:id="HD019742_101"><persName><name type="cognomen">Turinnus</name></persName></person><person xml:id="HD019742_102"><persName><name type="cognomen">Adimels</name></persName></person><person xml:id="HD019742_103"><persName><name type="cognomen">Ordumeles</name></persName></person><person xml:id="HD019742_104"><persName><name type="cognomen">Burdo</name></persName></person><person xml:id="HD019742_105"><persName><name type="cognomen">Bastugitas</name></persName></person><person xml:id="HD019742_106"><persName><name type="cognomen">Adimels</name></persName></person><person xml:id="HD019742_107"><persName><name type="cognomen">Umarillun</name></persName></person><person xml:id="HD019742_108"><persName><name type="cognomen">Tarbantu</name></persName></person><person xml:id="HD019742_109"><persName><name type="cognomen">Belennes</name></persName></person><person xml:id="HD019742_11"><persName><name type="praenomen">T.</name><name type="nomen">Annius*</name></persName></person><person xml:id="HD019742_110"><persName><name type="cognomen">Albennes</name></persName></person><person xml:id="HD019742_111"><persName><name type="cognomen">Atullo</name></persName></person><person xml:id="HD019742_112"><persName><name type="cognomen">Tautindals</name></persName></person><person xml:id="HD019742_113"><persName><name type="cognomen">Balciadin</name></persName></person><person xml:id="HD019742_114"><persName><name type="cognomen">Bacibilos*?</name></persName></person><person xml:id="HD019742_12"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name></persName></person><person xml:id="HD019742_13"><persName><name type="praenomen">L.</name><name type="nomen">Volumnius*</name></persName></person><person xml:id="HD019742_14"><persName><name type="praenomen">L.</name><name type="nomen">[---]</name></persName></person><person xml:id="HD019742_15"><persName><name type="praenomen">T.</name><name type="nomen">Pompeius*</name></persName></person><person xml:id="HD019742_16"><persName><name type="praenomen">C.</name><name type="nomen">Rabeirius*</name></persName></person><person xml:id="HD019742_17"><persName><name type="praenomen">D.</name><name type="nomen">Aebutius*</name></persName></person><person xml:id="HD019742_18"><persName><name type="praenomen">M.</name><name type="nomen">Teiedius*</name></persName></person><person xml:id="HD019742_19"><persName><name type="praenomen">C.</name><name type="nomen">Fundilius*</name></persName></person><person xml:id="HD019742_2"><persName><name type="praenomen">L.</name><name type="nomen">Gellius</name></persName></person><person xml:id="HD019742_20"><persName><name type="praenomen">M.</name><name type="nomen">Faianius+*</name></persName></person><person xml:id="HD019742_21"><persName><name type="praenomen">T.</name><name type="nomen">Acilius*</name></persName></person><person xml:id="HD019742_22"><persName><name type="praenomen">Cn.</name><name type="nomen">Oppius*</name></persName></person><person xml:id="HD019742_23"><persName><name type="praenomen">Q.</name><name type="nomen">Petillius*</name></persName></person><person xml:id="HD019742_24"><persName><name type="praenomen">L.</name><name type="nomen">Terentius*</name></persName></person><person xml:id="HD019742_25"><persName><name type="praenomen">L.</name><name type="nomen">Vettius*</name></persName></person><person xml:id="HD019742_26"><persName><name type="praenomen">C.</name><name type="nomen">Fornasidius*</name></persName></person><person xml:id="HD019742_27"><persName><name type="praenomen">Cn.</name><name type="nomen">Pompeius*</name></persName></person><person xml:id="HD019742_28"><persName><name type="praenomen">Sex.</name><name type="nomen">Pompeius*</name></persName></person><person xml:id="HD019742_29"><persName><name type="praenomen">M.</name><name type="nomen">Hostilius*</name></persName></person><person xml:id="HD019742_3"><persName><name type="praenomen">Cn.</name><name type="nomen">Octavius</name></persName></person><person xml:id="HD019742_30"><persName><name type="praenomen">L.</name><name type="nomen">Aebutius*</name></persName></person><person xml:id="HD019742_31"><persName><name type="praenomen">Q.</name><name type="nomen">Hirtuleius*</name></persName></person><person xml:id="HD019742_32"><persName><name type="praenomen">L.</name><name type="nomen">Iunius*</name></persName></person><person xml:id="HD019742_33"><persName><name type="praenomen">Q.</name><name type="nomen">Rosidius*</name></persName></person><person xml:id="HD019742_34"><persName><name type="praenomen">C.</name><name type="nomen">Tarquitius*</name></persName></person><person xml:id="HD019742_35"><persName><name type="praenomen">Q.</name><name type="nomen">Marcius*</name></persName></person><person xml:id="HD019742_36"><persName><name type="praenomen">L.</name><name type="nomen">Opeimius*</name></persName></person><person xml:id="HD019742_37"><persName><name type="praenomen">L.</name><name type="nomen">Insteius*</name></persName></person><person xml:id="HD019742_38"><persName><name type="praenomen">T.</name><name type="nomen">Nonius*</name></persName></person><person xml:id="HD019742_39"><persName><name type="praenomen">L.</name><name type="nomen">Nonius*</name></persName></person><person xml:id="HD019742_4"><persName><name type="nomen">[---]cius</name></persName></person><person xml:id="HD019742_40"><persName><name type="praenomen">C.</name><name type="nomen">Herius</name></persName></person><person xml:id="HD019742_41"><persName><name type="praenomen">L.</name><name type="nomen">Pontius*</name></persName></person><person xml:id="HD019742_42"><persName><name type="praenomen">M.</name><name type="nomen">Lucanius*</name></persName></person><person xml:id="HD019742_43"><persName><name type="praenomen">L.</name><name type="nomen">Sergius*</name></persName></person><person xml:id="HD019742_44"><persName><name type="praenomen">P.</name><name type="nomen">Pedanius*</name></persName></person><person xml:id="HD019742_45"><persName><name type="praenomen">C.</name><name type="nomen">Laetorius*</name></persName></person><person xml:id="HD019742_46"><persName><name type="praenomen">A.</name><name type="nomen">Fulvius*</name></persName></person><person xml:id="HD019742_47"><persName><name type="praenomen">Q.</name><name type="nomen">Ampudius*</name></persName></person><person xml:id="HD019742_48"><persName><name type="praenomen">L.</name><name type="nomen">Minucius*</name></persName></person><person xml:id="HD019742_49"><persName><name type="praenomen">Ti.</name><name type="nomen">Veturius*</name></persName></person><person xml:id="HD019742_5"><persName><name type="praenomen">L.</name><name type="nomen">Iunius</name></persName></person><person xml:id="HD019742_50"><persName><name type="praenomen">Cn.</name><name type="nomen">Bussenius*</name></persName></person><person xml:id="HD019742_51"><persName><name type="praenomen">T.</name><name type="nomen">Petronius*</name></persName></person><person xml:id="HD019742_52"><persName><name type="praenomen">M'.</name><name type="nomen">Otacilius*</name></persName></person><person xml:id="HD019742_53"><persName><name type="praenomen">L.</name><name type="nomen">Pullienus</name></persName></person><person xml:id="HD019742_54"><persName><name type="praenomen">M'.</name><name type="nomen">Aebutius*</name></persName></person><person xml:id="HD019742_55"><persName><name type="praenomen">P.</name><name type="nomen">Salvienus</name></persName></person><person xml:id="HD019742_56"><persName><name type="praenomen">L.</name><name type="nomen">Otacilius*</name></persName></person><person xml:id="HD019742_57"><persName><name type="cognomen">Sanibelser</name></persName></person><person xml:id="HD019742_58"><persName><name type="cognomen">Adingibas</name></persName></person><person xml:id="HD019742_59"><persName><name type="cognomen">Illurtibas</name></persName></person><person xml:id="HD019742_6"><persName><name type="praenomen">Q.</name><name type="nomen">Minucius*</name></persName></person><person xml:id="HD019742_60"><persName><name type="cognomen">Bilustibas</name></persName></person><person xml:id="HD019742_61"><persName><name type="cognomen">Estopeles</name></persName></person><person xml:id="HD019742_62"><persName><name type="cognomen">Ordennas</name></persName></person><person xml:id="HD019742_63"><persName><name type="cognomen">Torsinno</name></persName></person><person xml:id="HD019742_64"><persName><name type="cognomen">Austinco</name></persName></person><person xml:id="HD019742_65"><persName><name type="cognomen">Cacususin</name></persName></person><person xml:id="HD019742_66"><persName><name type="cognomen">Chadar</name></persName></person><person xml:id="HD019742_67"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD019742_68"><persName><name type="cognomen">Sosimilus</name></persName></person><person xml:id="HD019742_69"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD019742_7"><persName><name type="praenomen">P.</name><name type="nomen">Attius</name></persName></person><person xml:id="HD019742_70"><persName><name type="cognomen">[---]irsecel</name></persName></person><person xml:id="HD019742_71"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD019742_72"><persName><name type="cognomen">[---]elgaun</name></persName></person><person xml:id="HD019742_73"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD019742_74"><persName><name type="cognomen">[---]nespaiser</name></persName></person><person xml:id="HD019742_75"><persName><name type="praenomen">Q.</name><name type="nomen">Otacilius</name></persName></person><person xml:id="HD019742_76"><persName><name type="cognomen">Suisetarten</name></persName></person><person xml:id="HD019742_77"><persName><name type="praenomen">Cn.</name><name type="nomen">Cornelius</name></persName></person><person xml:id="HD019742_78"><persName><name type="cognomen">Nesille</name></persName></person><person xml:id="HD019742_79"><persName><name type="praenomen">P.</name><name type="nomen">Fabius</name></persName></person><person xml:id="HD019742_8"><persName><name type="praenomen">M.</name><name type="nomen">Maioleius*</name></persName></person><person xml:id="HD019742_80"><persName><name type="cognomen">Enasagin</name></persName></person><person xml:id="HD019742_81"><persName><name type="cognomen">Turtumelis</name></persName></person><person xml:id="HD019742_82"><persName><name type="cognomen">Atanscer</name></persName></person><person xml:id="HD019742_83"><persName><name type="cognomen">Sosinadem</name></persName></person><person xml:id="HD019742_84"><persName><name type="cognomen">Sosinasa</name></persName></person><person xml:id="HD019742_85"><persName><name type="cognomen">Urgidar</name></persName></person><person xml:id="HD019742_86"><persName><name type="cognomen">Luspanar</name></persName></person><person xml:id="HD019742_87"><persName><name type="cognomen">Gurtarno</name></persName></person><person xml:id="HD019742_88"><persName><name type="cognomen">Biurno</name></persName></person><person xml:id="HD019742_89"><persName><name type="cognomen">Elandus</name></persName></person><person xml:id="HD019742_9"><persName><name type="nomen">Aemilius+*</name></persName></person><person xml:id="HD019742_90"><persName><name type="cognomen">Enneges</name></persName></person><person xml:id="HD019742_91"><persName><name type="cognomen">Agirnes</name></persName></person><person xml:id="HD019742_92"><persName><name type="cognomen">Bennabels</name></persName></person><person xml:id="HD019742_93"><persName><name type="cognomen">Nalbeaden</name></persName></person><person xml:id="HD019742_94"><persName><name type="cognomen">Agerdo</name></persName></person><person xml:id="HD019742_95"><persName><name type="cognomen">Arranes</name></persName></person><person xml:id="HD019742_96"><persName><name type="cognomen">Arbiscar</name></persName></person><person xml:id="HD019742_97"><persName><name type="cognomen">Umargibas</name></persName></person><person xml:id="HD019742_98"><persName><name type="cognomen">Luspangibas</name></persName></person><person xml:id="HD019742_99"><persName><name type="cognomen">Beles</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-12-16" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014521" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/57be138c-7958-49cc-a48e-56fcefa68ecc/file/id/774055/file_version/name/small" /><graphic xml:id="F031501" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/99468096-3883-43ec-8a46-721c44e6547c/file/id/792262/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1909, 0030. (B)</bibl><bibl>AE 1910, p. 30 s. n. 126.</bibl><bibl>AE 1910, p. 38 s. n. 153.</bibl><bibl>AE 1910, p. 41 s. n. 162.</bibl><bibl>AE 1910, p. 55 s. n. 207.</bibl><bibl>AE 1910, p. 59 s. n. 218.</bibl><bibl>AE 1911, 0126. (B)</bibl><bibl>AE 1912, p. 5 s. n. 10.</bibl><bibl>AE 1912, p. 33 s. n. 117.</bibl><bibl>AE 1912, p. 82 s. n. 287.</bibl><bibl>AE 1920, p. 40 s. n. 130.</bibl><bibl>AE 1923, p. 32 s. n. 103.</bibl><bibl>CIL 06, 37045. (B)</bibl><bibl>CIL 06, 37045 add. p. 4812-4813.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00709. (B)</bibl><bibl>CIL 01 (2. Aufl.) 02, 00709 add. p. 714.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00709 add. p. 726.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00709 add. p. 936-938.</bibl><bibl>ILS 8888. (B)</bibl><bibl>ILLRP 0515. (B)</bibl><bibl>ILLRP, Imagines 316-317, Nr. 397; Foto.</bibl><bibl>N. Criniti, L'epigrafe di Asculum di Gn. Pompeo Strabone (Milano 1970). (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<div n="1" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1">
+</c>
+			<expan>
+				<abbr>
+					<supplied reason="lost">
+						<c xml:id="L1C2">C</c>
+					</supplied>
+					<c xml:id="L1C3">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C4">a</c>
+					<c xml:id="L1C5">e</c>
+					<c xml:id="L1C6">u</c>
+					<c xml:id="L1C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C8"> </c>
+			<c xml:id="L1C9">P</c>
+			<c xml:id="L1C10">o</c>
+			<c xml:id="L1C11">m</c>
+			<c xml:id="L1C12">p</c>
+			<c xml:id="L1C13">e</c>
+			<c xml:id="L1C14">i</c>
+			<c xml:id="L1C15">u</c>
+			<c xml:id="L1C16">s</c>
+			<c xml:id="L1C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C18">S</c>
+					<c xml:id="L1C19">e</c>
+					<c xml:id="L1C20">x</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C21">t</c>
+					<c xml:id="L1C22">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C23"> </c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L1C24">f</c>
+					</abbr>
+					<ex>
+						<c xml:id="L1C25">i</c>
+						<c xml:id="L1C26">l</c>
+						<c xml:id="L1C27">i</c>
+						<c xml:id="L1C28">u</c>
+						<c xml:id="L1C29">s</c>
+					</ex>
+				</expan>
+				<c xml:id="L1C30"> </c>
+				<c xml:id="L1C31">i</c>
+				<c xml:id="L1C32">m</c>
+				<c xml:id="L1C33">p</c>
+				<c xml:id="L1C34">e</c>
+				<c xml:id="L1C35">r</c>
+				<c xml:id="L1C36">a</c>
+				<c xml:id="L1C37">t</c>
+				<c xml:id="L1C38">o</c>
+				<c xml:id="L1C39">r</c>
+			</supplied>
+			<c xml:id="L1C40"> </c>
+			<c xml:id="L1C41">v</c>
+			<c xml:id="L1C42">i</c>
+			<c xml:id="L1C43">r</c>
+			<c xml:id="L1C44">t</c>
+			<c xml:id="L1C45">u</c>
+			<c xml:id="L1C46">t</c>
+			<c xml:id="L1C47">i</c>
+			<c xml:id="L1C48">s</c>
+			<c xml:id="L1C49"> </c>
+			<c xml:id="L1C50">c</c>
+			<c xml:id="L1C51">a</c>
+			<c xml:id="L1C52">u</c>
+			<c xml:id="L1C53">s</c>
+			<c xml:id="L1C54">s</c>
+			<c xml:id="L1C55">a</c>
+			<c xml:id="L1C56"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">e</c>
+			<c xml:id="L2C2">q</c>
+			<c xml:id="L2C3">u</c>
+			<c xml:id="L2C4">i</c>
+			<c xml:id="L2C5">t</c>
+			<c xml:id="L2C6">e</c>
+			<c xml:id="L2C7">s</c>
+			<c xml:id="L2C8"> </c>
+			<c xml:id="L2C9">H</c>
+			<c xml:id="L2C10">i</c>
+			<c xml:id="L2C11">s</c>
+			<c xml:id="L2C12">p</c>
+			<c xml:id="L2C13">a</c>
+			<c xml:id="L2C14">n</c>
+			<c xml:id="L2C15">o</c>
+			<c xml:id="L2C16">s</c>
+			<c xml:id="L2C17"> </c>
+			<c xml:id="L2C18">c</c>
+			<c xml:id="L2C19">e</c>
+			<c xml:id="L2C20">i</c>
+			<c xml:id="L2C21">v</c>
+			<c xml:id="L2C22">e</c>
+			<c xml:id="L2C23">s</c>
+			<c xml:id="L2C24"> </c>
+			<supplied reason="lost">
+				<c xml:id="L2C25">R</c>
+				<c xml:id="L2C26">o</c>
+				<c xml:id="L2C27">m</c>
+				<c xml:id="L2C28">a</c>
+				<c xml:id="L2C29">n</c>
+				<c xml:id="L2C30">o</c>
+				<c xml:id="L2C31">s</c>
+				<c xml:id="L2C32"> </c>
+				<c xml:id="L2C33">f</c>
+				<c xml:id="L2C34">e</c>
+				<c xml:id="L2C35">c</c>
+				<c xml:id="L2C36">i</c>
+				<c xml:id="L2C37">t</c>
+				<c xml:id="L2C38"> </c>
+				<c xml:id="L2C39">i</c>
+				<c xml:id="L2C40">n</c>
+				<c xml:id="L2C41"> </c>
+				<c xml:id="L2C42">c</c>
+				<c xml:id="L2C43">a</c>
+				<c xml:id="L2C44">s</c>
+				<c xml:id="L2C45">t</c>
+				<c xml:id="L2C46">r</c>
+			</supplied>
+			<c xml:id="L2C47">e</c>
+			<c xml:id="L2C48">i</c>
+			<c xml:id="L2C49">s</c>
+			<c xml:id="L2C50"> </c>
+			<c xml:id="L2C51">a</c>
+			<c xml:id="L2C52">p</c>
+			<c xml:id="L2C53">u</c>
+			<c xml:id="L2C54">d</c>
+			<c xml:id="L2C55"> </c>
+			<c xml:id="L2C56">A</c>
+			<c xml:id="L2C57">s</c>
+			<c xml:id="L2C58">c</c>
+			<c xml:id="L2C59">u</c>
+			<c xml:id="L2C60">l</c>
+			<c xml:id="L2C61">u</c>
+			<c xml:id="L2C62">m</c>
+			<c xml:id="L2C63"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C64">a</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C65">n</c>
+					<c xml:id="L2C66">t</c>
+					<c xml:id="L2C67">e</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C68"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C69">d</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C70">i</c>
+					<c xml:id="L2C71">e</c>
+					<c xml:id="L2C72">m</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C73"> </c>
+			<c xml:id="L2C74">X</c>
+			<c xml:id="L2C75">I</c>
+			<c xml:id="L2C76">V</c>
+			<c xml:id="L2C77"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C78">K</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C79">a</c>
+					<c xml:id="L2C80">l</c>
+					<c xml:id="L2C81">e</c>
+					<c xml:id="L2C82">n</c>
+					<c xml:id="L2C83">d</c>
+					<c xml:id="L2C84">a</c>
+					<c xml:id="L2C85">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C86"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C87">D</c>
+					<c xml:id="L2C88">e</c>
+					<c xml:id="L2C89">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C90">e</c>
+					<c xml:id="L2C91">m</c>
+					<c xml:id="L2C92">b</c>
+					<c xml:id="L2C93">r</c>
+					<c xml:id="L2C94">e</c>
+					<c xml:id="L2C95">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C96"> </c>
+		</line>
+		<line n="3">
+			<c xml:id="L3C1">e</c>
+			<c xml:id="L3C2">x</c>
+			<c xml:id="L3C3"> </c>
+			<c xml:id="L3C4">l</c>
+			<c xml:id="L3C5">e</c>
+			<c xml:id="L3C6">g</c>
+			<c xml:id="L3C7">e</c>
+			<c xml:id="L3C8"> </c>
+			<c xml:id="L3C9">I</c>
+			<c xml:id="L3C10">u</c>
+			<c xml:id="L3C11">l</c>
+			<c xml:id="L3C12">i</c>
+			<c xml:id="L3C13">a</c>
+			<c xml:id="L3C14"> </c>
+			<c xml:id="L3C15">i</c>
+			<c xml:id="L3C16">n</c>
+			<c xml:id="L3C17"> </c>
+			<c xml:id="L3C18">c</c>
+			<c xml:id="L3C19">o</c>
+			<c xml:id="L3C20">n</c>
+			<c xml:id="L3C21">s</c>
+			<c xml:id="L3C22">i</c>
+			<c xml:id="L3C23">l</c>
+			<c xml:id="L3C24">i</c>
+			<c xml:id="L3C25">o</c>
+			<c xml:id="L3C26"> </c>
+			<supplied reason="lost">
+				<c xml:id="L3C27">f</c>
+				<c xml:id="L3C28">u</c>
+				<c xml:id="L3C29">e</c>
+				<c xml:id="L3C30">r</c>
+				<c xml:id="L3C31">u</c>
+				<c xml:id="L3C32">n</c>
+				<c xml:id="L3C33">t</c>
+			</supplied>
+			<c xml:id="L3C34"> </c>
+		</line>
+		<line n="4">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C2">u</c>
+					<c xml:id="L4C3">c</c>
+					<c xml:id="L4C4">i</c>
+					<c xml:id="L4C5">u</c>
+					<c xml:id="L4C6">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C7"> </c>
+			<c xml:id="L4C8">G</c>
+			<c xml:id="L4C9">e</c>
+			<c xml:id="L4C10">l</c>
+			<c xml:id="L4C11">l</c>
+			<c xml:id="L4C12">i</c>
+			<c xml:id="L4C13">u</c>
+			<c xml:id="L4C14">s</c>
+			<c xml:id="L4C15"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C16">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C17">u</c>
+					<c xml:id="L4C18">c</c>
+					<c xml:id="L4C19">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C21">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C22">i</c>
+					<c xml:id="L4C23">l</c>
+					<c xml:id="L4C24">i</c>
+					<c xml:id="L4C25">u</c>
+					<c xml:id="L4C26">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C27"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C28">T</c>
+					<c xml:id="L4C29">r</c>
+					<c xml:id="L4C30">o</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C31">m</c>
+					<c xml:id="L4C32">e</c>
+					<c xml:id="L4C33">n</c>
+					<c xml:id="L4C34">t</c>
+					<c xml:id="L4C35">i</c>
+					<c xml:id="L4C36">n</c>
+					<c xml:id="L4C37">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C38"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C39">C</c>
+					<c xml:id="L4C40">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C41">a</c>
+					<c xml:id="L4C42">e</c>
+					<c xml:id="L4C43">u</c>
+					<c xml:id="L4C44">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C45"> </c>
+			<c xml:id="L4C46">O</c>
+			<c xml:id="L4C47">c</c>
+			<c xml:id="L4C48">t</c>
+			<c xml:id="L4C49">a</c>
+			<c xml:id="L4C50">v</c>
+			<c xml:id="L4C51">i</c>
+			<c xml:id="L4C52">u</c>
+			<c xml:id="L4C53">s</c>
+			<c xml:id="L4C54"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C55">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C56">u</c>
+					<c xml:id="L4C57">i</c>
+					<c xml:id="L4C58">n</c>
+					<c xml:id="L4C59">t</c>
+					<c xml:id="L4C60">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C61"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C62">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C63">i</c>
+					<c xml:id="L4C64">l</c>
+					<c xml:id="L4C65">i</c>
+					<c xml:id="L4C66">u</c>
+					<c xml:id="L4C67">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C68"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L4C69">c</c>
+			<c xml:id="L4C70">i</c>
+			<c xml:id="L4C71">u</c>
+			<c xml:id="L4C72">s</c>
+			<c xml:id="L4C73"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C74">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C75">a</c>
+					<c xml:id="L4C76">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C77"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C78">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C79">i</c>
+					<c xml:id="L4C80">l</c>
+					<c xml:id="L4C81">i</c>
+					<c xml:id="L4C82">u</c>
+					<c xml:id="L4C83">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C84"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C85">A</c>
+					<c xml:id="L4C86">n</c>
+					<c xml:id="L4C87">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C88">e</c>
+					<c xml:id="L4C89">n</c>
+					<c xml:id="L4C90">s</c>
+					<c xml:id="L4C91">i</c>
+					<c xml:id="L4C92">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C93"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C94">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C95">u</c>
+					<c xml:id="L4C96">c</c>
+					<c xml:id="L4C97">i</c>
+					<c xml:id="L4C98">u</c>
+					<c xml:id="L4C99">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C100"> </c>
+			<c xml:id="L4C101">I</c>
+			<c xml:id="L4C102">u</c>
+			<c xml:id="L4C103">n</c>
+			<c xml:id="L4C104">i</c>
+			<c xml:id="L4C105">u</c>
+			<c xml:id="L4C106">s</c>
+			<c xml:id="L4C107"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C108">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C109">u</c>
+					<c xml:id="L4C110">c</c>
+					<c xml:id="L4C111">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C112"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C113">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C114">i</c>
+					<c xml:id="L4C115">l</c>
+					<c xml:id="L4C116">i</c>
+					<c xml:id="L4C117">u</c>
+					<c xml:id="L4C118">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C119"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C120">G</c>
+					<c xml:id="L4C121">a</c>
+					<c xml:id="L4C122">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C123">e</c>
+					<c xml:id="L4C124">r</c>
+					<c xml:id="L4C125">i</c>
+					<c xml:id="L4C126">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C127"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C128">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C129">u</c>
+					<c xml:id="L4C130">i</c>
+					<c xml:id="L4C131">n</c>
+					<c xml:id="L4C132">t</c>
+					<c xml:id="L4C133">u</c>
+					<c xml:id="L4C134">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C135"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C136">M</c>
+					<c xml:id="L4C137">i</c>
+					<c xml:id="L4C138">n</c>
+					<c xml:id="L4C139">u</c>
+					<c xml:id="L4C140">c</c>
+					<c xml:id="L4C141">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C142">u</c>
+					<c xml:id="L4C143">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C144"> </c>
+		</line>
+		<line n="5">
+			<expan>
+				<abbr>
+					<c xml:id="L5C1">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C2">a</c>
+					<c xml:id="L5C3">r</c>
+					<c xml:id="L5C4">c</c>
+					<c xml:id="L5C5">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C6"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C7">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C8">i</c>
+					<c xml:id="L5C9">l</c>
+					<c xml:id="L5C10">i</c>
+					<c xml:id="L5C11">u</c>
+					<c xml:id="L5C12">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C13"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C14">T</c>
+					<c xml:id="L5C15">e</c>
+					<c xml:id="L5C16">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C17">e</c>
+					<c xml:id="L5C18">t</c>
+					<c xml:id="L5C19">i</c>
+					<c xml:id="L5C20">n</c>
+					<c xml:id="L5C21">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C22"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C23">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C24">u</c>
+					<c xml:id="L5C25">b</c>
+					<c xml:id="L5C26">l</c>
+					<c xml:id="L5C27">i</c>
+					<c xml:id="L5C28">u</c>
+					<c xml:id="L5C29">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C30"> </c>
+			<c xml:id="L5C31">A</c>
+			<c xml:id="L5C32">t</c>
+			<c xml:id="L5C33">t</c>
+			<c xml:id="L5C34">i</c>
+			<c xml:id="L5C35">u</c>
+			<c xml:id="L5C36">s</c>
+			<c xml:id="L5C37"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C38">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C39">u</c>
+					<c xml:id="L5C40">b</c>
+					<c xml:id="L5C41">l</c>
+					<c xml:id="L5C42">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C43"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C44">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C45">i</c>
+					<c xml:id="L5C46">l</c>
+					<c xml:id="L5C47">i</c>
+					<c xml:id="L5C48">u</c>
+					<c xml:id="L5C49">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C50"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C51">O</c>
+					<c xml:id="L5C52">u</c>
+					<c xml:id="L5C53">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C54">e</c>
+					<c xml:id="L5C55">n</c>
+					<c xml:id="L5C56">t</c>
+					<c xml:id="L5C57">i</c>
+					<c xml:id="L5C58">n</c>
+					<c xml:id="L5C59">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C60"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C61">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C62">a</c>
+					<c xml:id="L5C63">r</c>
+					<c xml:id="L5C64">c</c>
+					<c xml:id="L5C65">u</c>
+					<c xml:id="L5C66">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C67"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C68">M</c>
+					<c xml:id="L5C69">a</c>
+					<c xml:id="L5C70">i</c>
+					<c xml:id="L5C71">o</c>
+					<c xml:id="L5C72">l</c>
+					<c xml:id="L5C73">e</c>
+					<c xml:id="L5C74">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C75">u</c>
+					<c xml:id="L5C76">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C77"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C78">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C79">a</c>
+					<c xml:id="L5C80">r</c>
+					<c xml:id="L5C81">c</c>
+					<c xml:id="L5C82">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C83"> </c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L5C84">f</c>
+					</abbr>
+					<ex>
+						<c xml:id="L5C85">i</c>
+						<c xml:id="L5C86">l</c>
+						<c xml:id="L5C87">i</c>
+						<c xml:id="L5C88">u</c>
+						<c xml:id="L5C89">s</c>
+					</ex>
+				</expan>
+				<c xml:id="L5C90"> </c>
+				<gap reason="lost" extent="unknown" unit="character" />
+				<c xml:id="L5C91"> </c>
+				<c xml:id="L5C92">A</c>
+				<c xml:id="L5C93">e</c>
+			</supplied>
+			<expan>
+				<abbr>
+					<c xml:id="L5C94">m</c>
+					<c xml:id="L5C95">i</c>
+					<c xml:id="L5C96">l</c>
+					<c xml:id="L5C97">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C98">u</c>
+					<c xml:id="L5C99">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C100"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C101">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C102">u</c>
+					<c xml:id="L5C103">i</c>
+					<c xml:id="L5C104">n</c>
+					<c xml:id="L5C105">t</c>
+					<c xml:id="L5C106">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C107"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C108">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C109">i</c>
+					<c xml:id="L5C110">l</c>
+					<c xml:id="L5C111">i</c>
+					<c xml:id="L5C112">u</c>
+					<c xml:id="L5C113">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C114"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C115">P</c>
+					<c xml:id="L5C116">a</c>
+					<c xml:id="L5C117">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C118">a</c>
+					<c xml:id="L5C119">t</c>
+					<c xml:id="L5C120">i</c>
+					<c xml:id="L5C121">n</c>
+					<c xml:id="L5C122">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C123"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C124">C</c>
+					<c xml:id="L5C125">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C126">a</c>
+					<c xml:id="L5C127">e</c>
+					<c xml:id="L5C128">u</c>
+					<c xml:id="L5C129">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C130"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C131">C</c>
+					<c xml:id="L5C132">o</c>
+					<c xml:id="L5C133">r</c>
+					<c xml:id="L5C134">n</c>
+					<c xml:id="L5C135">e</c>
+					<c xml:id="L5C136">l</c>
+					<c xml:id="L5C137">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C138">u</c>
+					<c xml:id="L5C139">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C140"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C141">C</c>
+					<c xml:id="L5C142">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C143">a</c>
+					<c xml:id="L5C144">e</c>
+					<c xml:id="L5C145">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C146"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C147">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C148">i</c>
+					<c xml:id="L5C149">l</c>
+					<c xml:id="L5C150">i</c>
+					<c xml:id="L5C151">u</c>
+					<c xml:id="L5C152">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C153"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C154">P</c>
+					<c xml:id="L5C155">a</c>
+					<c xml:id="L5C156">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C157">a</c>
+					<c xml:id="L5C158">t</c>
+					<c xml:id="L5C159">i</c>
+					<c xml:id="L5C160">n</c>
+					<c xml:id="L5C161">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C162"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C163">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C164">i</c>
+					<c xml:id="L5C165">t</c>
+					<c xml:id="L5C166">u</c>
+					<c xml:id="L5C167">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C168"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C169">n</c>
+					<am>n</am>
+				</abbr>
+				<ex>
+					<c xml:id="L5C170">u</c>
+					<c xml:id="L5C171">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C172"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C173">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C174">i</c>
+					<c xml:id="L5C175">t</c>
+					<c xml:id="L5C176">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C177"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L5C178">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L5C179">i</c>
+					<c xml:id="L5C180">l</c>
+					<c xml:id="L5C181">i</c>
+					<c xml:id="L5C182">u</c>
+					<c xml:id="L5C183">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L5C184"> </c>
+		</line>
+		<line n="6">
+			<expan>
+				<abbr>
+					<c xml:id="L6C1">O</c>
+					<c xml:id="L6C2">u</c>
+					<c xml:id="L6C3">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C4">e</c>
+					<c xml:id="L6C5">n</c>
+					<c xml:id="L6C6">t</c>
+					<c xml:id="L6C7">i</c>
+					<c xml:id="L6C8">n</c>
+					<c xml:id="L6C9">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C10"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C11">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C12">a</c>
+					<c xml:id="L6C13">r</c>
+					<c xml:id="L6C14">c</c>
+					<c xml:id="L6C15">u</c>
+					<c xml:id="L6C16">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C18">A</c>
+					<c xml:id="L6C19">u</c>
+					<c xml:id="L6C20">r</c>
+					<c xml:id="L6C21">e</c>
+					<c xml:id="L6C22">l</c>
+					<c xml:id="L6C23">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C24">u</c>
+					<c xml:id="L6C25">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C26"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C27">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C28">a</c>
+					<c xml:id="L6C29">r</c>
+					<c xml:id="L6C30">c</c>
+					<c xml:id="L6C31">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C32"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C33">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C34">i</c>
+					<c xml:id="L6C35">l</c>
+					<c xml:id="L6C36">i</c>
+					<c xml:id="L6C37">u</c>
+					<c xml:id="L6C38">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C39"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C40">V</c>
+					<c xml:id="L6C41">o</c>
+					<c xml:id="L6C42">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C43">t</c>
+					<c xml:id="L6C44">i</c>
+					<c xml:id="L6C45">n</c>
+					<c xml:id="L6C46">i</c>
+					<c xml:id="L6C47">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C48"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C49">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C50">u</c>
+					<c xml:id="L6C51">c</c>
+					<c xml:id="L6C52">i</c>
+					<c xml:id="L6C53">u</c>
+					<c xml:id="L6C54">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C55"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C56">V</c>
+					<c xml:id="L6C57">o</c>
+					<c xml:id="L6C58">l</c>
+					<c xml:id="L6C59">u</c>
+					<c xml:id="L6C60">m</c>
+					<c xml:id="L6C61">n</c>
+					<c xml:id="L6C62">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C63">u</c>
+					<c xml:id="L6C64">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C65"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C66">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C67">u</c>
+					<c xml:id="L6C68">c</c>
+					<c xml:id="L6C69">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C70"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C71">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C72">i</c>
+					<c xml:id="L6C73">l</c>
+					<c xml:id="L6C74">i</c>
+					<c xml:id="L6C75">u</c>
+					<c xml:id="L6C76">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C77"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C78">A</c>
+					<c xml:id="L6C79">n</c>
+					<c xml:id="L6C80">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C81">e</c>
+					<c xml:id="L6C82">n</c>
+					<c xml:id="L6C83">s</c>
+					<c xml:id="L6C84">i</c>
+					<c xml:id="L6C85">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C86"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C87">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C88">u</c>
+					<c xml:id="L6C89">c</c>
+					<c xml:id="L6C90">i</c>
+					<c xml:id="L6C91">u</c>
+					<c xml:id="L6C92">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C93"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L6C94"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C95">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C96">i</c>
+					<c xml:id="L6C97">l</c>
+					<c xml:id="L6C98">i</c>
+					<c xml:id="L6C99">u</c>
+					<c xml:id="L6C100">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C101"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C102">S</c>
+					<c xml:id="L6C103">u</c>
+					<c xml:id="L6C104">c</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C105">c</c>
+					<c xml:id="L6C106">u</c>
+					<c xml:id="L6C107">s</c>
+					<c xml:id="L6C108">a</c>
+					<c xml:id="L6C109">n</c>
+					<c xml:id="L6C110">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C111"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C112">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C113">i</c>
+					<c xml:id="L6C114">t</c>
+					<c xml:id="L6C115">u</c>
+					<c xml:id="L6C116">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C117"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C118">P</c>
+					<c xml:id="L6C119">o</c>
+					<c xml:id="L6C120">m</c>
+					<c xml:id="L6C121">p</c>
+					<c xml:id="L6C122">e</c>
+					<c xml:id="L6C123">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C124">u</c>
+					<c xml:id="L6C125">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C126"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C127">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C128">i</c>
+					<c xml:id="L6C129">t</c>
+					<c xml:id="L6C130">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C131"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C132">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C133">i</c>
+					<c xml:id="L6C134">l</c>
+					<c xml:id="L6C135">i</c>
+					<c xml:id="L6C136">u</c>
+					<c xml:id="L6C137">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C138"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C139">C</c>
+					<c xml:id="L6C140">o</c>
+					<c xml:id="L6C141">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C142">n</c>
+					<c xml:id="L6C143">e</c>
+					<c xml:id="L6C144">l</c>
+					<c xml:id="L6C145">i</c>
+					<c xml:id="L6C146">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C147"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C148">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C149">a</c>
+					<c xml:id="L6C150">i</c>
+					<c xml:id="L6C151">u</c>
+					<c xml:id="L6C152">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C153"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C154">R</c>
+					<c xml:id="L6C155">a</c>
+					<c xml:id="L6C156">b</c>
+					<c xml:id="L6C157">e</c>
+					<c xml:id="L6C158">i</c>
+					<c xml:id="L6C159">r</c>
+					<c xml:id="L6C160">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C161">u</c>
+					<c xml:id="L6C162">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C163"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C164">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C165">a</c>
+					<c xml:id="L6C166">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C167"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C168">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C169">i</c>
+					<c xml:id="L6C170">l</c>
+					<c xml:id="L6C171">i</c>
+					<c xml:id="L6C172">u</c>
+					<c xml:id="L6C173">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C174"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C175">G</c>
+					<c xml:id="L6C176">a</c>
+					<c xml:id="L6C177">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C178">e</c>
+					<c xml:id="L6C179">r</c>
+					<c xml:id="L6C180">i</c>
+					<c xml:id="L6C181">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C182"> </c>
+		</line>
+		<line n="7">
+			<expan>
+				<abbr>
+					<c xml:id="L7C1">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C2">e</c>
+					<c xml:id="L7C3">c</c>
+					<c xml:id="L7C4">i</c>
+					<c xml:id="L7C5">m</c>
+					<c xml:id="L7C6">u</c>
+					<c xml:id="L7C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C8"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C9">A</c>
+					<c xml:id="L7C10">e</c>
+					<c xml:id="L7C11">b</c>
+					<c xml:id="L7C12">u</c>
+					<c xml:id="L7C13">t</c>
+					<c xml:id="L7C14">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C15">u</c>
+					<c xml:id="L7C16">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C18">D</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C19">e</c>
+					<c xml:id="L7C20">c</c>
+					<c xml:id="L7C21">i</c>
+					<c xml:id="L7C22">m</c>
+					<c xml:id="L7C23">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C24"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C25">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C26">i</c>
+					<c xml:id="L7C27">l</c>
+					<c xml:id="L7C28">i</c>
+					<c xml:id="L7C29">u</c>
+					<c xml:id="L7C30">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C31"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C32">C</c>
+					<c xml:id="L7C33">o</c>
+					<c xml:id="L7C34">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C35">n</c>
+					<c xml:id="L7C36">e</c>
+					<c xml:id="L7C37">l</c>
+					<c xml:id="L7C38">i</c>
+					<c xml:id="L7C39">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C40"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C41">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C42">a</c>
+					<c xml:id="L7C43">r</c>
+					<c xml:id="L7C44">c</c>
+					<c xml:id="L7C45">u</c>
+					<c xml:id="L7C46">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C47"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C48">T</c>
+					<c xml:id="L7C49">e</c>
+					<c xml:id="L7C50">i</c>
+					<c xml:id="L7C51">e</c>
+					<c xml:id="L7C52">d</c>
+					<c xml:id="L7C53">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C54">u</c>
+					<c xml:id="L7C55">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C56"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C57">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C58">a</c>
+					<c xml:id="L7C59">r</c>
+					<c xml:id="L7C60">c</c>
+					<c xml:id="L7C61">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C62"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C63">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C64">i</c>
+					<c xml:id="L7C65">l</c>
+					<c xml:id="L7C66">i</c>
+					<c xml:id="L7C67">u</c>
+					<c xml:id="L7C68">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C69"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C70">P</c>
+					<c xml:id="L7C71">o</c>
+					<c xml:id="L7C72">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C73">l</c>
+					<c xml:id="L7C74">i</c>
+					<c xml:id="L7C75">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C76"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C77">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C78">a</c>
+					<c xml:id="L7C79">i</c>
+					<c xml:id="L7C80">u</c>
+					<c xml:id="L7C81">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C82"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C83">F</c>
+					<c xml:id="L7C84">u</c>
+					<c xml:id="L7C85">n</c>
+					<c xml:id="L7C86">d</c>
+					<c xml:id="L7C87">i</c>
+					<c xml:id="L7C88">l</c>
+					<c xml:id="L7C89">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C90">u</c>
+					<c xml:id="L7C91">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C92"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C93">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C94">a</c>
+					<c xml:id="L7C95">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C96"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C97">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C98">i</c>
+					<c xml:id="L7C99">l</c>
+					<c xml:id="L7C100">i</c>
+					<c xml:id="L7C101">u</c>
+					<c xml:id="L7C102">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C103"> </c>
+			<c xml:id="L7C104">Q</c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L7C105">u</c>
+						<c xml:id="L7C106">i</c>
+					</abbr>
+					<ex>
+						<c xml:id="L7C107">r</c>
+						<c xml:id="L7C108">i</c>
+						<c xml:id="L7C109">n</c>
+						<c xml:id="L7C110">a</c>
+					</ex>
+				</expan>
+			</supplied>
+			<c xml:id="L7C111"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C112">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C113">a</c>
+					<c xml:id="L7C114">r</c>
+					<c xml:id="L7C115">c</c>
+					<c xml:id="L7C116">u</c>
+					<c xml:id="L7C117">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C118"> </c>
+			<supplied reason="lost">
+				<c xml:id="L7C119">F</c>
+			</supplied>
+			<c xml:id="L7C120">a</c>
+			<c xml:id="L7C121">i</c>
+			<c xml:id="L7C122">a</c>
+			<supplied reason="lost" cert="low">
+				<c xml:id="L7C123">n</c>
+				<c xml:id="L7C124">i</c>
+				<c xml:id="L7C125">(</c>
+				<c xml:id="L7C126">u</c>
+				<c xml:id="L7C127">s</c>
+				<c xml:id="L7C128">)</c>
+			</supplied>
+			<c xml:id="L7C129"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C130">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C131">a</c>
+					<c xml:id="L7C132">r</c>
+					<c xml:id="L7C133">c</c>
+					<c xml:id="L7C134">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C135"> </c>
+			<supplied reason="lost">
+				<expan>
+					<abbr>
+						<c xml:id="L7C136">f</c>
+					</abbr>
+					<ex>
+						<c xml:id="L7C137">i</c>
+						<c xml:id="L7C138">l</c>
+						<c xml:id="L7C139">i</c>
+						<c xml:id="L7C140">u</c>
+						<c xml:id="L7C141">s</c>
+					</ex>
+				</expan>
+				<c xml:id="L7C142"> </c>
+				<c xml:id="L7C143">S</c>
+				<c xml:id="L7C144">e</c>
+			</supplied>
+			<expan>
+				<abbr>
+					<c xml:id="L7C145">r</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L7C146">g</c>
+					<c xml:id="L7C147">i</c>
+					<c xml:id="L7C148">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C149"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C150">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C151">i</c>
+					<c xml:id="L7C152">t</c>
+					<c xml:id="L7C153">u</c>
+					<c xml:id="L7C154">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C155"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C156">A</c>
+					<c xml:id="L7C157">c</c>
+					<c xml:id="L7C158">i</c>
+					<c xml:id="L7C159">l</c>
+					<c xml:id="L7C160">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C161">u</c>
+					<c xml:id="L7C162">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C163"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C164">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C165">i</c>
+					<c xml:id="L7C166">t</c>
+					<c xml:id="L7C167">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C168"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C169">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C170">i</c>
+					<c xml:id="L7C171">l</c>
+					<c xml:id="L7C172">i</c>
+					<c xml:id="L7C173">u</c>
+					<c xml:id="L7C174">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C175"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C176">V</c>
+					<c xml:id="L7C177">e</c>
+					<c xml:id="L7C178">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C179">i</c>
+					<c xml:id="L7C180">n</c>
+					<c xml:id="L7C181">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C182"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C183">C</c>
+					<c xml:id="L7C184">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C185">a</c>
+					<c xml:id="L7C186">e</c>
+					<c xml:id="L7C187">u</c>
+					<c xml:id="L7C188">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C189"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C190">O</c>
+					<c xml:id="L7C191">p</c>
+					<c xml:id="L7C192">p</c>
+					<c xml:id="L7C193">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C194">u</c>
+					<c xml:id="L7C195">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C196"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C197">C</c>
+					<c xml:id="L7C198">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C199">a</c>
+					<c xml:id="L7C200">e</c>
+					<c xml:id="L7C201">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C202"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C203">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C204">i</c>
+					<c xml:id="L7C205">l</c>
+					<c xml:id="L7C206">i</c>
+					<c xml:id="L7C207">u</c>
+					<c xml:id="L7C208">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C209"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C210">V</c>
+					<c xml:id="L7C211">e</c>
+					<c xml:id="L7C212">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C213">i</c>
+					<c xml:id="L7C214">n</c>
+					<c xml:id="L7C215">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C216"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C217">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C218">u</c>
+					<c xml:id="L7C219">i</c>
+					<c xml:id="L7C220">n</c>
+					<c xml:id="L7C221">t</c>
+					<c xml:id="L7C222">u</c>
+					<c xml:id="L7C223">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C224"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C225">P</c>
+					<c xml:id="L7C226">e</c>
+					<c xml:id="L7C227">t</c>
+					<c xml:id="L7C228">i</c>
+					<c xml:id="L7C229">l</c>
+					<c xml:id="L7C230">l</c>
+					<c xml:id="L7C231">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C232">u</c>
+					<c xml:id="L7C233">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C234"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C235">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C236">u</c>
+					<c xml:id="L7C237">c</c>
+					<c xml:id="L7C238">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C239"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C240">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C241">i</c>
+					<c xml:id="L7C242">l</c>
+					<c xml:id="L7C243">i</c>
+					<c xml:id="L7C244">u</c>
+					<c xml:id="L7C245">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C246"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C247">V</c>
+					<c xml:id="L7C248">e</c>
+					<c xml:id="L7C249">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C250">i</c>
+					<c xml:id="L7C251">n</c>
+					<c xml:id="L7C252">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C253"> </c>
+		</line>
+		<line n="8">
+			<expan>
+				<abbr>
+					<c xml:id="L8C1">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C2">u</c>
+					<c xml:id="L8C3">c</c>
+					<c xml:id="L8C4">i</c>
+					<c xml:id="L8C5">u</c>
+					<c xml:id="L8C6">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C8">T</c>
+					<c xml:id="L8C9">e</c>
+					<c xml:id="L8C10">r</c>
+					<c xml:id="L8C11">e</c>
+					<c xml:id="L8C12">n</c>
+					<c xml:id="L8C13">t</c>
+					<c xml:id="L8C14">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C15">u</c>
+					<c xml:id="L8C16">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C18">A</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C19">u</c>
+					<c xml:id="L8C20">l</c>
+					<c xml:id="L8C21">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C22"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C23">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C24">i</c>
+					<c xml:id="L8C25">l</c>
+					<c xml:id="L8C26">i</c>
+					<c xml:id="L8C27">u</c>
+					<c xml:id="L8C28">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C29"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C30">V</c>
+					<c xml:id="L8C31">e</c>
+					<c xml:id="L8C32">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C33">i</c>
+					<c xml:id="L8C34">n</c>
+					<c xml:id="L8C35">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C36"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C37">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C38">i</c>
+					<c xml:id="L8C39">t</c>
+					<c xml:id="L8C40">u</c>
+					<c xml:id="L8C41">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C42"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C43">T</c>
+					<c xml:id="L8C44">e</c>
+					<c xml:id="L8C45">r</c>
+					<c xml:id="L8C46">e</c>
+					<c xml:id="L8C47">n</c>
+					<c xml:id="L8C48">t</c>
+					<c xml:id="L8C49">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C50">u</c>
+					<c xml:id="L8C51">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C52"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C53">A</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C54">u</c>
+					<c xml:id="L8C55">l</c>
+					<c xml:id="L8C56">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C57"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C58">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C59">i</c>
+					<c xml:id="L8C60">l</c>
+					<c xml:id="L8C61">i</c>
+					<c xml:id="L8C62">u</c>
+					<c xml:id="L8C63">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C64"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C65">V</c>
+					<c xml:id="L8C66">e</c>
+					<c xml:id="L8C67">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C68">i</c>
+					<c xml:id="L8C69">n</c>
+					<c xml:id="L8C70">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C71"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C72">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C73">u</c>
+					<c xml:id="L8C74">c</c>
+					<c xml:id="L8C75">i</c>
+					<c xml:id="L8C76">u</c>
+					<c xml:id="L8C77">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C78"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C79">V</c>
+					<c xml:id="L8C80">e</c>
+					<c xml:id="L8C81">t</c>
+					<c xml:id="L8C82">t</c>
+					<c xml:id="L8C83">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C84">u</c>
+					<c xml:id="L8C85">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C86"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C87">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C88">u</c>
+					<c xml:id="L8C89">c</c>
+					<c xml:id="L8C90">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C91"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C92">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C93">i</c>
+					<c xml:id="L8C94">l</c>
+					<c xml:id="L8C95">i</c>
+					<c xml:id="L8C96">u</c>
+					<c xml:id="L8C97">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C98"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C99">V</c>
+					<c xml:id="L8C100">e</c>
+					<c xml:id="L8C101">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C102">i</c>
+					<c xml:id="L8C103">n</c>
+					<c xml:id="L8C104">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C105"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C106">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C107">a</c>
+					<c xml:id="L8C108">i</c>
+					<c xml:id="L8C109">u</c>
+					<c xml:id="L8C110">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C111"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C112">F</c>
+					<c xml:id="L8C113">o</c>
+					<c xml:id="L8C114">r</c>
+					<c xml:id="L8C115">n</c>
+					<c xml:id="L8C116">a</c>
+					<c xml:id="L8C117">s</c>
+					<c xml:id="L8C118">i</c>
+					<c xml:id="L8C119">d</c>
+					<c xml:id="L8C120">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C121">u</c>
+					<c xml:id="L8C122">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C123"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C124">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C125">a</c>
+					<c xml:id="L8C126">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C127"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C128">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C129">i</c>
+					<c xml:id="L8C130">l</c>
+					<c xml:id="L8C131">i</c>
+					<c xml:id="L8C132">u</c>
+					<c xml:id="L8C133">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C134"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C135">P</c>
+					<c xml:id="L8C136">o</c>
+					<c xml:id="L8C137">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C138">l</c>
+					<c xml:id="L8C139">i</c>
+					<c xml:id="L8C140">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C141"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C142">C</c>
+					<c xml:id="L8C143">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C144">a</c>
+					<c xml:id="L8C145">e</c>
+					<c xml:id="L8C146">u</c>
+					<c xml:id="L8C147">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C148"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C149">P</c>
+					<c xml:id="L8C150">o</c>
+					<c xml:id="L8C151">m</c>
+					<c xml:id="L8C152">p</c>
+					<c xml:id="L8C153">e</c>
+					<c xml:id="L8C154">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C155">u</c>
+					<c xml:id="L8C156">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C157"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C158">C</c>
+					<c xml:id="L8C159">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C160">a</c>
+					<c xml:id="L8C161">e</c>
+					<c xml:id="L8C162">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C163"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C164">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C165">i</c>
+					<c xml:id="L8C166">l</c>
+					<c xml:id="L8C167">i</c>
+					<c xml:id="L8C168">u</c>
+					<c xml:id="L8C169">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C170"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C171">C</c>
+					<c xml:id="L8C172">l</c>
+					<c xml:id="L8C173">u</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C174">s</c>
+					<c xml:id="L8C175">t</c>
+					<c xml:id="L8C176">u</c>
+					<c xml:id="L8C177">m</c>
+					<c xml:id="L8C178">i</c>
+					<c xml:id="L8C179">n</c>
+					<c xml:id="L8C180">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C181"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C182">S</c>
+					<c xml:id="L8C183">e</c>
+					<c xml:id="L8C184">x</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C185">t</c>
+					<c xml:id="L8C186">u</c>
+					<c xml:id="L8C187">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C188"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C189">P</c>
+					<c xml:id="L8C190">o</c>
+					<c xml:id="L8C191">m</c>
+					<c xml:id="L8C192">p</c>
+					<c xml:id="L8C193">e</c>
+					<c xml:id="L8C194">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C195">u</c>
+					<c xml:id="L8C196">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C197"> </c>
+			<c xml:id="L8C198">S</c>
+			<c xml:id="L8C199">&amp;</c>
+			<c xml:id="L8C200">l</c>
+			<c xml:id="L8C201">t</c>
+			<c xml:id="L8C202">;</c>
+			<c xml:id="L8C203">e</c>
+			<c xml:id="L8C204">=</c>
+			<c xml:id="L8C205">F</c>
+			<c xml:id="L8C206">&amp;</c>
+			<c xml:id="L8C207">g</c>
+			<c xml:id="L8C208">t</c>
+			<c xml:id="L8C209">;</c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C210">x</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C211">t</c>
+					<c xml:id="L8C212">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C213"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C214">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C215">i</c>
+					<c xml:id="L8C216">l</c>
+					<c xml:id="L8C217">i</c>
+					<c xml:id="L8C218">u</c>
+					<c xml:id="L8C219">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C220"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C221">C</c>
+					<c xml:id="L8C222">l</c>
+					<c xml:id="L8C223">u</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C224">s</c>
+					<c xml:id="L8C225">t</c>
+					<c xml:id="L8C226">u</c>
+					<c xml:id="L8C227">m</c>
+					<c xml:id="L8C228">i</c>
+					<c xml:id="L8C229">n</c>
+					<c xml:id="L8C230">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C231"> </c>
+		</line>
+		<line n="9">
+			<expan>
+				<abbr>
+					<c xml:id="L9C1">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C2">a</c>
+					<c xml:id="L9C3">r</c>
+					<c xml:id="L9C4">c</c>
+					<c xml:id="L9C5">u</c>
+					<c xml:id="L9C6">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C8">H</c>
+					<c xml:id="L9C9">o</c>
+					<c xml:id="L9C10">s</c>
+					<c xml:id="L9C11">t</c>
+					<c xml:id="L9C12">i</c>
+					<c xml:id="L9C13">l</c>
+					<c xml:id="L9C14">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C15">u</c>
+					<c xml:id="L9C16">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C18">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C19">a</c>
+					<c xml:id="L9C20">r</c>
+					<c xml:id="L9C21">c</c>
+					<c xml:id="L9C22">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C23"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C24">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C25">i</c>
+					<c xml:id="L9C26">l</c>
+					<c xml:id="L9C27">i</c>
+					<c xml:id="L9C28">u</c>
+					<c xml:id="L9C29">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C30"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C31">V</c>
+					<c xml:id="L9C32">e</c>
+					<c xml:id="L9C33">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C34">i</c>
+					<c xml:id="L9C35">n</c>
+					<c xml:id="L9C36">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C37"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C38">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C39">u</c>
+					<c xml:id="L9C40">c</c>
+					<c xml:id="L9C41">i</c>
+					<c xml:id="L9C42">u</c>
+					<c xml:id="L9C43">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C44"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C45">A</c>
+					<c xml:id="L9C46">e</c>
+					<c xml:id="L9C47">b</c>
+					<c xml:id="L9C48">u</c>
+					<c xml:id="L9C49">t</c>
+					<c xml:id="L9C50">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C51">u</c>
+					<c xml:id="L9C52">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C53"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C54">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C55">u</c>
+					<c xml:id="L9C56">c</c>
+					<c xml:id="L9C57">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C58"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C59">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C60">i</c>
+					<c xml:id="L9C61">l</c>
+					<c xml:id="L9C62">i</c>
+					<c xml:id="L9C63">u</c>
+					<c xml:id="L9C64">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C65"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C66">M</c>
+					<c xml:id="L9C67">e</c>
+					<c xml:id="L9C68">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C69">e</c>
+					<c xml:id="L9C70">n</c>
+					<c xml:id="L9C71">i</c>
+					<c xml:id="L9C72">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C73"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C74">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C75">u</c>
+					<c xml:id="L9C76">i</c>
+					<c xml:id="L9C77">n</c>
+					<c xml:id="L9C78">t</c>
+					<c xml:id="L9C79">u</c>
+					<c xml:id="L9C80">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C81"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C82">H</c>
+					<c xml:id="L9C83">i</c>
+					<c xml:id="L9C84">r</c>
+					<c xml:id="L9C85">t</c>
+					<c xml:id="L9C86">u</c>
+					<c xml:id="L9C87">l</c>
+					<c xml:id="L9C88">e</c>
+					<c xml:id="L9C89">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C90">u</c>
+					<c xml:id="L9C91">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C92"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C93">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C94">u</c>
+					<c xml:id="L9C95">c</c>
+					<c xml:id="L9C96">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C97"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C98">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C99">i</c>
+					<c xml:id="L9C100">l</c>
+					<c xml:id="L9C101">i</c>
+					<c xml:id="L9C102">u</c>
+					<c xml:id="L9C103">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C104"> </c>
+			<c xml:id="L9C105">S</c>
+			<c xml:id="L9C106">&amp;</c>
+			<c xml:id="L9C107">l</c>
+			<c xml:id="L9C108">t</c>
+			<c xml:id="L9C109">;</c>
+			<c xml:id="L9C110">e</c>
+			<c xml:id="L9C111">=</c>
+			<c xml:id="L9C112">F</c>
+			<c xml:id="L9C113">&amp;</c>
+			<c xml:id="L9C114">g</c>
+			<c xml:id="L9C115">t</c>
+			<c xml:id="L9C116">;</c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C117">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C118">g</c>
+					<c xml:id="L9C119">i</c>
+					<c xml:id="L9C120">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C121"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C122">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C123">u</c>
+					<c xml:id="L9C124">c</c>
+					<c xml:id="L9C125">i</c>
+					<c xml:id="L9C126">u</c>
+					<c xml:id="L9C127">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C128"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C129">I</c>
+					<c xml:id="L9C130">u</c>
+					<c xml:id="L9C131">n</c>
+					<c xml:id="L9C132">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C133">u</c>
+					<c xml:id="L9C134">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C135"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C136">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C137">u</c>
+					<c xml:id="L9C138">i</c>
+					<c xml:id="L9C139">n</c>
+					<c xml:id="L9C140">t</c>
+					<c xml:id="L9C141">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C142"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C143">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C144">i</c>
+					<c xml:id="L9C145">l</c>
+					<c xml:id="L9C146">i</c>
+					<c xml:id="L9C147">u</c>
+					<c xml:id="L9C148">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C149"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C150">L</c>
+					<c xml:id="L9C151">e</c>
+					<c xml:id="L9C152">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C153">o</c>
+					<c xml:id="L9C154">n</c>
+					<c xml:id="L9C155">i</c>
+					<c xml:id="L9C156">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C157"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C158">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C159">u</c>
+					<c xml:id="L9C160">i</c>
+					<c xml:id="L9C161">n</c>
+					<c xml:id="L9C162">t</c>
+					<c xml:id="L9C163">u</c>
+					<c xml:id="L9C164">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C165"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C166">R</c>
+					<c xml:id="L9C167">o</c>
+					<c xml:id="L9C168">s</c>
+					<c xml:id="L9C169">i</c>
+					<c xml:id="L9C170">d</c>
+					<c xml:id="L9C171">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C172">u</c>
+					<c xml:id="L9C173">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C174"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C175">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C176">u</c>
+					<c xml:id="L9C177">i</c>
+					<c xml:id="L9C178">n</c>
+					<c xml:id="L9C179">t</c>
+					<c xml:id="L9C180">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C181"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C182">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C183">i</c>
+					<c xml:id="L9C184">l</c>
+					<c xml:id="L9C185">i</c>
+					<c xml:id="L9C186">u</c>
+					<c xml:id="L9C187">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C188"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C189">Q</c>
+					<c xml:id="L9C190">u</c>
+					<c xml:id="L9C191">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C192">r</c>
+					<c xml:id="L9C193">i</c>
+					<c xml:id="L9C194">n</c>
+					<c xml:id="L9C195">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C196"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C197">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C198">a</c>
+					<c xml:id="L9C199">i</c>
+					<c xml:id="L9C200">u</c>
+					<c xml:id="L9C201">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C202"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C203">T</c>
+					<c xml:id="L9C204">a</c>
+					<c xml:id="L9C205">r</c>
+					<c xml:id="L9C206">q</c>
+					<c xml:id="L9C207">u</c>
+					<c xml:id="L9C208">i</c>
+					<c xml:id="L9C209">t</c>
+					<c xml:id="L9C210">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C211">u</c>
+					<c xml:id="L9C212">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C213"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C214">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C215">u</c>
+					<c xml:id="L9C216">c</c>
+					<c xml:id="L9C217">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C218"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C219">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C220">i</c>
+					<c xml:id="L9C221">l</c>
+					<c xml:id="L9C222">i</c>
+					<c xml:id="L9C223">u</c>
+					<c xml:id="L9C224">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C225"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C226">F</c>
+					<c xml:id="L9C227">a</c>
+					<c xml:id="L9C228">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C229">e</c>
+					<c xml:id="L9C230">r</c>
+					<c xml:id="L9C231">n</c>
+					<c xml:id="L9C232">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C233"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C234">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C235">u</c>
+					<c xml:id="L9C236">i</c>
+					<c xml:id="L9C237">n</c>
+					<c xml:id="L9C238">t</c>
+					<c xml:id="L9C239">u</c>
+					<c xml:id="L9C240">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C241"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C242">M</c>
+					<c xml:id="L9C243">a</c>
+					<c xml:id="L9C244">r</c>
+					<c xml:id="L9C245">c</c>
+					<c xml:id="L9C246">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C247">u</c>
+					<c xml:id="L9C248">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C249"> </c>
+		</line>
+		<line n="10">
+			<expan>
+				<abbr>
+					<c xml:id="L10C1">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C2">u</c>
+					<c xml:id="L10C3">c</c>
+					<c xml:id="L10C4">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C6">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C7">i</c>
+					<c xml:id="L10C8">l</c>
+					<c xml:id="L10C9">i</c>
+					<c xml:id="L10C10">u</c>
+					<c xml:id="L10C11">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C12"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C13">P</c>
+					<c xml:id="L10C14">a</c>
+					<c xml:id="L10C15">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C16">i</c>
+					<c xml:id="L10C17">r</c>
+					<c xml:id="L10C18">i</c>
+					<c xml:id="L10C19">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C21">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C22">u</c>
+					<c xml:id="L10C23">c</c>
+					<c xml:id="L10C24">i</c>
+					<c xml:id="L10C25">u</c>
+					<c xml:id="L10C26">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C27"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C28">O</c>
+					<c xml:id="L10C29">p</c>
+					<c xml:id="L10C30">e</c>
+					<c xml:id="L10C31">i</c>
+					<c xml:id="L10C32">m</c>
+					<c xml:id="L10C33">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C34">u</c>
+					<c xml:id="L10C35">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C36"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C37">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C38">u</c>
+					<c xml:id="L10C39">i</c>
+					<c xml:id="L10C40">n</c>
+					<c xml:id="L10C41">t</c>
+					<c xml:id="L10C42">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C43"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C44">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C45">i</c>
+					<c xml:id="L10C46">l</c>
+					<c xml:id="L10C47">i</c>
+					<c xml:id="L10C48">u</c>
+					<c xml:id="L10C49">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C50"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C51">H</c>
+					<c xml:id="L10C52">o</c>
+					<c xml:id="L10C53">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C54">a</c>
+					<c xml:id="L10C55">t</c>
+					<c xml:id="L10C56">i</c>
+					<c xml:id="L10C57">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C58"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C59">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C60">u</c>
+					<c xml:id="L10C61">c</c>
+					<c xml:id="L10C62">i</c>
+					<c xml:id="L10C63">u</c>
+					<c xml:id="L10C64">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C65"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C66">I</c>
+					<c xml:id="L10C67">n</c>
+					<c xml:id="L10C68">s</c>
+					<c xml:id="L10C69">t</c>
+					<c xml:id="L10C70">e</c>
+					<c xml:id="L10C71">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C72">u</c>
+					<c xml:id="L10C73">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C74"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C75">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C76">u</c>
+					<c xml:id="L10C77">c</c>
+					<c xml:id="L10C78">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C79"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C80">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C81">i</c>
+					<c xml:id="L10C82">l</c>
+					<c xml:id="L10C83">i</c>
+					<c xml:id="L10C84">u</c>
+					<c xml:id="L10C85">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C86"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C87">F</c>
+					<c xml:id="L10C88">a</c>
+					<c xml:id="L10C89">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C90">e</c>
+					<c xml:id="L10C91">r</c>
+					<c xml:id="L10C92">n</c>
+					<c xml:id="L10C93">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C94"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C95">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C96">i</c>
+					<c xml:id="L10C97">t</c>
+					<c xml:id="L10C98">u</c>
+					<c xml:id="L10C99">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C100"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C101">N</c>
+					<c xml:id="L10C102">o</c>
+					<c xml:id="L10C103">n</c>
+					<c xml:id="L10C104">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C105">u</c>
+					<c xml:id="L10C106">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C107"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C108">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C109">i</c>
+					<c xml:id="L10C110">t</c>
+					<c xml:id="L10C111">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C112"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C113">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C114">i</c>
+					<c xml:id="L10C115">l</c>
+					<c xml:id="L10C116">i</c>
+					<c xml:id="L10C117">u</c>
+					<c xml:id="L10C118">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C119"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C120">V</c>
+					<c xml:id="L10C121">e</c>
+					<c xml:id="L10C122">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C123">i</c>
+					<c xml:id="L10C124">n</c>
+					<c xml:id="L10C125">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C126"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C127">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C128">u</c>
+					<c xml:id="L10C129">c</c>
+					<c xml:id="L10C130">i</c>
+					<c xml:id="L10C131">u</c>
+					<c xml:id="L10C132">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C133"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C134">N</c>
+					<c xml:id="L10C135">o</c>
+					<c xml:id="L10C136">n</c>
+					<c xml:id="L10C137">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C138">u</c>
+					<c xml:id="L10C139">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C140"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C141">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C142">i</c>
+					<c xml:id="L10C143">t</c>
+					<c xml:id="L10C144">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C145"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C146">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C147">i</c>
+					<c xml:id="L10C148">l</c>
+					<c xml:id="L10C149">i</c>
+					<c xml:id="L10C150">u</c>
+					<c xml:id="L10C151">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C152"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C153">V</c>
+					<c xml:id="L10C154">e</c>
+					<c xml:id="L10C155">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C156">i</c>
+					<c xml:id="L10C157">n</c>
+					<c xml:id="L10C158">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C159"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C160">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C161">a</c>
+					<c xml:id="L10C162">i</c>
+					<c xml:id="L10C163">u</c>
+					<c xml:id="L10C164">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C165"> </c>
+			<c xml:id="L10C166">H</c>
+			<c xml:id="L10C167">e</c>
+			<c xml:id="L10C168">r</c>
+			<c xml:id="L10C169">i</c>
+			<c xml:id="L10C170">u</c>
+			<c xml:id="L10C171">s</c>
+			<c xml:id="L10C172"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C173">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C174">a</c>
+					<c xml:id="L10C175">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C176"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C177">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C178">i</c>
+					<c xml:id="L10C179">l</c>
+					<c xml:id="L10C180">i</c>
+					<c xml:id="L10C181">u</c>
+					<c xml:id="L10C182">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C183"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C184">C</c>
+					<c xml:id="L10C185">l</c>
+					<c xml:id="L10C186">u</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C187">s</c>
+					<c xml:id="L10C188">t</c>
+					<c xml:id="L10C189">u</c>
+					<c xml:id="L10C190">m</c>
+					<c xml:id="L10C191">i</c>
+					<c xml:id="L10C192">n</c>
+					<c xml:id="L10C193">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C194"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C195">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C196">u</c>
+					<c xml:id="L10C197">c</c>
+					<c xml:id="L10C198">i</c>
+					<c xml:id="L10C199">u</c>
+					<c xml:id="L10C200">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C201"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C202">P</c>
+					<c xml:id="L10C203">o</c>
+					<c xml:id="L10C204">n</c>
+					<c xml:id="L10C205">t</c>
+					<c xml:id="L10C206">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C207">u</c>
+					<c xml:id="L10C208">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C209"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C210">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C211">i</c>
+					<c xml:id="L10C212">t</c>
+					<c xml:id="L10C213">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C214"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C215">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C216">i</c>
+					<c xml:id="L10C217">l</c>
+					<c xml:id="L10C218">i</c>
+					<c xml:id="L10C219">u</c>
+					<c xml:id="L10C220">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C221"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C222">Q</c>
+					<c xml:id="L10C223">u</c>
+					<c xml:id="L10C224">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C225">r</c>
+					<c xml:id="L10C226">i</c>
+					<c xml:id="L10C227">n</c>
+					<c xml:id="L10C228">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C229"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C230">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C231">a</c>
+					<c xml:id="L10C232">r</c>
+					<c xml:id="L10C233">c</c>
+					<c xml:id="L10C234">u</c>
+					<c xml:id="L10C235">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C236"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C237">L</c>
+					<c xml:id="L10C238">u</c>
+					<c xml:id="L10C239">c</c>
+					<c xml:id="L10C240">a</c>
+					<c xml:id="L10C241">n</c>
+					<c xml:id="L10C242">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C243">u</c>
+					<c xml:id="L10C244">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C245"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C246">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C247">a</c>
+					<c xml:id="L10C248">r</c>
+					<c xml:id="L10C249">c</c>
+					<c xml:id="L10C250">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C251"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C252">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C253">i</c>
+					<c xml:id="L10C254">l</c>
+					<c xml:id="L10C255">i</c>
+					<c xml:id="L10C256">u</c>
+					<c xml:id="L10C257">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C258"> </c>
+		</line>
+		<line n="11">
+			<expan>
+				<abbr>
+					<c xml:id="L11C1">H</c>
+					<c xml:id="L11C2">o</c>
+					<c xml:id="L11C3">r</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C4">a</c>
+					<c xml:id="L11C5">t</c>
+					<c xml:id="L11C6">i</c>
+					<c xml:id="L11C7">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C8"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C9">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C10">u</c>
+					<c xml:id="L11C11">c</c>
+					<c xml:id="L11C12">i</c>
+					<c xml:id="L11C13">u</c>
+					<c xml:id="L11C14">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C15"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C16">S</c>
+					<c xml:id="L11C17">e</c>
+					<c xml:id="L11C18">r</c>
+					<c xml:id="L11C19">g</c>
+					<c xml:id="L11C20">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C21">u</c>
+					<c xml:id="L11C22">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C23"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C24">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C25">u</c>
+					<c xml:id="L11C26">c</c>
+					<c xml:id="L11C27">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C28"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C29">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C30">i</c>
+					<c xml:id="L11C31">l</c>
+					<c xml:id="L11C32">i</c>
+					<c xml:id="L11C33">u</c>
+					<c xml:id="L11C34">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C35"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C36">T</c>
+					<c xml:id="L11C37">r</c>
+					<c xml:id="L11C38">o</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C39">m</c>
+					<c xml:id="L11C40">e</c>
+					<c xml:id="L11C41">n</c>
+					<c xml:id="L11C42">t</c>
+					<c xml:id="L11C43">i</c>
+					<c xml:id="L11C44">n</c>
+					<c xml:id="L11C45">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C46"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C47">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C48">u</c>
+					<c xml:id="L11C49">b</c>
+					<c xml:id="L11C50">l</c>
+					<c xml:id="L11C51">i</c>
+					<c xml:id="L11C52">u</c>
+					<c xml:id="L11C53">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C54"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C55">P</c>
+					<c xml:id="L11C56">e</c>
+					<c xml:id="L11C57">d</c>
+					<c xml:id="L11C58">a</c>
+					<c xml:id="L11C59">n</c>
+					<c xml:id="L11C60">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C61">u</c>
+					<c xml:id="L11C62">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C63"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C64">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C65">u</c>
+					<c xml:id="L11C66">b</c>
+					<c xml:id="L11C67">l</c>
+					<c xml:id="L11C68">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C69"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C70">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C71">i</c>
+					<c xml:id="L11C72">l</c>
+					<c xml:id="L11C73">i</c>
+					<c xml:id="L11C74">u</c>
+					<c xml:id="L11C75">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C76"> </c>
+			<c xml:id="L11C77">A</c>
+			<c xml:id="L11C78">&amp;</c>
+			<c xml:id="L11C79">l</c>
+			<c xml:id="L11C80">t</c>
+			<c xml:id="L11C81">;</c>
+			<c xml:id="L11C82">i</c>
+			<c xml:id="L11C83">=</c>
+			<c xml:id="L11C84">B</c>
+			<c xml:id="L11C85">&amp;</c>
+			<c xml:id="L11C86">g</c>
+			<c xml:id="L11C87">t</c>
+			<c xml:id="L11C88">;</c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C89">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C90">i</c>
+					<c xml:id="L11C91">l</c>
+					<c xml:id="L11C92">i</c>
+					<c xml:id="L11C93">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C94"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C95">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C96">a</c>
+					<c xml:id="L11C97">i</c>
+					<c xml:id="L11C98">u</c>
+					<c xml:id="L11C99">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C100"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C101">L</c>
+					<c xml:id="L11C102">a</c>
+					<c xml:id="L11C103">e</c>
+					<c xml:id="L11C104">t</c>
+					<c xml:id="L11C105">o</c>
+					<c xml:id="L11C106">r</c>
+					<c xml:id="L11C107">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C108">u</c>
+					<c xml:id="L11C109">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C110"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C111">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C112">a</c>
+					<c xml:id="L11C113">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C114"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C115">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C116">i</c>
+					<c xml:id="L11C117">l</c>
+					<c xml:id="L11C118">i</c>
+					<c xml:id="L11C119">u</c>
+					<c xml:id="L11C120">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C121"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C122">V</c>
+					<c xml:id="L11C123">e</c>
+					<c xml:id="L11C124">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C125">i</c>
+					<c xml:id="L11C126">n</c>
+					<c xml:id="L11C127">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C128"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C129">A</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C130">u</c>
+					<c xml:id="L11C131">l</c>
+					<c xml:id="L11C132">u</c>
+					<c xml:id="L11C133">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C134"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C135">F</c>
+					<c xml:id="L11C136">u</c>
+					<c xml:id="L11C137">l</c>
+					<c xml:id="L11C138">v</c>
+					<c xml:id="L11C139">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C140">u</c>
+					<c xml:id="L11C141">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C142"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C143">A</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C144">u</c>
+					<c xml:id="L11C145">l</c>
+					<c xml:id="L11C146">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C147"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C148">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C149">i</c>
+					<c xml:id="L11C150">l</c>
+					<c xml:id="L11C151">i</c>
+					<c xml:id="L11C152">u</c>
+					<c xml:id="L11C153">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C154"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C155">T</c>
+					<c xml:id="L11C156">r</c>
+					<c xml:id="L11C157">o</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C158">m</c>
+					<c xml:id="L11C159">e</c>
+					<c xml:id="L11C160">n</c>
+					<c xml:id="L11C161">t</c>
+					<c xml:id="L11C162">i</c>
+					<c xml:id="L11C163">n</c>
+					<c xml:id="L11C164">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C165"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C166">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C167">u</c>
+					<c xml:id="L11C168">i</c>
+					<c xml:id="L11C169">n</c>
+					<c xml:id="L11C170">t</c>
+					<c xml:id="L11C171">u</c>
+					<c xml:id="L11C172">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C173"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C174">A</c>
+					<c xml:id="L11C175">m</c>
+					<c xml:id="L11C176">p</c>
+					<c xml:id="L11C177">u</c>
+					<c xml:id="L11C178">d</c>
+					<c xml:id="L11C179">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C180">u</c>
+					<c xml:id="L11C181">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C182"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C183">Q</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C184">u</c>
+					<c xml:id="L11C185">i</c>
+					<c xml:id="L11C186">n</c>
+					<c xml:id="L11C187">t</c>
+					<c xml:id="L11C188">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C189"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C190">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C191">i</c>
+					<c xml:id="L11C192">l</c>
+					<c xml:id="L11C193">i</c>
+					<c xml:id="L11C194">u</c>
+					<c xml:id="L11C195">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C196"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C197">A</c>
+					<c xml:id="L11C198">i</c>
+					<c xml:id="L11C199">m</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C200">i</c>
+					<c xml:id="L11C201">l</c>
+					<c xml:id="L11C202">i</c>
+					<c xml:id="L11C203">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C204"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C205">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C206">u</c>
+					<c xml:id="L11C207">c</c>
+					<c xml:id="L11C208">i</c>
+					<c xml:id="L11C209">u</c>
+					<c xml:id="L11C210">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C211"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C212">M</c>
+					<c xml:id="L11C213">i</c>
+					<c xml:id="L11C214">n</c>
+					<c xml:id="L11C215">u</c>
+					<c xml:id="L11C216">c</c>
+					<c xml:id="L11C217">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C218">u</c>
+					<c xml:id="L11C219">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C220"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C221">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C222">u</c>
+					<c xml:id="L11C223">c</c>
+					<c xml:id="L11C224">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C225"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C226">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C227">i</c>
+					<c xml:id="L11C228">l</c>
+					<c xml:id="L11C229">i</c>
+					<c xml:id="L11C230">u</c>
+					<c xml:id="L11C231">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C232"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C233">V</c>
+					<c xml:id="L11C234">e</c>
+					<c xml:id="L11C235">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C236">i</c>
+					<c xml:id="L11C237">n</c>
+					<c xml:id="L11C238">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C239"> </c>
+		</line>
+		<line n="12">
+			<expan>
+				<abbr>
+					<c xml:id="L12C1">T</c>
+					<c xml:id="L12C2">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C3">b</c>
+					<c xml:id="L12C4">e</c>
+					<c xml:id="L12C5">r</c>
+					<c xml:id="L12C6">i</c>
+					<c xml:id="L12C7">u</c>
+					<c xml:id="L12C8">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C9"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C10">V</c>
+					<c xml:id="L12C11">e</c>
+					<c xml:id="L12C12">t</c>
+					<c xml:id="L12C13">u</c>
+					<c xml:id="L12C14">r</c>
+					<c xml:id="L12C15">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C16">u</c>
+					<c xml:id="L12C17">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C18"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C19">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C20">i</c>
+					<c xml:id="L12C21">t</c>
+					<c xml:id="L12C22">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C23"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C24">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C25">i</c>
+					<c xml:id="L12C26">l</c>
+					<c xml:id="L12C27">i</c>
+					<c xml:id="L12C28">u</c>
+					<c xml:id="L12C29">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C30"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C31">V</c>
+					<c xml:id="L12C32">e</c>
+					<c xml:id="L12C33">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C34">i</c>
+					<c xml:id="L12C35">n</c>
+					<c xml:id="L12C36">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C37"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C38">C</c>
+					<c xml:id="L12C39">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C40">a</c>
+					<c xml:id="L12C41">e</c>
+					<c xml:id="L12C42">u</c>
+					<c xml:id="L12C43">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C44"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C45">B</c>
+					<c xml:id="L12C46">u</c>
+					<c xml:id="L12C47">s</c>
+					<c xml:id="L12C48">s</c>
+					<c xml:id="L12C49">e</c>
+					<c xml:id="L12C50">n</c>
+					<c xml:id="L12C51">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C52">u</c>
+					<c xml:id="L12C53">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C54"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C55">C</c>
+					<c xml:id="L12C56">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C57">a</c>
+					<c xml:id="L12C58">e</c>
+					<c xml:id="L12C59">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C60"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C61">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C62">i</c>
+					<c xml:id="L12C63">l</c>
+					<c xml:id="L12C64">i</c>
+					<c xml:id="L12C65">u</c>
+					<c xml:id="L12C66">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C67"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C68">S</c>
+					<c xml:id="L12C69">t</c>
+					<c xml:id="L12C70">e</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C71">l</c>
+					<c xml:id="L12C72">l</c>
+					<c xml:id="L12C73">a</c>
+					<c xml:id="L12C74">t</c>
+					<c xml:id="L12C75">i</c>
+					<c xml:id="L12C76">n</c>
+					<c xml:id="L12C77">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C78"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C79">T</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C80">i</c>
+					<c xml:id="L12C81">t</c>
+					<c xml:id="L12C82">u</c>
+					<c xml:id="L12C83">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C84"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C85">P</c>
+					<c xml:id="L12C86">e</c>
+					<c xml:id="L12C87">t</c>
+					<c xml:id="L12C88">r</c>
+					<c xml:id="L12C89">o</c>
+					<c xml:id="L12C90">n</c>
+					<c xml:id="L12C91">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C92">u</c>
+					<c xml:id="L12C93">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C94"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C95">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C96">u</c>
+					<c xml:id="L12C97">b</c>
+					<c xml:id="L12C98">l</c>
+					<c xml:id="L12C99">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C100"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C101">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C102">i</c>
+					<c xml:id="L12C103">l</c>
+					<c xml:id="L12C104">i</c>
+					<c xml:id="L12C105">u</c>
+					<c xml:id="L12C106">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C107"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C108">F</c>
+					<c xml:id="L12C109">a</c>
+					<c xml:id="L12C110">b</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C111">i</c>
+					<c xml:id="L12C112">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C113"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C114">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C115">a</c>
+					<c xml:id="L12C116">n</c>
+					<c xml:id="L12C117">i</c>
+					<c xml:id="L12C118">u</c>
+					<c xml:id="L12C119">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C120"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C121">O</c>
+					<c xml:id="L12C122">t</c>
+					<c xml:id="L12C123">a</c>
+					<c xml:id="L12C124">c</c>
+					<c xml:id="L12C125">i</c>
+					<c xml:id="L12C126">l</c>
+					<c xml:id="L12C127">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C128">u</c>
+					<c xml:id="L12C129">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C130"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C131">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C132">a</c>
+					<c xml:id="L12C133">n</c>
+					<c xml:id="L12C134">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C135"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C136">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C137">i</c>
+					<c xml:id="L12C138">l</c>
+					<c xml:id="L12C139">i</c>
+					<c xml:id="L12C140">u</c>
+					<c xml:id="L12C141">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C142"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C143">P</c>
+					<c xml:id="L12C144">o</c>
+					<c xml:id="L12C145">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C146">l</c>
+					<c xml:id="L12C147">i</c>
+					<c xml:id="L12C148">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C149"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C150">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C151">u</c>
+					<c xml:id="L12C152">c</c>
+					<c xml:id="L12C153">i</c>
+					<c xml:id="L12C154">u</c>
+					<c xml:id="L12C155">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C156"> </c>
+			<c xml:id="L12C157">P</c>
+			<c xml:id="L12C158">u</c>
+			<c xml:id="L12C159">l</c>
+			<c xml:id="L12C160">l</c>
+			<c xml:id="L12C161">i</c>
+			<c xml:id="L12C162">e</c>
+			<c xml:id="L12C163">n</c>
+			<c xml:id="L12C164">u</c>
+			<c xml:id="L12C165">s</c>
+			<c xml:id="L12C166"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C167">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C168">u</c>
+					<c xml:id="L12C169">c</c>
+					<c xml:id="L12C170">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C171"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C172">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C173">i</c>
+					<c xml:id="L12C174">l</c>
+					<c xml:id="L12C175">i</c>
+					<c xml:id="L12C176">u</c>
+					<c xml:id="L12C177">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C178"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C179">M</c>
+					<c xml:id="L12C180">e</c>
+					<c xml:id="L12C181">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C182">e</c>
+					<c xml:id="L12C183">n</c>
+					<c xml:id="L12C184">i</c>
+					<c xml:id="L12C185">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C186"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C187">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C188">a</c>
+					<c xml:id="L12C189">n</c>
+					<c xml:id="L12C190">i</c>
+					<c xml:id="L12C191">u</c>
+					<c xml:id="L12C192">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C193"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C194">A</c>
+					<c xml:id="L12C195">e</c>
+					<c xml:id="L12C196">b</c>
+					<c xml:id="L12C197">u</c>
+					<c xml:id="L12C198">t</c>
+					<c xml:id="L12C199">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C200">u</c>
+					<c xml:id="L12C201">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C202"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C203">M</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C204">a</c>
+					<c xml:id="L12C205">n</c>
+					<c xml:id="L12C206">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C207"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C208">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C209">i</c>
+					<c xml:id="L12C210">l</c>
+					<c xml:id="L12C211">i</c>
+					<c xml:id="L12C212">u</c>
+					<c xml:id="L12C213">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C214"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C215">P</c>
+					<c xml:id="L12C216">o</c>
+					<c xml:id="L12C217">l</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C218">l</c>
+					<c xml:id="L12C219">i</c>
+					<c xml:id="L12C220">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C221"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C222">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C223">u</c>
+					<c xml:id="L12C224">b</c>
+					<c xml:id="L12C225">l</c>
+					<c xml:id="L12C226">i</c>
+					<c xml:id="L12C227">u</c>
+					<c xml:id="L12C228">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C229"> </c>
+			<c xml:id="L12C230">S</c>
+			<c xml:id="L12C231">a</c>
+			<c xml:id="L12C232">l</c>
+			<c xml:id="L12C233">v</c>
+			<c xml:id="L12C234">i</c>
+			<c xml:id="L12C235">e</c>
+			<c xml:id="L12C236">n</c>
+			<c xml:id="L12C237">u</c>
+			<c xml:id="L12C238">s</c>
+			<c xml:id="L12C239"> </c>
+		</line>
+		<line n="13">
+			<expan>
+				<abbr>
+					<c xml:id="L13C1">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C2">u</c>
+					<c xml:id="L13C3">c</c>
+					<c xml:id="L13C4">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C5"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C6">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C7">i</c>
+					<c xml:id="L13C8">l</c>
+					<c xml:id="L13C9">i</c>
+					<c xml:id="L13C10">u</c>
+					<c xml:id="L13C11">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C12"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C13">M</c>
+					<c xml:id="L13C14">a</c>
+					<c xml:id="L13C15">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C16">c</c>
+					<c xml:id="L13C17">i</c>
+					<c xml:id="L13C18">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C19"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C20">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C21">u</c>
+					<c xml:id="L13C22">c</c>
+					<c xml:id="L13C23">i</c>
+					<c xml:id="L13C24">u</c>
+					<c xml:id="L13C25">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C26"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C27">O</c>
+					<c xml:id="L13C28">t</c>
+					<c xml:id="L13C29">a</c>
+					<c xml:id="L13C30">c</c>
+					<c xml:id="L13C31">i</c>
+					<c xml:id="L13C32">l</c>
+					<c xml:id="L13C33">i</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C34">u</c>
+					<c xml:id="L13C35">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C36"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C37">L</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C38">u</c>
+					<c xml:id="L13C39">c</c>
+					<c xml:id="L13C40">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C41"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C42">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C43">i</c>
+					<c xml:id="L13C44">l</c>
+					<c xml:id="L13C45">i</c>
+					<c xml:id="L13C46">u</c>
+					<c xml:id="L13C47">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C48"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C49">P</c>
+					<c xml:id="L13C50">u</c>
+					<c xml:id="L13C51">p</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C52">i</c>
+					<c xml:id="L13C53">n</c>
+					<c xml:id="L13C54">i</c>
+					<c xml:id="L13C55">a</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C56"> </c>
+		</line>
+	</div>
+	<div n="2" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">T</c>
+			<c xml:id="L1C3">u</c>
+			<c xml:id="L1C4">r</c>
+			<c xml:id="L1C5">m</c>
+			<c xml:id="L1C6">a</c>
+			<c xml:id="L1C7"> </c>
+			<c xml:id="L1C8">S</c>
+			<c xml:id="L1C9">a</c>
+			<c xml:id="L1C10">l</c>
+			<c xml:id="L1C11">l</c>
+			<c xml:id="L1C12">u</c>
+			<c xml:id="L1C13">i</c>
+			<c xml:id="L1C14">t</c>
+			<c xml:id="L1C15">a</c>
+			<c xml:id="L1C16">n</c>
+			<c xml:id="L1C17">a</c>
+			<c xml:id="L1C18"> </c>
+		</line>
+	</div>
+	<div n="3" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">S</c>
+			<c xml:id="L1C3">a</c>
+			<c xml:id="L1C4">n</c>
+			<c xml:id="L1C5">i</c>
+			<c xml:id="L1C6">b</c>
+			<c xml:id="L1C7">e</c>
+			<c xml:id="L1C8">l</c>
+			<c xml:id="L1C9">s</c>
+			<c xml:id="L1C10">e</c>
+			<c xml:id="L1C11">r</c>
+			<c xml:id="L1C12"> </c>
+			<c xml:id="L1C13">A</c>
+			<c xml:id="L1C14">d</c>
+			<c xml:id="L1C15">i</c>
+			<c xml:id="L1C16">n</c>
+			<c xml:id="L1C17">g</c>
+			<c xml:id="L1C18">i</c>
+			<c xml:id="L1C19">b</c>
+			<c xml:id="L1C20">a</c>
+			<c xml:id="L1C21">s</c>
+			<c xml:id="L1C22"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C23">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C24">i</c>
+					<c xml:id="L1C25">l</c>
+					<c xml:id="L1C26">i</c>
+					<c xml:id="L1C27">u</c>
+					<c xml:id="L1C28">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C29"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">I</c>
+			<c xml:id="L2C2">l</c>
+			<c xml:id="L2C3">l</c>
+			<c xml:id="L2C4">u</c>
+			<c xml:id="L2C5">r</c>
+			<c xml:id="L2C6">t</c>
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">b</c>
+			<c xml:id="L2C9">a</c>
+			<c xml:id="L2C10">s</c>
+			<c xml:id="L2C11"> </c>
+			<c xml:id="L2C12">B</c>
+			<c xml:id="L2C13">i</c>
+			<c xml:id="L2C14">l</c>
+			<c xml:id="L2C15">u</c>
+			<c xml:id="L2C16">s</c>
+			<c xml:id="L2C17">t</c>
+			<c xml:id="L2C18">i</c>
+			<c xml:id="L2C19">b</c>
+			<c xml:id="L2C20">a</c>
+			<c xml:id="L2C21">s</c>
+			<c xml:id="L2C22"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C23">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C24">i</c>
+					<c xml:id="L2C25">l</c>
+					<c xml:id="L2C26">i</c>
+					<c xml:id="L2C27">u</c>
+					<c xml:id="L2C28">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C29"> </c>
+		</line>
+		<line n="3">
+			<c xml:id="L3C1">E</c>
+			<c xml:id="L3C2">s</c>
+			<c xml:id="L3C3">t</c>
+			<c xml:id="L3C4">o</c>
+			<c xml:id="L3C5">p</c>
+			<c xml:id="L3C6">e</c>
+			<c xml:id="L3C7">l</c>
+			<c xml:id="L3C8">e</c>
+			<c xml:id="L3C9">s</c>
+			<c xml:id="L3C10"> </c>
+			<c xml:id="L3C11">O</c>
+			<c xml:id="L3C12">r</c>
+			<c xml:id="L3C13">d</c>
+			<c xml:id="L3C14">e</c>
+			<c xml:id="L3C15">n</c>
+			<c xml:id="L3C16">n</c>
+			<c xml:id="L3C17">a</c>
+			<c xml:id="L3C18">s</c>
+			<c xml:id="L3C19"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C20">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C21">i</c>
+					<c xml:id="L3C22">l</c>
+					<c xml:id="L3C23">i</c>
+					<c xml:id="L3C24">u</c>
+					<c xml:id="L3C25">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C26"> </c>
+		</line>
+		<line n="4">
+			<c xml:id="L4C1">T</c>
+			<c xml:id="L4C2">&amp;</c>
+			<c xml:id="L4C3">l</c>
+			<c xml:id="L4C4">t</c>
+			<c xml:id="L4C5">;</c>
+			<c xml:id="L4C6">o</c>
+			<c xml:id="L4C7">=</c>
+			<c xml:id="L4C8">C</c>
+			<c xml:id="L4C9">&amp;</c>
+			<c xml:id="L4C10">g</c>
+			<c xml:id="L4C11">t</c>
+			<c xml:id="L4C12">;</c>
+			<c xml:id="L4C13">r</c>
+			<c xml:id="L4C14">s</c>
+			<c xml:id="L4C15">i</c>
+			<c xml:id="L4C16">n</c>
+			<c xml:id="L4C17">n</c>
+			<c xml:id="L4C18">o</c>
+			<c xml:id="L4C19"> </c>
+			<c xml:id="L4C20">A</c>
+			<c xml:id="L4C21">u</c>
+			<c xml:id="L4C22">s</c>
+			<c xml:id="L4C23">t</c>
+			<c xml:id="L4C24">i</c>
+			<c xml:id="L4C25">n</c>
+			<c xml:id="L4C26">c</c>
+			<c xml:id="L4C27">o</c>
+			<c xml:id="L4C28"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C29">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C30">i</c>
+					<c xml:id="L4C31">l</c>
+					<c xml:id="L4C32">i</c>
+					<c xml:id="L4C33">u</c>
+					<c xml:id="L4C34">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C35"> </c>
+		</line>
+		<line n="5">
+			<c xml:id="L5C1">B</c>
+			<c xml:id="L5C2">a</c>
+			<c xml:id="L5C3">g</c>
+			<c xml:id="L5C4">a</c>
+			<c xml:id="L5C5">r</c>
+			<c xml:id="L5C6">e</c>
+			<c xml:id="L5C7">n</c>
+			<c xml:id="L5C8">s</c>
+			<c xml:id="L5C9">i</c>
+			<c xml:id="L5C10">s</c>
+			<c xml:id="L5C11"> </c>
+		</line>
+		<line n="6">
+			<c xml:id="L6C1">C</c>
+			<c xml:id="L6C2">a</c>
+			<c xml:id="L6C3">c</c>
+			<c xml:id="L6C4">u</c>
+			<c xml:id="L6C5">s</c>
+			<c xml:id="L6C6">u</c>
+			<c xml:id="L6C7">s</c>
+			<c xml:id="L6C8">i</c>
+			<c xml:id="L6C9">n</c>
+			<c xml:id="L6C10"> </c>
+			<c xml:id="L6C11">C</c>
+			<c xml:id="L6C12">h</c>
+			<c xml:id="L6C13">a</c>
+			<c xml:id="L6C14">d</c>
+			<c xml:id="L6C15">a</c>
+			<c xml:id="L6C16">r</c>
+			<c xml:id="L6C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C18">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C19">i</c>
+					<c xml:id="L6C20">l</c>
+					<c xml:id="L6C21">i</c>
+					<c xml:id="L6C22">u</c>
+					<c xml:id="L6C23">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C24"> </c>
+		</line>
+		<line n="7">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L7C1">l</c>
+			<c xml:id="L7C2">i</c>
+			<c xml:id="L7C3">c</c>
+			<c xml:id="L7C4">e</c>
+			<c xml:id="L7C5">n</c>
+			<c xml:id="L7C6">s</c>
+			<c xml:id="L7C7">e</c>
+			<c xml:id="L7C8">s</c>
+			<c xml:id="L7C9"> </c>
+		</line>
+		<line n="8">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L8C1"> </c>
+			<c xml:id="L8C2">S</c>
+			<c xml:id="L8C3">o</c>
+			<c xml:id="L8C4">s</c>
+			<c xml:id="L8C5">i</c>
+			<c xml:id="L8C6">m</c>
+			<c xml:id="L8C7">i</c>
+			<c xml:id="L8C8">l</c>
+			<c xml:id="L8C9">u</c>
+			<c xml:id="L8C10">s</c>
+			<c xml:id="L8C11"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C12">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C13">i</c>
+					<c xml:id="L8C14">l</c>
+					<c xml:id="L8C15">i</c>
+					<c xml:id="L8C16">u</c>
+					<c xml:id="L8C17">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C18"> </c>
+		</line>
+		<line n="9">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L9C1">i</c>
+			<c xml:id="L9C2">r</c>
+			<c xml:id="L9C3">s</c>
+			<c xml:id="L9C4">e</c>
+			<c xml:id="L9C5">c</c>
+			<c xml:id="L9C6">e</c>
+			<c xml:id="L9C7">l</c>
+			<c xml:id="L9C8"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C9">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C10">i</c>
+					<c xml:id="L9C11">l</c>
+					<c xml:id="L9C12">i</c>
+					<c xml:id="L9C13">u</c>
+					<c xml:id="L9C14">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C15"> </c>
+		</line>
+		<line n="10">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L10C1">e</c>
+			<c xml:id="L10C2">l</c>
+			<c xml:id="L10C3">g</c>
+			<c xml:id="L10C4">a</c>
+			<c xml:id="L10C5">u</c>
+			<c xml:id="L10C6">n</c>
+			<c xml:id="L10C7"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C8">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C9">i</c>
+					<c xml:id="L10C10">l</c>
+					<c xml:id="L10C11">i</c>
+					<c xml:id="L10C12">u</c>
+					<c xml:id="L10C13">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C14"> </c>
+		</line>
+		<line n="11">
+			<gap reason="lost" extent="unknown" unit="character" />
+			<c xml:id="L11C1">n</c>
+			<c xml:id="L11C2">e</c>
+			<c xml:id="L11C3">s</c>
+			<c xml:id="L11C4">p</c>
+			<c xml:id="L11C5">a</c>
+			<c xml:id="L11C6">i</c>
+			<c xml:id="L11C7">s</c>
+			<c xml:id="L11C8">e</c>
+			<c xml:id="L11C9">r</c>
+			<c xml:id="L11C10"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C11">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C12">i</c>
+					<c xml:id="L11C13">l</c>
+					<c xml:id="L11C14">i</c>
+					<c xml:id="L11C15">u</c>
+					<c xml:id="L11C16">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C17"> </c>
+		</line>
+	</div>
+	<div n="4" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">I</c>
+			<c xml:id="L1C3">l</c>
+			<c xml:id="L1C4">e</c>
+			<c xml:id="L1C5">r</c>
+			<c xml:id="L1C6">d</c>
+			<c xml:id="L1C7">e</c>
+			<c xml:id="L1C8">n</c>
+			<c xml:id="L1C9">s</c>
+			<c xml:id="L1C10">e</c>
+			<c xml:id="L1C11">s</c>
+			<c xml:id="L1C12"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">&amp;</c>
+			<c xml:id="L2C2">l</c>
+			<c xml:id="L2C3">t</c>
+			<c xml:id="L2C4">;</c>
+			<c xml:id="L2C5">Q</c>
+			<c xml:id="L2C6">=</c>
+			<c xml:id="L2C7">O</c>
+			<c xml:id="L2C8">&amp;</c>
+			<c xml:id="L2C9">g</c>
+			<c xml:id="L2C10">t</c>
+			<c xml:id="L2C11">;</c>
+			<c xml:id="L2C12">(</c>
+			<c xml:id="L2C13">u</c>
+			<c xml:id="L2C14">i</c>
+			<c xml:id="L2C15">n</c>
+			<c xml:id="L2C16">t</c>
+			<c xml:id="L2C17">u</c>
+			<c xml:id="L2C18">s</c>
+			<c xml:id="L2C19">)</c>
+			<c xml:id="L2C20"> </c>
+			<c xml:id="L2C21">O</c>
+			<c xml:id="L2C22">t</c>
+			<c xml:id="L2C23">a</c>
+			<c xml:id="L2C24">c</c>
+			<c xml:id="L2C25">i</c>
+			<c xml:id="L2C26">l</c>
+			<c xml:id="L2C27">i</c>
+			<c xml:id="L2C28">u</c>
+			<c xml:id="L2C29">s</c>
+			<c xml:id="L2C30"> </c>
+			<c xml:id="L2C31">S</c>
+			<c xml:id="L2C32">u</c>
+			<c xml:id="L2C33">i</c>
+			<c xml:id="L2C34">s</c>
+			<c xml:id="L2C35">e</c>
+			<c xml:id="L2C36">t</c>
+			<c xml:id="L2C37">a</c>
+			<c xml:id="L2C38">r</c>
+			<c xml:id="L2C39">t</c>
+			<c xml:id="L2C40">e</c>
+			<c xml:id="L2C41">n</c>
+			<c xml:id="L2C42"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C43">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C44">i</c>
+					<c xml:id="L2C45">l</c>
+					<c xml:id="L2C46">i</c>
+					<c xml:id="L2C47">u</c>
+					<c xml:id="L2C48">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C49"> </c>
+		</line>
+		<line n="3">
+			<expan>
+				<abbr>
+					<c xml:id="L3C1">C</c>
+					<c xml:id="L3C2">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C3">a</c>
+					<c xml:id="L3C4">e</c>
+					<c xml:id="L3C5">u</c>
+					<c xml:id="L3C6">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C7"> </c>
+			<c xml:id="L3C8">C</c>
+			<c xml:id="L3C9">o</c>
+			<c xml:id="L3C10">r</c>
+			<c xml:id="L3C11">n</c>
+			<c xml:id="L3C12">e</c>
+			<c xml:id="L3C13">l</c>
+			<c xml:id="L3C14">i</c>
+			<c xml:id="L3C15">u</c>
+			<c xml:id="L3C16">s</c>
+			<c xml:id="L3C17"> </c>
+			<c xml:id="L3C18">N</c>
+			<c xml:id="L3C19">e</c>
+			<c xml:id="L3C20">s</c>
+			<c xml:id="L3C21">i</c>
+			<c xml:id="L3C22">l</c>
+			<c xml:id="L3C23">l</c>
+			<c xml:id="L3C24">e</c>
+			<c xml:id="L3C25"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C26">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C27">i</c>
+					<c xml:id="L3C28">l</c>
+					<c xml:id="L3C29">i</c>
+					<c xml:id="L3C30">u</c>
+					<c xml:id="L3C31">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C32"> </c>
+		</line>
+		<line n="4">
+			<expan>
+				<abbr>
+					<c xml:id="L4C1">P</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C2">u</c>
+					<c xml:id="L4C3">b</c>
+					<c xml:id="L4C4">l</c>
+					<c xml:id="L4C5">i</c>
+					<c xml:id="L4C6">u</c>
+					<c xml:id="L4C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C8"> </c>
+			<c xml:id="L4C9">&amp;</c>
+			<c xml:id="L4C10">l</c>
+			<c xml:id="L4C11">t</c>
+			<c xml:id="L4C12">;</c>
+			<c xml:id="L4C13">F</c>
+			<c xml:id="L4C14">=</c>
+			<c xml:id="L4C15">E</c>
+			<c xml:id="L4C16">&amp;</c>
+			<c xml:id="L4C17">g</c>
+			<c xml:id="L4C18">t</c>
+			<c xml:id="L4C19">;</c>
+			<c xml:id="L4C20">a</c>
+			<c xml:id="L4C21">b</c>
+			<c xml:id="L4C22">i</c>
+			<c xml:id="L4C23">u</c>
+			<c xml:id="L4C24">s</c>
+			<c xml:id="L4C25"> </c>
+			<c xml:id="L4C26">E</c>
+			<c xml:id="L4C27">n</c>
+			<c xml:id="L4C28">a</c>
+			<c xml:id="L4C29">s</c>
+			<c xml:id="L4C30">a</c>
+			<c xml:id="L4C31">g</c>
+			<c xml:id="L4C32">i</c>
+			<c xml:id="L4C33">n</c>
+			<c xml:id="L4C34"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C35">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C36">i</c>
+					<c xml:id="L4C37">l</c>
+					<c xml:id="L4C38">i</c>
+					<c xml:id="L4C39">u</c>
+					<c xml:id="L4C40">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C41"> </c>
+		</line>
+		<line n="5">
+			<c xml:id="L5C1">B</c>
+			<c xml:id="L5C2">e</c>
+			<c xml:id="L5C3">g</c>
+			<c xml:id="L5C4">e</c>
+			<c xml:id="L5C5">n</c>
+			<c xml:id="L5C6">s</c>
+			<c xml:id="L5C7">i</c>
+			<c xml:id="L5C8">s</c>
+			<c xml:id="L5C9"> </c>
+		</line>
+		<line n="6">
+			<c xml:id="L6C1">T</c>
+			<c xml:id="L6C2">u</c>
+			<c xml:id="L6C3">r</c>
+			<c xml:id="L6C4">t</c>
+			<c xml:id="L6C5">u</c>
+			<c xml:id="L6C6">m</c>
+			<c xml:id="L6C7">e</c>
+			<c xml:id="L6C8">l</c>
+			<c xml:id="L6C9">i</c>
+			<c xml:id="L6C10">s</c>
+			<c xml:id="L6C11"> </c>
+			<c xml:id="L6C12">A</c>
+			<c xml:id="L6C13">t</c>
+			<c xml:id="L6C14">a</c>
+			<c xml:id="L6C15">n</c>
+			<c xml:id="L6C16">s</c>
+			<c xml:id="L6C17">c</c>
+			<c xml:id="L6C18">e</c>
+			<c xml:id="L6C19">r</c>
+			<c xml:id="L6C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C21">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C22">i</c>
+					<c xml:id="L6C23">l</c>
+					<c xml:id="L6C24">i</c>
+					<c xml:id="L6C25">u</c>
+					<c xml:id="L6C26">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C27"> </c>
+		</line>
+		<line n="7">
+			<c xml:id="L7C1">S</c>
+			<c xml:id="L7C2">e</c>
+			<c xml:id="L7C3">g</c>
+			<c xml:id="L7C4">i</c>
+			<c xml:id="L7C5">e</c>
+			<c xml:id="L7C6">n</c>
+			<c xml:id="L7C7">s</c>
+			<c xml:id="L7C8">e</c>
+			<c xml:id="L7C9">s</c>
+			<c xml:id="L7C10"> </c>
+		</line>
+		<line n="8">
+			<c xml:id="L8C1">S</c>
+			<c xml:id="L8C2">o</c>
+			<c xml:id="L8C3">s</c>
+			<c xml:id="L8C4">i</c>
+			<c xml:id="L8C5">n</c>
+			<c xml:id="L8C6">a</c>
+			<c xml:id="L8C7">d</c>
+			<c xml:id="L8C8">e</c>
+			<c xml:id="L8C9">m</c>
+			<c xml:id="L8C10"> </c>
+			<c xml:id="L8C11">S</c>
+			<c xml:id="L8C12">o</c>
+			<c xml:id="L8C13">s</c>
+			<c xml:id="L8C14">i</c>
+			<c xml:id="L8C15">n</c>
+			<c xml:id="L8C16">a</c>
+			<c xml:id="L8C17">s</c>
+			<c xml:id="L8C18">a</c>
+			<c xml:id="L8C19">e</c>
+			<c xml:id="L8C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C21">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C22">i</c>
+					<c xml:id="L8C23">l</c>
+					<c xml:id="L8C24">i</c>
+					<c xml:id="L8C25">u</c>
+					<c xml:id="L8C26">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C27"> </c>
+		</line>
+		<line n="9">
+			<c xml:id="L9C1">S</c>
+			<c xml:id="L9C2">o</c>
+			<c xml:id="L9C3">s</c>
+			<c xml:id="L9C4">i</c>
+			<c xml:id="L9C5">m</c>
+			<c xml:id="L9C6">i</c>
+			<c xml:id="L9C7">l</c>
+			<c xml:id="L9C8">u</c>
+			<c xml:id="L9C9">s</c>
+			<c xml:id="L9C10"> </c>
+			<c xml:id="L9C11">S</c>
+			<c xml:id="L9C12">o</c>
+			<c xml:id="L9C13">s</c>
+			<c xml:id="L9C14">i</c>
+			<c xml:id="L9C15">n</c>
+			<c xml:id="L9C16">a</c>
+			<c xml:id="L9C17">s</c>
+			<c xml:id="L9C18">a</c>
+			<c xml:id="L9C19">e</c>
+			<c xml:id="L9C20"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L9C21">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L9C22">i</c>
+					<c xml:id="L9C23">l</c>
+					<c xml:id="L9C24">i</c>
+					<c xml:id="L9C25">u</c>
+					<c xml:id="L9C26">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L9C27"> </c>
+		</line>
+		<line n="10">
+			<c xml:id="L10C1">U</c>
+			<c xml:id="L10C2">r</c>
+			<c xml:id="L10C3">g</c>
+			<c xml:id="L10C4">i</c>
+			<c xml:id="L10C5">d</c>
+			<c xml:id="L10C6">a</c>
+			<c xml:id="L10C7">r</c>
+			<c xml:id="L10C8"> </c>
+			<c xml:id="L10C9">L</c>
+			<c xml:id="L10C10">u</c>
+			<c xml:id="L10C11">s</c>
+			<c xml:id="L10C12">p</c>
+			<c xml:id="L10C13">a</c>
+			<c xml:id="L10C14">n</c>
+			<c xml:id="L10C15">a</c>
+			<c xml:id="L10C16">r</c>
+			<c xml:id="L10C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C18">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C19">i</c>
+					<c xml:id="L10C20">l</c>
+					<c xml:id="L10C21">i</c>
+					<c xml:id="L10C22">u</c>
+					<c xml:id="L10C23">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C24"> </c>
+		</line>
+		<line n="11">
+			<c xml:id="L11C1">G</c>
+			<c xml:id="L11C2">u</c>
+			<c xml:id="L11C3">r</c>
+			<c xml:id="L11C4">t</c>
+			<c xml:id="L11C5">a</c>
+			<c xml:id="L11C6">r</c>
+			<c xml:id="L11C7">n</c>
+			<c xml:id="L11C8">o</c>
+			<c xml:id="L11C9"> </c>
+			<c xml:id="L11C10">B</c>
+			<c xml:id="L11C11">i</c>
+			<c xml:id="L11C12">u</c>
+			<c xml:id="L11C13">r</c>
+			<c xml:id="L11C14">n</c>
+			<c xml:id="L11C15">o</c>
+			<c xml:id="L11C16"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C17">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C18">i</c>
+					<c xml:id="L11C19">l</c>
+					<c xml:id="L11C20">i</c>
+					<c xml:id="L11C21">u</c>
+					<c xml:id="L11C22">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C23"> </c>
+		</line>
+		<line n="12">
+			<c xml:id="L12C1">E</c>
+			<c xml:id="L12C2">l</c>
+			<c xml:id="L12C3">a</c>
+			<c xml:id="L12C4">n</c>
+			<c xml:id="L12C5">d</c>
+			<c xml:id="L12C6">u</c>
+			<c xml:id="L12C7">s</c>
+			<c xml:id="L12C8"> </c>
+			<c xml:id="L12C9">E</c>
+			<c xml:id="L12C10">n</c>
+			<c xml:id="L12C11">n</c>
+			<c xml:id="L12C12">e</c>
+			<c xml:id="L12C13">g</c>
+			<c xml:id="L12C14">e</c>
+			<c xml:id="L12C15">s</c>
+			<c xml:id="L12C16"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L12C17">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L12C18">i</c>
+					<c xml:id="L12C19">l</c>
+					<c xml:id="L12C20">i</c>
+					<c xml:id="L12C21">u</c>
+					<c xml:id="L12C22">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L12C23"> </c>
+		</line>
+	</div>
+	<div n="5" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<c xml:id="L1C2">A</c>
+			<c xml:id="L1C3">g</c>
+			<c xml:id="L1C4">i</c>
+			<c xml:id="L1C5">r</c>
+			<c xml:id="L1C6">n</c>
+			<c xml:id="L1C7">e</c>
+			<c xml:id="L1C8">s</c>
+			<c xml:id="L1C9"> </c>
+			<c xml:id="L1C10">B</c>
+			<c xml:id="L1C11">e</c>
+			<c xml:id="L1C12">n</c>
+			<c xml:id="L1C13">n</c>
+			<c xml:id="L1C14">a</c>
+			<c xml:id="L1C15">b</c>
+			<c xml:id="L1C16">e</c>
+			<c xml:id="L1C17">l</c>
+			<c xml:id="L1C18">s</c>
+			<c xml:id="L1C19"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C20">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C21">i</c>
+					<c xml:id="L1C22">l</c>
+					<c xml:id="L1C23">i</c>
+					<c xml:id="L1C24">u</c>
+					<c xml:id="L1C25">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C26"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">N</c>
+			<c xml:id="L2C2">a</c>
+			<c xml:id="L2C3">l</c>
+			<c xml:id="L2C4">b</c>
+			<c xml:id="L2C5">e</c>
+			<c xml:id="L2C6">a</c>
+			<c xml:id="L2C7">d</c>
+			<c xml:id="L2C8">e</c>
+			<c xml:id="L2C9">n</c>
+			<c xml:id="L2C10"> </c>
+			<c xml:id="L2C11">A</c>
+			<c xml:id="L2C12">g</c>
+			<c xml:id="L2C13">e</c>
+			<c xml:id="L2C14">r</c>
+			<c xml:id="L2C15">d</c>
+			<c xml:id="L2C16">o</c>
+			<c xml:id="L2C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L2C18">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C19">i</c>
+					<c xml:id="L2C20">l</c>
+					<c xml:id="L2C21">i</c>
+					<c xml:id="L2C22">u</c>
+					<c xml:id="L2C23">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L2C24"> </c>
+		</line>
+		<line n="3">
+			<c xml:id="L3C1">A</c>
+			<c xml:id="L3C2">r</c>
+			<c xml:id="L3C3">r</c>
+			<c xml:id="L3C4">a</c>
+			<c xml:id="L3C5">n</c>
+			<c xml:id="L3C6">e</c>
+			<c xml:id="L3C7">s</c>
+			<c xml:id="L3C8"> </c>
+			<c xml:id="L3C9">A</c>
+			<c xml:id="L3C10">r</c>
+			<c xml:id="L3C11">b</c>
+			<c xml:id="L3C12">i</c>
+			<c xml:id="L3C13">s</c>
+			<c xml:id="L3C14">c</c>
+			<c xml:id="L3C15">a</c>
+			<c xml:id="L3C16">r</c>
+			<c xml:id="L3C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L3C18">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L3C19">i</c>
+					<c xml:id="L3C20">l</c>
+					<c xml:id="L3C21">i</c>
+					<c xml:id="L3C22">u</c>
+					<c xml:id="L3C23">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L3C24"> </c>
+		</line>
+		<line n="4">
+			<c xml:id="L4C1">U</c>
+			<c xml:id="L4C2">m</c>
+			<c xml:id="L4C3">a</c>
+			<c xml:id="L4C4">r</c>
+			<c xml:id="L4C5">g</c>
+			<c xml:id="L4C6">i</c>
+			<c xml:id="L4C7">b</c>
+			<c xml:id="L4C8">a</c>
+			<c xml:id="L4C9">s</c>
+			<c xml:id="L4C10"> </c>
+			<c xml:id="L4C11">L</c>
+			<c xml:id="L4C12">u</c>
+			<c xml:id="L4C13">s</c>
+			<c xml:id="L4C14">p</c>
+			<c xml:id="L4C15">a</c>
+			<c xml:id="L4C16">n</c>
+			<c xml:id="L4C17">g</c>
+			<c xml:id="L4C18">&amp;</c>
+			<c xml:id="L4C19">l</c>
+			<c xml:id="L4C20">t</c>
+			<c xml:id="L4C21">;</c>
+			<c xml:id="L4C22">i</c>
+			<c xml:id="L4C23">=</c>
+			<c xml:id="L4C24">V</c>
+			<c xml:id="L4C25">&amp;</c>
+			<c xml:id="L4C26">g</c>
+			<c xml:id="L4C27">t</c>
+			<c xml:id="L4C28">;</c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C29">b</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C30">a</c>
+					<c xml:id="L4C31">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C32"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L4C33">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L4C34">i</c>
+					<c xml:id="L4C35">l</c>
+					<c xml:id="L4C36">i</c>
+					<c xml:id="L4C37">u</c>
+					<c xml:id="L4C38">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L4C39"> </c>
+		</line>
+		<line n="5">
+			<c xml:id="L5C1">E</c>
+			<c xml:id="L5C2">n</c>
+			<c xml:id="L5C3">n</c>
+			<c xml:id="L5C4">e</c>
+			<c xml:id="L5C5">g</c>
+			<c xml:id="L5C6">e</c>
+			<c xml:id="L5C7">n</c>
+			<c xml:id="L5C8">s</c>
+			<c xml:id="L5C9">&amp;</c>
+			<c xml:id="L5C10">l</c>
+			<c xml:id="L5C11">t</c>
+			<c xml:id="L5C12">;</c>
+			<c xml:id="L5C13">e</c>
+			<c xml:id="L5C14">=</c>
+			<c xml:id="L5C15">I</c>
+			<c xml:id="L5C16">&amp;</c>
+			<c xml:id="L5C17">g</c>
+			<c xml:id="L5C18">t</c>
+			<c xml:id="L5C19">;</c>
+			<c xml:id="L5C20">s</c>
+			<c xml:id="L5C21"> </c>
+		</line>
+		<line n="6">
+			<c xml:id="L6C1">B</c>
+			<c xml:id="L6C2">e</c>
+			<c xml:id="L6C3">l</c>
+			<c xml:id="L6C4">e</c>
+			<c xml:id="L6C5">s</c>
+			<c xml:id="L6C6"> </c>
+			<c xml:id="L6C7">U</c>
+			<c xml:id="L6C8">m</c>
+			<c xml:id="L6C9">a</c>
+			<c xml:id="L6C10">r</c>
+			<c xml:id="L6C11">b</c>
+			<c xml:id="L6C12">e</c>
+			<c xml:id="L6C13">l</c>
+			<c xml:id="L6C14">e</c>
+			<c xml:id="L6C15">s</c>
+			<c xml:id="L6C16"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L6C17">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L6C18">i</c>
+					<c xml:id="L6C19">l</c>
+					<c xml:id="L6C20">i</c>
+					<c xml:id="L6C21">u</c>
+					<c xml:id="L6C22">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L6C23"> </c>
+		</line>
+		<line n="7">
+			<c xml:id="L7C1">T</c>
+			<c xml:id="L7C2">u</c>
+			<c xml:id="L7C3">r</c>
+			<c xml:id="L7C4">i</c>
+			<c xml:id="L7C5">n</c>
+			<c xml:id="L7C6">n</c>
+			<c xml:id="L7C7">u</c>
+			<c xml:id="L7C8">s</c>
+			<c xml:id="L7C9"> </c>
+			<c xml:id="L7C10">A</c>
+			<c xml:id="L7C11">d</c>
+			<c xml:id="L7C12">i</c>
+			<c xml:id="L7C13">m</c>
+			<c xml:id="L7C14">e</c>
+			<c xml:id="L7C15">l</c>
+			<c xml:id="L7C16">s</c>
+			<c xml:id="L7C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L7C18">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L7C19">i</c>
+					<c xml:id="L7C20">l</c>
+					<c xml:id="L7C21">i</c>
+					<c xml:id="L7C22">u</c>
+					<c xml:id="L7C23">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L7C24"> </c>
+		</line>
+		<line n="8">
+			<c xml:id="L8C1">O</c>
+			<c xml:id="L8C2">r</c>
+			<c xml:id="L8C3">d</c>
+			<c xml:id="L8C4">u</c>
+			<c xml:id="L8C5">m</c>
+			<c xml:id="L8C6">e</c>
+			<c xml:id="L8C7">l</c>
+			<c xml:id="L8C8">e</c>
+			<c xml:id="L8C9">s</c>
+			<c xml:id="L8C10"> </c>
+			<c xml:id="L8C11">B</c>
+			<c xml:id="L8C12">u</c>
+			<c xml:id="L8C13">r</c>
+			<c xml:id="L8C14">d</c>
+			<c xml:id="L8C15">o</c>
+			<c xml:id="L8C16"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L8C17">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L8C18">i</c>
+					<c xml:id="L8C19">l</c>
+					<c xml:id="L8C20">i</c>
+					<c xml:id="L8C21">u</c>
+					<c xml:id="L8C22">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L8C23"> </c>
+		</line>
+		<line n="9">
+			<c xml:id="L9C1">L</c>
+			<c xml:id="L9C2">i</c>
+			<c xml:id="L9C3">b</c>
+			<c xml:id="L9C4">e</c>
+			<c xml:id="L9C5">n</c>
+			<c xml:id="L9C6">s</c>
+			<c xml:id="L9C7">e</c>
+			<c xml:id="L9C8">s</c>
+			<c xml:id="L9C9"> </c>
+		</line>
+		<line n="10">
+			<c xml:id="L10C1">B</c>
+			<c xml:id="L10C2">a</c>
+			<c xml:id="L10C3">s</c>
+			<c xml:id="L10C4">t</c>
+			<c xml:id="L10C5">u</c>
+			<c xml:id="L10C6">g</c>
+			<c xml:id="L10C7">i</c>
+			<c xml:id="L10C8">t</c>
+			<c xml:id="L10C9">a</c>
+			<c xml:id="L10C10">s</c>
+			<c xml:id="L10C11"> </c>
+			<c xml:id="L10C12">A</c>
+			<c xml:id="L10C13">d</c>
+			<c xml:id="L10C14">i</c>
+			<c xml:id="L10C15">m</c>
+			<c xml:id="L10C16">e</c>
+			<c xml:id="L10C17">&amp;</c>
+			<c xml:id="L10C18">l</c>
+			<c xml:id="L10C19">t</c>
+			<c xml:id="L10C20">;</c>
+			<c xml:id="L10C21">l</c>
+			<c xml:id="L10C22">=</c>
+			<c xml:id="L10C23">I</c>
+			<c xml:id="L10C24">&amp;</c>
+			<c xml:id="L10C25">g</c>
+			<c xml:id="L10C26">t</c>
+			<c xml:id="L10C27">;</c>
+			<c xml:id="L10C28">s</c>
+			<c xml:id="L10C29"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L10C30">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L10C31">i</c>
+					<c xml:id="L10C32">l</c>
+					<c xml:id="L10C33">i</c>
+					<c xml:id="L10C34">u</c>
+					<c xml:id="L10C35">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L10C36"> </c>
+		</line>
+		<line n="11">
+			<c xml:id="L11C1">U</c>
+			<c xml:id="L11C2">m</c>
+			<c xml:id="L11C3">a</c>
+			<c xml:id="L11C4">r</c>
+			<c xml:id="L11C5">i</c>
+			<c xml:id="L11C6">l</c>
+			<c xml:id="L11C7">l</c>
+			<c xml:id="L11C8">u</c>
+			<c xml:id="L11C9">n</c>
+			<c xml:id="L11C10"> </c>
+			<c xml:id="L11C11">T</c>
+			<c xml:id="L11C12">a</c>
+			<c xml:id="L11C13">&amp;</c>
+			<c xml:id="L11C14">l</c>
+			<c xml:id="L11C15">t</c>
+			<c xml:id="L11C16">;</c>
+			<c xml:id="L11C17">r</c>
+			<c xml:id="L11C18">=</c>
+			<c xml:id="L11C19">B</c>
+			<c xml:id="L11C20">&amp;</c>
+			<c xml:id="L11C21">g</c>
+			<c xml:id="L11C22">t</c>
+			<c xml:id="L11C23">;</c>
+			<c xml:id="L11C24">b</c>
+			<c xml:id="L11C25">a</c>
+			<c xml:id="L11C26">n</c>
+			<c xml:id="L11C27">t</c>
+			<c xml:id="L11C28">u</c>
+			<c xml:id="L11C29"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L11C30">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L11C31">i</c>
+					<c xml:id="L11C32">l</c>
+					<c xml:id="L11C33">i</c>
+					<c xml:id="L11C34">u</c>
+					<c xml:id="L11C35">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L11C36"> </c>
+		</line>
+		<line n="12">
+			<c xml:id="L12C1">S</c>
+			<c xml:id="L12C2">u</c>
+			<c xml:id="L12C3">c</c>
+			<c xml:id="L12C4">o</c>
+			<c xml:id="L12C5">n</c>
+			<c xml:id="L12C6">s</c>
+			<c xml:id="L12C7">e</c>
+			<c xml:id="L12C8">n</c>
+			<c xml:id="L12C9">s</c>
+			<c xml:id="L12C10">e</c>
+			<c xml:id="L12C11">s</c>
+			<c xml:id="L12C12"> </c>
+		</line>
+		<line n="13">
+			<c xml:id="L13C1">B</c>
+			<c xml:id="L13C2">e</c>
+			<c xml:id="L13C3">l</c>
+			<c xml:id="L13C4">e</c>
+			<c xml:id="L13C5">n</c>
+			<c xml:id="L13C6">n</c>
+			<c xml:id="L13C7">e</c>
+			<c xml:id="L13C8">s</c>
+			<c xml:id="L13C9"> </c>
+			<c xml:id="L13C10">A</c>
+			<c xml:id="L13C11">l</c>
+			<c xml:id="L13C12">b</c>
+			<c xml:id="L13C13">e</c>
+			<c xml:id="L13C14">n</c>
+			<c xml:id="L13C15">n</c>
+			<c xml:id="L13C16">e</c>
+			<c xml:id="L13C17">s</c>
+			<c xml:id="L13C18"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L13C19">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L13C20">i</c>
+					<c xml:id="L13C21">l</c>
+					<c xml:id="L13C22">i</c>
+					<c xml:id="L13C23">u</c>
+					<c xml:id="L13C24">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L13C25"> </c>
+		</line>
+		<line n="14">
+			<c xml:id="L14C1">A</c>
+			<c xml:id="L14C2">t</c>
+			<c xml:id="L14C3">u</c>
+			<c xml:id="L14C4">l</c>
+			<c xml:id="L14C5">l</c>
+			<c xml:id="L14C6">o</c>
+			<c xml:id="L14C7"> </c>
+			<c xml:id="L14C8">T</c>
+			<c xml:id="L14C9">a</c>
+			<c xml:id="L14C10">u</c>
+			<c xml:id="L14C11">t</c>
+			<c xml:id="L14C12">i</c>
+			<c xml:id="L14C13">n</c>
+			<c xml:id="L14C14">d</c>
+			<c xml:id="L14C15">a</c>
+			<c xml:id="L14C16">l</c>
+			<c xml:id="L14C17">s</c>
+			<c xml:id="L14C18"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L14C19">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L14C20">i</c>
+					<c xml:id="L14C21">l</c>
+					<c xml:id="L14C22">i</c>
+					<c xml:id="L14C23">u</c>
+					<c xml:id="L14C24">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L14C25"> </c>
+		</line>
+		<line n="15">
+			<c xml:id="L15C1">I</c>
+			<c xml:id="L15C2">l</c>
+			<c xml:id="L15C3">l</c>
+			<c xml:id="L15C4">u</c>
+			<c xml:id="L15C5">e</c>
+			<c xml:id="L15C6">r</c>
+			<c xml:id="L15C7">s</c>
+			<c xml:id="L15C8">e</c>
+			<c xml:id="L15C9">n</c>
+			<c xml:id="L15C10">s</c>
+			<c xml:id="L15C11">i</c>
+			<c xml:id="L15C12">s</c>
+			<c xml:id="L15C13"> </c>
+		</line>
+		<line n="16">
+			<c xml:id="L16C1">B</c>
+			<c xml:id="L16C2">a</c>
+			<c xml:id="L16C3">l</c>
+			<c xml:id="L16C4">c</c>
+			<c xml:id="L16C5">i</c>
+			<c xml:id="L16C6">a</c>
+			<c xml:id="L16C7">d</c>
+			<c xml:id="L16C8">i</c>
+			<c xml:id="L16C9">n</c>
+			<c xml:id="L16C10"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L16C11">B</c>
+					<c xml:id="L16C12">a</c>
+					<c xml:id="L16C13">l</c>
+					<c xml:id="L16C14">c</c>
+					<c xml:id="L16C15">i</c>
+					<c xml:id="L16C16">b</c>
+					<c xml:id="L16C17">i</c>
+					<c xml:id="L16C18">l</c>
+				</abbr>
+				<ex cert="low">
+					<c xml:id="L16C19">o</c>
+					<c xml:id="L16C20">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L16C21"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L16C22">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L16C23">i</c>
+					<c xml:id="L16C24">l</c>
+					<c xml:id="L16C25">i</c>
+					<c xml:id="L16C26">u</c>
+					<c xml:id="L16C27">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L16C28"> </c>
+		</line>
+	</div>
+	<div n="6" type="textpart">
+		<line n="1">
+			<c xml:id="L1C1"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">C</c>
+					<c xml:id="L1C3">n</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C4">a</c>
+					<c xml:id="L1C5">e</c>
+					<c xml:id="L1C6">u</c>
+					<c xml:id="L1C7">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C8"> </c>
+			<c xml:id="L1C9">P</c>
+			<c xml:id="L1C10">o</c>
+			<c xml:id="L1C11">m</c>
+			<c xml:id="L1C12">p</c>
+			<c xml:id="L1C13">e</c>
+			<c xml:id="L1C14">i</c>
+			<c xml:id="L1C15">u</c>
+			<c xml:id="L1C16">s</c>
+			<c xml:id="L1C17"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C18">S</c>
+					<c xml:id="L1C19">e</c>
+					<c xml:id="L1C20">x</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C21">t</c>
+					<c xml:id="L1C22">i</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C23"> </c>
+			<expan>
+				<abbr>
+					<c xml:id="L1C24">f</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C25">i</c>
+					<c xml:id="L1C26">l</c>
+					<c xml:id="L1C27">i</c>
+					<c xml:id="L1C28">u</c>
+					<c xml:id="L1C29">s</c>
+				</ex>
+			</expan>
+			<c xml:id="L1C30"> </c>
+			<c xml:id="L1C31">i</c>
+			<c xml:id="L1C32">m</c>
+			<c xml:id="L1C33">p</c>
+			<c xml:id="L1C34">e</c>
+			<c xml:id="L1C35">r</c>
+			<c xml:id="L1C36">a</c>
+			<c xml:id="L1C37">t</c>
+			<c xml:id="L1C38">o</c>
+			<c xml:id="L1C39">r</c>
+			<c xml:id="L1C40"> </c>
+		</line>
+		<line n="2">
+			<c xml:id="L2C1">v</c>
+			<c xml:id="L2C2">i</c>
+			<c xml:id="L2C3">r</c>
+			<c xml:id="L2C4">t</c>
+			<c xml:id="L2C5">u</c>
+			<c xml:id="L2C6">t</c>
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">s</c>
+			<c xml:id="L2C9"> </c>
+			<c xml:id="L2C10">c</c>
+			<c xml:id="L2C11">a</c>
+			<c xml:id="L2C12">u</c>
+			<c xml:id="L2C13">s</c>
+			<c xml:id="L2C14">s</c>
+			<c xml:id="L2C15">a</c>
+			<c xml:id="L2C16"> </c>
+			<c xml:id="L2C17">t</c>
+			<c xml:id="L2C18">u</c>
+			<c xml:id="L2C19">r</c>
+			<c xml:id="L2C20">m</c>
+			<c xml:id="L2C21">a</c>
+			<c xml:id="L2C22">m</c>
+			<c xml:id="L2C23"> </c>
+		</line>
+		<line n="3">
+			<c xml:id="L3C1">S</c>
+			<c xml:id="L3C2">a</c>
+			<c xml:id="L3C3">l</c>
+			<c xml:id="L3C4">l</c>
+			<c xml:id="L3C5">u</c>
+			<c xml:id="L3C6">i</c>
+			<c xml:id="L3C7">t</c>
+			<c xml:id="L3C8">a</c>
+			<c xml:id="L3C9">n</c>
+			<c xml:id="L3C10">a</c>
+			<c xml:id="L3C11">m</c>
+			<c xml:id="L3C12"> </c>
+			<c xml:id="L3C13">d</c>
+			<c xml:id="L3C14">o</c>
+			<c xml:id="L3C15">n</c>
+			<c xml:id="L3C16">a</c>
+			<c xml:id="L3C17">v</c>
+			<c xml:id="L3C18">i</c>
+			<c xml:id="L3C19">t</c>
+			<c xml:id="L3C20"> </c>
+			<c xml:id="L3C21">i</c>
+			<c xml:id="L3C22">n</c>
+			<c xml:id="L3C23"> </c>
+		</line>
+		<line n="4">
+			<c xml:id="L4C1">c</c>
+			<c xml:id="L4C2">a</c>
+			<c xml:id="L4C3">s</c>
+			<c xml:id="L4C4">t</c>
+			<c xml:id="L4C5">r</c>
+			<c xml:id="L4C6">e</c>
+			<c xml:id="L4C7">i</c>
+			<c xml:id="L4C8">s</c>
+			<c xml:id="L4C9"> </c>
+			<c xml:id="L4C10">a</c>
+			<c xml:id="L4C11">p</c>
+			<c xml:id="L4C12">u</c>
+			<c xml:id="L4C13">d</c>
+			<c xml:id="L4C14"> </c>
+			<c xml:id="L4C15">A</c>
+			<c xml:id="L4C16">s</c>
+			<c xml:id="L4C17">c</c>
+			<c xml:id="L4C18">u</c>
+			<c xml:id="L4C19">l</c>
+			<c xml:id="L4C20">u</c>
+			<c xml:id="L4C21">m</c>
+			<c xml:id="L4C22"> </c>
+		</line>
+		<line n="5">
+			<c xml:id="L5C1">c</c>
+			<c xml:id="L5C2">o</c>
+			<c xml:id="L5C3">r</c>
+			<c xml:id="L5C4">n</c>
+			<c xml:id="L5C5">u</c>
+			<c xml:id="L5C6">c</c>
+			<c xml:id="L5C7">u</c>
+			<c xml:id="L5C8">l</c>
+			<c xml:id="L5C9">o</c>
+			<c xml:id="L5C10"> </c>
+			<c xml:id="L5C11">e</c>
+			<c xml:id="L5C12">t</c>
+			<c xml:id="L5C13"> </c>
+			<c xml:id="L5C14">p</c>
+			<c xml:id="L5C15">a</c>
+			<c xml:id="L5C16">t</c>
+			<c xml:id="L5C17">e</c>
+			<c xml:id="L5C18">l</c>
+			<c xml:id="L5C19">l</c>
+			<c xml:id="L5C20">a</c>
+			<c xml:id="L5C21"> </c>
+			<c xml:id="L5C22">t</c>
+			<c xml:id="L5C23">o</c>
+			<c xml:id="L5C24">r</c>
+			<c xml:id="L5C25">q</c>
+			<c xml:id="L5C26">u</c>
+			<c xml:id="L5C27">e</c>
+			<c xml:id="L5C28"> </c>
+		</line>
+		<line n="6">
+			<c xml:id="L6C1">a</c>
+			<c xml:id="L6C2">r</c>
+			<c xml:id="L6C3">m</c>
+			<c xml:id="L6C4">i</c>
+			<c xml:id="L6C5">l</c>
+			<c xml:id="L6C6">l</c>
+			<c xml:id="L6C7">a</c>
+			<c xml:id="L6C8"> </c>
+			<c xml:id="L6C9">p</c>
+			<expan>
+				<ex>
+					<c xml:id="L6C10">h</c>
+				</ex>
+				<abbr>
+					<c xml:id="L6C11">a</c>
+					<c xml:id="L6C12">l</c>
+					<c xml:id="L6C13">e</c>
+					<c xml:id="L6C14">r</c>
+					<c xml:id="L6C15">e</c>
+					<c xml:id="L6C16">i</c>
+					<c xml:id="L6C17">s</c>
+				</abbr>
+			</expan>
+			<c xml:id="L6C18"> </c>
+			<c xml:id="L6C19">e</c>
+			<c xml:id="L6C20">t</c>
+			<c xml:id="L6C21"> </c>
+			<c xml:id="L6C22">f</c>
+			<c xml:id="L6C23">&amp;</c>
+			<c xml:id="L6C24">l</c>
+			<c xml:id="L6C25">t</c>
+			<c xml:id="L6C26">;</c>
+			<c xml:id="L6C27">r</c>
+			<c xml:id="L6C28">=</c>
+			<c xml:id="L6C29">A</c>
+			<c xml:id="L6C30">&amp;</c>
+			<c xml:id="L6C31">g</c>
+			<c xml:id="L6C32">t</c>
+			<c xml:id="L6C33">;</c>
+			<c xml:id="L6C34">u</c>
+			<c xml:id="L6C35">m</c>
+			<c xml:id="L6C36">e</c>
+			<c xml:id="L6C37">n</c>
+			<c xml:id="L6C38">&amp;</c>
+			<c xml:id="L6C39">l</c>
+			<c xml:id="L6C40">t</c>
+			<c xml:id="L6C41">;</c>
+			<c xml:id="L6C42">t</c>
+			<c xml:id="L6C43">=</c>
+			<c xml:id="L6C44">I</c>
+			<c xml:id="L6C45">&amp;</c>
+			<c xml:id="L6C46">g</c>
+			<c xml:id="L6C47">t</c>
+			<c xml:id="L6C48">;</c>
+			<c xml:id="L6C49">u</c>
+			<c xml:id="L6C50">m</c>
+			<c xml:id="L6C51"> </c>
+		</line>
+		<line n="7">
+			<c xml:id="L7C1">d</c>
+			<c xml:id="L7C2">u</c>
+			<c xml:id="L7C3">p</c>
+			<c xml:id="L7C4">l</c>
+			<c xml:id="L7C5">e</c>
+			<c xml:id="L7C6">x</c>
+			<c xml:id="L7C7"> </c>
+		</line>
+	</div>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

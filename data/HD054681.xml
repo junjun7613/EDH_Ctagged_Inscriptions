@@ -1,0 +1,171 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kappel/Krappfeld (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054681</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054681</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>51</height><width>52</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#" /></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2003"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2768565">Kappel/Krappfeld</placeName><placeName type="findspot">{P&#246;lling}, Schottergrube</placeName><placeName type="region">K&#228;rnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054681_1" sex="W"><persName><name type="praenomen">-</name><name type="nomen">Flavia</name><name type="cognomen">Tertulla</name></persName></person><person xml:id="HD054681_2" sex="M"><persName><name type="praenomen">-</name><name type="nomen">Metilius</name><name type="cognomen">Ianuarius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-01" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Z. 2 (Ende): Buchstabe I steht auf dem Rahmen. (B): Glaser; B&#246;hm - Weber: Z. 4/5: Ianu/arius</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1165.</bibl><bibl>F. Glaser, in: A Schmidt-Colinet (Hrsg.), Lokale Identit&#228;ten in Randgebieten des R&#246;mischen Reiches. Akten des Internationalen Symposiums, Wien 2003 (Wien 2004) 92; Abb. 2 (Zeichnung). (B) - AE 2005.</bibl><bibl>K. B&#246;hm - E. Weber, Tyche 20, 2005, 238-239, Nr. 111. (B) - AE 2005.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">F</c>
+		<c xml:id="L1C3">l</c>
+		<c xml:id="L1C4">a</c>
+		<c xml:id="L1C5">v</c>
+		<c xml:id="L1C6">i</c>
+		<c xml:id="L1C7">a</c>
+		<c xml:id="L1C8">e</c>
+		<c xml:id="L1C9"> </c>
+		<c xml:id="L1C10">T</c>
+		<c xml:id="L1C11">e</c>
+		<c xml:id="L1C12">r</c>
+		<c xml:id="L1C13">t</c>
+	</line>
+	<line break="no" n="2">
+		<c xml:id="L2C1">u</c>
+		<c xml:id="L2C2">l</c>
+		<c xml:id="L2C3">l</c>
+		<c xml:id="L2C4">a</c>
+		<c xml:id="L2C5">e</c>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">c</c>
+		<c xml:id="L2C8">o</c>
+		<c xml:id="L2C9">n</c>
+		<c xml:id="L2C10">i</c>
+		<c xml:id="L2C11">u</c>
+		<c xml:id="L2C12">g</c>
+		<c xml:id="L2C13">i</c>
+		<c xml:id="L2C14"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">p</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">e</c>
+		<c xml:id="L3C4">n</c>
+		<c xml:id="L3C5">t</c>
+		<c xml:id="L3C6">i</c>
+		<c xml:id="L3C7">s</c>
+		<c xml:id="L3C8">s</c>
+		<c xml:id="L3C9">i</c>
+		<c xml:id="L3C10">m</c>
+		<c xml:id="L3C11">a</c>
+		<c xml:id="L3C12">e</c>
+		<c xml:id="L3C13"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">M</c>
+		<c xml:id="L4C2">e</c>
+		<c xml:id="L4C3">t</c>
+		<c xml:id="L4C4">i</c>
+		<c xml:id="L4C5">l</c>
+		<c xml:id="L4C6">i</c>
+		<c xml:id="L4C7">u</c>
+		<c xml:id="L4C8">s</c>
+		<c xml:id="L4C9"> </c>
+		<c xml:id="L4C10">I</c>
+		<c xml:id="L4C11">a</c>
+		<c xml:id="L4C12">n</c>
+		<c xml:id="L4C13">u</c>
+	</line>
+	<line break="no" n="5">
+		<c xml:id="L5C1">&amp;</c>
+		<c xml:id="L5C2">l</c>
+		<c xml:id="L5C3">t</c>
+		<c xml:id="L5C4">;</c>
+		<c xml:id="L5C5">a</c>
+		<c xml:id="L5C6">&amp;</c>
+		<c xml:id="L5C7">g</c>
+		<c xml:id="L5C8">t</c>
+		<c xml:id="L5C9">;</c>
+		<c xml:id="L5C10">r</c>
+		<c xml:id="L5C11">i</c>
+		<c xml:id="L5C12">u</c>
+		<c xml:id="L5C13">s</c>
+		<c xml:id="L5C14"> </c>
+		<c xml:id="L5C15">v</c>
+		<c xml:id="L5C16">i</c>
+		<c xml:id="L5C17">r</c>
+		<c xml:id="L5C18"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C19">v</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C20">i</c>
+				<c xml:id="L5C21">v</c>
+				<c xml:id="L5C22">u</c>
+				<c xml:id="L5C23">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C24"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L5C25">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C26">e</c>
+				<c xml:id="L5C27">c</c>
+				<c xml:id="L5C28">i</c>
+				<c xml:id="L5C29">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

@@ -1,0 +1,315 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Perusia &amp;ndash; Perugia (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD008351</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD008351</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(36)</height><width>(35)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413248">Perusia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Perugia</placeName><placeName type="findspot" /></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD008351_1"><persName><name type="praenomen">C.+</name><name type="nomen">[---]ius</name><name type="cognomen">Maximus+?</name></persName></person><person xml:id="HD008351_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD008351_3"><persName><name type="nomen">[---]</name><name type="cognomen">Fortunata+</name></persName></person><person xml:id="HD008351_4"><persName><name type="nomen">Tuccia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD008351_5"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2002-06-05" who="Gr&#228;f">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Zeilenlinien f&#252;r die Beschriftung erkennbar. Z. 1: statt [Ma]ximus auch [Pro]ximus m&#246;glich. (B): AE 1988: Z. 1: [C(aius) ---]us; Z. 8: vernae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1988, 0541. (B)</bibl><bibl>M.G. Granino Cecere, Nuovi acquisizioni del Lapidario Zeri di Mentana (Roma 1988) 51-53, Nr. 28; tav. 32. - AE 1988.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L1C2">C</c>
+				</abbr>
+				<ex>
+					<c xml:id="L1C3">a</c>
+					<c xml:id="L1C4">i</c>
+					<c xml:id="L1C5">u</c>
+					<c xml:id="L1C6">s</c>
+				</ex>
+			</expan>
+		</supplied>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C7">i</c>
+		<c xml:id="L1C8">u</c>
+		<c xml:id="L1C9">s</c>
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost" cert="low">
+			<c xml:id="L2C1">-</c>
+			<c xml:id="L2C2"> </c>
+			<c xml:id="L2C3">f</c>
+			<c xml:id="L2C4">(</c>
+			<c xml:id="L2C5">i</c>
+			<c xml:id="L2C6">l</c>
+			<c xml:id="L2C7">i</c>
+			<c xml:id="L2C8">u</c>
+			<c xml:id="L2C9">s</c>
+			<c xml:id="L2C10">)</c>
+			<c xml:id="L2C11"> </c>
+			<c xml:id="L2C12">T</c>
+			<c xml:id="L2C13">r</c>
+			<c xml:id="L2C14">o</c>
+			<c xml:id="L2C15">(</c>
+			<c xml:id="L2C16">m</c>
+			<c xml:id="L2C17">e</c>
+			<c xml:id="L2C18">n</c>
+			<c xml:id="L2C19">t</c>
+			<c xml:id="L2C20">i</c>
+			<c xml:id="L2C21">n</c>
+			<c xml:id="L2C22">a</c>
+			<c xml:id="L2C23">)</c>
+			<c xml:id="L2C24"> </c>
+			<c xml:id="L2C25">M</c>
+			<c xml:id="L2C26">a</c>
+		</supplied>
+		<c xml:id="L2C27">x</c>
+		<c xml:id="L2C28">i</c>
+		<c xml:id="L2C29">m</c>
+		<c xml:id="L2C30">u</c>
+		<c xml:id="L2C31">s</c>
+		<c xml:id="L2C32"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<c xml:id="L3C1">f</c>
+			<c xml:id="L3C2">e</c>
+			<c xml:id="L3C3">c</c>
+			<c xml:id="L3C4">i</c>
+			<c xml:id="L3C5">t</c>
+			<c xml:id="L3C6"> </c>
+			<c xml:id="L3C7">s</c>
+			<c xml:id="L3C8">i</c>
+			<c xml:id="L3C9">b</c>
+		</supplied>
+		<c xml:id="L3C10">i</c>
+		<c xml:id="L3C11"> </c>
+		<c xml:id="L3C12">e</c>
+		<c xml:id="L3C13">t</c>
+		<c xml:id="L3C14"> </c>
+	</line>
+	<line n="4">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L4C1">o</c>
+		<c xml:id="L4C2"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C3">C</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C4">a</c>
+				<c xml:id="L4C5">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C7">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C8">i</c>
+				<c xml:id="L4C9">l</c>
+				<c xml:id="L4C10">i</c>
+				<c xml:id="L4C11">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C12"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C13">T</c>
+				<c xml:id="L4C14">r</c>
+				<c xml:id="L4C15">o</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C16">m</c>
+				<c xml:id="L4C17">e</c>
+				<c xml:id="L4C18">n</c>
+				<c xml:id="L4C19">t</c>
+				<c xml:id="L4C20">i</c>
+				<c xml:id="L4C21">n</c>
+				<c xml:id="L4C22">a</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C23"> </c>
+	</line>
+	<line n="5">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<expan>
+			<abbr>
+				<supplied reason="lost">
+					<c xml:id="L5C1">f</c>
+					<c xml:id="L5C2">i</c>
+				</supplied>
+				<c xml:id="L5C3">l</c>
+			</abbr>
+			<ex>
+				<c xml:id="L5C4">i</c>
+				<c xml:id="L5C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L5C6"> </c>
+		<c xml:id="L5C7">s</c>
+		<c xml:id="L5C8">u</c>
+		<c xml:id="L5C9">o</c>
+		<c xml:id="L5C10"> </c>
+	</line>
+	<line n="6">
+		<supplied reason="lost">
+			<c xml:id="L6C1">e</c>
+			<c xml:id="L6C2">t</c>
+			<c xml:id="L6C3"> </c>
+			<gap reason="lost" extent="unknown" unit="character" />
+			 Fo
+		</supplied>
+		<c xml:id="L6C4">r</c>
+		<c xml:id="L6C5">t</c>
+		<c xml:id="L6C6">u</c>
+		<c xml:id="L6C7">n</c>
+		<c xml:id="L6C8">a</c>
+		<c xml:id="L6C9">t</c>
+		<c xml:id="L6C10">a</c>
+		<c xml:id="L6C11">e</c>
+		<c xml:id="L6C12"> </c>
+	</line>
+	<line n="7">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L7C1">i</c>
+		<c xml:id="L7C2"> </c>
+		<c xml:id="L7C3">s</c>
+		<c xml:id="L7C4">u</c>
+		<c xml:id="L7C5">a</c>
+		<c xml:id="L7C6">e</c>
+		<c xml:id="L7C7"> </c>
+		<c xml:id="L7C8">T</c>
+		<c xml:id="L7C9">u</c>
+		<c xml:id="L7C10">c</c>
+		<c xml:id="L7C11">c</c>
+		<c xml:id="L7C12">i</c>
+		<c xml:id="L7C13">a</c>
+		<c xml:id="L7C14">e</c>
+		<c xml:id="L7C15"> </c>
+	</line>
+	<line n="8">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L8C1"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L8C2">v</c>
+				<c xml:id="L8C3">e</c>
+				<c xml:id="L8C4">r</c>
+			</abbr>
+			<ex>
+				<c xml:id="L8C5">n</c>
+				<c xml:id="L8C6">a</c>
+				<c xml:id="L8C7">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L8C8"> </c>
+		<c xml:id="L8C9">s</c>
+		<c xml:id="L8C10">u</c>
+		<c xml:id="L8C11">a</c>
+		<c xml:id="L8C12">e</c>
+		<c xml:id="L8C13"> </c>
+		<c xml:id="L8C14">e</c>
+		<c xml:id="L8C15">t</c>
+		<c xml:id="L8C16"> </c>
+		<c xml:id="L8C17">s</c>
+		<c xml:id="L8C18">u</c>
+		<c xml:id="L8C19">i</c>
+		<supplied reason="lost">
+			<c xml:id="L8C20">s</c>
+		</supplied>
+		<c xml:id="L8C21"> </c>
+	</line>
+	<line n="9">
+		<supplied reason="lost">
+			<c xml:id="L9C1">l</c>
+			<c xml:id="L9C2">i</c>
+			<c xml:id="L9C3">b</c>
+			<c xml:id="L9C4">e</c>
+			<c xml:id="L9C5">r</c>
+			<c xml:id="L9C6">t</c>
+			<c xml:id="L9C7">i</c>
+			<c xml:id="L9C8">s</c>
+			<c xml:id="L9C9"> </c>
+			<c xml:id="L9C10">l</c>
+			<c xml:id="L9C11">i</c>
+			<c xml:id="L9C12">b</c>
+			<c xml:id="L9C13">e</c>
+			<c xml:id="L9C14">r</c>
+			<c xml:id="L9C15">t</c>
+			<c xml:id="L9C16">a</c>
+			<c xml:id="L9C17">b</c>
+		</supplied>
+		<c xml:id="L9C18">u</c>
+		<c xml:id="L9C19">s</c>
+		<c xml:id="L9C20"> </c>
+		<c xml:id="L9C21">p</c>
+		<c xml:id="L9C22">o</c>
+		<c xml:id="L9C23">s</c>
+		<c xml:id="L9C24">t</c>
+		<c xml:id="L9C25">e</c>
+		<c xml:id="L9C26">r</c>
+		<c xml:id="L9C27">i</c>
+		<c xml:id="L9C28">s</c>
+		<c xml:id="L9C29"> </c>
+		<c xml:id="L9C30">e</c>
+		<c xml:id="L9C31">o</c>
+		<c xml:id="L9C32">r</c>
+		<c xml:id="L9C33">u</c>
+		<supplied reason="lost">
+			<c xml:id="L9C34">m</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

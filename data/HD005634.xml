@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD005634</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD005634</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository />
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>13</height><width>(23)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Cyriacus-Katakombe</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD005634_1" sex="W"><persName><name type="nomen">Terentia+</name><name type="cognomen">Amaryllis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-26" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1980, 0136.</bibl><bibl>A. Ferrua, Epigraphica 32, 1970, 105, Nr. 155. - AE 1980.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<c xml:id="L1C2">T</c>
+		<c xml:id="L1C3">e</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">e</c>
+		<c xml:id="L1C6">n</c>
+		<c xml:id="L1C7">t</c>
+		<c xml:id="L1C8">i</c>
+		<supplied reason="lost" cert="low">
+			<c xml:id="L1C9">a</c>
+			<c xml:id="L1C10"> </c>
+			<c xml:id="L1C11">-</c>
+			<c xml:id="L1C12">-</c>
+			<c xml:id="L1C13">?</c>
+			<c xml:id="L1C14"> </c>
+			<c xml:id="L1C15">l</c>
+			<c xml:id="L1C16">(</c>
+			<c xml:id="L1C17">i</c>
+			<c xml:id="L1C18">b</c>
+			<c xml:id="L1C19">e</c>
+			<c xml:id="L1C20">r</c>
+			<c xml:id="L1C21">t</c>
+			<c xml:id="L1C22">a</c>
+			<c xml:id="L1C23">)</c>
+		</supplied>
+		<c xml:id="L1C24"> </c>
+	</line>
+	<line n="2">
+		<c xml:id="L2C1">A</c>
+		<c xml:id="L2C2">m</c>
+		<c xml:id="L2C3">a</c>
+		<c xml:id="L2C4">r</c>
+		<c xml:id="L2C5">y</c>
+		<c xml:id="L2C6">l</c>
+		<c xml:id="L2C7">l</c>
+		<c xml:id="L2C8">i</c>
+		<supplied reason="lost">
+			<c xml:id="L2C9">s</c>
+		</supplied>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

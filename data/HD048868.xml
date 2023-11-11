@@ -1,0 +1,205 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio? from Uley (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048868</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048868</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Brit. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>3</height><width>9</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79726" /></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2635202">Uley</placeName><placeName type="findspot">West Hill, {Merkurtempel}</placeName><placeName type="region">Gloucestershire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio?</term></keywords>
+            </textClass>
+            <particDesc><p /></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-15" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Gebet f&#252;r Gerechtigkeit. Das T&#228;felchen besteht aus drei aneinander passenden Fragmenten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R.S.O. Tomlin, in: A. Woodward - P. Leach (Hrsg.), The Uley Shrines.</bibl><bibl>Excavation of a ritual complex on West Hill, Uley, Gloucestershire: 1977-1979.</bibl><bibl>(London 1993) 129, Nr. 50.</bibl><bibl>AE 1998, 0819.</bibl><bibl>R.S.O. Tomlin - M.W.C. Hassall, Britannia 29, 1998, 433-434, Nr. 1; fig. 1 (Zeichnung). - AE 1998.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.22/19.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2">I</c>
+		<c xml:id="L1C3">O</c>
+		<c xml:id="L1C4">R</c>
+		<c xml:id="L1C5">I</c>
+		<c xml:id="L1C6">D</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L1C7">S</c>
+		<c xml:id="L1C8">O</c>
+		<c xml:id="L1C9">N</c>
+		<c xml:id="L1C10">A</c>
+		<c xml:id="L1C11">E</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C12">L</c>
+		<c xml:id="L1C13">T</c>
+		<c xml:id="L1C14">E</c>
+		<c xml:id="L1C15">L</c>
+		<c xml:id="L1C16">L</c>
+		<c xml:id="L1C17"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L2C1">E</c>
+		<c xml:id="L2C2">S</c>
+		<c xml:id="L2C3">V</c>
+		<c xml:id="L2C4">N</c>
+		<c xml:id="L2C5">T</c>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">s</c>
+		<c xml:id="L2C8">u</c>
+		<c xml:id="L2C9">s</c>
+		<supplied reason="lost">
+			<c xml:id="L2C10">p</c>
+			<c xml:id="L2C11">e</c>
+		</supplied>
+		<c xml:id="L2C12">c</c>
+		<c xml:id="L2C13">t</c>
+		<c xml:id="L2C14">i</c>
+		<c xml:id="L2C15"> </c>
+		<c xml:id="L2C16">s</c>
+		<c xml:id="L2C17">u</c>
+		<c xml:id="L2C18">n</c>
+		<c xml:id="L2C19">t</c>
+		<c xml:id="L2C20"> </c>
+		<c xml:id="L2C21">i</c>
+		<c xml:id="L2C22">n</c>
+		<c xml:id="L2C23">t</c>
+		<c xml:id="L2C24">e</c>
+		<c xml:id="L2C25">r</c>
+		<c xml:id="L2C26"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L2C27"> </c>
+	</line>
+	<line n="3">
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L3C1">L</c>
+		<c xml:id="L3C2">L</c>
+		<c xml:id="L3C3">V</c>
+		<c xml:id="L3C4">S</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L3C5">E</c>
+		<c xml:id="L3C6">V</c>
+		<c xml:id="L3C7">S</c>
+		<c xml:id="L3C8">R</c>
+		<c xml:id="L3C9">E</c>
+		<supplied reason="lost">
+			<gap reason="lost" quantity="1" unit="character" />
+		</supplied>
+		<c xml:id="L3C10">V</c>
+		<c xml:id="L3C11">M</c>
+		<c xml:id="L3C12">I</c>
+		<c xml:id="L3C13">N</c>
+		<c xml:id="L3C14">V</c>
+		<c xml:id="L3C15">E</c>
+		<c xml:id="L3C16">N</c>
+		<c xml:id="L3C17">E</c>
+		<c xml:id="L3C18">T</c>
+		<c xml:id="L3C19">E</c>
+		<c xml:id="L3C20">T</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L3C21"> </c>
+		<c xml:id="L3C22">l</c>
+		<c xml:id="L3C23">a</c>
+		<c xml:id="L3C24">m</c>
+		<c xml:id="L3C25">i</c>
+		<supplied reason="lost">
+			<c xml:id="L3C26">l</c>
+		</supplied>
+		<c xml:id="L3C27">l</c>
+		<c xml:id="L3C28">a</c>
+		<c xml:id="L3C29"> </c>
+		<note>sic</note>
+		<c xml:id="L3C30"> </c>
+		<c xml:id="L3C31">u</c>
+		<c xml:id="L3C32">n</c>
+		<c xml:id="L3C33">a</c>
+		<c xml:id="L3C34"> </c>
+		<c xml:id="L3C35">e</c>
+		<c xml:id="L3C36">t</c>
+		<c xml:id="L3C37"> </c>
+		<c xml:id="L3C38">a</c>
+		<c xml:id="L3C39">n</c>
+		<c xml:id="L3C40">u</c>
+		<c xml:id="L3C41">l</c>
+		<c xml:id="L3C42">l</c>
+		<c xml:id="L3C43">i</c>
+		<c xml:id="L3C44"> </c>
+		<note>sic</note>
+		<c xml:id="L3C45"> </c>
+		<c xml:id="L3C46">q</c>
+		<c xml:id="L3C47">u</c>
+		<c xml:id="L3C48">a</c>
+		<c xml:id="L3C49">t</c>
+		<expan>
+			<ex>
+				<c xml:id="L3C50">t</c>
+				<c xml:id="L3C51">u</c>
+			</ex>
+			<abbr>
+				<c xml:id="L3C52">o</c>
+				<c xml:id="L3C53">r</c>
+			</abbr>
+		</expan>
+		<c xml:id="L3C54"> </c>
+		<gap reason="lost" extent="unknown" unit="character" />
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

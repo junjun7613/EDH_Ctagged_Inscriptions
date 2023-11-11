@@ -1,0 +1,186 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vesontio (Civitas Sequanorum) &amp;ndash; Besan&#231;on (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080619</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080619</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Besan&#231;on, Mus. des Beaux Arts et d'Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>100</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177657">Vesontio (Civitas Sequanorum)</placeName></origPlace><origDate><origDate when-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1750"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3033123">Besan&#231;on</placeName><placeName type="findspot">{Port-Joint, avenue de Chardonnet, Nekropole}</placeName><placeName type="region">Bourgogne-Franche-Comt&#233;</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080619_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Tituleius</name><name type="cognomen">Victor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-12" who="Osnabr&#252;gge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028103" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d736099b-d992-4e74-8bbc-b9013b07d212/file/id/788860/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Der Tote ist vermutlich w&#228;hrend des Helvetieraufstandes, in welchem die cohors im Verband der legio XXI Rapax aus Vindonissa eingesetzt worden war, in der Schlacht bei Vesontio 68 n. Chr. gefallen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05382.</bibl><bibl>L. Lerat, in: C. Fohlen (Hrsg.), Histoire de Besan&#231;on 1. Des origines &#224; la fin du XVIe si&#232;cle (Paris 1964) 44&#8211;45; fig. 4b.</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte arch&#233;ologique de la Gaule 25 et 90 (Paris 2003) 242; fig. 223.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">D</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">i</c>
+				<c xml:id="L1C4">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C6">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C7">a</c>
+				<c xml:id="L1C8">n</c>
+				<c xml:id="L1C9">i</c>
+				<c xml:id="L1C10">b</c>
+				<c xml:id="L1C11">u</c>
+				<c xml:id="L1C12">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C15">a</c>
+				<c xml:id="L1C16">c</c>
+				<c xml:id="L1C17">r</c>
+				<c xml:id="L1C18">u</c>
+				<c xml:id="L1C19">m</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C20"> </c>
+	</line>
+	<line n="2">
+		<expan>
+			<abbr>
+				<c xml:id="L2C1">M</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C2">a</c>
+				<c xml:id="L2C3">r</c>
+				<c xml:id="L2C4">c</c>
+				<c xml:id="L2C5">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C6"> </c>
+		<c xml:id="L2C7">T</c>
+		<c xml:id="L2C8">i</c>
+		<c xml:id="L2C9">t</c>
+		<c xml:id="L2C10">u</c>
+		<c xml:id="L2C11">l</c>
+		<c xml:id="L2C12">e</c>
+		<c xml:id="L2C13">i</c>
+		<c xml:id="L2C14">o</c>
+		<c xml:id="L2C15"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">V</c>
+		<c xml:id="L3C2">i</c>
+		<c xml:id="L3C3">c</c>
+		<c xml:id="L3C4">t</c>
+		<c xml:id="L3C5">o</c>
+		<c xml:id="L3C6">r</c>
+		<c xml:id="L3C7">i</c>
+		<c xml:id="L3C8"> </c>
+	</line>
+	<line n="4">
+		<expan>
+			<abbr>
+				<c xml:id="L4C1">p</c>
+				<c xml:id="L4C2">r</c>
+				<c xml:id="L4C3">a</c>
+				<c xml:id="L4C4">e</c>
+				<c xml:id="L4C5">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C6">e</c>
+				<c xml:id="L4C7">c</c>
+				<c xml:id="L4C8">t</c>
+				<c xml:id="L4C9">o</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C10"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L4C11">c</c>
+				<c xml:id="L4C12">o</c>
+				<c xml:id="L4C13">h</c>
+			</abbr>
+			<ex>
+				<c xml:id="L4C14">o</c>
+				<c xml:id="L4C15">r</c>
+				<c xml:id="L4C16">t</c>
+				<c xml:id="L4C17">i</c>
+				<c xml:id="L4C18">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L4C19"> </c>
+		<c xml:id="L4C20">V</c>
+		<c xml:id="L4C21">I</c>
+		<c xml:id="L4C22"> </c>
+	</line>
+	<line n="5">
+		<c xml:id="L5C1">R</c>
+		<c xml:id="L5C2">a</c>
+		<c xml:id="L5C3">e</c>
+		<c xml:id="L5C4">t</c>
+		<c xml:id="L5C5">o</c>
+		<c xml:id="L5C6">r</c>
+		<c xml:id="L5C7">u</c>
+		<c xml:id="L5C8">m</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

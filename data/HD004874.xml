@@ -1,0 +1,150 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Humagum &amp;ndash; Umag (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD004874</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD004874</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trieste, Civ. Mus. Stor. Arte Orto Lap.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197308">Humagum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3188498">Umag</placeName><placeName type="findspot" /><placeName type="region">Istarska &#382;upanija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD004874_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD004874_2"><persName><name type="nomen">Tarica</name><name type="cognomen">Procula</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-02-04" who="Gr&#228;f">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F000748" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/43da5bcd-7455-43b6-810f-56de6fa078e7/file/id/761841/file_version/name/small" /><graphic xml:id="F040547" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2e0a1bef-12f5-4377-87b5-e0643e975401/file/id/801429/file_version/name/small" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>(B): Nachweis der Identit&#228;t von CIL V 477 und CIL V 669, Korrektur der Lesung nach Alf&#246;ldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0356.</bibl><bibl>G. Alf&#246;ldy, AttiMusTrieste 9, 1976/77, 66-70, Nr. 4; Abb. 6; Abb. 7 (Zeichnung). - AE 1978.</bibl><bibl>CIL 05, 00477. (B)</bibl><bibl>CIL 05, 00669. (B)</bibl><bibl>InscrIt 10, 3, 0045. (B)</bibl><bibl>InscrIt 10, 4, 0223. (B)</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1">V</c>
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C2"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<c xml:id="L2C1">v</c>
+		</supplied>
+		<c xml:id="L2C2">i</c>
+		<c xml:id="L2C3">v</c>
+		<c xml:id="L2C4">u</c>
+		<supplied reason="lost">
+			<c xml:id="L2C5">s</c>
+			<c xml:id="L2C6"> </c>
+			<c xml:id="L2C7">f</c>
+			<c xml:id="L2C8">e</c>
+		</supplied>
+		<c xml:id="L2C9">c</c>
+		<c xml:id="L2C10">i</c>
+		<c xml:id="L2C11">t</c>
+		<c xml:id="L2C12"> </c>
+		<c xml:id="L2C13">s</c>
+		<c xml:id="L2C14">i</c>
+		<c xml:id="L2C15">b</c>
+		<c xml:id="L2C16">i</c>
+		<c xml:id="L2C17"> </c>
+	</line>
+	<line n="3">
+		<c xml:id="L3C1">e</c>
+		<c xml:id="L3C2">t</c>
+		<c xml:id="L3C3"> </c>
+		<c xml:id="L3C4">T</c>
+		<c xml:id="L3C5">a</c>
+		<c xml:id="L3C6">r</c>
+		<c xml:id="L3C7">i</c>
+		<c xml:id="L3C8">c</c>
+		<c xml:id="L3C9">a</c>
+		<c xml:id="L3C10">e</c>
+		<c xml:id="L3C11"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C12">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C13">u</c>
+				<c xml:id="L3C14">c</c>
+				<c xml:id="L3C15">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C16"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L3C17">f</c>
+			</abbr>
+			<ex>
+				<c xml:id="L3C18">i</c>
+				<c xml:id="L3C19">l</c>
+				<c xml:id="L3C20">i</c>
+				<c xml:id="L3C21">a</c>
+				<c xml:id="L3C22">e</c>
+			</ex>
+		</expan>
+		<c xml:id="L3C23"> </c>
+	</line>
+	<line n="4">
+		<c xml:id="L4C1">P</c>
+		<c xml:id="L4C2">r</c>
+		<supplied reason="lost">
+			<c xml:id="L4C3">o</c>
+		</supplied>
+		<c xml:id="L4C4">c</c>
+		<c xml:id="L4C5">u</c>
+		<c xml:id="L4C6">l</c>
+		<c xml:id="L4C7">a</c>
+		<c xml:id="L4C8">e</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

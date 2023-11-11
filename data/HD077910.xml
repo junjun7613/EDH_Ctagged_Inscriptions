@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077910</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077910</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>(19)</height><width>45</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab /></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{r&#246;mische Br&#252;cke, Pfeiler Nr. 7}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077910_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Valerius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-09" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p>Holzhammer; vom Griff nur das obere Ende erhalten. Der Hammer steckte zwischen den untersten Schwellen des siebten Br&#252;ckenpfeilers. Ma&#223;angaben nach Velke: 19 x 45 x 18 cm; Ma&#223;e nach Heim: 24 x 62 x 22 cm. Material: Eichenholz. Schreibtechnik: geritzt / Graffito.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13 s. n. 06935.</bibl><bibl>CIL 13 s. n. 07198 k.</bibl><bibl>CIL 13, 02, p. 302.</bibl><bibl>CIL 13, 10033, 1.</bibl><bibl>(o. Vorname) Heim - W. Velke, ZRheinGeschMainz 3, 1868-1887, 566. 570. 591, Nr. 1; Taf. 14, 2 (Zeichnung).</bibl><bibl>K. K&#246;rber, MZ 10, 1915, 115-116, Nr. 8; Zeichnung.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="1">
+		<c xml:id="L1C1">
+</c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C2">L</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C3">u</c>
+				<c xml:id="L1C4">c</c>
+				<c xml:id="L1C5">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C6"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C7">V</c>
+				<c xml:id="L1C8">a</c>
+				<c xml:id="L1C9">l</c>
+				<c xml:id="L1C10">e</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C11">r</c>
+				<c xml:id="L1C12">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L1C14">l</c>
+				<c xml:id="L1C15">e</c>
+				<c xml:id="L1C16">g</c>
+			</abbr>
+			<ex>
+				<c xml:id="L1C17">i</c>
+				<c xml:id="L1C18">o</c>
+				<c xml:id="L1C19">n</c>
+				<c xml:id="L1C20">i</c>
+				<c xml:id="L1C21">s</c>
+			</ex>
+		</expan>
+		<c xml:id="L1C22"> </c>
+		<c xml:id="L1C23">X</c>
+		<c xml:id="L1C24">I</c>
+		<c xml:id="L1C25">I</c>
+		<c xml:id="L1C26">I</c>
+		<c xml:id="L1C27">I</c>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>

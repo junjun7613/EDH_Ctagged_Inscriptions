@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Blandiana &amp;ndash; Bl&#226;ndiana (Dacia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045723</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045723</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Deva, Muz. Civil. Dac. &#351;i Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(50)</height><width>(56)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dacia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/206970">Blandiana</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/798549">Romania</placeName><placeName type="modern" ref="http://www.geonames.org/684564">Bl&#226;ndiana</placeName><placeName type="findspot">{"&#354;eligrad"}</placeName><placeName type="region">Alba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        <editionStmt><edition ana="revised edition">put C tags to each single characters</edition><respStmt><resp>re-edited by</resp><name>Jun Ogawa</name></respStmt></editionStmt></fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045723_1"><persName ref="http://romans1by1.com/rpeople/5596"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]ignus</name></persName></person><person xml:id="HD045723_2"><persName ref="http://romans1by1.com/rpeople/5597"><name type="nomen">[---]</name><name type="cognomen">Surilla*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-05-29" who="Gr&#228;f">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#" /></facsimile>
+    <text>
+        <body>
+            <div type="commentary">
+                <p />
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IDR 3, 3, 279; fig. 211 (Zeichnung).</bibl><bibl>CIL 03, 12561.</bibl><bibl>IDR 3, 5, 015*.</bibl><bibl /></listBibl>
+            </div>
+        </body>
+    </text>
+<sourceDoc><surfaceGrp type="3Dobject"><surface type="text" xml:space="preserve" ana="edition">
+	<line n="0">
+		<c xml:id="L0C1">
+</c>
+		<gap reason="lost" quantity="1" unit="line" />
+		<c xml:id="L0C2">i</c>
+		<c xml:id="L0C3">g</c>
+		<c xml:id="L0C4">n</c>
+		<c xml:id="L0C5">u</c>
+		<c xml:id="L0C6">s</c>
+		<c xml:id="L0C7"> </c>
+	</line>
+	<line n="1">
+		<gap reason="lost" extent="unknown" unit="character" />
+		<c xml:id="L1C1"> </c>
+		<c xml:id="L1C2">S</c>
+		<c xml:id="L1C3">u</c>
+		<c xml:id="L1C4">r</c>
+		<c xml:id="L1C5">i</c>
+		<c xml:id="L1C6">l</c>
+		<expan>
+			<ex>
+				<c xml:id="L1C7">l</c>
+				<c xml:id="L1C8">a</c>
+			</ex>
+			<abbr>
+				<c xml:id="L1C9">e</c>
+			</abbr>
+		</expan>
+		<c xml:id="L1C10"> </c>
+	</line>
+	<line n="2">
+		<supplied reason="lost">
+			<expan>
+				<abbr>
+					<c xml:id="L2C1">b</c>
+				</abbr>
+				<ex>
+					<c xml:id="L2C2">e</c>
+					<c xml:id="L2C3">n</c>
+					<c xml:id="L2C4">e</c>
+				</ex>
+			</expan>
+		</supplied>
+		<c xml:id="L2C5"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C6">m</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C7">e</c>
+				<c xml:id="L2C8">r</c>
+				<c xml:id="L2C9">e</c>
+				<c xml:id="L2C10">n</c>
+				<c xml:id="L2C11">t</c>
+				<c xml:id="L2C12">i</c>
+			</ex>
+		</expan>
+		<c xml:id="L2C13"> </c>
+		<expan>
+			<abbr>
+				<c xml:id="L2C14">p</c>
+				<c xml:id="L2C15">o</c>
+				<c xml:id="L2C16">s</c>
+			</abbr>
+			<ex>
+				<c xml:id="L2C17">u</c>
+				<c xml:id="L2C18">i</c>
+				<c xml:id="L2C19">t</c>
+			</ex>
+		</expan>
+	</line>
+</surface><surface type="position"><zone /></surface><figure><graphic url="https://www.example.com/sample.obj" /></figure></surfaceGrp></sourceDoc></TEI>
